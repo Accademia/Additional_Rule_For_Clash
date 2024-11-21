@@ -32,3 +32,4 @@ payload:
     - GEOIP , gu   # , no-resolve     # 大洋洲 - 关岛
     - GEOIP , um   # , no-resolve     # 大洋洲 - 美国边远小岛
     - GEOIP , as   # , no-resolve     # 大洋洲 - 美属萨摩亚
+    - GEOIP , cc   # , no-resolve     # 大洋洲 - 科科斯群岛

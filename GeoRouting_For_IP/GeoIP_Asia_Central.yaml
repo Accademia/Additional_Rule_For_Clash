@@ -10,4 +10,3 @@ payload:
     - GEOIP , tj    # , no-resolve    # 亚洲 - 中亚 - 塔吉克斯坦
     - GEOIP , uz    # , no-resolve    # 亚洲 - 中亚 - 乌兹别克斯坦
     - GEOIP , kg    # , no-resolve    # 亚洲 - 中亚 - 吉尔吉克斯坦
-    - GEOIP , cc    # , no-resolve    # 亚洲 - 中亚 - 科科斯群岛
