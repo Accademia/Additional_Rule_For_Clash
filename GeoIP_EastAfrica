@@ -1,0 +1,28 @@
+payload:
+
+  ############################## 非洲 (东非) ################################
+ 
+  # -------------------------------------------------------------
+   - GEOIP , ke   # , no-resolve    # 非洲 - 东非 - 肯尼亚
+  # ------------------------------------------------------------
+ 
+   - GEOIP , et   # , no-resolve    # 非洲 - 东非 - 埃塞俄比亚
+   - GEOIP , er   # , no-resolve    # 非洲 - 东非 - 厄立特里亚
+   - GEOIP , rw   # , no-resolve    # 非洲 - 东非 - 卢旺达
+   - GEOIP , so   # , no-resolve    # 非洲 - 东非 - 索马里
+   - GEOIP , ug   # , no-resolve    # 非洲 - 东非 - 乌干达
+   - GEOIP , bi   # , no-resolve    # 非洲 - 东非 - 布隆迪
+   - GEOIP , tz   # , no-resolve    # 非洲 - 东非 - 坦桑尼亚
+   - GEOIP , zw   # , no-resolve    # 非洲 - 东非 - 津巴布韦
+   - GEOIP , ss   # , no-resolve    # 非洲 - 东非 - 南苏丹
+         
+   - GEOIP , dj   # , no-resolve    # 非洲 - 东非 - 吉布提
+   - GEOIP , sc   # , no-resolve    # 非洲 - 东非 - 塞舌尔群岛
+           
+   - GEOIP , mg   # , no-resolve    # 非洲 - 东非 - 马达加斯加
+   - GEOIP , zm   # , no-resolve    # 非洲 - 东非 - 赞比亚
+   - GEOIP , mw   # , no-resolve    # 非洲 - 东非 - 马拉维
+   - GEOIP , mu   # , no-resolve    # 非洲 - 东非 - 毛里求斯
+   - GEOIP , mz   # , no-resolve    # 非洲 - 东非 - 莫桑比克
+   - GEOIP , km   # , no-resolve    # 非洲 - 东非 - 科摩罗
+   - GEOIP , yt   # , no-resolve    # 非洲 - 东非 - 马约特
