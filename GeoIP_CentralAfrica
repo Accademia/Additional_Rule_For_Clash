@@ -1,0 +1,17 @@
+payload:
+
+   ###################### 非洲 (中非) ##########################
+ 
+   # -----------------------------------------------------------
+    - GEOIP , cm  # , no-resolve    # 非洲 - 中非 - 喀麦隆
+   # -----------------------------------------------------------
+ 
+    - GEOIP , cf  # , no-resolve    # 非洲 - 中非 - 中非
+    - GEOIP , td  # , no-resolve    # 非洲 - 中非 - 乍得
+    - GEOIP , cm  # , no-resolve    # 非洲 - 中非 - 喀麦隆
+    - GEOIP , cg  # , no-resolve    # 非洲 - 中非 - 刚果
+    - GEOIP , gq  # , no-resolve    # 非洲 - 中非 - 赤道几内亚
+    - GEOIP , ga  # , no-resolve    # 非洲 - 中非 - 加蓬
+    - GEOIP , st  # , no-resolve    # 非洲 - 中非 - 圣多美和普林西比
+    - GEOIP , ao  # , no-resolve    # 非洲 - 中非 - 安哥拉
+    - GEOIP , cd  # , no-resolve    # 非洲 - 中非 - 扎伊尔
