@@ -1,0 +1,16 @@
+payload:
+
+   ######################## 亚洲 (南亚) ######################### 
+
+   # ------------------------------------------------------------
+    - GEOIP , in    # , no-resolve    # 亚洲 - 南亚 - 印度
+   # ------------------------------------------------------------
+   
+    - GEOIP , af    # , no-resolve    # 亚洲 - 南亚 - 阿富汗
+    - GEOIP , pk    # , no-resolve    # 亚洲 - 南亚 - 巴基斯坦
+    - GEOIP , bd    # , no-resolve    # 亚洲 - 南亚 - 孟加拉
+    - GEOIP , lk    # , no-resolve    # 亚洲 - 南亚 - 斯里兰卡
+    - GEOIP , bt    # , no-resolve    # 亚洲 - 南亚 - 不丹
+    - GEOIP , mv    # , no-resolve    # 亚洲 - 南亚 - 马尔代夫
+    - GEOIP , io    # , no-resolve    # 亚洲 - 南亚 - 英属印度洋领地
+    - GEOIP , np    # , no-resolve    # 亚洲 - 南亚 - 尼泊尔
