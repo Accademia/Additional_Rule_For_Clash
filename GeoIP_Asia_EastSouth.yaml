@@ -10,7 +10,7 @@ payload:
    # ------------------------------------------------------------
    
     - GEOIP , mm    # , no-resolve    # 亚洲 - 东南亚 - 缅甸
-   #- GEOIP , la    # , no-resolve    # 亚洲 - 东南亚 - 老挝
+    - GEOIP , la    # , no-resolve    # 亚洲 - 东南亚 - 老挝
     - GEOIP , ph    # , no-resolve    # 亚洲 - 东南亚 - 菲律宾
     - GEOIP , my    # , no-resolve    # 亚洲 - 东南亚 - 马来西亚
     - GEOIP , bn    # , no-resolve    # 亚洲 - 东南亚 - 文莱
