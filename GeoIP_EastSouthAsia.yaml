@@ -1,0 +1,18 @@
+payload:
+
+   ###################### 亚洲 (东南亚) ######################### 
+
+   # ------------------------------------------------------------
+    - GEOIP , sg    # , no-resolve    # 亚洲 - 东南亚 - 新加坡
+    - GEOIP , th    # , no-resolve    # 亚洲 - 东南亚 - 泰国
+    - GEOIP , id    # , no-resolve    # 亚洲 - 东南亚 - 印尼
+    - GEOIP , vn    # , no-resolve    # 亚洲 - 东南亚 - 越南
+   # ------------------------------------------------------------
+   
+    - GEOIP , mm    # , no-resolve    # 亚洲 - 东南亚 - 缅甸
+   #- GEOIP , la    # , no-resolve    # 亚洲 - 东南亚 - 老挝
+    - GEOIP , ph    # , no-resolve    # 亚洲 - 东南亚 - 菲律宾
+    - GEOIP , my    # , no-resolve    # 亚洲 - 东南亚 - 马来西亚
+    - GEOIP , bn    # , no-resolve    # 亚洲 - 东南亚 - 文莱
+    - GEOIP , kh    # , no-resolve    # 亚洲 - 东南亚 - 柬埔寨
+    - GEOIP , cx    # , no-resolve    # 亚洲 - 东南亚 - 圣诞岛
