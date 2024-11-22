@@ -1,0 +1,53 @@
+payload:
+                                                                                                 
+   # 国家反诈中心（中国）     ，疯狂监控用户隐私                                                                                                  
+                                                                                                                              
+    - DOMAIN-KEYWORD, gjfzpt                                                         # 国家反诈中心域名，全部阻断 
+    - DOMAIN-KEYWORD, chanct                                                         # 国家反诈中心域名，全部阻断 
+    - DOMAIN-KEYWORD, ifcert.cn                                                      # 国家反诈中心域名，全部阻断 
+    - IP-CIDR       , 157.148.47.204/32                           , no-resolve       # 国家反诈中心域名，全部阻断
+    - IP-CIDR       , 219.143.187.136/32                          , no-resolve       # 用途未知
+                                                                                   
+   # 反诈相关               ，疯狂监控用户隐私                                                         
+                                                                                    
+    - DOMAIN-KEYWORD, fzlm                                                           # 国家反诈中心域名，全部阻断 
+    - DOMAIN-KEYWORD, fqzpt                                                          # 国家反诈中心域名，全部阻断 
+    - DOMAIN-SUFFIX , fanzha.org.cn                                                  # 国家反诈中心域名，全部阻断 
+    - DOMAIN-SUFFIX , hicore-auth.com                                                # 国家反诈中心域名，全部阻断 
+    - DOMAIN-SUFFIX , hei-tong.com                                                   # 国家反诈中心域名，全部阻断 
+                                                                                    
+                                                                                    
+   # 其他中国政府相关的监控隐私的有害网站                                                         
+                                                                                    
+    - DOMAIN-SUFFIX , loongteam.com                                                  
+    - DOMAIN-SUFFIX , cert.org.cn                                                    
+    - DOMAIN-SUFFIX , ifcert.cn                                                      
+    - DOMAIN-SUFFIX , ifcert.com                                                     
+    - DOMAIN-SUFFIX , ifcert.org.cn                                                  
+    - DOMAIN-SUFFIX , cnvd.org.cn                                                    
+    - DOMAIN-SUFFIX , anva.org.cn                                                    
+    - DOMAIN-SUFFIX , ics-cert.org.cn                                                
+    - DOMAIN-SUFFIX , certlab.org                                                    
+    - DOMAIN-SUFFIX , china-bestmind.com                                             
+    - DOMAIN-SUFFIX , i-bestmind.com                                                 
+    - DOMAIN-SUFFIX , t-bestmind.com                                                 
+    - DOMAIN-SUFFIX , himindtech.com                                                 
+    - DOMAIN-SUFFIX , fhss.com.cn                                                    
+    - DOMAIN-SUFFIX , hailiangyun.cn                                                 
+           
+
+   # ======= 鸿蒙（哄蒙）======= #                                                         
+   # 待补充
+                                                                         
+                                                                                    
+   # ======= MIUI ======= #                                                         
+   # 应用包管理组件API                                                                 
+    - DOMAIN        , api.installer.xiaomi.com                                       
+                                                                                    
+   # miui-tracking                                                                  
+                                                                                    
+    - DOMAIN        , tracking.miui.com                                              
+    - DOMAIN        , tracking.intl.miui.com                                         
+    - DOMAIN        , tracking.rus.miui.com                                          
+    - DOMAIN        , tracking.india.miui.com                                        
+          
