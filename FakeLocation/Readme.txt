@@ -7,16 +7,16 @@
 #	人在美国刚下飞机 的 的装逼利器！！！！
 #	对于国内主要社交属性的平台，给予VPN指定的IP地理位置展示
 #
-#	BiliBili  
-#	抖音      
-#	快手      
-#	小红书    
-#	西瓜    
-#	微博      
-#	知乎      
-#	贴吧      
-#	豆瓣      
-#	闲鱼     
+#	BiliBili  	留言：立即生效	主页：不间断挂14天后才会生效！！！！
+#	抖音    		立即生效   
+#	快手     	立即生效  
+#	小红书   		立即生效  
+#	西瓜     	立即生效
+#	微博     	立即生效  
+#	知乎     	立即生效 
+#	贴吧     	2.5小时后 ！！！！！（百度的垃圾，真已无可救药）
+#	豆瓣     	立即生效 
+#	闲鱼     	立即生效
 #	
 # 注意：
 #	最好将出境VPS IP和入境IP分开，以防止被GFW封杀。即，强烈建议使用双IP（出入站不同IP）的VPS主机。
@@ -33,4 +33,5 @@
 #   FakeLocationZhiHu_No_Resolve        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationZhiHu_No_Resolve.yaml'               , path:./ruleset/FakeLocationZhiHu_No_Resolve.yaml           }
 #   FakeLocationTieBa_No_Resolve        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationTieBa_No_Resolve.yaml'               , path:./ruleset/FakeLocationTieBa_No_Resolve.yaml           }
 #   FakeLocationDouBan_No_Resolve       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationDouBan_No_Resolve.yaml'              , path:./ruleset/FakeLocationDouBan_No_Resolve.yaml          }
+#   FakeLocationXianYu_No_Resolve       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationXianYu_No_Resolve.yaml'              , path:./ruleset/FakeLocationXianYu_No_Resolve.yaml          }
 
