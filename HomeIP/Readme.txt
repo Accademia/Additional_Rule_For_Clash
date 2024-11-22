@@ -13,5 +13,5 @@
 #
 # 引用范例 ：
 
-#   HomeIPUS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/HomeIPUS/HomeIPUS_No_Resolve.yaml'                                , path: ./ruleset/HomeIPUS_No_Resolve.yaml                  }
-#   HomeIPJP_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/HomeIPJP/HomeIPJP_No_Resolve.yaml'                                , path: ./ruleset/HomeIPJP_No_Resolve.yaml                  }
+#   HomeIPUS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/HomeIP/HomeIPUS_No_Resolve.yaml'                                , path: ./ruleset/HomeIPUS_No_Resolve.yaml                  }
+#   HomeIPJP_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/HomeIP/HomeIPJP_No_Resolve.yaml'                                , path: ./ruleset/HomeIPJP_No_Resolve.yaml                  }
