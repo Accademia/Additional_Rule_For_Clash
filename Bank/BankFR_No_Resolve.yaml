@@ -1,0 +1,24 @@
+payload:
+
+
+   # -----------------------------------------------
+   # [银行]：法国银行   [Default : FR  ] 
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , bnpparibas.com            # BNP Paribas                             
+    - DOMAIN-SUFFIX  , societegenerale.com       # Société Générale                       
+    - DOMAIN-SUFFIX  , groupebpce.com            # Groupe BPCE                          
+    - DOMAIN-SUFFIX  , natixis.com               # Natixis           
+   
+   #- DOMAIN-SUFFIX  ,                           #     
+   
+    - DOMAIN-SUFFIX  , credit-agricole.fr        # Crédit Agricole                           
+    - DOMAIN-SUFFIX  , creditmutuel.fr           # Crédit Mutuel                           
+    - DOMAIN-SUFFIX  , labanquepostale.fr        # La Banque Postale                         
+    - DOMAIN-SUFFIX  , caisse-epargne.fr         # Caisse d'Épargne         
+    - DOMAIN-SUFFIX  , banquepopulaire.fr        # Banque Populaire                   
+    - DOMAIN-SUFFIX  , cic.fr                    # Crédit Industriel et Commercial (CIC)   
+   
+   #- DOMAIN-SUFFIX  ,                           #
+                     
+                     

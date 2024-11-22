@@ -1,0 +1,28 @@
+payload:
+             
+   # -----------------------------------------------
+   # [银行]：澳洲银行   [Default : AU ]
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , hsbc.com.au               # 汇丰澳洲
+    - DOMAIN-SUFFIX  , citibank.com.au           # 花旗澳洲
+    - DOMAIN-SUFFIX  , citi.com.au               # 花旗澳洲
+    - DOMAIN-SUFFIX  , commbank.com.au           # 澳大利亚联邦银行 (Commonwealth Bank)      
+    - DOMAIN-SUFFIX  , westpac.com.au            # 西太平洋银行 (Westpac)                    
+    - DOMAIN-SUFFIX  , anz.com.au                # 澳新银行 (ANZ)                           
+    - DOMAIN-SUFFIX  , nab.com.au                # 澳大利亚国民银行 (NAB) 
+    
+   #- DOMAIN-SUFFIX  ,                           # 
+                       
+    - DOMAIN-SUFFIX  , macquarie.com.au          # 麦格理银行 (Macquarie Bank)              
+    - DOMAIN-SUFFIX  , boq.com.au                # 昆士兰银行 (Bank of Queensland)          
+    - DOMAIN-SUFFIX  , bendigobank.com.au        # 本迪戈与阿德莱德银行 (Bendigo Bank)       
+    - DOMAIN-SUFFIX  , suncorp.com.au            # 顺德银行 (Suncorp Bank)                  
+    - DOMAIN-SUFFIX  , amp.com.au                # 安盈银行 (AMP Bank)                      
+    - DOMAIN-SUFFIX  , bankwest.com.au           # 澳大利亚西部银行 (Bankwest)     
+              
+   #- DOMAIN-SUFFIX  ,                           # 
+                     
+                     
+
+

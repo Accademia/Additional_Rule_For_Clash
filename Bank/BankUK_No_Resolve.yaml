@@ -1,0 +1,40 @@
+payload:
+               
+   # -----------------------------------------------
+   # [银行]：英国银行   [Default : UK ]
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , starlingbank.com           # Starling Bank
+    - DOMAIN-SUFFIX  , ifastgb.com                # iFast Bank
+    - DOMAIN-SUFFIX  , ifastcorp.com              # iFast Bank
+    
+    - DOMAIN-SUFFIX  , natwest.com                # 苏格兰皇家银行（NatWest) 西敏寺银行
+    - DOMAIN-SUFFIX  , virginmoneyukplc.com       # 克莱德斯代尔银行（Virgin Money)
+    - DOMAIN-SUFFIX  , lloydsbank.com             # 劳埃德银行（Lloyds Bank)
+    - DOMAIN-SUFFIX  , tescobank.com              # 乐购个人金融（Tesco Bank)
+    - DOMAIN-SUFFIX  , atombank.com               # 原子银行（Atom Bank)
+    - DOMAIN-SUFFIX  , investec.com               # 投资银行（Investec)      
+    - DOMAIN-SUFFIX  , gatehousebank.com          # 盖特豪斯银行 (Gatehouse Bank)
+    - DOMAIN-SUFFIX  , securetrustbank.com        # 安信信托银行 (Secure Trust Bank)
+    - DOMAIN-SUFFIX  , hampdenandco.com           # 汉普登银行 (Hampden & Co.)
+    - DOMAIN-SUFFIX  , pcf.bank                   # PCF银行 (PCF Bank)
+    
+    - DOMAIN-SUFFIX  , hsbc.co.uk                 # 汇丰银行（英国）(HSBC Bank UK)
+    - DOMAIN-SUFFIX  , barclays.co.uk             # 巴克莱银行（Barclays Bank UK)
+    - DOMAIN-SUFFIX  , nationwide.co.uk           # 英国全国建筑协会（Nationwide)
+    - DOMAIN-SUFFIX  , sc.co.uk                   # 渣打银行（Standard Chartered)
+    - DOMAIN-SUFFIX  , santander.co.uk            # 桑坦德银行（Santander)
+    - DOMAIN-SUFFIX  , co-operativebank.co.uk     # 合作银行（Co-operative Bank)
+    - DOMAIN-SUFFIX  , metrobankonLine.co.uk      # 都会银行（Metro Bank)
+    - DOMAIN-SUFFIX  , tsb.co.uk                  # TSB银行 (TSB Bank)
+    - DOMAIN-SUFFIX  , paragonbank.co.uk          # 派格银行 (Paragon Bank)
+    - DOMAIN-SUFFIX  , aldermore.co.uk            # 奥德莫尔集团 (Aldermore Bank)
+    - DOMAIN-SUFFIX  , shawbrook.co.uk            # 肖布鲁克集团 (Shawbrook Bank)
+    - DOMAIN-SUFFIX  , ikano.co.uk                # 伊卡诺银行 (Ikano Bank)
+    - DOMAIN-SUFFIX  , chartersavingsbank.co.uk   # 查特储蓄银行 (Charter Savings Bank)
+    
+   #- DOMAIN-SUFFIX  ,                           
+
+
+
+

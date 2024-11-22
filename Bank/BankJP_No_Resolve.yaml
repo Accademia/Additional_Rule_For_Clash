@@ -1,0 +1,21 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：日本银行    [Default : JP ]  
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , mufg.jp                   # 三菱UFJ銀行 (MUFG Bank)                                         
+    - DOMAIN-SUFFIX  , smbc.co.jp                # 三井住友銀行 (Sumitomo Mitsui Banking Corporation)               
+    - DOMAIN-SUFFIX  , mizuhobank.co.jp          # みずほ銀行 (Mizuho Bank)                                        
+    - DOMAIN-SUFFIX  , resona-gr.co.jp           # りそな銀行 (Resona Bank)                                        
+    - DOMAIN-SUFFIX  , jibunbank.co.jp           # じぶん銀行 (Jibun Bank)                                         
+    - DOMAIN-SUFFIX  , mizuhobank.co.jp          # みずほ信託銀行 (Mizuho Trust & Banking)                          
+    - DOMAIN-SUFFIX  , japannetbank.co.jp        # ジャパンネット銀行 (Japan Net Bank)                              
+    - DOMAIN-SUFFIX  , jp-bank.japanpost.jp      # ゆうちょ銀行 (Japan Post Bank)                                   
+    - DOMAIN-SUFFIX  , resona-gr.co.jp           # りそなホールディングス (Resona Holdings)                          
+    - DOMAIN-SUFFIX  , mufg.jp                   # 三菱UFJフィナンシャル・グループ (Mitsubishi UFJ Financial Group)  
+    
+   #- DOMAIN-SUFFIX  ,                           #         
+                   
+
+

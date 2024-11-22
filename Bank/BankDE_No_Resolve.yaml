@@ -1,0 +1,22 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：德国银行   [Default : DE  ] 
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , db.com                     # Deutsche Bank                       
+    - DOMAIN-SUFFIX  , commerzbank.com            # Commerzbank               
+    - DOMAIN-SUFFIX  , bayernlb.com               # BayernLB                            
+    - DOMAIN-SUFFIX  , helaba.com                 # Landesbank Hessen-Thüringen (Helaba)     
+      
+   #- DOMAIN-SUFFIX  ,                            #     
+    
+    - DOMAIN-SUFFIX  , kfw.de                     # KfW Bank                            
+    - DOMAIN-SUFFIX  , dzbank.de                  # DZ Bank                             
+    - DOMAIN-SUFFIX  , lbbw.de                    # Landesbank Baden-Württemberg (LBBW) 
+    - DOMAIN-SUFFIX  , nordlb.de                  # Norddeutsche Landesbank (NordLB)    
+    - DOMAIN-SUFFIX  , lbb.de                     # Landesbank Berlin (LBB)             
+    - DOMAIN-SUFFIX  , saarlb.de                  # Landesbank Saar (SaarLB)    
+         
+   #- DOMAIN-SUFFIX  ,                            #     
+                     

@@ -1,0 +1,21 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：荷兰银行   [Default : NL  ]
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , abnamro.com                # ABN AMRO Bank      
+    - DOMAIN-SUFFIX  , rabobank.com               # Rabobank           
+    - DOMAIN-SUFFIX  , ing.com                    # ING Bank           
+    - DOMAIN-SUFFIX  , nibc.com                   # NIBC Bank          
+    - DOMAIN-SUFFIX  , triodos.com                # Triodos Bank       
+    - DOMAIN-SUFFIX  , vanlanschotkempen.com      # Van Lanschot Kempen
+    - DOMAIN-SUFFIX  , leaseplan.com              # LeasePlan Bank    
+   
+   #- DOMAIN-SUFFIX  ,                            #
+   
+    - DOMAIN-SUFFIX  , devolksbank.nl             # de Volksbank     
+    - DOMAIN-SUFFIX  , bankofscotland.nl          # Bank of Scotland   
+    - DOMAIN-SUFFIX  , bngbank.nl                 # BNG Bank           
+   
+   #- DOMAIN-SUFFIX  ,                            #
