@@ -11,7 +11,7 @@
 #	启用此规则后，会导致只能获得 Low ID
 #
 #
-# 链接：
+# 引用范例 ：
 #
 #   eMuleServer_No_Resolve              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/eMuleServer/eMuleServer_No_Resolve.yaml'                         , path: ./ruleset/eMuleServer_No_Resolve.yaml  }
 #
