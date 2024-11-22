@@ -1,0 +1,30 @@
+payload:
+
+   # ---------------------------------------------  
+   # [IP归属地] 抖音   
+   # ---------------------------------------------  
+
+   # 生效时间：立刻 !!!!
+ 
+   # APP-API  
+    - DOMAIN-SUFFIX , zijieapi.com              , DIRECT
+    - DOMAIN-SUFFIX , ecombdapi.com             , DIRECT
+    
+    - DOMAIN-KEYWORD, -core-c-hl                
+    - DOMAIN-KEYWORD, -core-c-lf                
+
+    - DOMAIN-KEYWORD, -normal-c-hl              
+    - DOMAIN-KEYWORD, -normal-c-lf              
+
+    - DOMAIN-KEYWORD, -normal-hl                
+    - DOMAIN-KEYWORD, -normal-lf                
+
+    - DOMAIN-SUFFIX , toutiaoapi.com            
+    
+   # Web-API
+    - DOMAIN        , sso.douyin.com               
+    - DOMAIN        , www.douyin.com               
+    
+    - DOMAIN-SUFFIX , snssdk.com                   
+
+
