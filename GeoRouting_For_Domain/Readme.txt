@@ -1,4 +1,10 @@
-   #
+
+   # -----------------------------------------
+   # 此规则集：用于，基于 “国家顶级域名（ccTLD）” 的地理位置，进行分流
+   # -----------------------------------------
+
+
+   
    # 截至2020年6月，纯拉丁字母的，两个字符的，国家代码顶级域名( Country-code of Root Zone Database ) ，共有250个
    #   https://www.iana.org/domains/root/db
    #   * 选取：country-code  （注意：有些Country-code没有生效）
@@ -9,6 +15,7 @@
    #
    # 
   
+
    # 注意：
    #
    #   1.  谷歌认为，下列国家或地区顶级域在
@@ -33,9 +40,23 @@
    #       .yr \ .yu \ .tp \ .an \ .ac \
    #
    #
-   # 注意：只对域名（DOMAIN-SUFFIX）做例外
-   #       处理，不要IP地理位置（GEOIP）做
-   #       例外处理。因为IP地址表达了网站
-   #       真实的物理地点，应该匹配最近国家
-   #       的VPN节点服务器。
-   #
+
+
+# 引用范例：
+#
+#   ccTLD_America_North                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_America_North.yaml'                 , path: ./ruleset/ccTLD_America_North.yaml                 }
+#   ccTLD_America_South                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_America_South.yaml'                 , path: ./ruleset/ccTLD_America_South.yaml                 }
+#   ccTLD_Europe_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Europe_West.yaml'                   , path: ./ruleset/ccTLD_Europe_West.yaml                   }
+#   ccTLD_Europe_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Europe_East.yaml'                   , path: ./ruleset/ccTLD_Europe_East.yaml                   }
+#   ccTLD_Oceania                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Oceania.yaml'                       , path: ./ruleset/ccTLD_Oceania.yaml                       }
+#   ccTLD_Antarctica                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Antarctica.yaml'                    , path: ./ruleset/ccTLD_Antarctica.yaml                    }
+#   ccTLD_Asia_East                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Asia_East.yaml'                     , path: ./ruleset/ccTLD_Asia_East.yaml                     }
+#   ccTLD_Asia_EastSouth                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Asia_EastSouth.yaml'                , path: ./ruleset/ccTLD_Asia_EastSouth.yaml                }
+#   ccTLD_Asia_South                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Asia_South.yaml'                    , path: ./ruleset/ccTLD_Asia_South.yaml                    }
+#   ccTLD_Asia_Central                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Asia_Central.yaml'                  , path: ./ruleset/ccTLD_Asia_Central.yaml                  }
+#   ccTLD_Asia_West                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Asia_West.yaml'                     , path: ./ruleset/ccTLD_Asia_West.yaml                     }
+#   ccTLD_Africa_North                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Africa_North.yaml'                  , path: ./ruleset/ccTLD_Africa_North.yaml                  }
+#   ccTLD_Africa_South                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Africa_South.yaml'                  , path: ./ruleset/ccTLD_Africa_South.yaml                  }
+#   ccTLD_Africa_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Africa_West.yaml'                   , path: ./ruleset/ccTLD_Africa_West.yaml                   }
+#   ccTLD_Africa_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Africa_East.yaml'                   , path: ./ruleset/ccTLD_Africa_East.yaml                   }
+#   ccTLD_Africa_Central                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/ccTLD_Africa_Central.yaml'                , path: ./ruleset/ccTLD_Africa_Central.yaml                }

@@ -1,6 +1,10 @@
 
+# -----------------------------------------
+# 此规则集：用于，基于GeoIP的地理位置，进行分流
+# -----------------------------------------
 
-####################################################################################################################################################################
+
+###################################################################################
 #
 # GeoIP 地址代码 ( GeoNames ) ，对照表
 #
@@ -10,9 +14,38 @@
 # GeoIP - 国家 城市 ：对照表
 # https://www.maxmind.com/download/geoip/misc/region_codes.csv
 #
-# 特别注意：洲际编码（continent_code、即，顶级域名），不能直接作为GeoIP的索引 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! （例如：af非洲，会与阿富汗重名 !!!!!!!!!! ）
+###################################################################################
+
+
+ # 引用范例：
+ #
+
+ #  GeoIP_America_North                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_America_North.yaml'                     , path: ./ruleset/GeoIP_America_North.yaml                 }
+ #  GeoIP_America_South                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_America_South.yaml'                     , path: ./ruleset/GeoIP_America_South.yaml                 }
+ #  GeoIP_Europe_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Europe_West.yaml'                       , path: ./ruleset/GeoIP_Europe_West.yaml                   }
+ #  GeoIP_Europe_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Europe_East.yaml'                       , path: ./ruleset/GeoIP_Europe_East.yaml                   }
+ #  GeoIP_Oceania                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Oceania.yaml'                           , path: ./ruleset/GeoIP_Oceania.yaml                       }
+ #  GeoIP_Antarctica                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Antarctica.yaml'                        , path: ./ruleset/GeoIP_Antarctica.yaml                    }
+ #  GeoIP_Asia_East                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Asia_East.yaml'                         , path: ./ruleset/GeoIP_Asia_East.yaml                     }
+ #  GeoIP_Asia_EastSouth                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Asia_EastSouth.yaml'                    , path: ./ruleset/GeoIP_Asia_EastSouth.yaml                }
+ #  GeoIP_Asia_South                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Asia_South.yaml'                        , path: ./ruleset/GeoIP_Asia_South.yaml                    }
+ #  GeoIP_Asia_Central                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Asia_Central.yaml'                      , path: ./ruleset/GeoIP_Asia_Central.yaml                  }
+ #  GeoIP_Asia_West                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Asia_West.yaml'                         , path: ./ruleset/GeoIP_Asia_West.yaml                     }
+ #  GeoIP_Africa_North                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_North.yaml'                      , path: ./ruleset/GeoIP_Africa_North.yaml                  }
+ #  GeoIP_Africa_South                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_South.yaml'                      , path: ./ruleset/GeoIP_Africa_South.yaml                  }
+ #  GeoIP_Africa_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_West.yaml'                       , path: ./ruleset/GeoIP_Africa_West.yaml                   }
+ #  GeoIP_Africa_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_East.yaml'                       , path: ./ruleset/GeoIP_Africa_East.yaml                   }
+ #  GeoIP_Africa_Central                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_Central.yaml'                    , path: ./ruleset/GeoIP_Africa_Central.yaml                }
+
+
+
+# 特别注意：特别注意：特别注意：特别注意：特别注意：特别注意：
 #
-################################################################################################################################################################################
+# 洲际编码（continent_code、即，顶级域名），不能直接作为GeoIP的索引 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! （例如：af非洲，会与阿富汗重名 !!!!!!!!!! ）
+
+
+
+#--------+---------------+---------------+------------------+--------------------------------+----------------------------------------+-------------------------------------------  
 #        |               |               |                  |                                |                                        |            
 #        |   地理序号     |   本地编码     |    洲际编码                  国家编码                             国家名称                         洲际名称          国家名称     
 # Order  |   geoname_id  |  locale_code  |  continent_code  |   country_iso_cod ISO-3166     |            country_name                |   continent_name    country_name
