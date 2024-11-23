@@ -17,31 +17,31 @@ payload:
                               
    # HTTPDNS 其他IP
    
-    - IP-CIDR       , 47.101.175.206/32    
-    - IP-CIDR       , 47.100.123.169/32             
-    - IP-CIDR       , 120.46.169.234/32                                
-    - IP-CIDR       , 121.36.72.124/32                                 
+    - IP-CIDR       , 47.101.175.206/32                          , no-resolve      
+    - IP-CIDR       , 47.100.123.169/32                          , no-resolve      
+    - IP-CIDR       , 120.46.169.234/32                          , no-resolve      
+    - IP-CIDR       , 121.36.72.124/32                           , no-resolve      
                                                                                   
    # HTTPDNS 移动IP                                                               
                                                                                   
-    - IP-CIDR       , 116.63.10.135/32                                
-    - IP-CIDR       , 122.9.7.134/32                                   
-    - IP-CIDR       , 117.185.228.108/32                               
-    - IP-CIDR       , 117.144.238.29/32                                
+    - IP-CIDR       , 116.63.10.135/32                           , no-resolve      
+    - IP-CIDR       , 122.9.7.134/32                             , no-resolve      
+    - IP-CIDR       , 117.185.228.108/32                         , no-resolve      
+    - IP-CIDR       , 117.144.238.29/32                          , no-resolve      
                                                                                   
    # HTTPDNS 电信IP                                                               
                                                                                   
-    - IP-CIDR       , 122.9.13.79/32                                  
-    - IP-CIDR       , 122.9.15.129/32                                 
-    - IP-CIDR       , 101.91.140.224/32                               
-    - IP-CIDR       , 101.91.140.124/32                             
+    - IP-CIDR       , 122.9.13.79/32                             , no-resolve      
+    - IP-CIDR       , 122.9.15.129/32                            , no-resolve      
+    - IP-CIDR       , 101.91.140.224/32                          , no-resolve      
+    - IP-CIDR       , 101.91.140.124/32                          , no-resolve      
                                                                                   
    # HTTPDNS 联通IP                                                               
                                                                                   
-    - IP-CIDR       , 114.116.215.110/32                              
-    - IP-CIDR       , 116.63.10.31/32                                  
-    - IP-CIDR       , 112.64.218.119/32                               
-    - IP-CIDR       , 112.65.200.117/32                                
+    - IP-CIDR       , 114.116.215.110/32                         , no-resolve      
+    - IP-CIDR       , 116.63.10.31/32                            , no-resolve      
+    - IP-CIDR       , 112.64.218.119/32                          , no-resolve      
+    - IP-CIDR       , 112.65.200.117/32                          , no-resolve      
                                                                                   
                                                                                   
    # ======= 知乎 ======= #                                                       
