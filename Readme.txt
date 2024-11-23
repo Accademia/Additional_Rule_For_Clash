@@ -4,6 +4,9 @@
 
 产品说明：填补了上述中缺失的规则： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash 
 
+兼容的客户端：	Stash for iOS/Mac
+		Clash Verga Rec for Mac/win10
+
 ----------------------------------
 
 使用说明：
