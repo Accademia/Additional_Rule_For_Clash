@@ -1,6 +1,6 @@
 规则集：面向Clash的分流规则
 
-用途： 作为 blackmatrix7/ios_rule_script的补充
+用途： 作为 blackmatrix7/ios_rule_script的补充规则
 
 产品说明：填补了 （https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash）中缺失的规则。
 
@@ -10,7 +10,7 @@
 
 + Pornhub		：P站 Clash分流规则
 
-+ FakeLocation		: IP归属地（用户地理位置）显示 Clash分流规则
++ FakeLocation		: IP归属地显示（用户地理位置显示） Clash分流规则
 	- 抖音    	立即生效   
 	- 快手     	立即生效  
 	- 小红书   	立即生效  
