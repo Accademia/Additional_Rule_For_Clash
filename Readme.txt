@@ -2,7 +2,7 @@
 
 用途： 作为 blackmatrix7/ios_rule_script的补充规则
 
-产品说明：填补了 （https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash）中缺失的规则。
+产品说明：填补了上述中缺失的规则： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash 
 
 ----------------------------------
 
