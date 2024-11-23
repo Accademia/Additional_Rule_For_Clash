@@ -40,18 +40,50 @@
 	- Revolut
 
 + GeoRouting_For_Domain ：按 国家顶级域名 的Clash分流规则
+	- 北美     # America (North America)       
+	- 南美     # America (South America)       
+	- 西欧     # Europe (East   Europe)        
+	- 东欧     # Europe (West   Europe)        
+	- 大洋     # Oceania                       
+	- 南极     # Antarctica                    
+	- 东亚     # Asia (East  Asia)             
+	- 东南     # Asia (EastSouth Asia)         
+	- 南亚     # Asia (South Asia)             
+	- 中亚     # Asia (Central Asia)           
+	- 西亚     # Asia (West Asia , Middle East)
+	- 南非     # Africa (North   Africa)       
+	- 北非     # Africa (South   Africa)       
+	- 西非     # Africa (West    Africa)       
+	- 东非     # Africa (East    Africa)       
+	- 中非     # Africa (Central Africa)   
 
 + GeoRouting_For_IP 	：按 GeoIP 的Clash分流规则
+	- 北美     # America (North America)       
+	- 南美     # America (South America)       
+	- 西欧     # Europe (East   Europe)        
+	- 东欧     # Europe (West   Europe)        
+	- 大洋     # Oceania                       
+	- 南极     # Antarctica                    
+	- 东亚     # Asia (East  Asia)             
+	- 东南     # Asia (EastSouth Asia)         
+	- 南亚     # Asia (South Asia)             
+	- 中亚     # Asia (Central Asia)           
+	- 西亚     # Asia (West Asia , Middle East)
+	- 南非     # Africa (North   Africa)       
+	- 北非     # Africa (South   Africa)       
+	- 西非     # Africa (West    Africa)       
+	- 东非     # Africa (East    Africa)       
+	- 中非     # Africa (Central Africa)   
 
 + HomeIP		：必须要 “住宅IP” 才能正常访问（或正常下单）的网站 
 
-+ PreRepairEasyPrivacy	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
++ PreRepairEasyPrivacy	：（安全类分流规则）对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ NoLogsDNS		：可信的无用户隐私泄漏的DNS分流规则
++ NoLogsDNS		：（安全类分流规则）可信的无用户隐私泄漏的DNS分流规则
 
-+ BlockHttpDNSPlus	：反私有DNS（用户IP位置泄漏） Clash分流规则
++ BlockHttpDNSPlus	：（安全类分流规则）反私有DNS（用户IP位置泄漏） Clash分流规则
 
-+ HijackingPlus		：反有害网站（主要针对反诈非法监控用户） Clash分流规则 （未来会包括哄蒙非法监听用户的规则）
++ HijackingPlus		：（安全类分流规则）反有害网站（主要针对反诈非法监控用户） Clash分流规则 （未来会包括哄蒙非法监听用户的规则）
 
 + WaybackMachine	：网络时光机（互联网档案馆） Clash分流规则
 
