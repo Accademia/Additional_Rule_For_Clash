@@ -5,8 +5,9 @@
 
 # 用途：
 #	1. 在EasyPrivacy和AdvertisingLite规则前，使用本规则！！！！
-#	2. PreRepairEasyPrivacy_Reject_No_Resolve 用于补充EasyPrivacy_Classical_No_Resolve未拦截（但必要的）隐私保护规则
-#	3. PreRepairEasyPrivacy_Direct_No_Resolve 用户放行EasyPrivacy_Classical_No_Resolve误拦截的规则
+#	2. PreRepairEasyPrivacy_Reject_No_Resolve (建议拒绝)：用于补充EasyPrivacy_Classical_No_Resolve + AdvertisingLite_Classical_No_Resolve 未拦截（但必要的）隐私保护规则
+#	3. PreRepairEasyPrivacy_Direct_No_Resolve (建议直连)：用户放行EasyPrivacy_Classical_No_Resolve + AdvertisingLite_Classical_No_Resolve 误拦截的规则
+#	4. PreRepairEasyPrivacy_Proxy_No_Resolve  (建议代理)：用户放行EasyPrivacy_Classical_No_Resolve + AdvertisingLite_Classical_No_Resolve 误拦截的规则，但必须套上代理
 #
 # 使用说明：
 #	PreRepairEasyPrivacy_Reject_No_Resolve 和 PreRepairEasyPrivacy_Direct_No_Resolve 建议同行使用，
@@ -20,6 +21,6 @@
 # 引用范例 ：
 #
 #   PreRepairEasyPrivacy_Reject_No_Resolve              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Reject_No_Resolve.yaml'                         , path: ./ruleset/PreRepairEasyPrivacy_Reject_No_Resolve.yaml  }
-#
 #   PreRepairEasyPrivacy_Direct_No_Resolve              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Direct_No_Resolve.yaml'                         , path: ./ruleset/PreRepairEasyPrivacy_Direct_No_Resolve.yaml  }
+#   PreRepairEasyPrivacy_Proxy_No_Resolve               : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Proxy_No_Resolve.yaml'                          , path: ./ruleset/PreRepairEasyPrivacy_Proxy_No_Resolve.yaml  }
                                              

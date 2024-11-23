@@ -1,0 +1,12 @@
+payload:
+
+   # 修正  : [广告平台]：Google Admob 开发者
+    - DOMAIN-SUFFIX , admob.com                                   
+    - DOMAIN-SUFFIX , adsense.com                                 
+    - DOMAIN-SUFFIX , www.googleadservices.com                    
+    - DOMAIN-KEYWORD, .analytics.com                              
+
+   # 修正 : 打开Reddit邮件链接
+    - DOMAIN-SUFFIX , click.redditmail.com                         # 此规则，用于：打开Reddit通过邮件推送的话题  
+
+
