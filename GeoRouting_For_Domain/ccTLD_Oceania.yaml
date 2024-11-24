@@ -1,0 +1,35 @@
+payload:
+
+   ################## 大洋洲 #####################
+
+   # -------------------------------------------
+    - DOMAIN-SUFFIX , au    # 大洋洲 - 澳洲
+    - DOMAIN-SUFFIX , nz    # 大洋洲 - 新西兰
+   # ------------------------------------------
+   
+    - DOMAIN-SUFFIX , pw    # 大洋洲 - 帕劳
+    - DOMAIN-SUFFIX , ck    # 大洋洲 - 库克群岛
+    - DOMAIN-SUFFIX , tl    # 大洋洲 - 东帝汶
+    - DOMAIN-SUFFIX , mh    # 大洋洲 - 马绍尔群岛
+    - DOMAIN-SUFFIX , fm    # 大洋洲 - 密克罗尼西亚
+    - DOMAIN-SUFFIX , pg    # 大洋洲 - 巴布亚新几内亚
+   #- DOMAIN-SUFFIX , sb    # 大洋洲 - 所罗门群岛
+   #- DOMAIN-SUFFIX , tv    # 大洋洲 - 图瓦卢
+    - DOMAIN-SUFFIX , nr    # 大洋洲 - 瑙鲁
+    - DOMAIN-SUFFIX , vu    # 大洋洲 - 瓦努阿图
+    - DOMAIN-SUFFIX , nc    # 大洋洲 - 新喀里多尼亚
+    - DOMAIN-SUFFIX , nf    # 大洋洲 - 诺福克岛
+    - DOMAIN-SUFFIX , fj    # 大洋洲 - 斐济
+    - DOMAIN-SUFFIX , pf    # 大洋洲 - 法属波利尼西亚
+    - DOMAIN-SUFFIX , pn    # 大洋洲 - 皮特凯恩群岛
+    - DOMAIN-SUFFIX , ki    # 大洋洲 - 基里巴斯
+   #- DOMAIN-SUFFIX , tk    # 大洋洲 - 托克劳
+   #- DOMAIN-SUFFIX , to    # 大洋洲 - 汤加
+    - DOMAIN-SUFFIX , wf    # 大洋洲 - 瓦利斯和富图纳
+   #- DOMAIN-SUFFIX , ws    # 大洋洲 - 萨摩亚
+   #- DOMAIN-SUFFIX , nu    # 大洋洲 - 纽埃
+    - DOMAIN-SUFFIX , mp    # 大洋洲 - 北马里亚纳群岛
+   #- DOMAIN-SUFFIX , gu    # 大洋洲 - 关岛
+   #- DOMAIN-SUFFIX , um    # 大洋洲 - 美国边远小岛
+   #- DOMAIN-SUFFIX , as    # 大洋洲 - 美属萨摩亚
+   #- DOMAIN-SUFFIX , cc    # 大洋洲 - 科科斯群岛

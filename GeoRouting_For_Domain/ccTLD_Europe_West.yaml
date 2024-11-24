@@ -1,0 +1,49 @@
+payload:  
+
+   #################### 欧洲 (西欧) ###################
+
+   # -------------------------------------------------
+    - DOMAIN-SUFFIX , eu     # 欧洲
+   # -------------------------------------------------
+    - DOMAIN-SUFFIX , uk     # 欧洲 - 西欧 - 英国   #  .gb 域名，几乎不再使用
+    - DOMAIN-SUFFIX , fr     # 欧洲 - 西欧 - 法国
+    - DOMAIN-SUFFIX , de     # 欧洲 - 西欧 - 德国  
+    - DOMAIN-SUFFIX , nl     # 欧洲 - 西欧 - 荷兰  
+    - DOMAIN-SUFFIX , it     # 欧洲 - 西欧 - 意大利
+    - DOMAIN-SUFFIX , es     # 欧洲 - 西欧 - 西班牙
+    - DOMAIN-SUFFIX , pt     # 欧洲 - 西欧 - 葡萄牙
+    - DOMAIN-SUFFIX , ie     # 欧洲 - 西欧 - 爱尔兰
+   # -------------------------------------------------
+    - DOMAIN-SUFFIX , no     # 欧洲 - 西欧 - 挪威
+    - DOMAIN-SUFFIX , se     # 欧洲 - 西欧 - 瑞典
+    - DOMAIN-SUFFIX , dk     # 欧洲 - 西欧 - 丹麦
+    - DOMAIN-SUFFIX , fi     # 欧洲 - 西欧 - 芬兰
+    - DOMAIN-SUFFIX , is     # 欧洲 - 西欧 - 冰岛
+   # -------------------------------------------------
+    - DOMAIN-SUFFIX , ch     # 欧洲 - 西欧 - 瑞士
+    - DOMAIN-SUFFIX , at     # 欧洲 - 西欧 - 奥地利
+    - DOMAIN-SUFFIX , be     # 欧洲 - 西欧 - 比利时
+    - DOMAIN-SUFFIX , lu     # 欧洲 - 西欧 - 卢森堡
+   # -------------------------------------------------
+   
+   #
+    - DOMAIN-SUFFIX , cy     # 欧洲 - 西欧 - 塞浦路斯
+    - DOMAIN-SUFFIX , gr     # 欧洲 - 西欧 - 希腊
+   #- DOMAIN-SUFFIX , ac     # 欧洲 - 西欧 - 圣赫勒拿、阿森松岛和特里斯坦达库尼亚群岛
+   #- DOMAIN-SUFFIX , sj     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
+    - DOMAIN-SUFFIX , ax     # 欧洲 - 西欧 - 奥兰群岛
+    - DOMAIN-SUFFIX , gi     # 欧洲 - 西欧 - 直布罗陀
+    - DOMAIN-SUFFIX , mt     # 欧洲 - 西欧 - 马耳他
+    - DOMAIN-SUFFIX , fo     # 欧洲 - 西欧 - 法罗群岛
+    - DOMAIN-SUFFIX , mc     # 欧洲 - 西欧 - 摩纳哥
+   #- DOMAIN-SUFFIX , ad     # 欧洲 - 西欧 - 安道尔
+    - DOMAIN-SUFFIX , li     # 欧洲 - 西欧 - 列支敦士登
+    - DOMAIN-SUFFIX , je     # 欧洲 - 西欧 - 泽西岛
+    - DOMAIN-SUFFIX , im     # 欧洲 - 西欧 - 曼岛
+   #- DOMAIN-SUFFIX , gg     # 欧洲 - 西欧 - 格恩西岛
+    - DOMAIN-SUFFIX , sk     # 欧洲 - 西欧 - 斯洛伐克
+    - DOMAIN-SUFFIX , va     # 欧洲 - 西欧 - 圣座（梵蒂冈）
+    - DOMAIN-SUFFIX , sm     # 欧洲 - 西欧 - 圣马力诺
+                                     
+                                                
+
