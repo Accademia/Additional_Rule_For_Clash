@@ -1,0 +1,35 @@
+payload:
+
+   ########################### 大洋洲 ##############################
+
+   # ------------------------------------------------------------
+    - GEOIP , au     , no-resolve     # 大洋洲 - 澳洲
+    - GEOIP , nz     , no-resolve     # 大洋洲 - 新西兰
+   # ------------------------------------------------------------
+   
+    - GEOIP , pw     , no-resolve     # 大洋洲 - 帕劳
+    - GEOIP , ck     , no-resolve     # 大洋洲 - 库克群岛
+    - GEOIP , tl     , no-resolve     # 大洋洲 - 东帝汶
+    - GEOIP , mh     , no-resolve     # 大洋洲 - 马绍尔群岛
+    - GEOIP , fm     , no-resolve     # 大洋洲 - 密克罗尼西亚
+    - GEOIP , pg     , no-resolve     # 大洋洲 - 巴布亚新几内亚
+    - GEOIP , sb     , no-resolve     # 大洋洲 - 所罗门群岛
+    - GEOIP , tv     , no-resolve     # 大洋洲 - 图瓦卢
+    - GEOIP , nr     , no-resolve     # 大洋洲 - 瑙鲁
+    - GEOIP , vu     , no-resolve     # 大洋洲 - 瓦努阿图
+    - GEOIP , nc     , no-resolve     # 大洋洲 - 新喀里多尼亚
+    - GEOIP , nf     , no-resolve     # 大洋洲 - 诺福克岛
+    - GEOIP , fj     , no-resolve     # 大洋洲 - 斐济
+    - GEOIP , pf     , no-resolve     # 大洋洲 - 法属波利尼西亚
+    - GEOIP , pn     , no-resolve     # 大洋洲 - 皮特凯恩群岛
+    - GEOIP , ki     , no-resolve     # 大洋洲 - 基里巴斯
+    - GEOIP , tk     , no-resolve     # 大洋洲 - 托克劳
+    - GEOIP , to     , no-resolve     # 大洋洲 - 汤加
+    - GEOIP , wf     , no-resolve     # 大洋洲 - 瓦利斯和富图纳
+    - GEOIP , ws     , no-resolve     # 大洋洲 - 萨摩亚
+    - GEOIP , nu     , no-resolve     # 大洋洲 - 纽埃
+    - GEOIP , mp     , no-resolve     # 大洋洲 - 北马里亚纳群岛
+    - GEOIP , gu     , no-resolve     # 大洋洲 - 关岛
+    - GEOIP , um     , no-resolve     # 大洋洲 - 美国边远小岛
+    - GEOIP , as     , no-resolve     # 大洋洲 - 美属萨摩亚
+    - GEOIP , cc     , no-resolve     # 大洋洲 - 科科斯群岛

@@ -1,0 +1,23 @@
+payload:
+
+   ####################### 非洲 (西非) ###########################
+ 
+   # ------------------------------------------------------------
+    - GEOIP , ng     , no-resolve    # 非洲 - 西非 - 尼日利亚
+   # ------------------------------------------------------------
+   
+    - GEOIP , ne     , no-resolve    # 非洲 - 西非 - 尼日尔
+    - GEOIP , bf     , no-resolve    # 非洲 - 西非 - 布基纳法索
+    - GEOIP , ml     , no-resolve    # 非洲 - 西非 - 马里
+    - GEOIP , mr     , no-resolve    # 非洲 - 西非 - 毛里塔尼亚
+    - GEOIP , sn     , no-resolve    # 非洲 - 西非 - 塞内加尔
+    - GEOIP , gm     , no-resolve    # 非洲 - 西非 - 冈比亚
+    - GEOIP , gw     , no-resolve    # 非洲 - 西非 - 几内亚比绍
+    - GEOIP , gn     , no-resolve    # 非洲 - 西非 - 几内亚
+    - GEOIP , sl     , no-resolve    # 非洲 - 西非 - 塞拉利昂
+    - GEOIP , lr     , no-resolve    # 非洲 - 西非 - 利比里亚
+    - GEOIP , gh     , no-resolve    # 非洲 - 西非 - 加纳
+    - GEOIP , tg     , no-resolve    # 非洲 - 西非 - 多哥
+    - GEOIP , bj     , no-resolve    # 非洲 - 西非 - 贝宁
+    - GEOIP , cv     , no-resolve    # 非洲 - 西非 - 佛得角
+    - GEOIP , ci     , no-resolve    # 非洲 - 西非 - 象牙海岸（科特迪瓦）

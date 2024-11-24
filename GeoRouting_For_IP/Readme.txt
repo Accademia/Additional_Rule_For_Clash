@@ -1,21 +1,14 @@
 
-# -----------------------------------------
-# 此规则集：用于，基于GeoIP的地理位置，进行分流
-# -----------------------------------------
+ # -----------------------------------------
+ # 此规则集：用于，基于GeoIP的地理位置，进行分流
+ # -----------------------------------------
 
+ # 用途：根据目的网站的IP，选取最近国家的VPS代理节点进行分流（通过GeoIP） 
 
-###################################################################################
-#
-# GeoIP 地址代码 ( GeoNames ) ，对照表
-#
-# ISO规范：对照表：
-# https://www.geonames.org/countries/
-#
-# GeoIP - 国家 城市 ：对照表
-# https://www.maxmind.com/download/geoip/misc/region_codes.csv
-#
-###################################################################################
-
+ # 使用建议：
+ # 	1. 不建议使用_No_Resolve版本		（因为，如果不做域名解析，则无法充分分流）
+ # 	2. 安排在Final兜底规则前，做最后的分流	（因为，以避免影响到其他网站的专属分流控制）
+ #	3. 安排在Gfwlist分流后。			（因为，以防止敏感域名的DNS泄漏）
 
  # 引用范例：
  #
@@ -37,6 +30,20 @@
  #  GeoIP_Africa_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_East.yaml'                       , path: ./ruleset/GeoIP_Africa_East.yaml                   }
  #  GeoIP_Africa_Central                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoIP_Africa_Central.yaml'                    , path: ./ruleset/GeoIP_Africa_Central.yaml                }
 
+
+
+
+###################################################################################
+#
+# GeoIP 地址代码 ( GeoNames ) ，对照表
+#
+# ISO规范：对照表：
+# https://www.geonames.org/countries/
+#
+# GeoIP - 国家 城市 ：对照表
+# https://www.maxmind.com/download/geoip/misc/region_codes.csv
+#
+###################################################################################
 
 
 # 特别注意：特别注意：特别注意：特别注意：特别注意：特别注意：

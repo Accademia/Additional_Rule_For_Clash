@@ -1,0 +1,25 @@
+payload:
+
+   ################### 亚洲 (西亚、中东) #########################
+
+   # ------------------------------------------------------------
+    - GEOIP , tr      , no-resolve     # 亚洲 - 西亚 - 土耳其
+    - GEOIP , il      , no-resolve     # 亚洲 - 西亚 - 以色列
+    - GEOIP , ae      , no-resolve     # 亚洲 - 西亚 - 阿拉伯联合酋长国（阿联酋）
+    - GEOIP , sa      , no-resolve     # 亚洲 - 西亚 - 沙特阿拉伯
+   # ------------------------------------------------------------
+   
+    - GEOIP , ye      , no-resolve     # 亚洲 - 西亚 - 也门
+    - GEOIP , iq      , no-resolve     # 亚洲 - 西亚 - 伊拉克
+    - GEOIP , ir      , no-resolve     # 亚洲 - 西亚 - 伊朗伊斯兰
+    - GEOIP , sy      , no-resolve     # 亚洲 - 西亚 - 叙利亚
+    - GEOIP , am      , no-resolve     # 亚洲 - 西亚 - 亚美尼亚
+    - GEOIP , jo      , no-resolve     # 亚洲 - 西亚 - 约旦
+    - GEOIP , lb      , no-resolve     # 亚洲 - 西亚 - 黎巴嫩
+    - GEOIP , kw      , no-resolve     # 亚洲 - 西亚 - 科威特
+    - GEOIP , om      , no-resolve     # 亚洲 - 西亚 - 阿曼
+    - GEOIP , qa      , no-resolve     # 亚洲 - 西亚 - 卡塔尔
+    - GEOIP , bh      , no-resolve     # 亚洲 - 西亚 - 巴林
+    - GEOIP , ps      , no-resolve     # 亚洲 - 西亚 - 巴勒斯坦
+    - GEOIP , az      , no-resolve     # 亚洲 - 西亚 - 阿塞拜疆
+    - GEOIP , ge      , no-resolve     # 亚洲 - 西亚 - 格鲁吉亚

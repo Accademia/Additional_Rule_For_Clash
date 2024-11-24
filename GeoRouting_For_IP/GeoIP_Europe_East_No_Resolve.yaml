@@ -1,0 +1,28 @@
+payload:
+
+   ######################### 欧洲 (东欧) #########################
+
+   # ------------------------------------------------------------
+    - GEOIP , pl      , no-resolve     # 欧洲 - 东欧 - 波兰
+    - GEOIP , hu      , no-resolve     # 欧洲 - 东欧 - 匈牙利
+    - GEOIP , cz      , no-resolve     # 欧洲 - 东欧 - 捷克
+    - GEOIP , ua      , no-resolve     # 欧洲 - 东欧 - 乌克兰
+    - GEOIP , ru      , no-resolve     # 欧洲 - 东欧 - 俄罗斯
+   # ------------------------------------------------------------
+    
+    - GEOIP , ee      , no-resolve     # 欧洲 - 东欧 - 爱沙尼亚
+    - GEOIP , lv      , no-resolve     # 欧洲 - 东欧 - 拉脱维亚
+    - GEOIP , bg      , no-resolve     # 欧洲 - 东欧 - 保加利亚
+    - GEOIP , al      , no-resolve     # 欧洲 - 东欧 - 阿尔巴尼亚
+    - GEOIP , by      , no-resolve     # 欧洲 - 东欧 - 白俄罗斯
+    - GEOIP , si      , no-resolve     # 欧洲 - 东欧 - 斯洛文尼亚
+    - GEOIP , me      , no-resolve     # 欧洲 - 东欧 - 黑山
+    - GEOIP , hr      , no-resolve     # 欧洲 - 东欧 - 克罗地亚
+    - GEOIP , ba      , no-resolve     # 欧洲 - 东欧 - 波斯尼亚和黑山
+    - GEOIP , rs      , no-resolve     # 欧洲 - 东欧 - 塞尔维亚
+    - GEOIP , ro      , no-resolve     # 欧洲 - 东欧 - 罗马尼亚
+    - GEOIP , mk      , no-resolve     # 欧洲 - 东欧 - 前南斯拉夫马其顿
+    - GEOIP , sk      , no-resolve     # 欧洲 - 东欧 - 斯洛伐克
+    - GEOIP , md      , no-resolve     # 欧洲 - 东欧 - 摩尔多瓦
+    - GEOIP , xk      , no-resolve     # 欧洲 - 东欧 - 科索沃
+    - GEOIP , lt      , no-resolve     # 欧洲 - 东欧 - 立陶宛

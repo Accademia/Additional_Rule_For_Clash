@@ -1,0 +1,45 @@
+payload:  
+
+   ############################### 欧洲 (西欧) ###############################
+
+   # ------------------------------------------------------------
+    - GEOIP , uk      , no-resolve     # 欧洲 - 西欧 - 英国
+    - GEOIP , de      , no-resolve     # 欧洲 - 西欧 - 德国
+    - GEOIP , fr      , no-resolve     # 欧洲 - 西欧 - 法国
+    - GEOIP , nl      , no-resolve     # 欧洲 - 西欧 - 荷兰
+    - GEOIP , it      , no-resolve     # 欧洲 - 西欧 - 意大利
+    - GEOIP , es      , no-resolve     # 欧洲 - 西欧 - 西班牙
+    - GEOIP , pt      , no-resolve     # 欧洲 - 西欧 - 葡萄牙
+    - GEOIP , ie      , no-resolve     # 欧洲 - 西欧 - 爱尔兰
+   # ------------------------------------------------------------
+    - GEOIP , dk      , no-resolve     # 欧洲 - 西欧 - 丹麦
+    - GEOIP , se      , no-resolve     # 欧洲 - 西欧 - 瑞典
+    - GEOIP , no      , no-resolve     # 欧洲 - 西欧 - 挪威
+    - GEOIP , fi      , no-resolve     # 欧洲 - 西欧 - 芬兰
+    - GEOIP , is      , no-resolve     # 欧洲 - 西欧 - 冰岛
+   # ------------------------------------------------------------
+    - GEOIP , ch      , no-resolve     # 欧洲 - 西欧 - 瑞士
+    - GEOIP , at      , no-resolve     # 欧洲 - 西欧 - 奥地利
+    - GEOIP , be      , no-resolve     # 欧洲 - 西欧 - 比利时
+    - GEOIP , lu      , no-resolve     # 欧洲 - 西欧 - 卢森堡
+   # ------------------------------------------------------------
+   
+    - GEOIP , cy      , no-resolve     # 欧洲 - 西欧 - 塞浦路斯
+    - GEOIP , gr      , no-resolve     # 欧洲 - 西欧 - 希腊
+    - GEOIP , ac      , no-resolve     # 欧洲 - 西欧 - 圣赫勒拿、阿森松岛和特里斯坦达库尼亚群岛
+    - GEOIP , sj      , no-resolve     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
+    - GEOIP , ax      , no-resolve     # 欧洲 - 西欧 - 奥兰群岛
+    - GEOIP , gi      , no-resolve     # 欧洲 - 西欧 - 直布罗陀
+    - GEOIP , mt      , no-resolve     # 欧洲 - 西欧 - 马耳他
+    - GEOIP , fo      , no-resolve     # 欧洲 - 西欧 - 法罗群岛
+    - GEOIP , mc      , no-resolve     # 欧洲 - 西欧 - 摩纳哥
+    - GEOIP , ad      , no-resolve     # 欧洲 - 西欧 - 安道尔
+    - GEOIP , li      , no-resolve     # 欧洲 - 西欧 - 列支敦士登
+    - GEOIP , je      , no-resolve     # 欧洲 - 西欧 - 泽西岛
+    - GEOIP , im      , no-resolve     # 欧洲 - 西欧 - 曼岛
+    - GEOIP , gg      , no-resolve     # 欧洲 - 西欧 - 格恩西岛
+    - GEOIP , va      , no-resolve     # 欧洲 - 西欧 - 圣座（梵蒂冈）
+    - GEOIP , sm      , no-resolve     # 欧洲 - 西欧 - 圣马力诺
+                                                
+                                                
+
