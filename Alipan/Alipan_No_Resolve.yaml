@@ -1,6 +1,5 @@
 payload:
 
-   
     - DOMAIN-SUFFIX , aliyun.com              
     - DOMAIN-SUFFIX , aliyundrive.com           
     - DOMAIN-KEYWORD, aliyun                  
@@ -8,8 +7,7 @@ payload:
     - DOMAIN-KEYWORD, yunpan                     
     - DOMAIN-KEYWORD, alipan                     
 
-
-
+    - DOMAIN-SUFFIX , bj29.cn-beijing.data.alicloudccp.com
 
 
 

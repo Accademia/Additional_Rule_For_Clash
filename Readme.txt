@@ -93,9 +93,16 @@
 
 + eMuleServer		：电驴目录服务器的Clash分流规则（不涉及P2P直连阶段的下载）
 
-+ Alipan		: 阿里云盘 Clash分流规则
++ Alipan		: 阿里云盘 Clash分流规则 
 
++ RustDesk		: （远程控制、云桌面）RustDesk Clash分流规则
+
++ Parsec		: （远程控制、云桌面）Parsec Clash分流规则
+
++ Triller		: （美国短视频平台）Triller Clash分流规则
+
++ Signal		: （端到端加密即时通信软件）Signal Clash分流规则
 
 ----------------------------------
 
-授权协议：MIT协议（但排除一切GPL-Like协议，包括但不限于GPL v1/v2/v3 APGL等，将本项目引用到一切GPL-like等“癌症协议”中均视为未授权的非法引用）
+授权协议：MIT协议（但排除一切GPL-Like协议，包括但不限于GPL v1/v2/v3 APGL LGPL等，将本项目引用到一切GPL-like等中均视为未授权的非法引用）
