@@ -1,11 +1,14 @@
-规则集：面向Clash的分流规则
++ 规则集：面向Clash的分流规则
 
-用途： 作为 blackmatrix7/ios_rule_script的补充规则
++ 用途： 作为 blackmatrix7/ios_rule_script的补充规则（填补其缺失的却则）
 
-产品说明：填补了上述中缺失的规则： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash 
++ 被填补的规则集合：blackmatrix7/ios_rule_script - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash 
 
-兼容的客户端：	Stash for iOS/Mac
++ 兼容的客户端：	Stash for iOS/Mac
 		Clash Verga Rec for Mac/win10
+
++ 为什么要建立新项目，而不是给原规则提issue？ 
+	- 因为原规则作者无意扩展新规则（原作者精力不够的问题，可以理解，毕竟是用爱发电。而且本规则也只是添加本项目主 自己常用的 长期验证过的 规则）
 
 ----------------------------------
 
@@ -13,7 +16,7 @@
 
 + Pornhub		：P站 Clash分流规则
 
-+ FakeLocation		: IP归属地显示（用户地理位置显示） Clash分流规则
++ FakeLocation		: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
 	- Bilibili    	立即生效（留言立即生效，但主页IP归属地，需要“连续挂”2周才会生效）   
 	- 抖音    	立即生效   
 	- 快手     	立即生效  
