@@ -46,7 +46,18 @@ payload:
     - DOMAIN         , data.bilibili.com
     - DOMAIN         , mall.bilibili.com
     - DOMAIN         , message.bilibili.com
-    - DOMAIN         , passport.bilibili.com
+    - DOMAIN         , passport.bilibili.com 
+    
+   ##-------- Fake Geo API ----------                           
+   #- DOMAIN-SUFFIX  , biliapi.com                                      
+   #- DOMAIN-SUFFIX  , biliapi.net                                      
+   #- DOMAIN-SUFFIX  , biligame.com   
+
+   ##-------------- IP ---------------
+   #- IP-CIDR        , 8.137.96.251/32                                  , no-resolve   
+   #- IP-CIDR        , 8.140.49.59/32                                   , no-resolve     
+   #- IP-CIDR        , 8.140.61.243/32                                  , no-resolve     
+   #- IP-CIDR        , 47.108.226.5/32                                  , no-resolve     
    ##-------------- IP ---------------
    #- IP-CIDR        , 106.75.74.76/32                                  , no-resolve 
    #- IP-CIDR        , 111.206.25.147/32                                , no-resolve   
@@ -54,28 +65,7 @@ payload:
    #- IP-CIDR        , 120.92.108.182/32                                , no-resolve   
    #- IP-CIDR        , 120.92.113.99/32                                 , no-resolve      
    #- IP-CIDR        , 120.92.153.217/32                                , no-resolve      
-   #- IP-CIDR        , 134.175.207.130/32                               , no-resolve    
-
-
-   # Fake Geo API                            
-   #- DOMAIN-SUFFIX  , biliapi.com                                      
-   #- DOMAIN-SUFFIX  , biliapi.net                                      
-   #- DOMAIN-SUFFIX  , biligame.com   
-   ## Fake Geo API
-   #- DOMAIN         , api.bilibili.tv                                  
-   #- DOMAIN         , app.bilibili.com                                 
-   #- DOMAIN         , passport.bilibili.com                            
-   #- DOMAIN         , grpc.biliapi.net                                 
-   #- DOMAIN         , broadcast.chat.bilibili.com                      
-   #- DOMAIN         , api.bilibili.com                                 
-   #- DOMAIN         , cm.bilibili.com      
-   #- DOMAIN-SUFFIX  , acg.tv     
-
-   ## IP        
-   #- IP-CIDR        , 8.137.96.251/32                                  , no-resolve   
-   #- IP-CIDR        , 8.140.49.59/32                                   , no-resolve     
-   #- IP-CIDR        , 8.140.61.243/32                                  , no-resolve     
-   #- IP-CIDR        , 47.108.226.5/32                                  , no-resolve     
+   #- IP-CIDR        , 134.175.207.130/32                               , no-resolve   
 
 
 
