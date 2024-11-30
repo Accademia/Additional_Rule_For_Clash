@@ -14,4 +14,4 @@ payload:
    #- DOMAIN        , c.tieba.baidu.com         
    #- DOMAIN        , www.baidu.com                 
             
-    - IP-CIDR       , 180.76.76.0/24            , no-resolve  
+    - IP-CIDR       , 180.76.76.0/24                                 , no-resolve  

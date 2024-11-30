@@ -8,78 +8,76 @@ payload:
 
 
    # [HTTPDNS] 阿里 HTTP DNS（IP定位用）
-    - IP-CIDR        , 203.107.1.0/24                  , REJECT    
-   # [HTTPDNS] HTTP DNS
-    - IP-CIDR        , 47.101.175.206/32               , REJECT
-    - IP-CIDR        , 47.100.123.169/32               , REJECT
-    - IP-CIDR        , 120.46.169.234/32               , REJECT
-    - IP-CIDR        , 121.36.72.124/32                , REJECT 
-   # [HTTPDNS] HTTP DNS (移动)
-    - IP-CIDR        , 116.63.10.135/32                , REJECT 
-    - IP-CIDR        , 122.9.7.134/32                  , REJECT 
-    - IP-CIDR        , 117.185.228.108/32              , REJECT
-    - IP-CIDR        , 117.144.238.29/32               , REJECT
-   # [HTTPDNS] HTTP DNS (电信)
-    - IP-CIDR        , 122.9.13.79/32                  , REJECT 
-    - IP-CIDR        , 122.9.15.129/32                 , REJECT
-    - IP-CIDR        , 101.91.140.224/32               , REJECT
-    - IP-CIDR        , 101.91.140.124/32               , REJECT
-   # [HTTPDNS] HTTP DNS (联通)
-    - IP-CIDR        , 114.116.215.110/32              , REJECT
-    - IP-CIDR        , 116.63.10.31/32                 , REJECT
-    - IP-CIDR        , 112.64.218.119/32               , REJECT
-    - IP-CIDR        , 112.65.200.117/32               , REJECT
+    - IP-CIDR        , 203.107.1.0/24                  , REJECT         , no-resolve           
+   # [HTTPDNS] HTTP DNS  
+    - IP-CIDR        , 47.101.175.206/32               , REJECT         , no-resolve  
+    - IP-CIDR        , 47.100.123.169/32               , REJECT         , no-resolve  
+    - IP-CIDR        , 120.46.169.234/32               , REJECT         , no-resolve  
+    - IP-CIDR        , 121.36.72.124/32                , REJECT         , no-resolve   
+   # [HTTPDNS] HTTP DNS (移动)    
+    - IP-CIDR        , 116.63.10.135/32                , REJECT         , no-resolve   
+    - IP-CIDR        , 122.9.7.134/32                  , REJECT         , no-resolve   
+    - IP-CIDR        , 117.185.228.108/32              , REJECT         , no-resolve  
+    - IP-CIDR        , 117.144.238.29/32               , REJECT         , no-resolve  
+   # [HTTPDNS] HTTP DNS (电信) 
+    - IP-CIDR        , 122.9.13.79/32                  , REJECT         , no-resolve   
+    - IP-CIDR        , 122.9.15.129/32                 , REJECT         , no-resolve  
+    - IP-CIDR        , 101.91.140.224/32               , REJECT         , no-resolve  
+    - IP-CIDR        , 101.91.140.124/32               , REJECT         , no-resolve  
+   # [HTTPDNS] HTTP DNS (联通)   
+    - IP-CIDR        , 114.116.215.110/32              , REJECT         , no-resolve  
+    - IP-CIDR        , 116.63.10.31/32                 , REJECT         , no-resolve  
+    - IP-CIDR        , 112.64.218.119/32               , REJECT         , no-resolve  
+    - IP-CIDR        , 112.65.200.117/32               , REJECT         , no-resolve  
    # [HTTPDNS] Bilibili    
     - DOMAIN         , httpdns.bilivideo.com           , REJECT 
-    
-    
-   # Fake Geo API
-                                 
-    - DOMAIN-SUFFIX  , biliapi.com                                      
-    - DOMAIN-SUFFIX  , biliapi.net                                      
-    - DOMAIN-SUFFIX  , biligame.com    
-    - IP-CIDR        , 203.107.1.0/24                                   , no-resolve   
+   # HTTPDNS
+    - IP-CIDR        , 203.107.1.0/24                  , REJECT         , no-resolve   
+     
 
-   # 重复 !!!!! 
+
    # ----------- biliapi.net ----------- 
-   #- DOMAIN         , api.biliapi.net
-   #- DOMAIN         , grpc.biliapi.net
-   # ----------- biliapi.com ----------- 
-   #- DOMAIN         , api.biliapi.com
-   # ---------- bilibili.com -----------
-   #- DOMAIN         , api.vc.bilibili.com
-   #- DOMAIN         , api.bilibili.com
-   #- DOMAIN         , app.bilibili.com
-   #- DOMAIN         , data.bilibili.com
-   #- DOMAIN         , mall.bilibili.com
-   #- DOMAIN         , message.bilibili.com
-   #- DOMAIN         , passport.bilibili.com
+    - DOMAIN         , api.biliapi.net
+    - DOMAIN         , grpc.biliapi.net
+   ##----------- biliapi.com ----------- 
+    - DOMAIN         , api.biliapi.com
+   ##---------- bilibili.com -----------
+    - DOMAIN         , api.vc.bilibili.com
+    - DOMAIN         , api.bilibili.com
+    - DOMAIN         , app.bilibili.com
+    - DOMAIN         , data.bilibili.com
+    - DOMAIN         , mall.bilibili.com
+    - DOMAIN         , message.bilibili.com
+    - DOMAIN         , passport.bilibili.com
+   ##-------------- IP ---------------
+   #- IP-CIDR        , 106.75.74.76/32                                  , no-resolve 
+   #- IP-CIDR        , 111.206.25.147/32                                , no-resolve   
+   #- IP-CIDR        , 119.3.238.64/32                                  , no-resolve   
+   #- IP-CIDR        , 120.92.108.182/32                                , no-resolve   
+   #- IP-CIDR        , 120.92.113.99/32                                 , no-resolve      
+   #- IP-CIDR        , 120.92.153.217/32                                , no-resolve      
+   #- IP-CIDR        , 134.175.207.130/32                               , no-resolve    
 
-   # IP
-    - IP-CIDR        , 106.75.74.76/32                                  , no-resolve 
-    - IP-CIDR        , 111.206.25.147/32                                , no-resolve   
-    - IP-CIDR        , 119.3.238.64/32                                  , no-resolve   
-    - IP-CIDR        , 120.92.108.182/32                                , no-resolve   
-    - IP-CIDR        , 120.92.113.99/32                                 , no-resolve      
-    - IP-CIDR        , 120.92.153.217/32                                , no-resolve      
-    - IP-CIDR        , 134.175.207.130/32                               , no-resolve    
 
+   # Fake Geo API                            
+   #- DOMAIN-SUFFIX  , biliapi.com                                      
+   #- DOMAIN-SUFFIX  , biliapi.net                                      
+   #- DOMAIN-SUFFIX  , biligame.com   
+   ## Fake Geo API
+   #- DOMAIN         , api.bilibili.tv                                  
+   #- DOMAIN         , app.bilibili.com                                 
+   #- DOMAIN         , passport.bilibili.com                            
+   #- DOMAIN         , grpc.biliapi.net                                 
+   #- DOMAIN         , broadcast.chat.bilibili.com                      
+   #- DOMAIN         , api.bilibili.com                                 
+   #- DOMAIN         , cm.bilibili.com      
+   #- DOMAIN-SUFFIX  , acg.tv     
 
-   # Fake Geo API
-    - DOMAIN         , api.bilibili.tv                                  
-    - DOMAIN         , app.bilibili.com                                 
-    - DOMAIN         , passport.bilibili.com                            
-    - DOMAIN         , grpc.biliapi.net                                 
-    - DOMAIN         , broadcast.chat.bilibili.com                      
-    - DOMAIN         , api.bilibili.com                                 
-    - DOMAIN         , cm.bilibili.com      
-    - DOMAIN-SUFFIX  , acg.tv     
-
-    # IP        
-    - IP-CIDR        , 8.137.96.251/32                                  , no-resolve   
-    - IP-CIDR        , 8.140.49.59/32                                   , no-resolve     
-    - IP-CIDR        , 8.140.61.243/32                                  , no-resolve     
-    - IP-CIDR        , 47.108.226.5/32                                  , no-resolve     
+   ## IP        
+   #- IP-CIDR        , 8.137.96.251/32                                  , no-resolve   
+   #- IP-CIDR        , 8.140.49.59/32                                   , no-resolve     
+   #- IP-CIDR        , 8.140.61.243/32                                  , no-resolve     
+   #- IP-CIDR        , 47.108.226.5/32                                  , no-resolve     
 
 
 
