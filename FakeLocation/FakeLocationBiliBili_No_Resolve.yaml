@@ -8,7 +8,7 @@ payload:
 
 
    # [HTTPDNS] 阿里 HTTP DNS（IP定位用）
-    - IP-CIDR        , 203.107.1.0/24                  , REJECT         , no-resolve           
+    - IP-CIDR        , 203.107.1.0/24                  , REJECT         , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
    # [HTTPDNS] HTTP DNS  
     - IP-CIDR        , 47.101.175.206/32               , REJECT         , no-resolve  
     - IP-CIDR        , 47.100.123.169/32               , REJECT         , no-resolve  
@@ -31,8 +31,6 @@ payload:
     - IP-CIDR        , 112.65.200.117/32               , REJECT         , no-resolve  
    # [HTTPDNS] Bilibili    
     - DOMAIN         , httpdns.bilivideo.com           , REJECT 
-   # HTTPDNS
-    - IP-CIDR        , 203.107.1.0/24                  , REJECT         , no-resolve   
      
 
 

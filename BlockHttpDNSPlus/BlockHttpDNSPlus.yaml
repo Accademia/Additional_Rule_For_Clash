@@ -10,9 +10,15 @@ payload:
     - DOMAIN-KEYWORD, httpdns                                                      
     - DOMAIN-KEYWORD, httpsdns                                                     
     - DOMAIN-KEYWORD, http-dns                                                     
-    - DOMAIN-KEYWORD, https-dns                                                    
+    - DOMAIN-KEYWORD, https-dns                                                         
+    - DOMAIN-KEYWORD, http.dns                                                     
+    - DOMAIN-KEYWORD, https.dns                                              
    
 
+   # ======= 阿里云 ======= #
+    - IP-CIDR        , 203.107.1.0/24                            , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
+
+    
    # ======= B站 ======= #
                               
    # HTTPDNS 其他IP
