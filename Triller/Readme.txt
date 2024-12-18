@@ -9,4 +9,6 @@
 #
 # 引用范例 ：
 #
-#    Triller_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Triller/Triller_No_Resolve.yaml'                                   , path: ./ruleset/Triller_No_Resolve.yaml                    }                  
+#    Triller_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Triller/Triller_No_Resolve.yaml'                                   , path: ./ruleset/Triller_No_Resolve.yaml                    }      
+#
+#    Triller                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Triller/Triller.yaml'                                              , path: ./ruleset/Triller.yaml                               }                              

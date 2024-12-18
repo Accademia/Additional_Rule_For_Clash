@@ -1,0 +1,150 @@
+payload:
+
+   # 夜视仪         [Default : US-HomeIP ]
+  
+    - DOMAIN-KEYWORD , steeleindustries          # steeleindustries.com     
+    - DOMAIN-KEYWORD , koshersurplus             # koshersurplus.com        
+    - DOMAIN-KEYWORD , customnightvision         # customnightvision.com    
+    - DOMAIN-KEYWORD , milehighshooting          # milehighshooting.com     
+    - DOMAIN-KEYWORD , zbarsupply                # zbarsupply.com    
+    - DOMAIN-KEYWORD , boson-systems             # boson-systems.com        
+    - DOMAIN-KEYWORD , tnvc                      # tnvc.com                
+    - DOMAIN-KEYWORD , nightgoggles              # nightgoggles.com               
+    - DOMAIN-KEYWORD , willsoptics               # willsoptics.com          
+    - DOMAIN-KEYWORD , actinblack                # actinblack.com           
+    - DOMAIN-KEYWORD , licentiaarmsco            # licentiaarmsco.com       
+    - DOMAIN-KEYWORD , ownthenight               # ownthenight.com         
+    - DOMAIN-KEYWORD , usnightvision             # usnightvision.com        
+    - DOMAIN-KEYWORD , nocturnalitygear          # nocturnalitygear.com     
+    - DOMAIN-KEYWORD , armysurplusworld          # armysurplusworld.com     
+    - DOMAIN-KEYWORD , nvdevices                 # nvdevices.com            
+    - DOMAIN-KEYWORD , superiortac               # superiortac.com          
+    - DOMAIN-KEYWORD , modarmory                 # modarmory.com            
+    - DOMAIN-KEYWORD , seethenight               # seethenight.com          
+    - DOMAIN-KEYWORD , apollogearco              # apollogearco.com         
+    - DOMAIN-KEYWORD , cloudynights              # cloudynights.com         
+    - DOMAIN-KEYWORD , nvincorporated            # nvincorporated.com       
+    - DOMAIN-KEYWORD , gooningear                # gooningear.com           
+    - DOMAIN-KEYWORD , optactical                # optactical.com           
+    - DOMAIN-KEYWORD , vf1systems                # vf1systems.com           
+    - DOMAIN-KEYWORD , weaponoutfitters          # weaponoutfitters.com     
+    - DOMAIN-KEYWORD , otnsolutionsgroup         # otnsolutionsgroup.com    
+    - DOMAIN-KEYWORD , operatormanual            # operatormanual.com       
+    - DOMAIN-KEYWORD , nocturnindustries         # nocturnindustries.com    
+    - DOMAIN-KEYWORD , lowlightinnovations       # lowlightinnovations.com  
+    - DOMAIN-KEYWORD , ultimatenightvision       # ultimatenightvision.com   
+    - DOMAIN-KEYWORD , corevisionindustries      # corevisionindustries.com  
+    - DOMAIN-KEYWORD , nightvisionassociation    # nightvisionassociation.org
+    - DOMAIN-KEYWORD , nightvision4less          # nightvision4less.com
+    - DOMAIN-KEYWORD , jrhenterprises            # jrhenterprises.com
+    - DOMAIN-KEYWORD , nvisionoptics             # nvisionoptics.com
+    - DOMAIN-KEYWORD , acnightvisionllc          # acnightvisionllc.com
+    - DOMAIN-KEYWORD , hcctac                    # hcctac.com
+    - DOMAIN-KEYWORD , emergingtacticalsolutions # emergingtacticalsolutions.com
+    - DOMAIN-KEYWORD , rtkllc                    # rtkllc.com
+    - DOMAIN-KEYWORD , armyrecognition           # armyrecognition.com
+    - DOMAIN-KEYWORD , adsinc                    # adsinc.com
+    - DOMAIN-KEYWORD , strategicdark             # strategicdark.com
+    - DOMAIN-KEYWORD , skdtac                    # skdtac.com
+    - DOMAIN-KEYWORD , nightsolutionsllc         # nightsolutionsllc.com
+    - DOMAIN-KEYWORD , sportsmansfinest          # sportsmansfinest.com
+    - DOMAIN-KEYWORD , blackphasetactical        # blackphasetactical.com
+    - DOMAIN-KEYWORD , integrityfirearms         # integrityfirearms.co
+    - DOMAIN-KEYWORD , vcoptics                  # vcoptics.com
+    - DOMAIN-KEYWORD , nightfalloptics           # nightfalloptics.com
+    - DOMAIN-KEYWORD , nightvisionnetwork        # nightvisionnetwork.com
+    - DOMAIN-KEYWORD , fullmetaljacket           # fullmetaljacket.com
+    - DOMAIN-KEYWORD , nightopstactical          # nightopstactical.com
+    - DOMAIN-KEYWORD , sureshotnightvision       # sureshotnightvision.com  
+    - DOMAIN-KEYWORD , nightvisionuniverse       # nightvisionuniverse.com
+    - DOMAIN-KEYWORD , tasnightcorp              # tasnightcorp.com
+    
+    - DOMAIN-KEYWORD , advancednightvision       # advancednightvision.com     
+    - DOMAIN-KEYWORD , highendarms               # highendarms.com 
+    - DOMAIN-KEYWORD , aea-arms                  # aea-arms.com                 
+    - DOMAIN-KEYWORD , ampedairsoft              # ampedairsoft.com             
+    - DOMAIN-KEYWORD , callahansystems01         # callahansystems01.com        
+    - DOMAIN-KEYWORD , customnightvision.com     # customnightvision.com
+    - DOMAIN-KEYWORD , gearcentralsupply         # gearcentralsupply.com        
+    - DOMAIN-KEYWORD , gp-armory                 # gp-armory.com                
+    - DOMAIN-KEYWORD , hztactical                # hztactical.com               
+    - DOMAIN-KEYWORD , nicksnightvision          # nicksnightvision.net     
+    - DOMAIN-KEYWORD , nighthawkvision           # nighthawkvision.com          
+    - DOMAIN-KEYWORD , nightvisionguys           # nightvisionguys.com 
+    - DOMAIN-KEYWORD , nycteasystemsllc          # nycteasystemsllc.com 
+    - DOMAIN-KEYWORD , parsonsprecision          # parsonsprecision.com 
+    - DOMAIN-KEYWORD , relicraptor               # relicraptor.com              
+    - DOMAIN-KEYWORD , strictlyoffensivekit      # strictlyoffensivekit.com     
+    - DOMAIN-KEYWORD , tagfirearms               # tagfirearms.com              
+    - DOMAIN-KEYWORD , techsavvyoptics           # techsavvyoptics.com          
+    - DOMAIN-KEYWORD , mockingbirdprecision      # mockingbirdprecision.com
+    - DOMAIN-KEYWORD , northerntacticaldefense   # northerntacticaldefense.com
+    
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   
+    - DOMAIN-KEYWORD , l3harris                  # l3harris.com
+    - DOMAIN-KEYWORD , elbitsystems              # elbitsystems.com
+    - DOMAIN-KEYWORD , trijicon                  # trijicon.com  
+
+
+   # 夜视仪 网站CDN    [Default : US-HomeIP ]
+  
+    - DOMAIN-SUFFIX  , zohocdn.com               # 
+    - DOMAIN-SUFFIX  , webtest.net               # 
+    - DOMAIN-SUFFIX  , allrail.com               # 
+                     
+
+
+   # 夜视仪（加拿大）   [Default : US ]
+  
+    - DOMAIN-SUFFIX  , gsci.net                  #
+    - DOMAIN-KEYWORD , coldharboursupply         # coldharboursupply.com
+    - DOMAIN-KEYWORD , nightsolutions            # nightsolutions.ca
+   #- DOMAIN-KEYWORD , alphaopticsinc            # alphaopticsinc.com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+
+
+
+   # 测距仪            [Default : US-HomeIP ]
+  
+    - DOMAIN-KEYWORD , eurooptic                 # eurooptic.com
+    - DOMAIN-KEYWORD , scopelist                 # scopelist.com
+    - DOMAIN-KEYWORD , opticsplanet              # opticsplanet.com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+                     
+
+
+   # 美国军事论坛       [Default : US-HomeIP ]
+  
+    - DOMAIN-SUFFIX  , ar15.com                  # 
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com
+
+
+
+    - DOMAIN-KEYWORD , snipershide               # snipershide.com
+    - DOMAIN-KEYWORD , silencertalk              # silencertalk.com
+   #- DOMAIN-KEYWORD ,                           # .com 
+   #- DOMAIN-KEYWORD ,                           # .com
+   #- DOMAIN-KEYWORD ,                           # .com 
+
+
+
+   # 其他必须使用HomeIP的美国网站       [Default 
+
+    - DOMAIN-KEYWORD , .g2.com                   #
+    - DOMAIN-KEYWORD , unibeast.com              #
+    - DOMAIN-KEYWORD , tonymacx86.com            #
+   #- DOMAIN-KEYWORD ,                           #
+   #- DOMAIN-KEYWORD ,                           #
+   #- DOMAIN-KEYWORD ,                           #
+   #- DOMAIN-KEYWORD ,                           #
+   #- DOMAIN-KEYWORD ,                           #

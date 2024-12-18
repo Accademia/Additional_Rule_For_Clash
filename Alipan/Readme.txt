@@ -9,4 +9,6 @@
 #
 # 引用范例 ：
 #
-#    Alipan_No_Resolve                   : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan_No_Resolve.yaml'                                      , path: ./ruleset/Alipan_No_Resolve.yaml                    }                  
+#    Alipan_No_Resolve                   : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan_No_Resolve.yaml'                                      , path: ./ruleset/Alipan_No_Resolve.yaml                    }       
+#           
+#    Alipan                              : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan.yaml'                                                 , path: ./ruleset/Alipan.yaml    		                }    

@@ -1,0 +1,31 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：香港银行   [Default : HK ]
+   # -----------------------------------------------
+   
+    - DOMAIN-SUFFIX  , bochk.com                 # 中银香港
+    - DOMAIN-SUFFIX  , ocbcwhhk.com              # 华侨永亨
+    - DOMAIN-SUFFIX  , hangseng.com              # 恒生银行
+    - DOMAIN-SUFFIX  , cmbwinglungbank.com       # 招商永隆
+    
+   #- DOMAIN-SUFFIX  ,                           #       
+    
+    - DOMAIN-SUFFIX  , cncbinternational.com     # 中信国际
+    - DOMAIN-SUFFIX  , hsbc.com.hk               # 汇丰香港
+    - DOMAIN-SUFFIX  , sc.com.hk                 # 渣打香港
+    - DOMAIN-SUFFIX  , citibank.com.hk           # 花旗香港
+    - DOMAIN-SUFFIX  , dbs.com.hk                # 星展香港
+    - DOMAIN-SUFFIX  , ncb.com.hk                # 南洋银行
+    
+   #- DOMAIN-SUFFIX  ,                           #       
+    
+    - DOMAIN-SUFFIX  , za.group                  # 众安银行
+    - DOMAIN-SUFFIX  , cdn.zaticdn.com           # 众安银行
+    
+   #- DOMAIN-SUFFIX  ,                           #    
+        
+ 
+
+
+

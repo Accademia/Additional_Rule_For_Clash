@@ -9,4 +9,6 @@
 #
 # 引用范例 ：
 #
-#    RustDesk_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/RustDesk/RustDesk_No_Resolve.yaml'                                   , path: ./ruleset/RustDesk_No_Resolve.yaml                    }                  
+#    RustDesk_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/RustDesk/RustDesk_No_Resolve.yaml'                                   , path: ./ruleset/RustDesk_No_Resolve.yaml                    }       
+#
+#    RustDesk                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/RustDesk/RustDesk.yaml'                                              , path: ./ruleset/RustDest.yaml                               }                             
