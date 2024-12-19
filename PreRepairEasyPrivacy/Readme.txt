@@ -28,3 +28,11 @@
 #   PreRepairEasyPrivacy_Reject                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Reject.yaml'                                    , path: ./ruleset/PreRepairEasyPrivacy_Reject.yaml             }
 #   PreRepairEasyPrivacy_Direct                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Direct.yaml'                                    , path: ./ruleset/PreRepairEasyPrivacy_Direct.yaml             }
 #   PreRepairEasyPrivacy_Proxy                          : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Proxy.yaml'                                     , path: ./ruleset/PreRepairEasyPrivacy_Proxy.yaml              }
+
+
+#  这里要特别声明一下： 
+#  宁波上官科技有限公司，此公司，是我见见过的最恶心的中国MAC软件公司之一，区别对待中国人和外国人，其homebrew更新和安装，只能外国人使用。对所有中国用户进行屏蔽。妥妥的中国人与狗不得入内。而且还窥探用户隐私！无耻至极！！！！不信的可以执行这条命令试试：
+#    brew reinstall --force --cask flykey
+#  结果必然是403错误，也就意味着中国IP不能使用Homebrew下载他们的APP。。妥妥的中国人与狗不得入内。
+# 
+#  这也就是为什么规则中会有如下规则 ：  - DOMAIN-SUFFIX ,  better365.cn  
