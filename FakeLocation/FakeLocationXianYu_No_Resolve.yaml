@@ -6,9 +6,16 @@ payload:
   
    # 生效时间：立刻 !!!!!
                                                                      
-    - DOMAIN-KEYWORD, guide-acs.taobao.com     , REJECT
-    - DOMAIN-KEYWORD, amdc.m.taobao.com        , REJECT                                # 阿里系窃取隐私的API（此API会上报真实IP。但屏蔽后，可能会会导致阿里系APP 间歇性弹窗）
-    
+    - DOMAIN-SUFFIX , guide-acs.taobao.com                       , REJECT
+    - DOMAIN-SUFFIX , amdc.m.taobao.com                          , REJECT                                # 阿里系窃取隐私的API（此API会上报真实IP。但屏蔽后，可能会会导致阿里系APP 间歇性弹窗）
+    - DOMAIN-SUFFIX , h-adashx.ut.taobao.com                     , REJECT                                # 
+ 
+    - DOMAIN-KEYWORD, app-analytics-services                     , REJECT                                # 
+ 
+    - DOMAIN-SUFFIX , og.aliyuncs.com                            , REJECT                                # 
+    - DOMAIN-SUFFIX , toblog.ctobsnssdk.com                      , REJECT                                # 
+    - DOMAIN-SUFFIX , log-api.pangolin-sdk-toutiao.com           , REJECT                                # 
+     
    # 闲鱼专属规则
    
     - DOMAIN-KEYWORD, acs.m.goofish.com                                                # 功能：登录   (注意：必须使用DOMAIN-SUFFIX) 
