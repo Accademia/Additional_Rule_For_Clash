@@ -12,9 +12,9 @@ payload:
  
     - DOMAIN-KEYWORD, app-analytics-services                     , REJECT                                # 
  
-    - DOMAIN-SUFFIX , og.aliyuncs.com                            , REJECT                                # 
-    - DOMAIN-SUFFIX , toblog.ctobsnssdk.com                      , REJECT                                # 
-    - DOMAIN-SUFFIX , log-api.pangolin-sdk-toutiao.com           , REJECT                                # 
+   #- DOMAIN-SUFFIX , og.aliyuncs.com                            , REJECT                                # 
+   #- DOMAIN-SUFFIX , toblog.ctobsnssdk.com                      , REJECT                                # 
+   #- DOMAIN-SUFFIX , log-api.pangolin-sdk-toutiao.com           , REJECT                                # 
      
     
    # 闲鱼专属规则
