@@ -8,6 +8,10 @@ payload:
 
     - DOMAIN-KEYWORD, httpsdns.baidu            , REJECT-DROP   
     
+    - DOMAIN-KEYWORD, httpdns                   , REJECT-DROP       
+    - DOMAIN-KEYWORD, httpsdns                  , REJECT-DROP       
+    - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
+    
    # 基础定位
     - DOMAIN        , tiebac.baidu.com          
    #- DOMAIN        , tieba.baidu.com           

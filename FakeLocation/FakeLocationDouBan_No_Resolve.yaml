@@ -5,10 +5,14 @@ payload:
    # ---------------------------------------------  
 
    # 生效时间：立刻 !!!!
+
+    - DOMAIN-KEYWORD, httpdns                          , REJECT-DROP       
+    - DOMAIN-KEYWORD, httpsdns                         , REJECT-DROP       
+    - DOMAIN-KEYWORD, app-analytics-services           , REJECT-DROP                      #   # 
     
     - DOMAIN-SUFFIX , douban.com             
 
-    - IP-CIDR       , 49.233.242.15/32                            , no-resolve 
-    - IP-CIDR       , 81.70.124.99/32                             , no-resolve 
-    - IP-CIDR       , 81.70.125.19/32                             , no-resolve 
-    - IP-CIDR       , 140.143.177.206/32                          , no-resolve 
+    - IP-CIDR       , 49.233.242.15/32                                        , no-resolve 
+    - IP-CIDR       , 81.70.124.99/32                                         , no-resolve 
+    - IP-CIDR       , 81.70.125.19/32                                         , no-resolve 
+    - IP-CIDR       , 140.143.177.206/32                                      , no-resolve 

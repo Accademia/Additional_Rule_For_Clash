@@ -10,7 +10,9 @@ payload:
     - DOMAIN-SUFFIX , amdc.m.taobao.com                          , REJECT-DROP                           # 阿里系窃取隐私的API（此API会上报真实IP。但屏蔽后，可能会会导致阿里系APP 间歇性弹窗）
     - DOMAIN-SUFFIX , h-adashx.ut.taobao.com                     , REJECT-DROP                           # 
  
-    - DOMAIN-KEYWORD, app-analytics-services                     , REJECT-DROP                           # 
+    - DOMAIN-KEYWORD, httpdns                                    , REJECT-DROP       
+    - DOMAIN-KEYWORD, httpsdns                                   , REJECT-DROP       
+    - DOMAIN-KEYWORD, app-analytics-services                     , REJECT-DROP                      #   # 
  
    #- DOMAIN-SUFFIX , og.aliyuncs.com                            , REJECT-DROP                           # 
    #- DOMAIN-SUFFIX , toblog.ctobsnssdk.com                      , REJECT-DROP                           # 

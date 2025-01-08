@@ -6,6 +6,11 @@ payload:
 
    # 生效时间：立刻 !!!!
  
+    - DOMAIN-KEYWORD, httpdns                   , REJECT-DROP       
+    - DOMAIN-KEYWORD, httpsdns                  , REJECT-DROP       
+    - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
+
+
    # APP-API  
     - DOMAIN-SUFFIX , zijieapi.com              , DIRECT
     - DOMAIN-SUFFIX , ecombdapi.com             , DIRECT

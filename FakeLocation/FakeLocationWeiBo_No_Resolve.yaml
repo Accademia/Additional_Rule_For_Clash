@@ -5,6 +5,10 @@ payload:
    # --------------------------------------------- 
     
    # 生效时间：立刻 !!!!
+   
+    - DOMAIN-KEYWORD, httpdns                          , REJECT-DROP       
+    - DOMAIN-KEYWORD, httpsdns                         , REJECT-DROP       
+    - DOMAIN-KEYWORD, app-analytics-services           , REJECT-DROP                      #   # 
   
     - DOMAIN-SUFFIX , wbimg.cn                  
     - DOMAIN-SUFFIX , wbimg.com                 

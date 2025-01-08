@@ -31,7 +31,10 @@ payload:
     - IP-CIDR        , 112.65.200.117/32               , REJECT-DROP    , no-resolve  
    # [HTTPDNS] Bilibili    
     - DOMAIN         , httpdns.bilivideo.com           , REJECT-DROP       
-     
+
+    - DOMAIN-KEYWORD , httpdns                         , REJECT-DROP       
+    - DOMAIN-KEYWORD , httpsdns                        , REJECT-DROP       
+    - DOMAIN-KEYWORD , app-analytics-services          , REJECT-DROP                      #   # 
 
 
    # ----------- biliapi.net ----------- 
