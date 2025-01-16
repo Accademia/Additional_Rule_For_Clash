@@ -6,10 +6,10 @@ payload:
   
    # 生效时间：立刻 !!!!!
                                                                      
-    - DOMAIN-KEYWORD,guide-acs.taobao.com,REJECT-DROP             
-    - DOMAIN-KEYWORD,h-adashx.ut.taobao.com,REJECT-DROP                                       # 
-    - DOMAIN-KEYWORD,adashx.m.taobao.com,REJECT-DROP                      
-    - DOMAIN-KEYWORD,amdc.m.taobao.com,REJECT-DROP                                       # 阿里系窃取隐私的API（此API会上报真实IP。但屏蔽后，可能会会导致阿里系APP 间歇性弹窗）
+    - DOMAIN-KEYWORD, guide-acs.taobao.com                       , REJECT-DROP             
+    - DOMAIN-KEYWORD, h-adashx.ut.taobao.com                     , REJECT-DROP                                       # 
+    - DOMAIN-KEYWORD, adashx.m.taobao.com                        , REJECT-DROP                      
+    - DOMAIN-KEYWORD, amdc.m.taobao.com                          , REJECT-DROP                                       # 阿里系窃取隐私的API（此API会上报真实IP。但屏蔽后，可能会会导致阿里系APP 间歇性弹窗）
  
     - DOMAIN-KEYWORD, httpdns                                    , REJECT-DROP                   
     - DOMAIN-KEYWORD, httpsdns                                   , REJECT-DROP                   
