@@ -34,6 +34,7 @@ payload:
   - IP-CIDR        , 35.245.234.132/32                           # , no-resolve       # blockerDNS
   - IP-CIDR        , 37.120.147.2/32                             # , no-resolve       # cryptostorm
   - IP-CIDR        , 40.76.112.230/32                            # , no-resolve       # AT&T
+  - IP-CIDR        , 45.11.45.11/32                              # , no-resolve       # DNS.SB
   - IP-CIDR        , 45.32.55.94/32                              # , no-resolve       # BlahDNS
   - IP-CIDR        , 45.63.30.163/32                             # , no-resolve       # pi-dns.com
   - IP-CIDR        , 45.67.219.208/32                            # , no-resolve       # pi-dns.com
