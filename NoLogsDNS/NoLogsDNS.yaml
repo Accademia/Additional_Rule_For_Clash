@@ -1,12 +1,20 @@
 payload:
   - DOMAIN-SUFFIX  , dns.google                                  # , no-resolve       # Google
   - DOMAIN-SUFFIX  , cloudflare-dns.com                          # , no-resolve       # Cloudflare
+  - DOMAIN-SUFFIX  , one.one.one.one                             # , no-resolve       # Cloudflare
   - DOMAIN-SUFFIX  , dns.quad9.net                               # , no-resolve       # Quad9
-  - DOMAIN-SUFFIX  , doh.opendns.com                             # , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , dns11.quad9.net                             # , no-resolve       # Quad9
   - DOMAIN-SUFFIX  , dns.nextdns.io                              # , no-resolve       # NextDNS
   - DOMAIN-SUFFIX  , dns.adguard.com                             # , no-resolve       # AdGuard DNS
+  - DOMAIN-SUFFIX  , dns-family.adguard.com                      # , no-resolve       # AdGuard DNS
+  - DOMAIN-SUFFIX  , dns-unfiltered.adguard.com                  # , no-resolve       # AdGuard DNS
   - DOMAIN-SUFFIX  , dns.sb                                      # , no-resolve       # DNS.SB
   - DOMAIN-SUFFIX  , doh.sb                                      # , no-resolve       # DNS.SB
+  - DOMAIN-SUFFIX  , dot.sb                                      # , no-resolve       # DNS.SB
+  - DOMAIN-SUFFIX  , doh.opendns.com                             # , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , doh.familyshield.opendns.com                # , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , dns.umbrella.com                            # , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , dns.twnic.tw                                # , no-resolve       # 台湾 Quad 101
   - DOMAIN-SUFFIX  , doh.cleanbrowsing.org                       # , no-resolve       # CleanBrowsing
   - DOMAIN-SUFFIX  , doh.verisign.com                            # , no-resolve       # Verisign
   - DOMAIN-SUFFIX  , doh.comodo.com                              # , no-resolve       # Comodo
