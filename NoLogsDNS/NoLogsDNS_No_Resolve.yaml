@@ -1,23 +1,63 @@
-payload:
-  - DOMAIN-SUFFIX  , dns.google                                    , no-resolve       # Google
+payload:  
+  - DOMAIN-SUFFIX  , basic.rethinkdns.com                          , no-resolve       # RethinkDNS (全球分布式)
   - DOMAIN-SUFFIX  , cloudflare-dns.com                            , no-resolve       # Cloudflare
-  - DOMAIN-SUFFIX  , one.one.one.one                               , no-resolve       # Cloudflare
-  - DOMAIN-SUFFIX  , dns.quad9.net                                 , no-resolve       # Quad9
-  - DOMAIN-SUFFIX  , dns11.quad9.net                               , no-resolve       # Quad9
-  - DOMAIN-SUFFIX  , dns.nextdns.io                                , no-resolve       # NextDNS
   - DOMAIN-SUFFIX  , dns.adguard.com                               , no-resolve       # AdGuard DNS
   - DOMAIN-SUFFIX  , dns-family.adguard.com                        , no-resolve       # AdGuard DNS
   - DOMAIN-SUFFIX  , dns-unfiltered.adguard.com                    , no-resolve       # AdGuard DNS
+  - DOMAIN-SUFFIX  , dns.google                                    , no-resolve       # Google
+  - DOMAIN-SUFFIX  , dns.nextdns.io                                , no-resolve       # NextDNS
+  - DOMAIN-SUFFIX  , dns.quad9.net                                 , no-resolve       # Quad9
   - DOMAIN-SUFFIX  , dns.sb                                        , no-resolve       # DNS.SB
-  - DOMAIN-SUFFIX  , doh.sb                                        , no-resolve       # DNS.SB
-  - DOMAIN-SUFFIX  , dot.sb                                        , no-resolve       # DNS.SB
-  - DOMAIN-SUFFIX  , doh.opendns.com                               , no-resolve       # OpenDNS
-  - DOMAIN-SUFFIX  , doh.familyshield.opendns.com                  , no-resolve       # OpenDNS
-  - DOMAIN-SUFFIX  , dns.umbrella.com                              , no-resolve       # OpenDNS
   - DOMAIN-SUFFIX  , dns.twnic.tw                                  , no-resolve       # 台湾 Quad 101
+  - DOMAIN-SUFFIX  , dns.umbrella.com                              , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , dns.watch                                     , no-resolve       # DNS.Watch（德国）
+  - DOMAIN-SUFFIX  , dnscrypt.ca                                   , no-resolve       # DNSCrypt Canada（加拿大）
+  - DOMAIN-SUFFIX  , doh.alternate-dns.com                         , no-resolve       # Alternate DNS (美国)
+  - DOMAIN-SUFFIX  , doh.applied-privacy.net                       , no-resolve       # Applied Privacy (奥地利)
+  - DOMAIN-SUFFIX  , doh.blahdns.com                               , no-resolve       # BlahDNS (欧洲)
   - DOMAIN-SUFFIX  , doh.cleanbrowsing.org                         , no-resolve       # CleanBrowsing
-  - DOMAIN-SUFFIX  , doh.verisign.com                              , no-resolve       # Verisign
   - DOMAIN-SUFFIX  , doh.comodo.com                                , no-resolve       # Comodo
+  - DOMAIN-SUFFIX  , doh.dnswarden.com                             , no-resolve       # DNS Warden (全球分布式)
+  - DOMAIN-SUFFIX  , doh.ffmuc.net                                 , no-resolve       # FFMUC (德国)
+  - DOMAIN-SUFFIX  , doh.iij.jp                                    , no-resolve       # IIJ DNS (日本)
+  - DOMAIN-SUFFIX  , doh.mullvad.net                               , no-resolve       # Mullvad DNS（瑞典）
+  - DOMAIN-SUFFIX  , doh.nekomimi-router.com                       , no-resolve       # NekomimiRouter (日本)
+  - DOMAIN-SUFFIX  , doh.opendns.com                               , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , doh.powerdns.org                              , no-resolve       # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX  , doh.seby.io                                   , no-resolve       # Seby DNS (澳大利亚)
+  - DOMAIN-SUFFIX  , doh.tiar.app                                  , no-resolve       # Tiarap DNS (新加坡)
+  - DOMAIN-SUFFIX  , doh.verisign.com                              , no-resolve       # Verisign
+  - DOMAIN-SUFFIX  , doh.xfinity.com                               , no-resolve       # Xfinity (美国)
+  - DOMAIN-SUFFIX  , dot.sb                                        , no-resolve       # DNS.SB
+  - DOMAIN-SUFFIX  , libredns.gr                                   , no-resolve       # LibreDNS（欧洲）
+  - DOMAIN-SUFFIX  , one.one.one.one                               , no-resolve       # Cloudflare
+  - DOMAIN-SUFFIX  , opennic.net                                   , no-resolve       # OpenNIC（社区开放DNS）
+  - DOMAIN-SUFFIX  , private.canadianshield.cira.ca                , no-resolve       # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX  , cleanbrowsing.org                             , no-resolve       # CleanBrowsing（美国）
+  - DOMAIN-SUFFIX  , dns.cmrg.net                                  , no-resolve       # CMRG DNS（加拿大）
+  - DOMAIN-SUFFIX  , appliedprivacy.net                            , no-resolve       # Applied Privacy（奥地利）
+  - DOMAIN-SUFFIX  , dnsprivacy.at                                 , no-resolve       # DNS Privacy（奥地利）
+  - DOMAIN-SUFFIX  , uncensoreddns.org                             , no-resolve       # UncensoredDNS（丹麦）
+  - DOMAIN-SUFFIX  , tenta.io                                      , no-resolve       # Tenta（美国）
+  - DOMAIN-SUFFIX  , he.net                                        , no-resolve       # Hurricane Electric（美国）
+  - DOMAIN-SUFFIX  , comcast.net                                   , no-resolve       # Xfinity（美国）
+  - DOMAIN-SUFFIX  , opendns.com                                   , no-resolve       # OpenDNS（美国）
+  - DOMAIN-SUFFIX  , dns.t53.de                                    , no-resolve       # T53 DNS（德国）
+  - DOMAIN-SUFFIX  , neutopia.org                                  , no-resolve       # Neutopia（法国）
+  - DOMAIN-SUFFIX  , ldn.imlonghao.com                             , no-resolve       # Lorraine Data Network（法国）
+  - DOMAIN-SUFFIX  , fische.io                                     , no-resolve       # Fische（德国）
+  - DOMAIN-SUFFIX  , snopyta.org                                   , no-resolve       # Snopyta（芬兰）
+  - DOMAIN-SUFFIX  , dns.tin-fan.com                               , no-resolve       # Tin Fan DNS（全球分布式）
+  - DOMAIN-SUFFIX  , restena.lu                                    , no-resolve       # Foundation RESTENA（卢森堡）
+  - DOMAIN-SUFFIX  , doh.crypto.sx                                 , no-resolve       # DOH Crypto（全球分布式）
+  - DOMAIN-SUFFIX  , ibksturm.synology.me                          , no-resolve       # Ibksturm（瑞士）
+  - DOMAIN-SUFFIX  , powerdns.org                                  , no-resolve       # PowerDNS（荷兰）
+  - DOMAIN-SUFFIX  , boothlabs.me                                  , no-resolve       # Booth Labs（加拿大）
+  - DOMAIN-SUFFIX  , go6lab.si                                     , no-resolve       # Go6Lab（斯洛文尼亚）
+  - DOMAIN-SUFFIX  , yeti-dns.org                                  , no-resolve       # Yeti DNS（全球分布式）
+  - DOMAIN-SUFFIX  , sfw.overthebox.ovh                            , no-resolve       # Scaleway（法国）
+  - DOMAIN-SUFFIX  , eth-services.de                               , no-resolve       # ETH Services（德国）
+  - DOMAIN-SUFFIX  , libredns.gr                                   , no-resolve       # LibreDNS（希腊）
   - IP-CIDR        , 1.0.0.1/32                                    , no-resolve       # Cloudflare
   - IP-CIDR        , 1.0.0.2/32                                    , no-resolve       # Cloudflare
   - IP-CIDR        , 1.0.0.3/32                                    , no-resolve       # Cloudflare
