@@ -1,4 +1,15 @@
 payload:
+  - DOMAIN-SUFFIX  , dns.google                                  # , no-resolve       # Google
+  - DOMAIN-SUFFIX  , cloudflare-dns.com                          # , no-resolve       # Cloudflare
+  - DOMAIN-SUFFIX  , dns.quad9.net                               # , no-resolve       # Quad9
+  - DOMAIN-SUFFIX  , doh.opendns.com                             # , no-resolve       # OpenDNS
+  - DOMAIN-SUFFIX  , dns.nextdns.io                              # , no-resolve       # NextDNS
+  - DOMAIN-SUFFIX  , dns.adguard.com                             # , no-resolve       # AdGuard DNS
+  - DOMAIN-SUFFIX  , dns.sb                                      # , no-resolve       # DNS.SB
+  - DOMAIN-SUFFIX  , doh.sb                                      # , no-resolve       # DNS.SB
+  - DOMAIN-SUFFIX  , doh.cleanbrowsing.org                       # , no-resolve       # CleanBrowsing
+  - DOMAIN-SUFFIX  , doh.verisign.com                            # , no-resolve       # Verisign
+  - DOMAIN-SUFFIX  , doh.comodo.com                              # , no-resolve       # Comodo
   - IP-CIDR        , 1.0.0.1/32                                  # , no-resolve       # Cloudflare
   - IP-CIDR        , 1.0.0.2/32                                  # , no-resolve       # Cloudflare
   - IP-CIDR        , 1.0.0.3/32                                  # , no-resolve       # Cloudflare
