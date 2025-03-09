@@ -10,15 +10,31 @@ payload:
     - DOMAIN-KEYWORD, httpdns                                                      
     - DOMAIN-KEYWORD, httpsdns                                                     
     - DOMAIN-KEYWORD, http-dns                                                     
-    - DOMAIN-KEYWORD, https-dns                                                         
+    - DOMAIN-KEYWORD, https-dns                                                      
     - DOMAIN-KEYWORD, http.dns                                                     
-    - DOMAIN-KEYWORD, https.dns                                              
+    - DOMAIN-KEYWORD, https.dns                                                  
    
 
    # ======= 阿里云 ======= #
-    - IP-CIDR        , 203.107.1.0/24                            , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
 
-    
+    - IP-CIDR        , 203.107.1.0/24                           #, no-resolve            
+
+
+
+   # ======= 腾讯云 ======= #
+
+    - IP-CIDR        , 119.29.29.98/24                          #, no-resolve  
+    - IP-CIDR        , 119.29.29.99/24                          #, no-resolve                      
+
+
+
+   # ======= 百度 ======= #
+
+    - IP-CIDR       , 180.76.76.112/32                          #, no-resolve      
+    - IP-CIDR       , 180.76.76.220/32                          #, no-resolve   
+
+
+
    # ======= B站 ======= #
                               
    # HTTPDNS 其他IP
@@ -27,32 +43,110 @@ payload:
     - IP-CIDR       , 47.100.123.169/32                         #, no-resolve      
     - IP-CIDR       , 120.46.169.234/32                         #, no-resolve      
     - IP-CIDR       , 121.36.72.124/32                          #, no-resolve      
-                                                                                 
-   # HTTPDNS 移动IP                                                              
-                                                                                 
+                                                                                  
+   # HTTPDNS 移动IP                                                               
+                                                                                  
     - IP-CIDR       , 116.63.10.135/32                          #, no-resolve      
     - IP-CIDR       , 122.9.7.134/32                            #, no-resolve      
     - IP-CIDR       , 117.185.228.108/32                        #, no-resolve      
     - IP-CIDR       , 117.144.238.29/32                         #, no-resolve      
-                                                                                 
-   # HTTPDNS 电信IP                                                              
-                                                                                 
+                                                                                  
+   # HTTPDNS 电信IP                                                               
+                                                                                  
     - IP-CIDR       , 122.9.13.79/32                            #, no-resolve      
     - IP-CIDR       , 122.9.15.129/32                           #, no-resolve      
     - IP-CIDR       , 101.91.140.224/32                         #, no-resolve      
     - IP-CIDR       , 101.91.140.124/32                         #, no-resolve      
-                                                                                 
-   # HTTPDNS 联通IP                                                              
-                                                                                 
+                                                                                  
+   # HTTPDNS 联通IP                                                               
+                                                                                  
     - IP-CIDR       , 114.116.215.110/32                        #, no-resolve      
     - IP-CIDR       , 116.63.10.31/32                           #, no-resolve      
     - IP-CIDR       , 112.64.218.119/32                         #, no-resolve      
     - IP-CIDR       , 112.65.200.117/32                         #, no-resolve      
-                                                                                
-                                                                                
-   # ======= 知乎 ======= #                                                     
-                                                                                
-    - IP-CIDR       , 118.89.204.198/23                         #, no-resolve      # 知乎 HTTPDNS (IPv4)
-    - IP-CIDR6      , 2402:4e00:1200:ed00:0:9089:6dac:96b6/40   #, no-resolve      # 知乎 HTTPDNS (IPv6)
+                                                                                  
+                                                                                  
+   # ======= 知乎 ======= #                                                       
+                                                                                  
+    - IP-CIDR       , 118.89.204.198/23                         #, no-resolve     
+    - IP-CIDR       , 103.41.167.237/23                         #, no-resolve     
+    - IP-CIDR6      , 2402:4e00:1200:ed00:0:9089:6dac:96b6/128  #, no-resolve    
 
+
+
+   # ======= 拼多多 ======= #    
+
+    - IP-CIDR       , 101.35.204.35/32                          #, no-resolve     
+    - IP-CIDR       , 101.35.212.35/32                          #, no-resolve     
+    - IP-CIDR       , 114.110.96.26/32                          #, no-resolve     
+    - IP-CIDR       , 114.110.97.97/32                          #, no-resolve    
+    - IP-CIDR6      , 240c:409f::3:0:163/64                     #, no-resolve     
+    - IP-CIDR6      , 240c:409f::3:0:359/64                     #, no-resolve     
+    - IP-CIDR6      , 2402:4e00:1411:201:0:9964:ba21:5a41/64    #, no-resolve      
+
+
+   # ======= 支付宝 ======= #
+
+    - IP-CIDR       , 110.76.8.150/32                           #, no-resolve     
+    - IP-CIDR       , 203.209.230.39/32                         #, no-resolve     
+    - IP-CIDR       , 203.209.245.102/32                        #, no-resolve     
+    - IP-CIDR       , 203.209.245.158/32                        #, no-resolve   
+    - IP-CIDR       , 203.209.247.95/32                         #, no-resolve     
+    - IP-CIDR       , 203.209.250.41/32                         #, no-resolve     
+    - IP-CIDR       , 203.209.250.114/32                        #, no-resolve   
+    - IP-CIDR       , 203.209.251.147/32                        #, no-resolve    
+    - IP-CIDR6      , 2400:B180:6001::18F/64                    #, no-resolve     
+    - IP-CIDR6      , 2400:B200:1005:3000::155/64               #, no-resolve    
+    - IP-CIDR6      , 2400:B200:1005:3000::1D3/64               #, no-resolve  
+    - IP-CIDR6      , 2400:B200:5000:B000::C8/64                #, no-resolve  
+
+
+
+
+   # ======= 抖音 ======= #   
+
+    - DOMAIN-SUFFIX , zijieapi.com
+
+
+
+   # ======= 京东 ======= #    
+
+    - DOMAIN-SUFFIX , dns.jd.com    
+    - IP-CIDR       , 101.124.19.122/32                         #, no-resolve    
+    - IP-CIDR       , 103.224.222.208/32                        #, no-resolve  
+    - IP-CIDR6      , 2402:db40:5100:1011::5/128                #, no-resolve    
+
+
+
+   # ====== 腾讯音乐 ====== #  
+
+    - IP-CIDR       , 182.256.116.116/32                        #, no-resolve     
+
+
+   # ======= 微信 ======= #     
+
+    - DOMAIN-SUFFIX , dns.weixin.qq.com     
+
+
+
+   # ======= 美团 ======= # 
+
+    - IP-CIDR       , 202.90.108.13/32                          #, no-resolve     
+    - IP-CIDR       , 202.90.110.46/32                          #, no-resolve 
+
+
+
+   # ======= 网易 ======= #     
+
+    - IP-CIDR       , 59.111.239.61/32                          #, no-resolve     
+    - IP-CIDR       , 59.111.239.62/32                          #, no-resolve     
+    - IP-CIDR       , 115.236.121.51/32                         #, no-resolve     
+    - IP-CIDR       , 115.236.121.195/32                        #, no-resolve   
+
+
+
+   # ======= Wework ======= #     
+
+    - IP-CIDR       , 182.254.116.117/32                        #, no-resolve     
+    - IP-CIDR       , 182.254.118.119/32                        #, no-resolve     
     
