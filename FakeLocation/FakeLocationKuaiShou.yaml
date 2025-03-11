@@ -9,9 +9,10 @@ payload:
     - DOMAIN-KEYWORD, httpdns                          , REJECT-DROP       
     - DOMAIN-KEYWORD, httpsdns                         , REJECT-DROP       
     - DOMAIN-KEYWORD, app-analytics-services           , REJECT-DROP                      #   # 
+
+    - DOMAIN        , doh.pub                          , REJECT-DROP  
+    - DOMAIN        , dns.alidns.com                   , REJECT-DROP   
     
     - DOMAIN-SUFFIX , gifshow.com              
-    - DOMAIN-SUFFIX , ksapisrv.com             
-    - DOMAIN-SUFFIX , doh.pub
-    - DOMAIN-SUFFIX , dns.alidns.com
+    - DOMAIN-SUFFIX , ksapisrv.com                  
 
