@@ -12,5 +12,6 @@ payload:
     
     - DOMAIN-SUFFIX , gifshow.com              
     - DOMAIN-SUFFIX , ksapisrv.com             
-
+    - DOMAIN-SUFFIX , doh.pub
+    - DOMAIN-SUFFIX , dns.alidns.com
 
