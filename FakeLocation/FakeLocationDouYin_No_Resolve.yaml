@@ -4,28 +4,38 @@ payload:
    # [IP归属地] 抖音   
    # ---------------------------------------------  
 
+
    # 生效时间：立刻 !!!!
- 
+
     - DOMAIN-KEYWORD, httpdns                   , REJECT-DROP       
     - DOMAIN-KEYWORD, httpsdns                  , REJECT-DROP       
     - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
-
+ 
 
    # APP-API  
     - DOMAIN-SUFFIX , zijieapi.com              , DIRECT
     - DOMAIN-SUFFIX , ecombdapi.com             , DIRECT
+
+    - DOMAIN-KEYWORD, -core-c-hl
+    - DOMAIN-KEYWORD, -core-c-lf
+    - DOMAIN-KEYWORD, core-c-lq
+    - DOMAIN-KEYWORD, core-lq
+
+    - DOMAIN-KEYWORD, normal-c-lq
+    - DOMAIN-KEYWORD, normal-lq
+
+    - DOMAIN-KEYWORD, -normal-hl
+    - DOMAIN-KEYWORD, -normal-c-hl
     
-    - DOMAIN-KEYWORD, -core-c-hl                
-    - DOMAIN-KEYWORD, -core-c-lf                
+    - DOMAIN-KEYWORD, -normal-lf
+    - DOMAIN-KEYWORD, -normal-c-lf
 
-    - DOMAIN-KEYWORD, -normal-c-hl              
-    - DOMAIN-KEYWORD, -normal-c-lf              
-
-    - DOMAIN-KEYWORD, -normal-hl                
-    - DOMAIN-KEYWORD, -normal-lf                
+    - DOMAIN-KEYWORD, search-lq
+    - DOMAIN-KEYWORD, search-quic-lq
 
     - DOMAIN-SUFFIX , toutiaoapi.com            
     
+
    # Web-API
     - DOMAIN        , sso.douyin.com               
     - DOMAIN        , www.douyin.com               
