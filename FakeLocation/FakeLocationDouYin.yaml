@@ -12,6 +12,7 @@ payload:
     - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
  
 
+
    # APP-API  
     - DOMAIN-KEYWORD, core-c-lq
     - DOMAIN-KEYWORD, core-lq
@@ -28,8 +29,12 @@ payload:
     - DOMAIN-KEYWORD, -core-c-hl
     - DOMAIN-KEYWORD, -normal-lf
     - DOMAIN-KEYWORD, -normal-c-lf
-    - DOMAIN-KEYWORD, -core-c-lf         
-    
+    - DOMAIN-KEYWORD, -core-c-lf   
+
+
+    - DOMAIN-KEYWORD, douyinstatic.com
+
+
 
    # Web-API
     - DOMAIN        , sso.douyin.com               
