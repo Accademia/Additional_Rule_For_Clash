@@ -20,8 +20,12 @@ payload:
    #- DOMAIN-SUFFIX  , httpdns.aliyuncs.com                    
    #- DOMAIN-SUFFIX  , httpdns-api.aliyuncs.com                
    #- DOMAIN-SUFFIX  , httpdns-sc.aliyuncs.com                 
-   #- DOMAIN-SUFFIX  , httpdns.alicdn.com                         
-    - IP-CIDR        , 203.107.1.0/24                          # , no-resolve            
+   #- DOMAIN-SUFFIX  , httpdns.alicdn.com                     
+    - DOMAIN-SUFFIX  , dns.alicdn.com                       
+    - IP-CIDR        , 203.107.1.0/24                          # , no-resolve                    
+    - IP-CIDR        , 223.5.5.5/32                            # , no-resolve                   
+    - IP-CIDR        , 223.6.6.6/32                            # , no-resolve        
+    - IP-CIDR6       , 2400:3200::1, 2400:3200:baba::1/64      # , no-resolve         
 
 
    # ======= 腾讯云 ======= #
@@ -30,8 +34,10 @@ payload:
    #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com                   
    #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com.cn                
     - DOMAIN-SUFFIX  , doh.pub                                 
-    - IP-CIDR        , 119.29.29.98/24                         # , no-resolve  
-    - IP-CIDR        , 119.29.29.99/24                         # , no-resolve                      
+    - IP-CIDR        , 119.29.29.98/32                         # , no-resolve  
+    - IP-CIDR        , 119.29.29.99/32                         # , no-resolve  
+    - IP-CIDR        , 119.29.29.90/32                         # , no-resolve  
+    - IP-CIDR        , 119.28.28.80/32                         # , no-resolve                    
 
 
    # ======= 百度云 ======= #
