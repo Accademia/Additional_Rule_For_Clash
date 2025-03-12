@@ -13,9 +13,8 @@ payload:
     - DOMAIN-SUFFIX , tracker.xiaohongshu.com          , REJECT-DROP                      #   # 
 
     - DOMAIN-KEYWORD, xiaohongshu               
-
-    - DOMAIN-SUFFIX , edith.xiaohongshu.com     
-    - DOMAIN-SUFFIX , www.xiaohongshu.com       
+   #- DOMAIN-SUFFIX , edith.xiaohongshu.com     
+   #- DOMAIN-SUFFIX , www.xiaohongshu.com       
 
    # 不建议使用以下IP，因为会与网易新闻客户端的IP有IP交叉
     - IP-CIDR       , 114.55.236.88/32                        #, no-resolve        

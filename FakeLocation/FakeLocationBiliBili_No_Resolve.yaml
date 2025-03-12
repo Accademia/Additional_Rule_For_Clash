@@ -6,53 +6,56 @@ payload:
 
    # 生效时间：立刻（留言），不间断后的两周（主页）
 
+    - DOMAIN-KEYWORD , app-analytics-services          , REJECT-DROP                  
 
-   # [HTTPDNS] 阿里 HTTP DNS（IP定位用）
-    - IP-CIDR        , 203.107.1.0/24                  , REJECT-DROP    , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
-   # [HTTPDNS] HTTP DNS  
+
+   # [HTTPDNS] HTTPDNS（Bilibili） 
     - IP-CIDR        , 47.101.175.206/32               , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 47.100.123.169/32               , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 120.46.169.234/32               , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 121.36.72.124/32                , REJECT-DROP    , no-resolve   
-   # [HTTPDNS] HTTP DNS (移动)    
+   # [HTTPDNS] HTTPDNS (移动)    
     - IP-CIDR        , 116.63.10.135/32                , REJECT-DROP    , no-resolve   
     - IP-CIDR        , 122.9.7.134/32                  , REJECT-DROP    , no-resolve   
     - IP-CIDR        , 117.185.228.108/32              , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 117.144.238.29/32               , REJECT-DROP    , no-resolve  
-   # [HTTPDNS] HTTP DNS (电信) 
+   # [HTTPDNS] HTTPDNS (电信) 
     - IP-CIDR        , 122.9.13.79/32                  , REJECT-DROP    , no-resolve   
     - IP-CIDR        , 122.9.15.129/32                 , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 101.91.140.224/32               , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 101.91.140.124/32               , REJECT-DROP    , no-resolve  
-   # [HTTPDNS] HTTP DNS (联通)   
+   # [HTTPDNS] HTTPDNS (联通)   
     - IP-CIDR        , 114.116.215.110/32              , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 116.63.10.31/32                 , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 112.64.218.119/32               , REJECT-DROP    , no-resolve  
     - IP-CIDR        , 112.65.200.117/32               , REJECT-DROP    , no-resolve  
-   # [HTTPDNS] Bilibili    
-    - DOMAIN-SUFFIX  , httpdns.bilivideo.com           , REJECT-DROP       
-
-    - DOMAIN-KEYWORD , app-analytics-services          , REJECT-DROP                      #   # 
-
-
-   # ----------- biliapi.net ----------- 
-    - DOMAIN         , api.biliapi.net
-    - DOMAIN         , grpc.biliapi.net
-   ##----------- biliapi.com ----------- 
-    - DOMAIN         , api.biliapi.com
-   ##---------- bilibili.com -----------
-    - DOMAIN         , api.vc.bilibili.com
-    - DOMAIN         , api.bilibili.com
-    - DOMAIN         , app.bilibili.com
-    - DOMAIN         , data.bilibili.com
-    - DOMAIN         , mall.bilibili.com
-    - DOMAIN         , message.bilibili.com
-    - DOMAIN         , passport.bilibili.com 
     
-   ##-------- Fake Geo API ----------                           
-   #- DOMAIN-SUFFIX  , biliapi.com                                      
-   #- DOMAIN-SUFFIX  , biliapi.net                                      
-   #- DOMAIN-SUFFIX  , biligame.com   
+     
+
+   # [HTTPDNS] Bilibili    
+    - DOMAIN-SUFFIX  , httpdns.bilivideo.com              
+   # [HTTPDNS] 阿里 HTTPDNS
+    - IP-CIDR        , 203.107.1.0/24                                  # , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！  
+
+ 
+   ##----------- biliapi.com -----------                        
+    - DOMAIN-SUFFIX  , biliapi.com       
+   #- DOMAIN         , api.biliapi.com
+   # ----------- biliapi.net -----------                               
+    - DOMAIN-SUFFIX  , biliapi.net          
+   #- DOMAIN         , api.biliapi.net
+   #- DOMAIN         , grpc.biliapi.net
+   ##---------- bilibili.com -----------                            
+    - DOMAIN-SUFFIX  , biligame.com   
+   #- DOMAIN         , api.vc.bilibili.com
+   #- DOMAIN         , api.bilibili.com
+   #- DOMAIN         , app.bilibili.com
+   #- DOMAIN         , data.bilibili.com
+   #- DOMAIN         , mall.bilibili.com
+   #- DOMAIN         , message.bilibili.com
+   #- DOMAIN         , passport.bilibili.com 
+    
+
 
    ##-------------- IP ---------------
    #- IP-CIDR        , 8.137.96.251/32                                  , no-resolve   
@@ -60,13 +63,12 @@ payload:
    #- IP-CIDR        , 8.140.61.243/32                                  , no-resolve     
    #- IP-CIDR        , 47.108.226.5/32                                  , no-resolve     
    ##-------------- IP ---------------
-   #- IP-CIDR        , 106.75.74.76/32                                  , no-resolve 
-   #- IP-CIDR        , 111.206.25.147/32                                , no-resolve   
-   #- IP-CIDR        , 119.3.238.64/32                                  , no-resolve   
-   #- IP-CIDR        , 120.92.108.182/32                                , no-resolve   
-   #- IP-CIDR        , 120.92.113.99/32                                 , no-resolve      
-   #- IP-CIDR        , 120.92.153.217/32                                , no-resolve      
-   #- IP-CIDR        , 134.175.207.130/32                               , no-resolve   
-
-
-
+    - IP-CIDR        , 106.75.74.76/32                                  , no-resolve 
+    - IP-CIDR        , 111.206.25.147/32                                , no-resolve   
+    - IP-CIDR        , 119.3.238.64/32                                  , no-resolve   
+    - IP-CIDR        , 120.92.108.182/32                                , no-resolve   
+    - IP-CIDR        , 120.92.113.99/32                                 , no-resolve      
+    - IP-CIDR        , 120.92.153.217/32                                , no-resolve      
+    - IP-CIDR        , 134.175.207.130/32                               , no-resolve   
+    - IP-CIDR        , 134.175.207.130/32                               , no-resolve 
+    - IP-CIDR        , 203.107.1.0/24                                   , no-resolve  

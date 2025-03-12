@@ -45,3 +45,9 @@
 #   FakeLocationTieBa                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationTieBa.yaml'                          , path:./ruleset/FakeLocationTieBa.yaml                      }
 #   FakeLocationDouBan                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationDouBan.yaml'                         , path:./ruleset/FakeLocationDouBan.yaml                     }
 #   FakeLocationXianYu                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationXianYu.yaml'                         , path:./ruleset/FakeLocationXianYu.yaml                     }
+#
+#
+#
+# 第三方规则参考
+# 参考1（anti-ip-attribution）：https://github.com/SunsetMkt/anti-ip-attribution/blob/main/rules.yaml
+# 参考2 (bilibili-rule) : https://github.com/elysias123/bilibili-rule/blob/main/bilibili.yaml
