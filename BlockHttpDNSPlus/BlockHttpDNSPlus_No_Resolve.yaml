@@ -13,9 +13,9 @@ payload:
     - DOMAIN-KEYWORD , https.dns                                                            # HTTPDNS
 
     - DOMAIN-SUFFIX  , dns.cn                                                               # CNNIC
-    - DOMAIN-SUFFIX  , dns.114dns.com                                                       # 114DNS
-    - DOMAIN-SUFFIX  , dot.114dns.com                                                       # 114DNS
-    - DOMAIN-SUFFIX  , doh.114dns.com                                                       # 114DNS
+    - DOMAIN-SUFFIX  , dns.114dns.com                                                       # 114
+    - DOMAIN-SUFFIX  , dot.114dns.com                                                       # 114
+    - DOMAIN-SUFFIX  , doh.114dns.com                                                       # 114
     - DOMAIN-SUFFIX  , dns.huawei.com                                                       # 华为
     - DOMAIN-SUFFIX  , doh.huawei.com                                                       # 华为
     - DOMAIN-SUFFIX  , dot.huawei.com                                                       # 华为
