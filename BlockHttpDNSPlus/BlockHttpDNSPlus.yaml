@@ -12,12 +12,16 @@ payload:
     - DOMAIN-KEYWORD , http.dns                                                             # HTTPDNS
     - DOMAIN-KEYWORD , https.dns                                                            # HTTPDNS
 
+    - DOMAIN-SUFFIX  , dns.cn                                                               # CNNIC
     - DOMAIN-SUFFIX  , dns.114dns.com                                                       # 114DNS
     - DOMAIN-SUFFIX  , dot.114dns.com                                                       # 114DNS
     - DOMAIN-SUFFIX  , doh.114dns.com                                                       # 114DNS
     - DOMAIN-SUFFIX  , dns.huawei.com                                                       # 华为
     - DOMAIN-SUFFIX  , doh.huawei.com                                                       # 华为
     - DOMAIN-SUFFIX  , dot.huawei.com                                                       # 华为
+    - DOMAIN-SUFFIX  , dns.huaweicloud.com                                                  # 华为云
+    - DOMAIN-SUFFIX  , doh.huaweicloud.com                                                  # 华为云
+    - DOMAIN-SUFFIX  , dot.huaweicloud.com                                                  # 华为云
     - DOMAIN-SUFFIX  , dns.mi.com                                                           # 小米
     - DOMAIN-SUFFIX  , doh.mi.com                                                           # 小米
     - DOMAIN-SUFFIX  , dot.mi.com                                                           # 小米
@@ -28,22 +32,35 @@ payload:
     - DOMAIN-SUFFIX  , doh.vivo.com                                                         # Vivo
     - DOMAIN-SUFFIX  , dot.vivo.com                                                         # Vivo
     - DOMAIN-SUFFIX  , dns.alicdn.com                                                       # 阿里云
+    - DOMAIN-SUFFIX  , doh.alicdn.com                                                       # 阿里云
+    - DOMAIN-SUFFIX  , dnt.alicdn.com                                                       # 阿里云
    #- DOMAIN-SUFFIX  , httpdns.aliyuncs.com                                                 # 阿里云 
    #- DOMAIN-SUFFIX  , httpdns-api.aliyuncs.com                                             # 阿里云 
    #- DOMAIN-SUFFIX  , httpdns-sc.aliyuncs.com                                              # 阿里云 
    #- DOMAIN-SUFFIX  , httpdns.alicdn.com                                                   # 阿里云  
    #- DOMAIN-SUFFIX  , httpdns.kg.qq.com                                                    # 腾讯云
    #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com                                                # 腾讯云
-   #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com.cn                                             # 腾讯云        
+   #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com.cn                                             # 腾讯云      
+    - DOMAIN-SUFFIX  , dns.pub                                                              # 腾讯云          
     - DOMAIN-SUFFIX  , doh.pub                                                              # 腾讯云
     - DOMAIN-SUFFIX  , dot.pub                                                              # 腾讯云
-    - DOMAIN-SUFFIX  , pdns.dnspod.cn                                                       # 腾讯云
-    - DOMAIN-SUFFIX  , doh.360.cn                                                           # 360
+    - DOMAIN-SUFFIX  , pdns.dnspod.cn                                                       # 腾讯云   
+    - DOMAIN-SUFFIX  , dns.dnspod.cn                                                        # 腾讯云  
+    - DOMAIN-SUFFIX  , doh.dnspod.cn                                                        # 腾讯云  
+    - DOMAIN-SUFFIX  , dot.dnspod.cn                                                        # 腾讯云    
+    - DOMAIN-SUFFIX  , dns.360.cn                                                           # 360    
+    - DOMAIN-SUFFIX  , doh.360.cn                                                           # 360    
+    - DOMAIN-SUFFIX  , dot.360.cn                                                           # 360
     - DOMAIN-SUFFIX  , zijieapi.com                                                         # 抖音
     - DOMAIN-SUFFIX  , dns.jd.com                                                           # 京东
+    - DOMAIN-SUFFIX  , doh.jd.com                                                           # 京东
+    - DOMAIN-SUFFIX  , dot.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , dns.weixin.qq.com                                                    # 微信
+    - DOMAIN-SUFFIX  , doh.weixin.qq.com                                                    # 微信
+    - DOMAIN-SUFFIX  , dot.weixin.qq.com                                                    # 微信
     - DOMAIN-SUFFIX  , dns.iqiyi.com                                                        # 爱奇艺
     - DOMAIN-SUFFIX  , doh.iqiyi.com                                                        # 爱奇艺
+    - DOMAIN-SUFFIX  , dot.iqiyi.com                                                        # 爱奇艺
    #- DOMAIN-SUFFIX  , httpdns.n.netease.com                                                # 网易                              
    #- DOMAIN-SUFFIX  , httpdns.music.163.com                                                # 网易                              
    #- DOMAIN-SUFFIX  , lofter.httpdns.c.163.com                                             # 网易                              
@@ -52,6 +69,9 @@ payload:
     - DOMAIN-SUFFIX  , dns.onedns.net                                                       # OneDNS
     - DOMAIN-SUFFIX  , doh.onedns.net                                                       # OneDNS
     - DOMAIN-SUFFIX  , dot.onedns.net                                                       # OneDNS
+    - DOMAIN-SUFFIX  , dns.sdns.cn                                                          # SDNS
+    - DOMAIN-SUFFIX  , doh.sdns.cn                                                          # SDNS
+    - DOMAIN-SUFFIX  , dot.sdns.cn                                                          # SDNS
 
 
     - IP-CIDR        , 114.114.114.114/32                              # , no-resolve       # 114DNS
