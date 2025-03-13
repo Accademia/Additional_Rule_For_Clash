@@ -34,10 +34,15 @@ payload:
    #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com                   
    #- DOMAIN-SUFFIX  , httpdns.weixin.qq.com.cn                
     - DOMAIN-SUFFIX  , doh.pub                                 
-    - IP-CIDR        , 119.29.29.98/32                         # , no-resolve  
-    - IP-CIDR        , 119.29.29.99/32                         # , no-resolve  
-    - IP-CIDR        , 119.29.29.90/32                         # , no-resolve  
-    - IP-CIDR        , 119.28.28.80/32                         # , no-resolve                    
+    - DOMAIN-SUFFIX  , dot.pub               
+    - DOMAIN-SUFFIX  , pdns.dnspod.cn             
+    - IP-CIDR        , 119.29.29.0/24                          # , no-resolve  
+   #- IP-CIDR        , 119.29.29.98/32                         # , no-resolve  
+   #- IP-CIDR        , 119.29.29.99/32                         # , no-resolve  
+   #- IP-CIDR        , 119.29.29.90/32                         # , no-resolve  
+    - IP-CIDR        , 119.28.28.0/24                          # , no-resolve    
+   #- IP-CIDR        , 119.28.28.80/32                         # , no-resolve           
+    - IP-CIDR6       , 2402:4e00::/64                            , no-resolve                  
 
 
    # ======= 百度云 ======= #
