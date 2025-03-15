@@ -11,9 +11,9 @@
 
 # 引用范例：
 #
-#    NoLogsDNS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/NoLogsDNS/NoLogsDNS_No_Resolve.yaml'                   , path: ./ruleset/NoLogsDNS_No_Resolve.yaml   }
+#    GlobalDNS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GlobalDNS/GlobalDNS_No_Resolve.yaml'                   , path: ./ruleset/GlobalDNS_No_Resolve.yaml   }
 #
-#    NoLogsDNS                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/NoLogsDNS/NoLogsDNS.yaml'                              , path: ./ruleset/NoLogsDNS.yaml              }
+#    GlobalDNS                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GlobalDNS/GlobalDNS.yaml'                              , path: ./ruleset/GlobalDNS.yaml              }
 #
 
 
