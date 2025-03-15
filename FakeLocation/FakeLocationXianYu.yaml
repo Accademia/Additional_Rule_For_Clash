@@ -15,6 +15,8 @@ payload:
     - DOMAIN-KEYWORD, httpsdns                                   , REJECT-DROP                   
     - DOMAIN-KEYWORD, app-analytics-services                     , REJECT-DROP                                      # 
  
+    - DOMAIN        , dns.alidns.com                             , REJECT-DROP   
+
    #- DOMAIN-SUFFIX , og.aliyuncs.com                            , REJECT-DROP                                       # 
    #- DOMAIN-SUFFIX , toblog.ctobsnssdk.com                      , REJECT-DROP                                       # 
    #- DOMAIN-SUFFIX , log-api.pangolin-sdk-toutiao.com           , REJECT-DROP                                       # 
