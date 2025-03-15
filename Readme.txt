@@ -86,9 +86,9 @@
 
 + PreRepairEasyPrivacy	：（安全类分流规则）对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ NoLogsDNS		：（安全类分流规则）可信的无用户隐私泄漏的DNS分流规则
++ GlobalDNS		：（安全类分流规则）全球DNS分流规则 ，（仅包含：可信的、无用户隐私泄漏的 DNS）
 
-+ BlockHttpDNSPlus	：（安全类分流规则）反私有DNS（用户IP位置泄漏） Clash分流规则
++ ChinalDNS		：（安全类分流规则）中国大陆 DNS分流规则（仅包含：中国大陆DNS，被GFW污染的DNS）
 
 + HijackingPlus		：（安全类分流规则）反有害网站（主要针对反诈非法监控用户） Clash分流规则 （未来会包括哄蒙非法监听用户的规则）
 
