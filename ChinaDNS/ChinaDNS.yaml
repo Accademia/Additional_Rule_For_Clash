@@ -55,7 +55,11 @@ payload:
     - DOMAIN-SUFFIX  , dns.360.cn                                                           # 360    
     - DOMAIN-SUFFIX  , doh.360.cn                                                           # 360    
     - DOMAIN-SUFFIX  , dot.360.cn                                                           # 360  
-    - DOMAIN-SUFFIX  , httpdns.360.cn                                                       # 360    
+    - DOMAIN-SUFFIX  , httpdns.360.cn                                                       # 360      
+    - DOMAIN-SUFFIX  , dns.360.net                                                          # 360    
+    - DOMAIN-SUFFIX  , doh.360.net                                                          # 360    
+    - DOMAIN-SUFFIX  , dot.360.net                                                          # 360  
+    - DOMAIN-SUFFIX  , httpdns.360.net                                                      # 360 
     - DOMAIN-SUFFIX  , zijieapi.com                                                         # 抖音
     - DOMAIN-SUFFIX  , dns.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , doh.jd.com                                                           # 京东
@@ -170,6 +174,8 @@ payload:
 
     - IP-CIDR6       , 2001:dc7:1000::1/64                             # , no-resolve       # CNNIC
     - IP-CIDR6       , 2001:dc7:1000::2/64                             # , no-resolve       # CNNIC
+    - IP-CIDR6       , 240c::6666/64                                   # , no-resolve       # CFIEC Public DNS
+    - IP-CIDR6       , 240c::6644/64                                   # , no-resolve       # CFIEC Public DNS
     - IP-CIDR6       , 2400:3200::1/64                                 # , no-resolve       # 阿里云
     - IP-CIDR6       , 2400:3200:baba::1/64                            # , no-resolve       # 阿里云
     - IP-CIDR6       , 2402:4e00::/64                                  # , no-resolve       # 腾讯云
