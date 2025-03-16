@@ -90,10 +90,10 @@ payload:
     - DOMAIN-SUFFIX  , doh.onedns.net                                                       # OneDNS
     - DOMAIN-SUFFIX  , dot.onedns.net                                                       # OneDNS
     - DOMAIN-SUFFIX  , httpdns.onedns.net                                                   # OneDNS
-    - DOMAIN-SUFFIX  , dns.sdns.cn                                                          # SDNS
-    - DOMAIN-SUFFIX  , doh.sdns.cn                                                          # SDNS
-    - DOMAIN-SUFFIX  , dot.sdns.cn                                                          # SDNS
-    - DOMAIN-SUFFIX  , httpdns.sdns.cn                                                      # SDNS
+    - DOMAIN-SUFFIX  , dns.sdns.cn                                                          # SDNS - CNNIC
+    - DOMAIN-SUFFIX  , doh.sdns.cn                                                          # SDNS - CNNIC
+    - DOMAIN-SUFFIX  , dot.sdns.cn                                                          # SDNS - CNNIC
+    - DOMAIN-SUFFIX  , httpdns.sdns.cn                                                      # SDNS - CNNIC
     - DOMAIN-SUFFIX  , dns.bilibili.com                                                     # Bilibili
     - DOMAIN-SUFFIX  , doh.bilibili.com                                                     # Bilibili
     - DOMAIN-SUFFIX  , dot.bilibili.com                                                     # Bilibili
