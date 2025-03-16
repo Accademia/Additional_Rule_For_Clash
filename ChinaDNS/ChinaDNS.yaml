@@ -86,6 +86,14 @@ payload:
     - DOMAIN-SUFFIX  , doh.sdns.cn                                                          # SDNS
     - DOMAIN-SUFFIX  , dot.sdns.cn                                                          # SDNS
     - DOMAIN-SUFFIX  , httpdns.sdns.cn                                                      # SDNS
+    - DOMAIN-SUFFIX  , dns.bilibili.com                                                     # Bilibili
+    - DOMAIN-SUFFIX  , doh.bilibili.com                                                     # Bilibili
+    - DOMAIN-SUFFIX  , dot.bilibili.com                                                     # Bilibili
+    - DOMAIN-SUFFIX  , httpdns.bilibili.com                                                 # Bilibili
+    - DOMAIN-SUFFIX  , dns.bilivideo.com                                                    # BiliVideo
+    - DOMAIN-SUFFIX  , doh.bilivideo.com                                                    # BiliVideo
+    - DOMAIN-SUFFIX  , dot.bilivideo.com                                                    # BiliVideo
+    - DOMAIN-SUFFIX  , httpdns.bilivideo.com                                                # BiliVideo
 
 
     - IP-CIDR        , 114.114.114.114/32                              # , no-resolve       # 114DNS

@@ -39,22 +39,19 @@ payload:
     - IP-CIDR        , 203.107.1.0/24                  , REJECT-DROP   # , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
 
 
-   ##----------- biliapi.com -----------                        
-    - DOMAIN-SUFFIX  , biliapi.com       
-   #- DOMAIN         , api.biliapi.com
    # ----------- biliapi.net -----------                               
-    - DOMAIN-SUFFIX  , biliapi.net          
-   #- DOMAIN         , api.biliapi.net
-   #- DOMAIN         , grpc.biliapi.net
+   #- DOMAIN-SUFFIX  , biliapi.net          
+    - DOMAIN         , api.biliapi.net
+    - DOMAIN         , grpc.biliapi.net
    ##---------- bilibili.com -----------                            
-    - DOMAIN-SUFFIX  , biligame.com   
-   #- DOMAIN         , api.vc.bilibili.com
-   #- DOMAIN         , api.bilibili.com
-   #- DOMAIN         , app.bilibili.com
-   #- DOMAIN         , data.bilibili.com
-   #- DOMAIN         , mall.bilibili.com
-   #- DOMAIN         , message.bilibili.com
-   #- DOMAIN         , passport.bilibili.com 
+   #- DOMAIN-SUFFIX  , bilibili.com    
+    - DOMAIN         , api.vc.bilibili.com
+    - DOMAIN         , api.bilibili.com
+    - DOMAIN         , app.bilibili.com
+    - DOMAIN         , data.bilibili.com
+    - DOMAIN         , mall.bilibili.com
+    - DOMAIN         , message.bilibili.com
+    - DOMAIN         , passport.bilibili.com
     
 
 
