@@ -35,6 +35,7 @@ payload:
    # [HTTPDNS] Bilibili    
     - DOMAIN-SUFFIX  , httpdns.bilivideo.com           , REJECT-DROP              
    # [HTTPDNS] 阿里 HTTPDNS
+    - DOMAIN-SUFFIX  , httpdns.aliyuncs.com            , REJECT-DROP  
     - IP-CIDR        , 203.107.1.0/24                  , REJECT-DROP   # , no-resolve            # 注意！这里已经屏蔽 阿里HTTPDNS！！！！！！！      
 
 
