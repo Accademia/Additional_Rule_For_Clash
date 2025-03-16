@@ -72,6 +72,14 @@ payload:
     - DOMAIN-SUFFIX  , doh.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , dot.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , httpdns.jd.com                                                       # 京东
+    - DOMAIN-SUFFIX  , dns.qq.com                                                           # QQ
+    - DOMAIN-SUFFIX  , doh.qq.com                                                           # QQ
+    - DOMAIN-SUFFIX  , dot.qq.com                                                           # QQ
+    - DOMAIN-SUFFIX  , httpdns.qq.com                                                       # QQ
+    - DOMAIN-SUFFIX  , dns.wechat.com                                                       # WeChat
+    - DOMAIN-SUFFIX  , doh.wechat.com                                                       # WeChat
+    - DOMAIN-SUFFIX  , dot.wechat.com                                                       # WeChat
+    - DOMAIN-SUFFIX  , httpdns.wechat.com                                                   # WeChat
     - DOMAIN-SUFFIX  , dns.weixin.qq.com                                                    # 微信
     - DOMAIN-SUFFIX  , doh.weixin.qq.com                                                    # 微信
     - DOMAIN-SUFFIX  , dot.weixin.qq.com                                                    # 微信
