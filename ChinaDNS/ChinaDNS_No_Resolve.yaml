@@ -68,7 +68,6 @@ payload:
     - DOMAIN-SUFFIX  , doh.360.net                                                          # 360    
     - DOMAIN-SUFFIX  , dot.360.net                                                          # 360  
     - DOMAIN-SUFFIX  , httpdns.360.net                                                      # 360 
-    - DOMAIN-SUFFIX  , zijieapi.com                                                         # 抖音
     - DOMAIN-SUFFIX  , dns.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , doh.jd.com                                                           # 京东
     - DOMAIN-SUFFIX  , dot.jd.com                                                           # 京东
