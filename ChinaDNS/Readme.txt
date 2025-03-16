@@ -9,10 +9,6 @@
 #	 2. 都100%存在隐私泄漏风险
 #
 
-# 使用说明：
-#	建议与如下规则一起使用：(本规则，可作为如下规则的补充)
-#	https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlockHttpDNS
-
 
 # 引用范例：
 #
