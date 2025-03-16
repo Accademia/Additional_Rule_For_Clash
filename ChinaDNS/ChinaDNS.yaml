@@ -104,8 +104,14 @@ payload:
     - DOMAIN-SUFFIX  , httpdns.bilivideo.com                                                # BiliVideo
 
 
-    - IP-CIDR        , 114.114.114.114/32                              # , no-resolve       # 114DNS
-    - IP-CIDR        , 115.115.115.115/32                              # , no-resolve       # 114DNS
+    - IP-CIDR        , 114.114.114.0/24                                # , no-resolve       # 114DNS
+   #- IP-CIDR        , 114.114.114.114/32                              # , no-resolve       # 114DNS
+   #- IP-CIDR        , 114.114.114.119/32                              # , no-resolve       # 114DNS
+   #- IP-CIDR        , 114.114.114.110/32                              # , no-resolve       # 114DNS
+    - IP-CIDR        , 114.114.115.0/24                                # , no-resolve       # 114DNS
+   #- IP-CIDR        , 115.115.115.115/32                              # , no-resolve       # 114DNS
+   #- IP-CIDR        , 114.114.115.119/32                              # , no-resolve       # 114DNS
+   #- IP-CIDR        , 114.114.115.110/32                              # , no-resolve       # 114DNS
     - IP-CIDR        , 1.2.4.8/32                                      # , no-resolve       # CNNIC
     - IP-CIDR        , 202.98.0.68/32                                  # , no-resolve       # CNNIC
     - IP-CIDR        , 203.107.1.0/24                                  # , no-resolve       # 阿里云
