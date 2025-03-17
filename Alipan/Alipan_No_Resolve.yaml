@@ -1,67 +1,16 @@
 payload:
-
-    - DOMAIN-SUFFIX , aliyun.com              
-    - DOMAIN-SUFFIX , aliyundrive.com           
-    - DOMAIN-KEYWORD, aliyun                  
-    - DOMAIN-KEYWORD, aliyundrive             
-    - DOMAIN-KEYWORD, yunpan                     
-    - DOMAIN-KEYWORD, alipan                     
+                           
+    - DOMAIN-SUFFIX , aliyundrive.com       
+    - DOMAIN-SUFFIX , alipan.com       
+    - DOMAIN-SUFFIX , alicdn.com
 
     - DOMAIN-SUFFIX , bj29.cn-beijing.data.alicloudccp.com
+    - DOMAIN-SUFFIX , arms-retcode.aliyuncs.com
+    - DOMAIN-SUFFIX , fourier.alibaba.com
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - DOMAIN-SUFFIX , unpm-upaas.uc.cn
+    - DOMAIN-SUFFIX , userver-upaas.uc.cn 
+                    
 
 
 
