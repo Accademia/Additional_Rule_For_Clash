@@ -98,13 +98,15 @@
 
 + Alipan		: 阿里云盘 Clash分流规则 
 
-+ RustDesk		: （远程控制、云桌面）RustDesk Clash分流规则
++ BaiduNetDisk		: 百度网盘 Clash分流规则 
 
-+ Parsec		: （远程控制、云桌面）Parsec Clash分流规则
++ RustDesk		:（远程控制、云桌面）RustDesk Clash分流规则
 
-+ Triller		: （美国短视频平台）Triller Clash分流规则
++ Parsec		:（远程控制、云桌面）Parsec Clash分流规则
 
-+ Signal		: （端到端加密即时通信软件）Signal Clash分流规则
++ Triller		:（美国短视频平台）Triller Clash分流规则
+
++ Signal		:（端到端加密即时通信软件）Signal Clash分流规则
 
 
 
