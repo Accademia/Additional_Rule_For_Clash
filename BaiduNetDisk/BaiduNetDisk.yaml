@@ -1,0 +1,25 @@
+payload:
+
+    - DOMAIN-SUFFIX , httpsdns.baidu.com                , REJECT-DROP
+
+    - DOMAIN-SUFFIX , diskapi.baidu.com
+
+    - DOMAIN-SUFFIX , pan.baidu.com
+   #- DOMAIN-SUFFIX , socket.pan.baidu.com
+   #- DOMAIN-SUFFIX , update.pan.baidu.com
+   #- DOMAIN-SUFFIX , webpush.pan.baidu.com
+
+    - DOMAIN-SUFFIX , baidupcs.com
+   #- DOMAIN-SUFFIX , bddwd-cu01.baidupcs.com
+   #- DOMAIN-SUFFIX , yq01-cu01.baidupcs.com
+   #- DOMAIN-SUFFIX , allall02.baidupcs.com
+   #- DOMAIN-SUFFIX , bddx-ct01-2.baidupcs.com
+   #- DOMAIN-SUFFIX , xafj-cu11.baidupcs.com
+
+    - DOMAIN-SUFFIX , mbd.baidu.com
+    - DOMAIN-SUFFIX , hm.baidu.com
+    - DOMAIN-SUFFIX , himg.bdimg.com
+    - DOMAIN-SUFFIX , d.pcs.baidu.com
+    
+    - DOMAIN-SUFFIX , ss0.bdstatic.com
+    
