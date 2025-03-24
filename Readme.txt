@@ -100,6 +100,8 @@
 
 + BaiduNetDisk		: 百度网盘 Clash分流规则 
 
++ WeiYun		: 腾讯微云 Clash分流规则 
+
 + RustDesk		:（远程控制、云桌面）RustDesk Clash分流规则
 
 + Parsec		:（远程控制、云桌面）Parsec Clash分流规则
