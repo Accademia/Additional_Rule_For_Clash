@@ -1,9 +1,0 @@
-payload:
-
-    - DOMAIN-KEYWORD , httpdns               
-    - DOMAIN-KEYWORD , http.dns                
-    - DOMAIN-KEYWORD , http-dns             
-
-    - DOMAIN-KEYWORD , httpsdns               
-    - DOMAIN-KEYWORD , https.dns              
-    - DOMAIN-KEYWORD , https-dns               
