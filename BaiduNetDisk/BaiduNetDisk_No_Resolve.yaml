@@ -4,6 +4,8 @@ payload:
 
     - DOMAIN-SUFFIX , diskapi.baidu.com
 
+    - DOMAIN-SUFFIX , netdisk.baidu.com
+
     - DOMAIN-SUFFIX , pan.baidu.com
    #- DOMAIN-SUFFIX , socket.pan.baidu.com
    #- DOMAIN-SUFFIX , update.pan.baidu.com
@@ -16,6 +18,16 @@ payload:
    #- DOMAIN-SUFFIX , bddx-ct01-2.baidupcs.com
    #- DOMAIN-SUFFIX , xafj-cu11.baidupcs.com
 
+    - DOMAIN-SUFFIX , wangpan.lcs.baidu.com
+    - DOMAIN-SUFFIX , panpic.baidu.com
+
+    - DOMAIN-SUFFIX , sofire.baidu.com
+    - DOMAIN-SUFFIX , gips1.baidu.com
+    - DOMAIN-SUFFIX , afd.baidu.com
+    - DOMAIN-SUFFIX , als.baidu.com
+    - DOMAIN-SUFFIX , hmma.baidu.com
+    - DOMAIN-SUFFIX , h2tcbox.baidu.com
+
     - DOMAIN-SUFFIX , mbd.baidu.com
     - DOMAIN-SUFFIX , hm.baidu.com
     - DOMAIN-SUFFIX , himg.bdimg.com
@@ -23,3 +35,4 @@ payload:
     
     - DOMAIN-SUFFIX , ss0.bdstatic.com
     
+    - DOMAIN-SUFFIX , fyb-2.cdn.bcebos.com
