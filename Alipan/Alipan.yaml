@@ -2,11 +2,12 @@ payload:
 
     - DOMAIN-SUFFIX , httpdns.aliyun.com                , REJECT-DROP
     - DOMAIN-SUFFIX , httpdns.console.aliyun.com        , REJECT-DROP
-    
-    - DOMAIN-SUFFIX , httpdns.alicdn.com                , REJECT-DROP                                    
+                                    
     - DOMAIN-SUFFIX , httpdns.aliyuncs.com              , REJECT-DROP                                     
     - DOMAIN-SUFFIX , httpdns-api.aliyuncs.com          , REJECT-DROP                                     
-    - DOMAIN-SUFFIX , httpdns-sc.aliyuncs.com           , REJECT-DROP                                     
+    - DOMAIN-SUFFIX , httpdns-sc.aliyuncs.com           , REJECT-DROP     
+
+    - DOMAIN-SUFFIX , httpdns.alicdn.com                , REJECT-DROP                                    
                                     
     - DOMAIN-SUFFIX , aliyundrive.com    
    #- DOMAIN-SUFFIX , api.aliyundrive.com   
@@ -23,6 +24,7 @@ payload:
     - DOMAIN-SUFFIX , oss-enet.aliyuncs.com
 
     - DOMAIN-SUFFIX , data.alicloudccp.com
+    
     - DOMAIN-SUFFIX , fourier.alibaba.com
 
     - DOMAIN-SUFFIX , unpm-upaas.uc.cn
