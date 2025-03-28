@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+*.bat linguist-language=Batchfile
+*.cmd linguist-language=Batchfile
+.DS_Store
