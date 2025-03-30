@@ -9,37 +9,37 @@ payload:
 
    # ⚠️⚠️⚠️ 注意：请不要在Stash中，使用仅 “仅使用Tunnel代理”，不然会导致 “IP归属地” 修改失败
 
-    - DOMAIN-KEYWORD, httpdns                   , REJECT-DROP       
-    - DOMAIN-KEYWORD, httpsdns                  , REJECT-DROP       
-    - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
+    - DOMAIN-KEYWORD , httpdns                   , REJECT-DROP       
+    - DOMAIN-KEYWORD , httpsdns                  , REJECT-DROP       
+    - DOMAIN-KEYWORD , app-analytics-services    , REJECT-DROP                      #   # 
  
  
 
    # APP-API  
-    - DOMAIN-KEYWORD, core-c-lq
-    - DOMAIN-KEYWORD, core-lq
-    - DOMAIN-KEYWORD, normal-c-lq
-    - DOMAIN-KEYWORD, normal-lq
-    - DOMAIN-KEYWORD, search-quic-lq
-    - DOMAIN-KEYWORD, search-lq
+    - DOMAIN-KEYWORD , core-c-lq
+    - DOMAIN-KEYWORD , core-lq
+    - DOMAIN-KEYWORD , normal-c-lq
+    - DOMAIN-KEYWORD , normal-lq
+    - DOMAIN-KEYWORD , search-quic-lq
+    - DOMAIN-KEYWORD , search-lq
 
-    - DOMAIN-SUFFIX , zijieapi.com              , DIRECT
-    - DOMAIN-SUFFIX , ecombdapi.com             , DIRECT
+    - DOMAIN-SUFFIX  , zijieapi.com              , DIRECT
+    - DOMAIN-SUFFIX  , ecombdapi.com             , DIRECT
 
-    - DOMAIN-KEYWORD, -normal-hl
-    - DOMAIN-KEYWORD, -normal-c-hl
-    - DOMAIN-KEYWORD, -core-c-hl
-    - DOMAIN-KEYWORD, -normal-lf
-    - DOMAIN-KEYWORD, -normal-c-lf
-    - DOMAIN-KEYWORD, -core-c-lf      
+    - DOMAIN-KEYWORD , -normal-hl
+    - DOMAIN-KEYWORD , -normal-c-hl
+    - DOMAIN-KEYWORD , -core-c-hl
+    - DOMAIN-KEYWORD , -normal-lf
+    - DOMAIN-KEYWORD , -normal-c-lf
+    - DOMAIN-KEYWORD , -core-c-lf      
     
 
 
 
    # Web-API
-    - DOMAIN        , sso.douyin.com               
-    - DOMAIN        , www.douyin.com               
+    - DOMAIN         , sso.douyin.com               
+    - DOMAIN         , www.douyin.com               
     
-    - DOMAIN-SUFFIX , snssdk.com                   
+    - DOMAIN-SUFFIX  , snssdk.com                   
 
 

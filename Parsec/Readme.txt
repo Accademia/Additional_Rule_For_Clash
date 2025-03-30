@@ -9,6 +9,9 @@
 #
 # 引用范例 ：
 #
-#    Parsec_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Parsec/Parsec_No_Resolve.yaml'                                   , path: ./ruleset/Parsec_No_Resolve.yaml                    }      
+#    Parsec_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Parsec/Parsec_No_Resolve.yaml'                                   , path: ./ruleset/Parsec_No_Resolve.yaml                    }      
 #            
-#    Parsec                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Parsec/Parsec.yaml'                                              , path: ./ruleset/Parsec.yaml                               }       
+#    Parsec                              : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Parsec/Parsec.yaml'                                              , path: ./ruleset/Parsec.yaml                               }       
+#
+#    Parsec_Domain                       : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Parsec/Parsec_Domain.yaml'                                       , path: ./ruleset/Parsec_Doamin.yaml                        }      
+#            

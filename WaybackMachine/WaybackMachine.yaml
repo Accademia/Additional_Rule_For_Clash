@@ -1,13 +1,13 @@
 payload:
 
-    - DOMAIN-SUFFIX , archive.org           
-                    
-    - IP-CIDR       , 207.241.224.0/20             #, no-resolve    # 207.241.224.2 到 207.241.239.245 的CIDR表达
-    - IP-CIDR       , 208.70.24.0/21               #, no-resolve    # 208.70.24.132 到 208.70.31.253   的CIDR表达
-                    
-    - IP-CIDR       , 149.20.65.4/24               #, no-resolve    
-    - IP-CIDR       , 142.104.123.50/24            #, no-resolve    
-    - IP-CIDR       , 184.105.203.169/24           #, no-resolve    
-                    
-    - IP-CIDR       , 165.22.30.252/32             #, no-resolve    
+    - DOMAIN-SUFFIX  , archive.org           
+                     
+    - IP-CIDR        , 207.241.224.0/20             #, no-resolve    # 207.241.224.2 到 207.241.239.245 的CIDR表达
+    - IP-CIDR        , 208.70.24.0/21               #, no-resolve    # 208.70.24.132 到 208.70.31.253   的CIDR表达
+                     
+    - IP-CIDR        , 149.20.65.4/24               #, no-resolve    
+    - IP-CIDR        , 142.104.123.50/24            #, no-resolve    
+    - IP-CIDR        , 184.105.203.169/24           #, no-resolve    
+                     
+    - IP-CIDR        , 165.22.30.252/32             #, no-resolve    
 

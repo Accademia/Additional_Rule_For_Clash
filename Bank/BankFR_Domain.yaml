@@ -1,0 +1,24 @@
+payload:
+
+
+   # -----------------------------------------------
+   # [银行]：法国银行   [Default : FR  ] 
+   # -----------------------------------------------
+   
+    - '+.bnpparibas.com'            # BNP Paribas                             
+    - '+.societegenerale.com'       # Société Générale                       
+    - '+.groupebpce.com'            # Groupe BPCE                          
+    - '+.natixis.com'               # Natixis           
+   
+   #- '+.                          #     
+   
+    - '+.credit-agricole.fr'        # Crédit Agricole                           
+    - '+.creditmutuel.fr'           # Crédit Mutuel                           
+    - '+.labanquepostale.fr'        # La Banque Postale                         
+    - '+.caisse-epargne.fr'         # Caisse d'Épargne         
+    - '+.banquepopulaire.fr'        # Banque Populaire                   
+    - '+.cic.fr'                    # Crédit Industriel et Commercial (CIC)   
+   
+   #- '+.                          #
+                     
+                     

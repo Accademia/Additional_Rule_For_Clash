@@ -1,0 +1,21 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：日本银行    [Default : JP ]  
+   # -----------------------------------------------
+   
+    - '+.mufg.jp'                   # 三菱UFJ銀行 (MUFG Bank)                                         
+    - '+.smbc.co.jp'                # 三井住友銀行 (Sumitomo Mitsui Banking Corporation)               
+    - '+.mizuhobank.co.jp'          # みずほ銀行 (Mizuho Bank)                                        
+    - '+.resona-gr.co.jp'           # りそな銀行 (Resona Bank)                                        
+    - '+.jibunbank.co.jp'           # じぶん銀行 (Jibun Bank)                                         
+    - '+.mizuhobank.co.jp'          # みずほ信託銀行 (Mizuho Trust & Banking)                          
+    - '+.japannetbank.co.jp'        # ジャパンネット銀行 (Japan Net Bank)                              
+    - '+.jp-bank.japanpost.jp'      # ゆうちょ銀行 (Japan Post Bank)                                   
+    - '+.resona-gr.co.jp'           # りそなホールディングス (Resona Holdings)                          
+    - '+.mufg.jp'                   # 三菱UFJフィナンシャル・グループ (Mitsubishi UFJ Financial Group)  
+    
+   #- '+.                          #         
+                   
+
+

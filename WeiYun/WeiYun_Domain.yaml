@@ -1,0 +1,14 @@
+payload:
+
+  - '+.weiyun.com'
+ #- '+.tic-download.weiyun.com'
+
+  - '+.imgcache.qq.com'
+  - '+.aegis.qq.com'
+
+  - '+.tianshu.gtimg.cn'
+  - '+.qzonestyle.gtimg.cn'
+
+  - '+.jsonschema.gpic.cn'
+
+  - '+.imgcache.aq.com'

@@ -1,0 +1,42 @@
+payload:
+
+   # HttpDNS
+   
+    - '+.httpsdns.baidu.com'   
+
+   # 规则 
+
+    - '+.diskapi.baidu.com'
+
+    - '+.netdisk.baidu.com'
+
+    - '+.pan.baidu.com'
+   #- '+.socket.pan.baidu.com'
+   #- '+.update.pan.baidu.com'
+   #- '+.webpush.pan.baidu.com'
+
+    - '+.baidupcs.com'
+   #- '+.bddwd-cu01.baidupcs.com'
+   #- '+.yq01-cu01.baidupcs.com'
+   #- '+.allall02.baidupcs.com'
+   #- '+.bddx-ct01-2.baidupcs.com'
+   #- '+.xafj-cu11.baidupcs.com'
+
+    - '+.wangpan.lcs.baidu.com'
+    - '+.panpic.baidu.com'
+
+    - '+.sofire.baidu.com'
+    - '+.gips1.baidu.com'
+    - '+.afd.baidu.com'
+    - '+.als.baidu.com'
+    - '+.hmma.baidu.com'
+    - '+.h2tcbox.baidu.com'
+
+    - '+.mbd.baidu.com'
+    - '+.hm.baidu.com'
+    - '+.himg.bdimg.com'
+    - '+.d.pcs.baidu.com'
+    
+    - '+.ss0.bdstatic.com'
+    
+    - '+.fyb-2.cdn.bcebos.com'

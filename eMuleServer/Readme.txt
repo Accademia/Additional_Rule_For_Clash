@@ -17,4 +17,5 @@
 #
 #   eMuleServer                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/eMuleServer/eMuleServer.yaml'                                    , path: ./ruleset/eMuleServer.yaml             }
 #
-                                             
+#   eMuleServer_IP                      : {type: http, behavior: ipcidr   , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/eMuleServer/eMuleServer_IP.yaml'                                 , path: ./ruleset/eMuleServer_IP.yaml          }
+#                                             

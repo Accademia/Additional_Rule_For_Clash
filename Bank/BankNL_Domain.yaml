@@ -1,0 +1,21 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：荷兰银行   [Default : NL  ]
+   # -----------------------------------------------
+   
+    - '+.abnamro.com'                # ABN AMRO Bank      
+    - '+.rabobank.com'               # Rabobank           
+    - '+.ing.com'                    # ING Bank           
+    - '+.nibc.com'                   # NIBC Bank          
+    - '+.triodos.com'                # Triodos Bank       
+    - '+.vanlanschotkempen.com'      # Van Lanschot Kempen
+    - '+.leaseplan.com'              # LeasePlan Bank    
+   
+   #- '+.                           #
+   
+    - '+.devolksbank.nl'             # de Volksbank     
+    - '+.bankofscotland.nl'          # Bank of Scotland   
+    - '+.bngbank.nl'                 # BNG Bank           
+   
+   #- '+.                           #

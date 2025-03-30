@@ -1,34 +1,38 @@
 payload:
 
-    - DOMAIN-SUFFIX , httpdns.aliyun.com                , REJECT-DROP
-    - DOMAIN-SUFFIX , httpdns.console.aliyun.com        , REJECT-DROP
-                                    
-    - DOMAIN-SUFFIX , httpdns.aliyuncs.com              , REJECT-DROP                                     
-    - DOMAIN-SUFFIX , httpdns-api.aliyuncs.com          , REJECT-DROP                                     
-    - DOMAIN-SUFFIX , httpdns-sc.aliyuncs.com           , REJECT-DROP     
+   # HttpDNS
 
-    - DOMAIN-SUFFIX , httpdns.alicdn.com                , REJECT-DROP                                    
-                                    
-    - DOMAIN-SUFFIX , aliyundrive.com    
-   #- DOMAIN-SUFFIX , api.aliyundrive.com   
+    - DOMAIN-SUFFIX  , httpdns.aliyun.com                , REJECT-DROP
+    - DOMAIN-SUFFIX  , httpdns.console.aliyun.com        , REJECT-DROP
+                                     
+    - DOMAIN-SUFFIX  , httpdns.aliyuncs.com              , REJECT-DROP                                     
+    - DOMAIN-SUFFIX  , httpdns-api.aliyuncs.com          , REJECT-DROP                                     
+    - DOMAIN-SUFFIX  , httpdns-sc.aliyuncs.com           , REJECT-DROP     
 
-    - DOMAIN-SUFFIX , aliyundrive.net
-   #- DOMAIN-SUFFIX , data.aliyundrive.net
-   #- DOMAIN-SUFFIX , page.aliyundrive.net
+    - DOMAIN-SUFFIX  , httpdns.alicdn.com                , REJECT-DROP                                    
+                                                       
+   # 规则  
+      
+    - DOMAIN-SUFFIX  , aliyundrive.com    
+   #- DOMAIN-SUFFIX  , api.aliyundrive.com   
 
-    - DOMAIN-SUFFIX , alipan.com       
-    - DOMAIN-SUFFIX , alicdn.com
+    - DOMAIN-SUFFIX  , aliyundrive.net
+   #- DOMAIN-SUFFIX  , data.aliyundrive.net
+   #- DOMAIN-SUFFIX  , page.aliyundrive.net
 
-    - DOMAIN-SUFFIX , beacon-api.aliyuncs.com
-    - DOMAIN-SUFFIX , arms-retcode.aliyuncs.com
-    - DOMAIN-SUFFIX , oss-enet.aliyuncs.com
+    - DOMAIN-SUFFIX  , alipan.com       
+    - DOMAIN-SUFFIX  , alicdn.com
 
-    - DOMAIN-SUFFIX , data.alicloudccp.com
+    - DOMAIN-SUFFIX  , beacon-api.aliyuncs.com
+    - DOMAIN-SUFFIX  , arms-retcode.aliyuncs.com
+    - DOMAIN-SUFFIX  , oss-enet.aliyuncs.com
+
+    - DOMAIN-SUFFIX  , data.alicloudccp.com
     
-    - DOMAIN-SUFFIX , fourier.alibaba.com
+    - DOMAIN-SUFFIX  , fourier.alibaba.com
 
-    - DOMAIN-SUFFIX , unpm-upaas.uc.cn
-    - DOMAIN-SUFFIX , userver-upaas.uc.cn 
+    - DOMAIN-SUFFIX  , unpm-upaas.uc.cn
+    - DOMAIN-SUFFIX  , userver-upaas.uc.cn 
                     
 
 

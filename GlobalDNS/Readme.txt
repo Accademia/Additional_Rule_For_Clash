@@ -15,7 +15,10 @@
 #
 #    GlobalDNS                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GlobalDNS/GlobalDNS.yaml'                              , path: ./ruleset/GlobalDNS.yaml              }
 #
-
+#
+#    GlobalDNS_Domain                   : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GlobalDNS/GlobalDNS_Domain.yaml'                       , path: ./ruleset/GlobalDNS_Domain.yaml       }
+#    GlobalDNS_IP                       : {type: http, behavior: ipcidr    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GlobalDNS/GlobalDNS_IP.yaml'                           , path: ./ruleset/GlobalDNS_IP.yaml           }
+#
 
 
 

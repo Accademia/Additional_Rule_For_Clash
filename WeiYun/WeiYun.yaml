@@ -1,28 +1,28 @@
 payload:
 
-  - DOMAIN-SUFFIX , weiyun.com
- #- DOMAIN-SUFFIX , tic-download.weiyun.com
+  - DOMAIN-SUFFIX  , weiyun.com
+ #- DOMAIN-SUFFIX  , tic-download.weiyun.com
 
-  - DOMAIN-SUFFIX , imgcache.qq.com
-  - DOMAIN-SUFFIX , aegis.qq.com
+  - DOMAIN-SUFFIX  , imgcache.qq.com
+  - DOMAIN-SUFFIX  , aegis.qq.com
 
-  - DOMAIN-SUFFIX , tianshu.gtimg.cn
-  - DOMAIN-SUFFIX , qzonestyle.gtimg.cn
+  - DOMAIN-SUFFIX  , tianshu.gtimg.cn
+  - DOMAIN-SUFFIX  , qzonestyle.gtimg.cn
 
-  - DOMAIN-SUFFIX , jsonschema.gpic.cn
+  - DOMAIN-SUFFIX  , jsonschema.gpic.cn
 
-  - DOMAIN-SUFFIX , imgcache.aq.com
+  - DOMAIN-SUFFIX  , imgcache.aq.com
                
-  - IP-CIDR       , 9.141.65.110/32                   # , no-resolve                
-  - IP-CIDR       , 9.141.66.219/32                   # , no-resolve                    
-  - IP-CIDR       , 9.141.65.29/32                    # , no-resolve             
-  - IP-CIDR       , 9.141.66.244/32                   # , no-resolve  
-  - IP-CIDR       , 9.141.121.7/32                    # , no-resolve   
+  - IP-CIDR        , 9.141.65.110/32                   # , no-resolve                
+  - IP-CIDR        , 9.141.66.219/32                   # , no-resolve                    
+  - IP-CIDR        , 9.141.65.29/32                    # , no-resolve             
+  - IP-CIDR        , 9.141.66.244/32                   # , no-resolve  
+  - IP-CIDR        , 9.141.121.7/32                    # , no-resolve   
             
-  - IP-CIDR       , 9.146.200.61/32                   # , no-resolve            
-  - IP-CIDR       , 9.146.200.81/32                   # , no-resolve 
-  - IP-CIDR       , 9.146.202.27/32                   # , no-resolve             
-  - IP-CIDR       , 9.146.202.35/32                   # , no-resolve              
-  - IP-CIDR       , 9.146.205.191/32                  # , no-resolve  
+  - IP-CIDR        , 9.146.200.61/32                   # , no-resolve            
+  - IP-CIDR        , 9.146.200.81/32                   # , no-resolve 
+  - IP-CIDR        , 9.146.202.27/32                   # , no-resolve             
+  - IP-CIDR        , 9.146.202.35/32                   # , no-resolve              
+  - IP-CIDR        , 9.146.205.191/32                  # , no-resolve  
 
-  - IP-CIDR       , 61.181.203.248/32                 # , no-resolve
+  - IP-CIDR        , 61.181.203.248/32                 # , no-resolve

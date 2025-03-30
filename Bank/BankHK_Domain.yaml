@@ -1,0 +1,31 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：香港银行   [Default : HK ]
+   # -----------------------------------------------
+   
+    - '+.bochk.com'                 # 中银香港
+    - '+.ocbcwhhk.com'              # 华侨永亨
+    - '+.hangseng.com'              # 恒生银行
+    - '+.cmbwinglungbank.com'       # 招商永隆
+    
+   #- '+.                          #       
+    
+    - '+.cncbinternational.com'     # 中信国际
+    - '+.hsbc.com.hk'               # 汇丰香港
+    - '+.sc.com.hk'                 # 渣打香港
+    - '+.citibank.com.hk'           # 花旗香港
+    - '+.dbs.com.hk'                # 星展香港
+    - '+.ncb.com.hk'                # 南洋银行
+    
+   #- '+.                          #       
+    
+    - '+.za.group'                  # 众安银行
+    - '+.cdn.zaticdn.com'           # 众安银行
+    
+   #- '+.                          #    
+        
+ 
+
+
+

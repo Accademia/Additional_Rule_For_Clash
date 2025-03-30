@@ -1,0 +1,41 @@
+payload:
+
+   # HttpDNS
+
+    - '+.httpdns.aliyun.com'             
+    - '+.httpdns.console.aliyun.com'     
+                                    
+    - '+.httpdns.aliyuncs.com'                                            
+    - '+.httpdns-api.aliyuncs.com'                                        
+    - '+.httpdns-sc.aliyuncs.com'         
+
+    - '+.httpdns.alicdn.com'      
+
+   # 规则   
+
+    - '+.aliyundrive.com'   
+   #- '+.api.aliyundrive.com'   
+
+    - '+.aliyundrive.net'
+   #- '+.data.aliyundrive.net'
+   #- '+.page.aliyundrive.net'
+
+    - '+.alipan.com'       
+    - '+.alicdn.com'
+
+    - '+.beacon-api.aliyuncs.com'
+    - '+.arms-retcode.aliyuncs.com'
+    - '+.oss-enet.aliyuncs.com'
+
+    - '+.data.alicloudccp.com'
+    
+    - '+.fourier.alibaba.com'
+
+    - '+.unpm-upaas.uc.cn'
+    - '+.userver-upaas.uc.cn' 
+                    
+
+
+
+
+

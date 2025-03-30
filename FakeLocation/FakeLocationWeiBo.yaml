@@ -6,13 +6,13 @@ payload:
     
    # 生效时间：立刻 !!!!
    
-    - DOMAIN-KEYWORD, httpdns                          , REJECT-DROP       
-    - DOMAIN-KEYWORD, httpsdns                         , REJECT-DROP       
-    - DOMAIN-KEYWORD, app-analytics-services           , REJECT-DROP                      #   # 
+    - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
+    - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
+    - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
   
-    - DOMAIN-SUFFIX , wbimg.cn                  
-    - DOMAIN-SUFFIX , wbimg.com                 
-    - DOMAIN-SUFFIX , sinaimg.cn                
+    - DOMAIN-SUFFIX  , wbimg.cn                  
+    - DOMAIN-SUFFIX  , wbimg.com                 
+    - DOMAIN-SUFFIX  , sinaimg.cn                
 
-    - DOMAIN-KEYWORD, weibo                     
+    - DOMAIN-KEYWORD , weibo                     
 

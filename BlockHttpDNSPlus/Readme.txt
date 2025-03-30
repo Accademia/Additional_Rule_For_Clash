@@ -14,3 +14,7 @@
 #    HttpDNS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/BlockHttpDNSPlus/BlockHttpDNSPlus_No_Resolve.yaml'                   , path: ./ruleset/BlockHttpDNSPlus_No_Resolve.yaml   }
 #    HttpDNS                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/BlockHttpDNSPlus/BlockHttpDNSPlus.yaml'                              , path: ./ruleset/BlockHttpDNSPlus.yaml              }
 #
+
+# 注意： 
+#
+#  由于使用了关键词匹配，所以不存在Domain规则。

@@ -1,0 +1,25 @@
+payload:
+                
+   # ---------------- -------------------------------
+   # [银行]：加拿大银行 [Default : CA ]
+   # ---------------- -------------------------------
+   
+    - '+.rbcroyalbank.com'          #  皇家加拿大银行 (Royal Bank of Canada)
+    - '+.scotiabank.com'            #  加拿大丰业银行 (Bank of Nova Scotia  Scotiabank)
+    - '+.bmo.com'                   #  蒙特利尔银行 (Bank of Montreal)
+    - '+.cibc.com'                  #  加拿大帝国商业银行 (Canadian Imperial Bank of Commerce / CIBC)                
+    - '+.cwbank.com'                #  加拿大西部银行 (Canadian Western Bank)
+    - '+.desjardins.com'            #  德尚银行集团 (Desjardins Group)
+    
+   #- '+.                          # 
+    
+   #- DOMAIN-KEYWORD , td.com/ca/                #  多伦多道明银行 (Toronto-Dominion Bank)
+   
+    - '+.nbc.ca'                    #  加拿大国家银行 (National Bank of Canada)                       
+    - '+.laurentianbank.ca'         #  加拿大劳伦森银行 (Laurentian Bank of Canada)   
+                             
+   #- '+.                          # 
+              
+
+
+

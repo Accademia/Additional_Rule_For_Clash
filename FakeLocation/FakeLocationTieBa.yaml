@@ -6,16 +6,16 @@ payload:
 
    # 生效时间：2.5小时 !!!!!!! 🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔🔔
 
-    - DOMAIN-KEYWORD, httpsdns.baidu            , REJECT-DROP   
+    - DOMAIN-KEYWORD , httpsdns.baidu            , REJECT-DROP   
     
-    - DOMAIN-KEYWORD, httpdns                   , REJECT-DROP       
-    - DOMAIN-KEYWORD, httpsdns                  , REJECT-DROP       
-    - DOMAIN-KEYWORD, app-analytics-services    , REJECT-DROP                      #   # 
+    - DOMAIN-KEYWORD , httpdns                   , REJECT-DROP       
+    - DOMAIN-KEYWORD , httpsdns                  , REJECT-DROP       
+    - DOMAIN-KEYWORD , app-analytics-services    , REJECT-DROP                      #   # 
     
    # 基础定位
-    - DOMAIN        , tiebac.baidu.com          
-   #- DOMAIN        , tieba.baidu.com           
-   #- DOMAIN        , c.tieba.baidu.com         
-   #- DOMAIN        , www.baidu.com                 
+    - DOMAIN         , tiebac.baidu.com          
+   #- DOMAIN         , tieba.baidu.com           
+   #- DOMAIN         , c.tieba.baidu.com         
+   #- DOMAIN         , www.baidu.com                 
             
-    - IP-CIDR       , 180.76.76.0/24                                #, no-resolve  
+    - IP-CIDR        , 180.76.76.0/24                                #, no-resolve  

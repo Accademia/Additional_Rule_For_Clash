@@ -6,17 +6,17 @@ payload:
 
    # 生效时间：立刻 !!!!
   
-    - DOMAIN-KEYWORD, httpdns                          , REJECT-DROP       
-    - DOMAIN-KEYWORD, httpsdns                         , REJECT-DROP       
-    - DOMAIN-KEYWORD, app-analytics-services           , REJECT-DROP                      #   # 
+    - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
+    - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
+    - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
 
 
-    - DOMAIN-SUFFIX , zhihu.com                                                                  # 知乎全站域名，不包括图片CDN
+    - DOMAIN-SUFFIX  , zhihu.com                                                                  # 知乎全站域名，不包括图片CDN
 
-    - IP-CIDR       , 43.152.182.14/32                                        , no-resolve       # 
-    - IP-CIDR       , 43.152.129.54/32                                        , no-resolve       # 
-    - IP-CIDR       , 43.152.134.28/32                                        , no-resolve       # 
+    - IP-CIDR        , 43.152.182.14/32                                        , no-resolve       # 
+    - IP-CIDR        , 43.152.129.54/32                                        , no-resolve       # 
+    - IP-CIDR        , 43.152.134.28/32                                        , no-resolve       # 
 
-    - IP-CIDR       , 120.92.107.7/32                                         , no-resolve       # 
-    - IP-CIDR       , 103.41.167.0/24                                         , no-resolve       # 
+    - IP-CIDR        , 120.92.107.7/32                                         , no-resolve       # 
+    - IP-CIDR        , 103.41.167.0/24                                         , no-resolve       # 
 

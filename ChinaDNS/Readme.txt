@@ -15,3 +15,5 @@
 #    ChinaDNS_No_Resolve                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/ChinaDNS/ChinaDNS_No_Resolve.yaml'                   , path: ./ruleset/ChinaDNS_No_Resolve.yaml   }
 #    ChinaDNS                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/ChinaDNS/ChinaDNS.yaml'                              , path: ./ruleset/ChinaDNS.yaml              }
 #
+#    ChinaDNS_Domain                    : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/ChinaDNS/ChinaDNS_Domian.yaml'                          , path: ./ruleset/ChinaDNS_Domian.yaml       }
+#    ChinaDNS_IP                        : {type: http, behavior: ipcidr, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/ChinaDNS/ChinaDNS_IP.yaml'                              , path: ./ruleset/ChinaDNS_IP.yaml           }

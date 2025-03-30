@@ -1,0 +1,22 @@
+payload:
+
+   # -----------------------------------------------
+   # [银行]：德国银行   [Default : DE  ] 
+   # -----------------------------------------------
+   
+    - '+.db.com'                     # Deutsche Bank                       
+    - '+.commerzbank.com'            # Commerzbank               
+    - '+.bayernlb.com'               # BayernLB                            
+    - '+.helaba.com'                 # Landesbank Hessen-Thüringen (Helaba)     
+      
+   #- '+.                           #     
+    
+    - '+.kfw.de'                     # KfW Bank                            
+    - '+.dzbank.de'                  # DZ Bank                             
+    - '+.lbbw.de'                    # Landesbank Baden-Württemberg (LBBW) 
+    - '+.nordlb.de'                  # Norddeutsche Landesbank (NordLB)    
+    - '+.lbb.de'                     # Landesbank Berlin (LBB)             
+    - '+.saarlb.de'                  # Landesbank Saar (SaarLB)    
+         
+   #- '+.                           #     
+                     

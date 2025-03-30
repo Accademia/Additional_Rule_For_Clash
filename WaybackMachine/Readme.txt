@@ -9,7 +9,10 @@
 #
 # 引用范例 ：
 #
-#   WaybackMachine_No_Resolve              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine_No_Resolve.yaml'                         , path: ./ruleset/WaybackMachine_No_Resolve.yaml  }
-#   WaybackMachine                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine.yaml'                                    , path: ./ruleset/WaybackMachine.yaml             }
+#   WaybackMachine_No_Resolve              : {type: http, behavior: classical   , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine_No_Resolve.yaml'                         , path: ./ruleset/WaybackMachine_No_Resolve.yaml  }
+#   WaybackMachine                         : {type: http, behavior: classical   , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine.yaml'                                    , path: ./ruleset/WaybackMachine.yaml             }
 #
-                                             
+#   WaybackMachine_Domain                  : {type: http, behavior: domain      , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine_Domain.yaml'                             , path: ./ruleset/WaybackMachine_Domain.yaml      }
+#   WaybackMachine_IP                      : {type: http, behavior: ipcidr      , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/WaybackMachine/WaybackMachine_IP.yaml'                                 , path: ./ruleset/WaybackMachine_IP.yaml          }
+#                                             
+#                                            
