@@ -8,108 +8,130 @@
 		Clash Verga Rec for Mac/win10
 
 + 为什么要建立新项目，而不是给原规则提issue？ 
-	- 因为原规则作者无意扩展新规则（原作者精力不够的问题，可以理解，毕竟是用爱发电。而且本规则也只是添加本项目主 自己常用的 长期验证过的 规则）
+  -因为原规则作者无意扩展新规则（原作者精力不够的问题，可以理解，毕竟是用爱发电。而且本规则也只是添加本项目主 自己常用的 长期验证过的 规则）
+
 
 ----------------------------------
+使用说明 ：⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+----------------------------------
 
-使用说明：
+本项目，包括 以下三组规则，“三选一”，选其中一个即可:
+
+三组的后缀，分别为：
+
+  + 后缀：No_Resolve（第一组）
+
+  + 后缀：无		（第二组）
+
+  + 后缀：Doamin	（第三组）
+  + 后缀：IP
+
+以上三组，三选一，优先选择最后一组（Domain + IP），在移动端（Stash for iOS），这种写法极大增加匹配速度和减少内存占用。由于iPhone的网络扩展内存上限只有 50 MB，一旦匹配速度下降，会非常容易导致网络内存崩溃（VPN崩溃），换更快的DNS联系方式 和 使用（Domain + IP）规则，是移动端唯一的解决方案。经本人测试后，实测非常有效，10w万条Domain规则使得Stash在iOS上总体只占用28MB网络内存，极大缓解VPN崩溃的问题。
+
+出处：https://stash.wiki/rules/rule-set 
+
+
+----------------------------------
+规则介绍 ：
+----------------------------------
 
 + Pornhub		：P站 Clash分流规则
 
-+ FakeLocation		: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
-	- Bilibili    	立即生效（留言立即生效，但主页IP归属地，需要“连续挂”2周才会生效）   
-	- 抖音    	立即生效   
-	- 快手     	立即生效  
-	- 小红书   	立即生效  
-	- 西瓜     	立即生效
-	- 微博     	立即生效  
-	- 知乎     	立即生效 
-	- 贴吧     	2.5小时后 ！！！！！（百度的垃圾，真已无可救药）
-	- 豆瓣     	立即生效 
-	- 闲鱼     	立即生效
++ FakeLocation	: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
+  -Bilibili 立即生效（留言），“连续挂”2周才生效（主页）   
+  -抖音    	立即生效   
+  -快手     立即生效  
+  -小红书   立即生效  
+  -西瓜     立即生效
+  -微博     立即生效  
+  -知乎     立即生效 
+  -贴吧     2.5小时后 ！！！
+  -豆瓣     立即生效 
+  -闲鱼     立即生效
 
-+ Bank			：各国银行 Clash分流规则
-	- 美国银行
-	- 加拿大银行
-	- 英国银行
-	- 澳大利亚银行
-	- 日本银行
- 	- 香港银行
-	- 新加坡银行
-	- 荷兰银行
-	- 法国银行
-	- 德国银行
++ Bank		：各国银行 Clash分流规则
+  -美国银行
+  -加拿大银行
+  -英国银行
+  -澳大利亚银行
+  -日本银行
+  -香港银行
+  -新加坡银行
+  -荷兰银行
+  -法国银行
+  -德国银行
 
-+ VirtualFinance	: 虚拟金融公司 Clash分流规则
-	- Paypal
-	- Wise
-	- Monzo
-	- Revolut
++ VirtualFinance : 虚拟金融公司 Clash分流规则
+  -Paypal
+  -Wise
+  -Monzo
+  -Revolut
 
 + GeoRouting_For_Domain ：按 国家顶级域名 的Clash分流规则
-	- 北美     # America (North America)       
-	- 南美     # America (South America)       
-	- 西欧     # Europe (East   Europe)        
-	- 东欧     # Europe (West   Europe)        
-	- 大洋     # Oceania                       
-	- 南极     # Antarctica                    
-	- 东亚     # Asia (East  Asia)             
-	- 东南     # Asia (EastSouth Asia)         
-	- 南亚     # Asia (South Asia)             
-	- 中亚     # Asia (Central Asia)           
-	- 西亚     # Asia (West Asia , Middle East)
-	- 南非     # Africa (North   Africa)       
-	- 北非     # Africa (South   Africa)       
-	- 西非     # Africa (West    Africa)       
-	- 东非     # Africa (East    Africa)       
-	- 中非     # Africa (Central Africa)   
+  -北美  # America (North America)       
+  -南美  # America (South America)       
+  -西欧  # Europe (East   Europe)        
+  -东欧  # Europe (West   Europe)        
+  -大洋  # Oceania                       
+  -南极  # Antarctica                    
+  -东亚  # Asia (East  Asia)             
+  -东南  # Asia (EastSouth Asia)         
+  -南亚  # Asia (South Asia)             
+  -中亚  # Asia (Central Asia)           
+  -西亚  # Asia (West Asia , Middle East)
+  -南非  # Africa (North   Africa)       
+  -北非  # Africa (South   Africa)       
+  -西非  # Africa (West    Africa)       
+  -东非  # Africa (East    Africa)       
+  -中非  # Africa (Central Africa)   
 
 + GeoRouting_For_IP 	：按 GeoIP 的Clash分流规则
-	- 北美     # America (North America)       
-	- 南美     # America (South America)       
-	- 西欧     # Europe (East   Europe)        
-	- 东欧     # Europe (West   Europe)        
-	- 大洋     # Oceania                       
-	- 南极     # Antarctica                    
-	- 东亚     # Asia (East  Asia)             
-	- 东南     # Asia (EastSouth Asia)         
-	- 南亚     # Asia (South Asia)             
-	- 中亚     # Asia (Central Asia)           
-	- 西亚     # Asia (West Asia , Middle East)
-	- 南非     # Africa (North   Africa)       
-	- 北非     # Africa (South   Africa)       
-	- 西非     # Africa (West    Africa)       
-	- 东非     # Africa (East    Africa)       
-	- 中非     # Africa (Central Africa)   
+  -北美  # America (North America)       
+  -南美  # America (South America)       
+  -西欧  # Europe (East   Europe)        
+  -东欧  # Europe (West   Europe)        
+  -大洋  # Oceania                       
+  -南极  # Antarctica                    
+  -东亚  # Asia (East  Asia)             
+  -东南  # Asia (EastSouth Asia)         
+  -南亚  # Asia (South Asia)             
+  -中亚  # Asia (Central Asia)           
+  -西亚  # Asia (West Asia , Middle East)
+  -南非  # Africa (North   Africa)       
+  -北非  # Africa (South   Africa)       
+  -西非  # Africa (West    Africa)       
+  -东非  # Africa (East    Africa)       
+  -中非  # Africa (Central Africa)   
 
-+ HomeIP		：必须要 “住宅IP” 才能正常访问（或正常下单）的网站 
++ HomeIP		：必须要 “住宅IP” 才能正常下单的网站 
 
-+ PreRepairEasyPrivacy	：（安全类分流规则）对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
++ PreRepairEasyPrivacy	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ GlobalDNS		：（安全类分流规则）全球DNS分流规则 ，（仅包含：可信的、无用户隐私泄漏的 DNS）
++ GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS）
 
-+ ChinalDNS		：（安全类分流规则）中国大陆 DNS分流规则（仅包含：中国大陆DNS，被GFW污染的DNS）
++ ChinalDNS		：中国大陆 DNS（被GFW污染的DNS）
 
-+ HijackingPlus		：（安全类分流规则）反有害网站（主要针对反诈非法监控用户） Clash分流规则 （未来会包括哄蒙非法监听用户的规则）
++ HijackingPlus		：反有害网站（针对反诈插件） 
 
-+ WaybackMachine	：网络时光机（互联网档案馆） Clash分流规则
++ WaybackMachine	：网络时光机（互联网档案馆）
 
-+ eMuleServer		：电驴目录服务器的Clash分流规则（不涉及P2P直连阶段的下载）
++ eMuleServer		：电驴目录服务器（不涉及P2P下载）
 
-+ Alipan		: 阿里云盘 Clash分流规则 
++ Alipan		: 阿里云盘 Clash分流规则
 
-+ BaiduNetDisk		: 百度网盘 Clash分流规则 
++ BaiduNetDisk	: 百度网盘 Clash分流规则
 
-+ WeiYun		: 腾讯微云 Clash分流规则 
++ WeiYun		: 腾讯微云 Clash分流规则
 
-+ RustDesk		:（远程控制、云桌面）RustDesk Clash分流规则
++ RustDesk		: RustDesk Clash分流规则
 
-+ Parsec		:（远程控制、云桌面）Parsec Clash分流规则
++ Parsec		: Parsec Clash分流规则
 
-+ Triller		:（美国短视频平台）Triller Clash分流规则
++ Triller		: Triller Clash分流规则
 
-+ Signal		:（端到端加密即时通信软件）Signal Clash分流规则
++ Signal		: Signal Clash分流规则
 
++ Grok			: xAI Grok Clash分流规则
 
 
 
@@ -119,7 +141,7 @@
 
 + 通过 MIT协议 分发
 
-+ 本规则整理，来自于 SuperGrok DeepSarch 和SuperGrok Think 的协助。 
++ 本规则整理，来自于 xAI SuperGrok DeepSarch 和 xAI SuperGrok Think 的协助。 
 
 
 
@@ -130,10 +152,11 @@
 ----------------------------------
 
 #  宁波上官科技有限公司，此公司，是我见见过的最恶心的中国MAC软件公司之一，区别对待中国人和外国人，
-#  其homebrew更新和安装，只能外国人使用。对所有中国用户进行屏蔽。妥妥的中国人与狗不得入内。而且还窥探用户隐私！无耻至极！！！！
 #  不信的可以执行这条命令试试：
 #    brew install --force --cask flykey
 #
 #  在中国，结果必然是403错误，也就意味着中国IP不能使用Homebrew下载他们的APP。。妥妥的中国人与狗不得入内。🤣🤣🤣🤣🤣🤣🤣🤣
+#
+#  也就是说，其homebrew更新和安装，只能外国人使用。对所有中国用户进行屏蔽。妥妥的中国人与狗不得入内。而且还窥探用户隐私！无耻至极！！！！
 #
 # 导致分流规则中，必须添加对这个中国公司的翻墙规则！！！！ 无耻至极！！
