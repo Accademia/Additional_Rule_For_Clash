@@ -1,12 +1,17 @@
 payload:
 
-    - DOMAIN-KEYWORD  , pornhub                                 
+    - DOMAIN-KEYWORD  , pornhub                               
+   #- DOMAIN-SUFFIX   , pornhub.com   
+   #- DOMAIN-SUFFIX   , pornhub.org
+
     - DOMAIN-SUFFIX   , phncdn.com                              
-    - DOMAIN-SUFFIX   , phprcdn.com                             
-    - DOMAIN-SUFFIX   , pornhub.com                             
-    - DOMAIN-SUFFIX   , pornhubpremium.com                      
+    - DOMAIN-SUFFIX   , phprcdn.com      
+
+    - DOMAIN-SUFFIX   , pornhubpremium.com    
     - DOMAIN-SUFFIX   , pronstore.com                           
 
+    - DOMAIN-SUFFIX   , pornhubapparel.com
+    - DOMAIN-SUFFIX   , pornhub-deutsch.net
 
 
 

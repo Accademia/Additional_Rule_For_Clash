@@ -1,14 +1,17 @@
 payload:
 
-    - '+.pornhub'                                 
+    - '+.pornhub.net'                            
+    - '+.pornhub.com'      
+    - '+.pornhub.org'
+
     - '+.phncdn.com'                              
-    - '+.phprcdn.com'                             
-    - '+.pornhub.com'                             
-    - '+.pornhubpremium.com'                      
+    - '+.phprcdn.com'           
+
+    - '+.pornhubpremium.com'  
     - '+.pronstore.com'                           
 
-
-
+    - '+.pornhubapparel.com'
+    - '+.pornhub-deutsch.net'
 
 
 
