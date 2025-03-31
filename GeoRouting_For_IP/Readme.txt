@@ -1,35 +1,52 @@
 
- # -----------------------------------------
- # 此规则集：用于，基于GeoIP的地理位置，进行分流
- # -----------------------------------------
-
- # 用途：根据目的网站的IP，选取最近国家的VPS代理节点进行分流（通过GeoIP） 
-
- # 使用建议：
- # 	1. 不建议使用_No_Resolve版本		（因为，如果不做域名解析，则无法充分分流）
- # 	2. 安排在Final兜底规则前，做最后的分流	（因为，以避免影响到其他网站的专属分流控制）
- #	3. 安排在Gfwlist分流后。			（因为，以防止敏感域名的DNS泄漏）
-
- # 引用范例：
- #
-
- #  GeoRouting_America_North                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_North_GeoIP.yaml'                     , path: ./ruleset/GeoRouting_America_North_GeoIP.yaml                 }
- #  GeoRouting_America_South                 : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_South_GeoIP.yaml'                     , path: ./ruleset/GeoRouting_America_South_GeoIP.yaml                 }
- #  GeoRouting_Europe_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_West_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Europe_West_GeoIP.yaml                   }
- #  GeoRouting_Europe_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_East_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Europe_East_GeoIP.yaml                   }
- #  GeoRouting_Oceania                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Oceania_GeoIP.yaml'                           , path: ./ruleset/GeoRouting_Oceania_GeoIP.yaml                       }
- #  GeoRouting_Antarctica                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Antarctica_GeoIP.yaml'                        , path: ./ruleset/GeoRouting_Antarctica_GeoIP.yaml                    }
- #  GeoRouting_Asia_East                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_East_GeoIP.yaml'                         , path: ./ruleset/GeoRouting_Asia_East_GeoIP.yaml                     }
- #  GeoRouting_Asia_EastSouth                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_EastSouth_GeoIP.yaml'                    , path: ./ruleset/GeoRouting_Asia_EastSouth_GeoIP.yaml                }
- #  GeoRouting_Asia_South                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_South_GeoIP.yaml'                        , path: ./ruleset/GeoRouting_Asia_South_GeoIP.yaml                    }
- #  GeoRouting_Asia_Central                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_Central_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Asia_Central_GeoIP.yaml                  }
- #  GeoRouting_Asia_West                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_West_GeoIP.yaml'                         , path: ./ruleset/GeoRouting_Asia_West_GeoIP.yaml                     }
- #  GeoRouting_Africa_North                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_North_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Africa_North_GeoIP.yaml                  }
- #  GeoRouting_Africa_South                  : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_South_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Africa_South_GeoIP.yaml                  }
- #  GeoRouting_Africa_West                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_West_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Africa_West_GeoIP.yaml                   }
- #  GeoRouting_Africa_East                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_East_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Africa_East_GeoIP.yaml                   }
- #  GeoRouting_Africa_Central                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP.yaml'                    , path: ./ruleset/GeoRouting_Africa_Central_GeoIP.yaml                }
-
+# -----------------------------------------
+# 此规则集：用于，基于GeoIP的地理位置，进行分流
+# -----------------------------------------
+#
+# 用途：根据目的网站的IP，选取最近国家的VPS代理节点进行分流（通过GeoIP） 
+#
+# 使用建议：
+#
+# 	1. 不建议使用_No_Resolve版本		（不做域名解析，则无法充分分流）
+# 	2. 安排在Final兜底规则前，做最后的分流	（以避免影响到其他网站的专属分流控制）
+#	3. 安排在Gfwlist分流后。			（以防止敏感域名请求中国大陆DNS解析，而导致泄漏）
+#   4, 对于白名单分流来说，不可替代Final （有些IP并没有包括在GeoIP当中，还需要Final做最后的兜底）
+#
+# 引用范例：
+#
+#  GeoRouting_America_North_GeoIP                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_North_GeoIP.yaml'                     , path: ./ruleset/GeoRouting_America_North_GeoIP.yaml                 }
+#  GeoRouting_America_South_GeoIP                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_South_GeoIP.yaml'                     , path: ./ruleset/GeoRouting_America_South_GeoIP.yaml                 }
+#  GeoRouting_Europe_West_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_West_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Europe_West_GeoIP.yaml                   }
+#  GeoRouting_Europe_East_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_East_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Europe_East_GeoIP.yaml                   }
+#  GeoRouting_Oceania_GeoIP                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Oceania_GeoIP.yaml'                           , path: ./ruleset/GeoRouting_Oceania_GeoIP.yaml                       }
+#  GeoRouting_Antarctica_GeoIP                        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Antarctica_GeoIP.yaml'                        , path: ./ruleset/GeoRouting_Antarctica_GeoIP.yaml                    }
+#  GeoRouting_Asia_East_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_East_GeoIP.yaml'                         , path: ./ruleset/GeoRouting_Asia_East_GeoIP.yaml                     }
+#  GeoRouting_Asia_EastSouth_GeoIP                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_EastSouth_GeoIP.yaml'                    , path: ./ruleset/GeoRouting_Asia_EastSouth_GeoIP.yaml                }
+#  GeoRouting_Asia_South_GeoIP                        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_South_GeoIP.yaml'                        , path: ./ruleset/GeoRouting_Asia_South_GeoIP.yaml                    }
+#  GeoRouting_Asia_Central_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_Central_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Asia_Central_GeoIP.yaml                  }
+#  GeoRouting_Asia_West_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_West_GeoIP.yaml'                         , path: ./ruleset/GeoRouting_Asia_West_GeoIP.yaml                     }
+#  GeoRouting_Africa_North_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_North_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Africa_North_GeoIP.yaml                  }
+#  GeoRouting_Africa_South_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_South_GeoIP.yaml'                      , path: ./ruleset/GeoRouting_Africa_South_GeoIP.yaml                  }
+#  GeoRouting_Africa_West_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_West_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Africa_West_GeoIP.yaml                   }
+#  GeoRouting_Africa_East_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_East_GeoIP.yaml'                       , path: ./ruleset/GeoRouting_Africa_East_GeoIP.yaml                   }
+#  GeoRouting_Africa_Central_GeoIP                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP.yaml'                    , path: ./ruleset/GeoRouting_Africa_Central_GeoIP.yaml                }
+#
+#  GeoRouting_America_North_GeoIP                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_North_GeoIP_No_Resolve.yaml'          , path: ./ruleset/GeoRouting_America_North_GeoIP_No_Resolve.yaml      }
+#  GeoRouting_America_South_GeoIP                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_America_South_GeoIP_No_Resolve.yaml'          , path: ./ruleset/GeoRouting_America_South_GeoIP_No_Resolve.yaml      }
+#  GeoRouting_Europe_West_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_West_GeoIP_No_Resolve.yaml'            , path: ./ruleset/GeoRouting_Europe_West_GeoIP_No_Resolve.yaml        }
+#  GeoRouting_Europe_East_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Europe_East_GeoIP_No_Resolve.yaml'            , path: ./ruleset/GeoRouting_Europe_East_GeoIP_No_Resolve.yaml        }
+#  GeoRouting_Oceania_GeoIP                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Oceania_GeoIP_No_Resolve.yaml'                , path: ./ruleset/GeoRouting_Oceania_GeoIP_No_Resolve.yaml            }
+#  GeoRouting_Antarctica_GeoIP                        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Antarctica_GeoIP_No_Resolve.yaml'             , path: ./ruleset/GeoRouting_Antarctica_GeoIP_No_Resolve.yaml         }
+#  GeoRouting_Asia_East_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_East_GeoIP_No_Resolve.yaml'              , path: ./ruleset/GeoRouting_Asia_East_GeoIP_No_Resolve.yaml          }
+#  GeoRouting_Asia_EastSouth_GeoIP                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_EastSouth_GeoIP_No_Resolve.yaml'         , path: ./ruleset/GeoRouting_Asia_EastSouth_GeoIP_No_Resolve.yaml     }
+#  GeoRouting_Asia_South_GeoIP                        : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_South_GeoIP_No_Resolve.yaml'             , path: ./ruleset/GeoRouting_Asia_South_GeoIP_No_Resolve.yaml         }
+#  GeoRouting_Asia_Central_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_Central_GeoIP_No_Resolve.yaml'           , path: ./ruleset/GeoRouting_Asia_Central_GeoIP_No_Resolve.yaml       }
+#  GeoRouting_Asia_West_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_West_GeoIP_No_Resolve.yaml'              , path: ./ruleset/GeoRouting_Asia_West_GeoIP_No_Resolve.yaml          }
+#  GeoRouting_Africa_North_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_North_GeoIP_No_Resolve.yaml'           , path: ./ruleset/GeoRouting_Africa_North_GeoIP_No_Resolve.yaml       }
+#  GeoRouting_Africa_South_GeoIP                      : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_South_GeoIP_No_Resolve.yaml'           , path: ./ruleset/GeoRouting_Africa_South_GeoIP_No_Resolve.yaml       }
+#  GeoRouting_Africa_West_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_West_GeoIP_No_Resolve.yaml'            , path: ./ruleset/GeoRouting_Africa_West_GeoIP_No_Resolve.yaml        }
+#  GeoRouting_Africa_East_GeoIP                       : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_East_GeoIP_No_Resolve.yaml'            , path: ./ruleset/GeoRouting_Africa_East_GeoIP_No_Resolve.yaml        }
+#  GeoRouting_Africa_Central_GeoIP                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP_No_Resolve.yaml'         , path: ./ruleset/GeoRouting_Africa_Central_GeoIP_No_Resolve.yaml     }
 
 
 
