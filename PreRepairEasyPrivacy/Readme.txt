@@ -30,9 +30,33 @@
 #   PreRepairEasyPrivacy_Proxy                          : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairEasyPrivacy/PreRepairEasyPrivacy_Proxy.yaml'                                     , path: ./ruleset/PreRepairEasyPrivacy_Proxy.yaml              }
 
 
+
+#
+# ----------------------------------
+# 使用说明 ：⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+# ----------------------------------
+# 
+# 本项目，包括 以下三组规则，“三选一”，选其中一个即可:
+# 
+# 三组的后缀，分别为：
+# 
+#   + 后缀：No_Resolve	（第一组）
+# 
+#   + 后缀：无		（第二组）
+# 
+#   + 后缀：Doamin		（第三组）
+#   + 后缀：IP
+# 
+# 以上三组，三选一，优先选择最后一组（Domain + IP），在移动端（Stash for iOS），这种写法极大增加匹配速度和减少内存占用。
+#
+#
+
+
+
 #  这里要特别声明一下： 
 #  宁波上官科技有限公司，此公司，是我见见过的最恶心的中国MAC软件公司之一，区别对待中国人和外国人，其homebrew更新和安装，只能外国人使用。对所有中国用户进行屏蔽。妥妥的中国人与狗不得入内。而且还窥探用户隐私！无耻至极！！！！不信的可以执行这条命令试试：
 #    brew reinstall --force --cask flykey
 #  结果必然是403错误，也就意味着中国IP不能使用Homebrew下载他们的APP。。妥妥的中国人与狗不得入内。
 # 
 #  这也就是为什么规则中会有如下规则 ：  - DOMAIN-SUFFIX ,  better365.cn  
+

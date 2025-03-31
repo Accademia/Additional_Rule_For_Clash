@@ -34,6 +34,8 @@
 
 出处：https://stash.wiki/rules/rule-set 
 
+要特别说明的是：如果规则中，包含大量的 非域名后缀 、非IP 规则，如 DOMAIN-KEYWORD 、 PROCESS-NAME 、 GeoIP 等等，则无法拆分出第三组。
+
 
 ----------------------------------
 规则介绍 ：

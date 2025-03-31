@@ -64,45 +64,67 @@
 
 
 
+#
+# ----------------------------------
+# 使用说明 ：⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+# ----------------------------------
+# 
+# 本项目，包括 以下三组规则，“三选一”，选其中一个即可:
+# 
+# 三组的后缀，分别为：
+# 
+#   + 后缀：No_Resolve	（第一组）
+# 
+#   + 后缀：无		（第二组）
+# 
+#   + 后缀：Doamin		（第三组）
+#   + 后缀：IP
+# 
+# 以上三组，三选一，优先选择最后一组（Domain + IP），在移动端（Stash for iOS），这种写法极大增加匹配速度和减少内存占用。
+#
+#
 
 
-   # 哪些域名被排除在外：
-   #
-   #
-   #   1.  谷歌认为，下列国家或地区顶级域在
-   #       使用上更加符合通用顶级域的功能，
-   #       而不是国家或地区顶级域。并且在
-   #       搜索引擎优化和搜索引擎索引上做了
-   #       对应的处理
-   #       .ad \ .as \ .ai \ .bz \ .cc \ 
-   #       .cd \ .co \ .dj \ .fm \ .io \ 
-   #       .la \ .me \ .ms \ .nu \ .sc \  
-   #       .sr \ .su \ .tv \ .tk \ .ws \
-   #
-   #       .gg \ .ac \ .ag \ .ec \ .la \ 
-   #       .ac \ .vc \ .to \ .ly \ .sb \
-   #       .?? \ .?? \
-   #
-   #   2. 以下ISO代码，没有对应的，国家代码的顶级域名
-   #       .bv \ .bl \ .mf \ .sj \ .gb \ .um \
-   #
-   #
-   #   3. 已经停止解析的，国家顶级域名：
-   #       .yr \ .yu \ .tp \ .an \ .ac \
-   #
-   #
-   # 上述需要排除的域名（引用自）：
-   #
-   #   https://zh.Wikipedia.org/zh-hans/國家和地區頂級域
-   #   https://en.Wikipedia.org/wiki/Country_code_top-level_domain
-   #
 
 
-   #  其他：
-   # 
-   # 截至2020年6月，纯拉丁字母的，两个字符的，国家代码顶级域名( Country-code of Root Zone Database ) ，共有250个
-   #   https://www.iana.org/domains/root/db
-   #   * 选取：country-code  （注意：有些Country-code没有生效）
-   #
 
-   #
+ # 哪些域名被排除在外：
+ #
+ #
+ #   1.  谷歌认为，下列国家或地区顶级域在
+ #       使用上更加符合通用顶级域的功能，
+ #       而不是国家或地区顶级域。并且在
+ #       搜索引擎优化和搜索引擎索引上做了
+ #       对应的处理
+ #       .ad \ .as \ .ai \ .bz \ .cc \ 
+ #       .cd \ .co \ .dj \ .fm \ .io \ 
+ #       .la \ .me \ .ms \ .nu \ .sc \  
+ #       .sr \ .su \ .tv \ .tk \ .ws \
+ #
+ #       .gg \ .ac \ .ag \ .ec \ .la \ 
+ #       .ac \ .vc \ .to \ .ly \ .sb \
+ #       .?? \ .?? \
+ #
+ #   2. 以下ISO代码，没有对应的，国家代码的顶级域名
+ #       .bv \ .bl \ .mf \ .sj \ .gb \ .um \
+ #
+ #
+ #   3. 已经停止解析的，国家顶级域名：
+ #       .yr \ .yu \ .tp \ .an \ .ac \
+ #
+ #
+ # 上述需要排除的域名（引用自）：
+ #
+ #   https://zh.Wikipedia.org/zh-hans/國家和地區頂級域
+ #   https://en.Wikipedia.org/wiki/Country_code_top-level_domain
+ #
+
+
+ #  其他：
+ # 
+ # 截至2020年6月，纯拉丁字母的，两个字符的，国家代码顶级域名( Country-code of Root Zone Database ) ，共有250个
+ #   https://www.iana.org/domains/root/db
+ #   * 选取：country-code  （注意：有些Country-code没有生效）
+ #
+
+ #

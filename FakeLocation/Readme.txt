@@ -52,3 +52,26 @@
 # 第三方规则参考
 # 参考1（anti-ip-attribution）：https://github.com/SunsetMkt/anti-ip-attribution/blob/main/rules.yaml
 # 参考2 (bilibili-rule) : https://github.com/elysias123/bilibili-rule/blob/main/bilibili.yaml
+
+
+
+#
+# ----------------------------------
+# 使用说明 ：⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+# ----------------------------------
+# 
+# 本项目，包括 以下三组规则，“三选一”，选其中一个即可:
+# 
+# 三组的后缀，分别为：
+# 
+#   + 后缀：No_Resolve	（第一组）
+# 
+#   + 后缀：无		（第二组）
+# 
+#   + 后缀：Doamin		（第三组）
+#   + 后缀：IP
+# 
+# 以上三组，三选一，优先选择最后一组（Domain + IP），在移动端（Stash for iOS），这种写法极大增加匹配速度和减少内存占用。
+#
+#
+
