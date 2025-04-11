@@ -1,24 +1,22 @@
 
 # -----------------------------------------
-# 此规则集：用于，“阿里云盘、阿里网盘“，进行分流
+# 此规则集：用于，加速访问 网速极慢的站点的，进行分流
 # -----------------------------------------
 
 # 用途：
-#	访问 阿里网盘 所需要的Clash分流规则
+#	有些网站，虽然没有被GFW屏蔽，但是网速访问极慢，这会导致 Brew Upgrade 或 WinGet 在自动更新时，因网速过慢，而导致卡住（下载等待时间过长）。所以，将此类网站归类，使用分流规则进行加速（注意，此列表仅仅针对中国地区的用户）
 #
 #
-# 注意：
-#	强烈不建议使用阿里云盘，这是我见过最流氓的云盘，没有之一。每次启动会 强制将云盘加入启动项，后台静默扫描硬盘，而且数据无加密明文存储在云盘，总之，除了网速比百度网盘快之外，其他任何一个方面，都比百度网盘还流氓一百倍！！ 强烈不建议使用。
 #
 #
 #
 # 引用范例 ：
 #
-#    Alipan_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan_No_Resolve.yaml'                                      , path: ./ruleset/Alipan_No_Resolve.yaml                    }       
+#    lowWebSite_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite_No_Resolve.yaml'                                      , path: ./ruleset/lowWebSite_No_Resolve.yaml                    }       
 #           
-#    Alipan                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan.yaml'                                                 , path: ./ruleset/Alipan.yaml    	                       }    
+#    lowWebSite                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite.yaml'                                                 , path: ./ruleset/lowWebSite.yaml    	                       }    
 #           
-#    Alipan_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Alipan/Alipan_Domain.yaml'                                             , path: ./ruleset/Alipan_Domain.yaml    		               }    
+#    lowWebSite_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite_Domain.yaml'                                             , path: ./ruleset/lowWebSite_Domain.yaml    		               }    
 #
 #
 #
