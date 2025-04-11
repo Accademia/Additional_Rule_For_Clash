@@ -3,6 +3,7 @@ payload:
     - '+.descript.com'                # 测试命令： brew install --cask descript 
     - '+.macdvdripperpro.com'         # 测试命令： brew install --cask mdrp
     - '+.jdownloader.org'             # 测试命令： brew install --cask jdownloader
+    - '+.calibre-ebook.com'           # 测试命令： brew install --cask calibre
                     
 
 
