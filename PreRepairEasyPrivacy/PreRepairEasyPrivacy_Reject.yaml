@@ -1,37 +1,38 @@
 payload:
 
-   # -------------------------------------------------------------------------------   
-   # 屏蔽所有分析行为
-   # -------------------------------------------------------------------------------   
-   
-    - DOMAIN-KEYWORD, app-analytics                                
-    - DOMAIN-KEYWORD, analytics.                                   
 
-    - DOMAIN-KEYWORD, pclog.                                       
-    - DOMAIN-KEYWORD, applog.                                      
-    - DOMAIN-KEYWORD, ioslog.                                      
-    - DOMAIN-KEYWORD, pc-log.                                      
-    - DOMAIN-KEYWORD, app-log.                                     
-    - DOMAIN-KEYWORD, ios-log.                                     
+   # ----------------------------------------------------------------------------   
+   # 屏蔽所有分析行为
+   # ----------------------------------------------------------------------------   
+   
+    - DOMAIN-KEYWORD, app-analytics                                # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, analytics.                                   # , REJECT-DROP                  
+
+    - DOMAIN-KEYWORD, pclog.                                       # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, applog.                                      # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, ioslog.                                      # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, pc-log.                                      # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, app-log.                                     # , REJECT-DROP                  
+    - DOMAIN-KEYWORD, ios-log.                                     # , REJECT-DROP                  
                                                                
 
    # Tiktok 位置分析（Tiktok通过这个来分析用户是否在中国 !!!!!!!!!
    #- DOMAIN-SUFFIX , app-analytics-services.com                        # 已被第一条规则涵盖！！
 
-   # ------------------------------------------------------------------------------- 
+   # ----------------------------------------------------------------------------   
    # 其他规则                                                    
-   # ------------------------------------------------------------------------------- 
+   # ----------------------------------------------------------------------------   
                                                                
    # 阿里统计                                                    
-    - DOMAIN-KEYWORD, guide-acs.taobao.com                        
-    - DOMAIN-KEYWORD, amdc.m.taobao.com                                 # 可能会导致阿里系软件疯狂弹窗
+    - DOMAIN-KEYWORD, guide-acs.taobao.com                         # , REJECT-DROP          
+    - DOMAIN-KEYWORD, amdc.m.taobao.com                            # , REJECT-DROP     # 可能会导致阿里系软件疯狂弹窗
                                                                
    #  百度统计                                                   
-    - DOMAIN-SUFFIX , fclog.baidu.com                                   # 百度日志
-    - DOMAIN-SUFFIX , hm.baidu.com                                      # 百度统计  
+    - DOMAIN-SUFFIX , fclog.baidu.com                              # , REJECT-DROP     # 百度日志
+    - DOMAIN-SUFFIX , hm.baidu.com                                 # , REJECT-DROP     # 百度统计  
                                                            
    # 百度广告                                                    
-    - DOMAIN-SUFFIX , hector.baidu.com                                                
-    - DOMAIN-SUFFIX , hectorstatic.baidu.com                                           
-    - DOMAIN-SUFFIX , tcbox.baidu.com                                               
-    - DOMAIN-SUFFIX , bgg.baidu.com                                 
+    - DOMAIN-SUFFIX , hector.baidu.com                             # , REJECT-DROP                  
+    - DOMAIN-SUFFIX , hectorstatic.baidu.com                       # , REJECT-DROP                   
+    - DOMAIN-SUFFIX , tcbox.baidu.com                              # , REJECT-DROP                
+    - DOMAIN-SUFFIX , bgg.baidu.com                                # , REJECT-DROP          
