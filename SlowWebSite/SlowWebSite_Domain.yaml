@@ -4,7 +4,7 @@ payload:
     - '+.macdvdripperpro.com'         # 测试命令： brew install --cask mdrp
     - '+.jdownloader.org'             # 测试命令： brew install --cask jdownloader
     - '+.calibre-ebook.com'           # 测试命令： brew install --cask calibre
-    - '+.adguard.com'                 # 测试命令： brew install --cask adguard
+    - '+.static.adguard.com'          # 测试命令： brew install --cask adguard
 
 
 
