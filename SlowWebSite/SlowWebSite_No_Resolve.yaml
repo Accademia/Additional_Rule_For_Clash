@@ -4,6 +4,7 @@ payload:
     - DOMAIN-SUFFIX  , macdvdripperpro.com         # 测试命令： brew install --cask mdrp
     - DOMAIN-SUFFIX  , jdownloader.org             # 测试命令： brew install --cask jdownloader
     - DOMAIN-SUFFIX  , calibre-ebook.com           # 测试命令： brew install --cask calibre
+    - DOMAIN-SUFFIX  , adguard.org                 # 测试命令： brew install --cask adguard
                     
 
 
