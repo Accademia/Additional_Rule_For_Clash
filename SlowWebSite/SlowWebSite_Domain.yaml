@@ -5,8 +5,7 @@ payload:
     - '+.jdownloader.org'             # 测试命令： brew install --cask jdownloader
     - '+.calibre-ebook.com'           # 测试命令： brew install --cask calibre
     - '+.static.adguard.com'          # 测试命令： brew install --cask adguard
-
-
+    - '+.folivora.ai'                 # 测试命令： brew install --cask bettertouchtool
 
 
 
