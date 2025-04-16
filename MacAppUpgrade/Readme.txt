@@ -17,11 +17,11 @@
 #
 # 引用范例 ：
 #
-#    MacAppDownload_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload_No_Resolve.yaml'                                      , path: ./ruleset/MacAppDownload_No_Resolve.yaml                    }       
+#    MacAppUpgrade_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppUpgrade/MacAppUpgrade_No_Resolve.yaml'                                      , path: ./ruleset/MacAppUpgrade_No_Resolve.yaml                    }       
 #           
-#    MacAppDownload                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload.yaml'                                                 , path: ./ruleset/MacAppDownload.yaml    	                       }    
+#    MacAppUpgrade                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppUpgrade/MacAppUpgrade.yaml'                                                 , path: ./ruleset/MacAppUpgrade.yaml    	                       }    
 #           
-#    MacAppDownload_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload_Domain.yaml'                                             , path: ./ruleset/MacAppDownload_Domain.yaml    		               }    
+#    MacAppUpgrade_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppUpgrade/MacAppUpgrade_Domain.yaml'                                             , path: ./ruleset/MacAppUpgrade_Domain.yaml    		               }    
 #
 #
 #
