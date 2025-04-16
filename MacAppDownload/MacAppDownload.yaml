@@ -1,0 +1,180 @@
+payload:
+    # 不带 --cask 的行（formula 软件包）
+    - DOMAIN-SUFFIX  , 0xcc.net                                 # 测试命令: brew install ttyrec
+    - DOMAIN-SUFFIX  , aomedia.googlesource.com                 # 测试命令: brew install aom
+    - DOMAIN-SUFFIX  , beyondgrep.com                           # 测试命令: brew install ack
+    - DOMAIN-SUFFIX  , bitbucket.org                            # 测试命令: brew install x265
+    - DOMAIN-SUFFIX  , breakfastquay.com                        # 测试命令: brew install rubberband
+    - DOMAIN-SUFFIX  , cairographics.org                        # 测试命令: brew install cairo
+    - DOMAIN-SUFFIX  , code.videolan.org                        # 测试命令: brew install aribb24
+    - DOMAIN-SUFFIX  , curl.se                                  # 测试命令: brew install ca-certificates
+    - DOMAIN-SUFFIX  , deb.debian.org                           # 测试命令: brew install w3m
+    - DOMAIN-SUFFIX  , dev.yorhel.nl                            # 测试命令: brew install ncdu
+    - DOMAIN-SUFFIX  , download.gnome.org                       # 测试命令: brew install glib
+    - DOMAIN-SUFFIX  , download.libsodium.org                   # 测试命令: brew install libsodium
+    - DOMAIN-SUFFIX  , download.osgeo.org                       # 测试命令: brew install libtiff
+    - DOMAIN-SUFFIX  , download.qemu.org                        # 测试命令: brew install qemu
+    - DOMAIN-SUFFIX  , download.videolan.org                    # 测试命令: brew install libbluray
+    - DOMAIN-SUFFIX  , downloads.es.net                         # 测试命令: brew install iperf3
+    - DOMAIN-SUFFIX  , downloads.sourceforge.net                # 测试命令: brew install freetype
+    - DOMAIN-SUFFIX  , downloads.xvid.com                       # 测试命令: brew install xvid
+    - DOMAIN-SUFFIX  , ffmpeg.org                               # 测试命令: brew install ffmpeg
+    - DOMAIN-SUFFIX  , files.pythonhosted.org                   # 测试命令: brew install certifi
+    - DOMAIN-SUFFIX  , ftp.gnu.org                              # 测试命令: brew install bash
+    - DOMAIN-SUFFIX  , ftp.osuosl.org                           # 测试命令: brew install flac
+    - DOMAIN-SUFFIX  , git.zx2c4.com                            # 测试命令: brew install wireguard-go
+    - DOMAIN-SUFFIX  , github.com                               # 测试命令: brew install aria2
+    - DOMAIN-SUFFIX  , gitlab.com                               # 测试命令: brew install svt-av1
+    - DOMAIN-SUFFIX  , gitlab.freedesktop.org                   # 测试命令: brew install libslirp
+    - DOMAIN-SUFFIX  , gitlab.xiph.org                          # 测试命令: brew install libao
+    - DOMAIN-SUFFIX  , gnupg.org                                # 测试命令: brew install gnupg
+    - DOMAIN-SUFFIX  , gondor.apana.org.au                      # 测试命令: brew install dash
+    - DOMAIN-SUFFIX  , imagemagick.org                          # 测试命令: brew install imagemagick
+    - DOMAIN-SUFFIX  , invisible-mirror.net                     # 测试命令: brew install lynx
+    - DOMAIN-SUFFIX  , libssh2.org                              # 测试命令: brew install libssh2
+    - DOMAIN-SUFFIX  , libzip.org                               # 测试命令: brew install libzip
+    - DOMAIN-SUFFIX  , mirrors.edge.kernel.org                  # 测试命令: brew install dtc
+    - DOMAIN-SUFFIX  , mujs.com                                 # 测试命令: brew install mujs
+    - DOMAIN-SUFFIX  , nlnetlabs.nl                             # 测试命令: brew install unbound
+    - DOMAIN-SUFFIX  , nmap.org                                 # 测试命令: brew install nmap
+    - DOMAIN-SUFFIX  , src.fedoraproject.org                    # 测试命令: brew install bash-completion
+    - DOMAIN-SUFFIX  , static.crates.io                         # 测试命令: brew install pngquant
+    - DOMAIN-SUFFIX  , storage.googleapis.com                   # 测试命令: brew install webp
+    - DOMAIN-SUFFIX  , swupdate.openvpn.org                     # 测试命令: brew install openvpn
+    - DOMAIN-SUFFIX  , www.apache.org                           # 测试命令: brew install apr
+    - DOMAIN-SUFFIX  , www.bytereef.org                         # 测试命令: brew install mpdecimal
+    - DOMAIN-SUFFIX  , www.csie.ntu.edu.tw                      # 测试命令: brew install liblinear
+    - DOMAIN-SUFFIX  , www.flameeyes.com                        # 测试命令: brew install unpaper
+    - DOMAIN-SUFFIX  , www.freedesktop.org                      # 测试命令: brew install fontconfig
+    - DOMAIN-SUFFIX  , www.gnupg.org                            # 测试命令: brew install gnutls
+    - DOMAIN-SUFFIX  , www.greenwoodsoftware.com                # 测试命令: brew install less
+    - DOMAIN-SUFFIX  , www.inf.puc-rio.br                       # 测试命令: brew install lpeg
+    - DOMAIN-SUFFIX  , www.ivarch.com                           # 测试命令: brew install pv
+    - DOMAIN-SUFFIX  , www.libarchive.org                       # 测试命令: brew install libarchive
+    - DOMAIN-SUFFIX  , www.libraw.org                           # 测试命令: brew install libraw
+    - DOMAIN-SUFFIX  , www.libssh.org                           # 测试命令: brew install libssh
+    - DOMAIN-SUFFIX  , www.lua.org                              # 测试命令: brew install lua
+    - DOMAIN-SUFFIX  , www.mpg123.de                            # 测试命令: brew install mpg123
+    - DOMAIN-SUFFIX  , www.nano-editor.org                      # 测试命令: brew install nano
+    - DOMAIN-SUFFIX  , www.oberhumer.com                        # 测试命令: brew install lzo
+    - DOMAIN-SUFFIX  , www.python.org                           # 测试命令: brew install python@3.12
+    - DOMAIN-SUFFIX  , www.sqlite.org                           # 测试命令: brew install sqlite
+    - DOMAIN-SUFFIX  , www.x.org                                # 测试命令: brew install libx11
+    - DOMAIN-SUFFIX  , xorg.freedesktop.org                     # 测试命令: brew install libxcb
+
+    # 带 --cask 的行（cask 软件包）
+    - DOMAIN-SUFFIX  , 2.na.dl.wireshark.org                    # 测试命令: brew install --cask wireshark
+    - DOMAIN-SUFFIX  , app.warp.dev                             # 测试命令: brew install --cask warp
+    - DOMAIN-SUFFIX  , apphousekitchen.com                      # 测试命令: brew install --cask aldente
+    - DOMAIN-SUFFIX  , aptonic.com                              # 测试命令: brew install --cask dropzone
+    - DOMAIN-SUFFIX  , archive.torproject.org                   # 测试命令: brew install --cask tor-browser
+    - DOMAIN-SUFFIX  , autoupdate.termius.com                   # 测试命令: brew install --cask termius
+    - DOMAIN-SUFFIX  , binaryfruit.com                          # 测试命令: brew install --cask drivedx
+    - DOMAIN-SUFFIX  , bombich.scdn1.secure.raxcdn.com          # 测试命令: brew install --cask carbon-copy-cloner
+    - DOMAIN-SUFFIX  , buildbot.libretro.com                    # 测试命令: brew install --cask retroarch
+    - DOMAIN-SUFFIX  , builds.parsec.app                        # 测试命令: brew install --cask parsec
+    - DOMAIN-SUFFIX  , c-command.com                            # 测试命令: brew install --cask eaglefiler
+    - DOMAIN-SUFFIX  , cached.codeux.com                        # 测试命令: brew install --cask textual
+    - DOMAIN-SUFFIX  , cachefly.alfredapp.com                   # 测试命令: brew install --cask alfred
+    - DOMAIN-SUFFIX  , carnationsoftware.com                    # 测试命令: brew install --cask tm-error-logger
+    - DOMAIN-SUFFIX  , ccmdls.adobe.com                         # 测试命令: brew install --cask adobe-creative-cloud
+    - DOMAIN-SUFFIX  , cdn-2.webcatalog.io                      # 测试命令: brew install --cask webcatalog
+    - DOMAIN-SUFFIX  , cdn-fastly.obsproject.com                # 测试命令: brew install --cask obs
+    - DOMAIN-SUFFIX  , cdn.aliyundrive.net                      # 测试命令: brew install --cask adrive
+    - DOMAIN-SUFFIX  , cdn.awehunt.com                          # 测试命令: brew install --cask maczip
+    - DOMAIN-SUFFIX  , cdn.better365.cn                         # 测试命令: brew install --cask flykey
+    - DOMAIN-SUFFIX  , cdn.cindori.com                          # 测试命令: brew install --cask sensei
+    - DOMAIN-SUFFIX  , cdn.cloudflare.steamstatic.com           # 测试命令: brew install --cask steam
+    - DOMAIN-SUFFIX  , cdn.electronic.us                        # 测试命令: brew install --cask elmedia-player
+    - DOMAIN-SUFFIX  , cdn.fork.dev                             # 测试命令: brew install --cask fork
+    - DOMAIN-SUFFIX  , cdn.geekbench.com                        # 测试命令: brew install --cask geekbench
+    - DOMAIN-SUFFIX  , cdn.insynchq.com                         # 测试命令: brew install --cask insync
+    - DOMAIN-SUFFIX  , cdn.macblurayplayer.com                  # 测试命令: brew install --cask blu-ray-player-pro
+    - DOMAIN-SUFFIX  , cdn.netspotapp.com                       # 测试命令: brew install --cask netspot
+    - DOMAIN-SUFFIX  , cdn.rogueamoeba.com                      # 测试命令: brew install --cask airfoil
+    - DOMAIN-SUFFIX  , cdn.zoom.us                              # 测试命令: brew install --cask zoom
+    - DOMAIN-SUFFIX  , coderunnerapp.com                        # 测试命令: brew install --cask coderunner
+    - DOMAIN-SUFFIX  , corkmac.app                              # 测试命令: brew install --cask cork
+    - DOMAIN-SUFFIX  , d1.music.126.net                         # 测试命令: brew install --cask neteasemusic
+    - DOMAIN-SUFFIX  , d1fqctmfkpkkcg.cloudfront.net            # 测试命令: brew install --cask gifox
+    - DOMAIN-SUFFIX  , d2wvuuix8c9e48.cloudfront.net            # 测试命令: brew install --cask dropshare
+    - DOMAIN-SUFFIX  , d3fwkemdw8spx3.cloudfront.net            # 测试命令: brew install --cask sqlpro-for-sqlite
+    - DOMAIN-SUFFIX  , desktop-release.notion-static.com        # 测试命令: brew install --cask notion
+    - DOMAIN-SUFFIX  , desktop.githubusercontent.com            # 测试命令: brew install --cask github
+    - DOMAIN-SUFFIX  , developers.yubico.com                    # 测试命令: brew install --cask yubico-authenticator
+    - DOMAIN-SUFFIX  , devstorm-apps.com                        # 测试命令: brew install --cask dcommander
+    - DOMAIN-SUFFIX  , dist.mountainduck.io                     # 测试命令: brew install --cask mountain-duck
+    - DOMAIN-SUFFIX  , dl-portal.iina.io                        # 测试命令: brew install --cask iina
+    - DOMAIN-SUFFIX  , dl.4kdownload.com                        # 测试命令: brew install --cask 4k-video-downloader
+    - DOMAIN-SUFFIX  , dl.airserver.com                         # 测试命令: brew install --cask airserver
+    - DOMAIN-SUFFIX  , dl.cleverfiles.com                       # 测试命令: brew install --cask disk-drill
+    - DOMAIN-SUFFIX  , dl.devmate.com                           # 测试命令: brew install --cask filepane
+    - DOMAIN-SUFFIX  , dl.discordapp.net                        # 测试命令: brew install --cask discord
+    - DOMAIN-SUFFIX  , dl.dolphin-emu.org                       # 测试命令: brew install --cask dolphin
+    - DOMAIN-SUFFIX  , dl.dropboxusercontent.com                # 测试命令: brew install --cask command-x
+    - DOMAIN-SUFFIX  , dl.google.com                            # 测试命令: brew install --cask android-file-transfer
+    - DOMAIN-SUFFIX  , dl.hdslb.com                             # 测试命令: brew install --cask bilibili
+    - DOMAIN-SUFFIX  , dl.houdah.com                            # 测试命令: brew install --cask houdahspot
+    - DOMAIN-SUFFIX  , dl.paragon-software.com                  # 测试命令: brew install --cask paragon-extfs
+    - DOMAIN-SUFFIX  , dldir1.qq.com                            # 测试命令: brew install --cask qqlive
+    - DOMAIN-SUFFIX  , down.115.com                             # 测试命令: brew install --cask 115browser
+    - DOMAIN-SUFFIX  , down.sandai.net                          # 测试命令: brew install --cask thunder
+    - DOMAIN-SUFFIX  , download-installer.cdn.mozilla.net       # 测试命令: brew install --cask firefox
+    - DOMAIN-SUFFIX  , download.airsquirrels.com                # 测试命令: brew install --cask airparrot
+    - DOMAIN-SUFFIX  , download.binarynights.com                # 测试命令: brew install --cask forklift
+    - DOMAIN-SUFFIX  , download.blender.org                     # 测试命令: brew install --cask blender
+    - DOMAIN-SUFFIX  , download.calibre-ebook.com               # 测试命令: brew install --cask calibre
+    - DOMAIN-SUFFIX  , download.delta.chat                      # 测试命令: brew install --cask deltachat
+    - DOMAIN-SUFFIX  , download.devontechnologies.com           # 测试命令: brew install --cask devonthink
+    - DOMAIN-SUFFIX  , download.diskcatalogmaker.com            # 测试命令: brew install --cask diskcatalogmaker
+    - DOMAIN-SUFFIX  , download.geogebra.org                    # 测试命令: brew install --cask geogebra
+    - DOMAIN-SUFFIX  , download.gimp.org                        # 测试命令: brew install --cask gimp
+    - DOMAIN-SUFFIX  , download.kde.org                         # 测试命令: brew install --cask krita
+    - DOMAIN-SUFFIX  , download.mipony.net                      # 测试命令: brew install --cask mipony
+    - DOMAIN-SUFFIX  , download.mono-project.com                # 测试命令: brew install --cask mono-mdk-for-visual-studio
+    - DOMAIN-SUFFIX  , download.nektony.com                     # 测试命令: brew install --cask vsd-viewer
+    - DOMAIN-SUFFIX  , download.nextcloud.com                   # 测试命令: brew install --cask nextcloud
+    - DOMAIN-SUFFIX  , download.nvidia.com                      # 测试命令: brew install --cask nvidia-geforce-now
+    - DOMAIN-SUFFIX  , download.scdn.co                         # 测试命令: brew install --cask spotify
+    - DOMAIN-SUFFIX  , download.skype.com                       # 测试命令: brew install --cask skype
+    - DOMAIN-SUFFIX  , download.techsmith.com                   # 测试命令: brew install --cask camtasia
+    - DOMAIN-SUFFIX  , download.typora.io                       # 测试命令: brew install --cask typora
+    - DOMAIN-SUFFIX  , download.visualstudio.microsoft.com      # 测试命令: brew install --cask visual-studio
+    - DOMAIN-SUFFIX  , download.xnview.com                      # 测试命令: brew install --cask xnviewmp
+    - DOMAIN-SUFFIX  , download.zotero.org                      # 测试命令: brew install --cask zotero
+    - DOMAIN-SUFFIX  , downloads.busymac.com                    # 测试命令: brew install --cask busycal
+    - DOMAIN-SUFFIX  , downloads.cloudflareclient.com           # 测试命令: brew install --cask cloudflare-warp
+    - DOMAIN-SUFFIX  , downloads.imazing.com                    # 测试命令: brew install --cask imazing
+    - DOMAIN-SUFFIX  , downloads.iwascoding.com                 # 测试命令: brew install --cask garagesale
+    - DOMAIN-SUFFIX  , downloads.omnigroup.com                  # 测试命令: brew install --cask omnidisksweeper
+    - DOMAIN-SUFFIX  , downloads.pdfexpert.com                  # 测试命令: brew install --cask pdf-expert
+    - DOMAIN-SUFFIX  , downloads.plex.tv                        # 测试命令: brew install --cask plex
+    - DOMAIN-SUFFIX  , downloads.prosofteng.com                 # 测试命令: brew install --cask data-rescue
+    - DOMAIN-SUFFIX  , downloads.realvnc.com                    # 测试命令: brew install --cask vnc-viewer
+    - DOMAIN-SUFFIX  , downloads.scummvm.org                    # 测试命令: brew install --cask scummvm
+    - DOMAIN-SUFFIX  , echoone.com                              # 测试命令: brew install --cask file-juicer
+    - DOMAIN-SUFFIX  , edge.elgato.com                          # 测试命令: brew install --cask elgato-stream-deck
+    - DOMAIN-SUFFIX  , electron.descript.com                    # 测试命令: brew install --cask descript
+    - DOMAIN-SUFFIX  , epicgames-download1.akamaized.net        # 测试命令: brew install --cask epic-games
+    - DOMAIN-SUFFIX  , firealpaca.com                           # 测试命令: brew install --cask firealpaca
+    - DOMAIN-SUFFIX  , fireball.studio                          # 测试命令: brew install --cask one-switch
+    - DOMAIN-SUFFIX  , folivora.ai                              # 测试命令: brew install --cask bettertouchtool
+    - DOMAIN-SUFFIX  , freeware.the-meiers.org                  # 测试命令: brew install --cask coolterm
+    - DOMAIN-SUFFIX  , fs-uae.net                               # 测试命令: brew install --cask fs-uae
+    - DOMAIN-SUFFIX  , ftp.binance.com                          # 测试命令: brew install --cask binance
+    - DOMAIN-SUFFIX  , get.retina.studio                        # 测试命令: brew install --cask commandq
+    - DOMAIN-SUFFIX  , geticonjar.com                           # 测试命令: brew install --cask iconjar
+    - DOMAIN-SUFFIX  , global.download.synology.com             # 测试命令: brew install --cask synology-chat
+    - DOMAIN-SUFFIX  , gog-cdn-fastly.gog.com                   # 测试命令: brew install --cask gog-galaxy
+    - DOMAIN-SUFFIX  , gridsapp.net                             # 测试命令: brew install --cask grids
+    - DOMAIN-SUFFIX  , handbrake.fr                             # 测试命令: brew install --cask handbrake
+    - DOMAIN-SUFFIX  , imageoptim.com                           # 测试命令: brew install --cask imageoptim
+    - DOMAIN-SUFFIX  , inputsource.pro                          # 测试命令: brew install --cask input-source-pro
+    - DOMAIN-SUFFIX  , installer.jdownloader.org                # 测试命令: brew install --cask jdownloader
+    - DOMAIN-SUFFIX  , iterm2.com                               # 测试命令: brew install --cask iterm2
+    - DOMAIN-SUFFIX  , itsycal.s3.amazonaws.com                 # 测试命令: brew install --cask itsycal
+    - DOMAIN-SUFFIX  , launchpad.net                            # 测试命令: brew install --cask veracrypt
+    - DOMAIN-SUFFIX  , lf-impc.douyinstatic.com                 # 测试命令: brew install --cask douyin-chat
+    - DOMAIN-SUFFIX  , lf3-package.vlabstatic.com               # 测试命令: brew install --cask videofusion
+    - DOMAIN-SUFFIX  , lo.cafe                                  # 测试命令: brew install --cask notchnook
+    - DOMAIN-SUFFIX  , mac-release-static.stash.ws             

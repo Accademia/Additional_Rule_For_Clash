@@ -7,16 +7,17 @@
 #	有些网站，虽然没有被GFW屏蔽，但是网速访问极慢，这会导致 Brew Upgrade 或 WinGet 在自动更新时，因网速过慢，而导致卡住（下载等待时间过长）。所以，将此类网站归类，使用分流规则进行加速（注意，此列表仅仅针对中国地区的用户）
 #
 #
-#
+# 本规则通过Mac的批处理脚本生成（脚本编写来自 xAI Grok DeepThink）：
+# brewlist_to_yaml
 #
 #
 # 引用范例 ：
 #
-#    lowWebSite_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite_No_Resolve.yaml'                                      , path: ./ruleset/lowWebSite_No_Resolve.yaml                    }       
+#    MacAppDownload_No_Resolve                   : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload_No_Resolve.yaml'                                      , path: ./ruleset/MacAppDownload_No_Resolve.yaml                    }       
 #           
-#    lowWebSite                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite.yaml'                                                 , path: ./ruleset/lowWebSite.yaml    	                       }    
+#    MacAppDownload                              : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload.yaml'                                                 , path: ./ruleset/MacAppDownload.yaml    	                       }    
 #           
-#    lowWebSite_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/lowWebSite/lowWebSite_Domain.yaml'                                             , path: ./ruleset/lowWebSite_Domain.yaml    		               }    
+#    MacAppDownload_Domain                       : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/MacAppDownload/MacAppDownload_Domain.yaml'                                             , path: ./ruleset/MacAppDownload_Domain.yaml    		               }    
 #
 #
 #

@@ -1,0 +1,273 @@
+payload:
+    # 不带 --cask 的行（formula 软件包）
+    - '+.0xcc.net'                                 # 测试命令： brew install ttyrec
+    - '+.aomedia.googlesource.com'                 # 测试命令： brew install aom
+    - '+.beyondgrep.com'                           # 测试命令： brew install ack
+    - '+.bitbucket.org'                            # 测试命令： brew install x265
+    - '+.breakfastquay.com'                        # 测试命令： brew install rubberband
+    - '+.cairographics.org'                        # 测试命令： brew install cairo
+    - '+.code.videolan.org'                        # 测试命令： brew install aribb24
+    - '+.curl.se'                                  # 测试命令： brew install ca-certificates
+    - '+.deb.debian.org'                           # 测试命令： brew install w3m
+    - '+.dev.yorhel.nl'                            # 测试命令： brew install ncdu
+    - '+.download.gnome.org'                       # 测试命令： brew install glib
+    - '+.download.libsodium.org'                   # 测试命令： brew install libsodium
+    - '+.download.osgeo.org'                       # 测试命令： brew install libtiff
+    - '+.download.qemu.org'                        # 测试命令： brew install qemu
+    - '+.download.videolan.org'                    # 测试命令： brew install libbluray
+    - '+.downloads.es.net'                         # 测试命令： brew install iperf3
+    - '+.downloads.sourceforge.net'                # 测试命令： brew install freetype
+    - '+.downloads.xvid.com'                       # 测试命令： brew install xvid
+    - '+.ffmpeg.org'                               # 测试命令： brew install ffmpeg
+    - '+.files.pythonhosted.org'                   # 测试命令： brew install certifi
+    - '+.ftp.gnu.org'                              # 测试命令： brew install bash
+    - '+.ftp.osuosl.org'                           # 测试命令： brew install flac
+    - '+.git.zx2c4.com'                            # 测试命令： brew install wireguard-go
+    - '+.github.com'                               # 测试命令： brew install aria2
+    - '+.gitlab.com'                               # 测试命令： brew install svt-av1
+    - '+.gitlab.freedesktop.org'                   # 测试命令： brew install libslirp
+    - '+.gitlab.xiph.org'                          # 测试命令： brew install libao
+    - '+.gnupg.org'                                # 测试命令： brew install gnupg
+    - '+.gondor.apana.org.au'                      # 测试命令： brew install dash
+    - '+.imagemagick.org'                          # 测试命令： brew install imagemagick
+    - '+.invisible-mirror.net'                     # 测试命令： brew install lynx
+    - '+.libssh2.org'                              # 测试命令： brew install libssh2
+    - '+.libzip.org'                               # 测试命令： brew install libzip
+    - '+.mirrors.edge.kernel.org'                  # 测试命令： brew install dtc
+    - '+.mujs.com'                                 # 测试命令： brew install mujs
+    - '+.nlnetlabs.nl'                             # 测试命令： brew install unbound
+    - '+.nmap.org'                                 # 测试命令： brew install nmap
+    - '+.src.fedoraproject.org'                    # 测试命令： brew install bash-completion
+    - '+.static.crates.io'                         # 测试命令： brew install pngquant
+    - '+.storage.googleapis.com'                   # 测试命令： brew install webp
+    - '+.swupdate.openvpn.org'                     # 测试命令： brew install openvpn
+    - '+.www.apache.org'                           # 测试命令： brew install apr
+    - '+.www.bytereef.org'                         # 测试命令： brew install mpdecimal
+    - '+.www.csie.ntu.edu.tw'                      # 测试命令： brew install liblinear
+    - '+.www.flameeyes.com'                        # 测试命令： brew install unpaper
+    - '+.www.freedesktop.org'                      # 测试命令： brew install fontconfig
+    - '+.www.gnupg.org'                            # 测试命令： brew install gnutls
+    - '+.www.greenwoodsoftware.com'                # 测试命令： brew install less
+    - '+.www.inf.puc-rio.br'                       # 测试命令： brew install lpeg
+    - '+.www.ivarch.com'                           # 测试命令： brew install pv
+    - '+.www.libarchive.org'                       # 测试命令： brew install libarchive
+    - '+.www.libraw.org'                           # 测试命令： brew install libraw
+    - '+.www.libssh.org'                           # 测试命令： brew install libssh
+    - '+.www.lua.org'                              # 测试命令： brew install lua
+    - '+.www.mpg123.de'                            # 测试命令： brew install mpg123
+    - '+.www.nano-editor.org'                      # 测试命令： brew install nano
+    - '+.www.oberhumer.com'                        # 测试命令： brew install lzo
+    - '+.www.python.org'                           # 测试命令： brew install python@3.12
+    - '+.www.sqlite.org'                           # 测试命令： brew install sqlite
+    - '+.www.x.org'                                # 测试命令： brew install libx11
+    - '+.xorg.freedesktop.org'                     # 测试命令： brew install libxcb
+    
+    # 带 --cask 的行（formula 软件包）
+    - '+.2.na.dl.wireshark.org'                    # 测试命令： brew install --cask wireshark
+    - '+.app.warp.dev'                             # 测试命令： brew install --cask warp
+    - '+.apphousekitchen.com'                      # 测试命令： brew install --cask aldente
+    - '+.aptonic.com'                              # 测试命令： brew install --cask dropzone
+    - '+.archive.torproject.org'                   # 测试命令： brew install --cask tor-browser
+    - '+.autoupdate.termius.com'                   # 测试命令： brew install --cask termius
+    - '+.binaryfruit.com'                          # 测试命令： brew install --cask drivedx
+    - '+.bombich.scdn1.secure.raxcdn.com'          # 测试命令： brew install --cask carbon-copy-cloner
+    - '+.buildbot.libretro.com'                    # 测试命令： brew install --cask retroarch
+    - '+.builds.parsec.app'                        # 测试命令： brew install --cask parsec
+    - '+.c-command.com'                            # 测试命令： brew install --cask eaglefiler
+    - '+.cached.codeux.com'                        # 测试命令： brew install --cask textual
+    - '+.cachefly.alfredapp.com'                   # 测试命令： brew install --cask alfred
+    - '+.carnationsoftware.com'                    # 测试命令： brew install --cask tm-error-logger
+    - '+.ccmdls.adobe.com'                         # 测试命令： brew install --cask adobe-creative-cloud
+    - '+.cdn-2.webcatalog.io'                      # 测试命令： brew install --cask webcatalog
+    - '+.cdn-fastly.obsproject.com'                # 测试命令： brew install --cask obs
+    - '+.cdn.aliyundrive.net'                      # 测试命令： brew install --cask adrive
+    - '+.cdn.awehunt.com'                          # 测试命令： brew install --cask maczip
+    - '+.cdn.better365.cn'                         # 测试命令： brew install --cask flykey
+    - '+.cdn.cindori.com'                          # 测试命令： brew install --cask sensei
+    - '+.cdn.cloudflare.steamstatic.com'           # 测试命令： brew install --cask steam
+    - '+.cdn.electronic.us'                        # 测试命令： brew install --cask elmedia-player
+    - '+.cdn.fork.dev'                             # 测试命令： brew install --cask fork
+    - '+.cdn.geekbench.com'                        # 测试命令： brew install --cask geekbench
+    - '+.cdn.insynchq.com'                         # 测试命令： brew install --cask insync
+    - '+.cdn.macblurayplayer.com'                  # 测试命令： brew install --cask blu-ray-player-pro
+    - '+.cdn.netspotapp.com'                       # 测试命令： brew install --cask netspot
+    - '+.cdn.rogueamoeba.com'                      # 测试命令： brew install --cask airfoil
+    - '+.cdn.zoom.us'                              # 测试命令： brew install --cask zoom
+    - '+.coderunnerapp.com'                        # 测试命令： brew install --cask coderunner
+    - '+.corkmac.app'                              # 测试命令： brew install --cask cork
+    - '+.d1.music.126.net'                         # 测试命令： brew install --cask neteasemusic
+    - '+.d1fqctmfkpkkcg.cloudfront.net'            # 测试命令： brew install --cask gifox
+    - '+.d2wvuuix8c9e48.cloudfront.net'            # 测试命令： brew install --cask dropshare
+    - '+.d3fwkemdw8spx3.cloudfront.net'            # 测试命令： brew install --cask sqlpro-for-sqlite
+    - '+.desktop-release.notion-static.com'        # 测试命令： brew install --cask notion
+    - '+.desktop.githubusercontent.com'            # 测试命令： brew install --cask github
+    - '+.developers.yubico.com'                    # 测试命令： brew install --cask yubico-authenticator
+    - '+.devstorm-apps.com'                        # 测试命令： brew install --cask dcommander
+    - '+.dist.mountainduck.io'                     # 测试命令： brew install --cask mountain-duck
+    - '+.dl-portal.iina.io'                        # 测试命令： brew install --cask iina
+    - '+.dl.4kdownload.com'                        # 测试命令： brew install --cask 4k-video-downloader
+    - '+.dl.airserver.com'                         # 测试命令： brew install --cask airserver
+    - '+.dl.cleverfiles.com'                       # 测试命令： brew install --cask disk-drill
+    - '+.dl.devmate.com'                           # 测试命令： brew install --cask filepane
+    - '+.dl.discordapp.net'                        # 测试命令： brew install --cask discord
+    - '+.dl.dolphin-emu.org'                       # 测试命令： brew install --cask dolphin
+    - '+.dl.dropboxusercontent.com'                # 测试命令： brew install --cask command-x
+    - '+.dl.google.com'                            # 测试命令： brew install --cask android-file-transfer
+    - '+.dl.hdslb.com'                             # 测试命令： brew install --cask bilibili
+    - '+.dl.houdah.com'                            # 测试命令： brew install --cask houdahspot
+    - '+.dl.paragon-software.com'                  # 测试命令： brew install --cask paragon-extfs
+    - '+.dldir1.qq.com'                            # 测试命令： brew install --cask qqlive
+    - '+.down.115.com'                             # 测试命令： brew install --cask 115browser
+    - '+.down.sandai.net'                          # 测试命令： brew install --cask thunder
+    - '+.download-installer.cdn.mozilla.net'       # 测试命令： brew install --cask firefox
+    - '+.download.airsquirrels.com'                # 测试命令： brew install --cask airparrot
+    - '+.download.binarynights.com'                # 测试命令： brew install --cask forklift
+    - '+.download.blender.org'                     # 测试命令： brew install --cask blender
+    - '+.download.calibre-ebook.com'               # 测试命令： brew install --cask calibre
+    - '+.download.delta.chat'                      # 测试命令： brew install --cask deltachat
+    - '+.download.devontechnologies.com'           # 测试命令： brew install --cask devonthink
+    - '+.download.diskcatalogmaker.com'            # 测试命令： brew install --cask diskcatalogmaker
+    - '+.download.geogebra.org'                    # 测试命令： brew install --cask geogebra
+    - '+.download.gimp.org'                        # 测试命令： brew install --cask gimp
+    - '+.download.kde.org'                         # 测试命令： brew install --cask krita
+    - '+.download.mipony.net'                      # 测试命令： brew install --cask mipony
+    - '+.download.mono-project.com'                # 测试命令： brew install --cask mono-mdk-for-visual-studio
+    - '+.download.nektony.com'                     # 测试命令： brew install --cask vsd-viewer
+    - '+.download.nextcloud.com'                   # 测试命令： brew install --cask nextcloud
+    - '+.download.nvidia.com'                      # 测试命令： brew install --cask nvidia-geforce-now
+    - '+.download.scdn.co'                         # 测试命令： brew install --cask spotify
+    - '+.download.skype.com'                       # 测试命令： brew install --cask skype
+    - '+.download.techsmith.com'                   # 测试命令： brew install --cask camtasia
+    - '+.download.typora.io'                       # 测试命令： brew install --cask typora
+    - '+.download.visualstudio.microsoft.com'      # 测试命令： brew install --cask visual-studio
+    - '+.download.xnview.com'                      # 测试命令： brew install --cask xnviewmp
+    - '+.download.zotero.org'                      # 测试命令： brew install --cask zotero
+    - '+.downloads.busymac.com'                    # 测试命令： brew install --cask busycal
+    - '+.downloads.cloudflareclient.com'           # 测试命令： brew install --cask cloudflare-warp
+    - '+.downloads.imazing.com'                    # 测试命令： brew install --cask imazing
+    - '+.downloads.iwascoding.com'                 # 测试命令： brew install --cask garagesale
+    - '+.downloads.omnigroup.com'                  # 测试命令： brew install --cask omnidisksweeper
+    - '+.downloads.pdfexpert.com'                  # 测试命令： brew install --cask pdf-expert
+    - '+.downloads.plex.tv'                        # 测试命令： brew install --cask plex
+    - '+.downloads.prosofteng.com'                 # 测试命令： brew install --cask data-rescue
+    - '+.downloads.realvnc.com'                    # 测试命令： brew install --cask vnc-viewer
+    - '+.downloads.scummvm.org'                    # 测试命令： brew install --cask scummvm
+    - '+.echoone.com'                              # 测试命令： brew install --cask file-juicer
+    - '+.edge.elgato.com'                          # 测试命令： brew install --cask elgato-stream-deck
+    - '+.electron.descript.com'                    # 测试命令： brew install --cask descript
+    - '+.epicgames-download1.akamaized.net'        # 测试命令： brew install --cask epic-games
+    - '+.firealpaca.com'                           # 测试命令： brew install --cask firealpaca
+    - '+.fireball.studio'                          # 测试命令： brew install --cask one-switch
+    - '+.folivora.ai'                              # 测试命令： brew install --cask bettertouchtool
+    - '+.freeware.the-meiers.org'                  # 测试命令： brew install --cask coolterm
+    - '+.fs-uae.net'                               # 测试命令： brew install --cask fs-uae
+    - '+.ftp.binance.com'                          # 测试命令： brew install --cask binance
+    - '+.get.retina.studio'                        # 测试命令： brew install --cask commandq
+    - '+.geticonjar.com'                           # 测试命令： brew install --cask iconjar
+    - '+.global.download.synology.com'             # 测试命令： brew install --cask synology-chat
+    - '+.gog-cdn-fastly.gog.com'                   # 测试命令： brew install --cask gog-galaxy
+    - '+.gridsapp.net'                             # 测试命令： brew install --cask grids
+    - '+.handbrake.fr'                             # 测试命令： brew install --cask handbrake
+    - '+.imageoptim.com'                           # 测试命令： brew install --cask imageoptim
+    - '+.inputsource.pro'                          # 测试命令： brew install --cask input-source-pro
+    - '+.installer.jdownloader.org'                # 测试命令： brew install --cask jdownloader
+    - '+.iterm2.com'                               # 测试命令： brew install --cask iterm2
+    - '+.itsycal.s3.amazonaws.com'                 # 测试命令： brew install --cask itsycal
+    - '+.launchpad.net'                            # 测试命令： brew install --cask veracrypt
+    - '+.lf-impc.douyinstatic.com'                 # 测试命令： brew install --cask douyin-chat
+    - '+.lf3-package.vlabstatic.com'               # 测试命令： brew install --cask videofusion
+    - '+.lo.cafe'                                  # 测试命令： brew install --cask notchnook
+    - '+.mac-release-static.stash.ws'              # 测试命令： brew install --cask stash
+    - '+.macdaddy.io'                              # 测试命令： brew install --cask install-disk-creator
+    - '+.macitbetter.s3.amazonaws.com'             # 测试命令： brew install --cask betterzip
+    - '+.mactracker.ca'                            # 测试命令： brew install --cask mactracker
+    - '+.magicquit.com'                            # 测试命令： brew install --cask magicquit
+    - '+.manico.im'                                # 测试命令： brew install --cask manico
+    - '+.max.codes'                                # 测试命令： brew install --cask latest
+    - '+.media.codeweavers.com'                    # 测试命令： brew install --cask crossover
+    - '+.media.inkscape.org'                       # 测试命令： brew install --cask inkscape
+    - '+.mediaarea.net'                            # 测试命令： brew install --cask mediainfo
+    - '+.mirrors.kodi.tv'                          # 测试命令： brew install --cask kodi
+    - '+.mkvtoolnix.download'                      # 测试命令： brew install --cask mkvtoolnix
+    - '+.msedge.sf.dl.delivery.mp.microsoft.com'   # 测试命令： brew install --cask microsoft-edge
+    - '+.multitouch.app'                           # 测试命令： brew install --cask multitouch
+    - '+.mx-app-blob-prod.maxon.net'               # 测试命令： brew install --cask cinebench
+    - '+.nektony.com'                              # 测试命令： brew install --cask maccleaner-pro
+    - '+.officecdnmac.microsoft.com'               # 测试命令： brew install --cask microsoft-auto-update
+    - '+.origin-a.akamaihd.net'                    # 测试命令： brew install --cask ea
+    - '+.osx.telegram.org'                         # 测试命令： brew install --cask telegram
+    - '+.packages.element.io'                      # 测试命令： brew install --cask element
+    - '+.packages.loom.com'                        # 测试命令： brew install --cask loom
+    - '+.persistent.oaistatic.com'                 # 测试命令： brew install --cask chatgpt
+    - '+.pierre.chachatelier.fr'                   # 测试命令： brew install --cask latexit
+    - '+.pilotmoon.com'                            # 测试命令： brew install --cask popclip
+    - '+.pkgs.tailscale.com'                       # 测试命令： brew install --cask tailscale
+    - '+.redream.io'                               # 测试命令： brew install --cask redream
+    - '+.release.ripperhe.com'                     # 测试命令： brew install --cask bobhelper
+    - '+.releases.arc.net'                         # 测试命令： brew install --cask arc
+    - '+.releases.gpgtools.org'                    # 测试命令： brew install --cask gpg-suite
+    - '+.repo.anaconda.com'                        # 测试命令： brew install --cask anaconda
+    - '+.repo.nperf.com'                           # 测试命令： brew install --cask nperf
+    - '+.royaltsx-v6.royalapps.com'                # 测试命令： brew install --cask royal-tsx
+    - '+.s3.amazonaws.com'                         # 测试命令： brew install --cask hazel
+    - '+.s3.numi.app'                              # 测试命令： brew install --cask numi
+    - '+.screenstudioassets.com'                   # 测试命令： brew install --cask screen-studio
+    - '+.scrivener.s3.amazonaws.com'               # 测试命令： brew install --cask scrivener
+    - '+.sf-applications.s3.amazonaws.com'         # 测试命令： brew install --cask image2icon
+    - '+.sipapp.fra1.digitaloceanspaces.com'       # 测试命令： brew install --cask sip
+    - '+.software.charliemonroe.net'               # 测试命令： brew install --cask downie
+    - '+.softwareupdate.vmware.com'                # 测试命令： brew install --cask vmware-fusion
+    - '+.static.adguard.com'                       # 测试命令： brew install --cask adguard
+    - '+.static.drawthings.ai'                     # 测试命令： brew install --cask draw-things
+    - '+.statics.teams.cdn.office.net'             # 测试命令： brew install --cask microsoft-teams
+    - '+.stickytimers.app'                         # 测试命令： brew install --cask macwhisper
+    - '+.su.airbuddy.app'                          # 测试命令： brew install --cask airbuddy
+    - '+.su.virtualbuddy.app'                      # 测试命令： brew install --cask virtualbuddy
+    - '+.sveinbjorn.org'                           # 测试命令： brew install --cask sloth
+    - '+.swupdate.openvpn.net'                     # 测试命令： brew install --cask openvpn-connect
+    - '+.thomasokken.com'                          # 测试命令： brew install --cask free42-decimal
+    - '+.trials.adobe.com'                         # 测试命令： brew install --cask adobe-acrobat-pro
+    - '+.tripmode-updates.ch'                      # 测试命令： brew install --cask tripmode
+    - '+.tunnelblick.net'                          # 测试命令： brew install --cask tunnelblick
+    - '+.u1sweb.webullfintech.com'                 # 测试命令： brew install --cask webull
+    - '+.update.code.visualstudio.com'             # 测试命令： brew install --cask visual-studio-code
+    - '+.update.cyberduck.io'                      # 测试命令： brew install --cask cyberduck
+    - '+.updates.hookproductivity.com'             # 测试命令： brew install --cask hookmark
+    - '+.updates.kaleidoscope.app'                 # 测试命令： brew install --cask kaleidoscope
+    - '+.updates.signal.org'                       # 测试命令： brew install --cask signal
+    - '+.web.whatsapp.com'                         # 测试命令： brew install --cask whatsapp
+    - '+.www.bannister.org'                        # 测试命令： brew install --cask genesis-plus
+    - '+.www.charlessoft.com'                      # 测试命令： brew install --cask pacifist
+    - '+.www.cockos.com'                           # 测试命令： brew install --cask licecap
+    - '+.www.corecode.io'                          # 测试命令： brew install --cask macupdater
+    - '+.www.dbklabs.com'                          # 测试命令： brew install --cask clicker-for-netflix
+    - '+.www.deepl.com'                            # 测试命令： brew install --cask deepl
+    - '+.www.douyin.com'                           # 测试命令： brew install --cask douyin
+    - '+.www.foobar2000.org'                       # 测试命令： brew install --cask foobar2000
+    - '+.www.freemacsoft.net'                      # 测试命令： brew install --cask appcleaner
+    - '+.www.gryphel.com'                          # 测试命令： brew install --cask mini-vmac
+    - '+.www.hamrick.com'                          # 测试命令： brew install --cask vuescan
+    - '+.www.koingosw.com'                         # 测试命令： brew install --cask macpilot
+    - '+.www.lemkesoft.info'                       # 测试命令： brew install --cask graphicconverter
+    - '+.www.macdvdripperpro.com'                  # 测试命令： brew install --cask mdrp
+    - '+.www.macgamestore.com'                     # 测试命令： brew install --cask macgamestore
+    - '+.www.makemkv.com'                          # 测试命令： brew install --cask makemkv
+    - '+.www.messenger.com'                        # 测试命令： brew install --cask messenger
+    - '+.www.mothersruin.com'                      # 测试命令： brew install --cask suspicious-package
+    - '+.www.panic.com'                            # 测试命令： brew install --cask transmit
+    - '+.www.peterborgapps.com'                    # 测试命令： brew install --cask lingon-x
+    - '+.www.publicspace.net'                      # 测试命令： brew install --cask a-better-finder-attributes
+    - '+.www.rarlab.com'                           # 测试命令： brew install --cask rar
+    - '+.www.scootersoftware.com'                  # 测试命令： brew install --cask beyond-compare
+    - '+.www.soma-zone.com'                        # 测试命令： brew install --cask backuploupe
+    - '+.www.stclairsoft.com'                      # 测试命令： brew install --cask go64
+    - '+.www.telestream.net'                       # 测试命令： brew install --cask screenflow
+    - '+.www.titanium-software.fr'                 # 测试命令： brew install --cask maintenance
+    - '+.www.transnomino.com'                      # 测试命令： brew install --cask transnomino
+    - '+.www.tunabellysoftware.com'                # 测试命令： brew install --cask tg-pro
+    - '+.www.visualdatatools.com'                  # 测试命令： brew install --cask datagraph
+    - '+.www.whatroute.net'                        # 测试命令： brew install --cask whatroute
+    - '+.www.witt-software.com'                    # 测试命令： brew install --cask pdf-squeezer
+    - '+.zeroonetwenty.com'                        # 测试命令： brew install --cask blueharvest
+    - '+.zipic.5km.tech'                           # 测试命令： brew install --cask zipic
+    - '+.zipzapmac.com'                            # 测试命令： brew install --cask go2shell

@@ -139,7 +139,7 @@
 
 + Grok			: xAI Grok Clash分流规则
 
-+ SlowWebSite		: 访问速度非常慢的网站，但并没有被GFW限制访问（建议使用大流量VPN进行加速反问）
++ MacAppDownload	: 对 Mac App 的原网站中的下载链接进行分流（以防止TopGreade时更新过慢）
 
 
 
