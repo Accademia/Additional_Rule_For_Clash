@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/opt/homebrew/bin/bash
 
 # 确定 Homebrew 的安装路径
 if [ -x /usr/local/bin/brew ]; then
@@ -30,7 +30,7 @@ ERROR_LOG="$5"
 
 get_url_from_json() {
   local pkg=$1
-  local type=$2  # "formula" 或 "cask"
+  local type=$2
   local json_output
   if [ "$type" == "formula" ]; then
     json_output=$($BREW_PREFIX/bin/brew info --json=v2 --formula "$pkg" 2>/dev/null)
@@ -38,7 +38,6 @@ get_url_from_json() {
     json_output=$($BREW_PREFIX/bin/brew info --json=v2 --cask "$pkg" 2>/dev/null)
   fi
 
-  # 检查输出是否为有效 JSON
   if echo "$json_output" | jq -e '.' > /dev/null 2>&1; then
     local url
     if [ "$type" == "formula" ]; then
@@ -70,37 +69,39 @@ if [ -n "$URL" ]; then
 fi
 EOF
 
-# 赋予临时脚本执行权限
 chmod +x "$TEMP_SCRIPT"
 
-# 并行处理 formulae
-parallel -j 10 --eta --progress \
-  "$TEMP_SCRIPT" "$BREW_PREFIX" {} "formula" "$TEMP_DIR" "$ERROR_LOG" ::: $FORMULAE
+# 并行处理 formulae 和 casks
+parallel -j 10 --eta --progress "$TEMP_SCRIPT" "$BREW_PREFIX" {} "formula" "$TEMP_DIR" "$ERROR_LOG" ::: $FORMULAE
+parallel -j 10 --eta --progress "$TEMP_SCRIPT" "$BREW_PREFIX" {} "cask" "$TEMP_DIR" "$ERROR_LOG" ::: $CASKS
 
-# 并行处理 casks
-parallel -j 10 --eta --progress \
-  "$TEMP_SCRIPT" "$BREW_PREFIX" {} "cask" "$TEMP_DIR" "$ERROR_LOG" ::: $CASKS
-
-# 生成 YAML 文件到指定目录
+# 生成 YAML 文件
 YAML_FILE="${HOME}/Downloads/clash_rules.yaml"
 echo "payload:" > "$YAML_FILE"
 
-# 合并 formulae 结果
-for file in "${TEMP_DIR}"/formula_*.domain; do
-  if [ -f "$file" ]; then
-    domain=$(cat "$file")
-    command=$(cat "${file%.domain}.command")
-    printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
-  fi
+# 使用关联数组存储域名和命令
+declare -A domain_commands
+
+# 处理 formulae 和 casks
+for type in "formula" "cask"; do
+  for file in "${TEMP_DIR}/${type}_"*.domain; do
+    if [ -f "$file" ]; then
+      domain=$(cat "$file")
+      command=$(cat "${file%.domain}.command")
+      if [ -n "$domain" ] && [ -n "$command" ]; then
+        if [ -n "${domain_commands[$domain]}" ]; then
+          domain_commands[$domain]="${domain_commands[$domain]} \\ $command"
+        else
+          domain_commands[$domain]="$command"
+        fi
+      fi
+    fi
+  done
 done
 
-# 合并 casks 结果
-for file in "${TEMP_DIR}"/cask_*.domain; do
-  if [ -f "$file" ]; then
-    domain=$(cat "$file")
-    command=$(cat "${file%.domain}.command")
-    printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
-  fi
+# 写入 YAML 文件
+for domain in "${!domain_commands[@]}"; do
+  printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "${domain_commands[$domain]}" >> "$YAML_FILE"
 done
 
 # 清理临时文件

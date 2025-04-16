@@ -11,6 +11,7 @@
 # 	- usercmd_brewlist_to_ruleset_parallel		# 并行执行
 # 	- usercmd_brewlist_to_ruleset_serial		# 串行执行
 # 两个程序效果是相同的，建议优先使用并行执行，500个Mac App串行执行需30分钟，而并行执行只需要2分钟。
+# 执行结果会生成在 ～/Downloads/clash_rules.yaml
 #
 #
 #
