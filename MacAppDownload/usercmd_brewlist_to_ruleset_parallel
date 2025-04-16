@@ -1,0 +1,109 @@
+#!/bin/bash
+
+# 确定 Homebrew 的安装路径
+if [ -x /usr/local/bin/brew ]; then
+  BREW_PREFIX="/usr/local"
+elif [ -x /opt/homebrew/bin/brew ]; then
+  BREW_PREFIX="/opt/homebrew"
+else
+  echo "Homebrew 未找到"
+  exit 1
+fi
+
+# 获取已安装的 formulae 和 casks
+FORMULAE=$($BREW_PREFIX/bin/brew list --formula)
+CASKS=$($BREW_PREFIX/bin/brew list --cask)
+
+# 创建临时目录存储并行处理结果
+TEMP_DIR=$(mktemp -d)
+ERROR_LOG="${TEMP_DIR}/error.log"
+
+# 创建临时脚本文件
+TEMP_SCRIPT="${TEMP_DIR}/get_url.sh"
+cat << 'EOF' > "$TEMP_SCRIPT"
+#!/bin/bash
+BREW_PREFIX="$1"
+PKG="$2"
+TYPE="$3"
+TEMP_DIR="$4"
+ERROR_LOG="$5"
+
+get_url_from_json() {
+  local pkg=$1
+  local type=$2  # "formula" 或 "cask"
+  local json_output
+  if [ "$type" == "formula" ]; then
+    json_output=$($BREW_PREFIX/bin/brew info --json=v2 --formula "$pkg" 2>/dev/null)
+  else
+    json_output=$($BREW_PREFIX/bin/brew info --json=v2 --cask "$pkg" 2>/dev/null)
+  fi
+
+  # 检查输出是否为有效 JSON
+  if echo "$json_output" | jq -e '.' > /dev/null 2>&1; then
+    local url
+    if [ "$type" == "formula" ]; then
+      url=$(echo "$json_output" | jq -r '.formulae[0].urls.stable.url // empty')
+    else
+      url=$(echo "$json_output" | jq -r '.casks[0].url // empty')
+    fi
+    if [ -n "$url" ]; then
+      echo "$url"
+    else
+      echo "无法提取 $pkg 的 URL" >> "$ERROR_LOG"
+      echo ""
+    fi
+  else
+    echo "无法解析 $pkg 的 JSON 输出" >> "$ERROR_LOG"
+    echo ""
+  fi
+}
+
+URL=$(get_url_from_json "$PKG" "$TYPE")
+if [ -n "$URL" ]; then
+  DOMAIN=$(echo "$URL" | sed -E 's|https?://([^/]+).*|\1|')
+  echo "$DOMAIN" > "${TEMP_DIR}/${TYPE}_${PKG}.domain"
+  if [ "$TYPE" == "formula" ]; then
+    echo "brew install $PKG" > "${TEMP_DIR}/${TYPE}_${PKG}.command"
+  else
+    echo "brew install --cask $PKG" > "${TEMP_DIR}/${TYPE}_${PKG}.command"
+  fi
+fi
+EOF
+
+# 赋予临时脚本执行权限
+chmod +x "$TEMP_SCRIPT"
+
+# 并行处理 formulae
+parallel -j 10 --eta --progress \
+  "$TEMP_SCRIPT" "$BREW_PREFIX" {} "formula" "$TEMP_DIR" "$ERROR_LOG" ::: $FORMULAE
+
+# 并行处理 casks
+parallel -j 10 --eta --progress \
+  "$TEMP_SCRIPT" "$BREW_PREFIX" {} "cask" "$TEMP_DIR" "$ERROR_LOG" ::: $CASKS
+
+# 生成 YAML 文件到指定目录
+YAML_FILE="${HOME}/Downloads/clash_rules.yaml"
+echo "payload:" > "$YAML_FILE"
+
+# 合并 formulae 结果
+for file in "${TEMP_DIR}"/formula_*.domain; do
+  if [ -f "$file" ]; then
+    domain=$(cat "$file")
+    command=$(cat "${file%.domain}.command")
+    printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
+  fi
+done
+
+# 合并 casks 结果
+for file in "${TEMP_DIR}"/cask_*.domain; do
+  if [ -f "$file" ]; then
+    domain=$(cat "$file")
+    command=$(cat "${file%.domain}.command")
+    printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
+  fi
+done
+
+# 清理临时文件
+rm -rf "$TEMP_DIR"
+
+echo "YAML 文件已生成: $YAML_FILE"

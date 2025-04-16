@@ -1,0 +1,129 @@
+#!/bin/bash
+
+# 确定 Homebrew 的安装路径
+if [ -x /usr/local/bin/brew ]; then
+  BREW_PREFIX="/usr/local"
+elif [ -x /opt/homebrew/bin/brew ]; then
+  BREW_PREFIX="/opt/homebrew"
+else
+  echo "Homebrew 未找到"
+  exit 1
+fi
+
+# 获取已安装的 formulae 和 casks
+FORMULAE=$($BREW_PREFIX/bin/brew list --formula)
+CASKS=$($BREW_PREFIX/bin/brew list --cask)
+
+# 计算总的软件包数量
+TOTAL=$(echo "$FORMULAE" | wc -w | tr -d ' ')
+TOTAL=$((TOTAL + $(echo "$CASKS" | wc -w | tr -d ' ')))
+CURRENT=0
+
+# 临时文件存储 domains 和对应的 brew 命令
+FORMULA_DOMAIN_FILE=$(mktemp)
+FORMULA_COMMAND_FILE=$(mktemp)
+CASK_DOMAIN_FILE=$(mktemp)
+CASK_COMMAND_FILE=$(mktemp)
+ERROR_LOG=$(mktemp)
+
+# 记录开始时间
+START_TIME=$(date +%s)
+
+# 函数：显示进度条和预计完成时间
+show_progress() {
+  local percent=$((CURRENT * 100 / TOTAL))
+  local elapsed=$(( $(date +%s) - START_TIME ))
+  local remaining=0
+  if [ $CURRENT -gt 0 ]; then
+    local time_per_package=$(echo "scale=2; $elapsed / $CURRENT" | bc)
+    remaining=$(echo "scale=0; ($TOTAL - $CURRENT) * $time_per_package" | bc)
+  fi
+  echo -ne "\r处理中: $percent% 完成，预计剩余时间: $remaining 秒"
+}
+
+# 函数：从 brew info JSON 中提取 URL
+get_url_from_json() {
+  local pkg=$1
+  local type=$2  # "formula" 或 "cask"
+  local json_output
+  if [ "$type" == "formula" ]; then
+    json_output=$($BREW_PREFIX/bin/brew info --json=v2 --formula "$pkg" 2>/dev/null)
+  else
+    json_output=$($BREW_PREFIX/bin/brew info --json=v2 --cask "$pkg" 2>/dev/null)
+  fi
+
+  # 检查输出是否为有效 JSON
+  if echo "$json_output" | jq -e '.' > /dev/null 2>&1; then
+    local url
+    if [ "$type" == "formula" ]; then
+      url=$(echo "$json_output" | jq -r '.formulae[0].urls.stable.url // empty')
+    else
+      url=$(echo "$json_output" | jq -r '.casks[0].url // empty')
+    fi
+    if [ -n "$url" ]; then
+      echo "$url"
+    else
+      echo "无法提取 $pkg 的 URL" >> "$ERROR_LOG"
+      echo ""
+    fi
+  else
+    echo "无法解析 $pkg 的 JSON 输出" >> "$ERROR_LOG"
+    echo ""
+  fi
+}
+
+# 处理 formulae
+for formula in $FORMULAE; do
+  URL=$(get_url_from_json "$formula" "formula")
+  if [ -n "$URL" ]; then
+    DOMAIN=$(echo "$URL" | sed -E 's|https?://([^/]+).*|\1|')
+    echo "$DOMAIN" >> "$FORMULA_DOMAIN_FILE"
+    echo "brew install $formula" >> "$FORMULA_COMMAND_FILE"
+  fi
+  CURRENT=$((CURRENT + 1))
+  show_progress
+done
+
+# 处理 casks
+for cask in $CASKS; do
+  URL=$(get_url_from_json "$cask" "cask")
+  if [ -n "$URL" ]; then
+    DOMAIN=$(echo "$URL" | sed -E 's|https?://([^/]+).*|\1|')
+    echo "$DOMAIN" >> "$CASK_DOMAIN_FILE"
+    echo "brew install --cask $cask" >> "$CASK_COMMAND_FILE"
+  fi
+  CURRENT=$((CURRENT + 1))
+  show_progress
+done
+
+echo -e "\n处理完成。"
+
+# 生成 YAML 文件到指定目录
+YAML_FILE="${HOME}/Downloads/clash_rules.yaml"
+echo "payload:" > "$YAML_FILE"
+
+# 去重并排序 formulae 的 domains 并写入 YAML
+paste "$FORMULA_DOMAIN_FILE" "$FORMULA_COMMAND_FILE" | sort -u -k1,1 | while read -r line; do
+  domain=$(echo "$line" | cut -f1)
+  command=$(echo "$line" | cut -f2)
+  printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
+done
+
+# 去重并排序 casks 的 domains 并追加到 YAML
+paste "$CASK_DOMAIN_FILE" "$CASK_COMMAND_FILE" | sort -u -k1,1 | while read -r line; do
+  domain=$(echo "$line" | cut -f1)
+  command=$(echo "$line" | cut -f2)
+  printf "    - DOMAIN-SUFFIX  , %-40s # 测试命令: %s\n" "$domain" "$command" >> "$YAML_FILE"
+done
+
+# 清理临时文件
+rm "$FORMULA_DOMAIN_FILE" "$FORMULA_COMMAND_FILE" "$CASK_DOMAIN_FILE" "$CASK_COMMAND_FILE"
+
+# 打印错误日志
+if [ -s "$ERROR_LOG" ]; then
+  echo "以下软件包处理时遇到问题："
+  cat "$ERROR_LOG"
+fi
+rm "$ERROR_LOG"
+
+echo "YAML 文件已生成: $YAML_FILE"
