@@ -1,13 +1,14 @@
 payload:
 
-    - DOMAIN-SUFFIX  , descript.com                # 测试命令： brew install --cask descript 
-    - DOMAIN-SUFFIX  , macdvdripperpro.com         # 测试命令： brew install --cask mdrp
-    - DOMAIN-SUFFIX  , installer.jdownloader.org   # 测试命令： brew install --cask jdownloader
-    - DOMAIN-SUFFIX  , calibre-ebook.com           # 测试命令： brew install --cask calibre
-    - DOMAIN-SUFFIX  , static.adguard.org          # 测试命令： brew install --cask adguard
-    - DOMAIN-SUFFIX  , folivora.ai                 # 测试命令： brew install --cask bettertouchtool
-    - DOMAIN-SUFFIX  , storage.googleapis.com      # 测试命令： brew install --cask claude
-    - DOMAIN-SUFFIX  , download.xnview.com         # 测试命令： brew install --cask xnviewmp
+    - DOMAIN-SUFFIX  , descript.com                              # 测试命令： brew install --cask descript 
+    - DOMAIN-SUFFIX  , macdvdripperpro.com                       # 测试命令： brew install --cask mdrp
+    - DOMAIN-SUFFIX  , installer.jdownloader.org                 # 测试命令： brew install --cask jdownloader
+    - DOMAIN-SUFFIX  , calibre-ebook.com                         # 测试命令： brew install --cask calibre
+    - DOMAIN-SUFFIX  , static.adguard.org                        # 测试命令： brew install --cask adguard
+    - DOMAIN-SUFFIX  , folivora.ai                               # 测试命令： brew install --cask bettertouchtool
+    - DOMAIN-SUFFIX  , storage.googleapis.com                    # 测试命令： brew install --cask claude
+    - DOMAIN-SUFFIX  , download.xnview.com                       # 测试命令： brew install --cask xnviewmp
+    - DOMAIN-SUFFIX  , desktop-release.notion-static.com         # 测试命令： brew install --cask notion
                     
 
 

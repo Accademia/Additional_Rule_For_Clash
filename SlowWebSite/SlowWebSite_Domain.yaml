@@ -1,11 +1,11 @@
 payload:
 
-    - '+.descript.com'                # 测试命令： brew install --cask descript 
-    - '+.macdvdripperpro.com'         # 测试命令： brew install --cask mdrp
-    - '+.installer.jdownloader.org'   # 测试命令： brew install --cask jdownloader
-    - '+.calibre-ebook.com'           # 测试命令： brew install --cask calibre
-    - '+.static.adguard.com'          # 测试命令： brew install --cask adguard
-    - '+.folivora.ai'                 # 测试命令： brew install --cask bettertouchtool
-    - '+.storage.googleapis.com'      # 测试命令： brew install --cask claude
-    - '+.download.xnview.com'         # 测试命令： brew install --cask xnviewmp
-
+    - '+.descript.com'                              # 测试命令： brew install --cask descript 
+    - '+.macdvdripperpro.com'                       # 测试命令： brew install --cask mdrp
+    - '+.installer.jdownloader.org'                 # 测试命令： brew install --cask jdownloader
+    - '+.calibre-ebook.com'                         # 测试命令： brew install --cask calibre
+    - '+.static.adguard.com'                        # 测试命令： brew install --cask adguard
+    - '+.folivora.ai'                               # 测试命令： brew install --cask bettertouchtool
+    - '+.storage.googleapis.com'                    # 测试命令： brew install --cask claude
+    - '+.download.xnview.com'                       # 测试命令： brew install --cask xnviewmp
+    - '+.desktop-release.notion-static.com'         # 测试命令： brew install --cask notion
