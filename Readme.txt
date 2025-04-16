@@ -139,7 +139,7 @@
 
 + Grok			: xAI Grok Clash分流规则
 
-+ MacAppDownload	: 对 Mac App 的原网站中的下载链接进行分流（以防止TopGreade时更新过慢）
++ MacAppUpgrade		: 对 Mac App 的原网站中的下载链接进行分流（以防止TopGreade时更新过慢）
 
 
 
