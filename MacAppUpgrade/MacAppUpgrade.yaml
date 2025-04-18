@@ -268,3 +268,4 @@ payload:
     - DOMAIN-SUFFIX  , invisible-mirror.net                     # 测试命令: brew install lynx
     - DOMAIN-SUFFIX  , downloads.imazing.com                    # 测试命令: brew install --cask imazing
     - DOMAIN-SUFFIX  , curl.se                                  # 测试命令: brew install ca-certificates
+    - DOMAIN-SUFFIX  , cdn.better365.cn                         # 测试命令: brew install --cask flykey

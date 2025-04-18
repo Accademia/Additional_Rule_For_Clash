@@ -268,3 +268,4 @@ payload:
     - '+.invisible-mirror.net'                     # 测试命令: brew install lynx
     - '+.downloads.imazing.com'                    # 测试命令: brew install --cask imazing
     - '+.curl.se'                                  # 测试命令: brew install ca-certificates
+    - '+.cdn.better365.cn'                         # 测试命令: brew install --cask flykey
