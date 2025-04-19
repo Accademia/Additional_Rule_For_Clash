@@ -100,7 +100,7 @@
 
 + Alipan		: 阿里云盘 Clash分流规则
 
-+ BaiduNetDisk	: 百度网盘 Clash分流规则
++ BaiduNetDisk		: 百度网盘 Clash分流规则
 
 + WeiYun		: 腾讯微云 Clash分流规则
 
