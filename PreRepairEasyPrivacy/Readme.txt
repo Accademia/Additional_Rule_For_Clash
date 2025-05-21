@@ -4,14 +4,31 @@
 # -----------------------------------------
 
 # 用途：
-#	在EasyPrivacy和AdvertisingLite规则前，使用本规则！！！！
+#	在EasyPrivacy和AdvertisingLite规则前，使用本规则！！！！ 本规则用于修复上述两个规则中的错误 ！！
 
 #
-# 使用说明：
+# 使用说明： 
 #
 #  + 单独使用：
-#       PreRepairEasyPrivacy_No_Resolve             # 要配置上代理！！（具体请看规则内部！）
-
+#       PreRepairEasyPrivacy_No_Resolve             # 配置代理 ！！（具体请看规则内部！）
+#
+#
+#  + 单独使用：
+#       PreRepairEasyPrivacy                        # 配置代理 ！！（具体请看规则内部！）
+#
+#
+#  + 单独使用：
+#	PreRepairEasyPrivacy_DIRECT	# 配置:直连
+#	PreRepairEasyPrivacy_PROXY	¥ 配置:代理
+#	PreRepairEasyPrivacy_REJECT	# 配置:拒绝 
+#
+#
+#  + 单独使用：
+#	PreRepairEasyPrivacy_DIRECT_No_Resolve	# 配置:直连
+#	PreRepairEasyPrivacy_PROXY_No_Resolve	¥ 配置:代理
+#	PreRepairEasyPrivacy_REJECT_No_Resolve	# 配置:拒绝
+#	
+#
 #
 # 配合规则：
 #	在本规则后，建议直接启用：
