@@ -1,0 +1,78 @@
+payload:
+    
+    # Google DeepMind
+    - '+.deepmind.com'
+    - '+.deepmind.google'
+
+    # Google Generative Language API
+    - '+.geller-pa.googleapis.com'
+    - '+.generativelanguage.googleapis.com'
+    - '+.proactivebackend-pa.googleapis.com'
+
+    # Google AI Studio
+    - '+.ai.google.dev'
+    - '+.alkalicore-pa.clients6.google.com'
+    - '+.alkalimakersuite-pa.clients6.google.com'
+    - '+.webchannel-alkalimakersuite-pa.clients6.google.com'
+    - '+.generativeai.google'
+    - '+.makersuite.google.com'
+
+    - '+.aistudio.google.com'
+    - '+.bard.google.com'
+    - '+.gemini.google'
+    - '+.gemini.google.com'                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

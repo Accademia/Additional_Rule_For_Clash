@@ -114,7 +114,10 @@
 
 + Grok			: xAI Grok Clash分流规则
 
++ Gemini		: Google Gemini分流规则
+
 + MacAppUpgrade		: Homebrew App Install \ Upgrade  Clash 分流规则
+
 
 
 

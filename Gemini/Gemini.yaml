@@ -1,0 +1,72 @@
+payload:
+
+    # Google DeepMind
+    - DOMAIN-SUFFIX   , deepmind.com
+    - DOMAIN-SUFFIX   , deepmind.google
+
+    # Google Generative Language API
+    - DOMAIN-SUFFIX   , geller-pa.googleapis.com
+    - DOMAIN-SUFFIX   , generativelanguage.googleapis.com
+    - DOMAIN-SUFFIX   , proactivebackend-pa.googleapis.com
+
+    # Google AI Studio
+    - DOMAIN-SUFFIX   , ai.google.dev
+    - DOMAIN-SUFFIX   , alkalicore-pa.clients6.google.com
+    - DOMAIN-SUFFIX   , alkalimakersuite-pa.clients6.google.com
+    - DOMAIN-SUFFIX   , webchannel-alkalimakersuite-pa.clients6.google.com
+    - DOMAIN-SUFFIX   , generativeai.google
+    - DOMAIN-SUFFIX   , makersuite.google.com
+
+    - DOMAIN-SUFFIX   , aistudio.google.com
+    - DOMAIN-SUFFIX   , bard.google.com
+    - DOMAIN-SUFFIX   , gemini.google
+    - DOMAIN-SUFFIX   , gemini.google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
