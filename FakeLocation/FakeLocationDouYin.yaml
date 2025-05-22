@@ -16,12 +16,12 @@ payload:
  
 
    # APP-API  
-    - DOMAIN-KEYWORD , core-c-lq
-    - DOMAIN-KEYWORD , core-lq
-    - DOMAIN-KEYWORD , normal-c-lq
-    - DOMAIN-KEYWORD , normal-lq
-    - DOMAIN-KEYWORD , search-quic-lq
-    - DOMAIN-KEYWORD , search-lq
+    - DOMAIN-KEYWORD , core-c-lq.amemv.com
+    - DOMAIN-KEYWORD , core-lq.amemv.com
+    - DOMAIN-KEYWORD , normal-c-lq.amemv.com
+    - DOMAIN-KEYWORD , normal-lq.amemv.com
+    - DOMAIN-KEYWORD , search-quic-lq.amemv.com
+    - DOMAIN-KEYWORD , search-lq.amemv.com
 
    #- DOMAIN-SUFFIX  , zijieapi.com              , DIRECT
    #- DOMAIN-SUFFIX  , ecombdapi.com             , DIRECT
