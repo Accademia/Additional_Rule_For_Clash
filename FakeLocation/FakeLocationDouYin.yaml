@@ -23,20 +23,20 @@ payload:
     - DOMAIN-KEYWORD , search-quic-lq
     - DOMAIN-KEYWORD , search-lq
 
-    - DOMAIN-SUFFIX  , zijieapi.com              , DIRECT
-    - DOMAIN-SUFFIX  , ecombdapi.com             , DIRECT
+   #- DOMAIN-SUFFIX  , zijieapi.com              , DIRECT
+   #- DOMAIN-SUFFIX  , ecombdapi.com             , DIRECT
 
-    - DOMAIN-KEYWORD , -normal-hl
-    - DOMAIN-KEYWORD , -normal-c-hl
-    - DOMAIN-KEYWORD , -core-c-hl
-    - DOMAIN-KEYWORD , -normal-lf
-    - DOMAIN-KEYWORD , -normal-c-lf
-    - DOMAIN-KEYWORD , -core-c-lf      
+    - DOMAIN-KEYWORD , -normal-hl.amemv.com
+    - DOMAIN-KEYWORD , -normal-c-hl.amemv.com
+    - DOMAIN-KEYWORD , -core-c-hl.amemv.com
+    - DOMAIN-KEYWORD , -normal-lf.amemv.com
+    - DOMAIN-KEYWORD , -normal-c-lf.amemv.com
+    - DOMAIN-KEYWORD , -core-c-lf.amemv.com      
     
-    - DOMAIN-SUFFIX   , -normal-c.amemv.com               
-    - DOMAIN-SUFFIX   , -core-lf.amemv.com                     
-    - DOMAIN-SUFFIX   , -normal-m-lf.amemv.com                
-    - DOMAIN-SUFFIX   , -normal-lf.amemv.com                   
+    - DOMAIN-SUFFIX  , -normal-c.amemv.com               
+    - DOMAIN-SUFFIX  , -core-lf.amemv.com                     
+    - DOMAIN-SUFFIX  , -normal-m-lf.amemv.com                
+    - DOMAIN-SUFFIX  , -normal-lf.amemv.com                   
 
 
    # Web-API
