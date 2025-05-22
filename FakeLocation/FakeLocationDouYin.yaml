@@ -35,8 +35,7 @@ payload:
     
     - DOMAIN-KEYWORD , -normal-c.amemv.com               
     - DOMAIN-KEYWORD , -core-lf.amemv.com                     
-    - DOMAIN-KEYWORD , -normal-m-lf.amemv.com                
-    - DOMAIN-KEYWORD , -normal-lf.amemv.com                   
+    - DOMAIN-KEYWORD , -normal-m-lf.amemv.com                  
 
 
    # Web-API
