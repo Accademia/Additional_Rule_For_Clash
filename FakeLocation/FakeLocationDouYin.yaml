@@ -34,6 +34,10 @@ payload:
     - DOMAIN-KEYWORD , -core-c-lf   
 
 
+    - DOMAIN-SUFFIX   , -normal-c.amemv.com               
+    - DOMAIN-SUFFIX   , -core-lf.amemv.com                     
+    - DOMAIN-SUFFIX   , -normal-m-lf.amemv.com                
+    - DOMAIN-SUFFIX   , -normal-lf.amemv.com    
 
 
    # Web-API
