@@ -21,6 +21,8 @@
 # 使用方法：
 #	在Stash上，需要在使用前，调用如下规则，否则部分规则会调用失败
 #		GEOSITE , category-ads , REJECT
+#		以及
+#		https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EasyPrivacy 
 #	原因是因为Stash不支持远程规则集中使用REJECT，作者也坚决不改，反馈说用户用不到😂😂
 #	Clash Verge Rev不会有此问题。
 #	
