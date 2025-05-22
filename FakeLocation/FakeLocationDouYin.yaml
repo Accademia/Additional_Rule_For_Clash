@@ -13,7 +13,7 @@ payload:
     - DOMAIN-KEYWORD , httpsdns                  , REJECT-DROP       
     - DOMAIN-KEYWORD , app-analytics-services    , REJECT-DROP                      #   # 
  
-
+ 
 
    # APP-API  
     - DOMAIN-KEYWORD , core-c-lq
@@ -31,13 +31,12 @@ payload:
     - DOMAIN-KEYWORD , -core-c-hl
     - DOMAIN-KEYWORD , -normal-lf
     - DOMAIN-KEYWORD , -normal-c-lf
-    - DOMAIN-KEYWORD , -core-c-lf   
-
-
+    - DOMAIN-KEYWORD , -core-c-lf      
+    
     - DOMAIN-SUFFIX   , -normal-c.amemv.com               
     - DOMAIN-SUFFIX   , -core-lf.amemv.com                     
     - DOMAIN-SUFFIX   , -normal-m-lf.amemv.com                
-    - DOMAIN-SUFFIX   , -normal-lf.amemv.com    
+    - DOMAIN-SUFFIX   , -normal-lf.amemv.com                   
 
 
    # Web-API
