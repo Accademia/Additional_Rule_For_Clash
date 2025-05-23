@@ -11,12 +11,12 @@ payload:
   - DOMAIN-KEYWORD , http.dns                                                             # HTTPDNS
   - DOMAIN-KEYWORD , https.dns                                                            # HTTPDNS
 
-  - DOMAIN-KEYWORD , cdndns                                                               # CDN DNS
-  - DOMAIN-KEYWORD , cdn-dns                                                              # CDN DNS
-  - DOMAIN-KEYWORD , cdn.dns                                                              # CDN DNS
-  - DOMAIN-KEYWORD , dnscdn                                                               # CDN DNS
-  - DOMAIN-KEYWORD , dns-cdn                                                              # CDN DNS
-  - DOMAIN-KEYWORD , dns.cdn                                                              # CDN DNS
+  - DOMAIN-KEYWORD , cdndns.                                                              # CDN DNS
+  - DOMAIN-KEYWORD , cdn-dns.                                                             # CDN DNS
+  - DOMAIN-KEYWORD , cdn.dns.                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dnscdn.                                                              # CDN DNS
+  - DOMAIN-KEYWORD , dns-cdn.                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dns.cdn.                                                             # CDN DNS
 
   # -------------------
   # 私有DNS (中国)
