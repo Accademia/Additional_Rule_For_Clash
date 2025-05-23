@@ -13,8 +13,8 @@ payload:
     - DOMAIN         , doh.pub                          , REJECT-DROP  
     - DOMAIN         , dns.alidns.com                   , REJECT-DROP   
 
-    - DOMAIN-KEYWORD , cdndns.kwd.inkuai.com            , REJECT-DROP   
-    - DOMAIN-KEYWORD , apidns-js.kwd.inkuai.com         , REJECT-DROP
+    - DOMAIN-KEYWORD , cdndns.                          , REJECT-DROP         # cdndns.kwd.inkuai.com                   
+    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com             
 
     - DOMAIN-KEYWORD , gifshow.com              
     - DOMAIN-KEYWORD , ksapisrv.com            
