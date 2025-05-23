@@ -19,6 +19,6 @@ payload:
     - DOMAIN-KEYWORD , gifshow.com              
     - DOMAIN-KEYWORD , ksapisrv.com            
 
-    - DOMAIN-KEYWORD , kwimgs.com                 
+   #- DOMAIN-KEYWORD , kwimgs.com                 
 
     - DOMAIN-KEYWORD , inkuai.com
