@@ -18,6 +18,14 @@ payload:
   - DOMAIN-KEYWORD , dns-cdn.                                                             # CDN DNS
   - DOMAIN-KEYWORD , dns.cdn.                                                             # CDN DNS
 
+  - DOMAIN-KEYWORD , apidns.                                                              # API DNS
+  - DOMAIN-KEYWORD , api-dns.                                                             # API DNS
+  - DOMAIN-KEYWORD , api.dns.                                                             # API DNS
+  - DOMAIN-KEYWORD , dnsapi.                                                              # API DNS
+  - DOMAIN-KEYWORD , dns-api.                                                             # API DNS
+  - DOMAIN-KEYWORD , dns.api.                                                             # API DNS
+
+
   # -------------------
   # 私有DNS (中国)
   # -------------------
