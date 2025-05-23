@@ -11,6 +11,13 @@ payload:
   - DOMAIN-KEYWORD , http.dns.                                                            # HTTPDNS
   - DOMAIN-KEYWORD , https.dns.                                                           # HTTPDNS
 
+  - DOMAIN-KEYWORD , httpdns-                                                             # HTTPDNS
+  - DOMAIN-KEYWORD , httpsdns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , http-dns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https-dns-                                                           # HTTPDNS
+  - DOMAIN-KEYWORD , http.dns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https.dns-                                                           # HTTPDNS
+
   - DOMAIN-KEYWORD , cdndns.                                                              # CDN DNS
   - DOMAIN-KEYWORD , cdn-dns.                                                             # CDN DNS
   - DOMAIN-KEYWORD , cdn.dns.                                                             # CDN DNS
@@ -18,12 +25,26 @@ payload:
   - DOMAIN-KEYWORD , dns-cdn.                                                             # CDN DNS
   - DOMAIN-KEYWORD , dns.cdn.                                                             # CDN DNS
 
+  - DOMAIN-KEYWORD , cdndns-                                                              # CDN DNS
+  - DOMAIN-KEYWORD , cdn-dns-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , cdn.dns-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dnscdn-                                                              # CDN DNS
+  - DOMAIN-KEYWORD , dns-cdn-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dns.cdn-                                                             # CDN DNS
+
   - DOMAIN-KEYWORD , apidns.                                                              # API DNS
   - DOMAIN-KEYWORD , api-dns.                                                             # API DNS
   - DOMAIN-KEYWORD , api.dns.                                                             # API DNS
   - DOMAIN-KEYWORD , dnsapi.                                                              # API DNS
   - DOMAIN-KEYWORD , dns-api.                                                             # API DNS
   - DOMAIN-KEYWORD , dns.api.                                                             # API DNS
+
+  - DOMAIN-KEYWORD , apidns-                                                              # API DNS
+  - DOMAIN-KEYWORD , api-dns-                                                             # API DNS
+  - DOMAIN-KEYWORD , api.dns-                                                             # API DNS
+  - DOMAIN-KEYWORD , dnsapi-                                                              # API DNS
+  - DOMAIN-KEYWORD , dns-api-                                                             # API DNS
+  - DOMAIN-KEYWORD , dns.api-                                                             # API DNS
 
 
   # -------------------

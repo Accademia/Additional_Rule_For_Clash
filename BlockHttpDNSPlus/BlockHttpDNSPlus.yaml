@@ -11,12 +11,26 @@ payload:
   - DOMAIN-KEYWORD , http.dns.                                                            # HTTPDNS
   - DOMAIN-KEYWORD , https.dns.                                                           # HTTPDNS
 
+  - DOMAIN-KEYWORD , httpdns-                                                             # HTTPDNS
+  - DOMAIN-KEYWORD , httpsdns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , http-dns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https-dns-                                                           # HTTPDNS
+  - DOMAIN-KEYWORD , http.dns-                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https.dns-                                                           # HTTPDNS
+
   - DOMAIN-KEYWORD , cdndns.                                                              # CDN DNS
   - DOMAIN-KEYWORD , cdn-dns.                                                             # CDN DNS
   - DOMAIN-KEYWORD , cdn.dns.                                                             # CDN DNS
   - DOMAIN-KEYWORD , dnscdn.                                                              # CDN DNS
   - DOMAIN-KEYWORD , dns-cdn.                                                             # CDN DNS
   - DOMAIN-KEYWORD , dns.cdn.                                                             # CDN DNS
+
+  - DOMAIN-KEYWORD , cdndns-                                                              # CDN DNS
+  - DOMAIN-KEYWORD , cdn-dns-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , cdn.dns-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dnscdn-                                                              # CDN DNS
+  - DOMAIN-KEYWORD , dns-cdn-                                                             # CDN DNS
+  - DOMAIN-KEYWORD , dns.cdn-                                                             # CDN DNS
 
   - DOMAIN-KEYWORD , apidns.                                                              # API DNS
   - DOMAIN-KEYWORD , api-dns.                                                             # API DNS
@@ -25,11 +39,18 @@ payload:
   - DOMAIN-KEYWORD , dns-api.                                                             # API DNS
   - DOMAIN-KEYWORD , dns.api.                                                             # API DNS
 
+  - DOMAIN-KEYWORD , apidns-                                                              # API DNS
+  - DOMAIN-KEYWORD , api-dns-                                                             # API DNS
+  - DOMAIN-KEYWORD , api.dns-                                                             # API DNS
+  - DOMAIN-KEYWORD , dnsapi-                                                              # API DNS
+  - DOMAIN-KEYWORD , dns-api-                                                             # API DNS
+  - DOMAIN-KEYWORD , dns.api-                                                             # API DNS
+
 
   # -------------------
   # 私有DNS (中国)
   # -------------------
-
+  
  #- DOMAIN-SUFFIX  , httpdns.114dns.com                                                   # 114
  #- DOMAIN-SUFFIX  , httpdns.huaweicloud.com                                              # 华为云
  #- DOMAIN-SUFFIX  , httpdns.mi.com                                                       # 小米
