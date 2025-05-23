@@ -4,12 +4,12 @@ payload:
   # 私有DNS
   # -------------------
 
-  - DOMAIN-KEYWORD , httpdns                                                              # HTTPDNS
-  - DOMAIN-KEYWORD , httpsdns                                                             # HTTPDNS
-  - DOMAIN-KEYWORD , http-dns                                                             # HTTPDNS
-  - DOMAIN-KEYWORD , https-dns                                                            # HTTPDNS
-  - DOMAIN-KEYWORD , http.dns                                                             # HTTPDNS
-  - DOMAIN-KEYWORD , https.dns                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , httpdns.                                                             # HTTPDNS
+  - DOMAIN-KEYWORD , httpsdns.                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , http-dns.                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https-dns.                                                           # HTTPDNS
+  - DOMAIN-KEYWORD , http.dns.                                                            # HTTPDNS
+  - DOMAIN-KEYWORD , https.dns.                                                           # HTTPDNS
 
   - DOMAIN-KEYWORD , cdndns.                                                              # CDN DNS
   - DOMAIN-KEYWORD , cdn-dns.                                                             # CDN DNS
