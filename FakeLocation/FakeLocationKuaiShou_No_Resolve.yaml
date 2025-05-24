@@ -19,6 +19,11 @@ payload:
     - DOMAIN-KEYWORD , gifshow.com              
     - DOMAIN-KEYWORD , ksapisrv.com            
 
+    - DOMAIN-KEYWORD , api.kuaishouzt.com      
+              
+   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com   
+
+   #- DOMAIN-KEYWORD , static.yximgs.com                 
    #- DOMAIN-KEYWORD , kwimgs.com                 
 
     - DOMAIN-KEYWORD , inkuai.com
