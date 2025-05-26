@@ -18,6 +18,8 @@ payload:
 
     - DOMAIN-KEYWORD , gifshow.com              
     - DOMAIN-KEYWORD , ksapisrv.com            
+        
+    - DOMAIN-KEYWORD , kuaishou.com     
 
    #- DOMAIN-KEYWORD , kuaishou.com 
     - DOMAIN-KEYWORD , api.kuaishouzt.com      
