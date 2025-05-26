@@ -5,25 +5,26 @@ payload:
    # ---------------------------------------------  
 
    # 生效时间：立刻 !!!!
-  
+
     - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
     - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
     - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
-
+  
     - DOMAIN         , doh.pub                          , REJECT-DROP  
     - DOMAIN         , dns.alidns.com                   , REJECT-DROP   
-    
+
     - DOMAIN-KEYWORD , cdndns.                          , REJECT-DROP         # cdndns.kwd.inkuai.com                   
-    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com    
+    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com             
 
     - DOMAIN-KEYWORD , gifshow.com              
-    - DOMAIN-KEYWORD , ksapisrv.com          
+    - DOMAIN-KEYWORD , ksapisrv.com            
 
    #- DOMAIN-KEYWORD , kuaishou.com 
     - DOMAIN-KEYWORD , api.kuaishouzt.com      
     - DOMAIN-KEYWORD , traffic-monitor.kuaishou.com   
               
-    - DOMAIN-KEYWORD , kwimgs.com         
-   #- DOMAIN-KEYWORD , static.yximgs.com                  
+   #- DOMAIN-KEYWORD , kwimgs.com         
+    - DOMAIN-KEYWORD , static.yximgs.com             
 
     - DOMAIN-KEYWORD , inkuai.com
+    - DOMAIN-KEYWORD , inkwai.com
