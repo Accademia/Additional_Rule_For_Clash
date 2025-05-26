@@ -17,14 +17,13 @@ payload:
     - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com             
 
     - DOMAIN-KEYWORD , gifshow.com              
-    - DOMAIN-KEYWORD , ksapisrv.com                   
-        
-    - DOMAIN-KEYWORD , kuaishou.com   
+    - DOMAIN-KEYWORD , ksapisrv.com       
 
-   #- DOMAIN-KEYWORD , kuaishou.com 
-    - DOMAIN-KEYWORD , api.kuaishouzt.com      
-    - DOMAIN-KEYWORD , traffic-monitor.kuaishou.com   
+    - DOMAIN-KEYWORD , kuaishou.com   
+   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com   
               
+   #- DOMAIN-KEYWORD , api.kuaishouzt.com    
+   
    #- DOMAIN-KEYWORD , kwimgs.com         
     - DOMAIN-KEYWORD , static.yximgs.com             
 
