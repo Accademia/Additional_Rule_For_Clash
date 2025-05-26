@@ -22,7 +22,7 @@ payload:
     - DOMAIN-KEYWORD , kuaishou.com   
    #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com   
               
-   #- DOMAIN-KEYWORD , kuaishouzt.com    
+    - DOMAIN-KEYWORD , kuaishouzt.com    
     - DOMAIN-KEYWORD , api.kuaishouzt.com    
 
     - DOMAIN-KEYWORD , kwimgs.com         
