@@ -1,4 +1,4 @@
-payload:
+ payload:
 
    # ---------------------------------------------  
    # [IP归属地] 快手     
@@ -14,22 +14,22 @@ payload:
     - DOMAIN         , dns.alidns.com                   , REJECT-DROP   
 
     - DOMAIN-KEYWORD , cdndns.                          , REJECT-DROP         # cdndns.kwd.inkuai.com                   
-    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com             
+    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com              
 
     - DOMAIN-KEYWORD , gifshow.com                                                   
     - DOMAIN-KEYWORD , ksapisrv.com                                  
 
-   #- DOMAIN-KEYWORD , kuaishou.com                                
-    - DOMAIN-KEYWORD , open.kuaishou.com                                         
+    - DOMAIN-KEYWORD , kuaishou.com                                
+   #- DOMAIN-KEYWORD , open.kuaishou.com                                         
    #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com                
 
-   #- DOMAIN-KEYWORD , kuaishouzt.com                                   
-    - DOMAIN-KEYWORD , api.kuaishouzt.com                          
+    - DOMAIN-KEYWORD , kuaishouzt.com                                   
+   #- DOMAIN-KEYWORD , api.kuaishouzt.com                          
 
-   #- DOMAIN-KEYWORD , kwimgs.com                                  
+    - DOMAIN-KEYWORD , kwimgs.com                                  
 
-   #- DOMAIN-KEYWORD , yximgs.com                                            
+    - DOMAIN-KEYWORD , yximgs.com                                            
    #- DOMAIN-KEYWORD , static.yximgs.com                           
 
-   #- DOMAIN-KEYWORD , inkuai.com                                              
-   #- DOMAIN-KEYWORD , inkwai.com                                  
+    - DOMAIN-KEYWORD , inkuai.com                                              
+    - DOMAIN-KEYWORD , inkwai.com                                  
