@@ -4,7 +4,8 @@ payload:
     - DOMAIN-SUFFIX   , grok.com
     
     - DOMAIN-SUFFIX   , featureassets.org
-
+    
+    - DOMAIN-SUFFIX   , xai.chronosphere.io
 
 
 
