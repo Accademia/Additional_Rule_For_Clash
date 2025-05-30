@@ -6,39 +6,87 @@
 
    # 生效时间：立刻 !!!!
 
-    - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
-    - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
-    - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
-  
-    - DOMAIN         , doh.pub                          , REJECT-DROP  
-    - DOMAIN         , dns.alidns.com                   , REJECT-DROP   
+   # 注意：对于快手13.4以后的版本，一定要在VPN启动后再启动快手，不然快手不会切换IP。
+   #       并且快手在后台期间，不能切换VPN，不然也会获取IP失效（显示IP为国内）。
+   #       唯一的解决方法，就是打开备注中所有的IP规则（不推荐，会导致使用国外CDN加载视频 !!! ）
 
-    - DOMAIN-KEYWORD , cdndns.                          , REJECT-DROP         # cdndns.kwd.inkuai.com                   
-    - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com              
+    - DOMAIN-KEYWORD , gifshow.com                                #                   
+    - DOMAIN-KEYWORD , ksapisrv.com                               #   
 
-    - DOMAIN-KEYWORD , gifshow.com                                                   
-    - DOMAIN-KEYWORD , ksapisrv.com                                  
+   #- DOMAIN-KEYWORD , kuaishou.com                               #                                        
+   #- DOMAIN-KEYWORD , open.kuaishou.com                          #                                                      
+   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com               #                              
+   #- DOMAIN-KEYWORD , img-w.kuaishou.com                         #     
 
-    - DOMAIN-KEYWORD , kuaishou.com                                
-   #- DOMAIN-KEYWORD , open.kuaishou.com                                         
-   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com      
-   #- DOMAIN-KEYWORD , img-w.kuaishou.com          
+   #- DOMAIN-KEYWORD , kuaishouzt.com                             #                                             
+   #- DOMAIN-KEYWORD , api.kuaishouzt.com                         #     
 
-    - DOMAIN-KEYWORD , kuaishouzt.com                                   
-   #- DOMAIN-KEYWORD , api.kuaishouzt.com                          
+   #- DOMAIN-KEYWORD , wsukwai.com                                #        
+   #- DOMAIN-KEYWORD , p4-plat.wsukwai.com                        #     
 
-    - DOMAIN-KEYWORD , wsukwai.com
-   #- DOMAIN-KEYWORD , p4-plat.wsukwai.com
+   #- DOMAIN-KEYWORD , kwimgs.com                                 #   
 
-    - DOMAIN-KEYWORD , kwimgs.com                                  
+   #- DOMAIN-KEYWORD , yximgs.com                                 #                                                  
+   #- DOMAIN-KEYWORD , static.yximgs.com                          #     
 
-    - DOMAIN-KEYWORD , yximgs.com                                            
-   #- DOMAIN-KEYWORD , static.yximgs.com                           
+   #- DOMAIN-KEYWORD , inkuai.com                                 #                                                    
+   #- DOMAIN-KEYWORD , inkwai.com                                 #       
 
-    - DOMAIN-KEYWORD , inkuai.com                                              
-    - DOMAIN-KEYWORD , inkwai.com                                  
-
-    - IP-CIDR        , 103.102.200.0/22
-    - IP-CIDR        , 103.107.216.0/22
-    - IP-CIDR        , 45.77.249.167/32
-    - IP-CIDR        , 45.76.211.39/32
+   #- IP-CIDR        , 103.102.200.0/22                           #      
+   #- IP-CIDR        , 103.107.216.0/22                           #        
+     
+   #- IP-CIDR        , 103.167.27.143/32                          #    
+   #- IP-CIDR        , 103.214.22.128/32                          #         
+        
+  ##- IP-CIDR        , 39.136.99.0/24                             #     
+  ##- IP-CIDR        , 39.136.116.0/24                            #                   
+  ##- IP-CIDR        , 39.136.140.0/24                            #                
+  ##- IP-CIDR        , 162.159.200.0/24                           #                    
+  ##- IP-CIDR        , 163.181.129.0/24                           #      
+   #- IP-CIDR        , 103.186.118.0/24                           #      
+  #
+  ##- IP-CIDR        , 17.253.114.43/32                           #           
+  ##- IP-CIDR        , 17.253.68.251/32                           #      
+  ##- IP-CIDR        , 17.253.116.253/32                          #     
+  ##- IP-CIDR        , 23.106.249.200/32                          #   
+  ##- IP-CIDR        , 52.148.114.188/32                          #    
+  ##- IP-CIDR        , 59.103.236.10/32                           #           
+  ##- IP-CIDR        , 95.216.192.15/32                           #   
+  ##- IP-CIDR        , 172.237.12.44/32                           #     
+  ##- IP-CIDR        , 209.58.185.100/32                          #    
+  #
+  ##- IP-CIDR        , 45.77.249.167/32                           #       
+  ##- IP-CIDR        , 45.76.211.39/32                            #       
+  # 
+  ##- IP-CIDR        , 14.204.138.41/32                           #       
+  ##- IP-CIDR        , 17.253.68.125/32                           #       
+  ##- IP-CIDR        , 17.253.68.253/32                           #        
+  ##- IP-CIDR        , 27.221.38.41/32                            #      
+  ##- IP-CIDR        , 36.42.77.171/32                            #      
+  ##- IP-CIDR        , 39.91.182.44/32                            #         
+  ##- IP-CIDR        , 42.56.77.131/32                            #      
+  ##- IP-CIDR        , 43.132.83.0/24                             #        
+  ##- IP-CIDR        , 43.175.18.46/32                            #      
+  ##- IP-CIDR        , 43.226.164.41/32                           #       
+  ##- IP-CIDR        , 51.17.20.53/32                             #        
+  ##- IP-CIDR        , 60.222.55.218/32                           #       
+  ##- IP-CIDR        , 61.163.9.41/32                             #     
+  ##- IP-CIDR        , 61.241.131.61/32                           #       
+  ##- IP-CIDR        , 64.176.168.216/32                          #        
+  ##- IP-CIDR        , 101.72.203.41/32                           #       
+  ##- IP-CIDR        , 111.7.189.41/32                            #      
+  ##- IP-CIDR        , 112.84.131.66/32                           #       
+  ##- IP-CIDR        , 116.136.162.57/32                          #        
+  ##- IP-CIDR        , 116.148.202.41/32                          #        
+  ##- IP-CIDR        , 116.153.82.193/32                          #        
+  ##- IP-CIDR        , 116.162.13.41/32                           #       
+  ##- IP-CIDR        , 119.188.176.41/32                          #        
+  ##- IP-CIDR        , 119.188.176.44/32                          #        
+  ##- IP-CIDR        , 121.228.171.41/32                          #        
+  ##- IP-CIDR        , 129.250.35.251/32                          #       
+  ##- IP-CIDR        , 167.179.119.205/32                         #         
+  ##- IP-CIDR        , 193.182.111.142/32                         #         
+  ##- IP-CIDR        , 210.28.130.4/32                            #      
+  ##- IP-CIDR        , 218.60.56.12/32                            #      
+  ##- IP-CIDR        , 223.109.243.4/32                           #        
+  ##- IP-CIDR        , 103.214.22.128/32                          #  
