@@ -15,6 +15,8 @@
 
     - DOMAIN-KEYWORD , cdndns.                          , REJECT-DROP         # cdndns.kwd.inkuai.com                   
     - DOMAIN-KEYWORD , apidns-                          , REJECT-DROP         # apidns-js.kwd.inkuai.com              
+    - DOMAIN-KEYWORD , hdns.ksyun.com                   , REJECT-DROP         
+
 
     - DOMAIN-KEYWORD , gifshow.com                                                   
     - DOMAIN-KEYWORD , ksapisrv.com                                  
@@ -39,3 +41,6 @@
     - DOMAIN-KEYWORD , inkwai.com                                  
 
     - IP-CIDR        , 103.102.200.0/22
+    - IP-CIDR        , 103.107.216.0/22
+    - IP-CIDR        , 45.77.249.167/32
+    - IP-CIDR        , 45.76.211.39/32

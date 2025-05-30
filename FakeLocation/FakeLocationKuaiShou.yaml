@@ -39,3 +39,6 @@
     - DOMAIN-KEYWORD , inkwai.com                                  
 
     - IP-CIDR        , 103.102.200.0/22
+    - IP-CIDR        , 103.107.216.0/22
+    - IP-CIDR        , 45.77.249.167/32
+    - IP-CIDR        , 45.76.211.39/32
