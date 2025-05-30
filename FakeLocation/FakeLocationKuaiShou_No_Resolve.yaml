@@ -14,11 +14,11 @@
     - DOMAIN-KEYWORD , ksapisrv.com                               #   
 
    #- DOMAIN-KEYWORD , kuaishou.com                               #                                        
-   #- DOMAIN-KEYWORD , open.kuaishou.com                          #                                                      
+    - DOMAIN-KEYWORD , open.kuaishou.com                          #                                                      
    #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com               #                              
    #- DOMAIN-KEYWORD , img-w.kuaishou.com                         #     
 
-   #- DOMAIN-KEYWORD , kuaishouzt.com                             #                                             
+    - DOMAIN-KEYWORD , kuaishouzt.com                             #                                             
    #- DOMAIN-KEYWORD , api.kuaishouzt.com                         #     
 
    #- DOMAIN-KEYWORD , wsukwai.com                                #        
@@ -29,8 +29,8 @@
    #- DOMAIN-KEYWORD , yximgs.com                                 #                                                  
    #- DOMAIN-KEYWORD , static.yximgs.com                          #     
 
-   #- DOMAIN-KEYWORD , inkuai.com                                 #                                                    
-   #- DOMAIN-KEYWORD , inkwai.com                                 #       
+    - DOMAIN-KEYWORD , inkuai.com                                 #                                                    
+    - DOMAIN-KEYWORD , inkwai.com                                 #       
 
    #- IP-CIDR        , 103.102.200.0/22                           #      
    #- IP-CIDR        , 103.107.216.0/22                           #        
