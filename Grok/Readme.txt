@@ -13,7 +13,9 @@
 #
 #    Grok                              : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Grok/Grok.yaml'                                               , path: ./ruleset/Grok.yaml                               }                 
 #
-#    Grok_Domain                       : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Grok/Grok_Domain.yaml'                                        , path: ./ruleset/Grok_Domain.yaml                        }    
+#    Grok_Domain                       : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Grok/Grok_Domain.yaml'                                        , path: ./ruleset/Grok_Domain.yaml                        }   
+#
+#    Grok_IP	                       : {type: http, behavior: ipcidr    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Grok/Grok_IP.yaml'                   	                        , path: ./ruleset/Grok_IP.yaml       	                  }   
 #
 
 #
