@@ -11,41 +11,86 @@
    #       唯一的解决方法，就是打开备注中所有的IP规则（不推荐，会导致使用国外CDN加载视频 !!! ）
 
 
-    - DOMAIN-KEYWORD , gifshow.com                                #               
-    - DOMAIN-KEYWORD , ksapisrv.com                               #  
 
-    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                     # 
-    
-    - DOMAIN-KEYWORD , kuaishou.com                               #                                    
-   #- DOMAIN-KEYWORD , open.kuaishou.com                          #                                                  
-   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com               #                          
-   #- DOMAIN-KEYWORD , img-w.kuaishou.com                         #  
+    - DOMAIN-KEYWORD , gifshow.com                                 , 🇨🇳.<ShowIP>—快手 #                   
+    - DOMAIN-KEYWORD , ksapisrv.com                                , 🇨🇳.<ShowIP>—快手 #   
+                      
+    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                      , 🇨🇳.<ShowIP>—快手 # 
+
+    - DOMAIN-KEYWORD , kuaishou.com                                , 🇨🇳.<ShowIP>—快手 #                                        
+   #- DOMAIN-KEYWORD , open.kuaishou.com                           , 🇨🇳.<ShowIP>—快手 #                                                      
+   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com                , 🇨🇳.<ShowIP>—快手 #                              
+   #- DOMAIN-KEYWORD , img-w.kuaishou.com                          , 🇨🇳.<ShowIP>—快手 #     
  
-    - DOMAIN-KEYWORD , kuaishouzt.com                             #                                         
-   #- DOMAIN-KEYWORD , api.kuaishouzt.com                         #  
+    - DOMAIN-KEYWORD , kuaishouzt.com                              , 🇨🇳.<ShowIP>—快手 #                                             
+   #- DOMAIN-KEYWORD , api.kuaishouzt.com                          , 🇨🇳.<ShowIP>—快手 #     
 #
-#   - DOMAIN-KEYWORD , kwaizt.com                                 # 
+    - DOMAIN-KEYWORD , kwaizt.com                                  , 🇨🇳.<ShowIP>—快手 # 
 #   
-#   - DOMAIN-KEYWORD , wsukwai.com                                #    
-#  #- DOMAIN-KEYWORD , p4-plat.wsukwai.com                        #  
+    - DOMAIN-KEYWORD , kskwai.com                                  , 🇨🇳.<ShowIP>—快手 #
 #
-#   - DOMAIN-KEYWORD , kwimgs.com                                 #  
+    - DOMAIN-KEYWORD , wsukwai.com                                 , 🇨🇳.<ShowIP>—快手 #        
+#  #- DOMAIN-KEYWORD , p4-plat.wsukwai.com                         , 🇨🇳.<ShowIP>—快手 #     
 #
-#   - DOMAIN-KEYWORD , yximgs.com                                 #                                              
-#  #- DOMAIN-KEYWORD , static.yximgs.com                          #  
-#
-#   - DOMAIN-KEYWORD , inkuai.com                                 #                                                
-#   - DOMAIN-KEYWORD , inkwai.com                                 #          
-#
-#  #- DOMAIN-KEYWORD , kwaicdn.com                                # 
+    - DOMAIN-KEYWORD , wsukwai.com                                 , 🇨🇳.<ShowIP>—快手 #  
 
-    - IP-CIDR        , 103.102.200.0/22                           #  
-    - IP-CIDR        , 103.167.27.143/32                          #  
-    - IP-CIDR        , 103.214.22.128/32                          #  
+    - DOMAIN-KEYWORD , shukwai.com                                 , 🇨🇳.<ShowIP>—快手 #   
+#
+    - DOMAIN-KEYWORD , kwimgs.com                                  , 🇨🇳.<ShowIP>—快手 #   
 
-    - IP-CIDR        , 116.136.162.0/24                           #  
-    - IP-CIDR        , 116.131.56.0/24                            #  
-    - IP-CIDR        , 115.54.17.0/24                             #  
+    - DOMAIN-KEYWORD , yximgs.com                                  , 🇨🇳.<ShowIP>—快手 #                                                  
+#  #- DOMAIN-KEYWORD , static.yximgs.com                           , 🇨🇳.<ShowIP>—快手 #     
+#
+    - DOMAIN-KEYWORD , inkuai.com                                  , 🇨🇳.<ShowIP>—快手 #                                                    
+    - DOMAIN-KEYWORD , inkwai.com                                  , 🇨🇳.<ShowIP>—快手 #              
+#
+#  #- DOMAIN-KEYWORD , kwaicdn.com                                 , 🇨🇳.<ShowIP>—快手 # 
+#
+#   - DOMAIN-KEYWORD , bdydns.com                                  , 🇨🇳.<ShowIP>—快手 #
+#
+#   - DOMAIN-KEYWORD , kwai                                        , 🇨🇳.<ShowIP>—快手 # 
+#
+#   - DOMAIN-KEYWORD , xxpkg.com                                   , 🇨🇳.<ShowIP>—快手 #
+#
+#   - DOMAIN-KEYWORD , jomodns.com                                 , 🇨🇳.<ShowIP>—快手 # 
+#   - DOMAIN-KEYWORD , ovscdns.net                                 , 🇨🇳.<ShowIP>—快手 #
+#
+#   - IP-CIDR        , 103.102.200.0/22                            , 🇨🇳.<ShowIP>—快手 #  
+#   - IP-CIDR        , 103.107.217.0/24                            , 🇨🇳.<ShowIP>—快手 #   
+#   - IP-CIDR        , 103.167.27.143/32                           , 🇨🇳.<ShowIP>—快手 #    
+#   - IP-CIDR        , 103.214.22.128/32                           , 🇨🇳.<ShowIP>—快手 #   
+#
+#   - IP-CIDR        , 116.136.162.0/24                            , 🇨🇳.<ShowIP>—快手 #   
+#   - IP-CIDR        , 116.131.56.0/24                             , 🇨🇳.<ShowIP>—快手 #  
+#   - IP-CIDR        , 116.114.190.0/24                            , 🇨🇳.<ShowIP>—快手 #      
+#   - IP-CIDR        , 115.54.17.0/24                              , 🇨🇳.<ShowIP>—快手 #   
+#      
+#   - IP-CIDR        , 123.103.115.0/24                            , 🇨🇳.<ShowIP>—快手 #      
+#   - IP-CIDR        , 106.74.44.0/24                              , 🇨🇳.<ShowIP>—快手 #       
+#   - IP-CIDR        , 222.134.66.0/24                             , 🇨🇳.<ShowIP>—快手 #    
+#    
+#   - IP-CIDR        , 218.60.56.0/24                              , 🇨🇳.<ShowIP>—快手 #  
+#
+#   - IP-CIDR        , 117.161.124.0/24                            , 🇨🇳.<ShowIP>—快手 #  
+#
+#   - IP-CIDR        , 113.219.195.100                             , 🇨🇳.<ShowIP>—快手 #  
+#   - IP-CIDR        , 113.96.142.0/24                             , 🇨🇳.<ShowIP>—快手 # 
+#   - IP-CIDR        , 180.163.136.0/24                            , 🇨🇳.<ShowIP>—快手 # 
+#
+#   - IP-CIDR        , 103.107.216.0/22                            , 🇨🇳.<ShowIP>—快手 #         
+#          
+#   - IP-CIDR        , 39.136.99.0/24                              , 🇨🇳.<ShowIP>—快手 #      
+#   - IP-CIDR        , 39.136.116.0/24                             , 🇨🇳.<ShowIP>—快手 #                    
+#   - IP-CIDR        , 39.136.140.0/24                             , 🇨🇳.<ShowIP>—快手 #                 
+#   - IP-CIDR        , 162.159.200.0/24                            , 🇨🇳.<ShowIP>—快手 #                     
+#   - IP-CIDR        , 163.181.129.0/24                            , 🇨🇳.<ShowIP>—快手 #       
+#   - IP-CIDR        , 103.186.118.0/24                            , 🇨🇳.<ShowIP>—快手 #       
+#   
+#   - IP-CIDR        , 111.161.126.226/24                          , 🇨🇳.<ShowIP>—快手 #   
+#   - IP-CIDR        , 112.19.242.77/24                            , 🇨🇳.<ShowIP>—快手 # 
+#   - IP-CIDR        , 60.28.2.40/24                               , 🇨🇳.<ShowIP>—快手 # 
+#
+#   - IP-CIDR        , 123.138.49.18/24                            , 🇨🇳.<ShowIP>—快手 # 
        
    #- IP-CIDR        , 103.107.216.0/22                           #        
            
