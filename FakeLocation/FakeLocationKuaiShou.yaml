@@ -13,6 +13,8 @@
 
     - DOMAIN-KEYWORD , gifshow.com                                #               
     - DOMAIN-KEYWORD , ksapisrv.com                               #  
+
+    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                     # 
     
     - DOMAIN-KEYWORD , kuaishou.com                               #                                    
    #- DOMAIN-KEYWORD , open.kuaishou.com                          #                                                  
