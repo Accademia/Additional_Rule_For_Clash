@@ -21,6 +21,8 @@
     - DOMAIN-KEYWORD , kuaishouzt.com                             #                                             
    #- DOMAIN-KEYWORD , api.kuaishouzt.com                         #     
 
+    - DOMAIN-KEYWORD , kwaizt.com
+    
     - DOMAIN-KEYWORD , wsukwai.com                                #        
    #- DOMAIN-KEYWORD , p4-plat.wsukwai.com                        #     
 
@@ -33,7 +35,6 @@
     - DOMAIN-KEYWORD , inkwai.com                                 #              
 
    #- DOMAIN-KEYWORD , kwaicdn.com                                # 
-   
 
    #- IP-CIDR        , 103.102.200.0/22                           #      
    #- IP-CIDR        , 103.107.216.0/22                           #        
