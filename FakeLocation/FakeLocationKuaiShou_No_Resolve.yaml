@@ -11,8 +11,6 @@
    #       唯一的解决方法，就是打开备注中所有的IP规则（不推荐，会导致使用国外CDN加载视频 !!! ）
 
 
-    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                      , REJECT-DROP 
-
     - DOMAIN-KEYWORD , gifshow.com                                #, 🇨🇳.<ShowIP>—快手 #                   
     - DOMAIN-KEYWORD , ksapisrv.com                               #, 🇨🇳.<ShowIP>—快手 #   
                       
@@ -52,6 +50,8 @@
 #
 #   - DOMAIN-KEYWORD , xxpkg.com                                  #, 🇨🇳.<ShowIP>—快手 #
 #
+
+    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                      , 🇨🇳.<ShowIP>—快手 
 #   - DOMAIN-KEYWORD , jomodns.com                                #, 🇨🇳.<ShowIP>—快手 # 
 #   - DOMAIN-KEYWORD , ovscdns.net                                #, 🇨🇳.<ShowIP>—快手 #
 #
