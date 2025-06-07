@@ -30,6 +30,7 @@ payload:
     - IP-CIDR        , 59.82.84.0/24                                                             , no-resolve         #                                             
     - IP-CIDR        , 59.82.122.0/24                                                            , no-resolve         #                                             
     - IP-CIDR        , 59.82.121.0/24                                                            , no-resolve         #   
+    - IP-CIDR        , 59.82.133.0/24                                                            , no-resolve         #  
    #- IP-CIDR        , 59.82.58.67/32                                                            , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼                          
    #- IP-CIDR        , 59.82.66.200/32                                                           , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼                                                  
    #- IP-CIDR        , 59.82.84.190/32                                                           , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼  
