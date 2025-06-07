@@ -58,6 +58,8 @@
 #   - DOMAIN-KEYWORD , ovscdns.net                                #, 🇨🇳.<ShowIP>—快手 #
 #
     - IP-CIDR        , 103.102.200.0/22                           #, 🇨🇳.<ShowIP>—快手 #   103.102.202.72
+    
+    - IP-CIDR        , 103.167.26.0/23                            #, 🇨🇳.<ShowIP>—快手 #   快手新加坡全资子公司
 
 #  #- IP-CIDR        , 103.107.216.0/22                           #, 🇨🇳.<ShowIP>—快手 #        
 #
