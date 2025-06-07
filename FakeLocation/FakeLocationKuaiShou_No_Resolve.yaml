@@ -36,12 +36,14 @@
 #
     - DOMAIN-KEYWORD , kwimgs.com                                 #, 🇨🇳.<ShowIP>—快手 #   
 
-    - DOMAIN-KEYWORD , yximgs.com                                 #, 🇨🇳.<ShowIP>—快手 #                                                  
+   #- DOMAIN-KEYWORD , yximgs.com                                 #, 🇨🇳.<ShowIP>—快手 #     ？？？？？                                                
 #  #- DOMAIN-KEYWORD , static.yximgs.com                          #, 🇨🇳.<ShowIP>—快手 #     
 #
     - DOMAIN-KEYWORD , inkuai.com                                 #, 🇨🇳.<ShowIP>—快手 #                                                    
-    - DOMAIN-KEYWORD , inkwai.com                                 #, 🇨🇳.<ShowIP>—快手 #              
-#
+    - DOMAIN-KEYWORD , inkwai.com                                 #, 🇨🇳.<ShowIP>—快手 #       
+                                                   
+   #- DOMAIN-KEYWORD , eckwai.com                                 #, 🇨🇳.<ShowIP>—快手 # 
+                     
 #  #- DOMAIN-KEYWORD , kwaicdn.com                                #, 🇨🇳.<ShowIP>—快手 # 
 #
 #   - DOMAIN-KEYWORD , bdydns.com                                 #, 🇨🇳.<ShowIP>—快手 #
