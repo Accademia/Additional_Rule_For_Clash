@@ -20,10 +20,9 @@
    #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com               #, 🇨🇳.<ShowIP>—快手 #                              
    #- DOMAIN-KEYWORD , img-w.kuaishou.com                         #, 🇨🇳.<ShowIP>—快手 #     
  
+    - DOMAIN-KEYWORD , kwaizt.com                                 #, 🇨🇳.<ShowIP>—快手 # 
     - DOMAIN-KEYWORD , kuaishouzt.com                             #, 🇨🇳.<ShowIP>—快手 #                                             
    #- DOMAIN-KEYWORD , api.kuaishouzt.com                         #, 🇨🇳.<ShowIP>—快手 #     
-#
-    - DOMAIN-KEYWORD , kwaizt.com                                 #, 🇨🇳.<ShowIP>—快手 # 
 #   
     - DOMAIN-KEYWORD , kskwai.com                                 #, 🇨🇳.<ShowIP>—快手 #
 #
@@ -34,17 +33,14 @@
 
     - DOMAIN-KEYWORD , shukwai.com                                #, 🇨🇳.<ShowIP>—快手 #   
 #
-    - DOMAIN-KEYWORD , kwimgs.com                                 #, 🇨🇳.<ShowIP>—快手 #   
-
-   #- DOMAIN-KEYWORD , yximgs.com                                 #, 🇨🇳.<ShowIP>—快手 #        ？？？？？                                          
-#  #- DOMAIN-KEYWORD , static.yximgs.com                          #, 🇨🇳.<ShowIP>—快手 #     
-#
     - DOMAIN-KEYWORD , inkuai.com                                 #, 🇨🇳.<ShowIP>—快手 #                                                    
     - DOMAIN-KEYWORD , inkwai.com                                 #, 🇨🇳.<ShowIP>—快手 #      
                                                    
    #- DOMAIN-KEYWORD , eckwai.com                                 #, 🇨🇳.<ShowIP>—快手 # 
            
-#  #- DOMAIN-KEYWORD , kwaicdn.com                                #, 🇨🇳.<ShowIP>—快手 # 
+   #- DOMAIN-KEYWORD , kwimgs.com                                 #, 🇨🇳.<ShowIP>—快手 #      # CDN
+   #- DOMAIN-KEYWORD , yximgs.com                                 #, 🇨🇳.<ShowIP>—快手 #      # CDN       static.yximgs.com    
+#  #- DOMAIN-KEYWORD , kwaicdn.com                                #, 🇨🇳.<ShowIP>—快手 #      # CDN
 #
 #   - DOMAIN-KEYWORD , bdydns.com                                 #, 🇨🇳.<ShowIP>—快手 #
 #
@@ -57,7 +53,9 @@
 #   - DOMAIN-KEYWORD , jomodns.com                                #, 🇨🇳.<ShowIP>—快手 # 
 #   - DOMAIN-KEYWORD , ovscdns.net                                #, 🇨🇳.<ShowIP>—快手 #
 #
-    - IP-CIDR        , 103.102.200.0/22                           #, 🇨🇳.<ShowIP>—快手 #   103.102.202.72
+    - IP-CIDR        , 103.102.200.0/22                           #, 🇨🇳.<ShowIP>—快手 #  
+    - IP-CIDR        , 103.107.200.0/22                           #, 🇨🇳.<ShowIP>—快手 #  
+    - IP-CIDR        , 103.107.216.0/22                           #, 🇨🇳.<ShowIP>—快手 #  
     
     - IP-CIDR        , 103.167.26.0/23                            #, 🇨🇳.<ShowIP>—快手 #   快手新加坡全资子公司
 
