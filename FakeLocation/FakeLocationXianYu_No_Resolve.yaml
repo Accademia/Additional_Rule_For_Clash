@@ -1,7 +1,7 @@
 payload:
 
    # ---------------------------------------------                                         
-   # [IP归属地] 闲鱼                                  
+   # [IP归属地] 闲鱼 \ 淘宝                                 
    # ---------------------------------------------    
   
    # 生效时间：立刻 !!!!!
@@ -21,8 +21,7 @@ payload:
    #- DOMAIN-SUFFIX  , toblog.ctobsnssdk.com                      , REJECT-DROP                                       # 
    #- DOMAIN-SUFFIX  , log-api.pangolin-sdk-toutiao.com           , REJECT-DROP                                       # 
      
-   # 闲鱼专属规则
-   
+
     - DOMAIN-KEYWORD , acs.m.goofish.com                                                                              # 功能：登录   (注意：必须使用DOMAIN-SUFFIX)   
 
     - IP-CIDR        , 59.82.58.0/24                                                             , no-resolve         #                           
