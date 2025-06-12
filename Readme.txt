@@ -118,7 +118,7 @@
 
 + MacAppUpgrade		: Homebrew App Install \ Upgrade  Clash 分流规则
 
-
++ UnsupportVPN		: 使用VPN IP（非住宅IP）会被屏蔽的网站
 
 
 
