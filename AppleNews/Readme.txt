@@ -7,6 +7,11 @@
 #	访问 AppleNews 所需要的Clash分流规则
 #
 #
+# 特别注意
+#
+#	必须 ，开启本规则 + 关闭移动网络（或拔出中国Sim卡），才能 在中国大陆，正常访问苹果新闻。仅仅其用本规则，则无效（iOS后台，会自动检查 + 自我阉割，无论是否国行机）	
+#
+#
 # 引用范例 ：
 #
 #    AppleNews_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/AppleNews/AppleNews_No_Resolve.yaml'                                    , path: ./ruleset/AppleNews_No_Resolve.yaml                    }    
