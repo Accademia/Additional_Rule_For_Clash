@@ -1,22 +1,23 @@
 payload:
 
-  - '+.gspe1-ssl.ls.apple.com'  
-  - '+.news-client-search.apple.com'    
-
-  - '+.fpinit.itunes.apple.com'                
-  - '+.bag.itunes.apple.com'     
-
-  - '+.amp-api-edge.apps.apple.com'      
-
-  - '+.newsletter-edge.apple.com'      
-  - '+.newsletter-edge.apple.com'   
+  - '+.apple.news'
 
   - '+.news-events.apple.com'      
   - '+.news-edge.apple.com'       
   - '+.news-sports-events.apple.com' 
   - '+.news-todayconfig-edge.apple.com'  
 
-  - '+.apple.news'
+  - '+.newsletter-edge.apple.com'      
+  - '+.newsletter-edge.apple.com'   
+
+  - '+.amp-api-edge.apps.apple.com'   
+
+  - '+.gspe1-ssl.ls.apple.com'  
+  - '+.news-client-search.apple.com'    
+  
+  - '+.fpinit.itunes.apple.com'                
+  - '+.bag.itunes.apple.com'        
+
 
 
 
