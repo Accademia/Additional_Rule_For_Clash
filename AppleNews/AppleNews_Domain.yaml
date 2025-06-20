@@ -11,6 +11,7 @@ payload:
   - '+.newsletter-edge.apple.com'   
 
   - '+.amp-api-edge.apps.apple.com'   
+  - '+.amp-api.apps.apple.com'   
 
   - '+.gspe1-ssl.ls.apple.com'  
   - '+.news-client-search.apple.com'    
