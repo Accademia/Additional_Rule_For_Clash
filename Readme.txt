@@ -120,6 +120,7 @@
 
 + UnsupportVPN		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
 
++ AppleNews		: 苹果新闻 分流规则
 
 
 
