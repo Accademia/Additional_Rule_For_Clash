@@ -9,10 +9,12 @@ payload:
   - '+.amp-api-edge.apps.apple.com'      
 
   - '+.newsletter-edge.apple.com'      
-  - '+.news-todayconfig-edge.apple.com'   
-  - '+.news-sports-events.apple.com'    
   - '+.newsletter-edge.apple.com'   
+
   - '+.news-events.apple.com'      
+  - '+.news-edge.apple.com'       
+  - '+.news-sports-events.apple.com' 
+  - '+.news-todayconfig-edge.apple.com'  
 
   - '+.apple.news'
 

@@ -9,10 +9,12 @@ payload:
     - DOMAIN-SUFFIX   , amp-api-edge.apps.apple.com      
 
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com      
-    - DOMAIN-SUFFIX   , news-todayconfig-edge.apple.com   
-    - DOMAIN-SUFFIX   , news-sports-events.apple.com    
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com   
+
+    - DOMAIN-SUFFIX   , news-edge.apple.com   
     - DOMAIN-SUFFIX   , news-events.apple.com      
+    - DOMAIN-SUFFIX   , news-sports-events.apple.com    
+    - DOMAIN-SUFFIX   , news-todayconfig-edge.apple.com   
    
     - DOMAIN-SUFFIX   , apple.news
 
