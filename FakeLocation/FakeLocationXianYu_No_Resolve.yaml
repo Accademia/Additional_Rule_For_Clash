@@ -38,8 +38,8 @@ payload:
    #- IP-CIDR        , 203.119.146.27/32                                                         , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼
    
     - IP-CIDR        , 203.119.204.0/24                                                          , no-resolve         #   
-   #- IP-CIDR        , 203.119.238.0/24                                                          , no-resolve         #   
-   #- IP-CIDR        , 203.119.252.0/24                                                         #, no-resolve         #  
+    - IP-CIDR        , 203.119.238.0/24                                                          , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼（待细分）
+    - IP-CIDR        , 203.119.252.0/24                                                          , no-resolve         #   !!!!!!! 必要 !!!!!!!  闲鱼（待细分）
 
    # Alibaba Advertising Co.,Ltd. 的IP段 :  
    # 59.82.0.0/16   （闲鱼与淘宝，共用这些IP段)
