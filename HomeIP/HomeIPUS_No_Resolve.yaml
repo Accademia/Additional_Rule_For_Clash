@@ -130,6 +130,7 @@ payload:
 
 
 
+    - DOMAIN-KEYWORD , thehide.tv                # thehide.tv
     - DOMAIN-KEYWORD , snipershide               # snipershide.com
     - DOMAIN-KEYWORD , silencertalk              # silencertalk.com
    #- DOMAIN-KEYWORD ,                           # .com 
