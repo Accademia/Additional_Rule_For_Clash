@@ -4,7 +4,11 @@ payload:
    # -----------------------------------------------
    # [银行]：法国银行   [Default : FR  ] 
    # -----------------------------------------------
-   
+
+   #- '+.hsbc.com.fr'               # 汇丰法国 (已关闭)
+   #- 'fr.hsbc.com'                 # 汇丰法国 (已关闭)
+   #- '+.fr.hsbc.com'               # 汇丰法国 (已关闭)
+
     - '+.bnpparibas.com'            # BNP Paribas                             
     - '+.societegenerale.com'       # Société Générale                       
     - '+.groupebpce.com'            # Groupe BPCE                          

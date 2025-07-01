@@ -5,6 +5,10 @@ payload:
    # [银行]：法国银行   [Default : FR  ] 
    # -----------------------------------------------
    
+   #- DOMAIN-SUFFIX  , hsbc.com.fr               # 汇丰法国 (已关闭)
+   #- DOMAIN         , fr.hsbc.com               # 汇丰法国 (已关闭)
+   #- DOMAIN-SUFFIX  , .fr.hsbc.com              # 汇丰法国 (已关闭)
+
     - DOMAIN-SUFFIX  , bnpparibas.com            # BNP Paribas                             
     - DOMAIN-SUFFIX  , societegenerale.com       # Société Générale                       
     - DOMAIN-SUFFIX  , groupebpce.com            # Groupe BPCE                          

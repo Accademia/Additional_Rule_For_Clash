@@ -5,6 +5,9 @@ payload:
    # -----------------------------------------------
    
     - DOMAIN-SUFFIX  , hsbc.com.au               # 汇丰澳洲
+    - DOMAIN         , au.hsbc.com               # 汇丰澳洲
+    - DOMAIN-SUFFIX  , .au.hsbc.com              # 汇丰澳洲
+
     - DOMAIN-SUFFIX  , citibank.com.au           # 花旗澳洲
     - DOMAIN-SUFFIX  , citi.com.au               # 花旗澳洲
     - DOMAIN-SUFFIX  , commbank.com.au           # 澳大利亚联邦银行 (Commonwealth Bank)      

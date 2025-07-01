@@ -4,94 +4,97 @@ payload:
    # -----------------------------------------------
    # [银行]：美国银行     [Default : US ]  
    # -----------------------------------------------                
-  
-   # ---------- Plaid ---------- #   # 银行间协作
+
+    - DOMAIN-SUFFIX  , hsbc.com.us               # 汇丰美国     HSBC North America Holdings  
+    - DOMAIN         , us.hsbc.com               # 汇丰美国     HSBC North America Holdings  
+    - DOMAIN-SUFFIX  , us.hsbc.com               # 汇丰美国     HSBC North America Holdings  
+
+   # ---------- Plaid ---------- #               # 银行间协作
    
     - DOMAIN-SUFFIX  , plaid.com                 
     
-   # ---------- Plaid ---------- #   # 银行间协
+   # ---------- Plaid ---------- #               # 银行间协
    
     - DOMAIN-KEYWORD , zellepay                  
     - DOMAIN-KEYWORD , zelle                     
    
    # ---------- Chase ---------- #   
     
-    - DOMAIN-SUFFIX  , chase.com                   # 摩根大通    Chase
+    - DOMAIN-SUFFIX  , chase.com                 # 摩根大通    Chase
                      
    # -------- Wellsfargo -------- #   
     
-    - DOMAIN-SUFFIX  , wellsfargo.com              # 富国银行    Wellsfargo
+    - DOMAIN-SUFFIX  , wellsfargo.com            # 富国银行    Wellsfargo
     
    # -------- Citibank -------- #   
     
-    - DOMAIN-SUFFIX  , citi.com                    # 花旗银行    Citibank  
-    - DOMAIN-SUFFIX  , citibank.com                # 花旗银行    Citibank  
+    - DOMAIN-SUFFIX  , citi.com                  # 花旗银行    Citibank  
+    - DOMAIN-SUFFIX  , citibank.com              # 花旗银行    Citibank  
 
    # ------ Bank of America ----- #   
     
-    - DOMAIN-SUFFIX  , bankofamerica.com           # 美洲银行    Bank of America
-    - DOMAIN-KEYWORD , bankofamerica               # 美洲银行    Bank of America
+    - DOMAIN-SUFFIX  , bankofamerica.com         # 美洲银行    Bank of America
+    - DOMAIN-KEYWORD , bankofamerica             # 美洲银行    Bank of America
     
    # ---------- US Bank --------- #   
    
-    - DOMAIN-SUFFIX  , usbank.com                  # 美国合众银行  U.S. Bancorp
+    - DOMAIN-SUFFIX  , usbank.com                # 美国合众银行  U.S. Bancorp
 
    # --------- 信用卡 银行 --------- #
    
-    - DOMAIN-SUFFIX  , capitalone.com              # 第一资本     Capital One Financial
-    - DOMAIN-SUFFIX  , americanexpress.com         # 美国运通     American Express Company
-    - DOMAIN-SUFFIX  , discover.com                # 发现卡       Discover Financial Services
+    - DOMAIN-SUFFIX  , capitalone.com            # 第一资本     Capital One Financial
+    - DOMAIN-SUFFIX  , americanexpress.com       # 美国运通     American Express Company
+    - DOMAIN-SUFFIX  , discover.com              # 发现卡       Discover Financial Services
    
-    - DOMAIN-SUFFIX  , synchronybank.com           # 同步银行     Synchrony （Paypal在美国的合作银行）
+    - DOMAIN-SUFFIX  , synchronybank.com         # 同步银行     Synchrony （Paypal在美国的合作银行）
     
    # --------- 中资背景 银行 --------- #
    
-    - DOMAIN-SUFFIX  , us.hsbc.com                 # 美国汇丰     HSBC North America Holdings  
-    - DOMAIN-SUFFIX  , eastwest.com                # 华美汇丰     EastWest
-    - DOMAIN-SUFFIX  , cathaybank.com              # 国泰汇丰     Cathay Bank
+    - DOMAIN-SUFFIX  , eastwest.com              # 华美汇丰     EastWest
+    - DOMAIN-SUFFIX  , cathaybank.com            # 国泰汇丰     Cathay Bank
     
    # --------- 数字 银行 --------- #
    
-    - DOMAIN-SUFFIX  , varomoney.com               # Varo银行
-    - DOMAIN-SUFFIX  , velobank.com                # Velo银行
-    - DOMAIN-SUFFIX  , trydave.com                 # Dave卡
-    - DOMAIN-SUFFIX  , sezzle.com                  # Sezzle卡
-    - DOMAIN-SUFFIX  , gobankrewards.com           # Go2Bank卡
+    - DOMAIN-SUFFIX  , varomoney.com             # Varo银行
+    - DOMAIN-SUFFIX  , velobank.com              # Velo银行
+    - DOMAIN-SUFFIX  , trydave.com               # Dave卡
+    - DOMAIN-SUFFIX  , sezzle.com                # Sezzle卡
+    - DOMAIN-SUFFIX  , gobankrewards.com         # Go2Bank卡
     
-   #- DOMAIN-SUFFIX  ,                             # 
-   #- DOMAIN-SUFFIX  ,                             # 
-   #- DOMAIN-SUFFIX  ,                             # 
+   #- DOMAIN-SUFFIX  ,                           # 
+   #- DOMAIN-SUFFIX  ,                           # 
+   #- DOMAIN-SUFFIX  ,                           # 
     
-   #- DOMAIN-KEYWORD , td.com/us/                  # 明道银行     TD Group US Holdings
-   #- DOMAIN-SUFFIX  ,                             # 
+   #- DOMAIN-KEYWORD , td.com/us/                # 明道银行     TD Group US Holdings
+   #- DOMAIN-SUFFIX  ,                           # 
    
 
    # --------- 其他 本土银行 --------- #
    
-    - DOMAIN-SUFFIX  , pnc.com                     # PNC Financial Services
-    - DOMAIN-SUFFIX  , jpmorganchase.com           # JPMorgan Chase                       
-    - DOMAIN-SUFFIX  , citigroup.com               # Citigroup                            
-    - DOMAIN-SUFFIX  , goldmansachs.com            # Goldman Sachs Group                  
-    - DOMAIN-SUFFIX  , morganstanley.com           # Morgan Stanley                       
-    - DOMAIN-SUFFIX  , bnymellon.com               # Bank of New York Mellon              
-    - DOMAIN-SUFFIX  , truist.com                  # Truist Financial                     
-    - DOMAIN-SUFFIX  , statestreet.com             # State Street Corporation             
-    - DOMAIN-SUFFIX  , schwab.com                  # Charles Schwab Corporation           
-    - DOMAIN-SUFFIX  , citizensbank.com            # Citizens Financial Group             
-    - DOMAIN-SUFFIX  , ally.com                    # Ally Financial                       
-    - DOMAIN-SUFFIX  , 53.com                      # Fifth Third Bancorp                  
-    - DOMAIN-SUFFIX  , key.com                     # KeyCorp                              
-    - DOMAIN-SUFFIX  , northerntrust.com           # Northern Trust Corporation           
-    - DOMAIN-SUFFIX  , regions.com                 # Regions Financial Corporation        
-    - DOMAIN-SUFFIX  , mtb.com                     # M&T Bank Corporation                 
-    - DOMAIN-SUFFIX  , huntington.com              # Huntington Bancshares                
-    - DOMAIN-SUFFIX  , truist.com                  # SunTrust Banks (现为Truist Financial)
-    - DOMAIN-SUFFIX  , bbvausa.com                 # BBVA USA Bancshares                  
-    - DOMAIN-SUFFIX  , santanderbank.com           # Santander Holdings USA               
-    - DOMAIN-SUFFIX  , comerica.com                # Comerica                             
-    - DOMAIN-SUFFIX  , zionsbank.com               # Zions Bancorporation  
+    - DOMAIN-SUFFIX  , pnc.com                   # PNC Financial Services
+    - DOMAIN-SUFFIX  , jpmorganchase.com         # JPMorgan Chase                       
+    - DOMAIN-SUFFIX  , citigroup.com             # Citigroup                            
+    - DOMAIN-SUFFIX  , goldmansachs.com          # Goldman Sachs Group                  
+    - DOMAIN-SUFFIX  , morganstanley.com         # Morgan Stanley                       
+    - DOMAIN-SUFFIX  , bnymellon.com             # Bank of New York Mellon              
+    - DOMAIN-SUFFIX  , truist.com                # Truist Financial                     
+    - DOMAIN-SUFFIX  , statestreet.com           # State Street Corporation             
+    - DOMAIN-SUFFIX  , schwab.com                # Charles Schwab Corporation           
+    - DOMAIN-SUFFIX  , citizensbank.com          # Citizens Financial Group             
+    - DOMAIN-SUFFIX  , ally.com                  # Ally Financial                       
+    - DOMAIN-SUFFIX  , 53.com                    # Fifth Third Bancorp                  
+    - DOMAIN-SUFFIX  , key.com                   # KeyCorp                              
+    - DOMAIN-SUFFIX  , northerntrust.com         # Northern Trust Corporation           
+    - DOMAIN-SUFFIX  , regions.com               # Regions Financial Corporation        
+    - DOMAIN-SUFFIX  , mtb.com                   # M&T Bank Corporation                 
+    - DOMAIN-SUFFIX  , huntington.com            # Huntington Bancshares                
+    - DOMAIN-SUFFIX  , truist.com                # SunTrust Banks (现为Truist Financial)
+    - DOMAIN-SUFFIX  , bbvausa.com               # BBVA USA Bancshares                  
+    - DOMAIN-SUFFIX  , santanderbank.com         # Santander Holdings USA               
+    - DOMAIN-SUFFIX  , comerica.com              # Comerica                             
+    - DOMAIN-SUFFIX  , zionsbank.com             # Zions Bancorporation  
     
-   #- DOMAIN-SUFFIX  ,                             # 
-   #- DOMAIN-SUFFIX  ,                             # 
-   #- DOMAIN-SUFFIX  ,                             # 
+   #- DOMAIN-SUFFIX  ,                           # 
+   #- DOMAIN-SUFFIX  ,                           # 
+   #- DOMAIN-SUFFIX  ,                           # 
 

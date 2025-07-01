@@ -4,6 +4,10 @@ payload:
    # [银行]：加拿大银行 [Default : CA ]
    # ---------------- -------------------------------
    
+   #- DOMAIN-SUFFIX  , hsbc.com.ca               # 汇丰加拿大 (已关闭)
+   #- DOMAIN         , ca.hsbc.com               # 汇丰加拿大 (已关闭)
+   #- DOMAIN-SUFFIX  , .ca.hsbc.com              # 汇丰加拿大 (已关闭)
+
     - DOMAIN-SUFFIX  , rbcroyalbank.com          #  皇家加拿大银行 (Royal Bank of Canada)
     - DOMAIN-SUFFIX  , scotiabank.com            #  加拿大丰业银行 (Bank of Nova Scotia  Scotiabank)
     - DOMAIN-SUFFIX  , bmo.com                   #  蒙特利尔银行 (Bank of Montreal)

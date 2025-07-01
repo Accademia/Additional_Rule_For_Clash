@@ -4,11 +4,14 @@ payload:
    # [银行]：新加坡银行   [Default : SG ]
    # -----------------------------------------------
    
+    - DOMAIN-SUFFIX  ,  hsbc.com.sg              # HSBC Singapore                                    汇丰新加坡
+    - DOMAIN         , sg.hsbc.com               # HSBC Singapore                                    汇丰新加坡
+    - DOMAIN-SUFFIX  , .sg.hsbc.com              # HSBC Singapore                                    汇丰新加坡
+
     - DOMAIN-SUFFIX  ,  dbs.com.sg               # DBS Bank                                          星展银行（新加坡）   
     - DOMAIN-SUFFIX  ,  ocbc.com                 # Oversea-Chinese Banking Corporation (OCBC Bank)   华侨银行（新加坡）   
     - DOMAIN-SUFFIX  ,  uob.com.sg               # United Overseas Bank (UOB)                           
     - DOMAIN-SUFFIX  ,  citibank.com.sg          # Citibank Singapore                                花旗银行（新加坡）    
-    - DOMAIN-SUFFIX  ,  hsbc.com.sg              # HSBC Singapore                                    汇丰银行（新加坡）
     
    #- DOMAIN-SUFFIX  ,                           #                   
                                

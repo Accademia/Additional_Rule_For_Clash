@@ -5,6 +5,10 @@ payload:
    # [银行]：美国银行     [Default : US ]  
    # -----------------------------------------------                
   
+    - DOMAIN-SUFFIX  , hsbc.com.us               # 汇丰美国     HSBC North America Holdings  
+    - DOMAIN         , us.hsbc.com               # 汇丰美国     HSBC North America Holdings  
+    - DOMAIN-SUFFIX  , us.hsbc.com               # 汇丰美国     HSBC North America Holdings  
+
    # ---------- Plaid ---------- #   # 银行间协作
    
     - DOMAIN-SUFFIX  , plaid.com                 
@@ -46,7 +50,6 @@ payload:
     
    # --------- 中资背景 银行 --------- #
    
-    - DOMAIN-SUFFIX  , us.hsbc.com                 # 美国汇丰     HSBC North America Holdings  
     - DOMAIN-SUFFIX  , eastwest.com                # 华美汇丰     EastWest
     - DOMAIN-SUFFIX  , cathaybank.com              # 国泰汇丰     Cathay Bank
     

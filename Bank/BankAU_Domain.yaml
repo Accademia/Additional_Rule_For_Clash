@@ -5,6 +5,9 @@ payload:
    # -----------------------------------------------
    
     - '+.hsbc.com.au'               # 汇丰澳洲
+    - 'au.hsbc.com'                 # 汇丰澳洲
+    - '+.au.hsbc.com'               # 汇丰澳洲
+    
     - '+.citibank.com.au'           # 花旗澳洲
     - '+.citi.com.au'               # 花旗澳洲
     - '+.commbank.com.au'           # 澳大利亚联邦银行 (Commonwealth Bank)      
