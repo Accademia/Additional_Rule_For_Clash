@@ -5,4 +5,43 @@ payload:
     - DOMAIN-SUFFIX  , collection-mall.com      
 
    # 〖日本〗 - AV
-    - DOMAIN-SUFFIX  , dmm.com                  
+    - DOMAIN-SUFFIX  , dmm.com  
+    - DOMAIN-SUFFIX  , dmm.co.jp                
+
+    - DOMAIN-SUFFIX  , fc2.com
+    - DOMAIN-SUFFIX  , javlibrary.com
+    - DOMAIN-SUFFIX  , tokyohot.com
+    - DOMAIN-SUFFIX  , heyzo.com
+    - DOMAIN-SUFFIX  , 1pondo.tv
+    - DOMAIN-SUFFIX  , caribbeancom.com
+    - DOMAIN-SUFFIX  , dlsite.com
+    - DOMAIN-SUFFIX  , mucome.net
+    - DOMAIN-SUFFIX  , tv.dmm.com
+    - DOMAIN-SUFFIX  , fanza.co.jp
+    - DOMAIN-SUFFIX  , tver.jp
+    - DOMAIN-SUFFIX  , hulu.jp
+    - DOMAIN-SUFFIX  , unext.jp
+    - DOMAIN-SUFFIX  , fod.fujitv.co.jp
+    - DOMAIN-SUFFIX  , telasa.jp
+    - DOMAIN-SUFFIX  , plus.nhk.jp
+    - DOMAIN-SUFFIX  , radiko.jp
+    - DOMAIN-SUFFIX  , b-ch.com
+    - DOMAIN-SUFFIX  , wod.wowow.co.jp
+    - DOMAIN-SUFFIX  , jod.jsports.co.jp
+    - DOMAIN-SUFFIX  , lemino.docomo.ne.jp
+    - DOMAIN-SUFFIX  , animestore.docomo.ne.jp
+    - DOMAIN-SUFFIX  , spoox.jp
+    - DOMAIN-SUFFIX  , nhk-ondemand.jp
+    - DOMAIN-SUFFIX  , paravi.jp
+    - DOMAIN-SUFFIX  , abema.tv
+    - DOMAIN-SUFFIX  , dazn.com
+    - DOMAIN-SUFFIX  , amazon.co.jp
+    - DOMAIN-SUFFIX  , books.rakuten.co.jp
+    - DOMAIN-SUFFIX  , ebookjapan.yahoo.co.jp
+    - DOMAIN-SUFFIX  , honto.jp
+    - DOMAIN-SUFFIX  , kinokuniya.co.jp
+    - DOMAIN-SUFFIX  , awa.fm
+    - DOMAIN-SUFFIX  , music.line.me
+    - DOMAIN-SUFFIX  , music.dmkt-sp.jp
+    - DOMAIN-SUFFIX  , musicstore.auone.jp
+    - DOMAIN-SUFFIX  , jcom.co.jp
