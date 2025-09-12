@@ -8,6 +8,8 @@
 
 	如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！ 
 
+	开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
+
 
 
 
