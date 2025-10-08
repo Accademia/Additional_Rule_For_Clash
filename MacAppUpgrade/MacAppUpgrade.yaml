@@ -1,5 +1,11 @@
 payload:
+
+    - DOMAIN-SUFFIX  , brew.sh                                  # 
     - DOMAIN-SUFFIX  , ghcr.io                                  # 
+    - DOMAIN         , pkg-containers.githubusercontent.com     #
+   #- DOMAIN-SUFFIX  , raw.githubusercontent.com                # 
+   #- DOMAIN-SUFFIX  , github.com                               # 
+
     - DOMAIN-SUFFIX  , msedge.sf.dl.delivery.mp.microsoft.com   # 测试命令: brew install --cask microsoft-edge
     - DOMAIN-SUFFIX  , handbrake.fr                             # 测试命令: brew install --cask handbrake
     - DOMAIN-SUFFIX  , downloads.es.net                         # 测试命令: brew install iperf3

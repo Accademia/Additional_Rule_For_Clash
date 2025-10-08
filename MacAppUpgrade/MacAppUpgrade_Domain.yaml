@@ -1,5 +1,11 @@
 payload:
+
+    - '+.brew.sh'                                   # 
     - '+.ghcr.io'                                   # 
+    - '+.pkg-containers.githubusercontent.com'      #
+   #- '+.raw.githubusercontent.com'                 # 
+   #- '+.github.com'                                # 
+
     - '+.msedge.sf.dl.delivery.mp.microsoft.com'    # 测试命令: brew install --cask microsoft-edge
     - '+.handbrake.fr'                              # 测试命令: brew install --cask handbrake
     - '+.downloads.es.net'                          # 测试命令: brew install iperf3
