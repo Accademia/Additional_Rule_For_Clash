@@ -1,7 +1,7 @@
 payload:
 
-  - DOMAIN-SUFFIX  , apple-dns.net                                  # , no-resolve       # Apple ： http dns ？
-  - DOMAIN-SUFFIX  , apple-dns.com                                  # , no-resolve       # Apple ： http dns ？
+  - DOMAIN-SUFFIX  , apple-dns.net                                  # , no-resolve       # Apple
+  - DOMAIN-SUFFIX  , dns.apple.com                                  # , no-resolve       # Apple
   - DOMAIN-SUFFIX  , 1dot1dot1dot1.cloudflare-dns.com                , no-resolve       # Cloudflare
   - DOMAIN-SUFFIX  , 8888.google                                     , no-resolve       # Google
   - DOMAIN-SUFFIX  , adblock.mydns.network                           , no-resolve       # MyDNS Network
