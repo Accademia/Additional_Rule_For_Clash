@@ -114,6 +114,8 @@
 
 + Signal		: Signal Clash分流规则
 
++ AppleAI		: 苹果AI (苹果 Siri AI) Clash分流规则
+
 + Grok			: xAI Grok Clash分流规则
 
 + Gemini		: Google Gemini分流规则

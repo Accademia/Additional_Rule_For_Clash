@@ -1,0 +1,14 @@
+payload:
+
+    - DOMAIN-SUFFIX   , apple-relay.apple.com
+    - DOMAIN-SUFFIX   , apple-relay.mask.apple-dns.net
+
+    - DOMAIN-SUFFIX   , gateway.fe2.apple-dns.net
+    - DOMAIN-SUFFIX   , gateway.icloud.com
+
+    - DOMAIN-SUFFIX   , seed-siri-apple-com.v.aaplimg.com
+    - DOMAIN-SUFFIX   , seed.siri.apple.com
+
+    - DOMAIN-SUFFIX   , smoot-searchv2-aapse1c.v.aaplimg.com
+
+
