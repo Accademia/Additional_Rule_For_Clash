@@ -1,14 +1,18 @@
 payload:
 
-    - DOMAIN-SUFFIX   , apple-relay.apple.com
-    - DOMAIN-SUFFIX   , apple-relay.mask.apple-dns.net
+    - DOMAIN-SUFFIX, apple-relay.apple.com
+    - DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
+    - DOMAIN-SUFFIX, gateway.fe2.apple-dns.net
+    - DOMAIN-SUFFIX, gateway.icloud.com
+    - DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
+    - DOMAIN-SUFFIX, smoot.apple.com
+    - DOMAIN-SUFFIX, guzzoni.apple.com
+    - DOMAIN-SUFFIX, seed.siri.apple.com
 
-    - DOMAIN-SUFFIX   , gateway.fe2.apple-dns.net
-    - DOMAIN-SUFFIX   , gateway.icloud.com
-
-    - DOMAIN-SUFFIX   , seed-siri-apple-com.v.aaplimg.com
-    - DOMAIN-SUFFIX   , seed.siri.apple.com
-
-    - DOMAIN-SUFFIX   , smoot-searchv2-aapse1c.v.aaplimg.com
-
-
+    - DOMAIN-SUFFIX, seed-siri-apple-com.v.aaplimg.com
+    - DOMAIN-SUFFIX, smoot-searchv2-aapse1c.v.aaplimg.com
+    
+    - DOMAIN-SUFFIX, cp4.cloudflare.com
+    - DOMAIN-SUFFIX, apple-relay.cloudflare.com
+    - DOMAIN-SUFFIX, apple-relay.fastly-edge.com
+    

@@ -1,5 +1,7 @@
 payload:
 
+  - '+.apple-dns.net'                                 # Apple ： http dns ？
+  - '+.apple-dns.com'                                 # Apple ： http dns ？
   - '+.1dot1dot1dot1.cloudflare-dns.com'              # Cloudflare
   - '+.8888.google'                                   # Google
   - '+.adblock.mydns.network'                         # MyDNS Network
