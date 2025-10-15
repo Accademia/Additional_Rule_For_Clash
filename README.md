@@ -114,7 +114,7 @@
 
 + Signal		: Signal Clash分流规则
 
-+ AppleAI		: 苹果AI (苹果 Siri AI) Clash分流规则
++ AppleAI		: 苹果AI (苹果 Siri AI) Clash分流规则 
 
 + Grok			: xAI Grok Clash分流规则
 
@@ -162,9 +162,17 @@
 
 + xAI Grok 分流规则 ❗️❗️❗️❗️❗️
 
-	如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！ 
+    - ⚠️⚠️  如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！ 
 
 	开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
+
++ AppleAI 分流规则 ❗️❗️❗️❗️❗️
+
+    - ⚠️⚠️ 在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI的IP代理生效 , 生效后才能siri才会调用Chat GPT，而不是百度文心一言 ！！！！！！！
+    - 关于 国行 Mac OS 强行启用Apple AI，请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下三点：
+        -  必须美区ID（不能不登录ID） + 系统地区选择美国 
+        -  将上述Siri地理位置禁用
+        -  每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
 
 .
 

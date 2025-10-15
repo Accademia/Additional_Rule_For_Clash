@@ -7,6 +7,12 @@
 # ⚠️⚠️ 特别注意：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI的IP代理生效 ！！！！！！！
 
 
+# 关于 国行 Mac OS 强行启用Apple AI，请移步这个项目，https://github.com/kanshurichard/enableAppleAI
+# 此项目配置 ，需满足：
+# 	1. 必须美区ID（不能不登录ID） + 系统地区选择美国 
+#	2. 将上述Siri地理位置禁用
+#	3. 每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
+
 # 用途：
 #	访问 AppleAI 所需要的Clash分流规则
 #
