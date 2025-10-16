@@ -168,11 +168,23 @@
 
 + AppleAI (苹果智能) 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️ 在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI的IP代理生效 , 生效后，siri才会调用Chat GPT，而不是百度文心一言 ！！！！！！！
-    - 关于 国行 Mac OS 如何强行启用Apple AI，请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下三点：
-        -  必须美区ID（不能不登录ID） + 系统地区选择美国（非中国地区） 
-        -  将Siri地理位置禁用（如前述）
-        -  每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
+    - ⚠️⚠️ 这里的AppleAI规则必须在能够启用 外区 Apple AI的前提下，才能能发挥效果。即如果你的iPhone或Mac没有苹果AI，或者苹果AI、Siri无法绑定ChatGPT（只能调用中国国内大模型），即便配置了本规则也没用。
+    - 如何强行启用Apple AI（在国行MacOS上）？
+        - 请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下三点：
+            -  必须美区ID（不能不登录ID） + 系统地区选择美国（非中国地区） 
+            -  将Siri地理位置禁用（如前述）
+            -  每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
+    -  在开启Apple AI并且成功绑定ChatGPT账号后，如何让Apple AI只调用海外AI（ChatGPT）而不调用国内AI（文心一言）？
+        -  在Mac OS中，必须在关闭Siri获取地理位置功能，才能让Apple AI只调用海外AI（ChatGPT）。
+        -  设置步骤： 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，
+        -  关闭后 siri会调用Chat GPT，而不是百度文心一言 ！！！！！！！
+ 
+
+# ⚠️⚠️ 特别注意：
+# 	1. 必须配置本规则，才能在苹果智能扩展中正常登录Chatgpt
+#	2. 即便配置本规则，并且在苹果智能扩展中完成了登录Chat GPT，如果你在中国大陆使用苹果AI，那么苹果AI也不会调用Chat GPT，而是会调用百度文心一言。此时必须禁用siri的地理位置获取，才能让苹果AI调用ChatGPT。
+#	3. 如何禁用Siri地理位置获取？ 操作如下：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI的IP代理生效 ！！！！！！！
+
 
 .
 
