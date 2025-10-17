@@ -162,22 +162,29 @@
 
 + xAI Grok 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️  如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！ 
+    - ⚠️⚠️  如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！
+ 
+    - 开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
 
-	开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
 
 + AppleAI (苹果智能) 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️ 这里的AppleAI规则必须在能够启用 外区 Apple AI的前提下，才能能发挥效果。即如果你的iPhone或Mac没有苹果AI，或者苹果AI、Siri无法绑定ChatGPT（只能调用中国国内大模型），即便配置了本规则也没用。
-    - 如何强行启用Apple AI（在国行MacOS上）？
+    - ⚠️⚠️ 如果你的iPhone或Mac是国行设备，没有苹果AI，或者苹果AI、Siri无法绑定ChatGPT（只能调用中国国内大模型），即便配置了本规则也没用。这些选项不会自动出现。
+
+    - 在国行MacOS上，如何强行启用Apple AI ？
         - 请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下三点：
             -  必须美区ID（不能不登录ID） + 系统地区选择美国（非中国地区） 
-            -  将Siri地理位置禁用（如前述）
             -  每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
-    -  在开启Apple AI并且成功绑定ChatGPT账号后，如何让Apple AI只调用海外AI（ChatGPT）而不调用国内AI（文心一言）？
-        -  在Mac OS中，必须在关闭Siri获取地理位置功能，才能让Apple AI只调用海外AI（ChatGPT）。
-        -  设置步骤： 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，
-        -  关闭后 siri会调用Chat GPT，而不是百度文心一言 ！！！！！！！
+            
+    -  在强行启用Apple AI后，如何成功绑定ChatGPT ？
+        -   苹果在绑定chatgpt操作过程中，是有IP锁的。只有你应用了本页面内的AppleAI规则（或等价规则），才能在苹果智能扩展中正常登录Chatgpt
+        
+    - 在强行启用Apple AI + 成功绑定ChatGPT后，如何让Apple AI只调用海外AI（ChatGPT）而不调用国内AI（文心一言）？
+        -  苹果在绑定chatgpt操作过程中，是有LBS锁的。会通过GPS等位置来判定你是否在中国，如果在，则不会调用ChatGPT。只会调用文心一言。所以仅仅即便配置 本规则+登录Chat GPT，苹果AI也不会调用Chat GPT，而是会调用百度文心一言。
+        -  此时必须禁用siri的地理位置获取，才能让苹果AI调用ChatGPT。
+        -  禁用Siri地理位置获取，操作如下：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI默认调用chatGPT （配合代AppleAI理规则） ！！！！！！！
+
+
  
 
 # ⚠️⚠️ 特别注意：
