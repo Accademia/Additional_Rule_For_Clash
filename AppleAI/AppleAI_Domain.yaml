@@ -1,20 +1,21 @@
 payload:
 
-    - '+.apple-relay.apple.com'
-    - '+.apple-relay.mask.apple-dns.net'
-    - '+.gateway.fe2.apple-dns.net'
-    - '+.gateway.icloud.com'
-    - '+.gspe1-ssl.ls.apple.com'
     - '+.smoot.apple.com'
-    - '+.guzzoni.apple.com'
-    - '+.seed.siri.apple.com'
-
-    - '+.seed-siri-apple-com.v.aaplimg.com'
-    - '+.smoot-searchv2-aapse1c.v.aaplimg.com'
     
-    - '+.cp4.cloudflare.com'
-    - '+.apple-relay.cloudflare.com'
-    - '+.apple-relay.fastly-edge.com'
+    - 'apple-relay.apple.com'
+    - 'apple-relay.mask.apple-dns.net'
+    - 'gateway.fe2.apple-dns.net'
+    - 'gateway.icloud.com'
+    - 'gspe1-ssl.ls.apple.com'
+    - 'guzzoni.apple.com'
+    - 'seed.siri.apple.com'
+
+    - 'seed-siri-apple-com.v.aaplimg.com'
+    - 'smoot-searchv2-aapse1c.v.aaplimg.com'
+    
+    - 'cp4.cloudflare.com'
+    - 'apple-relay.cloudflare.com'
+    - 'apple-relay.fastly-edge.com'
 
 
 
