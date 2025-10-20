@@ -8,7 +8,7 @@
 
 # 关于 国行 Mac OS 强行启用Apple AI，请移步这个项目，https://github.com/kanshurichard/enableAppleAI
 # 此项目配置 ，需满足：
-# 	1. 必须美区ID（不能不登录ID） + 系统地区选择美国（至少非中国） 
+#   1. 必须美区ID（不能不登录ID） + 系统地区选择美国（至少非中国） 
 #         美区ID = iCloud 美区ID + AppStore 美区ID （两者同时部署） 	
 #	  2. 将Siri地理位置禁用（如上述）
 #	  3. 每次大版本升级（如v26 -> v27 ），需要重新跑一遍本脚本
