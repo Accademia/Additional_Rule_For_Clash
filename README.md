@@ -181,7 +181,7 @@
         -   苹果在绑定chatgpt操作过程中，是有IP锁的。只有你应用了本页面内的AppleAI规则（或等价规则），才能在苹果智能扩展中正常登录Chatgpt
         
     - 在强行启用Apple AI + 成功绑定ChatGPT后，如何让Apple AI只调用海外AI（ChatGPT）而不调用国内AI（文心一言）？
-        -  苹果在搜索和Siri过程中，是否调用chatgpt，是有 LBS锁+ IP锁 。苹果会通过GPS等位置来判定你是否在中国，如果在，则不会调用ChatGPT。只会调用文心一言。所以仅仅即便配置 本规则+登录Chat GPT，但如果你GPS在中国，苹果AI也不会调用ChatGPT，而是会调用百度文心一言。
+        -  苹果在搜索和Siri过程中，是否调用chatgpt，是有 LBS锁+ IP锁 。苹果会通过 “GPS位置+ IP归属地” 来判定你是否在中国，如果在，则不会调用ChatGPT。只会调用文心一言。所以仅仅即便配置 本规则+登录Chat GPT，但如果你GPS在中国，苹果AI也不会调用ChatGPT，而是会调用百度文心一言。
         -  禁用siri的地理位置获取，才能让苹果AI调用美国Apple AI（ChatGPT）。方法：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力
      
 	- 以上步骤看不懂的，具体可以看这里的说明：https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI
