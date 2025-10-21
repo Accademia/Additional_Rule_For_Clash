@@ -21,16 +21,16 @@
 + Pornhub	：P站 Clash分流规则
 
 + FakeLocation	: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
-  -Bilibili 	立即生效（留言），“连续挂”2周才生效（主页）   
-  -抖音    	立即生效   
-  -快手    	立即生效  
-  -小红书   	立即生效  
-  -西瓜     	立即生效
-  -微博     	立即生效  
-  -知乎     	立即生效 
-  -贴吧     	2.5小时后 ！！！
-  -豆瓣     	立即生效 
-  -闲鱼\淘宝     	立即生效
+  - Bilibili 	立即生效（留言），“连续挂”2周才生效（主页）   
+  - 抖音    	立即生效   
+  - 快手    	立即生效  
+  - 小红书   	立即生效  
+  - 西瓜     	立即生效
+  - 微博     	立即生效  
+  - 知乎     	立即生效 
+  - 贴吧     	2.5小时后 ！！！
+  - 豆瓣     	立即生效 
+  - 闲鱼\淘宝     	立即生效
 
 + Bank		：各国银行 Clash分流规则
   -美国银行
@@ -51,40 +51,40 @@
   -Revolut
 
 + GeoRouting_For_Domain ：按 国家顶级域名 的Clash分流规则
-  -北美  # America (North America)       
-  -南美  # America (South America)       
-  -西欧  # Europe (East   Europe)        
-  -东欧  # Europe (West   Europe)        
-  -大洋  # Oceania                       
-  -南极  # Antarctica                    
-  -东亚  # Asia (East  Asia)             
-  -东南  # Asia (EastSouth Asia)         
-  -南亚  # Asia (South Asia)             
-  -中亚  # Asia (Central Asia)           
-  -西亚  # Asia (West Asia , Middle East)
-  -南非  # Africa (North   Africa)       
-  -北非  # Africa (South   Africa)       
-  -西非  # Africa (West    Africa)       
-  -东非  # Africa (East    Africa)       
-  -中非  # Africa (Central Africa)   
+  - 北美  # America (North America)       
+  - 南美  # America (South America)       
+  - 西欧  # Europe (East   Europe)        
+  - 东欧  # Europe (West   Europe)        
+  - 大洋  # Oceania                       
+  - 南极  # Antarctica                    
+  - 东亚  # Asia (East  Asia)             
+  - 东南  # Asia (EastSouth Asia)         
+  - 南亚  # Asia (South Asia)             
+  - 中亚  # Asia (Central Asia)           
+  - 西亚  # Asia (West Asia , Middle East)
+  - 南非  # Africa (North   Africa)       
+  - 北非  # Africa (South   Africa)       
+  - 西非  # Africa (West    Africa)       
+  - 东非  # Africa (East    Africa)       
+  - 中非  # Africa (Central Africa)   
 
 + GeoRouting_For_IP 	：按 GeoIP 的Clash分流规则
-  -北美  # America (North America)       
-  -南美  # America (South America)       
-  -西欧  # Europe (East   Europe)        
-  -东欧  # Europe (West   Europe)        
-  -大洋  # Oceania                       
-  -南极  # Antarctica                    
-  -东亚  # Asia (East  Asia)             
-  -东南  # Asia (EastSouth Asia)         
-  -南亚  # Asia (South Asia)             
-  -中亚  # Asia (Central Asia)           
-  -西亚  # Asia (West Asia , Middle East)
-  -南非  # Africa (North   Africa)       
-  -北非  # Africa (South   Africa)       
-  -西非  # Africa (West    Africa)       
-  -东非  # Africa (East    Africa)       
-  -中非  # Africa (Central Africa)   
+  - 北美  # America (North America)       
+  - 南美  # America (South America)       
+  - 西欧  # Europe (East   Europe)        
+  - 东欧  # Europe (West   Europe)        
+  - 大洋  # Oceania                       
+  - 南极  # Antarctica                    
+  - 东亚  # Asia (East  Asia)             
+  - 东南  # Asia (EastSouth Asia)         
+  - 南亚  # Asia (South Asia)             
+  - 中亚  # Asia (Central Asia)           
+  - 西亚  # Asia (West Asia , Middle East)
+  - 南非  # Africa (North   Africa)       
+  - 北非  # Africa (South   Africa)       
+  - 西非  # Africa (West    Africa)       
+  - 东非  # Africa (East    Africa)       
+  - 中非  # Africa (Central Africa)   
 
 + HomeIP		：必须要 “住宅IP” 才能正常下单的网站 
 
