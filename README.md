@@ -169,9 +169,9 @@
 
 + AppleAI (苹果智能) 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️ 如果你的iPhone或Mac是国行设备，没有苹果AI，或者苹果AI、Siri无法绑定ChatGPT（只能调用中国国内大模型），即便配置了本规则也没用。这些选项不会自动出现。
+    - ⚠️⚠️ 如果你的iPhone或Mac是国行设备。在设置页面，压根 没有看到苹果AI选项，或者苹果AI（Siri）无法绑定ChatGPT（只能调用中国国内大模型）。即便配置了本分流规则也没用。这些选项不会解决你的问题。
 
-    - 在国行MacOS上，如何强行启用Apple AI ？
+    - 在国行MacOS上，如何强行启用 美区Apple AI ？
         - 请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下2点：
             -  必须美区ID（不能不登录ID） + 系统地区选择美国（非中国地区）
             	- 美区ID = iCloud 美区ID + AppStore 美区ID （两者同时部署） 	
@@ -184,6 +184,8 @@
         -  苹果在搜索和Siri过程中，是否调用chatgpt，是有LBS锁的。苹果会通过GPS等位置来判定你是否在中国，如果在，则不会调用ChatGPT。只会调用文心一言。所以仅仅即便配置 本规则+登录Chat GPT，但如果你GPS在中国，苹果AI也不会调用ChatGPT，而是会调用百度文心一言。
         -  如何解决上述限制？ 此时必须禁用siri的地理位置获取，才能让苹果AI调用ChatGPT。
         -  禁用Siri地理位置获取，操作如下：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力，才能让AppleAI默认调用chatGPT （配合代AppleAI理规则） ！！！！！！！
+     
+	- 以上步骤看不懂的，具体可以看这里的说明：https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI
 
 
  
