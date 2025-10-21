@@ -169,7 +169,7 @@
 
 + AppleAI (苹果智能) 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️ 如果你的iPhone或Mac是国行设备。在设置页面，压根 没有看到苹果AI选项，或者苹果AI（Siri）无法绑定ChatGPT（只能调用中国国内大模型）。即便配置了本分流规则也没用。这些选项不会解决你的问题。
+    - ⚠️⚠️ 注意：如果你的iPhone或Mac是国行设备。在设置页面，压根 没有看到苹果AI选项，或者苹果AI（Siri）无法绑定ChatGPT（只能调用中国国内大模型）。即便配置了本分流规则也没用。不会调用美区AppleAI。
 
     - 在国行MacOS上，如何强行启用 美区Apple AI ？
         - 请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下2点：
