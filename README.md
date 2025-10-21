@@ -192,7 +192,7 @@
         -  禁用siri的地理位置获取，才能让苹果AI调用美国Apple AI（ChatGPT）。方法：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力
      
 	- 以上步骤看不懂的，具体可以看这里的说明：
-       - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txtAppleAI
+       - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
 
 
 .
