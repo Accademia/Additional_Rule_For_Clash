@@ -15,7 +15,9 @@
 + 同时集成 “ blackmatrix + geisite + 本规则 ”  的 clash 模版？
    - https://github.com/Accademia/Clash_Configuration_Template
    - 建议使用 chatgpt ，将你自己的规则 与 上述模版 做融合，扩充完善自己的分流配置。
+
 .
+
 
 规则介绍 ：
 ----------------------------------
