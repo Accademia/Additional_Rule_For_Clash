@@ -99,7 +99,7 @@
 
 + GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS）
 
-+ ChinalDNS		：中国大陆 DNS（被GFW污染的DNS）
++ ChinaDNS		：中国大陆 DNS（被GFW污染的DNS）
 
 + HijackingPlus		：反有害网站（针对反诈插件） 
 
