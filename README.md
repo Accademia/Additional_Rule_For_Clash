@@ -191,7 +191,8 @@
         -  苹果在搜索和Siri过程中，是否调用chatgpt，是有 LBS锁+ IP锁 。苹果会通过 “GPS位置+ IP归属地” 来判定你是否在中国，如果在，则不会调用ChatGPT。只会调用文心一言。
         -  禁用siri的地理位置获取，才能让苹果AI调用美国Apple AI（ChatGPT）。方法：在Mac OS中，必须在 设置 -> 隐私与安全性 -> 定位服务 -> Siri ，关闭其获取位置的能力
      
-	- 以上步骤看不懂的，具体可以看这里的说明：https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI
+	- 以上步骤看不懂的，具体可以看这里的说明：
+       - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txtAppleAI
 
 
 .
