@@ -12,7 +12,7 @@
 + 为什么要建立新项目，而不是给原规则提issue？ 
   - blackmatrix7 作者无意扩展新规则，本规则也只是添加 本项目主 自己常用的 长期验证过的 规则
 
-+ 使用本规则和blackmatrix的clash分流规则模版？
++ 推荐的clash分流规则模版？
    - 同时集成 “ blackmatrix + geosite + 本规则 ”  的 clash 模版
       - https://github.com/Accademia/Clash_Configuration_Template
    - 建议使用 chatgpt ，将你自己的规则 与 上述模版 做融合，扩充完善你自己的分流配置。
