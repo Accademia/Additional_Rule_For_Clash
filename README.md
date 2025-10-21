@@ -33,22 +33,22 @@
   - 闲鱼\淘宝     	立即生效
 
 + Bank		：各国银行 Clash分流规则
-  -美国银行
-  -加拿大银行
-  -英国银行
-  -澳大利亚银行
-  -日本银行
-  -香港银行
-  -新加坡银行
-  -荷兰银行
-  -法国银行
-  -德国银行
+  - 美国银行
+  - 加拿大银行
+  - 英国银行
+  - 澳大利亚银行
+  - 日本银行
+  - 香港银行
+  - 新加坡银行
+  - 荷兰银行
+  - 法国银行
+  - 德国银行
 
 + VirtualFinance : 虚拟金融公司 Clash分流规则
-  -Paypal
-  -Wise
-  -Monzo
-  -Revolut
+  - Paypal
+  - Wise
+  - Monzo
+  - Revolut
 
 + GeoRouting_For_Domain ：按 国家顶级域名 的Clash分流规则
   - 北美  # America (North America)       
