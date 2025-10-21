@@ -10,9 +10,9 @@
 #  3. LBS锁 （ 设备监测到，GPS位置 位于 🇨🇳 中国大陆 ，则无法使用 ChatGPT for Siri ）
 #  4. IP锁 （ 设备监测到，IP归属地 位于 🇨🇳 中国大陆 ，则无法使用 ChatGPT for Siri ）
 
-# 第1、2把锁 ：可以通过 enableAppleAI 解除 （ 移步：https://github.com/kanshurichard/enableAppleAI ）
-# 第3把锁 ：用户自己 通过设置页面，可以解除 
-# 第4把锁 ：本规则，可以解除，
+# 第1、2把锁 ：通过 enableAppleAI，可以解除 （ 移步：https://github.com/kanshurichard/enableAppleAI ）
+# 第3把锁 ：通过 设置页面，可以解除 
+# 第4把锁 ：通过 分流规则，可以解除，
 
 ################################################################
 #  在运行 enableAppleAI 脚本前，需完成以下设置：
