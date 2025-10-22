@@ -174,12 +174,12 @@
     - 开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
 
 
-+ AppleAI (苹果智能) 分流规则 ❗️❗️❗️❗️❗️
++ AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
     - ⚠️⚠️ 注意：
-    	- 如果你的 iOS （ iPhone \ iPad ） 是 🇨🇳 国行设备 ，即便配置了本分流规则也没用。不会调用 🇺🇸 美区AppleAI ❕❕❕
-		- 如果你的 Mac是 🇨🇳 国行设备 ，可以通过 enableAppleAI 脚本，绕过上述iOS的限制。
-    	- 非国行设备，不受上述限制。
+    - 1. 如果你的 iOS （ iPhone \ iPad ） 是 🇨🇳 国行设备 ，即便配置了本分流规则也没用。不会调用 🇺🇸 美区苹果智能  ❕❕❕
+		- 2. 如果你的 Mac是 🇨🇳 国行设备 ，可以通过 enableAppleAI 脚本，绕过上述iOS的限制。
+    - 3. 非国行设备，不受上述限制。
       
     - 在国行MacOS上，如何强行启用 “美区Apple AI” 选项 ？
         - 请移步这个项目，https://github.com/kanshurichard/enableAppleAI  .此项目 使用时需注意以下2点：
