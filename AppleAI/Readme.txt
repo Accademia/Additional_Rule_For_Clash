@@ -9,7 +9,7 @@
 #    ⚠️ 对🇨🇳国行MacOS，单纯调用本规则，无法切换到 美区苹果智能 （ 🇺🇸 apple intelligence ）
 #       必须配合enableAppleAI脚本。
 #
-#    ⚠️ 本规则，是适用于：
+#    ⚠️ 本规则，只适用于：
 #        *  解锁后的 国行 🇨🇳 Mac
 #        *  非国行 🇺🇸🇯🇵🇭🇰🇹🇼🇨🇦🇪🇺 iPhone、iPad、Mac
 
