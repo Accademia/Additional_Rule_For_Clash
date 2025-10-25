@@ -177,7 +177,7 @@
 + AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
     + ⚠️⚠️ 注意：
-      - 1. 🇨🇳 国行 iPhone ，无需尝试❕
+      - 1. 🇨🇳 国行 iPhone 、 iPad ，无需尝试❕
            - 即便配置了 本分流规则，iOS 也不会调用 🇺🇸 美区 苹果智能（Apple Intelligence）和 ChatGPT   ❗️❗️❕❕
       - 2. 🇨🇳 国行 Mac ，可以使用❕
            - 前提：要用 enableAppleAI 脚本 ，解锁 设备锁。
