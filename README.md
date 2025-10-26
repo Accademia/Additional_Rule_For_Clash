@@ -169,21 +169,18 @@
 
 + xAI Grok 分流规则 ❗️❗️❗️❗️❗️
 
-    - ⚠️⚠️  如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！
+    - 如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！
  
-    - 开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
+    -  开启路径为：⚠️ Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
 
 
 + AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
-    + ⚠️⚠️ 注意：
-      - 1. 🇨🇳 国行 iPhone 、 iPad ，无需尝试❕
-           - 即便配置了 本分流规则，iOS 也不会调用 🇺🇸 美区 苹果智能（Apple Intelligence）和 ChatGPT   ❗️❗️❕❕
-      - 2. 🇨🇳 国行 Mac ，可以使用❕
-           - 前提：要用 enableAppleAI 脚本 ，解锁 设备锁。
-      - 3. 非国行设备。可以直接使用（无上述限制）
+    - 1. 🇨🇳 国行 iPhone 、 iPad ，无需尝试❕ 已被苹果锁死！
+    - 2. 🇨🇳 国行 Mac ，可以使用❕
+    - 3. 非国行设备。可以直接使用（无上述限制）
       
-    + 具体可以看这里的说明：
+    + 具体可以看这里的说明：⚠️⚠️
         - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
 
 
