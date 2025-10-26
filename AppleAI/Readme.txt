@@ -6,12 +6,12 @@
 #  目标  ：用于对 苹果智能 \ apple intelligence ，进行 clash 分流
 #         让 Siri 调用 ChatGPT（海外AI），而不是文心一言（国产AI）
 #
-#    > 🇨🇳 国行 iOS（iPhone、iPad）: 无需尝试 ！！！设备已被苹果锁死。
+#    > 🇨🇳 国行 iOS    : 无需尝试 ！！！设备已被苹果锁死。
 #
-#    > 🇨🇳 国行 MacOS ：单纯调用本规则，无法切换到 美区苹果智能 （ 🇺🇸 apple intelligence ）
-#         必须配合enableAppleAI脚本 和 其他设置
+#    > 🇨🇳 国行 MacOS  ：单纯调用本规则，无法切换到 🇺🇸 美区苹果智能
+#                     必须配合enableAppleAI脚本 和 其他设置
 #
-#    > 🇨🇳 外版 iPhone、iPad、Mac ： 支持！但还需，配合其他设置。
+#    > 🇨🇳 外版 苹果设备 ： 支持 ！ 但还需，配合其他设置。
 #
 #    > 总结：本规则，只适用于
 #        *  解锁后的 国行 🇨🇳 Mac （不含 🇨🇳 国行 iOS）
