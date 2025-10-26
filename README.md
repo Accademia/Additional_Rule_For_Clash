@@ -176,11 +176,9 @@
 
 + AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
-    - 1. 🇨🇳 国行 iPhone 、 iPad ，无需尝试❕ 已被苹果锁死！
-    - 2. 🇨🇳 国行 Mac ，可以使用❕
-    - 3. 非国行设备。可以直接使用（无上述限制）
+    -  🇨🇳 国行 iPhone 、 iPad （不含Mac），无需尝试❕❕ 已被苹果锁死 ❕❕
       
-    + 具体可以看这里的说明：⚠️⚠️
+    - 具体可以看这里的说明：⚠️⚠️
         - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
 
 
