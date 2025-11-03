@@ -14,24 +14,26 @@ payload:
     - DOMAIN-KEYWORD , app-analytics-services    , REJECT-DROP                      #   # 
  
  
+  ## APP-API  
+    - DOMAIN-SUFFIX  , amemv.com
 
-   # APP-API  
-    - DOMAIN-KEYWORD , core-c-lq
-    - DOMAIN-KEYWORD , core-lq
-    - DOMAIN-KEYWORD , normal-c-lq
-    - DOMAIN-KEYWORD , normal-lq
-    - DOMAIN-KEYWORD , search-quic-lq
-    - DOMAIN-KEYWORD , search-lq
-
-   #- DOMAIN-SUFFIX  , zijieapi.com , DIRECT
-   #- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT
-
-    - DOMAIN-KEYWORD , -normal-hl
-    - DOMAIN-KEYWORD , -normal-c-hl
-    - DOMAIN-KEYWORD , -core-c-hl
-    - DOMAIN-KEYWORD , -normal-lf
-    - DOMAIN-KEYWORD , -normal-c-lf
-    - DOMAIN-KEYWORD , -core-c-lf
+  ## APP-API  
+  # - DOMAIN-KEYWORD , core-c-lq
+  # - DOMAIN-KEYWORD , core-lq
+  # - DOMAIN-KEYWORD , normal-c-lq
+  # - DOMAIN-KEYWORD , normal-lq
+  # - DOMAIN-KEYWORD , search-quic-lq
+  # - DOMAIN-KEYWORD , search-lq
+  #
+  ##- DOMAIN-SUFFIX  , zijieapi.com , DIRECT
+  ##- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT
+  #
+  # - DOMAIN-KEYWORD , -normal-hl
+  # - DOMAIN-KEYWORD , -normal-c-hl
+  # - DOMAIN-KEYWORD , -core-c-hl
+  # - DOMAIN-KEYWORD , -normal-lf
+  # - DOMAIN-KEYWORD , -normal-c-lf
+  # - DOMAIN-KEYWORD , -core-c-lf
 
   ## APP-API  （替换上面）
   # - DOMAIN-KEYWORD , core-c-lq.amemv.com
