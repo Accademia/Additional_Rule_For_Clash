@@ -23,8 +23,6 @@
 规则介绍 ：
 ----------------------------------
 
-+ Pornhub	：P站 Clash分流规则
-
 + FakeLocation	: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
   - Bilibili 	
       - 留言：立即生效
@@ -132,6 +130,8 @@
 + UnsupportVPN		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
 
 + AppleNews		: 苹果新闻 分流规则
+
++ Pornhub	：P站 Clash分流规则
 
 .
 
