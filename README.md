@@ -12,10 +12,10 @@
 + 为什么要建立新项目，而不是给原规则提issue？ 
   - blackmatrix7 作者无意扩展新规则，本规则也只是添加 本项目主 自己常用的 长期验证过的 规则
 
-+ 推荐的clash分流规则模版？
-   - 同时集成 “ blackmatrix + geosite + 本规则 ”  的 clash 模版
-      - https://github.com/Accademia/Clash_Configuration_Template
-   - 建议使用 chatgpt ，让AI全自动的，将你自己的规则 与 上述模版 做融合，扩充完善你自己的分流配置。
++ 推荐的 clash分流规则 模版？
+   - https://github.com/Accademia/Clash_Configuration_Template
+   - 优点：同时集成 “ blackmatrix + geosite + 本规则 ” ，且 0 DNS泄漏 ！
+   - 使用方法：建议使用 chatgpt ，让AI全自动的 将你自己的规则 与 上述模版 做融合，扩充完善你自己的分流配置。
 
 .
 
@@ -95,15 +95,15 @@
 
 + PreRepairEasyPrivacy	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS）
++ GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS） 
 
-+ ChinaDNS		：中国大陆 DNS（被GFW污染的DNS）
++ ChinaDNS		：中国大陆 DNS（被GFW污染的DNS） 
 
 + HijackingPlus		：反有害网站（针对反诈插件） 
 
 + WaybackMachine	：网络时光机（互联网档案馆）
 
-+ eMuleServer		：电驴目录服务器（不涉及P2P下载）
++ eMuleServer		：电驴目录服务器（不涉及P2P下载） 
 
 + Alipan		: 阿里云盘 Clash分流规则
 
@@ -119,7 +119,7 @@
 
 + Signal		: Signal Clash分流规则
 
-+ AppleAI		: 苹果AI (苹果 Siri AI) Clash分流规则 
++ AppleAI		: 苹果智能 (apple intelligence) Clash分流规则 
 
 + Grok			: xAI Grok Clash分流规则
 
@@ -142,12 +142,15 @@
 
 三组的后缀，分别为：
 
-  + 后缀：No_Resolve	（第一组）
+  + 第一组: 
+          + 后缀 ：No_Resolve	
 
-  + 后缀：无		（第二组）
+  + 第二组: 
+          + 后缀 ：无		
 
-  + 后缀：Doamin	（第三组）	
-  + 后缀：IP  （第三组） 
+  + 第三组: 
+          + 后缀 ：Doamin		
+          + 后缀 ：IP  
 
 以上三组，三选一，优先选择最后一组（Domain + IP），在移动端（Stash for iOS），这种写法极大增加匹配速度和减少内存占用。
 
@@ -155,9 +158,9 @@
 
 经本人测试后，实测非常有效，10万条Domain规则，使得Stash（移动端版Clash）在iOS上只占用24MB网络内存 (如果使用Classical规则，则网络内存占用是38MB～42MB)。这极大缓解VPN崩溃的问题（超过50MB内存占用会发生VPN崩溃）。发热也极大降低了。
 
-出处：https://stash.wiki/rules/rule-set 
+    出处：https://stash.wiki/rules/rule-set 
 
-要特别说明的是：如果规则中，包含大量的 非域名后缀 、非IP 规则，如 DOMAIN-KEYWORD 、 PROCESS-NAME 、 GeoIP 等等，则无法拆分出第三组。
+解答：为什么有些规则，没有第三组？因为，如果规则中，包含大量的 非域名后缀 、非IP 规则，如 DOMAIN-KEYWORD 、 PROCESS-NAME 、 GeoIP 等等，则无法拆分出第三组。
 
 
 
