@@ -18,7 +18,7 @@
 # 脚本：
 # ---------
 #
-# 本规则内，homebrew 对应的升级规则，可通过以下脚本自动生成  ：
+# 本规则内，homebrew sparkle 对应的升级规则，可通过以下脚本自动生成  ：
 # 	./usercmd_MacAppUpgrade_to_clashruleset	
 #
 #
