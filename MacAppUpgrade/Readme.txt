@@ -6,20 +6,20 @@
 # ---------
 # 用途：
 # ---------
-#	homebrew常用软件的分流规则 
+#	mac苹果电脑 升级常用软件的分流规则 
 #	
 # 注意：
-#	不包含Apple App Store内任何软件和Mac OS系统自带的软件，仅仅包含常用的第三方Mac软件）
+#	1. 不包含Apple App Store内任何软件和Mac OS系统自带的软件，仅仅包含常用的第三方Mac软件
+#	2. 本升级规则的主体：由脚本全自动生成，仅仅代理homebrew的升级安装
+#	3. 未来会手动添加更多规则，主要面向非homebrew的升级需求
 #
 #
 # ---------
 # 脚本：
 # ---------
 #
-# 本规则通过Mac的批处理脚本生成（脚本编写来自 xAI Grok DeepThink）：
+# 本规则内，homebrew 对应的升级规则，可通过以下脚本自动生成  ：
 # 	./usercmd_brewlist_to_clashruleset		
-# 两个程序效果是相同的，建议优先使用并行执行，500个Mac App串行执行需30分钟，而并行执行只需要2分钟。
-# 执行结果会生成在 ～/Downloads/clash_rules.yaml
 #
 #
 #
