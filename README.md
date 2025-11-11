@@ -125,7 +125,7 @@
 
 + Gemini		: Google Gemini分流规则
 
-+ MacAppUpgrade		: Homebrew App Install \ Upgrade  Clash 分流规则
++ MacAppUpgrade		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ）  Clash 分流规则
 
 + UnsupportVPN		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
 
