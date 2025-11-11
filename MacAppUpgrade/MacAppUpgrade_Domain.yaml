@@ -36,7 +36,7 @@ payload:
     - '+.www.messenger.com'                          # 测试命令: brew install --cask messenger
     - '+.www.ppsspp.org'                             # 测试命令: brew install --cask ppsspp-emulator \ brew install --cask ppsspp
     - '+.su.airbuddy.app'                            # 测试命令: brew install --cask airbuddy
-    - '+.d1.music.126.net'                           # 测试命令: brew install --cask neteasemusic
+   #- '+.d1.music.126.net'                           # 测试命令: brew install --cask neteasemusic
     - '+.www.lemkesoft.info'                         # 测试命令: brew install --cask graphicconverter
     - '+.download.xnview.com'                        # 测试命令: brew install --cask xnconvert \ brew install --cask xnviewmp
     - '+.download-cdn.panic.com'                     # 测试命令: brew install --cask transmit
@@ -65,7 +65,7 @@ payload:
     - '+.renset.dev'                                 # 测试命令: brew install --cask macai
     - '+.www.gnupg.org'                              # 测试命令: brew install gpgme \ brew install gpgmepp \ brew install pinentry
     - '+.dl.hapigo.com'                              # 测试命令: brew install --cask hapigo
-    - '+.lf-flow-web-cdn.doubao.com'                 # 测试命令: brew install --cask doubao
+   #- '+.lf-flow-web-cdn.doubao.com'                 # 测试命令: brew install --cask doubao
     - '+.static.adguard.com'                         # 测试命令: brew install --cask adguard
     - '+.www.transnomino.com'                        # 测试命令: brew install --cask transnomino
     - '+.inputsource.pro'                            # 测试命令: brew install --cask input-source-pro
@@ -73,7 +73,7 @@ payload:
     - '+.pixeleyes.co.nz'                            # 测试命令: brew install --cask automounterhelper
     - '+.downloads.iwascoding.com'                   # 测试命令: brew install --cask garagesale
     - '+.www.libraw.org'                             # 测试命令: brew install libraw
-    - '+.updatecdn.meeting.qq.com'                   # 测试命令: brew install --cask tencent-meeting
+   #- '+.updatecdn.meeting.qq.com'                   # 测试命令: brew install --cask tencent-meeting
     - '+.www.sqlite.org'                             # 测试命令: brew install sqlite
     - '+.cdn-fastly.obsproject.com'                  # 测试命令: brew install --cask obs
     - '+.zed.dev'                                    # 测试命令: brew install --cask zed
@@ -111,7 +111,7 @@ payload:
     - '+.download.techsmith.com'                     # 测试命令: brew install --cask camtasia
     - '+.downloads.pdfexpert.com'                    # 测试命令: brew install --cask pdf-expert
     - '+.lf16-capcut.faceulv.com'                    # 测试命令: brew install --cask capcut
-    - '+.dldir1.qq.com'                              # 测试命令: brew install --cask qqlive \ brew install --cask wechat
+   #- '+.dldir1.qq.com'                              # 测试命令: brew install --cask qqlive \ brew install --cask wechat
     - '+.coderunnerapp.com'                          # 测试命令: brew install --cask coderunner
     - '+.gitlab.com'                                 # 测试命令: brew install svt-av1 \ brew install watch \ brew install --cask meld
     - '+.www.bannister.org'                          # 测试命令: brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
@@ -178,7 +178,7 @@ payload:
     - '+.ftp.binance.com'                            # 测试命令: brew install --cask binance
     - '+.download.geogebra.org'                      # 测试命令: brew install --cask geogebra
     - '+.carnationsoftware.com'                      # 测试命令: brew install --cask tm-error-logger
-    - '+.cdn-hybrid-prod.hunyuan.tencent.com'        # 测试命令: brew install --cask yuanbao
+   #- '+.cdn-hybrid-prod.hunyuan.tencent.com'        # 测试命令: brew install --cask yuanbao
     - '+.media.codeweavers.com'                      # 测试命令: brew install --cask crossover
     - '+.manico.im'                                  # 测试命令: brew install --cask manico
     - '+.www.mpg123.de'                              # 测试命令: brew install mpg123
@@ -202,7 +202,7 @@ payload:
     - '+.www.wireshark.org'                          # 测试命令: brew install --cask wireshark-app
     - '+.releases.cherry-ai.com'                     # 测试命令: brew install --cask cherry-studio
     - '+.cachefly.alfredapp.com'                     # 测试命令: brew install --cask alfred
-    - '+.cdn.aliyundrive.net'                        # 测试命令: brew install --cask adrive
+   #- '+.cdn.aliyundrive.net'                        # 测试命令: brew install --cask adrive
     - '+.www.makemkv.com'                            # 测试命令: brew install --cask makemkv
     - '+.web.whatsapp.com'                           # 测试命令: brew install --cask whatsapp
     - '+.softwareupdate-prod.broadcom.com'           # 测试命令: brew install --cask vmware-fusion
@@ -241,7 +241,7 @@ payload:
     - '+.dl.getmythic.app'                           # 测试命令: brew install --cask mythic
     - '+.desktop.githubusercontent.com'              # 测试命令: brew install --cask github
     - '+.www.apache.org'                             # 测试命令: brew install apr-util \ brew install apr
-    - '+.desktop.docs.qq.com'                        # 测试命令: brew install --cask tencent-docs
+   #- '+.desktop.docs.qq.com'                        # 测试命令: brew install --cask tencent-docs
     - '+.dl3.xmind.net'                              # 测试命令: brew install --cask xmind
     - '+.code.videolan.org'                          # 测试命令: brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
     - '+.tripmode-updates.ch'                        # 测试命令: brew install --cask tripmode

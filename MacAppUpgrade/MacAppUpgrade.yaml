@@ -36,7 +36,7 @@ payload:
     - DOMAIN-SUFFIX  , www.messenger.com                         # 测试命令: brew install --cask messenger
     - DOMAIN-SUFFIX  , www.ppsspp.org                            # 测试命令: brew install --cask ppsspp-emulator \ brew install --cask ppsspp
     - DOMAIN-SUFFIX  , su.airbuddy.app                           # 测试命令: brew install --cask airbuddy
-    - DOMAIN-SUFFIX  , d1.music.126.net                          # 测试命令: brew install --cask neteasemusic
+   #- DOMAIN-SUFFIX  , d1.music.126.net                          # 测试命令: brew install --cask neteasemusic
     - DOMAIN-SUFFIX  , www.lemkesoft.info                        # 测试命令: brew install --cask graphicconverter
     - DOMAIN-SUFFIX  , download.xnview.com                       # 测试命令: brew install --cask xnconvert \ brew install --cask xnviewmp
     - DOMAIN-SUFFIX  , download-cdn.panic.com                    # 测试命令: brew install --cask transmit
@@ -65,7 +65,7 @@ payload:
     - DOMAIN-SUFFIX  , renset.dev                                # 测试命令: brew install --cask macai
     - DOMAIN-SUFFIX  , www.gnupg.org                             # 测试命令: brew install gpgme \ brew install gpgmepp \ brew install pinentry
     - DOMAIN-SUFFIX  , dl.hapigo.com                             # 测试命令: brew install --cask hapigo
-    - DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com                # 测试命令: brew install --cask doubao
+   #- DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com                # 测试命令: brew install --cask doubao
     - DOMAIN-SUFFIX  , static.adguard.com                        # 测试命令: brew install --cask adguard
     - DOMAIN-SUFFIX  , www.transnomino.com                       # 测试命令: brew install --cask transnomino
     - DOMAIN-SUFFIX  , inputsource.pro                           # 测试命令: brew install --cask input-source-pro
@@ -73,7 +73,7 @@ payload:
     - DOMAIN-SUFFIX  , pixeleyes.co.nz                           # 测试命令: brew install --cask automounterhelper
     - DOMAIN-SUFFIX  , downloads.iwascoding.com                  # 测试命令: brew install --cask garagesale
     - DOMAIN-SUFFIX  , www.libraw.org                            # 测试命令: brew install libraw
-    - DOMAIN-SUFFIX  , updatecdn.meeting.qq.com                  # 测试命令: brew install --cask tencent-meeting
+   #- DOMAIN-SUFFIX  , updatecdn.meeting.qq.com                  # 测试命令: brew install --cask tencent-meeting
     - DOMAIN-SUFFIX  , www.sqlite.org                            # 测试命令: brew install sqlite
     - DOMAIN-SUFFIX  , cdn-fastly.obsproject.com                 # 测试命令: brew install --cask obs
     - DOMAIN-SUFFIX  , zed.dev                                   # 测试命令: brew install --cask zed
@@ -111,7 +111,7 @@ payload:
     - DOMAIN-SUFFIX  , download.techsmith.com                    # 测试命令: brew install --cask camtasia
     - DOMAIN-SUFFIX  , downloads.pdfexpert.com                   # 测试命令: brew install --cask pdf-expert
     - DOMAIN-SUFFIX  , lf16-capcut.faceulv.com                   # 测试命令: brew install --cask capcut
-    - DOMAIN-SUFFIX  , dldir1.qq.com                             # 测试命令: brew install --cask qqlive \ brew install --cask wechat
+   #- DOMAIN-SUFFIX  , dldir1.qq.com                             # 测试命令: brew install --cask qqlive \ brew install --cask wechat
     - DOMAIN-SUFFIX  , coderunnerapp.com                         # 测试命令: brew install --cask coderunner
     - DOMAIN-SUFFIX  , gitlab.com                                # 测试命令: brew install svt-av1 \ brew install watch \ brew install --cask meld
     - DOMAIN-SUFFIX  , www.bannister.org                         # 测试命令: brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
@@ -178,7 +178,7 @@ payload:
     - DOMAIN-SUFFIX  , ftp.binance.com                           # 测试命令: brew install --cask binance
     - DOMAIN-SUFFIX  , download.geogebra.org                     # 测试命令: brew install --cask geogebra
     - DOMAIN-SUFFIX  , carnationsoftware.com                     # 测试命令: brew install --cask tm-error-logger
-    - DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com       # 测试命令: brew install --cask yuanbao
+   #- DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com       # 测试命令: brew install --cask yuanbao
     - DOMAIN-SUFFIX  , media.codeweavers.com                     # 测试命令: brew install --cask crossover
     - DOMAIN-SUFFIX  , manico.im                                 # 测试命令: brew install --cask manico
     - DOMAIN-SUFFIX  , www.mpg123.de                             # 测试命令: brew install mpg123
@@ -202,7 +202,7 @@ payload:
     - DOMAIN-SUFFIX  , www.wireshark.org                         # 测试命令: brew install --cask wireshark-app
     - DOMAIN-SUFFIX  , releases.cherry-ai.com                    # 测试命令: brew install --cask cherry-studio
     - DOMAIN-SUFFIX  , cachefly.alfredapp.com                    # 测试命令: brew install --cask alfred
-    - DOMAIN-SUFFIX  , cdn.aliyundrive.net                       # 测试命令: brew install --cask adrive
+   #- DOMAIN-SUFFIX  , cdn.aliyundrive.net                       # 测试命令: brew install --cask adrive
     - DOMAIN-SUFFIX  , www.makemkv.com                           # 测试命令: brew install --cask makemkv
     - DOMAIN-SUFFIX  , web.whatsapp.com                          # 测试命令: brew install --cask whatsapp
     - DOMAIN-SUFFIX  , softwareupdate-prod.broadcom.com          # 测试命令: brew install --cask vmware-fusion
@@ -241,7 +241,7 @@ payload:
     - DOMAIN-SUFFIX  , dl.getmythic.app                          # 测试命令: brew install --cask mythic
     - DOMAIN-SUFFIX  , desktop.githubusercontent.com             # 测试命令: brew install --cask github
     - DOMAIN-SUFFIX  , www.apache.org                            # 测试命令: brew install apr-util \ brew install apr
-    - DOMAIN-SUFFIX  , desktop.docs.qq.com                       # 测试命令: brew install --cask tencent-docs
+   #- DOMAIN-SUFFIX  , desktop.docs.qq.com                       # 测试命令: brew install --cask tencent-docs
     - DOMAIN-SUFFIX  , dl3.xmind.net                             # 测试命令: brew install --cask xmind
     - DOMAIN-SUFFIX  , code.videolan.org                         # 测试命令: brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
     - DOMAIN-SUFFIX  , tripmode-updates.ch                       # 测试命令: brew install --cask tripmode
