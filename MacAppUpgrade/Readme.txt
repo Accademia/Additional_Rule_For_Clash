@@ -10,7 +10,7 @@
 #	
 # 注意：
 #	1. 不包含Apple App Store内任何软件和Mac OS系统自带的软件，仅仅包含常用的第三方Mac软件
-#	2. 本升级规则的主体：由脚本全自动生成，代理 homebrew 、 sparkle 的升级安装
+#	2. 本分流规则：由脚本全自动生成，代理 homebrew 、 sparkle 的升级安装
 #	3. 未来会手动添加更多规则，主要面向非homebrew的升级需求
 #
 #
