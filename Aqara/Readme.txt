@@ -9,6 +9,7 @@
 #
 #       1. 目前 仅支持美国Aqara的分流 ，DIY更多地区的分流，请看官方API ： 
 #           https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
+#	   注意：官方API并不全，并没有包含，aws相关的规则（可以参考 本规则内的keyword相关规则）
 #
 #       2. ⚠️⚠️⚠️ 只有aqara国际版（如美国亚马逊自营版本）才能使用上本规则
 #          - aqara国际版 只会将数据上传给境外的亚马逊云 （ 以及你设置的 境外苹果账户 所对应的境外icloud云） ，从而 最大化避免、隔离 中国执法机构审查
