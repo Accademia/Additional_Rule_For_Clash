@@ -1,6 +1,8 @@
 ## 此规则集
 
-  用于分流： Aqara 🇺🇸 美国 的流量
+  用于分流： 
+   - AqaraGlobal 境外 的流量
+   - AqaraCN 国内 的流量
 
 
 .
@@ -8,14 +10,29 @@
 
 ## 引用范例
 
+境外规则
+
 ```
 
-   Aqara_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_No_Resolve.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_No_Resolve.yaml')                                    , path: ./ruleset/Aqara_No_Resolve.yaml                    }    
+   AqaraGlobal_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_No_Resolve.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraGlobal_No_Resolve.yaml')                                    , path: ./ruleset/AqaraGlobal_No_Resolve.yaml                    }    
 
-   Aqara                              : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara.yaml')                                               , path: ./ruleset/Aqara.yaml                               }                 
+   AqaraGlobal                              : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraGlobal.yaml')                                               , path: ./ruleset/AqaraGlobal.yaml                               }                 
 
-   Aqara_Domain                       : {type: http, behavior: domain    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_Domain.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_Domain.yaml')                                        , path: ./ruleset/Aqara_Domain.yaml                        }   
-   Aqara_IP                           : {type: http, behavior: ipcidr    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_IP.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_IP.yaml')                                      , path: ./ruleset/Aqara_IP.yaml                         }
+   AqaraGlobal_Domain                       : {type: http, behavior: domain    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_Domain.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraGlobal_Domain.yaml')                                        , path: ./ruleset/AqaraGlobal_Domain.yaml                        }   
+   AqaraGlobal_IP                           : {type: http, behavior: ipcidr    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_IP.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraGlobal_IP.yaml')                                      , path: ./ruleset/AqaraGlobal_IP.yaml                         }
+
+```
+
+国内规则
+
+```
+
+   AqaraCN_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_No_Resolve.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraCN_No_Resolve.yaml')                                    , path: ./ruleset/AqaraCN_No_Resolve.yaml                    }    
+
+   AqaraCN                              : {type: http, behavior: classical , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraCN.yaml')                                               , path: ./ruleset/AqaraCN.yaml                               }                 
+
+   AqaraCN_Domain                       : {type: http, behavior: domain    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_Domain.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraCN_Domain.yaml')                                        , path: ./ruleset/AqaraCN_Domain.yaml                        }   
+   AqaraCN_IP                           : {type: http, behavior: ipcidr    , interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/Aqara_IP.yaml'](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Aqara/AqaraCN_IP.yaml')                                      , path: ./ruleset/AqaraCN_IP.yaml                         }
 
 ```
 
@@ -37,14 +54,29 @@
 
 .
 
+## 使用建议：
+
+   - 对于追求绝对安全性：
+       - 将本规则应用在路由器上，而非手机上 ⚠️⚠️ 屏蔽所有Aqara对自家服务器的连接（包括境内和国外），从而使得aqara只连接 苹果Homekit，做到摄像头数据安全的最大安全性（避免上传数据到苹果以外的服务器）
+       - 注意，升级过程，需要连接aqara服务器。可以手动打开。
+
+   - 对于追求 避开中国监管：
+       - 将本规则应用在路由器上，只屏蔽中国区的aqara连接。
+
+   - 对于追求 aqara官方APP 的连接速度：
+       - 将本规则 应用在手机上，并全部给予 Direct 放行 ！
+       
+.
+
 
 ## 注意
 
-  1. 目前 仅支持美国Aqara的分流 ，DIY更多地区的分流，请看官方API ： 
+
+  1. aqara 官方API如下 ： 
      - https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html](https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
       - 注意：官方API并不全，并没有包含，aws相关的规则（可以参考 本规则内的keyword相关规则 和 IP规则 ）
 
-  2. ⚠️⚠️⚠️ 只有 aqara国际版（如美国亚马逊自营销售的版本）才能使用上本规则
+  2. ⚠️⚠️⚠️  aqara国际版（如美国亚马逊自营销售的版本）与国内版区别
      - aqara国际版 
         只会将数据上传给境外的亚马逊云 （ 以及你设置的 境外苹果账户 所对应的 境外icloud云 ） ，从而 最大化避免\隔离 中国执法机构审查
      - aqara国内版 （🇨🇳中国版）
@@ -56,7 +88,7 @@
      - 按照上述 设置后，除了你自己，没有任何人能看到你的监控摄像头 已录制的视频。 安全性远远高于 本地NAS 存储监控视频。
          
   4. 安全性最高 的 监控摄像头，只推荐 ： 
-        - 不会连接中国服务器 的 homekit摄像头 （ + 海外icloud账号 + 开启高级数据保护 ） ❕❕❕ 
+        - 不会连接中国服务器 和 服务商自己服务器 的 homekit摄像头 （ + 海外icloud账号 + 开启高级数据保护 ） ❕❕❕ 
 
 
 .

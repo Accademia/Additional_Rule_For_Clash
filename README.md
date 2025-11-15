@@ -133,7 +133,7 @@
 
 + Pornhub	：P站 Clash分流规则
 
-+ Aqara ：Aqara美国 的分流规则
++ Aqara ：Aqara Homekit 监控摄像头 的分流规则
 
 .
 

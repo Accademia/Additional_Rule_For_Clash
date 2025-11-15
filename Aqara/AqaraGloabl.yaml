@@ -1,0 +1,80 @@
+payload:
+
+ # --- Aqara 的 US 域下埋点（是否分流看你需要；默认纳入） ---
+  - DOMAIN-SUFFIX  , track-us.aqara.com    , REJECT
+  - DOMAIN-SUFFIX  , track-ger.aqara.com   , REJECT
+  - DOMAIN-SUFFIX  , track-sg.aqara.com    , REJECT
+  - DOMAIN-SUFFIX  , track-ru.aqara.com    , REJECT
+  - DOMAIN-SUFFIX  , track-sg.aqara.com    , REJECT
+  - DOMAIN-SUFFIX  , track-au.aqara.com    , REJECT
+ #- DOMAIN-SUFFIX  , track-cn.aqara.com    , REJECT
+
+ # 更多地区的 API ： https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
+
+ # --- Aqara 美国区：控制面 / 设备接口（官方文档列出） ---
+  - DOMAIN-SUFFIX  , aiot-rpc-usa.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-usa.aqara.com
+  - DOMAIN-SUFFIX  , coap-usa.aqara.com
+  - DOMAIN-SUFFIX  , rpc-usa.aqara.com
+  - DOMAIN-SUFFIX  , open-usa.aqara.com                 # 开放平台(美国区)
+
+  - DOMAIN-SUFFIX  , aiot-rpc-ger.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-ger.aqara.com
+  - DOMAIN-SUFFIX  , coap-ger.aqara.com
+  - DOMAIN-SUFFIX  , rpc-ger.aqara.com
+  - DOMAIN-SUFFIX  , open-ger.aqara.com                 # 开放平台(欧盟区)
+
+  - DOMAIN-SUFFIX  , aiot-rpc-ru.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-ru.aqara.com
+  - DOMAIN-SUFFIX  , coap-ru.aqara.com
+  - DOMAIN-SUFFIX  , rpc-ru.aqara.com
+  - DOMAIN-SUFFIX  , open-ru.aqara.com                 # 开放平台(俄国区)
+
+  - DOMAIN-SUFFIX  , aiot-rpc-sg.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-sg.aqara.com
+  - DOMAIN-SUFFIX  , coap-sg.aqara.com
+  - DOMAIN-SUFFIX  , rpc-sg.aqara.com
+  - DOMAIN-SUFFIX  , open-sg.aqara.com                 # 开放平台(新加坡区)
+
+  - DOMAIN-SUFFIX  , aiot-rpc-au.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-au.aqara.com
+  - DOMAIN-SUFFIX  , coap-au.aqara.com
+  - DOMAIN-SUFFIX  , rpc-au.aqara.com
+  - DOMAIN-SUFFIX  , open-au.aqara.com                 # 开放平台(澳洲区)
+
+  - DOMAIN-SUFFIX  , aiot-rpc-kr.aqara.com
+  - DOMAIN-SUFFIX  , aiot-coap-kr.aqara.com
+  - DOMAIN-SUFFIX  , coap-kr.aqara.com
+  - DOMAIN-SUFFIX  , rpc-kr.aqara.com
+  - DOMAIN-SUFFIX  , open-kr.aqara.com                 # 开放平台(南韩区)
+
+ #- DOMAIN-SUFFIX  , aiot-rpc-cn.aqara.com
+ #- DOMAIN-SUFFIX  , aiot-coap-cn.aqara.com
+ #- DOMAIN-SUFFIX  , coap-cn.aqara.com
+ #- DOMAIN-SUFFIX  , rpc-cn.aqara.com
+ #- DOMAIN-SUFFIX  , open-cn.aqara.com                 # 开放平台(中国区)
+ #- DOMAIN-SUFFIX  , aiot-coap.aqara.cn
+ #- DOMAIN-SUFFIX  , aiot-rpc.ankasa.cn
+
+
+ # --- Aqara 在 AWS US-West-2 的相机相关 S3 桶（可选） ---
+ #- DOMAIN-SUFFIX  , aqara-camera-usa.s3.us-west-2.amazonaws.com
+  - DOMAIN-KEYWORD , aqara-camera-usa.
+  - DOMAIN-KEYWORD , aqara-camera-ru.
+  - DOMAIN-KEYWORD , aqara-camera-kr.
+  - DOMAIN-KEYWORD , aqara-camera-ger.
+  - DOMAIN-KEYWORD , aqara-camera-au.
+  - DOMAIN-KEYWORD , aqara-camera-sg.
+ #- DOMAIN-KEYWORD , aqara-camera-cn.
+
+ # --- Aqara 自有 海外CDN 页面（可选，纳入更保险） ---
+  - DOMAIN-SUFFIX  , cdn.aqara.com                      
+ #- DOMAIN-SUFFIX  , cdn.aqara.cn                           # 国内CDN
+
+ # ---（可选） AWS IP
+  - IP-CIDR        , 3.23.78.166/32       #, no-resolve
+  - IP-CIDR        , 54.214.103.243/32    #, no-resolve
+  - IP-CIDR        , 54.71.80.151/32      #, no-resolve
+
+
+    

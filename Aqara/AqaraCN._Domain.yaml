@@ -1,0 +1,124 @@
+payload:
+
+ # 更多地区的 API ： https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
+
+ # --- Aqara 的 US 域下埋点（是否分流看你需要；默认纳入） ---
+ #- '+.track-us.aqara.com'    # REJECT
+ #- '+.track-ger.aqara.com'   # REJECT
+ #- '+.track-sg.aqara.com'    # REJECT
+ #- '+.track-ru.aqara.com'    # REJECT
+ #- '+.track-sg.aqara.com'    # REJECT
+ #- '+.track-au.aqara.com'    # REJECT
+  - '+.track-cn.aqara.com'    # REJECT
+
+ # 更多地区的 API ： https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
+
+ # --- Aqara 美国区：控制面 / 设备接口（官方文档列出） ---
+ #- '+.aiot-rpc-usa.aqara.com'
+ #- '+.aiot-coap-usa.aqara.com'
+ #- '+.coap-usa.aqara.com'
+ #- '+.rpc-usa.aqara.com'
+ #- '+.open-usa.aqara.com'                 # 开放平台(美国区)
+
+ #- '+.aiot-rpc-ger.aqara.com'
+ #- '+.aiot-coap-ger.aqara.com'
+ #- '+.coap-ger.aqara.com'
+ #- '+.rpc-ger.aqara.com'
+ #- '+.open-ger.aqara.com'                 # 开放平台(欧盟区)
+
+ #- '+.aiot-rpc-ru.aqara.com'
+ #- '+.aiot-coap-ru.aqara.com'
+ #- '+.coap-ru.aqara.com'
+ #- '+.rpc-ru.aqara.com'
+ #- '+.open-ru.aqara.com'                 # 开放平台(俄国区)
+
+ #- '+.aiot-rpc-sg.aqara.com'
+ #- '+.aiot-coap-sg.aqara.com'
+ #- '+.coap-sg.aqara.com'
+ #- '+.rpc-sg.aqara.com'
+ #- '+.open-sg.aqara.com'                 # 开放平台(新加坡区)
+
+ #- '+.aiot-rpc-au.aqara.com'
+ #- '+.aiot-coap-au.aqara.com'
+ #- '+.coap-au.aqara.com'
+ #- '+.rpc-au.aqara.com'
+ #- '+.open-au.aqara.com'                 # 开放平台(澳洲区)
+
+ #- '+.aiot-rpc-kr.aqara.com'
+ #- '+.aiot-coap-kr.aqara.com'
+ #- '+.coap-kr.aqara.com'
+ #- '+.rpc-kr.aqara.com'
+ #- '+.open-kr.aqara.com'                 # 开放平台(南韩区)
+
+  - '+.aiot-rpc-cn.aqara.com'
+  - '+.aiot-coap-cn.aqara.com'
+  - '+.coap-cn.aqara.com'
+  - '+.rpc-cn.aqara.com'
+  - '+.open-cn.aqara.com'                 # 开放平台(中国区)
+  - '+.aiot-coap.aqara.cn'
+  - '+.aiot-rpc.ankasa.cn'
+
+ # --- Aqara 在 AWS US-West-2 的相机相关 S3 桶（可选） ---
+ # - '+.aqara-camera-usa.s3.us-west-2.amazonaws.com'
+ #- '*aqara-camera-usa.'
+ #- '*aqara-camera-ru.'
+ #- '*aqara-camera-kr.'
+ #- '*aqara-camera-ger.'
+ #- '*aqara-camera-au.'
+ #- '*aqara-camera-sg.'
+  - '*aqara-camera-cn.'
+
+ # --- Aqara 自有 海外CDN 页面（可选，纳入更保险） ---
+ #- '+.cdn.aqara.com'
+  - '+.cdn.aqara.cn'                           # 国内CDN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
