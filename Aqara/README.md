@@ -59,3 +59,12 @@
         - 不会连接中国服务器 的 homekit摄像头 （ + 海外icloud账号 + 开启高级数据保护 ） ❕❕❕ 
 
 
+.
+
+
+## 其他
+
+![20CAD1E5-37D0-459C-A74D-30D66B7184DC](https://github.com/user-attachments/assets/368653f6-115f-4e18-9e0a-a0bb8da3643b)
+
+
+
