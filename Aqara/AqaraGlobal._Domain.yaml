@@ -50,13 +50,18 @@ payload:
   - '+.rpc-kr.aqara.com'
   - '+.open-kr.aqara.com'                 # 开放平台(南韩区)
 
-  # - '+.aiot-rpc-cn.aqara.com'
-  # - '+.aiot-coap-cn.aqara.com'
-  # - '+.coap-cn.aqara.com'
-  # - '+.rpc-cn.aqara.com'
-  # - '+.open-cn.aqara.com'                 # 开放平台(中国区)
-  # - '+.aiot-coap.aqara.cn'
-  # - '+.aiot-rpc.ankasa.cn'
+ #- '+.aiot-rpc-cn.aqara.com'
+ #- '+.aiot-coap-cn.aqara.com'
+ #- '+.coap-cn.aqara.com'
+ #- '+.rpc-cn.aqara.com'
+ #- '+.open-cn.aqara.com'                 # 开放平台(中国区)
+ #- '+.aiot-rpc-3rd.aqara.cn'
+ #- '+.aiot-rpc.aqara.cn'
+ #- '+.coap.aqara.cn'
+ #- '+.rpc.aqara.cn'
+ #- '+.aiot-coap.aqara.cn'
+ #- '+.opencloud.aqara.cn'
+ #- '+.aiot-rpc.ankasa.cn'
 
   # --- Aqara 在 AWS US-West-2 的相机相关 S3 桶（可选） ---
   # - '+.aqara-camera-usa.s3.us-west-2.amazonaws.com'
