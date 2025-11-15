@@ -1,19 +1,21 @@
 payload:
 
+ # --- Aqara 的 US 域下埋点（是否分流看你需要；默认纳入） ---
+  - DOMAIN-SUFFIX  , track-us.aqara.com    , REJECT
+
+ # 更多地区的 API ： https://opendoc-test.aqara.cn/en/docs/developmanual/apiIntroduction/APIUsageGuide.html
+
  # --- Aqara 美国区：控制面 / 设备接口（官方文档列出） ---
   - DOMAIN-SUFFIX  , aiot-rpc-usa.aqara.com
   - DOMAIN-SUFFIX  , aiot-coap-usa.aqara.com
   - DOMAIN-SUFFIX  , open-usa.aqara.com                 # 开放平台(美国区)
 
- # --- Aqara 的 US 域下埋点（是否分流看你需要；默认纳入） ---
-  - DOMAIN-SUFFIX  , track-us.aqara.com
-
- # --- Aqara 自有 CDN 页面（可选，纳入更保险） ---
-  - DOMAIN-SUFFIX  , cdn.aqara.com
-
  # --- Aqara 在 AWS US-West-2 的相机相关 S3 桶（可选） ---
-  - DOMAIN-KEYWORD  , aqara-camera-usa.
+  - DOMAIN-KEYWORD , aqara-camera-usa.
  #- DOMAIN-SUFFIX  , aqara-camera-usa.s3.us-west-2.amazonaws.com
+
+ # --- Aqara 自有 海外CDN 页面（可选，纳入更保险） ---
+  - DOMAIN-SUFFIX  , cdn.aqara.com                      # 国内CDN的结尾是 cdn.aqara..cn
 
  # ---（可选） AWS IP
   - IP-CIDR        , 3.23.78.166/32        , no-resolve
