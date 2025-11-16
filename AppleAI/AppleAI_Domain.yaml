@@ -1,70 +1,24 @@
 payload:
 
-    - '+.smoot.apple.com'
+    - '+.smoot.apple.com'                           # 搜索服务：Siri/Spotlight/Lookup/Safari/News/信息/音乐（TCP 443）
+    - 'guzzoni.apple.com'                           # Siri 与听写（TCP 443）
+
+    - 'apple-relay.fastly-edge.co'                  # Apple Intelligence Extensions（TCP/UDP 443）
+
+    - 'apple-relay.apple.com'                       # Private Cloud Compute（PCC）（TCP/UDP 443）
+    - 'apple-relay.cloudflare.com'                  # Private Cloud Compute（PCC）（TCP/UDP 443）
+    - 'cp4.cloudflare.com'                          # Private Cloud Compute（PCC）（TCP/UDP 443）
+
+    #- 'gateway.icloud.com'
+
+    #- 'apple-relay.mask.apple-dns.net'
+    #- 'gateway.fe2.apple-dns.net'
+
+    #- 'seed.siri.apple.com'
+    #- 'gspe1-ssl.ls.apple.com'
+
+    #- 'seed-siri-apple-com.v.aaplimg.com'
+    #- 'smoot-searchv2-aapse1c.v.aaplimg.com'
     
-    - 'apple-relay.apple.com'
-    - 'apple-relay.mask.apple-dns.net'
-    - 'gateway.fe2.apple-dns.net'
-    - 'gateway.icloud.com'
-    - 'gspe1-ssl.ls.apple.com'
-    - 'guzzoni.apple.com'
-    - 'seed.siri.apple.com'
-
-    - 'seed-siri-apple-com.v.aaplimg.com'
-    - 'smoot-searchv2-aapse1c.v.aaplimg.com'
     
-    - 'cp4.cloudflare.com'
-    - 'apple-relay.cloudflare.com'
-    - 'apple-relay.fastly-edge.com'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
