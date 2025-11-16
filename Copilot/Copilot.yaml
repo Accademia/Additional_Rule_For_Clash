@@ -4,17 +4,16 @@ payload:
     - DOMAIN         , copilot.microsoft.com
     - DOMAIN         , edge.microsoft.com
 
-    - DOMAIN-SUFFIX  , ecs.office.com                       # MicroSoft Designer
-    - DOMAIN-SUFFIX  , designer.microsoft.com               # MicroSoft Designer
-    - DOMAIN-SUFFIX  , designerapp.osi.office.net           # MicroSoft Designer
-    - DOMAIN-SUFFIX  , designerapp.officeapps.live.com      # MicroSoft Designer
+    - DOMAIN-SUFFIX  , ecs.office.com                       # MicroSoft Designer 基础功能 （非必要？）
+    - DOMAIN-SUFFIX  , designer.microsoft.com               # MicroSoft Designer 基础功能
+    - DOMAIN-SUFFIX  , designerapp.osi.office.net           # MicroSoft Designer 基础功能
+    - DOMAIN-SUFFIX  , designerapp.officeapps.live.com      # MicroSoft Designer 基础功能
 
-    - DOMAIN         , www.bing.com                   
-    - DOMAIN         , sydney.bing.com               
-    - DOMAIN         , edgeservices.bing.com
-   #- DOMAIN         , r.bing.com      
-
-    - DOMAIN         , www.bingapis.com
+    - DOMAIN         , www.bing.com                         # MicroSoft Bing 基础功能            
+    - DOMAIN         , sydney.bing.com                      # MicroSoft Bing 基础功能
+    - DOMAIN         , edgeservices.bing.com                # MicroSoft Bing 基础功能         
+   #- DOMAIN         , r.bing.com                           # MicroSoft Bing 基础功能
+    - DOMAIN         , www.bingapis.com                     # MicroSoft Bing 基础功能   
 
     - DOMAIN-SUFFIX  , events.data.microsoft.com
     - DOMAIN-SUFFIX  , prod.do.dsp.mp.microsoft.com

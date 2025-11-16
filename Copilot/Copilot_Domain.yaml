@@ -4,17 +4,16 @@ payload:
     - 'copilot.microsoft.com'
     - 'edge.microsoft.com'
 
-    - '+.ecs.office.com'                       # MicroSoft Designer
-    - '+.designer.microsoft.com'               # MicroSoft Designer
-    - '+.designerapp.osi.office.net'           # MicroSoft Designer
-    - '+.designerapp.officeapps.live.com'      # MicroSoft Designer
+    - '+.ecs.office.com'                       # MicroSoft Designer 基础功能（非必要？）
+    - '+.designer.microsoft.com'               # MicroSoft Designer 基础功能
+    - '+.designerapp.osi.office.net'           # MicroSoft Designer 基础功能
+    - '+.designerapp.officeapps.live.com'      # MicroSoft Designer 基础功能
 
-    - 'www.bing.com'                   
-    - 'sydney.bing.com'          
-    - 'edgeservices.bing.com'
-   #- 'r.bing.com'           
-
-    - 'www.bingapis.com'
+    - 'www.bing.com'                           # MicroSoft Bing 基础功能         
+    - 'sydney.bing.com'                        # MicroSoft Bing 基础功能 
+    - 'edgeservices.bing.com'                  # MicroSoft Bing 基础功能 
+   #- 'r.bing.com'                             # MicroSoft Bing 基础功能
+    - 'www.bingapis.com'                       # MicroSoft Bing 基础功能
 
     - '+.events.data.microsoft.com'
     - '+.prod.do.dsp.mp.microsoft.com'
