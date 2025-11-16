@@ -1,14 +1,19 @@
 payload:     
  
+    - DOMAIN-SUFFIX   , smoot.apple.com                           # 搜索服务：Siri/Spotlight/Lookup/Safari/News/信息/音乐（TCP 443）
     - DOMAIN-SUFFIX   , apple.news
+ 
+    - DOMAIN-SUFFIX   , news-events.apple.com  
+    - DOMAIN-SUFFIX   , news-assets.apple.com     
+    - DOMAIN-SUFFIX   , news-client.apple.com    
+    - DOMAIN-SUFFIX   , news-sports.apple.com     
+    - DOMAIN-SUFFIX   , news-edge.apple.com     
 
-    - DOMAIN-SUFFIX   , news-edge.apple.com   
-    - DOMAIN-SUFFIX   , news-events.apple.com      
     - DOMAIN-SUFFIX   , news-sports-events.apple.com    
+    - DOMAIN-SUFFIX   , news-client-search.apple.com  
     - DOMAIN-SUFFIX   , news-todayconfig-edge.apple.com   
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com      
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com  
-    - DOMAIN-SUFFIX   , news-client-search.apple.com  
     
    #- DOMAIN-SUFFIX   , amp-api-edge.apps.apple.com   
    #- DOMAIN-SUFFIX   , amp-api.apps.apple.com
