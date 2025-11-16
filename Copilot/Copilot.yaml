@@ -1,0 +1,33 @@
+payload:
+
+   # —— 消费版 Copilot（Web）——
+    - DOMAIN         , copilot.microsoft.com
+    - DOMAIN         , designer.microsoft.com
+    - DOMAIN         , edge.microsoft.com
+
+    - DOMAIN         , www.bing.com                   
+    - DOMAIN         , sydney.bing.com               
+    - DOMAIN         , edgeservices.bing.com
+   #- DOMAIN         , r.bing.com      
+
+    - DOMAIN         , www.bingapis.com
+
+    - DOMAIN-SUFFIX  , events.data.microsoft.com
+    - DOMAIN-SUFFIX  , prod.do.dsp.mp.microsoft.com
+
+    - DOMAIN         , access-point.cloudmessaging.edge.microsoft.com
+    - DOMAIN         , browser.pipe.aria.microsoft.com
+    - DOMAIN         , functional.events.data.microsoft.com
+
+
+   # —— M365 Copilot（企业/工作版）核心要求 ——（官方建议的统一域 + WSS）
+   #- DOMAIN-SUFFIX  , cloud.microsoft.com            # SaaS 前端（允许 WSS / TCP/UDP 443）
+   #- DOMAIN-SUFFIX  , office.com                     # 多处 Copilot 集成需要
+   #- DOMAIN-SUFFIX  , static.microsoft.com           # 静态资源
+   #- DOMAIN-SUFFIX  , usercontent.microsoft.com      # 隔离内容域
+    
+
+
+
+
+    

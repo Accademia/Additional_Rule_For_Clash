@@ -1,0 +1,35 @@
+payload:
+
+   # —— 消费版 Copilot（Web）——
+    - 'copilot.microsoft.com'
+    - 'designer.microsoft.com'
+    - 'edge.microsoft.com'
+
+    - 'www.bing.com'                   
+    - 'sydney.bing.com'          
+    - 'edgeservices.bing.com'
+   #- 'r.bing.com'           
+
+    - 'www.bingapis.com'
+
+    - '+.events.data.microsoft.com'
+    - '+.prod.do.dsp.mp.microsoft.com'
+
+    - 'access-point.cloudmessaging.edge.microsoft.com'
+    - 'browser.pipe.aria.microsoft.com'
+    - 'functional.events.data.microsoft.com'
+
+
+   # —— M365 Copilot（企业/工作版）核心要求 ——（官方建议的统一域 + WSS）
+   #- '+.cloud.microsoft.com'            # SaaS 前端（允许 WSS / TCP/UDP 443）
+   #- '+.office.com'                     # 多处 Copilot 集成需要
+   #- '+.static.microsoft.com'           # 静态资源
+   #- '+.usercontent.microsoft.com '     # 隔离内容域
+    
+
+
+
+
+    
+    
+

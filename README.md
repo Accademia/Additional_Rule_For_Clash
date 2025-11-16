@@ -119,13 +119,15 @@
 
 + Signal		: Signal Clash分流规则
 
-+ AppleAI		: 苹果智能 (apple intelligence) Clash分流规则 
-
 + AppleNews		: 苹果新闻 分流规则
+
++ AppleAI		: 苹果智能 (apple intelligence) Clash分流规则 
 
 + Grok			: xAI Grok Clash分流规则
 
-+ Gemini		: Google Gemini分流规则
++ Gemini		: Google Gemini Clash分流规则
+
++ Copilot		: Microsoft Copilot Clash分流规则
 
 + MacAppUpgrade		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ）  Clash 分流规则
 
