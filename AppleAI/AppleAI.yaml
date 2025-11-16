@@ -4,7 +4,6 @@ payload:
     - DOMAIN        , guzzoni.apple.com                         # Siri 与听写（TCP 443）
 
     - DOMAIN        , apple-relay.fastly-edge.com               # Apple Intelligence Extensions（TCP/UDP 443）
-
     - DOMAIN        , apple-relay.apple.com                     # Private Cloud Compute（PCC）（TCP/UDP 443）
     - DOMAIN        , apple-relay.cloudflare.com                # Private Cloud Compute（PCC）（TCP/UDP 443）
     - DOMAIN        , cp4.cloudflare.com                        # Private Cloud Compute（PCC）（TCP/UDP 443）

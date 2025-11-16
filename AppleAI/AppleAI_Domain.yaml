@@ -4,7 +4,6 @@ payload:
     - 'guzzoni.apple.com'                           # Siri 与听写（TCP 443）
 
     - 'apple-relay.fastly-edge.co'                  # Apple Intelligence Extensions（TCP/UDP 443）
-
     - 'apple-relay.apple.com'                       # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'apple-relay.cloudflare.com'                  # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'cp4.cloudflare.com'                          # Private Cloud Compute（PCC）（TCP/UDP 443）
