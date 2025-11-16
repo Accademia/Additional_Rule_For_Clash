@@ -121,6 +121,8 @@
 
 + AppleAI		: 苹果智能 (apple intelligence) Clash分流规则 
 
++ AppleNews		: 苹果新闻 分流规则
+
 + Grok			: xAI Grok Clash分流规则
 
 + Gemini		: Google Gemini分流规则
@@ -128,8 +130,6 @@
 + MacAppUpgrade		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ）  Clash 分流规则
 
 + UnsupportVPN		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
-
-+ AppleNews		: 苹果新闻 分流规则
 
 + Pornhub	：P站 Clash分流规则
 
@@ -187,8 +187,11 @@
       
     - 具体可以看这里的说明：⚠️⚠️
         - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
+        
++ 存在交叉的 分流规则 
 
-
+    - AppleAI 和 AppleNews ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置开关。以免出现相互干扰。
+    
 .
 
 授权协议：
