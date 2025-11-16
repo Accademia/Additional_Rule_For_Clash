@@ -2,8 +2,12 @@ payload:
 
    # —— 消费版 Copilot（Web）——
     - DOMAIN         , copilot.microsoft.com
-    - DOMAIN         , designer.microsoft.com
     - DOMAIN         , edge.microsoft.com
+
+    - DOMAIN-SUFFIX  , ecs.office.com                       # MicroSoft Designer
+    - DOMAIN-SUFFIX  , designer.microsoft.com               # MicroSoft Designer
+    - DOMAIN-SUFFIX  , designerapp.osi.office.net           # MicroSoft Designer
+    - DOMAIN-SUFFIX  , designerapp.officeapps.live.com      # MicroSoft Designer
 
     - DOMAIN         , www.bing.com                   
     - DOMAIN         , sydney.bing.com           

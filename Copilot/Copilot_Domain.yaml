@@ -2,8 +2,12 @@ payload:
 
    # —— 消费版 Copilot（Web）——
     - 'copilot.microsoft.com'
-    - 'designer.microsoft.com'
     - 'edge.microsoft.com'
+
+    - '+.ecs.office.com'                       # MicroSoft Designer
+    - '+.designer.microsoft.com'               # MicroSoft Designer
+    - '+.designerapp.osi.office.net'           # MicroSoft Designer
+    - '+.designerapp.officeapps.live.com'      # MicroSoft Designer
 
     - 'www.bing.com'                   
     - 'sydney.bing.com'          
