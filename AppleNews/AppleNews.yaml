@@ -6,18 +6,17 @@ payload:
     - DOMAIN-SUFFIX   , news-events.apple.com      
     - DOMAIN-SUFFIX   , news-sports-events.apple.com    
     - DOMAIN-SUFFIX   , news-todayconfig-edge.apple.com   
-   
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com      
     - DOMAIN-SUFFIX   , newsletter-edge.apple.com  
-
-    - DOMAIN-SUFFIX   , amp-api-edge.apps.apple.com   
-    - DOMAIN-SUFFIX   , amp-api.apps.apple.com
-    
-    - DOMAIN-SUFFIX   , gspe1-ssl.ls.apple.com  
     - DOMAIN-SUFFIX   , news-client-search.apple.com  
 
-    - DOMAIN-SUFFIX   , fpinit.itunes.apple.com                
-    - DOMAIN-SUFFIX   , bag.itunes.apple.com     
+   #- DOMAIN-SUFFIX   , amp-api-edge.apps.apple.com   
+   #- DOMAIN-SUFFIX   , amp-api.apps.apple.com
+
+   #- DOMAIN-SUFFIX   , gspe1-ssl.ls.apple.com  
+
+   #- DOMAIN-SUFFIX   , fpinit.itunes.apple.com                
+   #- DOMAIN-SUFFIX   , bag.itunes.apple.com     
 
    #- IP-CIDR         , 
 
