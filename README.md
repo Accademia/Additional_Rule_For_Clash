@@ -178,11 +178,10 @@
 
 + xAI Grok 分流规则 ❗️❗️❗️❗️❗️
 
-    - 如果在 Stash For iOS 上使用 Grok分流规则，必须在Stash面板中，手动开启IPv6分流，不然Grok APP for iOS 会非常难以连接。甚至无法连接 ！！！！！！！
- 
-    - ⚠️ 开启路径为： Stash -> 设置 -> 网络设置 -> 启用 Tunnel IPV6 路由
-    
-    - ⚠️ 惩罚：在Stash上，开启IPV6支持后，会导致 手机在局域网内 观看 Apple Homekit摄像头 时，无法观看实时视频（手机在公网时 则不受影响）。且无论怎么设置 局域网直连规则，都无法解此问题。
+    - 单纯设置分流规则，可能 Grok APP for iOS（仅APP端） 仍旧连不上，需要在Stash、Clash的配置文件中，对IPv6做特殊处理 ！！！
+
+    - 具体请看这里的说明：
+        - https://github.com/Accademia/Additional_Rule_For_Clash/edit/main/Grok/Readme.txt 
 
 
 + AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
@@ -194,7 +193,7 @@
         
 + 存在交叉的 分流规则 
 
-    - AppleAI 和 AppleNews ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置开关。以免出现相互干扰。
+    - AppleAI 和 AppleNews ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置的开关。以免出现相互干扰。
     
 .
 
