@@ -478,6 +478,7 @@ payload:
 
 
   - DOMAIN-SUFFIX  , freedns.controld.com                                                # https://controld.com/free-dns
+  - DOMAIN-SUFFIX  , dns.controld.com                                                    # https://controld.com/free-dns
   - IP-CIDR        , 76.76.2.11/32                                    , no-resolve       # https://controld.com/free-dns
   - IP-CIDR        , 76.76.10.11/32                                   , no-resolve       # https://controld.com/free-dns
   - IP-CIDR6       , 2606:1a40::11/128                                , no-resolve       # https://controld.com/free-dns 

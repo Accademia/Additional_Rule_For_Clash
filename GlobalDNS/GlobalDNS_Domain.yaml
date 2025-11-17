@@ -121,6 +121,7 @@ payload:
 
 
   - '+.freedns.controld.com'                                                             # https://controld.com/free-dns
+  - '+.dns.controld.com'                                                                 # https://controld.com/free-dns
 
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
