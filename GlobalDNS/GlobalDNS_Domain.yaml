@@ -1,125 +1,126 @@
 payload:
 
-  - '+.apple-dns.net'                                 # Apple 
-  - '+.dns.apple.com'                                 # Apple 
-  - '+.1dot1dot1dot1.cloudflare-dns.com'              # Cloudflare
-  - '+.8888.google'                                   # Google
-  - '+.adblock.mydns.network'                         # MyDNS Network
-  - '+.applied-privacy.net'                           # Applied Privacy (奥地利)
-  - '+.basic.rethinkdns.com'                          # RethinkDNS (全球分布式)
-  - '+.cdn-doh.ssnm.xyz'                              # SSNM (全球)
-  - '+.chrome.cloudflare-dns.com'                     # Cloudflare
-  - '+.cloudflare-dns.com'                            # Cloudflare
-  - '+.cleanbrowsing.org'                             # CleanBrowsing (美国)
-  - '+.com.cast.net'                                  # Xfinity (美国)
-  - '+.dns-family.adguard.com'                        # AdGuard DNS
-  - '+.dns-nyc.aaflalo.me'                            # Aaflalo DNS (美国)
-  - '+.dns-tls.qis.io'                                # QIS DNS (全球)
-  - '+.dns-unfiltered.adguard.com'                    # AdGuard DNS
-  - '+.dns.aa.net.uk'                                 # AAISP (英国)
-  - '+.dns.aaflalo.me'                                # Aaflalo DNS (美国)
-  - '+.dns.adguard.com'                               # AdGuard DNS
-  - '+.dns.cfiec.net'                                 # CFIEC DNS (全球)
-  - '+.dns.cmrg.net'                                  # CMRG DNS (加拿大)
-  - '+.dns.cloudflare.com'                            # Cloudflare
-  - '+.dns.containerpi.com'                           # ContainerPi DNS (全球)
-  - '+.dns.dns-over-https.com'                        # DNS-over-HTTPS (全球)
-  - '+.dns.dnsoverhttps.net'                          # DNS-over-HTTPS (全球)
-  - '+.dns.flatuslifir.is'                            # Flatuslifir DNS (冰岛)
-  - '+.dns.google'                                    # Google
-  - '+.dns.google.com'                                # Google
-  - '+.dns.hostux.net'                                # Hostux DNS (全球)
-  - '+.dns.ipv6dns.com'                               # IPv6 DNS (全球)
-  - '+.dns.keweon.center'                             # Keweon DNS (全球)
-  - '+.dns.nextdns.io'                                # NextDNS
-  - '+.dns.quad9.net'                                 # Quad9
-  - '+.dns.sb'                                        # DNS.SB
-  - '+.dns.surfshark.com'                             # Surfshark DNS (全球)
-  - '+.dns.t53.de'                                    # T53 DNS (德国)
-  - '+.dns.tin-fan.com'                               # Tin Fan DNS (全球分布式)
-  - '+.dns.twnic.tw'                                  # 台湾 Quad 101
-  - '+.dns.umbrella.com'                              # OpenDNS
-  - '+.dns.watch'                                     # DNS.Watch (德国)
-  - '+.dns10.quad9.net'                               # Quad9
-  - '+.dns11.quad9.net'                               # Quad9
-  - '+.dns9.quad9.net'                                # Quad9
-  - '+.dnscrypt.ca'                                   # DNSCrypt Canada (加拿大)
-  - '+.dnsprivacy.at'                                 # DNS Privacy (奥地利)
-  - '+.doh-de.blahdns.com'                            # BlahDNS (德国)
-  - '+.doh-fi.blahdns.com'                            # BlahDNS (芬兰)
-  - '+.doh-jp.blahdns.com'                            # BlahDNS (日本)
-  - '+.doh.42l.fr'                                    # 42l DNS (法国)
-  - '+.doh.alternate-dns.com'                         # Alternate DNS (美国)
-  - '+.doh.applied-privacy.net'                       # Applied Privacy (奥地利)
-  - '+.doh.armadillodns.net'                          # Armadillo DNS (全球)
-  - '+.doh.blahdns.com'                               # BlahDNS (欧洲)
-  - '+.doh.centraleu.pi-dns.com'                      # Pi-DNS (欧洲)
-  - '+.doh.cleanbrowsing.org'                         # CleanBrowsing
-  - '+.doh.comodo.com'                                # Comodo
-  - '+.doh.crypto.sx'                                 # DOH Crypto (全球分布式)
-  - '+.doh.dns.sb'                                    # DNS.SB
-  - '+.doh.dnswarden.com'                             # DNS Warden (全球分布式)
-  - '+.doh.dnslify.com'                               # Dnslify (全球)
-  - '+.doh.eastus.pi-dns.com'                         # Pi-DNS (美国东部)
-  - '+.doh.familyshield.opendns.com'                  # OpenDNS FamilyShield
-  - '+.doh.ffmuc.net'                                 # FFMUC (德国)
-  - '+.doh.iij.jp'                                    # IIJ DNS (日本)
-  - '+.doh.li'                                        # DOH LI (全球)
-  - '+.doh.libredns.gr'                               # LibreDNS (希腊)
-  - '+.doh.mullvad.net'                               # Mullvad DNS (瑞典)
-  - '+.doh.nekomimi-router.com'                       # NekomimiRouter (日本)
-  - '+.doh.northeu.pi-dns.com'                        # Pi-DNS (北欧)
-  - '+.doh.opendns.com'                               # OpenDNS
-  - '+.doh.powerdns.com'                              # PowerDNS (荷兰)
-  - '+.doh.powerdns.org'                              # PowerDNS (荷兰)
-  - '+.doh.qis.io'                                    # QIS DNS (全球)
-  - '+.doh.sb'                                        # DNS.SB
-  - '+.doh.seby.io'                                   # Seby DNS (澳大利亚)
-  - '+.doh.securedns.eu'                              # SecureDNS (欧洲)
-  - '+.doh.tiar.app'                                  # Tiarap DNS (新加坡)
-  - '+.doh.tiarap.org'                                # Tiarap DNS (全球)
-  - '+.doh.verisign.com'                              # Verisign
-  - '+.doh.westus.pi-dns.com'                         # Pi-DNS (美国西部)
-  - '+.doh.xfinity.com'                               # Xfinity (美国)
-  - '+.dohdot.coxlab.net'                             # CoxLab DNS (美国)
-  - '+.dot.sb'                                        # DNS.SB
-  - '+.eth-services.de'                               # ETH Services (德国)
-  - '+.example.doh.blockerdns.com'                    # BlockerDNS (美国)
-  - '+.family.canadianshield.cira.ca'                 # CIRA Canadian Shield (加拿大)
-  - '+.family.cloudflare-dns.com'                     # Cloudflare Family
-  - '+.fische.io'                                     # Fische (德国)
-  - '+.go6lab.si'                                     # Go6Lab (斯洛文尼亚)
-  - '+.he.net'                                        # Hurricane Electric (美国)
-  - '+.ibksturm.synology.me'                          # Ibksturm (瑞士)
-  - '+.ibuki.cgnat.net'                               # Ibuki DNS (全球)
-  - '+.jcdns.fun'                                     # JCDNS (全球)
-  - '+.jp.tiar.app'                                   # Tiarap DNS (日本)
-  - '+.jp.tiarap.org'                                 # Tiarap DNS (日本)
-  - '+.ldn.imlonghao.com'                             # Lorraine Data Network (法国)
-  - '+.libredns.gr'                                   # LibreDNS (希腊)
-  - '+.mozilla.cloudflare-dns.com'                    # Cloudflare Mozilla
-  - '+.neutopia.org'                                  # Neutopia (法国)
-  - '+.odvr.nic.cz'                                   # NIC CZ (捷克)
-  - '+.one.one.one.one'                               # Cloudflare
-  - '+.opendns.com'                                   # OpenDNS (美国)
-  - '+.opennic.net'                                   # OpenNIC (社区开放DNS)
-  - '+.ordns.he.net'                                  # Hurricane Electric (美国)
-  - '+.powerdns.org'                                  # PowerDNS (荷兰)
-  - '+.private.canadianshield.cira.ca'                # CIRA Canadian Shield (加拿大)
-  - '+.protected.canadianshield.cira.ca'              # CIRA Canadian Shield (加拿大)
-  - '+.rdns.faelix.net'                               # Faelix DNS (全球)
-  - '+.restena.lu'                                    # Foundation RESTENA (卢森堡)
-  - '+.security-filter-dns.cleanbrowsing.org'         # CleanBrowsing Security
-  - '+.security.cloudflare-dns.com'                   # Cloudflare Security
-  - '+.sfw.overthebox.ovh'                            # Scaleway (法国)
-  - '+.snopyta.org'                                   # Snopyta (芬兰)
-  - '+.tenta.io'                                      # Tenta (美国)
-  - '+.uncensoreddns.org'                             # UncensoredDNS (丹麦)
-  - '+.unfiltered.adguard-dns.com'                    # AdGuard DNS
-  - '+.yeti-dns.org'                                  # Yeti DNS (全球分布式)
-  - '+.boothlabs.me'                                  # Booth Labs (加拿大)
+  - '+.apple-dns.net'                                                                    # Apple 
+  - '+.dns.apple.com'                                                                    # Apple 
+  - '+.1dot1dot1dot1.cloudflare-dns.com'                                                 # Cloudflare
+  - '+.8888.google'                                                                      # Google
+  - '+.adblock.mydns.network'                                                            # MyDNS Network
+  - '+.applied-privacy.net'                                                              # Applied Privacy (奥地利)
+  - '+.basic.rethinkdns.com'                                                             # RethinkDNS (全球分布式)
+  - '+.cdn-doh.ssnm.xyz'                                                                 # SSNM (全球)
+  - '+.chrome.cloudflare-dns.com'                                                        # Cloudflare
+  - '+.cloudflare-dns.com'                                                               # Cloudflare
+  - '+.cleanbrowsing.org'                                                                # CleanBrowsing (美国)
+  - '+.com.cast.net'                                                                     # Xfinity (美国)
+  - '+.dns-family.adguard.com'                                                           # AdGuard DNS
+  - '+.dns-nyc.aaflalo.me'                                                               # Aaflalo DNS (美国)
+  - '+.dns-tls.qis.io'                                                                   # QIS DNS (全球)
+  - '+.dns-unfiltered.adguard.com'                                                       # AdGuard DNS
+  - '+.dns.aa.net.uk'                                                                    # AAISP (英国)
+  - '+.dns.aaflalo.me'                                                                   # Aaflalo DNS (美国)
+  - '+.dns.adguard.com'                                                                  # AdGuard DNS
+  - '+.dns.cfiec.net'                                                                    # CFIEC DNS (全球)
+  - '+.dns.cmrg.net'                                                                     # CMRG DNS (加拿大)
+  - '+.dns.cloudflare.com'                                                               # Cloudflare
+  - '+.dns.containerpi.com'                                                              # ContainerPi DNS (全球)
+  - '+.dns.dns-over-https.com'                                                           # DNS-over-HTTPS (全球)
+  - '+.dns.dnsoverhttps.net'                                                             # DNS-over-HTTPS (全球)
+  - '+.dns.flatuslifir.is'                                                               # Flatuslifir DNS (冰岛)
+  - '+.dns.google'                                                                       # Google
+  - '+.dns.google.com'                                                                   # Google
+  - '+.dns.hostux.net'                                                                   # Hostux DNS (全球)
+  - '+.dns.ipv6dns.com'                                                                  # IPv6 DNS (全球)
+  - '+.dns.keweon.center'                                                                # Keweon DNS (全球)
+  - '+.dns.nextdns.io'                                                                   # NextDNS
+  - '+.dns.quad9.net'                                                                    # Quad9
+  - '+.dns.sb'                                                                           # DNS.SB
+  - '+.dns.surfshark.com'                                                                # Surfshark DNS (全球)
+  - '+.dns.t53.de'                                                                       # T53 DNS (德国)
+  - '+.dns.tin-fan.com'                                                                  # Tin Fan DNS (全球分布式)
+  - '+.dns.twnic.tw'                                                                     # 台湾 Quad 101
+  - '+.dns.umbrella.com'                                                                 # OpenDNS
+  - '+.dns.watch'                                                                        # DNS.Watch (德国)
+  - '+.dns10.quad9.net'                                                                  # Quad9
+  - '+.dns11.quad9.net'                                                                  # Quad9
+  - '+.dns9.quad9.net'                                                                   # Quad9
+  - '+.dnscrypt.ca'                                                                      # DNSCrypt Canada (加拿大)
+  - '+.dnsprivacy.at'                                                                    # DNS Privacy (奥地利)
+  - '+.doh-de.blahdns.com'                                                               # BlahDNS (德国)
+  - '+.doh-fi.blahdns.com'                                                               # BlahDNS (芬兰)
+  - '+.doh-jp.blahdns.com'                                                               # BlahDNS (日本)
+  - '+.doh.42l.fr'                                                                       # 42l DNS (法国)
+  - '+.doh.alternate-dns.com'                                                            # Alternate DNS (美国)
+  - '+.doh.applied-privacy.net'                                                          # Applied Privacy (奥地利)
+  - '+.doh.armadillodns.net'                                                             # Armadillo DNS (全球)
+  - '+.doh.blahdns.com'                                                                  # BlahDNS (欧洲)
+  - '+.doh.centraleu.pi-dns.com'                                                         # Pi-DNS (欧洲)
+  - '+.doh.cleanbrowsing.org'                                                            # CleanBrowsing
+  - '+.doh.comodo.com'                                                                   # Comodo
+  - '+.doh.crypto.sx'                                                                    # DOH Crypto (全球分布式)
+  - '+.doh.dns.sb'                                                                       # DNS.SB
+  - '+.doh.dnswarden.com'                                                                # DNS Warden (全球分布式)
+  - '+.doh.dnslify.com'                                                                  # Dnslify (全球)
+  - '+.doh.eastus.pi-dns.com'                                                            # Pi-DNS (美国东部)
+  - '+.doh.familyshield.opendns.com'                                                     # OpenDNS FamilyShield
+  - '+.doh.ffmuc.net'                                                                    # FFMUC (德国)
+  - '+.doh.iij.jp'                                                                       # IIJ DNS (日本)
+  - '+.doh.li'                                                                           # DOH LI (全球)
+  - '+.doh.libredns.gr'                                                                  # LibreDNS (希腊)
+  - '+.doh.mullvad.net'                                                                  # Mullvad DNS (瑞典)
+  - '+.doh.nekomimi-router.com'                                                          # NekomimiRouter (日本)
+  - '+.doh.northeu.pi-dns.com'                                                           # Pi-DNS (北欧)
+  - '+.doh.opendns.com'                                                                  # OpenDNS
+  - '+.doh.powerdns.com'                                                                 # PowerDNS (荷兰)
+  - '+.doh.powerdns.org'                                                                 # PowerDNS (荷兰)
+  - '+.doh.qis.io'                                                                       # QIS DNS (全球)
+  - '+.doh.sb'                                                                           # DNS.SB
+  - '+.doh.seby.io'                                                                      # Seby DNS (澳大利亚)
+  - '+.doh.securedns.eu'                                                                 # SecureDNS (欧洲)
+  - '+.doh.tiar.app'                                                                     # Tiarap DNS (新加坡)
+  - '+.doh.tiarap.org'                                                                   # Tiarap DNS (全球)
+  - '+.doh.verisign.com'                                                                 # Verisign
+  - '+.doh.westus.pi-dns.com'                                                            # Pi-DNS (美国西部)
+  - '+.doh.xfinity.com'                                                                  # Xfinity (美国)
+  - '+.dohdot.coxlab.net'                                                                # CoxLab DNS (美国)
+  - '+.dot.sb'                                                                           # DNS.SB
+  - '+.eth-services.de'                                                                  # ETH Services (德国)
+  - '+.example.doh.blockerdns.com'                                                       # BlockerDNS (美国)
+  - '+.family.canadianshield.cira.ca'                                                    # CIRA Canadian Shield (加拿大)
+  - '+.family.cloudflare-dns.com'                                                        # Cloudflare Family
+  - '+.fische.io'                                                                        # Fische (德国)
+  - '+.go6lab.si'                                                                        # Go6Lab (斯洛文尼亚)
+  - '+.he.net'                                                                           # Hurricane Electric (美国)
+  - '+.ibksturm.synology.me'                                                             # Ibksturm (瑞士)
+  - '+.ibuki.cgnat.net'                                                                  # Ibuki DNS (全球)
+  - '+.jcdns.fun'                                                                        # JCDNS (全球)
+  - '+.jp.tiar.app'                                                                      # Tiarap DNS (日本)
+  - '+.jp.tiarap.org'                                                                    # Tiarap DNS (日本)
+  - '+.ldn.imlonghao.com'                                                                # Lorraine Data Network (法国)
+  - '+.libredns.gr'                                                                      # LibreDNS (希腊)
+  - '+.mozilla.cloudflare-dns.com'                                                       # Cloudflare Mozilla
+  - '+.neutopia.org'                                                                     # Neutopia (法国)
+  - '+.odvr.nic.cz'                                                                      # NIC CZ (捷克)
+  - '+.one.one.one.one'                                                                  # Cloudflare
+  - '+.opendns.com'                                                                      # OpenDNS (美国)
+  - '+.opennic.net'                                                                      # OpenNIC (社区开放DNS)
+  - '+.ordns.he.net'                                                                     # Hurricane Electric (美国)
+  - '+.powerdns.org'                                                                     # PowerDNS (荷兰)
+  - '+.private.canadianshield.cira.ca'                                                   # CIRA Canadian Shield (加拿大)
+  - '+.protected.canadianshield.cira.ca'                                                 # CIRA Canadian Shield (加拿大)
+  - '+.rdns.faelix.net'                                                                  # Faelix DNS (全球)
+  - '+.restena.lu'                                                                       # Foundation RESTENA (卢森堡)
+  - '+.security-filter-dns.cleanbrowsing.org'                                            # CleanBrowsing Security
+  - '+.security.cloudflare-dns.com'                                                      # Cloudflare Security
+  - '+.sfw.overthebox.ovh'                                                               # Scaleway (法国)
+  - '+.snopyta.org'                                                                      # Snopyta (芬兰)
+  - '+.tenta.io'                                                                         # Tenta (美国)
+  - '+.uncensoreddns.org'                                                                # UncensoredDNS (丹麦)
+  - '+.unfiltered.adguard-dns.com'                                                       # AdGuard DNS
+  - '+.yeti-dns.org'                                                                     # Yeti DNS (全球分布式)
+  - '+.boothlabs.me'                                                                     # Booth Labs (加拿大)
 
 
+  - '+.freedns.controld.com'                                                             # https://controld.com/free-dns
 
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
