@@ -357,10 +357,10 @@ payload:
   - '2a10:50c0::bad2:ff/128'                         # AdGuard DNS
 
 
-  - '76.76.2.0/32'                                   # https://controld.com/free-dns
-  - '76.76.10.0/32'                                  # https://controld.com/free-dns
-  - '2606:1a40::0/128'                               # https://controld.com/free-dns 
-  - '2606:1a40:1::0/128'                             # https://controld.com/free-dns 
+  - '76.76.2.11/32'                                   # https://controld.com/free-dns
+  - '76.76.10.11/32'                                  # https://controld.com/free-dns
+  - '2606:1a40::11/128'                               # https://controld.com/free-dns 
+  - '2606:1a40:1::11/128'                             # https://controld.com/free-dns 
 
 
 
