@@ -8,16 +8,16 @@ payload:
     - 'apple-relay.cloudflare.com'                  # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'cp4.cloudflare.com'                          # Private Cloud Compute（PCC）（TCP/UDP 443）
 
-    #- 'gateway.icloud.com'
+   #- 'gateway.icloud.com'
 
-    #- 'apple-relay.mask.apple-dns.net'
-    #- 'gateway.fe2.apple-dns.net'
+    - 'apple-relay.mask.apple-dns.net'
+   #- 'gateway.fe2.apple-dns.net'
 
-    #- 'seed.siri.apple.com'
-    #- 'gspe1-ssl.ls.apple.com'
+   #- 'seed.siri.apple.com'
+    - 'gspe1-ssl.ls.apple.com'
 
-    #- 'seed-siri-apple-com.v.aaplimg.com'
-    #- 'smoot-searchv2-aapse1c.v.aaplimg.com'
+   #- 'seed-siri-apple-com.v.aaplimg.com'
+   #- 'smoot-searchv2-aapse1c.v.aaplimg.com'
     
     
 

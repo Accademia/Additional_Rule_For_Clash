@@ -10,11 +10,11 @@ payload:
 
    #- DOMAIN        , gateway.icloud.com
 
-   #- DOMAIN        , apple-relay.mask.apple-dns.net
+    - DOMAIN        , apple-relay.mask.apple-dns.net
    #- DOMAIN        , gateway.fe2.apple-dns.net
 
    #- DOMAIN        , seed.siri.apple.com
-   #- DOMAIN        , gspe1-ssl.ls.apple.com
+    - DOMAIN        , gspe1-ssl.ls.apple.com
 
    #- DOMAIN        , seed-siri-apple-com.v.aaplimg.com
    #- DOMAIN        , smoot-searchv2-aapse1c.v.aaplimg.com
