@@ -44,3 +44,7 @@ payload:
     - DOMAIN-SUFFIX , bgg.baidu.com                                  , REJECT-DROP          
 
 
+
+   # 其他                                                  
+    - DOMAIN-SUFFIX , api.xsj.wasu.tv                                , REJECT-DROP   
+
