@@ -21,6 +21,8 @@ payload:
     - DOMAIN         , access-point.cloudmessaging.edge.microsoft.com
     - DOMAIN         , browser.pipe.aria.microsoft.com
     - DOMAIN         , functional.events.data.microsoft.com
+    
+    - DOMAIN         , studiostaticassetsprod.azureedge.net
 
 
    # —— M365 Copilot（企业/工作版）核心要求 ——（官方建议的统一域 + WSS）
