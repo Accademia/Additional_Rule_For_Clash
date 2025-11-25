@@ -47,6 +47,6 @@ payload:
    # 其他                                                  
     - DOMAIN-SUFFIX , api.xsj.wasu.tv                                , REJECT-DROP   
 
-    - DOMAIN-SUFFIX , frontier-aweme-lf-ipainner.amemv.com           , REJECT-DROP
-    - DOMAIN-SUFFIX , bytelink100-ws-lf.amemv.com                    , REJECT-DROP
+   #- DOMAIN-SUFFIX , frontier-aweme-lf-ipainner.amemv.com           , REJECT-DROP
+   #- DOMAIN-SUFFIX , bytelink100-ws-lf.amemv.com                    , REJECT-DROP
 
