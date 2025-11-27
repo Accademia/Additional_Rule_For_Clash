@@ -150,3 +150,17 @@ payload:
     - DOMAIN-SUFFIX   , tmall.ru                                          # 天猫 俄罗斯
     - DOMAIN          , images-cn.ssl-images-amazon.com                     # 亚马逊中国 CDN
 
+    - DOMAIN          , cdn.angruo.com                                    # Angruo是一个国际CDN/托管服务
+    - DOMAIN          , cdn.lilyemby.com                                  # LilyEmby是开源媒体服务器Emby的变体
+    - DOMAIN          , kc.kexinshe.com                                   # Kexinshe是国际设计/艺术平台
+    - DOMAIN          , smart.uhdnow.com                                  # UHDNow是国际4K视频/媒体服务
+    - DOMAIN          , sms.imagetasks.com                                # ImageTasks是国际图像处理/任务平台
+    - DOMAIN          , tx.lilyemby.com                                   # LilyEmby变体
+    - DOMAIN          , www.libvideo.com                                  # LibVideo是国际视频库/开源项目
+    - DOMAIN-SUFFIX   , 00cdn.com                                         # 00CDN是国际CDN服务
+    - DOMAIN-SUFFIX   , 0123456789.com                                    # 
+    - DOMAIN-SUFFIX   , 0379home.com                                      # 国际家居/房产平台
+    - DOMAIN-SUFFIX   , 0379home.com                                      # 国际家居/房产平台
+    - DOMAIN-SUFFIX   , 055110.com                                        # 国际电话/通信服务域名
+    - DOMAIN-SUFFIX   , 05sun.com                                         # 国际科技/博客平台
+    - DOMAIN-SUFFIX   , hotmail.com                                       # 微软邮箱
