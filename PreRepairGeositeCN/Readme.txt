@@ -6,16 +6,26 @@
 # 用途：
 #	由于 geosite:cn 中存在大量的非中国服务器的域名，所以需要额外的分流规则，来修复这些非中国域名带来的分流错误
 #
+#	_Global 后缀 ： 实际上是境外网站，但是却被 GeoSite 收录
+#
+#	_China 后缀 ： 实际上是中国网站，但是却没有被 GeoSite 收录
+#
 #
 # 引用范例 ：
 #
-#    PreRepairGeositeCN_No_Resolve                  : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_No_Resolve.yaml'                                , path: ./ruleset/PreRepairGeositeCN_No_Resolve.yaml                  }
+#    PreRepairGeositeCN_Global_No_Resolve                  : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_Global_No_Resolve.yaml'                                , path: ./ruleset/PreRepairGeositeCN_Global_No_Resolve.yaml                  }
 #
-#    PreRepairGeositeCN                             : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN.yaml'                                           , path: ./ruleset/PreRepairGeositeCN.yaml                             }
+#    PreRepairGeositeCN_Global                             : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_Global.yaml'                                           , path: ./ruleset/PreRepairGeositeCN_Global.yaml                             }
 #           
-#    PreRepairGeositeCN_Domain                      : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_Domain.yaml'                                    , path: ./ruleset/PreRepairGeositeCN_Domain.yaml                      }
+#    PreRepairGeositeCN_Global_Domain                      : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_Global_Domain.yaml'                                    , path: ./ruleset/PreRepairGeositeCN_Global_Domain.yaml                      }
 #                                  
-
+#
+#    PreRepairGeositeCN_China_No_Resolve                   : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_China_No_Resolve.yaml'                                 , path: ./ruleset/PreRepairGeositeCN_China_No_Resolve.yaml                   }
+#
+#    PreRepairGeositeCN_China                              : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_China.yaml'                                            , path: ./ruleset/PreRepairGeositeCN_China.yaml                              }
+#            
+#    PreRepairGeositeCN_China_Domain                       : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/PreRepairGeositeCN/PreRepairGeositeCN_China_Domain.yaml'                                     , path: ./ruleset/PreRepairGeositeCN_China_Domain.yaml                       }
+#
 #
 # ----------------------------------
 # 使用说明 ：⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
