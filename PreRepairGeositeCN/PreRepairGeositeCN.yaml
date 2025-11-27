@@ -1,0 +1,152 @@
+payload:
+
+    - DOMAIN          , analytics.strava.com                                # Strava 运动 (美国)，隐私敏感
+    - DOMAIN          , download.jetbrains.com                              # JetBrains 开发工具 (捷克/国际)，国内解析有时会被污染
+    - DOMAIN          , download.microsoft.com                              # 微软 (美国)
+    - DOMAIN          , ip.istatmenus.app                                   # iStat Menus (Bjango, 澳大利亚/美国)
+    - DOMAIN          , ntservicepack.microsoft.com                         # 微软
+    - DOMAIN          , steamcommunity-a.akamaihd.net                       # Steam 社区 (美国/Akamai)，国内解析通常是被阻断或污染的
+    - DOMAIN-SUFFIX   , aaplimg.com                                       # Apple 图片服务 (美国)。隐私敏感。
+    - DOMAIN-SUFFIX   , abercrombie.com                                   # A&F 服装 (美国)
+    - DOMAIN-SUFFIX   , adobe.com                                         # (注意列表里有 adobesc.com 是中国版，但建议 adobe 均走代理)
+    - DOMAIN-SUFFIX   , amd.com                                           # AMD 芯片 (美国)
+    - DOMAIN-SUFFIX   , beatsbydre.com                                    # Beats/Apple (美国)
+    - DOMAIN-SUFFIX   , browserleaks.com                                  # 隐私检测网站 (国际)，走国内 DNS 会暴露你在测隐私
+    - DOMAIN-SUFFIX   , bstatic.com                                       # Booking.com 缤客 CDN (荷兰/美国)
+    - DOMAIN-SUFFIX   , clashroyaleapp.com                                # Clash Royale 皇室战争 (Supercell, 芬兰)
+    - DOMAIN-SUFFIX   , cloudflare-dns.com                                # Cloudflare DoH 地址，绝对不能走国内 DNS
+    - DOMAIN-SUFFIX   , crashlytics.com                                   # Google 旗下的崩溃分析 (美国)，常被广告拦截误杀，建议走国外
+    - DOMAIN-SUFFIX   , dockerone.com                                     # (虽是国内社区，但 Docker 官方相关建议走代理)
+    - DOMAIN-SUFFIX   , ford.com                                          # 福特汽车 (美国)
+    - DOMAIN-SUFFIX   , gandi.net                                         # 域名注册商 (法国)，隐私敏感
+    - DOMAIN-SUFFIX   , garmin.com                                        # 佳明 (美国/瑞士)，地理位置数据敏感
+    - DOMAIN-SUFFIX   , hollisterco.com                                   # 服装 (美国)
+    - DOMAIN-SUFFIX   , java.com                                          # Oracle (美国)
+    - DOMAIN-SUFFIX   , kaspersky-labs.com                                # 卡巴斯基 (俄罗斯/国际)
+    - DOMAIN-SUFFIX   , lazada.com                                        # 阿里旗下但主要面向东南亚，服务器主要在新加坡
+    - DOMAIN-SUFFIX   , metatrader4.com                                   # 外汇软件 (俄罗斯/国际)
+    - DOMAIN-SUFFIX   , metatrader5.com                                   # 外汇软件
+    - DOMAIN-SUFFIX   , microsoftonline.com                               # 微软在线服务 (美国)，隐私极度敏感 (Office/OneDrive 登录)
+    - DOMAIN-SUFFIX   , office.com                                        # 微软 Office
+    - DOMAIN-SUFFIX   , office.net                                        # 微软 Office
+    - DOMAIN-SUFFIX   , office365.com                                     # 微软 Office 365
+    - DOMAIN-SUFFIX   , officese.com                                      # 微软相关
+    - DOMAIN-SUFFIX   , onenote.net                                       # 微软 OneNote笔记
+    - DOMAIN-SUFFIX   , ooklaserver.net                                   # Speedtest 测速节点 (国际)
+    - DOMAIN-SUFFIX   , oppodigital.com                                   # OPPO 影音 (已停产，服务器多在海外)
+    - DOMAIN-SUFFIX   , oracle.com                                        # Oracle 甲骨文 (美国)
+    - DOMAIN-SUFFIX   , outlook.com                                       # 微软邮箱 (美国)，隐私极度敏感
+    - DOMAIN-SUFFIX   , pubghelper.com                                    # PUBG 绝地求生 (韩国)，国内通常需加速器
+    - DOMAIN-SUFFIX   , pubgtool.com                                      # PUBG 工具
+    - DOMAIN-SUFFIX   , sony.com                                          # 索尼 (日本/美国)
+    - DOMAIN-SUFFIX   , sonyentertainmentnetwork.com                      # 索尼 PSN 服务
+    - DOMAIN-SUFFIX   , supercell.com                                     # Supercell 游戏 (芬兰)
+    - DOMAIN-SUFFIX   , tawk.link                                         # 客服聊天插件 (国际)
+    - DOMAIN-SUFFIX   , tawk.to                                           # 客服聊天插件 (国际)
+    - DOMAIN-SUFFIX   , trello.com                                        # (列表未直接列出但注意 trellocdn)
+    - DOMAIN-SUFFIX   , trellocdn.com                                     # Trello 协作工具 (Atlassian, 澳大利亚/美国)
+    - DOMAIN-SUFFIX   , udacity.com                                       # 优达学城 (美国)
+    - DOMAIN-SUFFIX   , unity3d.com                                       # (注意列表可能有 Unity 相关)
+    - DOMAIN-SUFFIX   , visualstudio.com                                  # 微软开发工具
+    - DOMAIN-SUFFIX   , westlaw.com                                       # 法律数据库 (美国)
+    - DOMAIN-SUFFIX   , whatismyip.com                                    # IP 查询 (国际)，走国内 DNS 查不到你的真实出口 IP
+    - DOMAIN-SUFFIX   , windows.com                                       # 微软 Windows
+    - DOMAIN-SUFFIX   , windows.net                                       # 微软云服务/Azure
+    - DOMAIN-SUFFIX   , windowsupdate.com                                 # 微软更新
+    - DOMAIN-SUFFIX   , windowsupdate.microsoft.com                       # 微软更新
+    - DOMAIN-SUFFIX   , xbox.com                                          # 微软 Xbox
+    - DOMAIN-SUFFIX   , xboxlive.com                                      # 微软 Xbox Live
+    - DOMAIN-SUFFIX   , acm.org                                           # 计算机协会 (美国)
+    - DOMAIN-SUFFIX   , acs.org                                           # 化学学会 (美国)
+    - DOMAIN-SUFFIX   , ams.org                                           # 数学学会 (美国)
+    - DOMAIN-SUFFIX   , annualreviews.org                                 # 年度评论 (美国)
+    - DOMAIN-SUFFIX   , aps.org                                           # 物理学会 (美国)
+    - DOMAIN-SUFFIX   , ascelibrary.org                                   # 土木工程 (美国)
+    - DOMAIN-SUFFIX   , asm.org                                           # 微生物学会 (美国)
+    - DOMAIN-SUFFIX   , asme.org                                          # 机械工程 (美国)
+    - DOMAIN-SUFFIX   , astm.org                                          # 国际标准 (美国)
+    - DOMAIN-SUFFIX   , bmj.com                                           # 英国医学杂志 (英国)
+    - DOMAIN-SUFFIX   , cambridge.org                                     # 剑桥大学出版社 (英国)
+    - DOMAIN-SUFFIX   , cas.org                                           # 化学文摘社 (美国)
+    - DOMAIN-SUFFIX   , clarivate.com                                     # 科睿唯安 (Web of Science) (英国/美国)
+    - DOMAIN-SUFFIX   , engineeringvillage.com                            # 工程索引 (Elsevier, 荷兰/国际)
+    - DOMAIN-SUFFIX   , ieee.org                                          # 电气电子工程师学会 (美国)
+    - DOMAIN-SUFFIX   , imf.org                                           # 国际货币基金组织
+    - DOMAIN-SUFFIX   , iop.org                                           # 物理学会 (英国)
+    - DOMAIN-SUFFIX   , jamanetwork.com                                   # 美国医学会杂志
+    - DOMAIN-SUFFIX   , jhu.edu                                           # 约翰霍普金斯大学 (美国)
+    - DOMAIN-SUFFIX   , karger.com                                        # 医学出版 (瑞士)
+    - DOMAIN-SUFFIX   , mpg.de                                            # 马普所 (德国)
+    - DOMAIN-SUFFIX   , nature.com                                        # 自然杂志 (英国)
+    - DOMAIN-SUFFIX   , oecd-ilibrary.org                                 # 经合组织
+    - DOMAIN-SUFFIX   , osapublishing.org                                 # 光学学会 (美国)
+    - DOMAIN-SUFFIX   , oup.com                                           # 牛津大学出版社 (英国)
+    - DOMAIN-SUFFIX   , ovid.com                                          # 医学数据库 (美国)
+    - DOMAIN-SUFFIX   , oxfordartonline.com                               # 牛津艺术
+    - DOMAIN-SUFFIX   , oxfordbibliographies.com                          # 牛津参考书目
+    - DOMAIN-SUFFIX   , oxfordmusiconline.com                             # 牛津音乐
+    - DOMAIN-SUFFIX   , pnas.org                                          # 美国科学院院刊
+    - DOMAIN-SUFFIX   , proquest.com                                      # 学位论文数据库 (美国)
+    - DOMAIN-SUFFIX   , rsc.org                                           # 皇家化学会 (英国)
+    - DOMAIN-SUFFIX   , sagepub.com                                       # SAGE 出版 (美国)
+    - DOMAIN-SUFFIX   , sciencedirect.com                                 # Elsevier 数据库 (荷兰)
+    - DOMAIN-SUFFIX   , scopus.com                                        # 引用数据库 (荷兰)
+    - DOMAIN-SUFFIX   , siam.org                                          # 工业应用数学 (美国)
+    - DOMAIN-SUFFIX   , spiedigitallibrary.org                            # 光学工程 (美国)
+    - DOMAIN-SUFFIX   , springer.com                                      # 施普林格 (德国)
+    - DOMAIN-SUFFIX   , springerlink.com                                  # 施普林格数据库
+    - DOMAIN-SUFFIX   , tandfonline.com                                   # Taylor & Francis (英国)
+    - DOMAIN-SUFFIX   , un.org                                            # 联合国
+    - DOMAIN-SUFFIX   , uni-bielefeld.de                                  # 比勒费尔德大学 (德国)
+    - DOMAIN-SUFFIX   , webofknowledge.com                                # WoS 数据库
+    - DOMAIN-SUFFIX   , wiley.com                                         # Wiley 出版 (美国)
+    - DOMAIN-SUFFIX   , worldbank.org                                     # 世界银行
+    - DOMAIN-SUFFIX   , worldscientific.com                               # 世界科技出版 (新加坡)
+    - DOMAIN-SUFFIX   , broadcasthe.net                                   # PT 站 (BTN)
+    - DOMAIN-SUFFIX   , empornium.me                                      # PT 站
+    - DOMAIN-SUFFIX   , gazellegames.net                                  # PT 站 (Games)
+    - DOMAIN-SUFFIX   , hdbits.org                                        # PT 站 (顶级高清)
+    - DOMAIN-SUFFIX   , hdchina.org                                       # PT 站 (虽叫China，但域名和服务器常变动，建议走代理)
+    - DOMAIN-SUFFIX   , hdcmct.org                                        # PT 站
+    - DOMAIN-SUFFIX   , hddolby.com                                       # PT 站
+    - DOMAIN-SUFFIX   , hdhome.org                                        # PT 站
+    - DOMAIN-SUFFIX   , jpopsuki.eu                                       # PT 站 (日音)
+    - DOMAIN-SUFFIX   , m-team.cc                                         # (列表里可能有 mt 相关，注意检查)
+    - DOMAIN-SUFFIX   , ncore.cc                                          # PT 站
+    - DOMAIN-SUFFIX   , passthepopcorn.me                                 # PT 站 (电影)
+    - DOMAIN-SUFFIX   , privatehd.to                                      # PT 站
+    - DOMAIN-SUFFIX   , pterclub.com                                      # PT 站 (猫站)
+    - DOMAIN-SUFFIX   , redacted.ch                                       # PT 站 (音乐)
+    - DOMAIN-SUFFIX   , springsunday.net                                  # PT 站
+    - DOMAIN-SUFFIX   , totheglory.im                                     # PT 站 (TTG)
+    - DOMAIN-SUFFIX   , u2.dmhy.org                                       # (列表里没看到，但如果有幼儿园也要删)
+    - DOMAIN-SUFFIX   , zimuzu.io                                         # 字幕组 (敏感)
+    - DOMAIN-SUFFIX   , zimuzu.tv                                         # 字幕组
+    - DOMAIN-SUFFIX   , ctexcel.ca                                        # 中国电信加拿大 (海外业务)
+    - DOMAIN-SUFFIX   , ctexcel.fr                                        # 中国电信法国
+    - DOMAIN-SUFFIX   , ctexcel.us                                        # 中国电信美国
+    - DOMAIN-SUFFIX   , ctrip.co.id                                       # 携程印尼站
+    - DOMAIN-SUFFIX   , ctrip.co.kr                                       # 携程韩国站
+    - DOMAIN-SUFFIX   , ctrip.co.th                                       # 携程泰国站
+    - DOMAIN-SUFFIX   , ctrip.my                                          # 携程大马站
+    - DOMAIN-SUFFIX   , ctrip.sg                                          # 携程新加坡站
+    - DOMAIN-SUFFIX   , didiaustralia.blog                                # 滴滴澳洲
+    - DOMAIN-SUFFIX   , didimobility.co.jp                                # 滴滴日本
+    - DOMAIN-SUFFIX   , icbc-at.com                                       # 工行 奥地利
+    - DOMAIN-SUFFIX   , icbc-cz.com                                       # 工行 捷克
+    - DOMAIN-SUFFIX   , icbc-uk.com                                       # 工行 英国
+    - DOMAIN-SUFFIX   , icbc-us.com                                       # 工行 美国
+    - DOMAIN-SUFFIX   , icbc.ae                                           # 工行 阿联酋
+    - DOMAIN-SUFFIX   , icbc.be                                           # 工行 比利时
+    - DOMAIN-SUFFIX   , icbc.co.id                                        # 工行 印尼
+    - DOMAIN-SUFFIX   , icbc.co.jp                                        # 工行 日本
+    - DOMAIN-SUFFIX   , icbc.de                                           # 工行 德国
+    - DOMAIN-SUFFIX   , icbc.eu                                           # 工行 欧洲
+    - DOMAIN-SUFFIX   , icbc.lu                                           # 工行 卢森堡
+    - DOMAIN-SUFFIX   , jd.ru                                             # 京东 俄罗斯站
+    - DOMAIN-SUFFIX   , sinopec-usa.com                                   # 中石化 美国
+    - DOMAIN-SUFFIX   , tiktokd.net                                       # TikTok (海外抖音) - 必须移除
+    - DOMAIN-SUFFIX   , tiktokd.org                                       # TikTok - 必须移除
+    - DOMAIN-SUFFIX   , tmall.ru                                          # 天猫 俄罗斯
+    - DOMAIN          , images-cn.ssl-images-amazon.com                     # 亚马逊中国 CDN
+
