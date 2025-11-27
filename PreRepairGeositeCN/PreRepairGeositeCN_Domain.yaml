@@ -14,7 +14,6 @@ payload:
     - '+.browserleaks.com'                                 # 隐私检测网站 (国际)，走国内 DNS 会暴露你在测隐私
     - '+.bstatic.com'                                      # Booking.com 缤客 CDN (荷兰/美国)
     - '+.clashroyaleapp.com'                               # Clash Royale 皇室战争 (Supercell, 芬兰)
-    - '+.cloudflare-dns.com'                               # Cloudflare DoH 地址，绝对不能走国内 DNS
     - '+.crashlytics.com'                                  # Google 旗下的崩溃分析 (美国)，常被广告拦截误杀，建议走国外
     - '+.dockerone.com'                                    # (虽是国内社区，但 Docker 官方相关建议走代理)
     - '+.ford.com'                                         # 福特汽车 (美国)
@@ -149,7 +148,7 @@ payload:
     - '+.tiktokd.org'                                      # TikTok - 必须移除
     - '+.tmall.ru'                                         # 天猫 俄罗斯
     - 'images-cn.ssl-images-amazon.com'                    # 亚马逊中国 CDN
-    
+
     - 'cdn.angruo.com'                                     # Angruo是一个国际CDN/托管服务
     - 'cdn.lilyemby.com'                                   # LilyEmby是开源媒体服务器Emby的变体
     - 'kc.kexinshe.com'                                    # Kexinshe是国际设计/艺术平台
@@ -164,3 +163,15 @@ payload:
     - '+.055110.com'                                       # 国际电话/通信服务域名
     - '+.05sun.com'                                        # 国际科技/博客平台
     - '+.hotmail.com'                                      # 微软邮箱
+
+    - '+.animebytes.tv'                                    # AnimeBytes 是面向国际用户的私人动漫下载站点
+    - '+.animetorrents.me'                                 # 私人动漫 BT Tracker
+    - '+.awesome-hd.me'                                    # 私人高清影视下载站点
+    - '+.classix-unlimited.co.uk'                          # 英国的经典影视网站
+    - '+.rarbg.to'                                         # 公共 BT 索引站点（保加利亚）
+    - '+.morethan.tv'                                      # 面向国际用户的“ratio‑free”电视剧/电影 tracker
+    - '+.wol.tv'                                           # 美国休斯敦附近教会的宗教频道
+    - '+.icetorrent.org'                                   # 欧洲的私人 torrent 社区
+    - '+.api.crisp.chat'                                   # 法国在线客服 SaaS 
+    - '+.lwurl.to'                     
+    - '+.in.th'                    
