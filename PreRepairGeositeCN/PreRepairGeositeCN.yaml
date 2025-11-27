@@ -175,3 +175,5 @@ payload:
     - DOMAIN-SUFFIX   , api.crisp.chat                                    # 法国在线客服 SaaS 
     - DOMAIN-SUFFIX   , lwurl.to                      
     - DOMAIN-SUFFIX   , in.th   
+
+    - DOMAIN-SUFFIX   , ms 

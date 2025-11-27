@@ -174,4 +174,6 @@ payload:
     - DOMAIN-SUFFIX   , icetorrent.org                                    # 欧洲的私人 torrent 社区
     - DOMAIN-SUFFIX   , api.crisp.chat                                    # 法国在线客服 SaaS 
     - DOMAIN-SUFFIX   , lwurl.to                      
-    - DOMAIN-SUFFIX   , in.th                     
+    - DOMAIN-SUFFIX   , in.th   
+                      
+    - DOMAIN-SUFFIX   , ms                    

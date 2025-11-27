@@ -174,4 +174,6 @@ payload:
     - '+.icetorrent.org'                                   # 欧洲的私人 torrent 社区
     - '+.api.crisp.chat'                                   # 法国在线客服 SaaS 
     - '+.lwurl.to'                     
-    - '+.in.th'                    
+    - '+.in.th'             
+           
+    - '+.ms'                    
