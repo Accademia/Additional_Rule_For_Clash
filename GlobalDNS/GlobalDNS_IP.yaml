@@ -1,434 +1,407 @@
 payload:
 
-  - '1.0.0.1/32'                                     # Cloudflare
-  - '1.0.0.2/32'                                     # Cloudflare
-  - '1.0.0.3/32'                                     # Cloudflare
-  - '1.1.1.1/32'                                     # Cloudflare
-  - '1.1.1.2/32'                                     # Cloudflare
-  - '1.1.1.3/32'                                     # Cloudflare
-  - '4.2.2.1/32'                                     # Level3
-  - '4.2.2.2/32'                                     # Level3
-  - '4.2.2.3/32'                                     # Level3
-  - '4.2.2.4/32'                                     # Level3
-  - '4.2.2.5/32'                                     # Level3
-  - '4.2.2.6/32'                                     # Level3
-  - '5.1.66.255/32'                                  # doh.ffmuc.net
-  - '5.133.8.187/32'                                 # cryptostorm
-  - '5.254.96.195/32'                                # cryptostorm
-  - '8.8.4.4/32'                                     # Google
-  - '8.8.8.8/32'                                     # Google
-  - '8.20.247.20/32'                                 # Comodo
-  - '8.26.56.26/32'                                  # Comodo
-  - '9.9.9.9/32'                                     # Quad9
-  - '9.9.9.10/32'                                    # Quad9
-  - '9.9.9.11/32'                                    # Quad9
-  - '9.9.9.12/32'                                    # Quad9
-  - '12.159.2.159/32'                                # AT&T
-  - '13.49.175.86/32'                                # dns.brahma.world
-  - '13.89.120.251/32'                               # AT&T
-  - '13.89.121.94/32'                                # AT&T
-  - '13.89.121.95/32'                                # AT&T
-  - '20.42.80.15/32'                                 # AT&T
-  - '20.42.80.49/32'                                 # AT&T
-  - '23.19.67.116/32'                                # cryptostorm
-  - '27.255.77.56/32'                                # cryptostorm
-  - '35.230.160.38/32'                               # blockerDNS
-  - '35.231.247.227/32'                              # blockerDNS
-  - '35.237.220.84/32'                               # blockerDNS
-  - '35.245.234.132/32'                              # blockerDNS
-  - '37.120.147.2/32'                                # cryptostorm
-  - '40.76.112.230/32'                               # AT&T
-  - '45.11.45.11/32'                                 # DNS.SB
-  - '45.32.55.94/32'                                 # BlahDNS
-  - '45.63.30.163/32'                                # pi-dns.com
-  - '45.67.219.208/32'                               # pi-dns.com
-  - '45.76.113.31/32'                                # dns.seby.io
-  - '45.90.28.0/32'                                  # NextDNS
-  - '45.90.30.0/32'                                  # NextDNS
-  - '46.101.66.244/32'                               # doh.li
-  - '46.226.108.173/32'                              # Hostux
-  - '46.226.109.82/32'                               # Hostux
-  - '46.227.200.54/32'                               # faelix.net
-  - '46.227.200.55/32'                               # faelix.net
-  - '46.239.223.80/32'                               # dns.flatuslifir.is
-  - '51.15.70.167/32'                                # dns.larsdebruin.net
-  - '51.15.98.97/32'                                 # resolver.dnspoint.cloud
-  - '51.38.82.198/32'                                # dns.pumplex.com
-  - '51.38.83.141/32'                                # dns.oszx.co
-  - '51.79.68.177/32'                                # dns.okashi.me
-  - '51.158.147.50/32'                               # lelux.fi
-  - '62.75.198.178/32'                               # B-DNS
-  - '62.210.177.189/32'                              # iriseden.eu
-  - '62.210.180.71/32'                               # iriseden.eu
-  - '64.42.181.227/32'                               # cryptostorm
-  - '64.120.5.251/32'                                # cryptostorm
-  - '66.42.33.135/32'                                # pi-dns.com
-  - '66.244.159.100/32'                              # Tenta
-  - '66.244.159.200/32'                              # Tenta
-  - '74.82.42.42/32'                                 # Hurricane Electric
-  - '75.75.77.99/32'                                 # Xfinity
-  - '78.46.244.143/32'                               # BlahDNS
-  - '78.47.243.3/32'                                 # fische.io
-  - '80.67.188.188/32'                               # Lorraine Data Network
-  - '80.156.145.201/32'                              # dns.t53.de
-  - '81.17.31.34/32'                                 # cryptostorm
-  - '82.163.72.123/32'                               # cryptostorm
-  - '84.16.240.43/32'                                # cryptostorm
-  - '84.200.69.80/32'                                # DNS.WATCH
-  - '84.200.70.40/32'                                # DNS.WATCH
-  - '88.80.20.20/32'                                 # B-DNS
-  - '88.80.21.20/32'                                 # B-DNS
-  - '88.198.91.187/32'                               # pi-dns.com
-  - '89.163.214.174/32'                              # cryptostorm
-  - '89.233.43.71/32'                                # UncensoredDNS
-  - '89.234.186.112/32'                              # Neutopia
-  - '94.130.106.88/32'                               # appliedprivacy.net
-  - '94.130.110.178/32'                              # dnsprivacy.at
-  - '94.130.110.185/32'                              # dnsprivacy.at
-  - '94.140.14.14/32'                                # AdGuard DNS
-  - '94.140.14.15/32'                                # AdGuard DNS
-  - '94.140.14.140/32'                               # AdGuard DNS
-  - '94.140.14.141/32'                               # AdGuard DNS
-  - '94.140.15.15/32'                                # AdGuard DNS
-  - '94.140.15.16/32'                                # AdGuard DNS
-  - '94.247.43.254/32'                               # eth-services.de
-  - '95.216.24.230/32'                               # snopyta.org
-  - '95.216.181.228/32'                              # pi-dns.com
-  - '95.216.212.177/32'                              # BlahDNS
-  - '95.216.229.153/32'                              # snopyta.org
-  - '95.217.16.205/32'                               # dns.tin-fan.com
-  - '96.113.151.141/32'                              # Xfinity
-  - '96.113.151.142/32'                              # Xfinity
-  - '96.113.151.143/32'                              # Xfinity
-  - '96.113.151.145/32'                              # Xfinity
-  - '96.113.151.147/32'                              # Xfinity
-  - '96.113.151.148/32'                              # Xfinity
-  - '96.113.151.149/32'                              # Xfinity
-  - '96.113.151.150/32'                              # Xfinity
-  - '99.192.182.100/32'                              # Tenta
-  - '99.192.182.200/32'                              # Tenta
-  - '101.101.101.101/32'                             # Quad 101
-  - '101.102.103.104/32'                             # Quad 101
-  - '103.2.57.5/32'                                  # public.dns.iij.jp
-  - '103.2.57.6/32'                                  # public.dns.iij.jp
-  - '104.16.248.249/32'                              # Cloudflare
-  - '104.16.249.249/32'                              # Cloudflare
-  - '104.236.178.232/32'                             # dnsoverhttps.net
-  - '104.238.181.28/32'                              # NextDNS
-  - '104.238.186.192/32'                             # dnscrypt.uk
-  - '104.244.78.231/32'                              # NixNet
-  - '104.255.175.2/32'                               # cryptostorm
-  - '107.191.43.90/32'                               # dns.tin-fan.com
-  - '108.61.201.119/32'                              # BlahDNS
-  - '109.70.100.100/32'                              # Applied Privacy
-  - '109.71.42.228/32'                               # cryptostorm
-  - '109.248.149.133/32'                             # cryptostorm
-  - '116.202.176.26/32'                              # libredns.gr
-  - '116.203.179.248/32'                             # rumpelsepp.org
-  - '128.127.104.108/32'                             # cryptostorm
-  - '130.59.31.248/32'                               # dns.switch.ch
-  - '130.59.31.251/32'                               # dns.switch.ch
-  - '136.144.215.158/32'                             # PowerDNS
-  - '139.59.48.222/32'                               # captnemo.in
-  - '139.59.51.46/32'                                # dns.bitgeek.in
-  - '139.99.222.72/32'                               # dns.seby.io
-  - '139.162.3.123/32'                               # sg.gridns.xyz
-  - '139.162.112.47/32'                              # BlahDNS
-  - '139.180.141.57/32'                              # BlahDNS
-  - '142.4.204.111/32'                               # luggs.co
-  - '142.4.205.47/32'                                # luggs.co
-  - '143.110.229.87/32'                              # NextDNS
-  - '145.100.185.15/32'                              # Surfnet
-  - '145.100.185.16/32'                              # Surfnet
-  - '145.100.185.17/32'                              # Surfnet
-  - '145.100.185.18/32'                              # Surfnet
-  - '145.239.92.241/32'                              # dns.tin-fan.com
-  - '146.112.41.2/32'                                # OpenDNS
-  - '146.185.167.43/32'                              # SecureDNS
-  - '146.185.176.36/32'                              # phillymesh.net
-  - '146.255.56.98/32'                               # Applied Privacy
-  - '149.56.228.45/32'                               # dnscrypt.ca
-  - '149.112.112.9/32'                               # Quad9
-  - '149.112.112.10/32'                              # Quad9
-  - '149.112.112.11/32'                              # Quad9
-  - '149.112.112.12/32'                              # Quad9
-  - '149.112.112.112/32'                             # Quad9
-  - '149.154.153.153/32'                             # usableprivacy.net
-  - '151.80.222.79/32'                               # i2pd.xyz
-  - '155.138.240.237/32'                             # dns.tin-fan.com
-  - '155.254.29.113/32'                              # cryptostorm
-  - '158.64.1.29/32'                                 # Foundation RESTENA
-  - '159.69.198.101/32'                              # BlahDNS
-  - '162.221.207.228/32'                             # cryptostorm
-  - '163.172.180.125/32'                             # sfw.scaleway-fr
-  - '167.114.84.132/32'                              # cryptostorm
-  - '167.114.220.125/32'                             # dnscrypt.ca
-  - '168.138.243.216/32'                             # ibuki.cgnat.net
-  - '168.235.81.167/32'                              # aaflalo.me
-  - '172.104.93.80/32'                               # jp.tiar.app
-  - '172.105.241.93/32'                              # jp.gridns.xyz
-  - '173.234.56.115/32'                              # cryptostorm
-  - '173.234.159.235/32'                             # cryptostorm
-  - '174.68.248.77/32'                               # Cox
-  - '174.138.29.175/32'                              # doh.tiar.app
-  - '176.9.1.117/32'                                 # dnsforge.de
-  - '176.9.62.58/32'                                 # dnsforge.de
-  - '176.9.93.198/32'                                # dnsforge.de
-  - '176.9.199.158/32'                               # decloudus.com
-  - '176.56.236.175/32'                              # aaflalo.me
-  - '176.103.130.130/32'                             # AdGuard DNS
-  - '176.103.130.131/32'                             # AdGuard DNS
-  - '176.103.130.132/32'                             # AdGuard DNS
-  - '176.103.130.134/32'                             # AdGuard DNS
-  - '178.175.139.211/32'                             # cryptostorm
-  - '184.105.193.78/32'                              # OARC
-  - '185.26.126.14/32'                               # Hostux
-  - '185.26.126.37/32'                               # Hostux
-  - '185.43.135.1/32'                                # odvr.nic.cz
-  - '185.49.141.37/32'                               # getdnsapi.net
-  - '185.94.193.234/32'                              # cryptostorm
-  - '185.95.218.42/32'                               # dns.digitale-gesellschaft.ch
-  - '185.95.218.43/32'                               # dns.digitale-gesellschaft.ch
-  - '185.107.80.84/32'                               # cryptostorm
-  - '185.117.118.20/32'                              # cryptostorm
-  - '185.134.196.54/32'                              # faelix.net
-  - '185.134.197.54/32'                              # faelix.net
-  - '185.150.99.255/32'                              # doh.ffmuc.net
-  - '185.184.222.222/32'                             # dns.sb
-  - '185.212.169.139/32'                             # cryptostorm
-  - '185.213.26.187/32'                              # pi-dns.com
-  - '185.216.27.142/32'                              # doh.42l.fr
-  - '185.222.222.222/32'                             # dns.sb
-  - '185.228.168.9/32'                               # CleanBrowsing
-  - '185.228.168.10/32'                              # CleanBrowsing
-  - '185.228.168.168/32'                             # CleanBrowsing
-  - '185.228.168.199/32'                             # CleanBrowsing
-  - '185.228.169.9/32'                               # CleanBrowsing
-  - '185.228.169.11/32'                              # CleanBrowsing
-  - '185.228.169.168/32'                             # CleanBrowsing
-  - '185.235.81.1/32'                                # dnslify.com
-  - '185.235.81.2/32'                                # dnslify.com
-  - '190.115.26.106/32'                              # B-DNS
-  - '193.17.47.1/32'                                 # odvr.nic.cz
-  - '194.54.82.12/32'                                # B-DNS
-  - '194.54.82.13/32'                                # B-DNS
-  - '195.10.195.195/32'                              # eth-services.de
-  - '195.154.40.48/32'                               # cryptostorm
-  - '198.7.58.227/32'                                # cryptostorm
-  - '198.100.148.36/32'                              # boothlabs.me
-  - '198.100.148.224/32'                             # boothlabs.me
-  - '198.251.90.89/32'                               # NixNet
-  - '198.251.90.91/32'                               # NixNet
-  - '199.58.81.218/32'                               # dns.cmrg.net
-  - '199.195.251.84/32'                              # NixNet
-  - '200.1.123.46/32'                                # NIC Chile
-  - '208.67.220.220/32'                              # OpenDNS
-  - '208.67.222.222/32'                              # OpenDNS
-  - '209.58.147.36/32'                               # cryptostorm
-  - '209.141.34.95/32'                               # NixNet
-  - '210.17.9.228/32'                                # Quad 101
-  - '212.129.46.32/32'                               # cryptostorm
-  - '213.163.64.208/32'                              # cryptostorm
-  - '213.196.191.96/32'                              # ibksturm.synology.me
-  - '213.239.207.143/32'                             # PowerDNS
-  - '216.128.181.13/32'                              # dns.sb
-  - '217.61.0.97/32'                                 # BlahDNS
-  - '217.169.20.22/32'                               # dns.aa.net.uk
-  - '217.169.20.23/32'                               # dns.aa.net.uk
-  
-  - '2001:470:1c:76d::53/128'                        # dns.cmrg.net
-  - '2001:470:20::2/128'                             # Hurricane Electric
-  - '2001:470:1f15:b80::53/128'                      # i2pd.xyz
-  - '2001:558:fe21:6b:96:113:151:145/128'            # Xfinity
-  - '2001:558:fe21:6b:96:113:151:147/128'            # Xfinity
-  - '2001:610:1:40ba:145:100:185:15/128'             # Surfnet
-  - '2001:610:1:40ba:145:100:185:16/128'             # Surfnet
-  - '2001:610:1:40ba:145:100:185:17/128'             # Surfnet
-  - '2001:610:1:40ba:145:100:185:18/128'             # Surfnet
-  - '2001:620:0:ff::2/128'                           # dns.switch.ch
-  - '2001:620:0:ff::3/128'                           # dns.switch.ch
-  - '2001:678:e68:f000::/128'                        # doh.ffmuc.net
-  - '2001:678:ed0:f000::/128'                        # doh.ffmuc.net
-  - '2001:67c:27e4::35/128'                          # Go6Lab
-  - '2001:913::8/128'                                # Lorraine Data Network
-  - '2001:a18:1::29/128'                             # Foundation RESTENA
-  - '2001:bc8:2db9:100::/128'                        # lelux.fi
-  - '2001:bc8:32d7:307::301/128'                     # iriseden.eu
-  - '2001:bc8:32d7:308::201/128'                     # iriseden.eu
-  - '2001:c50:ffff:1:101:101:101:101/128'            # Quad 101
-  - '2001:de4::101/128'                              # Quad 101
-  - '2001:de4::102/128'                              # Quad 101
-  - '2001:1398:1:0:200:1:123:46/128'                 # NIC Chile
-  - '2001:148f:fffe::1/128'                          # odvr.nic.cz
-  - '2001:148f:ffff::1/128'                          # odvr.nic.cz
-  - '2001:19f0:5:6012:5400:2ff:fe60:7579/128'        # dns.tin-fan.com
-  - '2001:19f0:5801:b7c::1/128'                      # pi-dns.com
-  - '2001:19f0:6401:b3d:5400:2ff:fe5a:fb9f/128'      # dns.tin-fan.com
-  - '2001:19f0:7001:1ded:5400:1ff:fe90:945b/128'     # BlahDNS
-  - '2001:19f0:7001:225d::1/128'                     # pi-dns.com
-  - '2001:19f0:7001:3259:5400:2ff:fe71:bc9/128'      # BlahDNS
-  - '2001:41d0:601:1100::3485/128'                   # dns.tin-fan.com
-  - '2001:41d0:801:2000::d64/128'                    # dns.oszx.co
-  - '2001:41d0:801:2000::1b28/128'                   # dns.pumplex.com
-  - '2001:4860:4860::8844/128'                       # Google
-  - '2001:4860:4860::8888/128'                       # Google
-  - '2001:4b98:dc2:43:216:3eff:fe75:cd60/128'        # Hostux
-  - '2001:4b98:dc2:43:216:3eff:fe86:1d28/128'        # Hostux
-  - '2001:4b98:dc2:43:216:3eff:fea9:41a/128'         # Yeti
-  - '2400:6180:0:d0::5f73:4001/128'                  # doh.tiar.app
-  - '2400:8902::f03c:91ff:feda:c514/128'             # jp.tiar.app
-  - '2604:180:f3::42/128'                            # aaflalo.me
-  - '2606:4700::6810:f8f9/128'                       # Cloudflare
-  - '2606:4700::6810:f9f9/128'                       # Cloudflare
-  - '2606:4700:3031::6818:798e/128'                  # BlahDNS
-  - '2606:4700:3033::681b:9eb2/128'                  # dns.sb
-  - '2606:4700:3033::ac43:9650/128'                  # dns.sb
-  - '2606:4700:3034::681c:16a/128'                   # doh.crypto.sx
-  - '2606:4700:3035::6818:788e/128'                  # BlahDNS
-  - '2606:4700:3035::681b:9fb2/128'                  # dns.sb
-  - '2606:4700:3036::681c:6a/128'                    # doh.crypto.sx
-  - '2606:4700:4700::1001/128'                       # Cloudflare
-  - '2606:4700:4700::1111/128'                       # Cloudflare
-  - '2606:4700:4700::1112/128'                       # Cloudflare
-  - '2607:5300:60:be0::1/128'                        # boothlabs.me
-  - '2607:5300:120:a8a:142:4:204:111/128'            # luggs.co
-  - '2607:5300:120:a8a:142:4:205:47/128'             # luggs.co
-  - '2607:5300:205:200::ed3/128'                     # dns.okashi.me
-  - '2620:fe::9/128'                                 # Quad9
-  - '2620:fe::10/128'                                # Quad9
-  - '2620:fe::11/128'                                # Quad9
-  - '2620:fe::fe/128'                                # Quad9
-  - '2620:fe::fe:9/128'                              # Quad9
-  - '2620:fe::fe:10/128'                             # Quad9
-  - '2620:fe::fe:11/128'                             # Quad9
-  - '2620:ff:c000:0:1:0:64:25/128'                   # OARC
-  - '2620:119:fc::2/128'                             # OpenDNS
-  - '2a00:5884:8209::2/128'                          # Neutopia
-  - '2a00:5a60::ad1:ff/128'                          # AdGuard DNS
-  - '2a00:5a60::ad2:ff/128'                          # AdGuard DNS
-  - '2a00:5a60::bad1:ff/128'                         # AdGuard DNS
-  - '2a00:5a60::bad2:ff/128'                         # AdGuard DNS
-  - '2a00:d880:5:bf0::7c93/128'                      # aaflalo.me
-  - '2a00:f826:8:1::254/128'                         # eth-services.de
-  - '2a00:f826:8:2::195/128'                         # eth-services.de
-  - '2a01:3a0:53:53::/128'                           # UncensoredDNS
-  - '2a01:4f8:141:316d::117/128'                     # dnsforge.de
-  - '2a01:4f8:151:11b0::3/128'                       # decloudus.com
-  - '2a01:4f8:151:34aa::198/128'                     # dnsforge.de
-  - '2a01:4f8:c0c:3bfc::2/128'                       # dnsprivacy.at
-  - '2a01:4f8:c0c:3c03::2/128'                       # dnsprivacy.at
-  - '2a01:4f8:c17:ec67::1/128'                       # BlahDNS
-  - '2a01:4f8:1c0c:80c9::1/128'                      # fische.io
-  - '2a01:4f8:1c0c:8233::1/128'                      # pi-dns.com
-  - '2a01:4f8:1c1c:6b4b::1/128'                      # BlahDNS
-  - '2a01:4f9:2a:1919::21/128'                       # snopyta.org
-  - '2a01:4f9:2a:1919::9301/128'                     # snopyta.org
-  - '2a01:4f9:c010:43ce::1/128'                      # BlahDNS
-  - '2a01:4f9:c010:6093::3485/128'                   # dns.tin-fan.com
-  - '2a01:4f9:c01f:4::abcd/128'                      # pi-dns.com
-  - '2a01:7c8:d002:1ef:5054:ff:fe40:3703/128'        # PowerDNS
-  - '2a01:9e00::54/128'                              # faelix.net
-  - '2a01:9e00::55/128'                              # faelix.net
-  - '2a01:9e01::54/128'                              # faelix.net
-  - '2a01:9e01::55/128'                              # faelix.net
-  - '2a03:a140:10:2461::1/128'                       # BlahDNS
-  - '2a03:b0c0:0:1010::1a7:c001/128'                 # phillymesh.net
-  - '2a03:b0c0:0:1010::e9a:3001/128'                 # SecureDNS
-  - '2a03:e600:100::53:1/128'                        # appliedprivacy.net
-  - '2a04:b900:0:100::37/128'                        # getdnsapi.net
-  - '2a04:bdc7:100:70::abcd/128'                     # pi-dns.com
-  - '2a05:d016:af8:4000:7710:6fc:bde3:fe0e/128'      # dns.brahma.world
-  - '2a05:fc84::42/128'                              # dns.digitale-gesellschaft.ch
-  - '2a05:fc84::43/128'                              # dns.digitale-gesellschaft.ch
-  - '2a07:a8c0::/128'                                # NextDNS
-  - '2a07:a8c1::/128'                                # NextDNS
-  - '2a09::/128'                                     # dns.sb
-  - '2a09::1/128'                                    # dns.sb
-  - '2a0d:2a00:1::/128'                              # CleanBrowsing
-  - '2a0d:2a00:1::1/128'                             # CleanBrowsing
-  - '2a0d:2a00:1::2/128'                             # CleanBrowsing
-  - '2a0d:2a00:2::/128'                              # CleanBrowsing
-  - '2a0d:2a00:2::1/128'                             # CleanBrowsing
-  - '2a0d:2a00:2::2/128'                             # CleanBrowsing
-  - '2a0d:5600:33:3::abcd/128'                       # pi-dns.com
-  - '2a10:50c0::1:ff/128'                            # AdGuard DNS
-  - '2a10:50c0::2:ff/128'                            # AdGuard DNS
-  - '2a10:50c0::ad1:ff/128'                          # AdGuard DNS
-  - '2a10:50c0::ad2:ff/128'                          # AdGuard DNS
-  - '2a10:50c0::bad1:ff/128'                         # AdGuard DNS
-  - '2a10:50c0::bad2:ff/128'                         # AdGuard DNS
-
-
-  - '76.76.2.11/32'                                   # https://controld.com/free-dns
-  - '76.76.10.11/32'                                  # https://controld.com/free-dns
-  - '2606:1a40::11/128'                               # https://controld.com/free-dns
-  - '2606:1a40:1::11/128'                             # https://controld.com/free-dns
-
-  # -------------------
-  # 新增：DNSFilter
-  # -------------------
-  - '103.247.36.9/32'                                 # DNSFilter
-  - '103.247.36.36/32'                                # DNSFilter
-  - '103.247.36.150/32'                               # DNSFilter
-  - '103.247.37.9/32'                                 # DNSFilter
-  - '103.247.37.37/32'                                # DNSFilter
-  - '103.247.37.150/32'                               # DNSFilter
-
-  # SafeDNS
-  - '195.46.39.39/32'                                 # SafeDNS
-  - '195.46.39.40/32'                                 # SafeDNS
-
-  # SafeServe DNS (Namecheap)
-  - '198.54.117.10/32'                                # SafeServe DNS
-  - '198.54.117.11/32'                                # SafeServe DNS
-
-  # DefensX
-  - '3.33.220.70/32'                                  # DefensX
-  - '3.33.218.70/32'                                  # DefensX
-
-  # DNS4EU IPv4
-  - '86.54.11.1/32'                                   # DNS4EU Protective
-  - '86.54.11.201/32'                                 # DNS4EU Protective
-  - '86.54.11.12/32'                                  # DNS4EU Child
-  - '86.54.11.212/32'                                 # DNS4EU Child
-  - '86.54.11.13/32'                                  # DNS4EU No-Ads
-  - '86.54.11.213/32'                                 # DNS4EU No-Ads
-  - '86.54.11.11/32'                                  # DNS4EU Child + No-Ads
-  - '86.54.11.211/32'                                 # DNS4EU Child + No-Ads
-  - '86.54.11.100/32'                                 # DNS4EU Unfiltered
-  - '86.54.11.200/32'                                 # DNS4EU Unfiltered
-
-  # DNS4EU IPv6
-  - '2a13:1001::86:54:11:1/128'                       # DNS4EU Protective
-  - '2a13:1001::86:54:11:201/128'                     # DNS4EU Protective
-  - '2a13:1001::86:54:11:12/128'                      # DNS4EU Child
-  - '2a13:1001::86:54:11:212/128'                     # DNS4EU Child
-  - '2a13:1001::86:54:11:13/128'                      # DNS4EU No-Ads
-  - '2a13:1001::86:54:11:213/128'                     # DNS4EU No-Ads
-  - '2a13:1001::86:54:11:11/128'                      # DNS4EU Child + No-Ads
-  - '2a13:1001::86:54:11:211/128'                     # DNS4EU Child + No-Ads
-  - '2a13:1001::86:54:11:100/128'                     # DNS4EU Unfiltered
-  - '2a13:1001::86:54:11:200/128'                     # DNS4EU Unfiltered
-
-  # Chunghwa Telecom (中华电信 HiNet，国外处理)
-  - '168.95.1.1/32'                                   # Chunghwa Telecom (HiNet)
-  - '168.95.192.1/32'                                 # Chunghwa Telecom (HiNet)
-
-  # Deutsche Telekom
-  - '217.0.43.50/32'                                  # Deutsche Telekom
-
-  # Spectrum
-  - '24.240.146.8/32'                                 # Spectrum DoH
-  - '2600:6c7f:f000:202::8/128'                       # Spectrum DoH
-
-  # Liquid Telecom 公共 DNS
-  - '5.11.11.5/32'                                    # Liquid Telecom
-  - '5.11.11.11/32'                                   # Liquid Telecom
-
-  # Aire Networks（西班牙）
-  - '5.83.75.10/32'                                   # Aire Networks
-  - '84.232.73.171/32'                                # Aire Networks
-  - '88.148.19.98/32'                                 # Aire Networks
+  - '8.8.4.4/32'                                 # Google
+  - '8.8.8.8/32'                                 # Google
+  - '2001:4860:4860::8844/128'                   # Google
+  - '2001:4860:4860::8888/128'                   # Google
+  - '1.0.0.1/32'                                 # Cloudflare
+  - '1.0.0.2/32'                                 # Cloudflare
+  - '1.0.0.3/32'                                 # Cloudflare
+  - '1.1.1.1/32'                                 # Cloudflare
+  - '1.1.1.2/32'                                 # Cloudflare
+  - '1.1.1.3/32'                                 # Cloudflare
+  - '104.16.248.249/32'                          # Cloudflare
+  - '104.16.249.249/32'                          # Cloudflare
+  - '2606:4700:4700::1001/128'                   # Cloudflare
+  - '2606:4700:4700::1111/128'                   # Cloudflare
+  - '2606:4700:4700::1112/128'                   # Cloudflare
+  - '2606:4700::6810:f8f9/128'                   # Cloudflare
+  - '2606:4700::6810:f9f9/128'                   # Cloudflare
+  - '149.112.112.10/32'                          # Quad9
+  - '149.112.112.11/32'                          # Quad9
+  - '149.112.112.112/32'                         # Quad9
+  - '149.112.112.12/32'                          # Quad9
+  - '149.112.112.9/32'                           # Quad9
+  - '9.9.9.10/32'                                # Quad9
+  - '9.9.9.11/32'                                # Quad9
+  - '9.9.9.12/32'                                # Quad9
+  - '9.9.9.9/32'                                 # Quad9
+  - '2620:fe::10/128'                            # Quad9
+  - '2620:fe::11/128'                            # Quad9
+  - '2620:fe::9/128'                             # Quad9
+  - '2620:fe::fe/128'                            # Quad9
+  - '2620:fe::fe:10/128'                         # Quad9
+  - '2620:fe::fe:11/128'                         # Quad9
+  - '2620:fe::fe:9/128'                          # Quad9
+  - '146.112.41.2/32'                            # OpenDNS
+  - '208.67.220.220/32'                          # OpenDNS
+  - '208.67.222.222/32'                          # OpenDNS
+  - '2620:119:fc::2/128'                         # OpenDNS
+  - '176.103.130.130/32'                         # AdGuard DNS
+  - '176.103.130.131/32'                         # AdGuard DNS
+  - '176.103.130.132/32'                         # AdGuard DNS
+  - '176.103.130.134/32'                         # AdGuard DNS
+  - '94.140.14.14/32'                            # AdGuard DNS
+  - '94.140.14.140/32'                           # AdGuard DNS
+  - '94.140.14.141/32'                           # AdGuard DNS
+  - '94.140.14.15/32'                            # AdGuard DNS
+  - '94.140.15.15/32'                            # AdGuard DNS
+  - '94.140.15.16/32'                            # AdGuard DNS
+  - '2a00:5a60::ad1:ff/128'                      # AdGuard DNS
+  - '2a00:5a60::ad2:ff/128'                      # AdGuard DNS
+  - '2a00:5a60::bad1:ff/128'                     # AdGuard DNS
+  - '2a00:5a60::bad2:ff/128'                     # AdGuard DNS
+  - '2a10:50c0::1:ff/128'                        # AdGuard DNS
+  - '2a10:50c0::2:ff/128'                        # AdGuard DNS
+  - '2a10:50c0::ad1:ff/128'                      # AdGuard DNS
+  - '2a10:50c0::ad2:ff/128'                      # AdGuard DNS
+  - '2a10:50c0::bad1:ff/128'                     # AdGuard DNS
+  - '2a10:50c0::bad2:ff/128'                     # AdGuard DNS
+  - '104.238.181.28/32'                          # NextDNS
+  - '143.110.229.87/32'                          # NextDNS
+  - '45.90.28.0/32'                              # NextDNS
+  - '45.90.30.0/32'                              # NextDNS
+  - '2a07:a8c0::/128'                            # NextDNS
+  - '2a07:a8c1::/128'                            # NextDNS
+  - '185.228.168.10/32'                          # CleanBrowsing
+  - '185.228.168.168/32'                         # CleanBrowsing
+  - '185.228.168.199/32'                         # CleanBrowsing
+  - '185.228.168.9/32'                           # CleanBrowsing
+  - '185.228.169.11/32'                          # CleanBrowsing
+  - '185.228.169.168/32'                         # CleanBrowsing
+  - '185.228.169.9/32'                           # CleanBrowsing
+  - '2a0d:2a00:1::/128'                          # CleanBrowsing
+  - '2a0d:2a00:1::1/128'                         # CleanBrowsing
+  - '2a0d:2a00:1::2/128'                         # CleanBrowsing
+  - '2a0d:2a00:2::/128'                          # CleanBrowsing
+  - '2a0d:2a00:2::1/128'                         # CleanBrowsing
+  - '2a0d:2a00:2::2/128'                         # CleanBrowsing
+  - '4.2.2.1/32'                                 # Level3
+  - '4.2.2.2/32'                                 # Level3
+  - '4.2.2.3/32'                                 # Level3
+  - '4.2.2.4/32'                                 # Level3
+  - '4.2.2.5/32'                                 # Level3
+  - '4.2.2.6/32'                                 # Level3
+  - '185.184.222.222/32'                         # dns.sb
+  - '185.222.222.222/32'                         # dns.sb
+  - '216.128.181.13/32'                          # dns.sb
+  - '45.11.45.11/32'                             # DNS.SB
+  - '2606:4700:3033::681b:9eb2/128'              # dns.sb
+  - '2606:4700:3033::ac43:9650/128'              # dns.sb
+  - '2606:4700:3035::681b:9fb2/128'              # dns.sb
+  - '2a09::/128'                                 # dns.sb
+  - '2a09::1/128'                                # dns.sb
+  - '84.200.69.80/32'                            # DNS.WATCH
+  - '84.200.70.40/32'                            # DNS.WATCH
+  - '89.233.43.71/32'                            # UncensoredDNS
+  - '2a01:3a0:53:53::/128'                       # UncensoredDNS
+  - '75.75.77.99/32'                             # Xfinity
+  - '96.113.151.141/32'                          # Xfinity
+  - '96.113.151.142/32'                          # Xfinity
+  - '96.113.151.143/32'                          # Xfinity
+  - '96.113.151.145/32'                          # Xfinity
+  - '96.113.151.147/32'                          # Xfinity
+  - '96.113.151.148/32'                          # Xfinity
+  - '96.113.151.149/32'                          # Xfinity
+  - '96.113.151.150/32'                          # Xfinity
+  - '2001:558:fe21:6b:96:113:151:145/128'        # Xfinity
+  - '2001:558:fe21:6b:96:113:151:147/128'        # Xfinity
+  - '12.159.2.159/32'                            # AT&T
+  - '13.89.120.251/32'                           # AT&T
+  - '13.89.121.94/32'                            # AT&T
+  - '13.89.121.95/32'                            # AT&T
+  - '20.42.80.15/32'                             # AT&T
+  - '20.42.80.49/32'                             # AT&T
+  - '40.76.112.230/32'                           # AT&T
+  - '101.101.101.101/32'                         # Quad 101
+  - '101.102.103.104/32'                         # Quad 101
+  - '210.17.9.228/32'                            # Quad 101
+  - '2001:c50:ffff:1:101:101:101:101/128'        # Quad 101
+  - '2001:de4::101/128'                          # Quad 101
+  - '2001:de4::102/128'                          # Quad 101
+  - '168.95.1.1/32'                              # Chunghwa Telecom (HiNet)
+  - '168.95.192.1/32'                            # Chunghwa Telecom (HiNet)
+  - '217.0.43.50/32'                             # Deutsche Telekom
+  - '24.240.146.8/32'                            # Spectrum DoH
+  - '2600:6c7f:f000:202::8/128'                  # Spectrum DoH
+  - '74.82.42.42/32'                             # Hurricane Electric
+  - '2001:470:20::2/128'                         # Hurricane Electric
+  - '136.144.215.158/32'                         # PowerDNS
+  - '213.239.207.143/32'                         # PowerDNS
+  - '2a01:7c8:d002:1ef:5054:ff:fe40:3703/128'    # PowerDNS
+  - '200.1.123.46/32'                            # NIC Chile
+  - '2001:1398:1:0:200:1:123:46/128'             # NIC Chile
+  - '66.244.159.100/32'                          # Tenta
+  - '66.244.159.200/32'                          # Tenta
+  - '99.192.182.100/32'                          # Tenta
+  - '99.192.182.200/32'                          # Tenta
+  - '103.247.36.150/32'                          # DNSFilter
+  - '103.247.36.36/32'                           # DNSFilter
+  - '103.247.36.9/32'                            # DNSFilter
+  - '103.247.37.150/32'                          # DNSFilter
+  - '103.247.37.37/32'                           # DNSFilter
+  - '103.247.37.9/32'                            # DNSFilter
+  - '195.46.39.39/32'                            # SafeDNS
+  - '195.46.39.40/32'                            # SafeDNS
+  - '198.54.117.10/32'                           # SafeServe DNS
+  - '198.54.117.11/32'                           # SafeServe DNS
+  - '3.33.218.70/32'                             # DefensX
+  - '3.33.220.70/32'                             # DefensX
+  - '76.76.10.11/32'                             # https://controld.com/free-dns
+  - '76.76.2.11/32'                              # https://controld.com/free-dns
+  - '2606:1a40:1::11/128'                        # https://controld.com/free-dns
+  - '2606:1a40::11/128'                          # https://controld.com/free-dns
+  - '116.202.176.26/32'                          # libredns.gr
+  - '168.235.81.167/32'                          # aaflalo.me
+  - '176.56.236.175/32'                          # aaflalo.me
+  - '2604:180:f3::42/128'                        # aaflalo.me
+  - '2a00:d880:5:bf0::7c93/128'                  # aaflalo.me
+  - '5.83.75.10/32'                              # Aire Networks
+  - '84.232.73.171/32'                           # Aire Networks
+  - '88.148.19.98/32'                            # Aire Networks
+  - '109.70.100.100/32'                          # Applied Privacy
+  - '146.255.56.98/32'                           # Applied Privacy
+  - '94.130.106.88/32'                           # appliedprivacy.net
+  - '2a03:e600:100::53:1/128'                    # appliedprivacy.net
+  - '190.115.26.106/32'                          # B-DNS
+  - '194.54.82.12/32'                            # B-DNS
+  - '194.54.82.13/32'                            # B-DNS
+  - '62.75.198.178/32'                           # B-DNS
+  - '88.80.20.20/32'                             # B-DNS
+  - '88.80.21.20/32'                             # B-DNS
+  - '108.61.201.119/32'                          # BlahDNS
+  - '139.162.112.47/32'                          # BlahDNS
+  - '139.180.141.57/32'                          # BlahDNS
+  - '159.69.198.101/32'                          # BlahDNS
+  - '217.61.0.97/32'                             # BlahDNS
+  - '45.32.55.94/32'                             # BlahDNS
+  - '78.46.244.143/32'                           # BlahDNS
+  - '95.216.212.177/32'                          # BlahDNS
+  - '2001:19f0:7001:1ded:5400:1ff:fe90:945b/128' # BlahDNS
+  - '2001:19f0:7001:3259:5400:2ff:fe71:bc9/128'  # BlahDNS
+  - '2606:4700:3031::6818:798e/128'              # BlahDNS
+  - '2606:4700:3035::6818:788e/128'              # BlahDNS
+  - '2a01:4f8:1c1c:6b4b::1/128'                  # BlahDNS
+  - '2a01:4f8:c17:ec67::1/128'                   # BlahDNS
+  - '2a01:4f9:c010:43ce::1/128'                  # BlahDNS
+  - '2a03:a140:10:2461::1/128'                   # BlahDNS
+  - '35.230.160.38/32'                           # blockerDNS
+  - '35.231.247.227/32'                          # blockerDNS
+  - '35.237.220.84/32'                           # blockerDNS
+  - '35.245.234.132/32'                          # blockerDNS
+  - '198.100.148.224/32'                         # boothlabs.me
+  - '198.100.148.36/32'                          # boothlabs.me
+  - '2607:5300:60:be0::1/128'                    # boothlabs.me
+  - '139.59.48.222/32'                           # captnemo.in
+  - '8.20.247.20/32'                             # Comodo
+  - '8.26.56.26/32'                              # Comodo
+  - '174.68.248.77/32'                           # Cox
+  - '104.255.175.2/32'                           # cryptostorm
+  - '109.248.149.133/32'                         # cryptostorm
+  - '109.71.42.228/32'                           # cryptostorm
+  - '128.127.104.108/32'                         # cryptostorm
+  - '155.254.29.113/32'                          # cryptostorm
+  - '162.221.207.228/32'                         # cryptostorm
+  - '167.114.84.132/32'                          # cryptostorm
+  - '173.234.159.235/32'                         # cryptostorm
+  - '173.234.56.115/32'                          # cryptostorm
+  - '178.175.139.211/32'                         # cryptostorm
+  - '185.107.80.84/32'                           # cryptostorm
+  - '185.117.118.20/32'                          # cryptostorm
+  - '185.212.169.139/32'                         # cryptostorm
+  - '185.94.193.234/32'                          # cryptostorm
+  - '195.154.40.48/32'                           # cryptostorm
+  - '198.7.58.227/32'                            # cryptostorm
+  - '209.58.147.36/32'                           # cryptostorm
+  - '212.129.46.32/32'                           # cryptostorm
+  - '213.163.64.208/32'                          # cryptostorm
+  - '23.19.67.116/32'                            # cryptostorm
+  - '27.255.77.56/32'                            # cryptostorm
+  - '37.120.147.2/32'                            # cryptostorm
+  - '5.133.8.187/32'                             # cryptostorm
+  - '5.254.96.195/32'                            # cryptostorm
+  - '64.120.5.251/32'                            # cryptostorm
+  - '64.42.181.227/32'                           # cryptostorm
+  - '81.17.31.34/32'                             # cryptostorm
+  - '82.163.72.123/32'                           # cryptostorm
+  - '84.16.240.43/32'                            # cryptostorm
+  - '89.163.214.174/32'                          # cryptostorm
+  - '176.9.199.158/32'                           # decloudus.com
+  - '2a01:4f8:151:11b0::3/128'                   # decloudus.com
+  - '217.169.20.22/32'                           # dns.aa.net.uk
+  - '217.169.20.23/32'                           # dns.aa.net.uk
+  - '139.59.51.46/32'                            # dns.bitgeek.in
+  - '13.49.175.86/32'                            # dns.brahma.world
+  - '2a05:d016:af8:4000:7710:6fc:bde3:fe0e/128'  # dns.brahma.world
+  - '199.58.81.218/32'                           # dns.cmrg.net
+  - '2001:470:1c:76d::53/128'                    # dns.cmrg.net
+  - '185.95.218.42/32'                           # dns.digitale-gesellschaft.ch
+  - '185.95.218.43/32'                           # dns.digitale-gesellschaft.ch
+  - '2a05:fc84::42/128'                          # dns.digitale-gesellschaft.ch
+  - '2a05:fc84::43/128'                          # dns.digitale-gesellschaft.ch
+  - '46.239.223.80/32'                           # dns.flatuslifir.is
+  - '51.15.70.167/32'                            # dns.larsdebruin.net
+  - '51.79.68.177/32'                            # dns.okashi.me
+  - '2607:5300:205:200::ed3/128'                 # dns.okashi.me
+  - '51.38.83.141/32'                            # dns.oszx.co
+  - '2001:41d0:801:2000::d64/128'                # dns.oszx.co
+  - '51.38.82.198/32'                            # dns.pumplex.com
+  - '2001:41d0:801:2000::1b28/128'               # dns.pumplex.com
+  - '139.99.222.72/32'                           # dns.seby.io
+  - '45.76.113.31/32'                            # dns.seby.io
+  - '130.59.31.248/32'                           # dns.switch.ch
+  - '130.59.31.251/32'                           # dns.switch.ch
+  - '2001:620:0:ff::2/128'                       # dns.switch.ch
+  - '2001:620:0:ff::3/128'                       # dns.switch.ch
+  - '80.156.145.201/32'                          # dns.t53.de
+  - '107.191.43.90/32'                           # dns.tin-fan.com
+  - '145.239.92.241/32'                          # dns.tin-fan.com
+  - '155.138.240.237/32'                         # dns.tin-fan.com
+  - '95.217.16.205/32'                           # dns.tin-fan.com
+  - '2001:19f0:5:6012:5400:2ff:fe60:7579/128'    # dns.tin-fan.com
+  - '2001:19f0:6401:b3d:5400:2ff:fe5a:fb9f/128'  # dns.tin-fan.com
+  - '2001:41d0:601:1100::3485/128'               # dns.tin-fan.com
+  - '2a01:4f9:c010:6093::3485/128'               # dns.tin-fan.com
+  - '86.54.11.12/32'                             # DNS4EU Child
+  - '86.54.11.212/32'                            # DNS4EU Child
+  - '2a13:1001::86:54:11:12/128'                 # DNS4EU Child
+  - '2a13:1001::86:54:11:212/128'                # DNS4EU Child
+  - '86.54.11.11/32'                             # DNS4EU Child + No-Ads
+  - '86.54.11.211/32'                            # DNS4EU Child + No-Ads
+  - '2a13:1001::86:54:11:11/128'                 # DNS4EU Child + No-Ads
+  - '2a13:1001::86:54:11:211/128'                # DNS4EU Child + No-Ads
+  - '86.54.11.13/32'                             # DNS4EU No-Ads
+  - '86.54.11.213/32'                            # DNS4EU No-Ads
+  - '2a13:1001::86:54:11:13/128'                 # DNS4EU No-Ads
+  - '2a13:1001::86:54:11:213/128'                # DNS4EU No-Ads
+  - '86.54.11.1/32'                              # DNS4EU Protective
+  - '86.54.11.201/32'                            # DNS4EU Protective
+  - '2a13:1001::86:54:11:1/128'                  # DNS4EU Protective
+  - '2a13:1001::86:54:11:201/128'                # DNS4EU Protective
+  - '86.54.11.100/32'                            # DNS4EU Unfiltered
+  - '86.54.11.200/32'                            # DNS4EU Unfiltered
+  - '2a13:1001::86:54:11:100/128'                # DNS4EU Unfiltered
+  - '2a13:1001::86:54:11:200/128'                # DNS4EU Unfiltered
+  - '149.56.228.45/32'                           # dnscrypt.ca
+  - '167.114.220.125/32'                         # dnscrypt.ca
+  - '104.238.186.192/32'                         # dnscrypt.uk
+  - '176.9.1.117/32'                             # dnsforge.de
+  - '176.9.62.58/32'                             # dnsforge.de
+  - '176.9.93.198/32'                            # dnsforge.de
+  - '2a01:4f8:141:316d::117/128'                 # dnsforge.de
+  - '2a01:4f8:151:34aa::198/128'                 # dnsforge.de
+  - '185.235.81.1/32'                            # dnslify.com
+  - '185.235.81.2/32'                            # dnslify.com
+  - '104.236.178.232/32'                         # dnsoverhttps.net
+  - '94.130.110.178/32'                          # dnsprivacy.at
+  - '94.130.110.185/32'                          # dnsprivacy.at
+  - '2a01:4f8:c0c:3bfc::2/128'                   # dnsprivacy.at
+  - '2a01:4f8:c0c:3c03::2/128'                   # dnsprivacy.at
+  - '185.216.27.142/32'                          # doh.42l.fr
+  - '2606:4700:3034::681c:16a/128'               # doh.crypto.sx
+  - '2606:4700:3036::681c:6a/128'                # doh.crypto.sx
+  - '185.150.99.255/32'                          # doh.ffmuc.net
+  - '5.1.66.255/32'                              # doh.ffmuc.net
+  - '2001:678:e68:f000::/128'                    # doh.ffmuc.net
+  - '2001:678:ed0:f000::/128'                    # doh.ffmuc.net
+  - '46.101.66.244/32'                           # doh.li
+  - '174.138.29.175/32'                          # doh.tiar.app
+  - '2400:6180:0:d0::5f73:4001/128'              # doh.tiar.app
+  - '195.10.195.195/32'                          # eth-services.de
+  - '94.247.43.254/32'                           # eth-services.de
+  - '2a00:f826:8:1::254/128'                     # eth-services.de
+  - '2a00:f826:8:2::195/128'                     # eth-services.de
+  - '185.134.196.54/32'                          # faelix.net
+  - '185.134.197.54/32'                          # faelix.net
+  - '46.227.200.54/32'                           # faelix.net
+  - '46.227.200.55/32'                           # faelix.net
+  - '2a01:9e00::54/128'                          # faelix.net
+  - '2a01:9e00::55/128'                          # faelix.net
+  - '2a01:9e01::54/128'                          # faelix.net
+  - '2a01:9e01::55/128'                          # faelix.net
+  - '78.47.243.3/32'                             # fische.io
+  - '2a01:4f8:1c0c:80c9::1/128'                  # fische.io
+  - '158.64.1.29/32'                             # Foundation RESTENA
+  - '2001:a18:1::29/128'                         # Foundation RESTENA
+  - '185.49.141.37/32'                           # getdnsapi.net
+  - '2a04:b900:0:100::37/128'                    # getdnsapi.net
+  - '2001:67c:27e4::35/128'                      # Go6Lab
+  - '185.26.126.14/32'                           # Hostux
+  - '185.26.126.37/32'                           # Hostux
+  - '46.226.108.173/32'                          # Hostux
+  - '46.226.109.82/32'                           # Hostux
+  - '2001:4b98:dc2:43:216:3eff:fe75:cd60/128'    # Hostux
+  - '2001:4b98:dc2:43:216:3eff:fe86:1d28/128'    # Hostux
+  - '151.80.222.79/32'                           # i2pd.xyz
+  - '2001:470:1f15:b80::53/128'                  # i2pd.xyz
+  - '213.196.191.96/32'                          # ibksturm.synology.me
+  - '168.138.243.216/32'                         # ibuki.cgnat.net
+  - '62.210.177.189/32'                          # iriseden.eu
+  - '62.210.180.71/32'                           # iriseden.eu
+  - '2001:bc8:32d7:307::301/128'                 # iriseden.eu
+  - '2001:bc8:32d7:308::201/128'                 # iriseden.eu
+  - '172.105.241.93/32'                          # jp.gridns.xyz
+  - '172.104.93.80/32'                           # jp.tiar.app
+  - '2400:8902::f03c:91ff:feda:c514/128'         # jp.tiar.app
+  - '51.158.147.50/32'                           # lelux.fi
+  - '2001:bc8:2db9:100::/128'                    # lelux.fi
+  - '5.11.11.11/32'                              # Liquid Telecom
+  - '5.11.11.5/32'                               # Liquid Telecom
+  - '80.67.188.188/32'                           # Lorraine Data Network
+  - '2001:913::8/128'                            # Lorraine Data Network
+  - '142.4.204.111/32'                           # luggs.co
+  - '142.4.205.47/32'                            # luggs.co
+  - '2607:5300:120:a8a:142:4:204:111/128'        # luggs.co
+  - '2607:5300:120:a8a:142:4:205:47/128'         # luggs.co
+  - '89.234.186.112/32'                          # Neutopia
+  - '2a00:5884:8209::2/128'                      # Neutopia
+  - '104.244.78.231/32'                          # NixNet
+  - '198.251.90.89/32'                           # NixNet
+  - '198.251.90.91/32'                           # NixNet
+  - '199.195.251.84/32'                          # NixNet
+  - '209.141.34.95/32'                           # NixNet
+  - '184.105.193.78/32'                          # OARC
+  - '2620:ff:c000:0:1:0:64:25/128'               # OARC
+  - '185.43.135.1/32'                            # odvr.nic.cz
+  - '193.17.47.1/32'                             # odvr.nic.cz
+  - '2001:148f:fffe::1/128'                      # odvr.nic.cz
+  - '2001:148f:ffff::1/128'                      # odvr.nic.cz
+  - '146.185.176.36/32'                          # phillymesh.net
+  - '2a03:b0c0:0:1010::1a7:c001/128'             # phillymesh.net
+  - '185.213.26.187/32'                          # pi-dns.com
+  - '45.63.30.163/32'                            # pi-dns.com
+  - '45.67.219.208/32'                           # pi-dns.com
+  - '66.42.33.135/32'                            # pi-dns.com
+  - '88.198.91.187/32'                           # pi-dns.com
+  - '95.216.181.228/32'                          # pi-dns.com
+  - '2001:19f0:5801:b7c::1/128'                  # pi-dns.com
+  - '2001:19f0:7001:225d::1/128'                 # pi-dns.com
+  - '2a01:4f8:1c0c:8233::1/128'                  # pi-dns.com
+  - '2a01:4f9:c01f:4::abcd/128'                  # pi-dns.com
+  - '2a04:bdc7:100:70::abcd/128'                 # pi-dns.com
+  - '2a0d:5600:33:3::abcd/128'                   # pi-dns.com
+  - '103.2.57.5/32'                              # public.dns.iij.jp
+  - '103.2.57.6/32'                              # public.dns.iij.jp
+  - '51.15.98.97/32'                             # resolver.dnspoint.cloud
+  - '116.203.179.248/32'                         # rumpelsepp.org
+  - '146.185.167.43/32'                          # SecureDNS
+  - '2a03:b0c0:0:1010::e9a:3001/128'             # SecureDNS
+  - '163.172.180.125/32'                         # sfw.scaleway-fr
+  - '139.162.3.123/32'                           # sg.gridns.xyz
+  - '95.216.229.153/32'                          # snopyta.org
+  - '95.216.24.230/32'                           # snopyta.org
+  - '2a01:4f9:2a:1919::21/128'                   # snopyta.org
+  - '2a01:4f9:2a:1919::9301/128'                 # snopyta.org
+  - '145.100.185.15/32'                          # Surfnet
+  - '145.100.185.16/32'                          # Surfnet
+  - '145.100.185.17/32'                          # Surfnet
+  - '145.100.185.18/32'                          # Surfnet
+  - '2001:610:1:40ba:145:100:185:15/128'         # Surfnet
+  - '2001:610:1:40ba:145:100:185:16/128'         # Surfnet
+  - '2001:610:1:40ba:145:100:185:17/128'         # Surfnet
+  - '2001:610:1:40ba:145:100:185:18/128'         # Surfnet
+  - '149.154.153.153/32'                         # usableprivacy.net
+  - '2001:4b98:dc2:43:216:3eff:fea9:41a/128'     # Yeti
 
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
