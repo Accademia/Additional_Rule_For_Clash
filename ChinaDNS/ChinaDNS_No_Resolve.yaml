@@ -5,8 +5,8 @@ payload:
   # -------------------
 
   - DOMAIN-SUFFIX  , dns.cn                                                 # CNNIC / 公共递归门户
-  - IP-CIDR        , 1.2.4.8/32                                             # CNNIC SDNS
-  - IP-CIDR        , 210.2.4.8/32                                           # CNNIC SDNS
+  - IP-CIDR        , 1.2.4.8/32                         , no-resolve        # CNNIC SDNS
+  - IP-CIDR        , 210.2.4.8/32                       , no-resolve        # CNNIC SDNS
   - IP-CIDR6       , 2001:dc7:1000::1/64                , no-resolve        # CNNIC IPv6 DNS
 
   # 114DNS 公共递归 DNS
