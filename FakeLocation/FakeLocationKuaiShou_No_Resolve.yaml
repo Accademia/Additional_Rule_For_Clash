@@ -10,88 +10,89 @@
    #       并且快手在后台期间，不能切换VPN，不然也会获取IP失效（显示IP为国内）。
    #       唯一的解决方法，就是打开备注中所有的IP规则（不推荐，会导致使用国外CDN加载视频 !!! ）
 
-    - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                          , REJRCT-DROP    # 
-#   - DOMAIN-KEYWORD , jomodns.com                                                      # 
-#   - DOMAIN-KEYWORD , ovscdns.net                                                      # 
+   # 疑似：如果屏蔽了HTTPDNS，可能会导致IP归属地修改失败？
 
-
+#   - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                          , REJRCT-DROP    # 
+#  #- DOMAIN-KEYWORD , jomodns.com                                                      # 
+#  #- DOMAIN-KEYWORD , ovscdns.net                                                      # 
+#
+#
     - DOMAIN-KEYWORD , gifshow.com                                                      #                   
     - DOMAIN-KEYWORD , ksapisrv.com                                                     #   
-                      
-
-    - DOMAIN-KEYWORD , kuaishou.cn                                                      #  
-    - DOMAIN-KEYWORD , kuaishou.com                                                     #                                        
-   #- DOMAIN-KEYWORD , open.kuaishou.com                                                #                                                      
-   #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com                                     #                              
-   #- DOMAIN-KEYWORD , img-w.kuaishou.com                                               #     
- 
-    - DOMAIN-KEYWORD , kwaizt.com                                                       # 
-    - DOMAIN-KEYWORD , kuaishouzt.com                                                   #                                             
-   #- DOMAIN-KEYWORD , api.kuaishouzt.com                                               #     
-#   
-    - DOMAIN-KEYWORD , kskwai.com                                                       #   
+#                     
 #
-    - DOMAIN-KEYWORD , inkuai.com                                                       #                                                    
-    - DOMAIN-KEYWORD , inkwai.com                                                       #      
-                                                   
-   #- DOMAIN-KEYWORD , eckwai.com                                                       #      # CDN
-   #- DOMAIN-KEYWORD , shukwai.com                                                      #      # CDN
-   #- DOMAIN-KEYWORD , wsukwai.com                                                      #      # CDN
-   #- DOMAIN-KEYWORD , kwimgs.com                                                       #      # CDN
-   #- DOMAIN-KEYWORD , yximgs.com                                                       #      # CDN       static.yximgs.com    
+#   - DOMAIN-KEYWORD , kuaishou.cn                                                      #  
+#   - DOMAIN-KEYWORD , kuaishou.com                                                     #                                        
+#  #- DOMAIN-KEYWORD , open.kuaishou.com                                                #                                                      
+#  #- DOMAIN-KEYWORD , traffic-monitor.kuaishou.com                                     #                              
+#  #- DOMAIN-KEYWORD , img-w.kuaishou.com                                               #     
+#
+#   - DOMAIN-KEYWORD , kwaizt.com                                                       # 
+#   - DOMAIN-KEYWORD , kuaishouzt.com                                                   #                                             
+#  #- DOMAIN-KEYWORD , api.kuaishouzt.com                                               #     
+#   
+#   - DOMAIN-KEYWORD , kskwai.com                                                       #   
+#
+#   - DOMAIN-KEYWORD , inkuai.com                                                       #                                                    
+#   - DOMAIN-KEYWORD , inkwai.com                                                       #      
+#                                                  
+#  #- DOMAIN-KEYWORD , eckwai.com                                                       #      # CDN
+#  #- DOMAIN-KEYWORD , shukwai.com                                                      #      # CDN
+#  #- DOMAIN-KEYWORD , wsukwai.com                                                      #      # CDN
+#  #- DOMAIN-KEYWORD , kwimgs.com                                                       #      # CDN
+#  #- DOMAIN-KEYWORD , yximgs.com                                                       #      # CDN       static.yximgs.com    
 #  #- DOMAIN-KEYWORD , kwaicdn.com                                                      #      # CDN
 #
-#   - DOMAIN-KEYWORD , kwai                                                             # 
-#   - DOMAIN-KEYWORD , bdydns.com                                                       # 
-#   - DOMAIN-KEYWORD , xxpkg.com                                                        # 
+#  #- DOMAIN-KEYWORD , kwai                                                             # 
+#  #- DOMAIN-KEYWORD , bdydns.com                                                       # 
+#  #- DOMAIN-KEYWORD , xxpkg.com                                                        # 
 #
-
 #
-    - IP-CIDR        , 103.102.200.0/22                            , no-resolve         #  
-    - IP-CIDR        , 103.107.200.0/22                            , no-resolve         #  
-    - IP-CIDR        , 103.107.216.0/22                            , no-resolve         #  
-    
-    - IP-CIDR        , 103.167.26.0/23                             , no-resolve         #   快手新加坡全资子公司
-
+#   - IP-CIDR        , 103.102.200.0/22                            , no-resolve         #  
+#   - IP-CIDR        , 103.107.200.0/22                            , no-resolve         #  
+#   - IP-CIDR        , 103.107.216.0/22                            , no-resolve         #  
+#   
+#   - IP-CIDR        , 103.167.26.0/23                             , no-resolve         #   快手新加坡全资子公司
+#
 #  #- IP-CIDR        , 103.107.216.0/22                            , no-resolve         #        
 #
-#   - IP-CIDR        , 103.107.217.0/24                            , no-resolve         #   
-#   - IP-CIDR        , 103.167.27.143/32                           , no-resolve         #    
-#   - IP-CIDR        , 103.214.22.128/32                           , no-resolve         #   
+#  #- IP-CIDR        , 103.107.217.0/24                            , no-resolve         #   
+#  #- IP-CIDR        , 103.167.27.143/32                           , no-resolve         #    
+#  #- IP-CIDR        , 103.214.22.128/32                           , no-resolve         #   
 #
-#   - IP-CIDR        , 116.136.162.0/24                            , no-resolve         #   
-#   - IP-CIDR        , 116.131.56.0/24                             , no-resolve         #  
-#   - IP-CIDR        , 116.114.190.0/24                            , no-resolve         #      
-#   - IP-CIDR        , 115.54.17.0/24                              , no-resolve         #   
+#  #- IP-CIDR        , 116.136.162.0/24                            , no-resolve         #   
+#  #- IP-CIDR        , 116.131.56.0/24                             , no-resolve         #  
+#  #- IP-CIDR        , 116.114.190.0/24                            , no-resolve         #      
+#  #- IP-CIDR        , 115.54.17.0/24                              , no-resolve         #   
+#  #   
+#  #- IP-CIDR        , 123.103.115.0/24                            , no-resolve         #      
+#  #- IP-CIDR        , 106.74.44.0/24                              , no-resolve         #       
+#  #- IP-CIDR        , 222.134.66.0/24                             , no-resolve         #    
+#  # 
+#  #- IP-CIDR        , 218.60.56.0/24                              , no-resolve         #  
+#
+#  #- IP-CIDR        , 117.161.124.0/24                            , no-resolve         #  
+#
+#  #- IP-CIDR        , 113.219.195.100                             , no-resolve         #  
+#  #- IP-CIDR        , 113.96.142.0/24                             , no-resolve         # 
+#  #- IP-CIDR        , 180.163.136.0/24                            , no-resolve         # 
+#
+#  #- IP-CIDR        , 103.107.216.0/22                            , no-resolve         #         
+#        
+#  #- IP-CIDR        , 39.136.99.0/24                              , no-resolve         #      
+#  #- IP-CIDR        , 39.136.116.0/24                             , no-resolve         #                    
+#  #- IP-CIDR        , 39.136.140.0/24                             , no-resolve         #                 
+#  #- IP-CIDR        , 162.159.200.0/24                            , no-resolve         #                     
+#  #- IP-CIDR        , 163.181.129.0/24                            , no-resolve         #       
+#  #- IP-CIDR        , 103.186.118.0/24                            , no-resolve         #       
+#  
+#  #- IP-CIDR        , 111.161.126.226/24                          , no-resolve         #   
+#  #- IP-CIDR        , 112.19.242.77/24                            , no-resolve         # 
+#  #- IP-CIDR        , 60.28.2.40/24                               , no-resolve         # 
+#
+#  #- IP-CIDR        , 123.138.49.18/24                            , no-resolve         # 
 #      
-#   - IP-CIDR        , 123.103.115.0/24                            , no-resolve         #      
-#   - IP-CIDR        , 106.74.44.0/24                              , no-resolve         #       
-#   - IP-CIDR        , 222.134.66.0/24                             , no-resolve         #    
-#    
-#   - IP-CIDR        , 218.60.56.0/24                              , no-resolve         #  
-#
-#   - IP-CIDR        , 117.161.124.0/24                            , no-resolve         #  
-#
-#   - IP-CIDR        , 113.219.195.100                             , no-resolve         #  
-#   - IP-CIDR        , 113.96.142.0/24                             , no-resolve         # 
-#   - IP-CIDR        , 180.163.136.0/24                            , no-resolve         # 
-#
-#   - IP-CIDR        , 103.107.216.0/22                            , no-resolve         #         
 #          
-#   - IP-CIDR        , 39.136.99.0/24                              , no-resolve         #      
-#   - IP-CIDR        , 39.136.116.0/24                             , no-resolve         #                    
-#   - IP-CIDR        , 39.136.140.0/24                             , no-resolve         #                 
-#   - IP-CIDR        , 162.159.200.0/24                            , no-resolve         #                     
-#   - IP-CIDR        , 163.181.129.0/24                            , no-resolve         #       
-#   - IP-CIDR        , 103.186.118.0/24                            , no-resolve         #       
-#   
-#   - IP-CIDR        , 111.161.126.226/24                          , no-resolve         #   
-#   - IP-CIDR        , 112.19.242.77/24                            , no-resolve         # 
-#   - IP-CIDR        , 60.28.2.40/24                               , no-resolve         # 
-#
-#   - IP-CIDR        , 123.138.49.18/24                            , no-resolve         # 
-       
-           
 #  #- IP-CIDR        , 39.136.99.0/24                              , no-resolve         #      
 #  #- IP-CIDR        , 39.136.116.0/24                             , no-resolve         #                    
 #  #- IP-CIDR        , 39.136.140.0/24                             , no-resolve         #                 
