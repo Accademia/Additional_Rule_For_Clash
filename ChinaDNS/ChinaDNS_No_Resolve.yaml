@@ -1,328 +1,93 @@
 payload:
 
   # -------------------
-  # 中国DNS
+  # 中国DNS（公共递归 DNS / DoH / DoT）
   # -------------------
+
+  - DOMAIN-SUFFIX  , dns.cn                                                 # CNNIC / 公共递归门户
+  - IP-CIDR        , 1.2.4.8/32                                             # CNNIC SDNS
+  - IP-CIDR        , 210.2.4.8/32                                           # CNNIC SDNS
+  - IP-CIDR6       , 2001:dc7:1000::1/64                , no-resolve        # CNNIC IPv6 DNS
+
+  # 114DNS 公共递归 DNS
+  - DOMAIN         , dns.114dns.com                                         # 114DNS - DoH（dns.114dns.com/dns-query）
+  - DOMAIN         , doh.114dns.com                                         # 114DNS - DoH（doh.114dns.com/dns-query）
+  - DOMAIN-SUFFIX  , dns114.cn                                              # 114DNS - DoT（tls.dns114.cn 等）
+  - IP-CIDR        , 114.114.114.114/32                 , no-resolve        # 114DNS
+  - IP-CIDR        , 114.114.115.115/32                 , no-resolve        # 114DNS
+
+  # 阿里云公共 DNS
+  - DOMAIN         , dns.alidns.com                                         # 阿里云 - DoH/DoT（dns.alidns.com）
+  - IP-CIDR        , 223.5.5.5/32                                           # AliDNS 公共 DNS
+  - IP-CIDR        , 223.6.6.6/32                                           # AliDNS 公共 DNS
+  - IP-CIDR6       , 2400:3200::1/64                                        # AliDNS IPv6
+  - IP-CIDR6       , 2400:3200:baba::1/64                                   # AliDNS IPv6
+
+  # 腾讯 DNSPod 公共 DNS
+  - DOMAIN         , dns.pub                                                # 腾讯 DNSPod - DoH / JSON 接口
+  - DOMAIN         , doh.pub                                                # 腾讯 DNSPod - DoH
+  - DOMAIN         , sm2.doh.pub                                            # 腾讯 DNSPod - DoH（SM2 国密）
+  - DOMAIN         , dot.pub                                                # 腾讯 DNSPod - DoT
+  - IP-CIDR        , 119.29.29.29/32                    , no-resolve        # DNSPod Public DNS+
+  - IP-CIDR        , 119.28.28.28/32                    , no-resolve        # DNSPod Public DNS+
+  - IP-CIDR        , 182.254.116.116/32                 , no-resolve        # DNSPod Public DNS+
+  - IP-CIDR        , 182.254.118.118/32                 , no-resolve        # DNSPod Public DNS+
+  - IP-CIDR6       , 2402:4e00::/64                     , no-resolve        # DNSPod IPv6 公共 DNS
+  - IP-CIDR        , 1.12.12.12/32                      , no-resolve        # DNSPod - DoH/DoT 节点
+  - IP-CIDR        , 120.53.53.53/32                    , no-resolve        # DNSPod - DoH/DoT 节点
+
+  # 百度公共 DNS
+  - DOMAIN         , dns.baidu.com                                          # 百度公共 DNS - JSON/DoH
+  - DOMAIN         , doh.baidu.com                                          # 百度公共 DNS - DoH
+  - DOMAIN         , dot.baidu.com                                          # 百度公共 DNS - DoT
+  - IP-CIDR        , 180.76.76.76/32                    , no-resolve        # Baidu 公共 DNS
+  - IP-CIDR6       , 2400:da00::6666/64                 , no-resolve        # Baidu 公共 DNS IPv6
+
+  # 360 安全公共 DNS
+  - DOMAIN         , dns.360.cn                                             # 360 公共 DNS - DNS/DoH
+  - DOMAIN         , doh.360.cn                                             # 360 公共 DNS - DoH
+  - DOMAIN         , dot.360.cn                                             # 360 公共 DNS - DoT
+  - DOMAIN         , dns.360.net                                            # 360 公共 DNS - 备用域名
+  - DOMAIN         , doh.360.net                                            # 360 公共 DNS - DoH 备用
+  - DOMAIN         , dot.360.net                                            # 360 公共 DNS - DoT 备用
+  - IP-CIDR        , 101.198.198.198/32                 , no-resolve        # 360 安全 DNS / DoH 引导
+  - IP-CIDR        , 101.198.199.200/32                 , no-resolve        # 360 安全 DNS / DoH 引导
+  - IP-CIDR        , 101.226.4.6/32                     , no-resolve        # 360 / DNS派 公共 DNS
+  - IP-CIDR        , 218.30.118.6/32                    , no-resolve        # 360 / DNS派 公共 DNS
+  - IP-CIDR        , 123.125.81.6/32                    , no-resolve        # 360 / DNS派 公共 DNS
+  - IP-CIDR        , 140.207.198.6/32                   , no-resolve        # 360 / DNS派 公共 DNS
+
+  # OneDNS 公共 DNS
+  - DOMAIN         , doh.onedns.net                                         # OneDNS - DoH（拦截版）
+  - DOMAIN         , doh-pure.onedns.net                                    # OneDNS - DoH（纯净版）
+  - DOMAIN         , dot.onedns.net                                         # OneDNS - DoT（拦截版）
+  - DOMAIN         , dot-pure.onedns.net                                    # OneDNS - DoT（纯净版）
+  - IP-CIDR        , 117.50.11.11/32                    , no-resolve        # OneDNS 拦截版
+  - IP-CIDR        , 117.50.22.22/32                    , no-resolve        # OneDNS 拦截版
+  - IP-CIDR        , 117.50.10.10/32                    , no-resolve        # OneDNS 纯净版
+  - IP-CIDR        , 117.50.20.20/32                    , no-resolve        # OneDNS 纯净版
+  - IP-CIDR        , 52.80.52.52/32                     , no-resolve        # OneDNS 纯净版
+  - IP-CIDR        , 52.80.66.66/32                     , no-resolve        # OneDNS 拦截版
+  - IP-CIDR        , 112.124.47.27/32                   , no-resolve        # OneDNS 旧版南方节点
+  - IP-CIDR        , 114.215.126.16/32                  , no-resolve        # OneDNS 旧版北方节点
+  - IP-CIDR6       , 2400:7fc0:849e:200::8/128          , no-resolve        # OneDNS IPv6 纯净版
+  - IP-CIDR6       , 2404:c2c0:85d8:901::8/128          , no-resolve        # OneDNS IPv6 纯净版
+  - IP-CIDR6       , 2400:7fc0:849e:200::4/128          , no-resolve        # OneDNS IPv6 拦截版
+  - IP-CIDR6       , 2404:c2c0:85d8:901::4/128          , no-resolve        # OneDNS IPv6 拦截版
+
+  # SDNS / CFIEC（国家/学术网络公共 DNS，含加密解析）
+  - DOMAIN         , dot.sdns.cn                                            # SDNS - CNNIC - DoT
+  - DOMAIN         , dns.cfiec.net                                          # CFIEC 公共 DNS - DoH/DoT
+  - IP-CIDR6       , 240c::6666/64                      , no-resolve        # CFIEC IPv6 Public DNS
+  - IP-CIDR6       , 240c::6644/64                      , no-resolve        # CFIEC IPv6 Public DNS
+
+
+  # 红鱼 Rubyfish 公共加密 DNS（DoH / DoT）
+  - IP-CIDR        , 118.89.110.78/32                   , no-resolve        # Rubyfish 公共 DNS - DoH/DoT 节点
+  - IP-CIDR        , 47.96.179.163/32                   , no-resolve        # Rubyfish 公共 DNS - DoH/DoT 节点
+  - IP-CIDR        , 115.159.131.230/32                 , no-resolve        # Rubyfish 公共 DNS - DoT 节点
+
+  # TUNA
+  - IP-CIDR        , 101.6.6.6/32                       , no-resolve        # TUNA DNS（教育网，半公共）
+  - IP-CIDR6       , 2001:da8::666/128                  , no-resolve        # TUNA DNS IPv6（教育网，半公共）
   
-  - DOMAIN-SUFFIX  , dns.cn                                                               # CNNIC
-  - DOMAIN-SUFFIX  , dns.114dns.com                                                       # 114
-  - DOMAIN-SUFFIX  , dot.114dns.com                                                       # 114
-  - DOMAIN-SUFFIX  , doh.114dns.com                                                       # 114
-  - DOMAIN-SUFFIX  , httpdns.114dns.com                                                   # 114
-  - DOMAIN-SUFFIX  , dns.huawei.com                                                       # 华为
-  - DOMAIN-SUFFIX  , doh.huawei.com                                                       # 华为
-  - DOMAIN-SUFFIX  , dot.huawei.com                                                       # 华为
-  - DOMAIN-SUFFIX  , httpdns.huawei.com                                                   # 华为
-  - DOMAIN-SUFFIX  , dns.huaweicloud.com                                                  # 华为云
-  - DOMAIN-SUFFIX  , doh.huaweicloud.com                                                  # 华为云
-  - DOMAIN-SUFFIX  , dot.huaweicloud.com                                                  # 华为云
-  - DOMAIN-SUFFIX  , httpdns.huaweicloud.com                                              # 华为云
-  - DOMAIN-SUFFIX  , dns.mi.com                                                           # 小米
-  - DOMAIN-SUFFIX  , doh.mi.com                                                           # 小米
-  - DOMAIN-SUFFIX  , dot.mi.com                                                           # 小米
-  - DOMAIN-SUFFIX  , httpdns.mi.com                                                       # 小米
-  - DOMAIN-SUFFIX  , dns.oppo.com                                                         # Oppo
-  - DOMAIN-SUFFIX  , doh.oppo.com                                                         # Oppo
-  - DOMAIN-SUFFIX  , dot.oppo.com                                                         # Oppo
-  - DOMAIN-SUFFIX  , httpdns.oppo.com                                                     # Oppo
-  - DOMAIN-SUFFIX  , dns.vivo.com                                                         # Vivo
-  - DOMAIN-SUFFIX  , doh.vivo.com                                                         # Vivo
-  - DOMAIN-SUFFIX  , dot.vivo.com                                                         # Vivo
-  - DOMAIN-SUFFIX  , httpdns.vivo.com                                                     # Vivo
-  - DOMAIN-SUFFIX  , dns.alicdn.com                                                       # 阿里云
-  - DOMAIN-SUFFIX  , doh.alicdn.com                                                       # 阿里云
-  - DOMAIN-SUFFIX  , dnt.alicdn.com                                                       # 阿里云
-  - DOMAIN-SUFFIX  , httpdns.alicdn.com                                                   # 阿里云
-  - DOMAIN-SUFFIX  , dns.aliyun.com                                                       # 阿里云 
-  - DOMAIN-SUFFIX  , doh.aliyun.com                                                       # 阿里云 
-  - DOMAIN-SUFFIX  , dot.aliyun.com                                                       # 阿里云 
-  - DOMAIN-SUFFIX  , httpdns.aliyun.com                                                   # 阿里云 
-  - DOMAIN-SUFFIX  , dns.aliyuncs.com                                                     # 阿里云 
-  - DOMAIN-SUFFIX  , doh.aliyuncs.com                                                     # 阿里云 
-  - DOMAIN-SUFFIX  , dot.aliyuncs.com                                                     # 阿里云 
-  - DOMAIN-SUFFIX  , httpdns.aliyuncs.com                                                 # 阿里云 
-  - DOMAIN-SUFFIX  , httpdns-api.aliyuncs.com                                             # 阿里云 
-  - DOMAIN-SUFFIX  , httpdns-sc.aliyuncs.com                                              # 阿里云 
-  - DOMAIN-SUFFIX  , httpdns.console.aliyun.com                                           # 阿里云  
-  - DOMAIN-SUFFIX  , httpdns.kg.qq.com                                                    # 腾讯云
-  - DOMAIN-SUFFIX  , httpdns.weixin.qq.com                                                # 腾讯云
-  - DOMAIN-SUFFIX  , httpdns.weixin.qq.com.cn                                             # 腾讯云   
-  - DOMAIN-SUFFIX  , dns.tencent.com                                                      # 腾讯云  
-  - DOMAIN-SUFFIX  , doh.tencent.com                                                      # 腾讯云  
-  - DOMAIN-SUFFIX  , dot.tencent.com                                                      # 腾讯云   
-  - DOMAIN-SUFFIX  , httpdns.tencent.com                                                  # 腾讯云        
-  - DOMAIN-SUFFIX  , dns.pub                                                              # 腾讯云      
-  - DOMAIN-SUFFIX  , doh.pub                                                              # 腾讯云
-  - DOMAIN-SUFFIX  , dot.pub                                                              # 腾讯云
-  - DOMAIN-SUFFIX  , httpdns.pub                                                          # 腾讯云
-  - DOMAIN-SUFFIX  , pdns.dnspod.cn                                                       # 腾讯云    
-  - DOMAIN-SUFFIX  , dns.dnspod.cn                                                        # 腾讯云  
-  - DOMAIN-SUFFIX  , doh.dnspod.cn                                                        # 腾讯云  
-  - DOMAIN-SUFFIX  , dot.dnspod.cn                                                        # 腾讯云   
-  - DOMAIN-SUFFIX  , httpdns.dnspod.cn                                                    # 腾讯云     
-  - DOMAIN-SUFFIX  , dns.baidu.com                                                        # 百度  
-  - DOMAIN-SUFFIX  , doh.baidu.com                                                        # 百度  
-  - DOMAIN-SUFFIX  , dot.baidu.com                                                        # 百度   
-  - DOMAIN-SUFFIX  , httpdns.baidu.com                                                    # 百度    
-  - DOMAIN-SUFFIX  , dns.360.cn                                                           # 360    
-  - DOMAIN-SUFFIX  , doh.360.cn                                                           # 360    
-  - DOMAIN-SUFFIX  , dot.360.cn                                                           # 360  
-  - DOMAIN-SUFFIX  , httpdns.360.cn                                                       # 360      
-  - DOMAIN-SUFFIX  , dns.360.net                                                          # 360    
-  - DOMAIN-SUFFIX  , doh.360.net                                                          # 360    
-  - DOMAIN-SUFFIX  , dot.360.net                                                          # 360  
-  - DOMAIN-SUFFIX  , httpdns.360.net                                                      # 360 
-  - DOMAIN-SUFFIX  , dns.jd.com                                                           # 京东
-  - DOMAIN-SUFFIX  , doh.jd.com                                                           # 京东
-  - DOMAIN-SUFFIX  , dot.jd.com                                                           # 京东
-  - DOMAIN-SUFFIX  , httpdns.jd.com                                                       # 京东
-  - DOMAIN-SUFFIX  , dns.qq.com                                                           # QQ
-  - DOMAIN-SUFFIX  , doh.qq.com                                                           # QQ
-  - DOMAIN-SUFFIX  , dot.qq.com                                                           # QQ
-  - DOMAIN-SUFFIX  , httpdns.qq.com                                                       # QQ
-  - DOMAIN-SUFFIX  , dns.wechat.com                                                       # WeChat
-  - DOMAIN-SUFFIX  , doh.wechat.com                                                       # WeChat
-  - DOMAIN-SUFFIX  , dot.wechat.com                                                       # WeChat
-  - DOMAIN-SUFFIX  , httpdns.wechat.com                                                   # WeChat
-  - DOMAIN-SUFFIX  , dns.weixin.qq.com                                                    # 微信
-  - DOMAIN-SUFFIX  , doh.weixin.qq.com                                                    # 微信
-  - DOMAIN-SUFFIX  , dot.weixin.qq.com                                                    # 微信
-  - DOMAIN-SUFFIX  , httpdns.weixin.qq.com                                                # 微信
-  - DOMAIN-SUFFIX  , dns.iqiyi.com                                                        # 爱奇艺
-  - DOMAIN-SUFFIX  , doh.iqiyi.com                                                        # 爱奇艺
-  - DOMAIN-SUFFIX  , dot.iqiyi.com                                                        # 爱奇艺
-  - DOMAIN-SUFFIX  , httpdns.iqiyi.com                                                    # 爱奇艺
-  - DOMAIN-SUFFIX  , httpdns.n.netease.com                                                # 网易                              
-  - DOMAIN-SUFFIX  , httpdns.music.163.com                                                # 网易                              
-  - DOMAIN-SUFFIX  , lofter.httpdns.c.163.com                                             # 网易                              
-  - DOMAIN-SUFFIX  , music.httpdns.c.163.com                                              # 网易
-  - DOMAIN-SUFFIX  , httpdns.yunxindns.com                                                # 网易    
-  - DOMAIN-SUFFIX  , dns.onedns.net                                                       # OneDNS
-  - DOMAIN-SUFFIX  , doh.onedns.net                                                       # OneDNS
-  - DOMAIN-SUFFIX  , dot.onedns.net                                                       # OneDNS
-  - DOMAIN-SUFFIX  , httpdns.onedns.net                                                   # OneDNS
-  - DOMAIN-SUFFIX  , dns.sdns.cn                                                          # SDNS - CNNIC
-  - DOMAIN-SUFFIX  , doh.sdns.cn                                                          # SDNS - CNNIC
-  - DOMAIN-SUFFIX  , dot.sdns.cn                                                          # SDNS - CNNIC
-  - DOMAIN-SUFFIX  , httpdns.sdns.cn                                                      # SDNS - CNNIC
-  - DOMAIN-SUFFIX  , dns.bilibili.com                                                     # Bilibili
-  - DOMAIN-SUFFIX  , doh.bilibili.com                                                     # Bilibili
-  - DOMAIN-SUFFIX  , dot.bilibili.com                                                     # Bilibili
-  - DOMAIN-SUFFIX  , httpdns.bilibili.com                                                 # Bilibili
-  - DOMAIN-SUFFIX  , dns.bilivideo.com                                                    # BiliVideo
-  - DOMAIN-SUFFIX  , doh.bilivideo.com                                                    # BiliVideo
-  - DOMAIN-SUFFIX  , dot.bilivideo.com                                                    # BiliVideo
-  - DOMAIN-SUFFIX  , httpdns.bilivideo.com                                                # BiliVideo
-
-  - IP-CIDR        , 114.114.114.0/24                                  , no-resolve       # 114DNS
- #- IP-CIDR        , 114.114.114.114/32                                , no-resolve       # 114DNS
- #- IP-CIDR        , 114.114.114.119/32                                , no-resolve       # 114DNS
- #- IP-CIDR        , 114.114.114.110/32                                , no-resolve       # 114DNS
-  - IP-CIDR        , 114.114.115.0/24                                  , no-resolve       # 114DNS
- #- IP-CIDR        , 115.115.115.115/32                                , no-resolve       # 114DNS
- #- IP-CIDR        , 114.114.115.119/32                                , no-resolve       # 114DNS
- #- IP-CIDR        , 114.114.115.110/32                                , no-resolve       # 114DNS
-  - IP-CIDR        , 1.2.4.8/32                                        , no-resolve       # SDNS - CNNIC
-  - IP-CIDR        , 202.98.0.68/32                                    , no-resolve       # SDNS - CNNIC
-  - IP-CIDR        , 210.2.4.8/32                                      , no-resolve       # SDNS - CNNIC
-  - IP-CIDR        , 180.76.76.76/32                                   , no-resolve       # 百度
-  - IP-CIDR        , 203.107.1.0/24                                    , no-resolve       # 阿里云
-  - IP-CIDR        , 223.5.5.5/32                                      , no-resolve       # 阿里云
-  - IP-CIDR        , 223.6.6.6/32                                      , no-resolve       # 阿里云
-  - IP-CIDR        , 119.29.29.0/24                                    , no-resolve       # 腾讯云
- #- IP-CIDR        , 119.29.29.98/32                                   , no-resolve       # 腾讯云  
- #- IP-CIDR        , 119.29.29.99/32                                   , no-resolve       # 腾讯云  
- #- IP-CIDR        , 119.29.29.90/32                                   , no-resolve       # 腾讯云  
-  - IP-CIDR        , 119.28.28.0/24                                    , no-resolve       # 腾讯云 
- #- IP-CIDR        , 119.28.28.80/32                                   , no-resolve       # 腾讯云   
-  - IP-CIDR        , 182.254.116.116/32                                , no-resolve       # 腾讯云  
-  - IP-CIDR        , 182.254.118.118/32                                , no-resolve       # 腾讯云  
-  - IP-CIDR        , 180.76.76.76/32                                   , no-resolve       # 百度云
-  - IP-CIDR        , 180.76.76.112/32                                  , no-resolve       # 百度云
-  - IP-CIDR        , 180.76.76.220/32                                  , no-resolve       # 百度云
-  - IP-CIDR        , 123.150.37.200/32                                 , no-resolve       # 金山云
-  - IP-CIDR        , 59.110.53.209/32                                  , no-resolve       # 华为云
-  - IP-CIDR        , 59.51.78.211/32                                   , no-resolve       # 网宿云
-  - IP-CIDR        , 116.63.10.135/32                                  , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 122.9.7.134/32                                    , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 117.185.228.108/32                                , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 117.144.238.29/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 122.9.13.79/32                                    , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 122.9.15.129/32                                   , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 101.91.140.224/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 101.91.140.124/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 114.116.215.110/32                                , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 116.63.10.31/32                                   , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 112.64.218.119/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 112.65.200.117/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 47.101.175.206/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 47.100.123.169/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 120.46.169.234/32                                 , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 121.36.72.124/32                                  , no-resolve       # B站 HTTPDNS
-  - IP-CIDR        , 118.89.204.198/23                                 , no-resolve       # 知乎
-  - IP-CIDR        , 103.41.167.237/23                                 , no-resolve       # 知乎
-  - IP-CIDR        , 101.35.204.35/32                                  , no-resolve       # 拼多多
-  - IP-CIDR        , 101.35.212.35/32                                  , no-resolve       # 拼多多
-  - IP-CIDR        , 114.110.96.26/32                                  , no-resolve       # 拼多多
-  - IP-CIDR        , 114.110.97.97/32                                  , no-resolve       # 拼多多
-  - IP-CIDR        , 110.76.8.150/32                                   , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.230.39/32                                 , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.245.102/32                                , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.245.158/32                                , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.247.95/32                                 , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.250.41/32                                 , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.250.114/32                                , no-resolve       # 支付宝
-  - IP-CIDR        , 203.209.251.147/32                                , no-resolve       # 支付宝
-  - IP-CIDR        , 101.198.199.199/30                                , no-resolve       # 360
-  - IP-CIDR        , 101.226.4.6/32                                    , no-resolve       # 360
-  - IP-CIDR        , 218.30.118.6/32                                   , no-resolve       # 360
-  - IP-CIDR        , 123.125.81.6/32                                   , no-resolve       # 360
-  - IP-CIDR        , 140.207.198.6/32                                  , no-resolve       # 360
-  - IP-CIDR        , 101.124.19.122/32                                 , no-resolve       # 京东
-  - IP-CIDR        , 103.224.222.208/32                                , no-resolve       # 京东
- #- IP-CIDR        , 182.256.116.116/32                                , no-resolve       # 腾讯音乐      # 错误表达，超出了255最大范围值，请修正！
-  - IP-CIDR        , 202.90.108.13/32                                  , no-resolve       # 美团
-  - IP-CIDR        , 202.90.110.46/32                                  , no-resolve       # 美团
-  - IP-CIDR        , 59.111.239.61/32                                  , no-resolve       # 网易
-  - IP-CIDR        , 59.111.239.62/32                                  , no-resolve       # 网易
-  - IP-CIDR        , 115.236.121.51/32                                 , no-resolve       # 网易
-  - IP-CIDR        , 115.236.121.195/32                                , no-resolve       # 网易
-  - IP-CIDR        , 101.226.4.6/32                                    , no-resolve       # DNS派
-  - IP-CIDR        , 123.125.81.6/32                                   , no-resolve       # DNS派
-  - IP-CIDR        , 218.30.118.6/32                                   , no-resolve       # DNS派
-  - IP-CIDR        , 182.254.116.117/32                                , no-resolve       # Wework
-  - IP-CIDR        , 182.254.118.119/32                                , no-resolve       # Wework
-  - IP-CIDR        , 202.38.93.153/32                                  , no-resolve       # 中科大
-  - IP-CIDR        , 202.141.162.123/32                                , no-resolve       # 中科大
-  - IP-CIDR        , 202.141.176.93/32                                 , no-resolve       # 中科大
-  - IP-CIDR        , 117.50.10.10/32                                   , no-resolve       # OneDNS
-  - IP-CIDR        , 117.50.11.11/32                                   , no-resolve       # OneDNS
-  - IP-CIDR        , 117.50.20.20/32                                   , no-resolve       # OneDNS
-  - IP-CIDR        , 112.124.47.27/32                                  , no-resolve       # OneDNS
-  - IP-CIDR        , 114.215.126.16/32                                 , no-resolve       # OneDNS
-  - IP-CIDR        , 52.80.66.66/32                                    , no-resolve       # OneDNS
-  - IP-CIDR        , 52.80.52.52/32                                    , no-resolve       # OneDNS
-
-  - IP-CIDR        , 120.196.165.24/32                                 , no-resolve       # 中国移动
-  - IP-CIDR        , 111.11.208.2/32                                   , no-resolve       # 中国移动
-  - IP-CIDR        , 221.130.33.60/32                                  , no-resolve       # 中国移动
-  - IP-CIDR        , 221.130.33.52/32                                  , no-resolve       # 中国移动
-  - IP-CIDR        , 211.136.192.6/32                                  , no-resolve       # 中国移动
-  - IP-CIDR        , 211.139.136.68/32                                 , no-resolve       # 中国移动
-  - IP-CIDR        , 221.131.143.69/32                                 , no-resolve       # 中国移动
-  - IP-CIDR        , 112.4.0.55/32                                     , no-resolve       # 中国移动
-  - IP-CIDR        , 211.138.180.2/32                                  , no-resolve       # 中国移动
-  - IP-CIDR        , 211.138.180.3/32                                  , no-resolve       # 中国移动
-  - IP-CIDR        , 218.201.96.130/32                                 , no-resolve       # 中国移动
-  - IP-CIDR        , 211.137.191.26/32                                 , no-resolve       # 中国移动
-
-  - IP-CIDR        , 123.125.81.6/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 140.207.198.6/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 218.30.118.6/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 123.123.123.123/32                                , no-resolve       # 中国联通
-  - IP-CIDR        , 123.123.123.124/32                                , no-resolve       # 中国联通
-  - IP-CIDR        , 221.5.203.98/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 221.7.92.98/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 210.21.196.6/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 221.5.88.88/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.160.68/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.166.4/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 202.102.224.68/32                                 , no-resolve       # 中国联通
-  - IP-CIDR        , 202.102.227.68/32                                 , no-resolve       # 中国联通
-  - IP-CIDR        , 202.97.224.69/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.97.224.68/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.98.0.68/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 202.98.5.68/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 221.6.4.66/32                                     , no-resolve       # 中国联通
-  - IP-CIDR        , 221.6.4.67/32                                     , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.224.68/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.224.8/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 202.102.128.68/32                                 , no-resolve       # 中国联通
-  - IP-CIDR        , 202.102.152.3/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.192.66/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.192.68/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 221.11.1.67/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 221.11.1.68/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 210.22.70.3/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 210.22.84.3/32                                    , no-resolve       # 中国联通
-  - IP-CIDR        , 119.6.6.6/32                                      , no-resolve       # 中国联通
-  - IP-CIDR        , 124.161.87.155/32                                 , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.104.68/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.99.96.68/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 221.12.1.227/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 221.12.33.227/32                                  , no-resolve       # 中国联通
-  - IP-CIDR        , 202.96.69.38/32                                   , no-resolve       # 中国联通
-  - IP-CIDR        , 202.96.64.68/32                                   , no-resolve       # 中国联通
-
-  - IP-CIDR        , 101.226.220.118/32                                , no-resolve       # 中国电信
-  - IP-CIDR        , 36.110.222.156/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 36.110.222.155/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 58.254.138.158/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.102.180.155/32                                , no-resolve       # 中国电信
-  - IP-CIDR        , 61.132.163.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.102.213.68/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 219.142.76.3/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 219.141.140.10/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 61.128.192.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 61.128.128.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 218.85.152.99/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 218.85.157.99/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.100.64.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 61.178.0.93/32                                    , no-resolve       # 中国电信
-  - IP-CIDR        , 202.96.128.86/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.96.128.166/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.103.225.68/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.103.224.68/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.98.192.67/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.98.198.167/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 222.88.88.88/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 222.85.85.85/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 219.147.198.230/32                                , no-resolve       # 中国电信
-  - IP-CIDR        , 219.147.198.242/32                                , no-resolve       # 中国电信
-  - IP-CIDR        , 202.103.24.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.103.0.68/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 222.246.129.80/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 59.51.78.211/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 218.2.2.2/32                                      , no-resolve       # 中国电信
-  - IP-CIDR        , 218.4.4.4/32                                      , no-resolve       # 中国电信
-  - IP-CIDR        , 202.101.224.69/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.101.226.68/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 219.148.162.31/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 222.74.39.50/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 219.146.1.66/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 219.147.1.66/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 218.30.19.40/32                                   , no-resolve       # 中国电信
-  - IP-CIDR        , 61.134.1.4/32                                     , no-resolve       # 中国电信
-  - IP-CIDR        , 202.96.209.133/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 116.228.111.118/32                                , no-resolve       # 中国电信
-  - IP-CIDR        , 61.139.2.69/32                                    , no-resolve       # 中国电信
-  - IP-CIDR        , 218.6.200.139/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 219.150.32.132/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 219.146.0.132/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 222.172.200.68/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 61.166.150.123/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.101.172.35/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 61.153.177.196/32                                 , no-resolve       # 中国电信
-  - IP-CIDR        , 202.98.224.68/32                                  , no-resolve       # 中国电信
-  - IP-CIDR        , 202.98.224.69/32                                  , no-resolve       # 中国电信
-
-  - IP-CIDR6       , 2001:dc7:1000::1/64                               , no-resolve       # CNNIC
-  - IP-CIDR6       , 2001:dc7:1000::2/64                               , no-resolve       # CNNIC
-  - IP-CIDR6       , 240c::6666/64                                     , no-resolve       # CFIEC Public DNS
-  - IP-CIDR6       , 240c::6644/64                                     , no-resolve       # CFIEC Public DNS
-  - IP-CIDR6       , 2400:3200::1/64                                   , no-resolve       # 阿里云
-  - IP-CIDR6       , 2400:3200:baba::1/64                              , no-resolve       # 阿里云
-  - IP-CIDR6       , 2402:4e00::/64                                    , no-resolve       # 腾讯云
-  - IP-CIDR6       , 2402:4e00:1::/64                                  , no-resolve       # 腾讯云
-  - IP-CIDR6       , 2400:da00::6666/64                                , no-resolve       # 百度云
-  - IP-CIDR6       , 2402:4e00:1200:ed00:0:9089:6dac:96b6/128          , no-resolve       # 知乎
-  - IP-CIDR6       , 240c:409f::3:0:163/64                             , no-resolve       # 拼多多
-  - IP-CIDR6       , 240c:409f::3:0:359/64                             , no-resolve       # 拼多多
-  - IP-CIDR6       , 2402:4e00:1411:201:0:9964:ba21:5a41/64            , no-resolve       # 拼多多
-  - IP-CIDR6       , 2402:db40:5100:1011::5/128                        , no-resolve       # 京东
-  - IP-CIDR6       , 2400:B180:6001::18F/64                            , no-resolve       # 支付宝
-  - IP-CIDR6       , 2400:B200:1005:3000::155/64                       , no-resolve       # 支付宝
-  - IP-CIDR6       , 2400:B200:1005:3000::1D3/64                       , no-resolve       # 支付宝
-  - IP-CIDR6       , 2400:B200:5000:B000::C8/64                        , no-resolve       # 支付宝
-  - IP-CIDR6       , 2400:7fc0:849e:200::7/128                         , no-resolve       # OneDNS
-  - IP-CIDR6       , 2400:7fc0:849e:200::17/128                        , no-resolve       # OneDNS
