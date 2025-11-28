@@ -18,10 +18,10 @@ payload:
 
   # 阿里云公共 DNS
   - DOMAIN         , dns.alidns.com                                         # 阿里云 - DoH/DoT（dns.alidns.com）
-  - IP-CIDR        , 223.5.5.5/32                                           # AliDNS 公共 DNS
-  - IP-CIDR        , 223.6.6.6/32                                           # AliDNS 公共 DNS
-  - IP-CIDR6       , 2400:3200::1/64                                        # AliDNS IPv6
-  - IP-CIDR6       , 2400:3200:baba::1/64                                   # AliDNS IPv6
+  - IP-CIDR        , 223.5.5.5/32                     # , no-resolve        # AliDNS 公共 DNS
+  - IP-CIDR        , 223.6.6.6/32                     # , no-resolve        # AliDNS 公共 DNS
+  - IP-CIDR6       , 2400:3200::1/64                  # , no-resolve        # AliDNS IPv6
+  - IP-CIDR6       , 2400:3200:baba::1/64             # , no-resolve        # AliDNS IPv6
 
   # 腾讯 DNSPod 公共 DNS
   - DOMAIN         , dns.pub                                                # 腾讯 DNSPod - DoH / JSON 接口
