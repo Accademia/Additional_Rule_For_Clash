@@ -1,115 +1,44 @@
 payload:
 
   # -------------------
-  # 中国DNS
+  # 中国DNS（公共递归 DNS / DoH / DoT）
   # -------------------
 
-  - '+.dns.cn'                                                               # CNNIC
-  - '+.dns.114dns.com'                                                       # 114
-  - '+.dot.114dns.com'                                                       # 114
-  - '+.doh.114dns.com'                                                       # 114
-  - '+.httpdns.114dns.com'                                                   # 114
-  - '+.dns.huawei.com'                                                       # 华为
-  - '+.doh.huawei.com'                                                       # 华为
-  - '+.dot.huawei.com'                                                       # 华为
-  - '+.httpdns.huawei.com'                                                   # 华为
-  - '+.dns.huaweicloud.com'                                                  # 华为云
-  - '+.doh.huaweicloud.com'                                                  # 华为云
-  - '+.dot.huaweicloud.com'                                                  # 华为云
-  - '+.httpdns.huaweicloud.com'                                              # 华为云
-  - '+.dns.mi.com'                                                           # 小米
-  - '+.doh.mi.com'                                                           # 小米
-  - '+.dot.mi.com'                                                           # 小米
-  - '+.httpdns.mi.com'                                                       # 小米
-  - '+.dns.oppo.com'                                                         # Oppo
-  - '+.doh.oppo.com'                                                         # Oppo
-  - '+.dot.oppo.com'                                                         # Oppo
-  - '+.httpdns.oppo.com'                                                     # Oppo
-  - '+.dns.vivo.com'                                                         # Vivo
-  - '+.doh.vivo.com'                                                         # Vivo
-  - '+.dot.vivo.com'                                                         # Vivo
-  - '+.httpdns.vivo.com'                                                     # Vivo
-  - '+.dns.alicdn.com'                                                       # 阿里云
-  - '+.doh.alicdn.com'                                                       # 阿里云
-  - '+.dnt.alicdn.com'                                                       # 阿里云
-  - '+.httpdns.alicdn.com'                                                   # 阿里云
-  - '+.dns.aliyun.com'                                                       # 阿里云 
-  - '+.doh.aliyun.com'                                                       # 阿里云 
-  - '+.dot.aliyun.com'                                                       # 阿里云 
-  - '+.httpdns.aliyun.com'                                                   # 阿里云 
-  - '+.dns.aliyuncs.com'                                                     # 阿里云 
-  - '+.doh.aliyuncs.com'                                                     # 阿里云 
-  - '+.dot.aliyuncs.com'                                                     # 阿里云 
-  - '+.httpdns.aliyuncs.com'                                                 # 阿里云 
-  - '+.httpdns-api.aliyuncs.com'                                             # 阿里云 
-  - '+.httpdns-sc.aliyuncs.com'                                              # 阿里云 
-  - '+.httpdns.console.aliyun.com'                                           # 阿里云   
-  - '+.httpdns.kg.qq.com'                                                    # 腾讯云
-  - '+.httpdns.weixin.qq.com'                                                # 腾讯云
-  - '+.httpdns.weixin.qq.com.cn'                                             # 腾讯云   
-  - '+.dns.tencent.com'                                                      # 腾讯云  
-  - '+.doh.tencent.com'                                                      # 腾讯云  
-  - '+.dot.tencent.com'                                                      # 腾讯云   
-  - '+.httpdns.tencent.com'                                                  # 腾讯云        
-  - '+.dns.pub'                                                              # 腾讯云      
-  - '+.doh.pub'                                                              # 腾讯云
-  - '+.dot.pub'                                                              # 腾讯云
-  - '+.httpdns.pub'                                                          # 腾讯云
-  - '+.pdns.dnspod.cn'                                                       # 腾讯云    
-  - '+.dns.dnspod.cn'                                                        # 腾讯云  
-  - '+.doh.dnspod.cn'                                                        # 腾讯云  
-  - '+.dot.dnspod.cn'                                                        # 腾讯云   
-  - '+.httpdns.dnspod.cn'                                                    # 腾讯云     
-  - '+.dns.baidu.com'                                                        # 百度  
-  - '+.doh.baidu.com'                                                        # 百度  
-  - '+.dot.baidu.com'                                                        # 百度   
-  - '+.httpdns.baidu.com'                                                    # 百度    
-  - '+.dns.360.cn'                                                           # 360    
-  - '+.doh.360.cn'                                                           # 360    
-  - '+.dot.360.cn'                                                           # 360  
-  - '+.httpdns.360.cn'                                                       # 360      
-  - '+.dns.360.net'                                                          # 360    
-  - '+.doh.360.net'                                                          # 360    
-  - '+.dot.360.net'                                                          # 360  
-  - '+.httpdns.360.net'                                                      # 360 
-  - '+.dns.jd.com'                                                           # 京东
-  - '+.doh.jd.com'                                                           # 京东
-  - '+.dot.jd.com'                                                           # 京东
-  - '+.httpdns.jd.com'                                                       # 京东
-  - '+.dns.qq.com'                                                           # QQ
-  - '+.doh.qq.com'                                                           # QQ
-  - '+.dot.qq.com'                                                           # QQ
-  - '+.httpdns.qq.com'                                                       # QQ
-  - '+.dns.wechat.com'                                                       # WeChat
-  - '+.doh.wechat.com'                                                       # WeChat
-  - '+.dot.wechat.com'                                                       # WeChat
-  - '+.httpdns.wechat.com'                                                   # WeChat
-  - '+.dns.weixin.qq.com'                                                    # 微信
-  - '+.doh.weixin.qq.com'                                                    # 微信
-  - '+.dot.weixin.qq.com'                                                    # 微信
-  - '+.httpdns.weixin.qq.com'                                                # 微信
-  - '+.dns.iqiyi.com'                                                        # 爱奇艺
-  - '+.doh.iqiyi.com'                                                        # 爱奇艺
-  - '+.dot.iqiyi.com'                                                        # 爱奇艺
-  - '+.httpdns.iqiyi.com'                                                    # 爱奇艺
-  - '+.httpdns.n.netease.com'                                                # 网易                              
-  - '+.httpdns.music.163.com'                                                # 网易                              
-  - '+.lofter.httpdns.c.163.com'                                             # 网易                              
-  - '+.music.httpdns.c.163.com'                                              # 网易
-  - '+.httpdns.yunxindns.com'                                                # 网易    
-  - '+.dns.onedns.net'                                                       # OneDNS
-  - '+.doh.onedns.net'                                                       # OneDNS
-  - '+.dot.onedns.net'                                                       # OneDNS
-  - '+.httpdns.onedns.net'                                                   # OneDNS
-  - '+.dns.sdns.cn'                                                          # SDNS - CNNIC
-  - '+.doh.sdns.cn'                                                          # SDNS - CNNIC
-  - '+.dot.sdns.cn'                                                          # SDNS - CNNIC
-  - '+.httpdns.sdns.cn'                                                      # SDNS - CNNIC
-  - '+.dns.bilibili.com'                                                     # Bilibili
-  - '+.doh.bilibili.com'                                                     # Bilibili
-  - '+.dot.bilibili.com'                                                     # Bilibili
-  - '+.httpdns.bilibili.com'                                                 # Bilibili
-  - '+.dns.bilivideo.com'                                                    # BiliVideo
-  - '+.doh.bilivideo.com'                                                    # BiliVideo
-  - '+.dot.bilivideo.com'                                                    # BiliVideo
-  - '+.httpdns.bilivideo.com'                                                # BiliVideo
+  - '+.dns.cn'                                                             # CNNIC / 公共递归门户
+
+  # 114DNS 公共递归 DNS（114.114.114.114 / 114.114.115.115；官方无 DoH 文档，仅保留社区常用端点）
+  - 'dns.114dns.com'                                                       # 114DNS - DoH（dns.114dns.com/dns-query）
+  - 'doh.114dns.com'                                                       # 114DNS - DoH（doh.114dns.com/dns-query）
+  - '+.dns114.cn'                                                          # 114DNS - DoT（tls.dns114.cn 等）
+
+  # 阿里云公共 DNS（AliDNS：223.5.5.5 / 223.6.6.6；官方 DoH/DoT：dns.alidns.com）
+  - 'dns.alidns.com'                                                       # 阿里云 - DoH/DoT（dns.alidns.com）
+
+  # 腾讯 DNSPod 公共 DNS（119.29.29.29 / 119.28.28.28；官方 DoH/DoT：dns.pub / doh.pub / dot.pub）
+  - 'dns.pub'                                                              # 腾讯 DNSPod - DoH / JSON 接口
+  - 'doh.pub'                                                              # 腾讯 DNSPod - DoH
+  - 'sm2.doh.pub'                                                          # 腾讯 DNSPod - DoH（SM2 国密）
+  - 'dot.pub'                                                              # 腾讯 DNSPod - DoT
+
+  # 百度公共 DNS（180.76.76.76；支持 DoH / DoT：doh.baidu.com / dot.baidu.com）
+  - 'dns.baidu.com'                                                        # 百度公共 DNS - JSON/DoH
+  - 'doh.baidu.com'                                                        # 百度公共 DNS - DoH
+  - 'dot.baidu.com'                                                        # 百度公共 DNS - DoT
+
+  # 360 安全公共 DNS（101.226.4.6 / 218.30.118.6 等；官方 DoH/DoT：doh.360.cn / dot.360.cn）
+  - 'dns.360.cn'                                                           # 360 公共 DNS - DNS/DoH
+  - 'doh.360.cn'                                                           # 360 公共 DNS - DoH
+  - 'dot.360.cn'                                                           # 360 公共 DNS - DoT
+  - 'dns.360.net'                                                          # 360 公共 DNS - 备用域名
+  - 'doh.360.net'                                                          # 360 公共 DNS - DoH 备用
+  - 'dot.360.net'                                                          # 360 公共 DNS - DoT 备用
+
+  # OneDNS 公共 DNS（117.50.10.10 / 52.80.52.52 等；纯净版 / 拦截版）
+  - 'doh.onedns.net'                                                       # OneDNS - DoH（拦截版）
+  - 'doh-pure.onedns.net'                                                  # OneDNS - DoH（纯净版）
+  - 'dot.onedns.net'                                                       # OneDNS - DoT（拦截版）
+  - 'dot-pure.onedns.net'                                                  # OneDNS - DoT（纯净版）
+
+  # SDNS / CFIEC（国家/学术网络公共 DNS，含加密解析）
+  - 'dot.sdns.cn'                                                          # SDNS - CNNIC - DoT
+  - 'dns.cfiec.net'                                                        # CFIEC 公共 DNS - DoH/DoT
