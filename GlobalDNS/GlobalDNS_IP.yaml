@@ -361,9 +361,74 @@ payload:
 
   - '76.76.2.11/32'                                   # https://controld.com/free-dns
   - '76.76.10.11/32'                                  # https://controld.com/free-dns
-  - '2606:1a40::11/128'                               # https://controld.com/free-dns 
-  - '2606:1a40:1::11/128'                             # https://controld.com/free-dns 
+  - '2606:1a40::11/128'                               # https://controld.com/free-dns
+  - '2606:1a40:1::11/128'                             # https://controld.com/free-dns
 
+  # -------------------
+  # 新增：DNSFilter
+  # -------------------
+  - '103.247.36.9/32'                                 # DNSFilter
+  - '103.247.36.36/32'                                # DNSFilter
+  - '103.247.36.150/32'                               # DNSFilter
+  - '103.247.37.9/32'                                 # DNSFilter
+  - '103.247.37.37/32'                                # DNSFilter
+  - '103.247.37.150/32'                               # DNSFilter
+
+  # SafeDNS
+  - '195.46.39.39/32'                                 # SafeDNS
+  - '195.46.39.40/32'                                 # SafeDNS
+
+  # SafeServe DNS (Namecheap)
+  - '198.54.117.10/32'                                # SafeServe DNS
+  - '198.54.117.11/32'                                # SafeServe DNS
+
+  # DefensX
+  - '3.33.220.70/32'                                  # DefensX
+  - '3.33.218.70/32'                                  # DefensX
+
+  # DNS4EU IPv4
+  - '86.54.11.1/32'                                   # DNS4EU Protective
+  - '86.54.11.201/32'                                 # DNS4EU Protective
+  - '86.54.11.12/32'                                  # DNS4EU Child
+  - '86.54.11.212/32'                                 # DNS4EU Child
+  - '86.54.11.13/32'                                  # DNS4EU No-Ads
+  - '86.54.11.213/32'                                 # DNS4EU No-Ads
+  - '86.54.11.11/32'                                  # DNS4EU Child + No-Ads
+  - '86.54.11.211/32'                                 # DNS4EU Child + No-Ads
+  - '86.54.11.100/32'                                 # DNS4EU Unfiltered
+  - '86.54.11.200/32'                                 # DNS4EU Unfiltered
+
+  # DNS4EU IPv6
+  - '2a13:1001::86:54:11:1/128'                       # DNS4EU Protective
+  - '2a13:1001::86:54:11:201/128'                     # DNS4EU Protective
+  - '2a13:1001::86:54:11:12/128'                      # DNS4EU Child
+  - '2a13:1001::86:54:11:212/128'                     # DNS4EU Child
+  - '2a13:1001::86:54:11:13/128'                      # DNS4EU No-Ads
+  - '2a13:1001::86:54:11:213/128'                     # DNS4EU No-Ads
+  - '2a13:1001::86:54:11:11/128'                      # DNS4EU Child + No-Ads
+  - '2a13:1001::86:54:11:211/128'                     # DNS4EU Child + No-Ads
+  - '2a13:1001::86:54:11:100/128'                     # DNS4EU Unfiltered
+  - '2a13:1001::86:54:11:200/128'                     # DNS4EU Unfiltered
+
+  # Chunghwa Telecom (中华电信 HiNet，国外处理)
+  - '168.95.1.1/32'                                   # Chunghwa Telecom (HiNet)
+  - '168.95.192.1/32'                                 # Chunghwa Telecom (HiNet)
+
+  # Deutsche Telekom
+  - '217.0.43.50/32'                                  # Deutsche Telekom
+
+  # Spectrum
+  - '24.240.146.8/32'                                 # Spectrum DoH
+  - '2600:6c7f:f000:202::8/128'                       # Spectrum DoH
+
+  # Liquid Telecom 公共 DNS
+  - '5.11.11.5/32'                                    # Liquid Telecom
+  - '5.11.11.11/32'                                   # Liquid Telecom
+
+  # Aire Networks（西班牙）
+  - '5.83.75.10/32'                                   # Aire Networks
+  - '84.232.73.171/32'                                # Aire Networks
+  - '88.148.19.98/32'                                 # Aire Networks
 
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！

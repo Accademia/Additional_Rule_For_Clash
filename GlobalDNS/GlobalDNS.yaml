@@ -479,12 +479,103 @@ payload:
   - IP-CIDR6       , 2a10:50c0::bad2:ff/128                         # , no-resolve       # AdGuard DNS
 
 
-  - DOMAIN-SUFFIX  , freedns.controld.com                                                # https://controld.com/free-dns
-  - DOMAIN-SUFFIX  , dns.controld.com                                                    # https://controld.com/free-dns
+  - DOMAIN         , freedns.controld.com                                                # https://controld.com/free-dns
+  - DOMAIN         , dns.controld.com                                                    # https://controld.com/free-dns
   - IP-CIDR        , 76.76.2.11/32                                  # , no-resolve       # https://controld.com/free-dns
   - IP-CIDR        , 76.76.10.11/32                                 # , no-resolve       # https://controld.com/free-dns
   - IP-CIDR6       , 2606:1a40::11/128                              # , no-resolve       # https://controld.com/free-dns 
   - IP-CIDR6       , 2606:1a40:1::11/128                            # , no-resolve       # https://controld.com/free-dns 
+
+
+  # -------------------
+  # 新增：安全 DNS / 公共 DNS（国外）
+  # -------------------
+
+  - DOMAIN         , doh.dnsfilter.com                                                   # DNSFilter DoH
+  - DOMAIN         , doh.safedns.com                                                     # SafeDNS DoH
+  - DOMAIN         , safeservedns.com                                                    # SafeServe DNS (Namecheap)
+  - DOMAIN         , dns-dot.defensx.com                                                 # DefensX DoT/DoH
+
+  # DNS4EU（欧盟）
+  - DOMAIN         , protective.joindns4.eu                                              # DNS4EU Protective
+  - DOMAIN         , child.joindns4.eu                                                   # DNS4EU Child
+  - DOMAIN         , noads.joindns4.eu                                                   # DNS4EU No-Ads
+  - DOMAIN         , child-noads.joindns4.eu                                             # DNS4EU Child + No-Ads
+  - DOMAIN         , unfiltered.joindns4.eu                                              # DNS4EU Unfiltered
+
+  # ISP DNS（国外运营商）
+  - DOMAIN         , dns.hinet.net                                                       # Chunghwa Telecom (HiNet, 台湾)
+  - DOMAIN         , doh.hinet.net                                                       # Chunghwa Telecom DoH
+  - DOMAIN         , dns.telekom.de                                                      # Deutsche Telekom DoH
+  - DOMAIN         , doh-01.spectrum.com                                                 # Spectrum DoH
+  - DOMAIN         , doh-02.spectrum.com                                                 # Spectrum DoH
+
+  # -------------------
+  # 新增：DNSFilter
+  # -------------------
+  - IP-CIDR        , 103.247.36.9/32                                # , no-resolve       # DNSFilter
+  - IP-CIDR        , 103.247.36.36/32                               # , no-resolve       # DNSFilter
+  - IP-CIDR        , 103.247.36.150/32                              # , no-resolve       # DNSFilter
+  - IP-CIDR        , 103.247.37.9/32                                # , no-resolve       # DNSFilter
+  - IP-CIDR        , 103.247.37.37/32                               # , no-resolve       # DNSFilter
+  - IP-CIDR        , 103.247.37.150/32                              # , no-resolve       # DNSFilter
+
+  # SafeDNS
+  - IP-CIDR        , 195.46.39.39/32                                # , no-resolve       # SafeDNS
+  - IP-CIDR        , 195.46.39.40/32                                # , no-resolve       # SafeDNS
+
+  # SafeServe DNS (Namecheap)
+  - IP-CIDR        , 198.54.117.10/32                               # , no-resolve       # SafeServe DNS
+  - IP-CIDR        , 198.54.117.11/32                               # , no-resolve       # SafeServe DNS
+
+  # DefensX
+  - IP-CIDR        , 3.33.220.70/32                                 # , no-resolve       # DefensX
+  - IP-CIDR        , 3.33.218.70/32                                 # , no-resolve       # DefensX
+
+  # DNS4EU IPv4
+  - IP-CIDR        , 86.54.11.1/32                                  # , no-resolve       # DNS4EU Protective
+  - IP-CIDR        , 86.54.11.201/32                                # , no-resolve       # DNS4EU Protective
+  - IP-CIDR        , 86.54.11.12/32                                 # , no-resolve       # DNS4EU Child
+  - IP-CIDR        , 86.54.11.212/32                                # , no-resolve       # DNS4EU Child
+  - IP-CIDR        , 86.54.11.13/32                                 # , no-resolve       # DNS4EU No-Ads
+  - IP-CIDR        , 86.54.11.213/32                                # , no-resolve       # DNS4EU No-Ads
+  - IP-CIDR        , 86.54.11.11/32                                 # , no-resolve       # DNS4EU Child + No-Ads
+  - IP-CIDR        , 86.54.11.211/32                                # , no-resolve       # DNS4EU Child + No-Ads
+  - IP-CIDR        , 86.54.11.100/32                                # , no-resolve       # DNS4EU Unfiltered
+  - IP-CIDR        , 86.54.11.200/32                                # , no-resolve       # DNS4EU Unfiltered
+
+  # DNS4EU IPv6
+  - IP-CIDR6       , 2a13:1001::86:54:11:1/128                      # , no-resolve       # DNS4EU Protective
+  - IP-CIDR6       , 2a13:1001::86:54:11:201/128                    # , no-resolve       # DNS4EU Protective
+  - IP-CIDR6       , 2a13:1001::86:54:11:12/128                     # , no-resolve       # DNS4EU Child
+  - IP-CIDR6       , 2a13:1001::86:54:11:212/128                    # , no-resolve       # DNS4EU Child
+  - IP-CIDR6       , 2a13:1001::86:54:11:13/128                     # , no-resolve       # DNS4EU No-Ads
+  - IP-CIDR6       , 2a13:1001::86:54:11:213/128                    # , no-resolve       # DNS4EU No-Ads
+  - IP-CIDR6       , 2a13:1001::86:54:11:11/128                     # , no-resolve       # DNS4EU Child + No-Ads
+  - IP-CIDR6       , 2a13:1001::86:54:11:211/128                    # , no-resolve       # DNS4EU Child + No-Ads
+  - IP-CIDR6       , 2a13:1001::86:54:11:100/128                    # , no-resolve       # DNS4EU Unfiltered
+  - IP-CIDR6       , 2a13:1001::86:54:11:200/128                    # , no-resolve       # DNS4EU Unfiltered
+
+  # Chunghwa Telecom (中华电信 HiNet，国外处理)
+  - IP-CIDR        , 168.95.1.1/32                                  # , no-resolve       # Chunghwa Telecom (HiNet)
+  - IP-CIDR        , 168.95.192.1/32                                # , no-resolve       # Chunghwa Telecom (HiNet)
+
+  # Deutsche Telekom
+  - IP-CIDR        , 217.0.43.50/32                                 # , no-resolve       # Deutsche Telekom
+
+  # Spectrum
+  - IP-CIDR        , 24.240.146.8/32                                # , no-resolve       # Spectrum DoH
+  - IP-CIDR6       , 2600:6c7f:f000:202::8/128                      # , no-resolve       # Spectrum DoH
+
+  # Liquid Telecom 公共 DNS
+  - IP-CIDR        , 5.11.11.5/32                                   # , no-resolve       # Liquid Telecom
+  - IP-CIDR        , 5.11.11.11/32                                  # , no-resolve       # Liquid Telecom
+
+  # Aire Networks（西班牙）
+  - IP-CIDR        , 5.83.75.10/32                                  # , no-resolve       # Aire Networks
+  - IP-CIDR        , 84.232.73.171/32                               # , no-resolve       # Aire Networks
+  - IP-CIDR        , 88.148.19.98/32                                # , no-resolve       # Aire Networks
+
 
 
 

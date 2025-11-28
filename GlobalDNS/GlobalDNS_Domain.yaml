@@ -123,6 +123,32 @@ payload:
   - '+.freedns.controld.com'                                                             # https://controld.com/free-dns
   - '+.dns.controld.com'                                                                 # https://controld.com/free-dns
 
+  # -------------------
+  # 新增：安全 DNS / 公共 DNS（国外）
+  # -------------------
+
+  - 'doh.dnsfilter.com'                                                                  # DNSFilter DoH
+  - 'doh.safedns.com'                                                                    # SafeDNS DoH
+  - 'safeservedns.com'                                                                   # SafeServe DNS (Namecheap)
+  - 'dns-dot.defensx.com'                                                                # DefensX DoT/DoH
+
+  # DNS4EU（欧盟）
+  - 'protective.joindns4.eu'                                                             # DNS4EU Protective
+  - 'child.joindns4.eu'                                                                  # DNS4EU Child
+  - 'noads.joindns4.eu'                                                                  # DNS4EU No-Ads
+  - 'child-noads.joindns4.eu'                                                            # DNS4EU Child + No-Ads
+  - 'unfiltered.joindns4.eu'                                                             # DNS4EU Unfiltered
+
+  # ISP DNS（国外运营商）
+  - 'dns.hinet.net'                                                                      # Chunghwa Telecom (HiNet, 台湾)
+  - 'doh.hinet.net'                                                                      # Chunghwa Telecom DoH
+  - 'dns.telekom.de'                                                                     # Deutsche Telekom DoH
+  - 'doh-01.spectrum.com'                                                                # Spectrum DoH
+  - 'doh-02.spectrum.com'                                                                # Spectrum DoH
+
+
+
+
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
 
