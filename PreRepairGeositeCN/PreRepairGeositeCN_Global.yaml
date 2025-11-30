@@ -177,3 +177,34 @@ payload:
     - DOMAIN-SUFFIX   , in.th   
 
     - DOMAIN-SUFFIX   , ms 
+
+    - DOMAIN-SUFFIX   , aliexpress.ru
+    - DOMAIN-SUFFIX   , alihealth.hk
+    - DOMAIN-SUFFIX   , alipay.hk
+    - DOMAIN-SUFFIX   , ccbintl.com.hk
+    - DOMAIN-SUFFIX   , chinaunicom.com.hk
+    - DOMAIN-SUFFIX   , citics.com.hk
+    - DOMAIN-SUFFIX   , cmbi.com.hk
+    - DOMAIN-SUFFIX   , csci.hk
+    - DOMAIN-SUFFIX   , ctexcel.com.hk
+    - DOMAIN-SUFFIX   , ctrip.com.hk
+    - DOMAIN-SUFFIX   , ctripbuy.hk
+    - DOMAIN-SUFFIX   , dreamcast.hk
+    - DOMAIN-SUFFIX   , emsec.hk
+    - DOMAIN-SUFFIX   , fliggy.hk
+
+
+    - DOMAIN-SUFFIX   , oascentral.sina.com.hk
+    - DOMAIN-SUFFIX   , pingan.com.hk
+    - DOMAIN-SUFFIX   , sfcar.hk
+    - DOMAIN-SUFFIX   , tencent.com.hk
+    - DOMAIN-SUFFIX   , tmall.hk
+
+    - DOMAIN-SUFFIX   , hhtravel.com.tw 
+    - DOMAIN-SUFFIX   , ifanr.in
+    - DOMAIN-SUFFIX   , tburl.in
+
+    - DOMAIN-SUFFIX   , ludoworld.net
+
+    - DOMAIN-SUFFIX   , ip.la 
+    - DOMAIN-SUFFIX   , myip.la

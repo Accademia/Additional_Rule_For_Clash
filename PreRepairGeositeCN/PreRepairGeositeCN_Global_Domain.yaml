@@ -177,3 +177,36 @@ payload:
     - '+.in.th'             
            
     - '+.ms'                    
+
+    - '+.aliexpress.ru'
+    - '+.alihealth.hk'
+    - '+.alipay.hk'
+    - '+.ccbintl.com.hk'
+    - '+.chinaunicom.com.hk'
+    - '+.citics.com.hk'
+    - '+.cmbi.com.hk'
+    - '+.csci.hk'
+    - '+.ctexcel.com.hk'
+    - '+.ctrip.com.hk'
+    - '+.ctripbuy.hk'
+    - '+.dreamcast.hk'
+    - '+.emsec.hk'
+    - '+.fliggy.hk'
+
+
+    - '+.oascentral.sina.com.hk'
+    - '+.pingan.com.hk'
+    - '+.sfcar.hk'
+    - '+.tencent.com.hk'
+    - '+.tmall.hk'
+
+    - '+.hhtravel.com.tw' 
+    - '+.ifanr.in'
+    - '+.tburl.in'
+
+    - '+.ludoworld.net'
+
+    - '+.ip.la' 
+    - '+.myip.la'
+   #- 
+   #- 
