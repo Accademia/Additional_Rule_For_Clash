@@ -139,6 +139,8 @@
 
 + PreRepairChina ：由于 blackmatrix7/ios_rule_script 中的 China分流规则 （ https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ） 中存在大量的非中国服务器的域名，所以需要额外的分流规则，来修复这些非中国域名带来的分流错误
 
++ Kwai ：“Kwai“（快手国际版） 的 分流规则
+
 
 .
 
