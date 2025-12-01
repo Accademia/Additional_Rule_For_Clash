@@ -13,6 +13,7 @@ payload:
     - DOMAIN-SUFFIX   , config-proxy.kwd.100.app
     - DOMAIN-SUFFIX   , akamai.net
 
+    - DOMAIN-SUFFIX   , kwai.net.queniulf.com
 
 
 
