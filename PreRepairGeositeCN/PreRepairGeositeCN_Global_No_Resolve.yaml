@@ -208,3 +208,5 @@ payload:
 
     - DOMAIN-SUFFIX   , ip.la 
     - DOMAIN-SUFFIX   , myip.la
+    - DOMAIN-SUFFIX   , tiktokv.us
+    - DOMAIN-SUFFIX   , tiktokcdn-us.com

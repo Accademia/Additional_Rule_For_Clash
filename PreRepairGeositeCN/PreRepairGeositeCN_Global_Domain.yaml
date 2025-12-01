@@ -208,5 +208,9 @@ payload:
 
     - '+.ip.la' 
     - '+.myip.la'
-   #- 
-   #- 
+    - '+.tiktokv.us'
+    - '+.tiktokcdn-us.com'
+   #- '+.' 
+   #- '+.' 
+   #- '+.' 
+   #- '+.' 
