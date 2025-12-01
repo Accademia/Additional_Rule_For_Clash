@@ -1,12 +1,17 @@
 payload:
 
-    - '+.kwai-pro.com'                             
-    - '+.kix-api.mythad.com'                       
-    - '+.kwaipros.com'                                  
-    - '+.kwai.net'         
+    - '+.kwai-pro.com'
+    - '+.kwaipros.com'
+    - '+.kwai.net'
+    - '+.kwaionline.com'
+    - '+.wskwai.com'
 
+    - '+.mythad.com'
+    - '+.appsflyersdk.com'
 
-
+    - '+.config-proxy-bak.kwd.inkuai.com'
+    - '+.config-proxy.kwd.100.app'
+    - '+.akamai.net'
 
 
 
