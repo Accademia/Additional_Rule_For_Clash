@@ -62,6 +62,6 @@ payload:
     - DOMAIN         , sso.douyin.com               
     - DOMAIN         , www.douyin.com               
     
-    - DOMAIN-SUFFIX  , snssdk.com                   
+   #- DOMAIN-SUFFIX  , snssdk.com                   
 
 
