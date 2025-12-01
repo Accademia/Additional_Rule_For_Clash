@@ -137,7 +137,7 @@
 
 + Aqara ：Aqara Homekit 监控摄像头 的分流规则
 
-+ PreRepairGeositeCN ：由于 geosite:cn 中存在大量的非中国服务器的域名，所以需要额外的分流规则，来修复这些非中国域名带来的分流错误
++ PreRepairChina ：由于 blackmatrix7/ios_rule_script 中的 China分流规则 （ https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ） 中存在大量的非中国服务器的域名，所以需要额外的分流规则，来修复这些非中国域名带来的分流错误
 
 
 .
