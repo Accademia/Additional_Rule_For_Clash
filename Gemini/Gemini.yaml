@@ -66,3 +66,5 @@ payload:
     - DOMAIN-SUFFIX   , googleads.g.doubleclick.net
     - DOMAIN-SUFFIX   , i.ytimg.com
     - DOMAIN-SUFFIX   , yt3.ggpht.com
+
+    # https://support.google.com/a/answer/15627649?hl=en

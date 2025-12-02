@@ -66,3 +66,5 @@ payload:
     - '+.googleads.g.doubleclick.net'
     - '+.i.ytimg.com'
     - '+.yt3.ggpht.com'
+
+    # https://support.google.com/a/answer/15627649?hl=en
