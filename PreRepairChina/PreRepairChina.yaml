@@ -143,6 +143,10 @@ payload:
     - DOMAIN-SUFFIX   , icbc.eu                                           # 工行 欧洲
     - DOMAIN-SUFFIX   , icbc.lu                                           # 工行 卢森堡
     - DOMAIN-SUFFIX   , jd.ru                                             # 京东 俄罗斯站
+    - DOMAIN-SUFFIX   , jd.id                                             # 京东 
+    - DOMAIN-SUFFIX   , jd.hk                                             # 京东 
+    - DOMAIN-SUFFIX   , jd.co.th                                          # 京东 
+
     - DOMAIN-SUFFIX   , sinopec-usa.com                                   # 中石化 美国
     - DOMAIN-SUFFIX   , tiktokd.net                                       # TikTok (海外抖音) - 必须移除
     - DOMAIN-SUFFIX   , tiktokd.org                                       # TikTok - 必须移除
@@ -157,7 +161,7 @@ payload:
     - DOMAIN          , tx.lilyemby.com                                   # LilyEmby变体
     - DOMAIN          , www.libvideo.com                                  # LibVideo是国际视频库/开源项目
     - DOMAIN-SUFFIX   , 00cdn.com                                         # 00CDN是国际CDN服务
-    - DOMAIN-SUFFIX   , 0123456789.com                                    # 
+
     - DOMAIN-SUFFIX   , 0379home.com                                      # 国际家居/房产平台
     - DOMAIN-SUFFIX   , 0379home.com                                      # 国际家居/房产平台
     - DOMAIN-SUFFIX   , 055110.com                                        # 国际电话/通信服务域名
@@ -204,9 +208,42 @@ payload:
     - DOMAIN-SUFFIX   , ifanr.in
     - DOMAIN-SUFFIX   , tburl.in
 
-    - DOMAIN-SUFFIX   , ludoworld.net
 
     - DOMAIN-SUFFIX   , ip.la 
     - DOMAIN-SUFFIX   , myip.la
-    - DOMAIN-SUFFIX   , tiktokv.us
-    - DOMAIN-SUFFIX   , tiktokcdn-us.com
+
+
+    - DOMAIN-SUFFIX   , aiaa.org                                          # American Institute of Aeronautics and Astronautics
+    - DOMAIN-SUFFIX   , aip.org                                           # American Institute of Physics
+    - DOMAIN-SUFFIX   , akadns.net                                        # Akamai CDN DNS 域
+    - DOMAIN-SUFFIX   , alphassl.com                                      # GlobalSign 旗下 AlphaSSL 证书网站
+    - DOMAIN-SUFFIX   , bjango.com                                        # iStat Menus 开发商，澳大利亚公司
+    - DOMAIN-SUFFIX   , cloudsigma.com                                    # 瑞士云服务商 CloudSigma
+    - DOMAIN-SUFFIX   , ebscohost.com                                     # EBSCOhost 学术数据库
+    - DOMAIN-SUFFIX   , emerald.com                                       # Emerald Publishing 学术出版商
+    - DOMAIN-SUFFIX   , icevirtuallibrary.com                             # 英国土木工程师学会 ICE Virtual Library
+    - DOMAIN-SUFFIX   , jstor.org                                         # JSTOR 学术论文与期刊库
+    - DOMAIN-SUFFIX   , libguides.com                                     # Springshare LibGuides 平台
+    - DOMAIN-SUFFIX   , myanonamouse.net                                  # 外国私人 BT 站（有声书为主）
+    - DOMAIN-SUFFIX   , myilibrary.com                                    # MyiLibrary 电子书平台（现已并入 Ingram）
+    - DOMAIN-SUFFIX   , snapdrop.net                                      # Snapdrop 开源局域网文件分享站
+    - DOMAIN-SUFFIX   , weather.com                                       # The Weather Channel 主站
+    - DOMAIN-SUFFIX   , msauth.net                                        # Microsoft 账户登录验证域名
+    - DOMAIN-SUFFIX   , msecnd.net                                        # Microsoft/Azure CDN 域名
+    - DOMAIN-SUFFIX   , msocdn.com                                        # Office 相关静态资源 CDN
+    - DOMAIN-SUFFIX   , sharepoint.com                                    # Microsoft 365 / SharePoint Online 主域名
+
+    - DOMAIN-SUFFIX   , msauth.net                                        # Microsoft 账户登录验证域名
+    - DOMAIN-SUFFIX   , msecnd.net                                        # Microsoft/Azure CDN 域名
+    - DOMAIN-SUFFIX   , msocdn.com                                        # Office 相关静态资源 CDN
+    - DOMAIN-SUFFIX   , sharepoint.com                                    # Microsoft 365 / SharePoint Online 主域名
+
+    - DOMAIN-SUFFIX   , alibabacloud.co.in                                # 
+    - DOMAIN-SUFFIX   , alibabacloud.com.au                               # 
+    - DOMAIN-SUFFIX   , alibabacloud.com.hk                               # 
+    - DOMAIN-SUFFIX   , alibabacloud.com.my                               # 
+    - DOMAIN-SUFFIX   , alibabacloud.com.sg                               # 
+    - DOMAIN-SUFFIX   , alibabacloud.com.tw                               # 
+
+    - DOMAIN-SUFFIX   , tencent.co.id
+    - DOMAIN-SUFFIX   , nfoservers.com
