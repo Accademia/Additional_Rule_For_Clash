@@ -17,6 +17,7 @@ payload:
     - DOMAIN-SUFFIX   , optimizationguide-pa.googleapis.com
     - DOMAIN-SUFFIX   , streetviewpixels-pa.googleapis.com
     - DOMAIN-SUFFIX   , content-autofill.googleapis.com
+    - DOMAIN-SUFFIX   , robinfrontend-pa.googleapis.com
 
 
    # Google CDN

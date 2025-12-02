@@ -17,7 +17,7 @@ payload:
     - '+.optimizationguide-pa.googleapis.com'
     - '+.streetviewpixels-pa.googleapis.com'
     - '+.content-autofill.googleapis.com'
-
+    - '+.robinfrontend-pa.googleapis.com'
 
     # Google CDN
     - '+.www.gstatic.com'
