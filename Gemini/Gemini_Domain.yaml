@@ -1,79 +1,68 @@
 payload:
     
+    
     # Google DeepMind
     - '+.deepmind.com'
     - '+.deepmind.google'
+
 
     # Google Generative Language API
     - '+.geller-pa.googleapis.com'
     - '+.generativelanguage.googleapis.com'
     - '+.proactivebackend-pa.googleapis.com'
+    - '+.www.googleapis.com'
+    - '+.maps.googleapis.com'
+    - '+.fonts.googleapis.com'
+    - '+.jnn-pa.googleapis.com'
+    - '+.optimizationguide-pa.googleapis.com'
+    - '+.streetviewpixels-pa.googleapis.com'
+    - '+.content-autofill.googleapis.com'
+
+
+    # Google CDN
+    - '+.www.gstatic.com'
+    - '+.fonts.gstatic.com'
+    - '+.ssl.gstatic.com'
+    - '+.maps.gstatic.com'
+    - '+.encrypted-tbn0.gstatic.com'
+    - '+.encrypted-tbn1.gstatic.com'
+    - '+.encrypted-tbn2.gstatic.com'
+    - '+.encrypted-tbn3.gstatic.com'
+
 
     # Google AI Studio
     - '+.ai.google.dev'
     - '+.alkalicore-pa.clients6.google.com'
     - '+.alkalimakersuite-pa.clients6.google.com'
     - '+.webchannel-alkalimakersuite-pa.clients6.google.com'
-    - '+.generativeai.google'
+    - '+.ogads-pa.clients6.google.com'
+    - '+.waa-pa.clients6.google.com'
+
     - '+.makersuite.google.com'
     - '+.apis.google.com'
-    
     - '+.aistudio.google.com'
     - '+.bard.google.com'
+    - '+.lh3.google.com'
+    - '+.ogs.google.com'
+   #- '+.play.google.com'
+   #- '+.www.google.com'
+   #- '+.www.youtube.com'
+
+    - '+.generativeai.google'
+
+    # Google Gemini
     - '+.gemini.google'
-    - '+.gemini.google.com'                 
+    - '+.gemini.google.com'
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # Gemini app firewall hosts
+    - '+.www.google-analytics.com'
+    - '+.static.doubleclick.net'
+    - '+.td.doubleclick.net'
+    - '+.lh5.googleusercontent.com'
+    - '+.lh3.googleusercontent.com'
+    - '+.csp.withgoogle.com'
+    - '+.www.googletagmanager.com'
+    - '+.googleads.g.doubleclick.net'
+    - '+.i.ytimg.com'
+    - '+.yt3.ggpht.com'
