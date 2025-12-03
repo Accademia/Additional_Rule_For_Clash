@@ -15,13 +15,13 @@ payload:
 
     - DOMAIN-SUFFIX   , kwai.net.queniulf.com
 
-    - DOMAIN-SUFFIX   , kwaicdn.com
     - DOMAIN-SUFFIX   , kwai.net.cdn20.com
 
     - DOMAIN-SUFFIX   , kwai.net.queniuco.com
 
     - DOMAIN-SUFFIX   , ap4r.com
 
+  # - DOMAIN-SUFFIX   , kwaicdn.com
   # - DOMAIN-SUFFIX   , config-proxy.kwd.inkuai.com
 
 

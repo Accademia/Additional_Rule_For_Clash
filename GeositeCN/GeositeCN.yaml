@@ -4663,8 +4663,8 @@ payload:
     - DOMAIN-SUFFIX   , kuaishouapps.com                                    # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kuaishoupay.com                                     # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kuaishouzt.com                                      # GeoSite:kuaishou
-  # - DOMAIN-SUFFIX   , kwaicdn.com                                         # GeoSite:kuaishou                              # dead
-  # - DOMAIN-SUFFIX   , kwaizt.com                                          # GeoSite:kuaishou
+    - DOMAIN-SUFFIX   , kwaicdn.com                                         # GeoSite:kuaishou                              # dead
+    - DOMAIN-SUFFIX   , kwaizt.com                                          # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kwimgs.com                                          # GeoSite:kuaishou
   # - DOMAIN-SUFFIX   , wsukwai.com                                         # GeoSite:kuaishou                              # dead
     - DOMAIN-SUFFIX   , yximgs.com                                          # GeoSite:kuaishou

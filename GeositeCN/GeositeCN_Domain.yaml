@@ -4663,8 +4663,8 @@ payload:
     - '+.kuaishouapps.com'                                   # GeoSite:kuaishou
     - '+.kuaishoupay.com'                                    # GeoSite:kuaishou
     - '+.kuaishouzt.com'                                     # GeoSite:kuaishou
-  # - '+.kwaicdn.com'                                        # GeoSite:kuaishou                              # dead
-  # - '+.kwaizt.com'                                         # GeoSite:kuaishou
+    - '+.kwaicdn.com'                                        # GeoSite:kuaishou                              # dead
+    - '+.kwaizt.com'                                         # GeoSite:kuaishou
     - '+.kwimgs.com'                                         # GeoSite:kuaishou
   # - '+.wsukwai.com'                                        # GeoSite:kuaishou                              # dead
     - '+.yximgs.com'                                         # GeoSite:kuaishou

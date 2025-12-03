@@ -15,13 +15,13 @@ payload:
 
     - '+.kwai.net.queniulf.com'
 
-    - '+.kwaicdn.com'
     - '+.kwai.net.cdn20.com'
 
     - '+.kwai.net.queniuco.com'
 
     - '+.ap4r.com'
 
+  # - '+.kwaicdn.com'
   # - '+.config-proxy.kwd.inkuai.com'
 
 
