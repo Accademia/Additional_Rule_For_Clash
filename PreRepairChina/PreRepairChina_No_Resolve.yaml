@@ -247,3 +247,9 @@ payload:
 
     - DOMAIN-SUFFIX   , tencent.co.id
     - DOMAIN-SUFFIX   , nfoservers.com
+    - DOMAIN-SUFFIX   , madsrevolution.net                                #  德国的私人 BT/PT 站
+
+    - DOMAIN-SUFFIX   ,acetaffy.club                                      # 个人网站 (非中国)
+    - DOMAIN-SUFFIX   ,ica-alliance.org                                   # 国际艺术创意联盟 (国际机构)
+    - DOMAIN-SUFFIX   ,ourbits.club                                       # 私人PT站 (海外)
+    - DOMAIN-SUFFIX   ,ourdvs.com                                         # 私人PT站 (海外)

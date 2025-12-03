@@ -246,3 +246,9 @@ payload:
 
     - '+.tencent.co.id'
     - '+.nfoservers.com'
+    - '+.madsrevolution.net'                                #  德国的私人 BT/PT 站
+
+    - '+.acetaffy.club'                                     # 个人网站 (非中国)
+    - '+.ica-alliance.org'                                  # 国际艺术创意联盟 (国际机构)
+    - '+.ourbits.club'                                      # 私人PT站 (海外)
+    - '+.ourdvs.com'                                        # 私人PT站 (海外)    
