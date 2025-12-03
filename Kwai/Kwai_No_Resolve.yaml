@@ -20,8 +20,9 @@ payload:
 
     - DOMAIN-SUFFIX   , kwai.net.queniuco.com
 
-    - DOMAIN-SUFFIX   , s15-def.ap4r.com
+    - DOMAIN-SUFFIX   , ap4r.com
 
+  # - DOMAIN-SUFFIX   , config-proxy.kwd.inkuai.com
 
 
 
