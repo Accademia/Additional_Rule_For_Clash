@@ -143,7 +143,7 @@
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 （ https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）的修正版，删除掉了其 接近30%的 错误规则
 
 + GeositeCN ：由于国内分流规则
-    + 是 geostie:cn 分流规则 （ https://github.com/v2fly/domain-list-community/blob/master/data/cn ）的修正版，删除掉了其 接近45%的 错误规则
+    + 是 geosite:cn 分流规则 （ https://github.com/v2fly/domain-list-community/blob/master/data/cn ）的修正版，删除掉了其 接近45%的 错误规则
 
 .
 

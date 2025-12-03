@@ -3749,8 +3749,8 @@ payload:
     - DOMAIN-SUFFIX   , hnair.com                                                       # GeoSite:hainanairlines
   # - DOMAIN-SUFFIX   , fontstar.com.cn                                                 # GeoSite:hanyi                                 # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , hanyi.com.cn                                                    # GeoSite:hanyi                                 # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , full:hellofontpreview.oss-cn-beijing.aliyuncs.com               # GeoSite:hellofont
-    - DOMAIN-SUFFIX   , full:hellowebfonts.oss-cn-beijing.aliyuncs.com                  # GeoSite:hellofont
+  # - DOMAIN-SUFFIX   , full:hellofontpreview.oss-cn-beijing.aliyuncs.com               # GeoSite:hellofont
+  # - DOMAIN-SUFFIX   , full:hellowebfonts.oss-cn-beijing.aliyuncs.com                  # GeoSite:hellofont
   # - DOMAIN-SUFFIX   , hellofont.cn                                                    # GeoSite:hellofont                             # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , hellowebfont.com                                                # GeoSite:hellofont
     - DOMAIN-SUFFIX   , hero.com                                                        # GeoSite:herogame
@@ -5247,22 +5247,22 @@ payload:
   # - DOMAIN-SUFFIX   , qqmra.cn                                                        # GeoSite:qcloud                                # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , qqmra.com                                                       # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , qyunapp.com                                                     # GeoSite:qcloud                                # dead & foreign-other
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , rumt-sg.com                                                     # GeoSite:qcloud
-    - DOMAIN-SUFFIX   , rumt-us.com                                                     # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , rumt-sg.com                                                     # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , rumt-us.com                                                     # GeoSite:qcloud
     - DOMAIN-SUFFIX   , rumt-zh.com                                                     # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , sa-saopaulo.myqcloud.com                                        # GeoSite:qcloud                                # foreign-other
   # - DOMAIN-SUFFIX   , sa-saopaulo.tencentcos.cn                                       # GeoSite:qcloud                                # duplicate .cn suffix rule

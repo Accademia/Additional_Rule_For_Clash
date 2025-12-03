@@ -1,7 +1,6 @@
 payload:
 
     - '+.cn'
-
     - '+.115.com'                                                                       # GeoSite:115
     - '+.115cdn.com'                                                                    # GeoSite:115
     - '+.115cdn.net'                                                                    # GeoSite:115
@@ -3749,8 +3748,8 @@ payload:
     - '+.hnair.com'                                                                     # GeoSite:hainanairlines
   # - '+.fontstar.com.cn'                                                               # GeoSite:hanyi                                 # duplicate .cn suffix rule
   # - '+.hanyi.com.cn'                                                                  # GeoSite:hanyi                                 # duplicate .cn suffix rule
-    - '+.full:hellofontpreview.oss-cn-beijing.aliyuncs.com'                             # GeoSite:hellofont
-    - '+.full:hellowebfonts.oss-cn-beijing.aliyuncs.com'                                # GeoSite:hellofont
+  # - '+.full:hellofontpreview.oss-cn-beijing.aliyuncs.com'                             # GeoSite:hellofont
+  # - '+.full:hellowebfonts.oss-cn-beijing.aliyuncs.com'                                # GeoSite:hellofont
   # - '+.hellofont.cn'                                                                  # GeoSite:hellofont                             # duplicate .cn suffix rule
     - '+.hellowebfont.com'                                                              # GeoSite:hellofont
     - '+.hero.com'                                                                      # GeoSite:herogame
@@ -5247,22 +5246,22 @@ payload:
   # - '+.qqmra.cn'                                                                      # GeoSite:qcloud                                # duplicate .cn suffix rule
     - '+.qqmra.com'                                                                     # GeoSite:qcloud
   # - '+.qyunapp.com'                                                                   # GeoSite:qcloud                                # dead & foreign-other
-    - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
-    - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
-    - '+.rumt-sg.com'                                                                   # GeoSite:qcloud
-    - '+.rumt-us.com'                                                                   # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
+  # - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
+  # - '+.rumt-sg.com'                                                                   # GeoSite:qcloud
+  # - '+.rumt-us.com'                                                                   # GeoSite:qcloud
     - '+.rumt-zh.com'                                                                   # GeoSite:qcloud
   # - '+.sa-saopaulo.myqcloud.com'                                                      # GeoSite:qcloud                                # foreign-other
   # - '+.sa-saopaulo.tencentcos.cn'                                                     # GeoSite:qcloud                                # duplicate .cn suffix rule
