@@ -4,12 +4,12 @@ payload:
     - '+.kwaipros.com'
     - '+.kwai.net'
     - '+.kwaionline.com'
-    - '+.wskwai.com'
+  # - '+.wskwai.com'
 
     - '+.mythad.com'
     - '+.appsflyersdk.com'
 
-    - '+.config-proxy-bak.kwd.inkuai.com'
+  # - '+.config-proxy-bak.kwd.inkuai.com'
     - '+.config-proxy.kwd.100.app'
     - '+.akamai.net'
 

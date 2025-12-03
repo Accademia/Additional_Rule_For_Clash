@@ -4,12 +4,12 @@ payload:
     - DOMAIN-SUFFIX   , kwaipros.com
     - DOMAIN-SUFFIX   , kwai.net
     - DOMAIN-SUFFIX   , kwaionline.com
-    - DOMAIN-SUFFIX   , wskwai.com
+  # - DOMAIN-SUFFIX   , wskwai.com
 
     - DOMAIN-SUFFIX   , mythad.com
     - DOMAIN-SUFFIX   , appsflyersdk.com
 
-    - DOMAIN-SUFFIX   , config-proxy-bak.kwd.inkuai.com
+  # - DOMAIN-SUFFIX   , config-proxy-bak.kwd.inkuai.com
     - DOMAIN-SUFFIX   , config-proxy.kwd.100.app
     - DOMAIN-SUFFIX   , akamai.net
 
