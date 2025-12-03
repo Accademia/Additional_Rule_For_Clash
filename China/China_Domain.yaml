@@ -3317,7 +3317,7 @@ payload:
     # - '+.webofknowledge.com'                          # WoS 数据库
     # - '+.webqxs.com'                                  # 域名已失效
       - '+.webterren.com'                             
-    # - '+.wechat.com'                                  # WeChat (国际版)。国内是 weixin.qq.com。wechat.com 主要服务海外用户，服务器在新加坡/香港
+      - '+.wechat.com'                                  # WeChat (国际版)。国内是 weixin.qq.com。wechat.com 主要服务海外用户，服务器在新加坡/香港
       - '+.wegame.com'                                
     # - '+.wegamedeveloper.com'                         # 域名已失效
       - '+.wegameplus.com'                            

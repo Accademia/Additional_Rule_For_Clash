@@ -3317,7 +3317,7 @@ payload:
     # - DOMAIN-SUFFIX   , webofknowledge.com                          # WoS 数据库
     # - DOMAIN-SUFFIX   , webqxs.com                                  # 域名已失效
       - DOMAIN-SUFFIX   , webterren.com                             
-    # - DOMAIN-SUFFIX   , wechat.com                                  # WeChat (国际版)。国内是 weixin.qq.com。wechat.com 主要服务海外用户，服务器在新加坡/香港
+      - DOMAIN-SUFFIX   , wechat.com                                  # WeChat (国际版)。国内是 weixin.qq.com。wechat.com 主要服务海外用户，服务器在新加坡/香港
       - DOMAIN-SUFFIX   , wegame.com                                
     # - DOMAIN-SUFFIX   , wegamedeveloper.com                         # 域名已失效
       - DOMAIN-SUFFIX   , wegameplus.com                            
