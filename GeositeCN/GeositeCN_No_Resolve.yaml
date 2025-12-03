@@ -4655,20 +4655,20 @@ payload:
     - DOMAIN-SUFFIX   , inkuai.com                                                      # GeoSite:kuaishou
   # - DOMAIN-SUFFIX   , inkwai.com                                                      # GeoSite:kuaishou                              # dead
     - DOMAIN-SUFFIX   , ksapisrv.com                                                    # GeoSite:kuaishou
-    - DOMAIN-SUFFIX   , kskwai.com                                                      # GeoSite:kuaishou
+  # - DOMAIN-SUFFIX   , kskwai.com                                                      # GeoSite:kuaishou
   # - DOMAIN-SUFFIX   , kuaishou.cn                                                     # GeoSite:kuaishou                              # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , kuaishou.com                                                    # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kuaishouapps.com                                                # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kuaishoupay.com                                                 # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kuaishouzt.com                                                  # GeoSite:kuaishou
   # - DOMAIN-SUFFIX   , kwaicdn.com                                                     # GeoSite:kuaishou                              # dead
-    - DOMAIN-SUFFIX   , kwaizt.com                                                      # GeoSite:kuaishou
+  # - DOMAIN-SUFFIX   , kwaizt.com                                                      # GeoSite:kuaishou
     - DOMAIN-SUFFIX   , kwimgs.com                                                      # GeoSite:kuaishou
   # - DOMAIN-SUFFIX   , wsukwai.com                                                     # GeoSite:kuaishou                              # dead
     - DOMAIN-SUFFIX   , yximgs.com                                                      # GeoSite:kuaishou
-    - DOMAIN-SUFFIX   , adbkwai.com                                                     # GeoSite:kuaishou-ads
-    - DOMAIN-SUFFIX   , adkwai.com                                                      # GeoSite:kuaishou-ads
-    - DOMAIN-SUFFIX   , adukwai.com                                                     # GeoSite:kuaishou-ads
+  # - DOMAIN-SUFFIX   , adbkwai.com                                                     # GeoSite:kuaishou-ads
+  # - DOMAIN-SUFFIX   , adkwai.com                                                      # GeoSite:kuaishou-ads
+  # - DOMAIN-SUFFIX   , adukwai.com                                                     # GeoSite:kuaishou-ads
   # - DOMAIN-SUFFIX   , e.kuaishou.cn                                                   # GeoSite:kuaishou-ads                          # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , e.kuaishou.com                                                  # GeoSite:kuaishou-ads
     - DOMAIN-SUFFIX   , full:log-sdk.gifshow.com                                        # GeoSite:kuaishou-ads

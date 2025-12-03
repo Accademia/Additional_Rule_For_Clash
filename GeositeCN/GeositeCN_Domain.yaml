@@ -4654,20 +4654,20 @@ payload:
     - '+.inkuai.com'                                                                    # GeoSite:kuaishou
   # - '+.inkwai.com'                                                                    # GeoSite:kuaishou                              # dead
     - '+.ksapisrv.com'                                                                  # GeoSite:kuaishou
-    - '+.kskwai.com'                                                                    # GeoSite:kuaishou
+  # - '+.kskwai.com'                                                                    # GeoSite:kuaishou
   # - '+.kuaishou.cn'                                                                   # GeoSite:kuaishou                              # duplicate .cn suffix rule
     - '+.kuaishou.com'                                                                  # GeoSite:kuaishou
     - '+.kuaishouapps.com'                                                              # GeoSite:kuaishou
     - '+.kuaishoupay.com'                                                               # GeoSite:kuaishou
     - '+.kuaishouzt.com'                                                                # GeoSite:kuaishou
   # - '+.kwaicdn.com'                                                                   # GeoSite:kuaishou                              # dead
-    - '+.kwaizt.com'                                                                    # GeoSite:kuaishou
+  # - '+.kwaizt.com'                                                                    # GeoSite:kuaishou
     - '+.kwimgs.com'                                                                    # GeoSite:kuaishou
   # - '+.wsukwai.com'                                                                   # GeoSite:kuaishou                              # dead
     - '+.yximgs.com'                                                                    # GeoSite:kuaishou
-    - '+.adbkwai.com'                                                                   # GeoSite:kuaishou-ads
-    - '+.adkwai.com'                                                                    # GeoSite:kuaishou-ads
-    - '+.adukwai.com'                                                                   # GeoSite:kuaishou-ads
+  # - '+.adbkwai.com'                                                                   # GeoSite:kuaishou-ads
+  # - '+.adkwai.com'                                                                    # GeoSite:kuaishou-ads
+  # - '+.adukwai.com'                                                                   # GeoSite:kuaishou-ads
   # - '+.e.kuaishou.cn'                                                                 # GeoSite:kuaishou-ads                          # duplicate .cn suffix rule
     - '+.e.kuaishou.com'                                                                # GeoSite:kuaishou-ads
     - '+.full:log-sdk.gifshow.com'                                                      # GeoSite:kuaishou-ads
