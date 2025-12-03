@@ -165,7 +165,7 @@ payload:
     - DOMAIN-SUFFIX   , acfunchina.com                                                  # GeoSite:acfun
   # - DOMAIN-SUFFIX   , acfunchina.net                                                  # GeoSite:acfun                                 # dead
     - DOMAIN-SUFFIX   , aixifan.com                                                     # GeoSite:acfun
-  # - DOMAIN-SUFFIX   , full:apilog-web.acfun.cn                                        # GeoSite:acfun-ads                             # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , apilog-web.acfun.cn                                        # GeoSite:acfun-ads                             # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , acplay.net                                                      # GeoSite:acplay                                # dead & foreign-other
   # - DOMAIN-SUFFIX   , dandanplay.com                                                  # GeoSite:acplay                                # foreign & foreign-other
   # - DOMAIN-SUFFIX   , afdian.com                                                      # GeoSite:afdian                                # foreign
@@ -528,7 +528,7 @@ payload:
   # - DOMAIN-SUFFIX   , nwcdcloud.com.cn                                                # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , nwcddns.cn                                                      # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , nwcdinfosec.cn                                                  # GeoSite:aws-cn                                # duplicate .cn suffix rule
-  # - DOMAIN-SUFFIX   , regexp:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$             # GeoSite:aws-cn
+    - DOMAIN-KEWOWRD  , awsdns-cn-                                                      # GeoSite:aws-cn
   # - DOMAIN-SUFFIX   , regexp:.+\.awsdns-cn-[0-9][a-e0-9]\.cn$                         # GeoSite:aws-cn
   # - DOMAIN-SUFFIX   , route53.cn                                                      # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , sagemaker.com.cn                                                # GeoSite:aws-cn                                # duplicate .cn suffix rule
@@ -713,7 +713,7 @@ payload:
     - DOMAIN-SUFFIX   , biligo.com                                                      # GeoSite:bilibili
   # - DOMAIN-SUFFIX   , biliintl.com                                                    # GeoSite:bilibili                              # foreign-other
   # - DOMAIN-SUFFIX   , dreamcast.hk                                                    # GeoSite:bilibili                              # foreign & foreign-other
-    - DOMAIN-SUFFIX   , full:manga.bilibili.com                                         # GeoSite:bilibili
+    - DOMAIN-SUFFIX   , manga.bilibili.com                                         # GeoSite:bilibili
   # - DOMAIN-SUFFIX   , im9.com                                                         # GeoSite:bilibili                              # foreign & foreign-other
   # - DOMAIN-SUFFIX   , yo9.com                                                         # GeoSite:bilibili                              # dead & foreign-other
   # - DOMAIN-SUFFIX   , bilicdn1.com                                                    # GeoSite:bilibili-cdn                          # dead & foreign-other
@@ -725,7 +725,7 @@ payload:
   # - DOMAIN-SUFFIX   , bilivideo.cn                                                    # GeoSite:bilibili-cdn                          # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , bilivideo.com                                                   # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , bilivideo.net                                                   # GeoSite:bilibili-cdn
-    - DOMAIN-SUFFIX   , full:upos-hz-mirrorakam.akamaized.net                           # GeoSite:bilibili-cdn
+    - DOMAIN-SUFFIX   , upos-hz-mirrorakam.akamaized.net                           # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , hdslb.com                                                       # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , hdslb.org                                                       # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , maoercdn.com                                                    # GeoSite:bilibili-cdn
@@ -918,7 +918,7 @@ payload:
     - DOMAIN-SUFFIX   , faceu.com                                                       # GeoSite:bytedance
   # - DOMAIN-SUFFIX   , fedlearner.net                                                  # GeoSite:bytedance                             # dead
   # - DOMAIN-SUFFIX   , feelgood.cn                                                     # GeoSite:bytedance                             # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , full:bytedance.map.fastly.net                                   # GeoSite:bytedance
+    - DOMAIN-SUFFIX   , bytedance.map.fastly.net                                   # GeoSite:bytedance
   # - DOMAIN-SUFFIX   , gogokid.com                                                     # GeoSite:bytedance                             # dead & foreign-other
   # - DOMAIN-SUFFIX   , gogokid.com.cn                                                  # GeoSite:bytedance                             # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , gslbdns.com                                                     # GeoSite:bytedance                             # dead
@@ -1117,8 +1117,8 @@ payload:
   # - DOMAIN-SUFFIX   , chatglm.cn                                                      # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , cueme.cn                                                        # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , faxingbao.com                                                   # GeoSite:category-ai-cn
-  # - DOMAIN-SUFFIX   , full:ai.zhaomi.cn                                               # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
-  # - DOMAIN-SUFFIX   , full:cueme-api.quark.cn                                         # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , ai.zhaomi.cn                                               # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , cueme-api.quark.cn                                         # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , hailuoai.com                                                    # GeoSite:category-ai-cn
     - DOMAIN-SUFFIX   , hunyuan.tencent.com                                             # GeoSite:category-ai-cn
     - DOMAIN-SUFFIX   , liblib.art                                                      # GeoSite:category-ai-cn
@@ -1410,8 +1410,8 @@ payload:
   # - DOMAIN-SUFFIX   , wmsj.cn                                                         # GeoSite:category-games-cn                     # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , wo1wan.com                                                      # GeoSite:category-games-cn
     - DOMAIN-SUFFIX   , ycgame.com                                                      # GeoSite:category-games-cn
-  # - DOMAIN-SUFFIX   , full:hospital.pku.edu.cn                                        # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
-  # - DOMAIN-SUFFIX   , full:ss.bjmu.edu.cn                                             # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , hospital.pku.edu.cn                                        # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , ss.bjmu.edu.cn                                             # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , fuwai.com                                                       # GeoSite:category-hospital-cn
   # - DOMAIN-SUFFIX   , pkuh6.cn                                                        # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , puh3.net.cn                                                     # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
@@ -1510,9 +1510,9 @@ payload:
   # - DOMAIN-SUFFIX   , zqrb.cn                                                         # GeoSite:category-media-cn                     # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , chinesemooc.org                                                 # GeoSite:category-mooc-cn
     - DOMAIN-SUFFIX   , cnmooc.org                                                      # GeoSite:category-mooc-cn
-  # - DOMAIN-SUFFIX   , full:moocs.unipus.cn                                            # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
-  # - DOMAIN-SUFFIX   , full:opencourse.pku.edu.cn                                      # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , full:study.163.com                                              # GeoSite:category-mooc-cn
+  # - DOMAIN-SUFFIX   , moocs.unipus.cn                                            # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , opencourse.pku.edu.cn                                      # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
+    - DOMAIN-SUFFIX   , study.163.com                                              # GeoSite:category-mooc-cn
     - DOMAIN-SUFFIX   , icourse163.org                                                  # GeoSite:category-mooc-cn
   # - DOMAIN-SUFFIX   , icourses.cn                                                     # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , icve.com.cn                                                     # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
@@ -1548,23 +1548,23 @@ payload:
   # - DOMAIN-SUFFIX   , t00ls.net                                                       # GeoSite:category-network-security-cn          # dead & foreign-other
   # - DOMAIN-SUFFIX   , tools.team                                                      # GeoSite:category-network-security-cn          # dead & foreign-other
   # - DOMAIN-SUFFIX   , cn.pool.ntp.org                                                 # GeoSite:category-ntp-cn                       # foreign
-    - DOMAIN-SUFFIX   , full:ntp.aliyun.com                                             # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp.tencent.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp1.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp1.tencent.com                                           # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp2.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp2.tencent.com                                           # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp3.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp3.tencent.com                                           # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp4.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp4.tencent.com                                           # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp5.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp5.tencent.com                                           # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp6.aliyun.com                                            # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:ntp7.aliyun.com                                            # GeoSite:category-ntp-cn
-  # - DOMAIN-SUFFIX   , full:time.amazonaws.cn                                          # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , full:time.izatcloud.net                                         # GeoSite:category-ntp-cn
-    - DOMAIN-SUFFIX   , full:time.xtracloud.net                                         # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp.aliyun.com                                             # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp.tencent.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp1.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp1.tencent.com                                           # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp2.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp2.tencent.com                                           # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp3.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp3.tencent.com                                           # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp4.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp4.tencent.com                                           # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp5.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp5.tencent.com                                           # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp6.aliyun.com                                            # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , ntp7.aliyun.com                                            # GeoSite:category-ntp-cn
+  # - DOMAIN-SUFFIX   , time.amazonaws.cn                                          # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
+    - DOMAIN-SUFFIX   , time.izatcloud.net                                         # GeoSite:category-ntp-cn
+    - DOMAIN-SUFFIX   , time.xtracloud.net                                         # GeoSite:category-ntp-cn
   # - DOMAIN-SUFFIX   , ntp.neu.edu.cn                                                  # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , ntp.ntsc.ac.cn                                                  # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , ntp.org.cn                                                      # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
@@ -1606,7 +1606,7 @@ payload:
     - DOMAIN-SUFFIX   , duxiu.com                                                       # GeoSite:category-scholar-cn
     - DOMAIN-SUFFIX   , er07.com                                                        # GeoSite:category-scholar-cn
     - DOMAIN-SUFFIX   , ersjk.com                                                       # GeoSite:category-scholar-cn
-    - DOMAIN-SUFFIX   , full:www.libvideo.com                                           # GeoSite:category-scholar-cn
+    - DOMAIN-SUFFIX   , www.libvideo.com                                           # GeoSite:category-scholar-cn
     - DOMAIN-SUFFIX   , gtarsc.com                                                      # GeoSite:category-scholar-cn
     - DOMAIN-SUFFIX   , htcases.com                                                     # GeoSite:category-scholar-cn
     - DOMAIN-SUFFIX   , hwshu.com                                                       # GeoSite:category-scholar-cn
@@ -2465,8 +2465,8 @@ payload:
   # - DOMAIN-SUFFIX   , fqnovelpic.com                                                  # GeoSite:fqnovel                               # dead & foreign-other
   # - DOMAIN-SUFFIX   , fqnovelstatic.com                                               # GeoSite:fqnovel                               # dead
   # - DOMAIN-SUFFIX   , fqnovelvod.com                                                  # GeoSite:fqnovel                               # dead & foreign-other
-    - DOMAIN-SUFFIX   , full:p3-novel.byteimg.com                                       # GeoSite:fqnovel
-    - DOMAIN-SUFFIX   , full:p6-novel.byteimg.com                                       # GeoSite:fqnovel
+    - DOMAIN-SUFFIX   , p3-novel.byteimg.com                                       # GeoSite:fqnovel
+    - DOMAIN-SUFFIX   , p6-novel.byteimg.com                                       # GeoSite:fqnovel
   # - DOMAIN-SUFFIX   , ihaohaoxuexi.com                                                # GeoSite:fqnovel                               # dead
     - DOMAIN-SUFFIX   , muyewx.com                                                      # GeoSite:fqnovel
     - DOMAIN-SUFFIX   , novelfm.com                                                     # GeoSite:fqnovel
@@ -2477,21 +2477,21 @@ payload:
   # - DOMAIN-SUFFIX   , qznovelpic.com                                                  # GeoSite:fqnovel                               # dead
   # - DOMAIN-SUFFIX   , qznovelstatic.com                                               # GeoSite:fqnovel                               # dead
     - DOMAIN-SUFFIX   , qznovelvod.com                                                  # GeoSite:fqnovel
-    - DOMAIN-SUFFIX   , full:ads3-normal-hl.zijieapi.com                                # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:ads3-normal.zijieapi.com                                   # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:ads5-normal-hl.zijieapi.com                                # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:ads5-normal.zijieapi.com                                   # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:log3-applog-hl.fqnovel.com                                 # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:log3-applog.fqnovel.com                                    # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:log5-applog-hl.fqnovel.com                                 # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:log5-applog.fqnovel.com                                    # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:p3-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:p6-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:p9-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:rtlog3-applog-hl.fqnovel.com                               # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:rtlog3-applog.fqnovel.com                                  # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:rtlog5-applog-hl.fqnovel.com                               # GeoSite:fqnovel-ads
-    - DOMAIN-SUFFIX   , full:rtlog5-applog.fqnovel.com                                  # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , ads3-normal-hl.zijieapi.com                                # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , ads3-normal.zijieapi.com                                   # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , ads5-normal-hl.zijieapi.com                                # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , ads5-normal.zijieapi.com                                   # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , log3-applog-hl.fqnovel.com                                 # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , log3-applog.fqnovel.com                                    # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , log5-applog-hl.fqnovel.com                                 # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , log5-applog.fqnovel.com                                    # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , p3-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , p6-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , p9-ad-sign.byteimg.com                                     # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , rtlog3-applog-hl.fqnovel.com                               # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , rtlog3-applog.fqnovel.com                                  # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , rtlog5-applog-hl.fqnovel.com                               # GeoSite:fqnovel-ads
+    - DOMAIN-SUFFIX   , rtlog5-applog.fqnovel.com                                  # GeoSite:fqnovel-ads
     - DOMAIN-SUFFIX   , click.gamersky.com                                              # GeoSite:gamersky
     - DOMAIN-SUFFIX   , gamersky.com                                                    # GeoSite:gamersky
     - DOMAIN-SUFFIX   , ja.gamersky.com                                                 # GeoSite:gamersky
@@ -2502,7 +2502,7 @@ payload:
     - DOMAIN-SUFFIX   , 58ganji.com                                                     # GeoSite:ganji
     - DOMAIN-SUFFIX   , ganji.com                                                       # GeoSite:ganji
   # - DOMAIN-SUFFIX   , ganjistatic1.com                                                # GeoSite:ganji                                 # dead & foreign-other
-  # - DOMAIN-SUFFIX   , full:geetest.datasink.sensorsdata.cn                            # GeoSite:geetest                               # duplicate .cn suffix rule
+  # - DOMAIN-SUFFIX   , geetest.datasink.sensorsdata.cn                            # GeoSite:geetest                               # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , geetest.com                                                     # GeoSite:geetest
     - DOMAIN-SUFFIX   , 0123456789.com                                                  # GeoSite:geolocation-cn
   # - DOMAIN-SUFFIX   , 0379home.com                                                    # GeoSite:geolocation-cn                        # foreign-other
@@ -3747,8 +3747,8 @@ payload:
     - DOMAIN-SUFFIX   , hnair.com                                                       # GeoSite:hainanairlines
   # - DOMAIN-SUFFIX   , fontstar.com.cn                                                 # GeoSite:hanyi                                 # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , hanyi.com.cn                                                    # GeoSite:hanyi                                 # duplicate .cn suffix rule
-  # - DOMAIN-SUFFIX   , full:hellofontpreview.oss-cn-beijing.aliyuncs.com               # GeoSite:hellofont
-  # - DOMAIN-SUFFIX   , full:hellowebfonts.oss-cn-beijing.aliyuncs.com                  # GeoSite:hellofont
+  # - DOMAIN-SUFFIX   , hellofontpreview.oss-cn-beijing.aliyuncs.com               # GeoSite:hellofont
+  # - DOMAIN-SUFFIX   , hellowebfonts.oss-cn-beijing.aliyuncs.com                  # GeoSite:hellofont
   # - DOMAIN-SUFFIX   , hellofont.cn                                                    # GeoSite:hellofont                             # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , hellowebfont.com                                                # GeoSite:hellofont
     - DOMAIN-SUFFIX   , hero.com                                                        # GeoSite:herogame
@@ -4582,15 +4582,15 @@ payload:
   # - DOMAIN-SUFFIX   , upfos.cn                                                        # GeoSite:jtexpress                             # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , upfos.com                                                       # GeoSite:jtexpress
     - DOMAIN-SUFFIX   , yl-scm.com                                                      # GeoSite:jtexpress
-    - DOMAIN-SUFFIX   , full:p1-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p2-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p3-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p4-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p5-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p6-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p7-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p8-juejin.byteimg.com                                      # GeoSite:juejin
-    - DOMAIN-SUFFIX   , full:p9-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p1-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p2-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p3-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p4-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p5-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p6-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p7-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p8-juejin.byteimg.com                                      # GeoSite:juejin
+    - DOMAIN-SUFFIX   , p9-juejin.byteimg.com                                      # GeoSite:juejin
   # - DOMAIN-SUFFIX   , juejin.cn                                                       # GeoSite:juejin                                # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , juejin.im                                                       # GeoSite:juejin
   # - DOMAIN-SUFFIX   , xitu.io                                                         # GeoSite:juejin                                # foreign & foreign-other
@@ -4621,7 +4621,7 @@ payload:
   # - DOMAIN-SUFFIX   , guanggaotongapp.cn                                              # GeoSite:jutongbao                             # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , jutongbao.online                                                # GeoSite:jutongbao
     - DOMAIN-SUFFIX   , jutongbao.top                                                   # GeoSite:jutongbao
-    - DOMAIN-SUFFIX   , full:kc.kexinshe.com                                            # GeoSite:kechuang
+    - DOMAIN-SUFFIX   , kc.kexinshe.com                                            # GeoSite:kechuang
     - DOMAIN-SUFFIX   , kechuang.org                                                    # GeoSite:kechuang
     - DOMAIN-SUFFIX   , gotokeep.com                                                    # GeoSite:keep
     - DOMAIN-SUFFIX   , keepcdn.com                                                     # GeoSite:keep
@@ -4669,8 +4669,8 @@ payload:
   # - DOMAIN-SUFFIX   , adukwai.com                                                     # GeoSite:kuaishou-ads
   # - DOMAIN-SUFFIX   , e.kuaishou.cn                                                   # GeoSite:kuaishou-ads                          # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , e.kuaishou.com                                                  # GeoSite:kuaishou-ads
-    - DOMAIN-SUFFIX   , full:log-sdk.gifshow.com                                        # GeoSite:kuaishou-ads
-    - DOMAIN-SUFFIX   , full:wlog.kuaishou.com                                          # GeoSite:kuaishou-ads
+    - DOMAIN-SUFFIX   , log-sdk.gifshow.com                                        # GeoSite:kuaishou-ads
+    - DOMAIN-SUFFIX   , wlog.kuaishou.com                                          # GeoSite:kuaishou-ads
   # - DOMAIN-SUFFIX   , dengguobi.com                                                   # GeoSite:kuaiyikeji                            # foreign & foreign-other
     - DOMAIN-SUFFIX   , houyicaiji.com                                                  # GeoSite:kuaiyikeji
   # - DOMAIN-SUFFIX   , jinglingbiaozhu.com                                             # GeoSite:kuaiyikeji                            # foreign & foreign-other
@@ -4984,7 +4984,7 @@ payload:
     - DOMAIN-SUFFIX   , okjike.com                                                      # GeoSite:okjike
     - DOMAIN-SUFFIX   , okjk.co                                                         # GeoSite:okjike
     - DOMAIN-SUFFIX   , ruguoapp.com                                                    # GeoSite:okjike
-  # - DOMAIN-SUFFIX   , full:community.oneplus.com                                      # GeoSite:oneplus                               # foreign-other
+  # - DOMAIN-SUFFIX   , community.oneplus.com                                      # GeoSite:oneplus                               # foreign-other
     - DOMAIN-SUFFIX   , h2os.com                                                        # GeoSite:oneplus
   # - DOMAIN-SUFFIX   , oneplus.cn                                                      # GeoSite:oneplus                               # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , oneplus.com                                                     # GeoSite:oneplus                               # foreign-other
@@ -5245,20 +5245,20 @@ payload:
   # - DOMAIN-SUFFIX   , qqmra.cn                                                        # GeoSite:qcloud                                # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , qqmra.com                                                       # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , qyunapp.com                                                     # GeoSite:qcloud                                # dead & foreign-other
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$               # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$                 # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$                # GeoSite:qcloud
-  # - DOMAIN-SUFFIX   , regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-beijing.myqcloud.com                 # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-beijing.tencentcos.com   # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-chengdu.myqcloud.com                 # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-chengdu.tencentcos.com   # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-chongqing.myqcloud.com               # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-chongqing.tencentcos.com # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-guangzhou.myqcloud.com               # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-guangzhou.tencentcos.com # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-nanjing.myqcloud.com                 # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-nanjing.tencentcos.com   # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-shanghai.myqclou.com                # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-shanghai.tencentcos.com  # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-shenzhen.myqcloud.com                # GeoSite:qcloud
+    - DOMAIN-SUFFIX   , ap-shenzhen.tencentcos.com  # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , rumt-sg.com                                                     # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , rumt-us.com                                                     # GeoSite:qcloud
     - DOMAIN-SUFFIX   , rumt-zh.com                                                     # GeoSite:qcloud
@@ -5819,7 +5819,7 @@ payload:
   # - DOMAIN-SUFFIX   , apcdns.net                                                      # GeoSite:tencent                               # dead & foreign-other
     - DOMAIN-SUFFIX   , foxmail.com                                                     # GeoSite:tencent
   # - DOMAIN-SUFFIX   , foxmail.com.cn                                                  # GeoSite:tencent                               # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , full:wetv.qq.com                                                # GeoSite:tencent
+    - DOMAIN-SUFFIX   , wetv.qq.com                                                # GeoSite:tencent
     - DOMAIN-SUFFIX   , fyeds.com                                                       # GeoSite:tencent
     - DOMAIN-SUFFIX   , fyeds0.com                                                      # GeoSite:tencent
   # - DOMAIN-SUFFIX   , fyeds1.com                                                      # GeoSite:tencent                               # dead & foreign-other
@@ -6031,7 +6031,7 @@ payload:
     - DOMAIN-SUFFIX   , jindidata.com                                                   # GeoSite:tianyancha
     - DOMAIN-SUFFIX   , tianyancha.com                                                  # GeoSite:tianyancha
   # - DOMAIN-SUFFIX   , byteoversea.com                                                 # GeoSite:tiktok
-  # - DOMAIN-SUFFIX   , full:p16-tiktokcdn-com.akamaized.net                            # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , p16-tiktokcdn-com.akamaized.net                            # GeoSite:tiktok
   # - DOMAIN-SUFFIX   , muscdn.com                                                      # GeoSite:tiktok
   # - DOMAIN-SUFFIX   , musical.ly                                                      # GeoSite:tiktok
   # - DOMAIN-SUFFIX   , tik-tokapi.com                                                  # GeoSite:tiktok

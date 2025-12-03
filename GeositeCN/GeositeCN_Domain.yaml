@@ -165,7 +165,7 @@ payload:
     - '+.acfunchina.com'                                                                # GeoSite:acfun
   # - '+.acfunchina.net'                                                                # GeoSite:acfun                                 # dead
     - '+.aixifan.com'                                                                   # GeoSite:acfun
-  # - '+.full:apilog-web.acfun.cn'                                                      # GeoSite:acfun-ads                             # duplicate .cn suffix rule
+  # - '+.apilog-web.acfun.cn'                                                      # GeoSite:acfun-ads                             # duplicate .cn suffix rule
   # - '+.acplay.net'                                                                    # GeoSite:acplay                                # dead & foreign-other
   # - '+.dandanplay.com'                                                                # GeoSite:acplay                                # foreign & foreign-other
   # - '+.afdian.com'                                                                    # GeoSite:afdian                                # foreign
@@ -528,8 +528,8 @@ payload:
   # - '+.nwcdcloud.com.cn'                                                              # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - '+.nwcddns.cn'                                                                    # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - '+.nwcdinfosec.cn'                                                                # GeoSite:aws-cn                                # duplicate .cn suffix rule
-    - '+.regexp:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$'                           # GeoSite:aws-cn
-    - '+.regexp:.+\.awsdns-cn-[0-9][a-e0-9]\.cn$'                                       # GeoSite:aws-cn
+  # - '+.regexp:.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$'                           # GeoSite:aws-cn
+  # - '+.regexp:.+\.awsdns-cn-[0-9][a-e0-9]\.cn$'                                       # GeoSite:aws-cn
   # - '+.route53.cn'                                                                    # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - '+.sagemaker.com.cn'                                                              # GeoSite:aws-cn                                # duplicate .cn suffix rule
   # - '+.b3log.org'                                                                     # GeoSite:b3log                                 # dead & foreign-other
@@ -713,7 +713,7 @@ payload:
     - '+.biligo.com'                                                                    # GeoSite:bilibili
   # - '+.biliintl.com'                                                                  # GeoSite:bilibili                              # foreign-other
   # - '+.dreamcast.hk'                                                                  # GeoSite:bilibili                              # foreign & foreign-other
-    - '+.full:manga.bilibili.com'                                                       # GeoSite:bilibili
+    - '+.manga.bilibili.com'                                                       # GeoSite:bilibili
   # - '+.im9.com'                                                                       # GeoSite:bilibili                              # foreign & foreign-other
   # - '+.yo9.com'                                                                       # GeoSite:bilibili                              # dead & foreign-other
   # - '+.bilicdn1.com'                                                                  # GeoSite:bilibili-cdn                          # dead & foreign-other
@@ -725,7 +725,7 @@ payload:
   # - '+.bilivideo.cn'                                                                  # GeoSite:bilibili-cdn                          # duplicate .cn suffix rule
     - '+.bilivideo.com'                                                                 # GeoSite:bilibili-cdn
     - '+.bilivideo.net'                                                                 # GeoSite:bilibili-cdn
-    - '+.full:upos-hz-mirrorakam.akamaized.net'                                         # GeoSite:bilibili-cdn
+    - '+.upos-hz-mirrorakam.akamaized.net'                                         # GeoSite:bilibili-cdn
     - '+.hdslb.com'                                                                     # GeoSite:bilibili-cdn
     - '+.hdslb.org'                                                                     # GeoSite:bilibili-cdn
     - '+.maoercdn.com'                                                                  # GeoSite:bilibili-cdn
@@ -918,7 +918,7 @@ payload:
     - '+.faceu.com'                                                                     # GeoSite:bytedance
   # - '+.fedlearner.net'                                                                # GeoSite:bytedance                             # dead
   # - '+.feelgood.cn'                                                                   # GeoSite:bytedance                             # duplicate .cn suffix rule
-    - '+.full:bytedance.map.fastly.net'                                                 # GeoSite:bytedance
+    - '+.bytedance.map.fastly.net'                                                 # GeoSite:bytedance
   # - '+.gogokid.com'                                                                   # GeoSite:bytedance                             # dead & foreign-other
   # - '+.gogokid.com.cn'                                                                # GeoSite:bytedance                             # duplicate .cn suffix rule
   # - '+.gslbdns.com'                                                                   # GeoSite:bytedance                             # dead
@@ -1117,8 +1117,8 @@ payload:
   # - '+.chatglm.cn'                                                                    # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
   # - '+.cueme.cn'                                                                      # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
     - '+.faxingbao.com'                                                                 # GeoSite:category-ai-cn
-  # - '+.full:ai.zhaomi.cn'                                                             # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
-  # - '+.full:cueme-api.quark.cn'                                                       # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
+  # - '+.ai.zhaomi.cn'                                                             # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
+  # - '+.cueme-api.quark.cn'                                                       # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
     - '+.hailuoai.com'                                                                  # GeoSite:category-ai-cn
     - '+.hunyuan.tencent.com'                                                           # GeoSite:category-ai-cn
     - '+.liblib.art'                                                                    # GeoSite:category-ai-cn
@@ -1410,8 +1410,8 @@ payload:
   # - '+.wmsj.cn'                                                                       # GeoSite:category-games-cn                     # duplicate .cn suffix rule
     - '+.wo1wan.com'                                                                    # GeoSite:category-games-cn
     - '+.ycgame.com'                                                                    # GeoSite:category-games-cn
-  # - '+.full:hospital.pku.edu.cn'                                                      # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
-  # - '+.full:ss.bjmu.edu.cn'                                                           # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
+  # - '+.hospital.pku.edu.cn'                                                      # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
+  # - '+.ss.bjmu.edu.cn'                                                           # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
     - '+.fuwai.com'                                                                     # GeoSite:category-hospital-cn
   # - '+.pkuh6.cn'                                                                      # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
   # - '+.puh3.net.cn'                                                                   # GeoSite:category-hospital-cn                  # duplicate .cn suffix rule
@@ -1510,9 +1510,9 @@ payload:
   # - '+.zqrb.cn'                                                                       # GeoSite:category-media-cn                     # duplicate .cn suffix rule
     - '+.chinesemooc.org'                                                               # GeoSite:category-mooc-cn
     - '+.cnmooc.org'                                                                    # GeoSite:category-mooc-cn
-  # - '+.full:moocs.unipus.cn'                                                          # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
-  # - '+.full:opencourse.pku.edu.cn'                                                    # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
-    - '+.full:study.163.com'                                                            # GeoSite:category-mooc-cn
+  # - '+.moocs.unipus.cn'                                                          # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
+  # - '+.opencourse.pku.edu.cn'                                                    # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
+    - '+.study.163.com'                                                            # GeoSite:category-mooc-cn
     - '+.icourse163.org'                                                                # GeoSite:category-mooc-cn
   # - '+.icourses.cn'                                                                   # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
   # - '+.icve.com.cn'                                                                   # GeoSite:category-mooc-cn                      # duplicate .cn suffix rule
@@ -1548,23 +1548,23 @@ payload:
   # - '+.t00ls.net'                                                                     # GeoSite:category-network-security-cn          # dead & foreign-other
   # - '+.tools.team'                                                                    # GeoSite:category-network-security-cn          # dead & foreign-other
   # - '+.cn.pool.ntp.org'                                                               # GeoSite:category-ntp-cn                       # foreign
-    - '+.full:ntp.aliyun.com'                                                           # GeoSite:category-ntp-cn
-    - '+.full:ntp.tencent.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp1.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp1.tencent.com'                                                         # GeoSite:category-ntp-cn
-    - '+.full:ntp2.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp2.tencent.com'                                                         # GeoSite:category-ntp-cn
-    - '+.full:ntp3.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp3.tencent.com'                                                         # GeoSite:category-ntp-cn
-    - '+.full:ntp4.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp4.tencent.com'                                                         # GeoSite:category-ntp-cn
-    - '+.full:ntp5.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp5.tencent.com'                                                         # GeoSite:category-ntp-cn
-    - '+.full:ntp6.aliyun.com'                                                          # GeoSite:category-ntp-cn
-    - '+.full:ntp7.aliyun.com'                                                          # GeoSite:category-ntp-cn
-  # - '+.full:time.amazonaws.cn'                                                        # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
-    - '+.full:time.izatcloud.net'                                                       # GeoSite:category-ntp-cn
-    - '+.full:time.xtracloud.net'                                                       # GeoSite:category-ntp-cn
+    - '+.ntp.aliyun.com'                                                           # GeoSite:category-ntp-cn
+    - '+.ntp.tencent.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp1.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp1.tencent.com'                                                         # GeoSite:category-ntp-cn
+    - '+.ntp2.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp2.tencent.com'                                                         # GeoSite:category-ntp-cn
+    - '+.ntp3.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp3.tencent.com'                                                         # GeoSite:category-ntp-cn
+    - '+.ntp4.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp4.tencent.com'                                                         # GeoSite:category-ntp-cn
+    - '+.ntp5.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp5.tencent.com'                                                         # GeoSite:category-ntp-cn
+    - '+.ntp6.aliyun.com'                                                          # GeoSite:category-ntp-cn
+    - '+.ntp7.aliyun.com'                                                          # GeoSite:category-ntp-cn
+  # - '+.time.amazonaws.cn'                                                        # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
+    - '+.time.izatcloud.net'                                                       # GeoSite:category-ntp-cn
+    - '+.time.xtracloud.net'                                                       # GeoSite:category-ntp-cn
   # - '+.ntp.neu.edu.cn'                                                                # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
   # - '+.ntp.ntsc.ac.cn'                                                                # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
   # - '+.ntp.org.cn'                                                                    # GeoSite:category-ntp-cn                       # duplicate .cn suffix rule
@@ -1606,7 +1606,7 @@ payload:
     - '+.duxiu.com'                                                                     # GeoSite:category-scholar-cn
     - '+.er07.com'                                                                      # GeoSite:category-scholar-cn
     - '+.ersjk.com'                                                                     # GeoSite:category-scholar-cn
-    - '+.full:www.libvideo.com'                                                         # GeoSite:category-scholar-cn
+    - '+.www.libvideo.com'                                                         # GeoSite:category-scholar-cn
     - '+.gtarsc.com'                                                                    # GeoSite:category-scholar-cn
     - '+.htcases.com'                                                                   # GeoSite:category-scholar-cn
     - '+.hwshu.com'                                                                     # GeoSite:category-scholar-cn
@@ -2465,8 +2465,8 @@ payload:
   # - '+.fqnovelpic.com'                                                                # GeoSite:fqnovel                               # dead & foreign-other
   # - '+.fqnovelstatic.com'                                                             # GeoSite:fqnovel                               # dead
   # - '+.fqnovelvod.com'                                                                # GeoSite:fqnovel                               # dead & foreign-other
-    - '+.full:p3-novel.byteimg.com'                                                     # GeoSite:fqnovel
-    - '+.full:p6-novel.byteimg.com'                                                     # GeoSite:fqnovel
+    - '+.p3-novel.byteimg.com'                                                     # GeoSite:fqnovel
+    - '+.p6-novel.byteimg.com'                                                     # GeoSite:fqnovel
   # - '+.ihaohaoxuexi.com'                                                              # GeoSite:fqnovel                               # dead
     - '+.muyewx.com'                                                                    # GeoSite:fqnovel
     - '+.novelfm.com'                                                                   # GeoSite:fqnovel
@@ -2477,21 +2477,21 @@ payload:
   # - '+.qznovelpic.com'                                                                # GeoSite:fqnovel                               # dead
   # - '+.qznovelstatic.com'                                                             # GeoSite:fqnovel                               # dead
     - '+.qznovelvod.com'                                                                # GeoSite:fqnovel
-    - '+.full:ads3-normal-hl.zijieapi.com'                                              # GeoSite:fqnovel-ads
-    - '+.full:ads3-normal.zijieapi.com'                                                 # GeoSite:fqnovel-ads
-    - '+.full:ads5-normal-hl.zijieapi.com'                                              # GeoSite:fqnovel-ads
-    - '+.full:ads5-normal.zijieapi.com'                                                 # GeoSite:fqnovel-ads
-    - '+.full:log3-applog-hl.fqnovel.com'                                               # GeoSite:fqnovel-ads
-    - '+.full:log3-applog.fqnovel.com'                                                  # GeoSite:fqnovel-ads
-    - '+.full:log5-applog-hl.fqnovel.com'                                               # GeoSite:fqnovel-ads
-    - '+.full:log5-applog.fqnovel.com'                                                  # GeoSite:fqnovel-ads
-    - '+.full:p3-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
-    - '+.full:p6-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
-    - '+.full:p9-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
-    - '+.full:rtlog3-applog-hl.fqnovel.com'                                             # GeoSite:fqnovel-ads
-    - '+.full:rtlog3-applog.fqnovel.com'                                                # GeoSite:fqnovel-ads
-    - '+.full:rtlog5-applog-hl.fqnovel.com'                                             # GeoSite:fqnovel-ads
-    - '+.full:rtlog5-applog.fqnovel.com'                                                # GeoSite:fqnovel-ads
+    - '+.ads3-normal-hl.zijieapi.com'                                              # GeoSite:fqnovel-ads
+    - '+.ads3-normal.zijieapi.com'                                                 # GeoSite:fqnovel-ads
+    - '+.ads5-normal-hl.zijieapi.com'                                              # GeoSite:fqnovel-ads
+    - '+.ads5-normal.zijieapi.com'                                                 # GeoSite:fqnovel-ads
+    - '+.log3-applog-hl.fqnovel.com'                                               # GeoSite:fqnovel-ads
+    - '+.log3-applog.fqnovel.com'                                                  # GeoSite:fqnovel-ads
+    - '+.log5-applog-hl.fqnovel.com'                                               # GeoSite:fqnovel-ads
+    - '+.log5-applog.fqnovel.com'                                                  # GeoSite:fqnovel-ads
+    - '+.p3-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
+    - '+.p6-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
+    - '+.p9-ad-sign.byteimg.com'                                                   # GeoSite:fqnovel-ads
+    - '+.rtlog3-applog-hl.fqnovel.com'                                             # GeoSite:fqnovel-ads
+    - '+.rtlog3-applog.fqnovel.com'                                                # GeoSite:fqnovel-ads
+    - '+.rtlog5-applog-hl.fqnovel.com'                                             # GeoSite:fqnovel-ads
+    - '+.rtlog5-applog.fqnovel.com'                                                # GeoSite:fqnovel-ads
     - '+.click.gamersky.com'                                                            # GeoSite:gamersky
     - '+.gamersky.com'                                                                  # GeoSite:gamersky
     - '+.ja.gamersky.com'                                                               # GeoSite:gamersky
@@ -2502,7 +2502,7 @@ payload:
     - '+.58ganji.com'                                                                   # GeoSite:ganji
     - '+.ganji.com'                                                                     # GeoSite:ganji
   # - '+.ganjistatic1.com'                                                              # GeoSite:ganji                                 # dead & foreign-other
-  # - '+.full:geetest.datasink.sensorsdata.cn'                                          # GeoSite:geetest                               # duplicate .cn suffix rule
+  # - '+.geetest.datasink.sensorsdata.cn'                                          # GeoSite:geetest                               # duplicate .cn suffix rule
     - '+.geetest.com'                                                                   # GeoSite:geetest
     - '+.0123456789.com'                                                                # GeoSite:geolocation-cn
   # - '+.0379home.com'                                                                  # GeoSite:geolocation-cn                        # foreign-other
@@ -3747,8 +3747,8 @@ payload:
     - '+.hnair.com'                                                                     # GeoSite:hainanairlines
   # - '+.fontstar.com.cn'                                                               # GeoSite:hanyi                                 # duplicate .cn suffix rule
   # - '+.hanyi.com.cn'                                                                  # GeoSite:hanyi                                 # duplicate .cn suffix rule
-  # - '+.full:hellofontpreview.oss-cn-beijing.aliyuncs.com'                             # GeoSite:hellofont
-  # - '+.full:hellowebfonts.oss-cn-beijing.aliyuncs.com'                                # GeoSite:hellofont
+  # - '+.hellofontpreview.oss-cn-beijing.aliyuncs.com'                             # GeoSite:hellofont
+  # - '+.hellowebfonts.oss-cn-beijing.aliyuncs.com'                                # GeoSite:hellofont
   # - '+.hellofont.cn'                                                                  # GeoSite:hellofont                             # duplicate .cn suffix rule
     - '+.hellowebfont.com'                                                              # GeoSite:hellofont
     - '+.hero.com'                                                                      # GeoSite:herogame
@@ -4582,15 +4582,15 @@ payload:
   # - '+.upfos.cn'                                                                      # GeoSite:jtexpress                             # duplicate .cn suffix rule
     - '+.upfos.com'                                                                     # GeoSite:jtexpress
     - '+.yl-scm.com'                                                                    # GeoSite:jtexpress
-    - '+.full:p1-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p2-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p3-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p4-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p5-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p6-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p7-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p8-juejin.byteimg.com'                                                    # GeoSite:juejin
-    - '+.full:p9-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p1-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p2-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p3-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p4-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p5-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p6-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p7-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p8-juejin.byteimg.com'                                                    # GeoSite:juejin
+    - '+.p9-juejin.byteimg.com'                                                    # GeoSite:juejin
   # - '+.juejin.cn'                                                                     # GeoSite:juejin                                # duplicate .cn suffix rule
     - '+.juejin.im'                                                                     # GeoSite:juejin
   # - '+.xitu.io'                                                                       # GeoSite:juejin                                # foreign & foreign-other
@@ -4621,7 +4621,7 @@ payload:
   # - '+.guanggaotongapp.cn'                                                            # GeoSite:jutongbao                             # duplicate .cn suffix rule
     - '+.jutongbao.online'                                                              # GeoSite:jutongbao
     - '+.jutongbao.top'                                                                 # GeoSite:jutongbao
-    - '+.full:kc.kexinshe.com'                                                          # GeoSite:kechuang
+    - '+.kc.kexinshe.com'                                                          # GeoSite:kechuang
     - '+.kechuang.org'                                                                  # GeoSite:kechuang
     - '+.gotokeep.com'                                                                  # GeoSite:keep
     - '+.keepcdn.com'                                                                   # GeoSite:keep
@@ -4669,8 +4669,8 @@ payload:
   # - '+.adukwai.com'                                                                   # GeoSite:kuaishou-ads
   # - '+.e.kuaishou.cn'                                                                 # GeoSite:kuaishou-ads                          # duplicate .cn suffix rule
     - '+.e.kuaishou.com'                                                                # GeoSite:kuaishou-ads
-    - '+.full:log-sdk.gifshow.com'                                                      # GeoSite:kuaishou-ads
-    - '+.full:wlog.kuaishou.com'                                                        # GeoSite:kuaishou-ads
+    - '+.log-sdk.gifshow.com'                                                      # GeoSite:kuaishou-ads
+    - '+.wlog.kuaishou.com'                                                        # GeoSite:kuaishou-ads
   # - '+.dengguobi.com'                                                                 # GeoSite:kuaiyikeji                            # foreign & foreign-other
     - '+.houyicaiji.com'                                                                # GeoSite:kuaiyikeji
   # - '+.jinglingbiaozhu.com'                                                           # GeoSite:kuaiyikeji                            # foreign & foreign-other
@@ -4984,7 +4984,7 @@ payload:
     - '+.okjike.com'                                                                    # GeoSite:okjike
     - '+.okjk.co'                                                                       # GeoSite:okjike
     - '+.ruguoapp.com'                                                                  # GeoSite:okjike
-  # - '+.full:community.oneplus.com'                                                    # GeoSite:oneplus                               # foreign-other
+  # - '+.community.oneplus.com'                                                    # GeoSite:oneplus                               # foreign-other
     - '+.h2os.com'                                                                      # GeoSite:oneplus
   # - '+.oneplus.cn'                                                                    # GeoSite:oneplus                               # duplicate .cn suffix rule
   # - '+.oneplus.com'                                                                   # GeoSite:oneplus                               # foreign-other
@@ -5245,20 +5245,20 @@ payload:
   # - '+.qqmra.cn'                                                                      # GeoSite:qcloud                                # duplicate .cn suffix rule
     - '+.qqmra.com'                                                                     # GeoSite:qcloud
   # - '+.qyunapp.com'                                                                   # GeoSite:qcloud                                # dead & foreign-other
-  # - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$'                             # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'               # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$'                               # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                 # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$'                              # GeoSite:qcloud
-  # - '+.regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$'                # GeoSite:qcloud
+    - '+.ap-beijing.myqcloud.com'                               # GeoSite:qcloud
+    - '+.ap-beijing.tencentcos.com'                 # GeoSite:qcloud
+    - '+.ap-chengdu.myqcloud.com'                               # GeoSite:qcloud
+    - '+.ap-chengdu.tencentcos.com'                 # GeoSite:qcloud
+    - '+.ap-chongqing.myqcloud.com'                             # GeoSite:qcloud
+    - '+.ap-chongqing.tencentcos.com'               # GeoSite:qcloud
+    - '+.ap-guangzhou.myqcloud.com'                             # GeoSite:qcloud
+    - '+.ap-guangzhou.tencentcos.com'               # GeoSite:qcloud
+    - '+.ap-nanjing.myqcloud.com'                               # GeoSite:qcloud
+    - '+.ap-nanjing.tencentcos.com'                 # GeoSite:qcloud
+    - '+.ap-shanghai.myqcloud.com'                              # GeoSite:qcloud
+    - '+.ap-shanghai.tencentcos.com'                # GeoSite:qcloud
+    - '+.ap-shenzhen.myqcloud.com'                              # GeoSite:qcloud
+    - '+.ap-shenzhen.tencentcos.com'                # GeoSite:qcloud
   # - '+.rumt-sg.com'                                                                   # GeoSite:qcloud
   # - '+.rumt-us.com'                                                                   # GeoSite:qcloud
     - '+.rumt-zh.com'                                                                   # GeoSite:qcloud
@@ -5819,7 +5819,7 @@ payload:
   # - '+.apcdns.net'                                                                    # GeoSite:tencent                               # dead & foreign-other
     - '+.foxmail.com'                                                                   # GeoSite:tencent
   # - '+.foxmail.com.cn'                                                                # GeoSite:tencent                               # duplicate .cn suffix rule
-    - '+.full:wetv.qq.com'                                                              # GeoSite:tencent
+    - '+.wetv.qq.com'                                                              # GeoSite:tencent
     - '+.fyeds.com'                                                                     # GeoSite:tencent
     - '+.fyeds0.com'                                                                    # GeoSite:tencent
   # - '+.fyeds1.com'                                                                    # GeoSite:tencent                               # dead & foreign-other
@@ -6031,7 +6031,7 @@ payload:
     - '+.jindidata.com'                                                                 # GeoSite:tianyancha
     - '+.tianyancha.com'                                                                # GeoSite:tianyancha
   # - '+.byteoversea.com'                                                               # GeoSite:tiktok
-  # - '+.full:p16-tiktokcdn-com.akamaized.net'                                          # GeoSite:tiktok
+  # - '+.p16-tiktokcdn-com.akamaized.net'                                          # GeoSite:tiktok
   # - '+.muscdn.com'                                                                    # GeoSite:tiktok
   # - '+.musical.ly'                                                                    # GeoSite:tiktok
   # - '+.tik-tokapi.com'                                                                # GeoSite:tiktok
