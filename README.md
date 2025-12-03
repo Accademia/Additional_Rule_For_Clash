@@ -11,10 +11,12 @@
 
 + 为什么要建立新项目，而不是给原规则提issue？ 
   - blackmatrix7 作者无意扩展新规则，本规则也只是添加 本项目主 自己常用的 长期验证过的 规则
+  - 另一方面，本项目，主要目标是：适配 我自己维护的 clash分流模版 。
 
-+ 推荐的 clash分流规则 模版？
-   - https://github.com/Accademia/Clash_Configuration_Template
-   - 优点：同时集成 “ blackmatrix + geosite + 本规则 ” ，且 0 DNS泄漏 ！
++ 我维护的 clash分流 模版 ？
+   - 打造一个，🔥 移动端 极致省电 + 0 DNS泄漏 + IP归属地可修改 + 主流APP都可分流 的模版
+        https://github.com/Accademia/Clash_Configuration_Template
+   - 集成规则库： “ blackmatrix + geosite + 本规则 ” ！
    - 使用方法：建议使用 chatgpt ，让AI全自动的 将你自己的规则 与 上述模版 做融合，扩充完善你自己的分流配置。
 
 .
