@@ -19,10 +19,11 @@
   - 本项目，用于补充 “超级省电clash分流模版” 需要使用到， 但市面上却没有的， 规则集。
  
 + 上述提到的 “超级省电clash分流规则模版” 是什么 ？
-   - 打造一个，🔥 移动端 极致省电 + 0 DNS泄漏 + IP归属地可修改 + 主流APP都可分流 的模版
-        https://github.com/Accademia/Clash_Configuration_Template
-   - 集成规则库： “ blackmatrix + geosite + 本规则 ” ！
-   - 使用方法：建议使用 chatgpt ，让AI全自动的 将你自己的规则 与 上述模版 做融合，扩充完善你自己的分流配置。
+   - 面向如下需求的Clash模版：
+        - 🔥 移动端 极致省电  +  0 DNS泄漏  +  IP归属地修改  +  国内国外主流APP分流 
+   - 项目地址：https://github.com/Accademia/Clash_Configuration_Template
+   - 集成规则库： “ blackmatrix + geosite + 本规则集 ” ！
+
 
 .
 
