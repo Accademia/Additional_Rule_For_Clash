@@ -1,7 +1,5 @@
 payload:
 
-    - DOMAIN-SUFFIX   , cn
-
     - DOMAIN-SUFFIX   , 115.com                                                         # GeoSite:115
     - DOMAIN-SUFFIX   , 115cdn.com                                                      # GeoSite:115
     - DOMAIN-SUFFIX   , 115cdn.net                                                      # GeoSite:115
@@ -458,14 +456,14 @@ payload:
     - DOMAIN-SUFFIX   , kunlunwe.com                                                    # GeoSite:aliyun
     - DOMAIN-SUFFIX   , mxhichina.com                                                   # GeoSite:aliyun
     - DOMAIN-SUFFIX   , myalicdn.com                                                    # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-northeast-1.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-northeast-2.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-south-1.aliyuncs.com                                     # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-southeast-1.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-southeast-2.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-southeast-3.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-southeast-5.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-ap-southeast-6.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-northeast-1.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-northeast-2.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-south-1.aliyuncs.com                                     # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-southeast-1.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-southeast-2.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-southeast-3.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-southeast-5.aliyuncs.com                                 # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-ap-southeast-6.aliyuncs.com                                 # GeoSite:aliyun
     - DOMAIN-SUFFIX   , oss-ap-southeast-7.aliyuncs.com                                 # GeoSite:aliyun
     - DOMAIN-SUFFIX   , oss-cn-beijing.aliyuncs.com                                     # GeoSite:aliyun
     - DOMAIN-SUFFIX   , oss-cn-chengdu.aliyuncs.com                                     # GeoSite:aliyun
@@ -480,11 +478,11 @@ payload:
     - DOMAIN-SUFFIX   , oss-cn-shenzhen.aliyuncs.com                                    # GeoSite:aliyun
     - DOMAIN-SUFFIX   , oss-cn-wulanchabu.aliyuncs.com                                  # GeoSite:aliyun
     - DOMAIN-SUFFIX   , oss-cn-zhangjiakou.aliyuncs.com                                 # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-eu-central-1.aliyuncs.com                                   # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-eu-west-1.aliyuncs.com                                      # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-me-east-1.aliyuncs.com                                      # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-us-east-1.aliyuncs.com                                      # GeoSite:aliyun
-    - DOMAIN-SUFFIX   , oss-us-west-1.aliyuncs.com                                      # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-eu-central-1.aliyuncs.com                                   # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-eu-west-1.aliyuncs.com                                      # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-me-east-1.aliyuncs.com                                      # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-us-east-1.aliyuncs.com                                      # GeoSite:aliyun
+  # - DOMAIN-SUFFIX   , oss-us-west-1.aliyuncs.com                                      # GeoSite:aliyun
     - DOMAIN-SUFFIX   , alicloudccp.com                                                 # GeoSite:aliyun-drive
     - DOMAIN-SUFFIX   , alipan.com                                                      # GeoSite:aliyun-drive
     - DOMAIN-SUFFIX   , aliyundrive.cloud                                               # GeoSite:aliyun-drive
@@ -896,7 +894,7 @@ payload:
   # - DOMAIN-SUFFIX   , bytenewst.com                                                   # GeoSite:bytedance                             # dead
   # - DOMAIN-SUFFIX   , byteorg.com                                                     # GeoSite:bytedance                             # dead
   # - DOMAIN-SUFFIX   , byteorge.com                                                    # GeoSite:bytedance                             # dead
-    - DOMAIN-SUFFIX   , byteoversea.net                                                 # GeoSite:bytedance
+  # - DOMAIN-SUFFIX   , byteoversea.net                                                 # GeoSite:bytedance
   # - DOMAIN-SUFFIX   , byteq5k.com                                                     # GeoSite:bytedance                             # dead
   # - DOMAIN-SUFFIX   , byteq8u.net                                                     # GeoSite:bytedance                             # dead
     - DOMAIN-SUFFIX   , bytescm.com                                                     # GeoSite:bytedance
@@ -2001,7 +1999,7 @@ payload:
     - DOMAIN-SUFFIX   , cloudflareanycast.net                                           # GeoSite:cloudflare-cn
   # - DOMAIN-SUFFIX   , cloudflarechina.cn                                              # GeoSite:cloudflare-cn                         # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , cloudflarecn.net                                                # GeoSite:cloudflare-cn
-    - DOMAIN-SUFFIX   , cloudflareglobal.net                                            # GeoSite:cloudflare-cn
+  # - DOMAIN-SUFFIX   , cloudflareglobal.net                                            # GeoSite:cloudflare-cn
   # - DOMAIN-SUFFIX   , cloudflareinsights-cn.com                                       # GeoSite:cloudflare-cn                         # dead & foreign-other
     - DOMAIN-SUFFIX   , cloudflareperf.com                                              # GeoSite:cloudflare-cn
   # - DOMAIN-SUFFIX   , cloudflareprod.com                                              # GeoSite:cloudflare-cn                         # foreign-other
@@ -3830,29 +3828,29 @@ payload:
   # - DOMAIN-SUFFIX   , aadcloud.cn                                                     # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , aadcloud.com                                                    # GeoSite:huaweicloud                           # dead
   # - DOMAIN-SUFFIX   , acgab.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , ae-ad-1.myhuaweicloud.com                                       # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , af-east-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , af-north-1.myhuaweicloud.com                                    # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ae-ad-1.myhuaweicloud.com                                       # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , af-east-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , af-north-1.myhuaweicloud.com                                    # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , af-south-1.myhuaweicloud.com                                    # GeoSite:huaweicloud                           # foreign & foreign-other
-    - DOMAIN-SUFFIX   , af-west-202.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , af-west-202.myhuaweicloud.com                                   # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , ami-alliance.org.cn                                             # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , ap-northeast-201.myhuaweicloud.com                              # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-northeast-201.myhuaweicloud.com                              # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , ap-southeast-1.myhuaweicloud.com                                # GeoSite:huaweicloud                           # foreign & foreign-other
   # - DOMAIN-SUFFIX   , ap-southeast-2.myhuaweicloud.com                                # GeoSite:huaweicloud                           # foreign & foreign-other
-    - DOMAIN-SUFFIX   , ap-southeast-201.myhuaweicloud.com                              # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , ap-southeast-202.myhuaweicloud.com                              # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , ap-southeast-203.myhuaweicloud.com                              # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-southeast-201.myhuaweicloud.com                              # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-southeast-202.myhuaweicloud.com                              # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-southeast-203.myhuaweicloud.com                              # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , ap-southeast-3.myhuaweicloud.com                                # GeoSite:huaweicloud                           # foreign & foreign-other
-    - DOMAIN-SUFFIX   , ap-southeast-4.myhuaweicloud.com                                # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , ap-southeast-5.myhuaweicloud.com                                # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , as-south-0.myhuaweicloud.com                                    # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , as-south-201.myhuaweicloud.com                                  # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , as-south-205.myhuaweicloud.com                                  # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , as-south-207.myhuaweicloud.com                                  # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-southeast-4.myhuaweicloud.com                                # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ap-southeast-5.myhuaweicloud.com                                # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , as-south-0.myhuaweicloud.com                                    # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , as-south-201.myhuaweicloud.com                                  # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , as-south-205.myhuaweicloud.com                                  # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , as-south-207.myhuaweicloud.com                                  # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , azkr2.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , b2bgo.com                                                       # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , buf35.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , ca-east-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ca-east-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , cdnhwc1.cn                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , cdnhwc1.com                                                     # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , cdnhwc10.cn                                                     # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -3975,9 +3973,9 @@ payload:
     - DOMAIN-SUFFIX   , eu-central-202.myhuaweicloud.com                                # GeoSite:huaweicloud
     - DOMAIN-SUFFIX   , eu-north-201.myhuaweicloud.com                                  # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , eu-west-0.myhuaweicloud.com                                     # GeoSite:huaweicloud                           # foreign-other
-    - DOMAIN-SUFFIX   , eu-west-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , eu-west-101.myhuaweicloud.com                                   # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , eu-west-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , eu-west-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , eu-west-101.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , eu-west-201.myhuaweicloud.com                                   # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , fpxyo.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , functiongraph.run                                               # GeoSite:huaweicloud                           # dead
   # - DOMAIN-SUFFIX   , hc-cdn.cn                                                       # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4052,15 +4050,15 @@ payload:
   # - DOMAIN-SUFFIX   , kmop-cn-east-3.cn                                               # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , kmop-cn-north-4.cn                                              # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , la-north-2.myhuaweicloud.com                                    # GeoSite:huaweicloud                           # foreign & foreign-other
-    - DOMAIN-SUFFIX   , la-north-205.myhuaweicloud.com                                  # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , la-north-205.myhuaweicloud.com                                  # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , la-south-2.myhuaweicloud.com                                    # GeoSite:huaweicloud                           # foreign & foreign-other
   # - DOMAIN-SUFFIX   , le5vb.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , livehwc3.cn                                                     # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , lu1da.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , me-east-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , me-east-205.myhuaweicloud.com                                   # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , me-east-208.myhuaweicloud.com                                   # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , me-east-209.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , me-east-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , me-east-205.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , me-east-208.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , me-east-209.myhuaweicloud.com                                   # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , mle5p.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , modelarts-infer.cn                                              # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , modelarts-infer.com                                             # GeoSite:huaweicloud                           # dead
@@ -4083,7 +4081,7 @@ payload:
     - DOMAIN-SUFFIX   , myhwclouds.com                                                  # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , myhwclouds.com.cn                                               # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , myhwclouds.net                                                  # GeoSite:huaweicloud
-    - DOMAIN-SUFFIX   , na-east-0.myhuaweicloud.com                                     # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , na-east-0.myhuaweicloud.com                                     # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , na-mexico-1.myhuaweicloud.com                                   # GeoSite:huaweicloud                           # foreign & foreign-other
   # - DOMAIN-SUFFIX   , ns95c.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , o7mu8.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4091,16 +4089,16 @@ payload:
   # - DOMAIN-SUFFIX   , pagescube.com                                                   # GeoSite:huaweicloud                           # dead & foreign-other
     - DOMAIN-SUFFIX   , powerapp.io                                                     # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , r8zc9.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , ru-moscow-1.myhuaweicloud.com                                   # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ru-moscow-1.myhuaweicloud.com                                   # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , ru-northwest-2.myhuaweicloud.com                                # GeoSite:huaweicloud                           # foreign & foreign-other
-    - DOMAIN-SUFFIX   , ru-northwest-201.myhuaweicloud.com                              # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , ru-northwest-201.myhuaweicloud.com                              # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , sa-brazil-1.myhuaweicloud.com                                   # GeoSite:huaweicloud                           # dead & foreign-other
   # - DOMAIN-SUFFIX   , tc3bl.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , tm2a8.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , tm7sg.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , tr-west-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , tr-west-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , tzygd.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , us-east-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
+  # - DOMAIN-SUFFIX   , us-east-1.myhuaweicloud.com                                     # GeoSite:huaweicloud
   # - DOMAIN-SUFFIX   , uwtmy.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , vm45e.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , vo6z2.cn                                                        # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4433,7 +4431,7 @@ payload:
     - DOMAIN-SUFFIX   , jdcloudwaf.com                                                  # GeoSite:jd
   # - DOMAIN-SUFFIX   , jddapeigou.com                                                  # GeoSite:jd                                    # dead & foreign-other
     - DOMAIN-SUFFIX   , jddebug.com                                                     # GeoSite:jd
-    - DOMAIN-SUFFIX   , jddglobal.com                                                   # GeoSite:jd
+  # - DOMAIN-SUFFIX   , jddglobal.com                                                   # GeoSite:jd
     - DOMAIN-SUFFIX   , jdemall.com                                                     # GeoSite:jd
     - DOMAIN-SUFFIX   , jdfw1.com                                                       # GeoSite:jd
     - DOMAIN-SUFFIX   , jdgslb.com                                                      # GeoSite:jd
@@ -4751,37 +4749,37 @@ payload:
     - DOMAIN-SUFFIX   , okr.com                                                         # GeoSite:lark
   # - DOMAIN-SUFFIX   , okr.com.cn                                                      # GeoSite:lark                                  # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , vscenevideo.com                                                 # GeoSite:lark                                  # dead
-    - DOMAIN-SUFFIX   , frontier-lark-lb-v3.lf.bytelb.net                               # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , frontier-lark-lb-v3.lf.bytelb.net                               # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , lark-passport-qa-sg.net                                         # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , lark.cn                                                         # GeoSite:lark-global                           # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , larkcloud.com                                                   # GeoSite:lark-global
-    - DOMAIN-SUFFIX   , larkcloud.net                                                   # GeoSite:lark-global
-    - DOMAIN-SUFFIX   , larkfn.com                                                      # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkcloud.com                                                   # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkcloud.net                                                   # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkfn.com                                                      # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , larkmeetings.cn                                                 # GeoSite:lark-global                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , larkmeetings.com                                                # GeoSite:lark-global                           # dead
-    - DOMAIN-SUFFIX   , larkoffice.com                                                  # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkoffice.com                                                  # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , larkoffice.com.bytedns1.com                                     # GeoSite:lark-global                           # foreign-other
   # - DOMAIN-SUFFIX   , larkofficeapp-boe.com                                           # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larkofficeapp-pre.com                                           # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larkofficeapp.com                                               # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larkofficeboe.com                                               # GeoSite:lark-global                           # dead
-    - DOMAIN-SUFFIX   , larkofficecdn.com                                               # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkofficecdn.com                                               # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , larkofficeimg.com                                               # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larkofficepkg.com                                               # GeoSite:lark-global                           # dead
-    - DOMAIN-SUFFIX   , larkofficepre.com                                               # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larkofficepre.com                                               # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , larkrooms.cn                                                    # GeoSite:lark-global                           # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , larkrooms.com                                                   # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larksuite-pre.com                                               # GeoSite:lark-global                           # foreign
-    - DOMAIN-SUFFIX   , larksuite.com                                                   # GeoSite:lark-global
-    - DOMAIN-SUFFIX   , larksuite.com.ttdns1.com                                        # GeoSite:lark-global
-    - DOMAIN-SUFFIX   , larksuite.com.ttdns2.com                                        # GeoSite:lark-global
-    - DOMAIN-SUFFIX   , larksuitecdn.com                                                # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larksuite.com                                                   # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larksuite.com.ttdns1.com                                        # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larksuite.com.ttdns2.com                                        # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , larksuitecdn.com                                                # GeoSite:lark-global
   # - DOMAIN-SUFFIX   , larksuiteimg-boe.com                                            # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larksuiteimg-pre.com                                            # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larksuiteimg.com                                                # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , larkvc.com                                                      # GeoSite:lark-global                           # dead
   # - DOMAIN-SUFFIX   , statuslarkoffice.com                                            # GeoSite:lark-global                           # dead
-    - DOMAIN-SUFFIX   , thelarkcloud.com                                                # GeoSite:lark-global
+  # - DOMAIN-SUFFIX   , thelarkcloud.com                                                # GeoSite:lark-global
     - DOMAIN-SUFFIX   , le.com                                                          # GeoSite:le
     - DOMAIN-SUFFIX   , leautolink.com                                                  # GeoSite:le
     - DOMAIN-SUFFIX   , lecloud.com                                                     # GeoSite:le
@@ -5163,11 +5161,11 @@ payload:
   # - DOMAIN-SUFFIX   , essurl.com                                                      # GeoSite:qcloud                                # dead & foreign-other
   # - DOMAIN-SUFFIX   , eu-frankfurt.myqcloud.com                                       # GeoSite:qcloud                                # foreign-other
   # - DOMAIN-SUFFIX   , eu-frankfurt.tencentcos.cn                                      # GeoSite:qcloud                                # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , eu-frankfurt.tencentcos.com                                     # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , eu-frankfurt.tencentcos.com                                     # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , eu-frankfurt.tencentcos.com.cn                                  # GeoSite:qcloud                                # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , eu-moscow.myqcloud.com                                          # GeoSite:qcloud                                # foreign-other
   # - DOMAIN-SUFFIX   , eu-moscow.tencentcos.cn                                         # GeoSite:qcloud                                # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , eu-moscow.tencentcos.com                                        # GeoSite:qcloud
+  # - DOMAIN-SUFFIX   , eu-moscow.tencentcos.com                                        # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , eu-moscow.tencentcos.com.cn                                     # GeoSite:qcloud                                # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , exmailgz.com                                                    # GeoSite:qcloud
   # - DOMAIN-SUFFIX   , fsphere.cn                                                      # GeoSite:qcloud                                # duplicate .cn suffix rule
@@ -5611,11 +5609,11 @@ payload:
   # - DOMAIN-SUFFIX   , baydn.com                                                       # GeoSite:shanbay                               # dead & foreign-other
     - DOMAIN-SUFFIX   , shanbay.com                                                     # GeoSite:shanbay
   # - DOMAIN-SUFFIX   , 97973.com                                                       # GeoSite:sina                                  # dead & foreign-other
-    - DOMAIN-SUFFIX   , hk.weibo.com                                                    # GeoSite:sina
-    - DOMAIN-SUFFIX   , my.weibo.com                                                    # GeoSite:sina
-    - DOMAIN-SUFFIX   , overseas.weibo.com                                              # GeoSite:sina
+  # - DOMAIN-SUFFIX   , hk.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , my.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , overseas.weibo.com                                              # GeoSite:sina
   # - DOMAIN-SUFFIX   , picself.cn                                                      # GeoSite:sina                                  # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , sg.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , sg.weibo.com                                                    # GeoSite:sina
   # - DOMAIN-SUFFIX   , sina.cn                                                         # GeoSite:sina                                  # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , sina.com                                                        # GeoSite:sina
   # - DOMAIN-SUFFIX   , sina.com.cn                                                     # GeoSite:sina                                  # duplicate .cn suffix rule
@@ -5627,9 +5625,9 @@ payload:
   # - DOMAIN-SUFFIX   , sinajs.cn                                                       # GeoSite:sina                                  # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , sinajs.com                                                      # GeoSite:sina                                  # foreign & foreign-other
   # - DOMAIN-SUFFIX   , t.cn                                                            # GeoSite:sina                                  # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , th.weibo.com                                                    # GeoSite:sina
-    - DOMAIN-SUFFIX   , tw.weibo.com                                                    # GeoSite:sina
-    - DOMAIN-SUFFIX   , us.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , th.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , tw.weibo.com                                                    # GeoSite:sina
+  # - DOMAIN-SUFFIX   , us.weibo.com                                                    # GeoSite:sina
   # - DOMAIN-SUFFIX   , videoself.cn                                                    # GeoSite:sina                                  # duplicate .cn suffix rule
   # - DOMAIN-SUFFIX   , wbimg.cn                                                        # GeoSite:sina                                  # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , wbimg.com                                                       # GeoSite:sina
@@ -6220,7 +6218,7 @@ payload:
   # - DOMAIN-SUFFIX   , vivo.cn                                                         # GeoSite:vivo                                  # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , vivo.com                                                        # GeoSite:vivo
   # - DOMAIN-SUFFIX   , vivo.com.cn                                                     # GeoSite:vivo                                  # duplicate .cn suffix rule
-    - DOMAIN-SUFFIX   , vivoglobal.com                                                  # GeoSite:vivo
+  # - DOMAIN-SUFFIX   , vivoglobal.com                                                  # GeoSite:vivo
     - DOMAIN-SUFFIX   , vvstc.com                                                       # GeoSite:vivo
   # - DOMAIN-SUFFIX   , aigc-cloud.com                                                  # GeoSite:volcengine                            # dead
     - DOMAIN-SUFFIX   , bdegnine.com                                                    # GeoSite:volcengine
@@ -6475,7 +6473,7 @@ payload:
     - DOMAIN-SUFFIX   , c.mi.com                                                        # GeoSite:xiaomi
     - DOMAIN-SUFFIX   , duokan.com                                                      # GeoSite:xiaomi
     - DOMAIN-SUFFIX   , duokanbox.com                                                   # GeoSite:xiaomi
-    - DOMAIN-SUFFIX   , global.market.xiaomi.com                                        # GeoSite:xiaomi
+  # - DOMAIN-SUFFIX   , global.market.xiaomi.com                                        # GeoSite:xiaomi
     - DOMAIN-SUFFIX   , mgslb.com                                                       # GeoSite:xiaomi
   # - DOMAIN-SUFFIX   , mi-idc.com                                                      # GeoSite:xiaomi                                # foreign
   # - DOMAIN-SUFFIX   , mi-img.com                                                      # GeoSite:xiaomi                                # dead & foreign-other
@@ -6738,7 +6736,7 @@ payload:
     - DOMAIN-SUFFIX   , zto.com                                                         # GeoSite:zto-express
   # - DOMAIN-SUFFIX   , zto.net                                                         # GeoSite:zto-express                           # dead
     - DOMAIN-SUFFIX   , ztoapp.com                                                      # GeoSite:zto-express
-    - DOMAIN-SUFFIX   , ztoglobal.com                                                   # GeoSite:zto-express
+  # - DOMAIN-SUFFIX   , ztoglobal.com                                                   # GeoSite:zto-express
     - DOMAIN-SUFFIX   , ztogroup.com                                                    # GeoSite:zto-express
   # - DOMAIN-SUFFIX   , ztoyh.com                                                       # GeoSite:zto-express                           # dead
     - DOMAIN-SUFFIX   , zuoyebang.cc                                                    # GeoSite:zuoyebang

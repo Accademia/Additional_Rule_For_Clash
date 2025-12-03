@@ -1,6 +1,5 @@
 payload:
 
-    - '+.cn'
     - '+.115.com'                                                                       # GeoSite:115
     - '+.115cdn.com'                                                                    # GeoSite:115
     - '+.115cdn.net'                                                                    # GeoSite:115
@@ -457,15 +456,15 @@ payload:
     - '+.kunlunwe.com'                                                                  # GeoSite:aliyun
     - '+.mxhichina.com'                                                                 # GeoSite:aliyun
     - '+.myalicdn.com'                                                                  # GeoSite:aliyun
-    - '+.oss-ap-northeast-1.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-northeast-2.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-south-1.aliyuncs.com'                                                   # GeoSite:aliyun
-    - '+.oss-ap-southeast-1.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-southeast-2.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-southeast-3.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-southeast-5.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-southeast-6.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-ap-southeast-7.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-northeast-1.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-northeast-2.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-south-1.aliyuncs.com'                                                   # GeoSite:aliyun
+  # - '+.oss-ap-southeast-1.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-southeast-2.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-southeast-3.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-southeast-5.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-southeast-6.aliyuncs.com'                                               # GeoSite:aliyun
+  # - '+.oss-ap-southeast-7.aliyuncs.com'                                               # GeoSite:aliyun
     - '+.oss-cn-beijing.aliyuncs.com'                                                   # GeoSite:aliyun
     - '+.oss-cn-chengdu.aliyuncs.com'                                                   # GeoSite:aliyun
     - '+.oss-cn-guangzhou.aliyuncs.com'                                                 # GeoSite:aliyun
@@ -479,11 +478,11 @@ payload:
     - '+.oss-cn-shenzhen.aliyuncs.com'                                                  # GeoSite:aliyun
     - '+.oss-cn-wulanchabu.aliyuncs.com'                                                # GeoSite:aliyun
     - '+.oss-cn-zhangjiakou.aliyuncs.com'                                               # GeoSite:aliyun
-    - '+.oss-eu-central-1.aliyuncs.com'                                                 # GeoSite:aliyun
-    - '+.oss-eu-west-1.aliyuncs.com'                                                    # GeoSite:aliyun
-    - '+.oss-me-east-1.aliyuncs.com'                                                    # GeoSite:aliyun
-    - '+.oss-us-east-1.aliyuncs.com'                                                    # GeoSite:aliyun
-    - '+.oss-us-west-1.aliyuncs.com'                                                    # GeoSite:aliyun
+  # - '+.oss-eu-central-1.aliyuncs.com'                                                 # GeoSite:aliyun
+  # - '+.oss-eu-west-1.aliyuncs.com'                                                    # GeoSite:aliyun
+  # - '+.oss-me-east-1.aliyuncs.com'                                                    # GeoSite:aliyun
+  # - '+.oss-us-east-1.aliyuncs.com'                                                    # GeoSite:aliyun
+  # - '+.oss-us-west-1.aliyuncs.com'                                                    # GeoSite:aliyun
     - '+.alicloudccp.com'                                                               # GeoSite:aliyun-drive
     - '+.alipan.com'                                                                    # GeoSite:aliyun-drive
     - '+.aliyundrive.cloud'                                                             # GeoSite:aliyun-drive
@@ -895,7 +894,7 @@ payload:
   # - '+.bytenewst.com'                                                                 # GeoSite:bytedance                             # dead
   # - '+.byteorg.com'                                                                   # GeoSite:bytedance                             # dead
   # - '+.byteorge.com'                                                                  # GeoSite:bytedance                             # dead
-    - '+.byteoversea.net'                                                               # GeoSite:bytedance
+  # - '+.byteoversea.net'                                                               # GeoSite:bytedance
   # - '+.byteq5k.com'                                                                   # GeoSite:bytedance                             # dead
   # - '+.byteq8u.net'                                                                   # GeoSite:bytedance                             # dead
     - '+.bytescm.com'                                                                   # GeoSite:bytedance
@@ -2000,7 +1999,7 @@ payload:
     - '+.cloudflareanycast.net'                                                         # GeoSite:cloudflare-cn
   # - '+.cloudflarechina.cn'                                                            # GeoSite:cloudflare-cn                         # duplicate .cn suffix rule
     - '+.cloudflarecn.net'                                                              # GeoSite:cloudflare-cn
-    - '+.cloudflareglobal.net'                                                          # GeoSite:cloudflare-cn
+  # - '+.cloudflareglobal.net'                                                          # GeoSite:cloudflare-cn
   # - '+.cloudflareinsights-cn.com'                                                     # GeoSite:cloudflare-cn                         # dead & foreign-other
     - '+.cloudflareperf.com'                                                            # GeoSite:cloudflare-cn
   # - '+.cloudflareprod.com'                                                            # GeoSite:cloudflare-cn                         # foreign-other
@@ -3829,29 +3828,29 @@ payload:
   # - '+.aadcloud.cn'                                                                   # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.aadcloud.com'                                                                  # GeoSite:huaweicloud                           # dead
   # - '+.acgab.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.ae-ad-1.myhuaweicloud.com'                                                     # GeoSite:huaweicloud
-    - '+.af-east-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
-    - '+.af-north-1.myhuaweicloud.com'                                                  # GeoSite:huaweicloud
+  # - '+.ae-ad-1.myhuaweicloud.com'                                                     # GeoSite:huaweicloud
+  # - '+.af-east-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.af-north-1.myhuaweicloud.com'                                                  # GeoSite:huaweicloud
   # - '+.af-south-1.myhuaweicloud.com'                                                  # GeoSite:huaweicloud                           # foreign & foreign-other
-    - '+.af-west-202.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.af-west-202.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
   # - '+.ami-alliance.org.cn'                                                           # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.ap-northeast-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
+  # - '+.ap-northeast-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
   # - '+.ap-southeast-1.myhuaweicloud.com'                                              # GeoSite:huaweicloud                           # foreign & foreign-other
   # - '+.ap-southeast-2.myhuaweicloud.com'                                              # GeoSite:huaweicloud                           # foreign & foreign-other
-    - '+.ap-southeast-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
-    - '+.ap-southeast-202.myhuaweicloud.com'                                            # GeoSite:huaweicloud
-    - '+.ap-southeast-203.myhuaweicloud.com'                                            # GeoSite:huaweicloud
+  # - '+.ap-southeast-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
+  # - '+.ap-southeast-202.myhuaweicloud.com'                                            # GeoSite:huaweicloud
+  # - '+.ap-southeast-203.myhuaweicloud.com'                                            # GeoSite:huaweicloud
   # - '+.ap-southeast-3.myhuaweicloud.com'                                              # GeoSite:huaweicloud                           # foreign & foreign-other
-    - '+.ap-southeast-4.myhuaweicloud.com'                                              # GeoSite:huaweicloud
-    - '+.ap-southeast-5.myhuaweicloud.com'                                              # GeoSite:huaweicloud
-    - '+.as-south-0.myhuaweicloud.com'                                                  # GeoSite:huaweicloud
-    - '+.as-south-201.myhuaweicloud.com'                                                # GeoSite:huaweicloud
-    - '+.as-south-205.myhuaweicloud.com'                                                # GeoSite:huaweicloud
-    - '+.as-south-207.myhuaweicloud.com'                                                # GeoSite:huaweicloud
+  # - '+.ap-southeast-4.myhuaweicloud.com'                                              # GeoSite:huaweicloud
+  # - '+.ap-southeast-5.myhuaweicloud.com'                                              # GeoSite:huaweicloud
+  # - '+.as-south-0.myhuaweicloud.com'                                                  # GeoSite:huaweicloud
+  # - '+.as-south-201.myhuaweicloud.com'                                                # GeoSite:huaweicloud
+  # - '+.as-south-205.myhuaweicloud.com'                                                # GeoSite:huaweicloud
+  # - '+.as-south-207.myhuaweicloud.com'                                                # GeoSite:huaweicloud
   # - '+.azkr2.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - '+.b2bgo.com'                                                                     # GeoSite:huaweicloud
   # - '+.buf35.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.ca-east-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.ca-east-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
   # - '+.cdnhwc1.cn'                                                                    # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - '+.cdnhwc1.com'                                                                   # GeoSite:huaweicloud
   # - '+.cdnhwc10.cn'                                                                   # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -3970,13 +3969,13 @@ payload:
   # - '+.cdnhwczxh101.com'                                                              # GeoSite:huaweicloud                           # dead & foreign-other
   # - '+.cza84.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - '+.eduapaashwc.com'                                                               # GeoSite:huaweicloud
-    - '+.eu-central-201.myhuaweicloud.com'                                              # GeoSite:huaweicloud
-    - '+.eu-central-202.myhuaweicloud.com'                                              # GeoSite:huaweicloud
-    - '+.eu-north-201.myhuaweicloud.com'                                                # GeoSite:huaweicloud
+  # - '+.eu-central-201.myhuaweicloud.com'                                              # GeoSite:huaweicloud
+  # - '+.eu-central-202.myhuaweicloud.com'                                              # GeoSite:huaweicloud
+  # - '+.eu-north-201.myhuaweicloud.com'                                                # GeoSite:huaweicloud
   # - '+.eu-west-0.myhuaweicloud.com'                                                   # GeoSite:huaweicloud                           # foreign-other
-    - '+.eu-west-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
-    - '+.eu-west-101.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
-    - '+.eu-west-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.eu-west-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
+  # - '+.eu-west-101.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.eu-west-201.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
   # - '+.fpxyo.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.functiongraph.run'                                                             # GeoSite:huaweicloud                           # dead
   # - '+.hc-cdn.cn'                                                                     # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4051,15 +4050,15 @@ payload:
   # - '+.kmop-cn-east-3.cn'                                                             # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.kmop-cn-north-4.cn'                                                            # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.la-north-2.myhuaweicloud.com'                                                  # GeoSite:huaweicloud                           # foreign & foreign-other
-    - '+.la-north-205.myhuaweicloud.com'                                                # GeoSite:huaweicloud
+  # - '+.la-north-205.myhuaweicloud.com'                                                # GeoSite:huaweicloud
   # - '+.la-south-2.myhuaweicloud.com'                                                  # GeoSite:huaweicloud                           # foreign & foreign-other
   # - '+.le5vb.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.livehwc3.cn'                                                                   # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.lu1da.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.me-east-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
-    - '+.me-east-205.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
-    - '+.me-east-208.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
-    - '+.me-east-209.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.me-east-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
+  # - '+.me-east-205.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.me-east-208.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.me-east-209.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
   # - '+.mle5p.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.modelarts-infer.cn'                                                            # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.modelarts-infer.com'                                                           # GeoSite:huaweicloud                           # dead
@@ -4082,7 +4081,7 @@ payload:
     - '+.myhwclouds.com'                                                                # GeoSite:huaweicloud
   # - '+.myhwclouds.com.cn'                                                             # GeoSite:huaweicloud                           # duplicate .cn suffix rule
     - '+.myhwclouds.net'                                                                # GeoSite:huaweicloud
-    - '+.na-east-0.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
+  # - '+.na-east-0.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
   # - '+.na-mexico-1.myhuaweicloud.com'                                                 # GeoSite:huaweicloud                           # foreign & foreign-other
   # - '+.ns95c.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.o7mu8.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4090,16 +4089,16 @@ payload:
   # - '+.pagescube.com'                                                                 # GeoSite:huaweicloud                           # dead & foreign-other
     - '+.powerapp.io'                                                                   # GeoSite:huaweicloud
   # - '+.r8zc9.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.ru-moscow-1.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
+  # - '+.ru-moscow-1.myhuaweicloud.com'                                                 # GeoSite:huaweicloud
   # - '+.ru-northwest-2.myhuaweicloud.com'                                              # GeoSite:huaweicloud                           # foreign & foreign-other
-    - '+.ru-northwest-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
+  # - '+.ru-northwest-201.myhuaweicloud.com'                                            # GeoSite:huaweicloud
   # - '+.sa-brazil-1.myhuaweicloud.com'                                                 # GeoSite:huaweicloud                           # dead & foreign-other
   # - '+.tc3bl.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.tm2a8.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.tm7sg.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.tr-west-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
+  # - '+.tr-west-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
   # - '+.tzygd.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
-    - '+.us-east-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
+  # - '+.us-east-1.myhuaweicloud.com'                                                   # GeoSite:huaweicloud
   # - '+.uwtmy.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.vm45e.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
   # - '+.vo6z2.cn'                                                                      # GeoSite:huaweicloud                           # duplicate .cn suffix rule
@@ -4432,7 +4431,7 @@ payload:
     - '+.jdcloudwaf.com'                                                                # GeoSite:jd
   # - '+.jddapeigou.com'                                                                # GeoSite:jd                                    # dead & foreign-other
     - '+.jddebug.com'                                                                   # GeoSite:jd
-    - '+.jddglobal.com'                                                                 # GeoSite:jd
+  # - '+.jddglobal.com'                                                                 # GeoSite:jd
     - '+.jdemall.com'                                                                   # GeoSite:jd
     - '+.jdfw1.com'                                                                     # GeoSite:jd
     - '+.jdgslb.com'                                                                    # GeoSite:jd
@@ -4750,37 +4749,37 @@ payload:
     - '+.okr.com'                                                                       # GeoSite:lark
   # - '+.okr.com.cn'                                                                    # GeoSite:lark                                  # duplicate .cn suffix rule
   # - '+.vscenevideo.com'                                                               # GeoSite:lark                                  # dead
-    - '+.frontier-lark-lb-v3.lf.bytelb.net'                                             # GeoSite:lark-global
+  # - '+.frontier-lark-lb-v3.lf.bytelb.net'                                             # GeoSite:lark-global
   # - '+.lark-passport-qa-sg.net'                                                       # GeoSite:lark-global                           # dead
   # - '+.lark.cn'                                                                       # GeoSite:lark-global                           # duplicate .cn suffix rule
-    - '+.larkcloud.com'                                                                 # GeoSite:lark-global
-    - '+.larkcloud.net'                                                                 # GeoSite:lark-global
-    - '+.larkfn.com'                                                                    # GeoSite:lark-global
+  # - '+.larkcloud.com'                                                                 # GeoSite:lark-global
+  # - '+.larkcloud.net'                                                                 # GeoSite:lark-global
+  # - '+.larkfn.com'                                                                    # GeoSite:lark-global
   # - '+.larkmeetings.cn'                                                               # GeoSite:lark-global                           # duplicate .cn suffix rule
   # - '+.larkmeetings.com'                                                              # GeoSite:lark-global                           # dead
-    - '+.larkoffice.com'                                                                # GeoSite:lark-global
+  # - '+.larkoffice.com'                                                                # GeoSite:lark-global
   # - '+.larkoffice.com.bytedns1.com'                                                   # GeoSite:lark-global                           # foreign-other
   # - '+.larkofficeapp-boe.com'                                                         # GeoSite:lark-global                           # dead
   # - '+.larkofficeapp-pre.com'                                                         # GeoSite:lark-global                           # dead
   # - '+.larkofficeapp.com'                                                             # GeoSite:lark-global                           # dead
   # - '+.larkofficeboe.com'                                                             # GeoSite:lark-global                           # dead
-    - '+.larkofficecdn.com'                                                             # GeoSite:lark-global
+  # - '+.larkofficecdn.com'                                                             # GeoSite:lark-global
   # - '+.larkofficeimg.com'                                                             # GeoSite:lark-global                           # dead
   # - '+.larkofficepkg.com'                                                             # GeoSite:lark-global                           # dead
-    - '+.larkofficepre.com'                                                             # GeoSite:lark-global
+  # - '+.larkofficepre.com'                                                             # GeoSite:lark-global
   # - '+.larkrooms.cn'                                                                  # GeoSite:lark-global                           # duplicate .cn suffix rule
   # - '+.larkrooms.com'                                                                 # GeoSite:lark-global                           # dead
   # - '+.larksuite-pre.com'                                                             # GeoSite:lark-global                           # foreign
-    - '+.larksuite.com'                                                                 # GeoSite:lark-global
-    - '+.larksuite.com.ttdns1.com'                                                      # GeoSite:lark-global
-    - '+.larksuite.com.ttdns2.com'                                                      # GeoSite:lark-global
-    - '+.larksuitecdn.com'                                                              # GeoSite:lark-global
+  # - '+.larksuite.com'                                                                 # GeoSite:lark-global
+  # - '+.larksuite.com.ttdns1.com'                                                      # GeoSite:lark-global
+  # - '+.larksuite.com.ttdns2.com'                                                      # GeoSite:lark-global
+  # - '+.larksuitecdn.com'                                                              # GeoSite:lark-global
   # - '+.larksuiteimg-boe.com'                                                          # GeoSite:lark-global                           # dead
   # - '+.larksuiteimg-pre.com'                                                          # GeoSite:lark-global                           # dead
   # - '+.larksuiteimg.com'                                                              # GeoSite:lark-global                           # dead
   # - '+.larkvc.com'                                                                    # GeoSite:lark-global                           # dead
   # - '+.statuslarkoffice.com'                                                          # GeoSite:lark-global                           # dead
-    - '+.thelarkcloud.com'                                                              # GeoSite:lark-global
+  # - '+.thelarkcloud.com'                                                              # GeoSite:lark-global
     - '+.le.com'                                                                        # GeoSite:le
     - '+.leautolink.com'                                                                # GeoSite:le
     - '+.lecloud.com'                                                                   # GeoSite:le
@@ -5162,11 +5161,11 @@ payload:
   # - '+.essurl.com'                                                                    # GeoSite:qcloud                                # dead & foreign-other
   # - '+.eu-frankfurt.myqcloud.com'                                                     # GeoSite:qcloud                                # foreign-other
   # - '+.eu-frankfurt.tencentcos.cn'                                                    # GeoSite:qcloud                                # duplicate .cn suffix rule
-    - '+.eu-frankfurt.tencentcos.com'                                                   # GeoSite:qcloud
+  # - '+.eu-frankfurt.tencentcos.com'                                                   # GeoSite:qcloud
   # - '+.eu-frankfurt.tencentcos.com.cn'                                                # GeoSite:qcloud                                # duplicate .cn suffix rule
   # - '+.eu-moscow.myqcloud.com'                                                        # GeoSite:qcloud                                # foreign-other
   # - '+.eu-moscow.tencentcos.cn'                                                       # GeoSite:qcloud                                # duplicate .cn suffix rule
-    - '+.eu-moscow.tencentcos.com'                                                      # GeoSite:qcloud
+  # - '+.eu-moscow.tencentcos.com'                                                      # GeoSite:qcloud
   # - '+.eu-moscow.tencentcos.com.cn'                                                   # GeoSite:qcloud                                # duplicate .cn suffix rule
     - '+.exmailgz.com'                                                                  # GeoSite:qcloud
   # - '+.fsphere.cn'                                                                    # GeoSite:qcloud                                # duplicate .cn suffix rule
@@ -5610,11 +5609,11 @@ payload:
   # - '+.baydn.com'                                                                     # GeoSite:shanbay                               # dead & foreign-other
     - '+.shanbay.com'                                                                   # GeoSite:shanbay
   # - '+.97973.com'                                                                     # GeoSite:sina                                  # dead & foreign-other
-    - '+.hk.weibo.com'                                                                  # GeoSite:sina
-    - '+.my.weibo.com'                                                                  # GeoSite:sina
-    - '+.overseas.weibo.com'                                                            # GeoSite:sina
+  # - '+.hk.weibo.com'                                                                  # GeoSite:sina
+  # - '+.my.weibo.com'                                                                  # GeoSite:sina
+  # - '+.overseas.weibo.com'                                                            # GeoSite:sina
   # - '+.picself.cn'                                                                    # GeoSite:sina                                  # duplicate .cn suffix rule
-    - '+.sg.weibo.com'                                                                  # GeoSite:sina
+  # - '+.sg.weibo.com'                                                                  # GeoSite:sina
   # - '+.sina.cn'                                                                       # GeoSite:sina                                  # duplicate .cn suffix rule
     - '+.sina.com'                                                                      # GeoSite:sina
   # - '+.sina.com.cn'                                                                   # GeoSite:sina                                  # duplicate .cn suffix rule
@@ -5626,9 +5625,9 @@ payload:
   # - '+.sinajs.cn'                                                                     # GeoSite:sina                                  # duplicate .cn suffix rule
   # - '+.sinajs.com'                                                                    # GeoSite:sina                                  # foreign & foreign-other
   # - '+.t.cn'                                                                          # GeoSite:sina                                  # duplicate .cn suffix rule
-    - '+.th.weibo.com'                                                                  # GeoSite:sina
-    - '+.tw.weibo.com'                                                                  # GeoSite:sina
-    - '+.us.weibo.com'                                                                  # GeoSite:sina
+  # - '+.th.weibo.com'                                                                  # GeoSite:sina
+  # - '+.tw.weibo.com'                                                                  # GeoSite:sina
+  # - '+.us.weibo.com'                                                                  # GeoSite:sina
   # - '+.videoself.cn'                                                                  # GeoSite:sina                                  # duplicate .cn suffix rule
   # - '+.wbimg.cn'                                                                      # GeoSite:sina                                  # duplicate .cn suffix rule
     - '+.wbimg.com'                                                                     # GeoSite:sina
@@ -6219,7 +6218,7 @@ payload:
   # - '+.vivo.cn'                                                                       # GeoSite:vivo                                  # duplicate .cn suffix rule
     - '+.vivo.com'                                                                      # GeoSite:vivo
   # - '+.vivo.com.cn'                                                                   # GeoSite:vivo                                  # duplicate .cn suffix rule
-    - '+.vivoglobal.com'                                                                # GeoSite:vivo
+  # - '+.vivoglobal.com'                                                                # GeoSite:vivo
     - '+.vvstc.com'                                                                     # GeoSite:vivo
   # - '+.aigc-cloud.com'                                                                # GeoSite:volcengine                            # dead
     - '+.bdegnine.com'                                                                  # GeoSite:volcengine
@@ -6474,7 +6473,7 @@ payload:
     - '+.c.mi.com'                                                                      # GeoSite:xiaomi
     - '+.duokan.com'                                                                    # GeoSite:xiaomi
     - '+.duokanbox.com'                                                                 # GeoSite:xiaomi
-    - '+.global.market.xiaomi.com'                                                      # GeoSite:xiaomi
+  # - '+.global.market.xiaomi.com'                                                      # GeoSite:xiaomi
     - '+.mgslb.com'                                                                     # GeoSite:xiaomi
   # - '+.mi-idc.com'                                                                    # GeoSite:xiaomi                                # foreign
   # - '+.mi-img.com'                                                                    # GeoSite:xiaomi                                # dead & foreign-other
@@ -6737,7 +6736,7 @@ payload:
     - '+.zto.com'                                                                       # GeoSite:zto-express
   # - '+.zto.net'                                                                       # GeoSite:zto-express                           # dead
     - '+.ztoapp.com'                                                                    # GeoSite:zto-express
-    - '+.ztoglobal.com'                                                                 # GeoSite:zto-express
+  # - '+.ztoglobal.com'                                                                 # GeoSite:zto-express
     - '+.ztogroup.com'                                                                  # GeoSite:zto-express
   # - '+.ztoyh.com'                                                                     # GeoSite:zto-express                           # dead
     - '+.zuoyebang.cc'                                                                  # GeoSite:zuoyebang
