@@ -5873,7 +5873,7 @@ payload:
     - '+.tencentmusic.com'                                                              # GeoSite:tencent
     - '+.tenpay.com'                                                                    # GeoSite:tencent
     - '+.tfogc.com'                                                                     # GeoSite:tencent
-  # - '+.wechat.com'                                                                    # GeoSite:tencent                               # foreign & foreign-other
+    - '+.wechat.com'                                                                    # GeoSite:tencent                               # foreign & foreign-other
   # - '+.wechatpay.cn'                                                                  # GeoSite:tencent                               # duplicate .cn suffix rule
     - '+.wetv.vip'                                                                      # GeoSite:tencent
   # - '+.wetvinfo.com'                                                                  # GeoSite:tencent                               # foreign

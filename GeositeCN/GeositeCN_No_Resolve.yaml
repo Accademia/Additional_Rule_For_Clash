@@ -5874,7 +5874,7 @@ payload:
     - DOMAIN-SUFFIX   , tencentmusic.com                                                # GeoSite:tencent
     - DOMAIN-SUFFIX   , tenpay.com                                                      # GeoSite:tencent
     - DOMAIN-SUFFIX   , tfogc.com                                                       # GeoSite:tencent
-  # - DOMAIN-SUFFIX   , wechat.com                                                      # GeoSite:tencent                               # foreign & foreign-other
+    - DOMAIN-SUFFIX   , wechat.com                                                      # GeoSite:tencent                               # foreign & foreign-other
   # - DOMAIN-SUFFIX   , wechatpay.cn                                                    # GeoSite:tencent                               # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , wetv.vip                                                        # GeoSite:tencent
   # - DOMAIN-SUFFIX   , wetvinfo.com                                                    # GeoSite:tencent                               # foreign
