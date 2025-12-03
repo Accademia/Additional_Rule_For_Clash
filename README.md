@@ -137,10 +137,13 @@
 
 + Aqara ：Aqara Homekit 监控摄像头 的分流规则
 
-+ PreRepairChina ：由于 blackmatrix7/ios_rule_script 中的 China分流规则 （ https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ） 中存在大量的非中国服务器的域名，所以需要额外的分流规则，来修复这些非中国域名带来的分流错误
-
 + Kwai ：“Kwai“（快手国际版） 的 分流规则
 
++ China ：由于国内分流规则
+    + 是 blackmatrix7/ios_rule_script 中的 China分流规则 （ https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）的修正版，删除掉了其 接近30%的 错误规则
+
++ GeositeCN ：由于国内分流规则
+    + 是 geostie:cn 分流规则 （ https://github.com/v2fly/domain-list-community/blob/master/data/cn ）的修正版，删除掉了其 接近45%的 错误规则
 
 .
 
