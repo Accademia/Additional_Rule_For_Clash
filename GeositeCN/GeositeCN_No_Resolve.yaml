@@ -6032,28 +6032,28 @@ payload:
     - DOMAIN-SUFFIX   , tiancitycdn.com                                                 # GeoSite:tiancity
     - DOMAIN-SUFFIX   , jindidata.com                                                   # GeoSite:tianyancha
     - DOMAIN-SUFFIX   , tianyancha.com                                                  # GeoSite:tianyancha
-    - DOMAIN-SUFFIX   , byteoversea.com                                                 # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , full:p16-tiktokcdn-com.akamaized.net                            # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , muscdn.com                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , musical.ly                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tik-tokapi.com                                                  # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktok.com                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokcdn-eu.com                                                # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokcdn-us.com                                                # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokcdn.com                                                   # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , byteoversea.com                                                 # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , full:p16-tiktokcdn-com.akamaized.net                            # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , muscdn.com                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , musical.ly                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tik-tokapi.com                                                  # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktok.com                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokcdn-eu.com                                                # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokcdn-us.com                                                # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokcdn.com                                                   # GeoSite:tiktok
   # - DOMAIN-SUFFIX   , tiktokd.net                                                     # GeoSite:tiktok                                # foreign-other
   # - DOMAIN-SUFFIX   , tiktokd.org                                                     # GeoSite:tiktok                                # foreign-other
-    - DOMAIN-SUFFIX   , tiktokeu-cdn.com                                                # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokrow-cdn.com                                               # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokv.com                                                     # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokv.eu                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokv.us                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokw.eu                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , tiktokw.us                                                      # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , ttlivecdn.com                                                   # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , ttoverseaus.net                                                 # GeoSite:tiktok
-    - DOMAIN-SUFFIX   , ttwstatic.com                                                   # GeoSite:tiktok
-  # - DOMAIN-SUFFIX   , cn                                                              # GeoSite:tld-cn                                # dead
+  # - DOMAIN-SUFFIX   , tiktokeu-cdn.com                                                # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokrow-cdn.com                                               # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokv.com                                                     # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokv.eu                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokv.us                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokw.eu                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , tiktokw.us                                                      # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , ttlivecdn.com                                                   # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , ttoverseaus.net                                                 # GeoSite:tiktok
+  # - DOMAIN-SUFFIX   , ttwstatic.com                                                   # GeoSite:tiktok
+    - DOMAIN-SUFFIX   , cn                                                              # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--1qqw23a                                                     # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--3bst00m                                                     # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--3ds443g                                                     # GeoSite:tld-cn                                # dead
@@ -6067,8 +6067,8 @@ payload:
   # - DOMAIN-SUFFIX   , xn--czrs0t                                                      # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--czru2d                                                      # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--fiq228c5hs                                                  # GeoSite:tld-cn                                # dead
-    - DOMAIN-SUFFIX   , xn--fiqs8s                                                      # GeoSite:tld-cn
-    - DOMAIN-SUFFIX   , xn--fiqz9s                                                      # GeoSite:tld-cn
+  # - DOMAIN-SUFFIX   , xn--fiqs8s                                                      # GeoSite:tld-cn
+  # - DOMAIN-SUFFIX   , xn--fiqz9s                                                      # GeoSite:tld-cn
   # - DOMAIN-SUFFIX   , xn--fjq720a                                                     # GeoSite:tld-cn                                # foreign
   # - DOMAIN-SUFFIX   , xn--g2xx48c                                                     # GeoSite:tld-cn                                # dead
   # - DOMAIN-SUFFIX   , xn--hxt814e                                                     # GeoSite:tld-cn                                # dead

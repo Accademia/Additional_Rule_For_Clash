@@ -6031,28 +6031,28 @@ payload:
     - '+.tiancitycdn.com'                                                               # GeoSite:tiancity
     - '+.jindidata.com'                                                                 # GeoSite:tianyancha
     - '+.tianyancha.com'                                                                # GeoSite:tianyancha
-    - '+.byteoversea.com'                                                               # GeoSite:tiktok
-    - '+.full:p16-tiktokcdn-com.akamaized.net'                                          # GeoSite:tiktok
-    - '+.muscdn.com'                                                                    # GeoSite:tiktok
-    - '+.musical.ly'                                                                    # GeoSite:tiktok
-    - '+.tik-tokapi.com'                                                                # GeoSite:tiktok
-    - '+.tiktok.com'                                                                    # GeoSite:tiktok
-    - '+.tiktokcdn-eu.com'                                                              # GeoSite:tiktok
-    - '+.tiktokcdn-us.com'                                                              # GeoSite:tiktok
-    - '+.tiktokcdn.com'                                                                 # GeoSite:tiktok
+  # - '+.byteoversea.com'                                                               # GeoSite:tiktok
+  # - '+.full:p16-tiktokcdn-com.akamaized.net'                                          # GeoSite:tiktok
+  # - '+.muscdn.com'                                                                    # GeoSite:tiktok
+  # - '+.musical.ly'                                                                    # GeoSite:tiktok
+  # - '+.tik-tokapi.com'                                                                # GeoSite:tiktok
+  # - '+.tiktok.com'                                                                    # GeoSite:tiktok
+  # - '+.tiktokcdn-eu.com'                                                              # GeoSite:tiktok
+  # - '+.tiktokcdn-us.com'                                                              # GeoSite:tiktok
+  # - '+.tiktokcdn.com'                                                                 # GeoSite:tiktok
   # - '+.tiktokd.net'                                                                   # GeoSite:tiktok                                # foreign-other
   # - '+.tiktokd.org'                                                                   # GeoSite:tiktok                                # foreign-other
-    - '+.tiktokeu-cdn.com'                                                              # GeoSite:tiktok
-    - '+.tiktokrow-cdn.com'                                                             # GeoSite:tiktok
-    - '+.tiktokv.com'                                                                   # GeoSite:tiktok
-    - '+.tiktokv.eu'                                                                    # GeoSite:tiktok
-    - '+.tiktokv.us'                                                                    # GeoSite:tiktok
-    - '+.tiktokw.eu'                                                                    # GeoSite:tiktok
-    - '+.tiktokw.us'                                                                    # GeoSite:tiktok
-    - '+.ttlivecdn.com'                                                                 # GeoSite:tiktok
-    - '+.ttoverseaus.net'                                                               # GeoSite:tiktok
-    - '+.ttwstatic.com'                                                                 # GeoSite:tiktok
-  # - '+.cn'                                                                            # GeoSite:tld-cn                                # dead
+  # - '+.tiktokeu-cdn.com'                                                              # GeoSite:tiktok
+  # - '+.tiktokrow-cdn.com'                                                             # GeoSite:tiktok
+  # - '+.tiktokv.com'                                                                   # GeoSite:tiktok
+  # - '+.tiktokv.eu'                                                                    # GeoSite:tiktok
+  # - '+.tiktokv.us'                                                                    # GeoSite:tiktok
+  # - '+.tiktokw.eu'                                                                    # GeoSite:tiktok
+  # - '+.tiktokw.us'                                                                    # GeoSite:tiktok
+  # - '+.ttlivecdn.com'                                                                 # GeoSite:tiktok
+  # - '+.ttoverseaus.net'                                                               # GeoSite:tiktok
+  # - '+.ttwstatic.com'                                                                 # GeoSite:tiktok
+    - '+.cn'                                                                            # GeoSite:tld-cn                                # dead
   # - '+.xn--1qqw23a'                                                                   # GeoSite:tld-cn                                # dead
   # - '+.xn--3bst00m'                                                                   # GeoSite:tld-cn                                # dead
   # - '+.xn--3ds443g'                                                                   # GeoSite:tld-cn                                # dead
@@ -6066,8 +6066,8 @@ payload:
   # - '+.xn--czrs0t'                                                                    # GeoSite:tld-cn                                # dead
   # - '+.xn--czru2d'                                                                    # GeoSite:tld-cn                                # dead
   # - '+.xn--fiq228c5hs'                                                                # GeoSite:tld-cn                                # dead
-    - '+.xn--fiqs8s'                                                                    # GeoSite:tld-cn
-    - '+.xn--fiqz9s'                                                                    # GeoSite:tld-cn
+  # - '+.xn--fiqs8s'                                                                    # GeoSite:tld-cn
+  # - '+.xn--fiqz9s'                                                                    # GeoSite:tld-cn
   # - '+.xn--fjq720a'                                                                   # GeoSite:tld-cn                                # foreign
   # - '+.xn--g2xx48c'                                                                   # GeoSite:tld-cn                                # dead
   # - '+.xn--hxt814e'                                                                   # GeoSite:tld-cn                                # dead
