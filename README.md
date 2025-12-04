@@ -19,7 +19,7 @@
  
 + 上述提到的 “超级省电clash分流规则模版” 是什么 ？
    - 面向如下需求的Clash模版：
-        - 🔥 移动端 极致省电  +  0 DNS泄漏  +  IP归属地修改  +  国内国外主流APP分流 
+        - 🔥 移动端 极致省电  +  0 DNS泄漏  +  修改IP归属地显示  +  国内国外主流APP分流 
    - 项目地址：https://github.com/Accademia/Clash_Configuration_Template
    - 集成规则库： “ blackmatrix + geosite + 本规则集 ” ！
 
