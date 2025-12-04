@@ -2279,13 +2279,13 @@ payload:
   # - '+.aihst8.com'                                         # GeoSite:douyin                                # dead
   # - '+.amemv.cn'                                           # GeoSite:douyin                                # duplicate .cn suffix rule
     - '+.amemv.com'                                          # GeoSite:douyin
-  # - '+.amemv.net'                                          # GeoSite:douyin                                # dead
-  # - '+.awemeughun.com'                                     # GeoSite:douyin                                # dead
-  # - '+.awemeuglang.com'                                    # GeoSite:douyin                                # dead
-  # - '+.awemeugsoul.com'                                    # GeoSite:douyin                                # dead
+    - '+.amemv.net'                                          # GeoSite:douyin                                # dead
+    - '+.awemeughun.com'                                     # GeoSite:douyin                                # dead
+    - '+.awemeuglang.com'                                    # GeoSite:douyin                                # dead
+    - '+.awemeugsoul.com'                                    # GeoSite:douyin                                # dead
     - '+.awemeugwave.com'                                    # GeoSite:douyin
-  # - '+.betastar.cn'                                        # GeoSite:douyin                                # duplicate .cn suffix rule
-  # - '+.boxdouyin.com'                                      # GeoSite:douyin                                # dead
+    - '+.betastar.cn'                                        # GeoSite:douyin                                # duplicate .cn suffix rule
+    - '+.boxdouyin.com'                                      # GeoSite:douyin                                # dead
     - '+.cookicut.com'                                       # GeoSite:douyin
     - '+.douyin.com'                                         # GeoSite:douyin
     - '+.douyinact.com'                                      # GeoSite:douyin
@@ -2293,39 +2293,39 @@ payload:
     - '+.douyincdn.com'                                      # GeoSite:douyin
     - '+.douyinfe.com'                                       # GeoSite:douyin
   # - '+.douyinliving.com'                                   # GeoSite:douyin                                # dead & foreign-other
-  # - '+.douyinpic.com'                                      # GeoSite:douyin                                # dead & foreign-other
+    - '+.douyinpic.com'                                      # GeoSite:douyin                                # dead & foreign-other
   # - '+.douyinstatic.com'                                   # GeoSite:douyin                                # dead & foreign-other
   # - '+.douyinvod.com'                                      # GeoSite:douyin                                # dead & foreign-other
     - '+.duoshan.com'                                        # GeoSite:douyin
     - '+.huoshan.com'                                        # GeoSite:douyin
-  # - '+.huoshancdn.com'                                     # GeoSite:douyin                                # dead
-  # - '+.huoshangroup.com'                                   # GeoSite:douyin                                # dead
+    - '+.huoshancdn.com'                                     # GeoSite:douyin                                # dead
+    - '+.huoshangroup.com'                                   # GeoSite:douyin                                # dead
     - '+.huoshanimg.com'                                     # GeoSite:douyin
     - '+.huoshanlive.com'                                    # GeoSite:douyin
-  # - '+.huoshanparty.com'                                   # GeoSite:douyin                                # dead
+    - '+.huoshanparty.com'                                   # GeoSite:douyin                                # dead
     - '+.huoshanstatic.com'                                  # GeoSite:douyin
-  # - '+.huoshante8.com'                                     # GeoSite:douyin                                # dead
-  # - '+.huoshanvideo.cn'                                    # GeoSite:douyin                                # duplicate .cn suffix rule
-  # - '+.huoshanvideo.net'                                   # GeoSite:douyin                                # dead
-  # - '+.huoshanvod.com'                                     # GeoSite:douyin                                # dead
-  # - '+.huoshanxiaoshipin.cn'                               # GeoSite:douyin                                # duplicate .cn suffix rule
-  # - '+.huoshanxiaoshipin.net'                              # GeoSite:douyin                                # dead
+    - '+.huoshante8.com'                                     # GeoSite:douyin                                # dead
+    - '+.huoshanvideo.cn'                                    # GeoSite:douyin                                # duplicate .cn suffix rule
+    - '+.huoshanvideo.net'                                   # GeoSite:douyin                                # dead
+    - '+.huoshanvod.com'                                     # GeoSite:douyin                                # dead
+    - '+.huoshanxiaoshipin.cn'                               # GeoSite:douyin                                # duplicate .cn suffix rule
+    - '+.huoshanxiaoshipin.net'                              # GeoSite:douyin                                # dead
   # - '+.huoshanzhibo.cn'                                    # GeoSite:douyin                                # duplicate .cn suffix rule
     - '+.huoshanzhibo.com'                                   # GeoSite:douyin
     - '+.huoshanzhibo.net'                                   # GeoSite:douyin
-  # - '+.idouyinliving.com'                                  # GeoSite:douyin                                # dead
-  # - '+.idouyinpic.com'                                     # GeoSite:douyin                                # dead
+    - '+.idouyinliving.com'                                  # GeoSite:douyin                                # dead
+    - '+.idouyinpic.com'                                     # GeoSite:douyin                                # dead
     - '+.idouyinstatic.com'                                  # GeoSite:douyin
-  # - '+.idouyinvod.com'                                     # GeoSite:douyin                                # dead
+    - '+.idouyinvod.com'                                     # GeoSite:douyin                                # dead
     - '+.iesdouyin.com'                                      # GeoSite:douyin
     - '+.iesdouyin.net'                                      # GeoSite:douyin
   # - '+.ieshuodong.cn'                                      # GeoSite:douyin                                # duplicate .cn suffix rule
-  # - '+.ieshuodong.net'                                     # GeoSite:douyin                                # dead
-  # - '+.ihst8.com'                                          # GeoSite:douyin                                # dead
-  # - '+.ihuoshanimg.com'                                    # GeoSite:douyin                                # dead
-  # - '+.ihuoshanlive.com'                                   # GeoSite:douyin                                # dead
-  # - '+.ihuoshanstatic.com'                                 # GeoSite:douyin                                # dead
-  # - '+.ihuoshanvod.com'                                    # GeoSite:douyin                                # dead
+    - '+.ieshuodong.net'                                     # GeoSite:douyin                                # dead
+    - '+.ihst8.com'                                          # GeoSite:douyin                                # dead
+    - '+.ihuoshanimg.com'                                    # GeoSite:douyin                                # dead
+    - '+.ihuoshanlive.com'                                   # GeoSite:douyin                                # dead
+    - '+.ihuoshanstatic.com'                                 # GeoSite:douyin                                # dead
+    - '+.ihuoshanvod.com'                                    # GeoSite:douyin                                # dead
     - '+.kesong.co'                                          # GeoSite:douyin
   # - '+.kolbuyer.cn'                                        # GeoSite:douyin                                # duplicate .cn suffix rule
     - '+.nextvid.net'                                        # GeoSite:douyin
