@@ -729,7 +729,7 @@ payload:
   # - '+.bilivideo.cn'                                       # GeoSite:bilibili-cdn                          # duplicate .cn suffix rule
     - '+.bilivideo.com'                                      # GeoSite:bilibili-cdn
     - '+.bilivideo.net'                                      # GeoSite:bilibili-cdn
-    - '+.upos-hz-mirrorakam.akamaized.net'                   # GeoSite:bilibili-cdn
+  # - '+.upos-hz-mirrorakam.akamaized.net'                   # GeoSite:bilibili-cdn
     - '+.hdslb.com'                                          # GeoSite:bilibili-cdn
     - '+.hdslb.org'                                          # GeoSite:bilibili-cdn
     - '+.maoercdn.com'                                       # GeoSite:bilibili-cdn
@@ -3705,7 +3705,7 @@ payload:
   # - '+.zixuntop.com'                                       # GeoSite:geolocation-cn                        # foreign & foreign-other
     - '+.zmengzhu.com'                                       # GeoSite:geolocation-cn
     - '+.zongheng.com'                                       # GeoSite:geolocation-cn
-    - '+.zoom3g.com'                                         # GeoSite:geolocation-cn
+  # - '+.zoom3g.com'                                         # GeoSite:geolocation-cn
   # - '+.zoomyou.cn'                                         # GeoSite:geolocation-cn                        # duplicate .cn suffix rule
     - '+.zpb365.com'                                         # GeoSite:geolocation-cn
   # - '+.zrblog.net'                                         # GeoSite:geolocation-cn                        # foreign & foreign-other
@@ -4920,7 +4920,7 @@ payload:
     - '+.mihoyogift.com'                                     # GeoSite:mihoyo-cn
     - '+.mihoyomall.com'                                     # GeoSite:mihoyo-cn
     - '+.miyoushe.com'                                       # GeoSite:mihoyo-cn
-    - '+.mihayo.akamaized.net'                               # GeoSite:mihoyo-cn
+  # - '+.mihayo.akamaized.net'                               # GeoSite:mihoyo-cn
     - '+.themisweeps.com'                                    # GeoSite:mihoyo-cn
     - '+.yuanshen.com'                                       # GeoSite:mihoyo-cn
     - '+.mogu.com'                                           # GeoSite:mogujie

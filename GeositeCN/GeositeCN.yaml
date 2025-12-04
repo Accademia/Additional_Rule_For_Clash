@@ -729,7 +729,7 @@ payload:
   # - DOMAIN-SUFFIX   , bilivideo.cn                                        # GeoSite:bilibili-cdn                          # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , bilivideo.com                                       # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , bilivideo.net                                       # GeoSite:bilibili-cdn
-    - DOMAIN-SUFFIX   , upos-hz-mirrorakam.akamaized.net                    # GeoSite:bilibili-cdn
+  # - DOMAIN-SUFFIX   , upos-hz-mirrorakam.akamaized.net                    # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , hdslb.com                                           # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , hdslb.org                                           # GeoSite:bilibili-cdn
     - DOMAIN-SUFFIX   , maoercdn.com                                        # GeoSite:bilibili-cdn
@@ -3705,7 +3705,7 @@ payload:
   # - DOMAIN-SUFFIX   , zixuntop.com                                        # GeoSite:geolocation-cn                        # foreign & foreign-other
     - DOMAIN-SUFFIX   , zmengzhu.com                                        # GeoSite:geolocation-cn
     - DOMAIN-SUFFIX   , zongheng.com                                        # GeoSite:geolocation-cn
-    - DOMAIN-SUFFIX   , zoom3g.com                                          # GeoSite:geolocation-cn
+  # - DOMAIN-SUFFIX   , zoom3g.com                                          # GeoSite:geolocation-cn
   # - DOMAIN-SUFFIX   , zoomyou.cn                                          # GeoSite:geolocation-cn                        # duplicate .cn suffix rule
     - DOMAIN-SUFFIX   , zpb365.com                                          # GeoSite:geolocation-cn
   # - DOMAIN-SUFFIX   , zrblog.net                                          # GeoSite:geolocation-cn                        # foreign & foreign-other
@@ -4920,7 +4920,7 @@ payload:
     - DOMAIN-SUFFIX   , mihoyogift.com                                      # GeoSite:mihoyo-cn
     - DOMAIN-SUFFIX   , mihoyomall.com                                      # GeoSite:mihoyo-cn
     - DOMAIN-SUFFIX   , miyoushe.com                                        # GeoSite:mihoyo-cn
-    - DOMAIN-SUFFIX   , mihayo.akamaized.net                                # GeoSite:mihoyo-cn
+  # - DOMAIN-SUFFIX   , mihayo.akamaized.net                                # GeoSite:mihoyo-cn
     - DOMAIN-SUFFIX   , themisweeps.com                                     # GeoSite:mihoyo-cn
     - DOMAIN-SUFFIX   , yuanshen.com                                        # GeoSite:mihoyo-cn
     - DOMAIN-SUFFIX   , mogu.com                                            # GeoSite:mogujie
