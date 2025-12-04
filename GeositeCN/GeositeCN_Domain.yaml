@@ -1,4 +1,5 @@
 payload:
+
                              - '+.115.com'                                                # GeoSite:115
                              - '+.115cdn.com'                                             # GeoSite:115
                              - '+.115cdn.net'                                             # GeoSite:115
@@ -407,7 +408,7 @@ payload:
                              - '+.v6-adashx.ut.cainiao.com'                               # GeoSite:alibaba-ads
                              - '+.v6-adashx.ut.ele.me'                                    # GeoSite:alibaba-ads
                              - '+.v6-adashx.ut.taobao.com'                                # GeoSite:alibaba-ads
-                             - '+.alibabacloud.co.in'                                     # GeoSite:alibabacloud
+                           # - '+.alibabacloud.co.in'                                     # GeoSite:alibabacloud
                            # - '+.alibabacloud.com'                                       # GeoSite:alibabacloud                          # foreign & foreign-other
                            # - '+.alibabacloud.com.au'                                    # GeoSite:alibabacloud                          # foreign & foreign-other
                            # - '+.alibabacloud.com.hk'                                    # GeoSite:alibabacloud                          # foreign & foreign-other
@@ -1586,7 +1587,7 @@ payload:
                              - '+.oi-wiki.com'                                            # GeoSite:category-olympiad-in-informatics
                            # - '+.openjudge.cn'                                           # GeoSite:category-olympiad-in-informatics      # duplicate .cn suffix rule
                            # - '+.rqnoj.cn'                                               # GeoSite:category-olympiad-in-informatics      # duplicate .cn suffix rule
-                             - '+.uoj.ac'                                                 # GeoSite:category-olympiad-in-informatics
+                           # - '+.uoj.ac'                                                 # GeoSite:category-olympiad-in-informatics
                            # - '+.vijos.org'                                              # GeoSite:category-olympiad-in-informatics      # foreign & foreign-other
                              - '+.mihuashi.com'                                           # GeoSite:category-outsource-cn
                              - '+.51ccd.com'                                              # GeoSite:category-scholar-cn
@@ -2186,7 +2187,7 @@ payload:
                            # - '+.theduapp.cn'                                            # GeoSite:dewu                                  # duplicate .cn suffix rule
                              - '+.theduapp.com'                                           # GeoSite:dewu
                            # - '+.theduapp.com.cn'                                        # GeoSite:dewu                                  # duplicate .cn suffix rule
-                             - '+.thepoizon.ru'                                           # GeoSite:dewu
+                           # - '+.thepoizon.ru'                                           # GeoSite:dewu
                            # - '+.wodehaodewu.cn'                                         # GeoSite:dewu                                  # duplicate .cn suffix rule
                            # - '+.womendedw.cn'                                           # GeoSite:dewu                                  # duplicate .cn suffix rule
                              - '+.womendedw.com'                                          # GeoSite:dewu
@@ -5606,7 +5607,7 @@ payload:
                            # - '+.sf-tech.com.cn'                                         # GeoSite:sf-express                            # duplicate .cn suffix rule
                            # - '+.sf.cn'                                                  # GeoSite:sf-express                            # duplicate .cn suffix rule
                              - '+.sfbuy.com'                                              # GeoSite:sf-express
-                             - '+.sfcar.hk'                                               # GeoSite:sf-express
+                           # - '+.sfcar.hk'                                               # GeoSite:sf-express
                            # - '+.sffix.cn'                                               # GeoSite:sf-express                            # duplicate .cn suffix rule
                              - '+.sfgy.org'                                               # GeoSite:sf-express
                              - '+.baydn.com'                                              # GeoSite:shanbay
@@ -6745,5 +6746,4 @@ payload:
                              - '+.zuoyebang.cc'                                           # GeoSite:zuoyebang
                              - '+.zuoyebang.com'                                          # GeoSite:zuoyebang
                              - '+.zybang.com'                                             # GeoSite:zuoyebang
-
 

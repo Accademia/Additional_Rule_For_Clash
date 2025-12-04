@@ -1,4 +1,5 @@
 payload:
+
                              - DOMAIN-SUFFIX   , 115.com                                                 # GeoSite:115
                              - DOMAIN-SUFFIX   , 115cdn.com                                              # GeoSite:115
                              - DOMAIN-SUFFIX   , 115cdn.net                                              # GeoSite:115
@@ -407,7 +408,7 @@ payload:
                              - DOMAIN-SUFFIX   , v6-adashx.ut.cainiao.com                                # GeoSite:alibaba-ads
                              - DOMAIN-SUFFIX   , v6-adashx.ut.ele.me                                     # GeoSite:alibaba-ads
                              - DOMAIN-SUFFIX   , v6-adashx.ut.taobao.com                                 # GeoSite:alibaba-ads
-                             - DOMAIN-SUFFIX   , alibabacloud.co.in                                      # GeoSite:alibabacloud
+                           # - DOMAIN-SUFFIX   , alibabacloud.co.in                                      # GeoSite:alibabacloud
                            # - DOMAIN-SUFFIX   , alibabacloud.com                                        # GeoSite:alibabacloud                          # foreign & foreign-other
                            # - DOMAIN-SUFFIX   , alibabacloud.com.au                                     # GeoSite:alibabacloud                          # foreign & foreign-other
                            # - DOMAIN-SUFFIX   , alibabacloud.com.hk                                     # GeoSite:alibabacloud                          # foreign & foreign-other
@@ -1586,7 +1587,7 @@ payload:
                              - DOMAIN-SUFFIX   , oi-wiki.com                                             # GeoSite:category-olympiad-in-informatics
                            # - DOMAIN-SUFFIX   , openjudge.cn                                            # GeoSite:category-olympiad-in-informatics      # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , rqnoj.cn                                                # GeoSite:category-olympiad-in-informatics      # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , uoj.ac                                                  # GeoSite:category-olympiad-in-informatics
+                           # - DOMAIN-SUFFIX   , uoj.ac                                                  # GeoSite:category-olympiad-in-informatics
                            # - DOMAIN-SUFFIX   , vijos.org                                               # GeoSite:category-olympiad-in-informatics      # foreign & foreign-other
                              - DOMAIN-SUFFIX   , mihuashi.com                                            # GeoSite:category-outsource-cn
                              - DOMAIN-SUFFIX   , 51ccd.com                                               # GeoSite:category-scholar-cn
@@ -2186,7 +2187,7 @@ payload:
                            # - DOMAIN-SUFFIX   , theduapp.cn                                             # GeoSite:dewu                                  # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , theduapp.com                                            # GeoSite:dewu
                            # - DOMAIN-SUFFIX   , theduapp.com.cn                                         # GeoSite:dewu                                  # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , thepoizon.ru                                            # GeoSite:dewu
+                           # - DOMAIN-SUFFIX   , thepoizon.ru                                            # GeoSite:dewu
                            # - DOMAIN-SUFFIX   , wodehaodewu.cn                                          # GeoSite:dewu                                  # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , womendedw.cn                                            # GeoSite:dewu                                  # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , womendedw.com                                           # GeoSite:dewu
@@ -5606,7 +5607,7 @@ payload:
                            # - DOMAIN-SUFFIX   , sf-tech.com.cn                                          # GeoSite:sf-express                            # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , sf.cn                                                   # GeoSite:sf-express                            # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , sfbuy.com                                               # GeoSite:sf-express
-                             - DOMAIN-SUFFIX   , sfcar.hk                                                # GeoSite:sf-express
+                           # - DOMAIN-SUFFIX   , sfcar.hk                                                # GeoSite:sf-express
                            # - DOMAIN-SUFFIX   , sffix.cn                                                # GeoSite:sf-express                            # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , sfgy.org                                                # GeoSite:sf-express
                              - DOMAIN-SUFFIX   , baydn.com                                               # GeoSite:shanbay
@@ -6745,5 +6746,4 @@ payload:
                              - DOMAIN-SUFFIX   , zuoyebang.cc                                            # GeoSite:zuoyebang
                              - DOMAIN-SUFFIX   , zuoyebang.com                                           # GeoSite:zuoyebang
                              - DOMAIN-SUFFIX   , zybang.com                                              # GeoSite:zuoyebang
-
 
