@@ -3750,7 +3750,7 @@ payload:
                              - DOMAIN-SUFFIX   , hnair.com                                               # GeoSite:hainanairlines
                            # - DOMAIN-SUFFIX   , fontstar.com.cn                                         # GeoSite:hanyi                                 # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , hanyi.com.cn                                            # GeoSite:hanyi                                 # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , hellofontpreview.oss-cn-beijing.aliyuncs.com            eoSite:hellofont
+                             - DOMAIN-SUFFIX   , hellofontpreview.oss-cn-beijing.aliyuncs.com            # GeoSite:hellofont
                              - DOMAIN-SUFFIX   , hellowebfonts.oss-cn-beijing.aliyuncs.com               # GeoSite:hellofont
                            # - DOMAIN-SUFFIX   , hellofont.cn                                            # GeoSite:hellofont                             # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , hellowebfont.com                                        # GeoSite:hellofont
