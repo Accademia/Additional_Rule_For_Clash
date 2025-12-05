@@ -64,6 +64,13 @@
 #
 
 
+#
+# 注意： 上述洲际规则中，并没有包含 🇨🇳中国 ，中国需要使用单独规则：
+#
+#   GeoRouting_Asia_China_ccTLD_No_Resolve                     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/GeoRouting_Asia_China_ccTLD_No_Resolve.yaml'                     , path: ./ruleset/GeoRouting_Asia_China_ccTLD_No_Resolve.yaml                     }
+#   GeoRouting_Asia_China_ccTLD                                : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/GeoRouting_Asia_China_ccTLD.yaml'                                , path: ./ruleset/GeoRouting_Asia_China_ccTLD.yaml                                }
+#   GeoRouting_Asia_China_ccTLD_Domain                         : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_Domain/GeoRouting_Asia_China_ccTLD_Domain.yaml'                        , path: ./ruleset/GeoRouting_Asia_China_ccTLD_Domain.yaml                         }
+#
 
 #
 # ----------------------------------

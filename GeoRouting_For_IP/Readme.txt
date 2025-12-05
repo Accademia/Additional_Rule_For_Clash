@@ -5,8 +5,6 @@
 #
 # 用途：根据目的网站的IP，选取最近国家的VPS代理节点进行分流（通过GeoIP） 
 #
-# 注意： 规则中，并没有包含🇨🇳cn
-#
 # 使用建议：
 #
 # 	1. 不建议使用_No_Resolve版本		（不做域名解析，则无法充分分流）
@@ -51,6 +49,12 @@
 #  GeoRouting_Africa_Central_GeoIP                    : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Africa_Central_GeoIP_No_Resolve.yaml'         , path: ./ruleset/GeoRouting_Africa_Central_GeoIP_No_Resolve.yaml     }
 
 
+#
+# 注意： 上述洲际规则中，并没有包含 🇨🇳中国 ，中国需要使用单独规则：
+#
+#  GeoRouting_Asia_China_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_China_GeoIP.yaml'                         , path: ./ruleset/GeoRouting_Asia_China_GeoIP.yaml                     }
+#  GeoRouting_Asia_China_GeoIP                         : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeoRouting_For_IP/GeoRouting_Asia_China_GeoIP_No_Resolve.yaml'              , path: ./ruleset/GeoRouting_Asia_China_GeoIP_No_Resolve.yaml          }
+#
 
 
 #
