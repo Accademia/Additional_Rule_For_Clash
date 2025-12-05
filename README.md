@@ -1,5 +1,6 @@
 规则集：
 ----------------------------------
+
 面向Clash的分流规则
 
 + 用途： 作为 blackmatrix7/ios_rule_script的补充规则（填补其缺失的却则）
@@ -24,7 +25,8 @@
    - 集成规则库： “ blackmatrix + geosite + 本规则集 ” ！
 
 
-.
+<br>
+<br>
 
 
 规则介绍 ：
@@ -153,9 +155,12 @@
 + GeositeCN ：由于国内分流规则
     + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则
     + 原项目： https://github.com/v2fly/domain-list-community/blob/master/data/cn 
-.
 
-使用说明 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+<br>
+<br>
+
+
+使用说明 ⚠️
 ----------------------------------
 
 本项目，包括 以下三组规则，“三选一”，选其中一个即可:
@@ -186,11 +191,13 @@
 
 
 
+<br>
 
-.
+<br>
 
 特别注意 ❗️❗️❗️❗️❗️❗️❗️
 ----------------------------------
+<br>
 
 + xAI Grok 分流规则 ❗️❗️❗️❗️❗️
 
@@ -199,6 +206,7 @@
     - 具体请看这里的说明：
         - https://github.com/Accademia/Additional_Rule_For_Clash/edit/main/Grok/Readme.txt 
 
+<br>
 
 + AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
@@ -206,12 +214,15 @@
       
     - 具体可以看这里的说明：⚠️⚠️
         - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
-        
+     
+<br>
+   
 + 存在交叉的 分流规则 
 
     - AppleAI 和 AppleNews ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置的开关。以免出现相互干扰。
     
-.
+<br>
+<br>
 
 授权协议：
 ----------------------------------
