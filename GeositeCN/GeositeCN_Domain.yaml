@@ -936,8 +936,8 @@ payload:
                              - '+.ibdxigualive.com'                                       # GeoSite:bytedance
                              - '+.ibdxiguastatic.com'                                     # GeoSite:bytedance
                              - '+.ibdxiguavod.com'                                        # GeoSite:bytedance
-                             - '+.ibytedapm.com'                                          # GeoSite:bytedance
-                             - '+.ibytedtos.com'                                          # GeoSite:bytedance
+                           # - '+.ibytedapm.com'                                          # GeoSite:bytedance
+                           # - '+.ibytedtos.com'                                          # GeoSite:bytedance
                            # - '+.ibyteimg.com'                                           # GeoSite:bytedance
                            # - '+.icphoto.cn'                                             # GeoSite:bytedance                             # duplicate .cn suffix rule
                            # - '+.iluckysf.net'                                           # GeoSite:bytedance                             # foreign
