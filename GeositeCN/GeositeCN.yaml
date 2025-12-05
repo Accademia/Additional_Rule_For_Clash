@@ -2290,7 +2290,7 @@ payload:
                              - DOMAIN-SUFFIX   , douyin.com                                              # GeoSite:douyin
                              - DOMAIN-SUFFIX   , douyinact.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , douyinact.net                                           # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyincdn.com                                           # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyincdn.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , douyinfe.com                                            # GeoSite:douyin
                              - DOMAIN-SUFFIX   , douyinliving.com                                        # GeoSite:douyin
                              - DOMAIN-SUFFIX   , douyinpic.com                                           # GeoSite:douyin                                 & foreign-other
@@ -2298,7 +2298,7 @@ payload:
                              - DOMAIN-SUFFIX   , douyinvod.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , duoshan.com                                             # GeoSite:douyin
                              - DOMAIN-SUFFIX   , huoshan.com                                             # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshancdn.com                                          # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshancdn.com                                          # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , huoshangroup.com                                        # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , huoshanimg.com                                          # GeoSite:douyin
                              - DOMAIN-SUFFIX   , huoshanlive.com                                         # GeoSite:douyin
