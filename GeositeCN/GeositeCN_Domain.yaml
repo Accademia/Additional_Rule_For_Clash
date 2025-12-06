@@ -843,9 +843,21 @@ payload:
                              - '+.byteapi.com'                                            # GeoSite:bytedance
                            # - '+.bytecdn.cn'                                             # GeoSite:bytedance                             # duplicate .cn suffix rule
                              - '+.bytecdn.com'                                            # GeoSite:bytedance
+                             - '+.bytecdn.com.*'                                          # GeoSite:bytedance
+                             - '+.bytecdn.com.*.*'                                        # GeoSite:bytedance
+                             - '+.bytecdn.com.*.*.*'                                      # GeoSite:bytedance
+                             - '+.bytecdn.com.*.*.*.*'                                    # GeoSite:bytedance
                              - '+.bytecdn.net'                                            # GeoSite:bytedance
                              - '+.bytecdntp.com'                                          # GeoSite:bytedance
                              - '+.bytecimg.com'                                           # GeoSite:bytedance
+                             - '+.bytecimg.com.*'                                         # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*'                                       # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*.*'                                     # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*.*.*'                                   # GeoSite:bytedance
+                             - '+.bytecimg.com.*'                                         # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*'                                       # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*.*'                                     # GeoSite:bytedance
+                             - '+.bytecimg.com.*.*.*.*'                                   # GeoSite:bytedance
                              - '+.byted-dast.com'                                         # GeoSite:bytedance
                              - '+.byted-edu.com'                                          # GeoSite:bytedance
                              - '+.byted-static.com'                                       # GeoSite:bytedance
@@ -854,11 +866,19 @@ payload:
                              - '+.bytedance-boe.net'                                      # GeoSite:bytedance
                            # - '+.bytedance.cn'                                           # GeoSite:bytedance                             # duplicate .cn suffix rule
                              - '+.bytedance.com'                                          # GeoSite:bytedance
+                             - '+.bytedance.com.*'                                        # GeoSite:bytedance
+                             - '+.bytedance.com.*.*'                                      # GeoSite:bytedance
+                             - '+.bytedance.com.*.*.*'                                    # GeoSite:bytedance
+                             - '+.bytedance.com.*.*.*.*'                                  # GeoSite:bytedance
                              - '+.bytedance.net'                                          # GeoSite:bytedance
                              - '+.bytedance.org'                                          # GeoSite:bytedance
                              - '+.bytedanceapi.com'                                       # GeoSite:bytedance
                              - '+.bytedapm.com'                                           # GeoSite:bytedance
                              - '+.bytedcdn.com'                                           # GeoSite:bytedance
+                             - '+.bytedcdn.com.*'                                         # GeoSite:bytedance
+                             - '+.bytedcdn.com.*.*'                                       # GeoSite:bytedance
+                             - '+.bytedcdn.com.*.*.*'                                     # GeoSite:bytedance
+                             - '+.bytedcdn.com.*.*.*.*'                                   # GeoSite:bytedance
                              - '+.bytedeliver.com'                                        # GeoSite:bytedance
                              - '+.bytedgames.com'                                         # GeoSite:bytedance
                              - '+.bytedns.com'                                            # GeoSite:bytedance
@@ -887,12 +907,24 @@ payload:
                              - '+.byteics.com'                                            # GeoSite:bytedance
                              - '+.byteics.net'                                            # GeoSite:bytedance
                              - '+.byteimg.com'                                            # GeoSite:bytedance
+                             - '+.byteimg.com.*'                                          # GeoSite:bytedance
+                             - '+.byteimg.com.*.*'                                        # GeoSite:bytedance
+                             - '+.byteimg.com.*.*.*'                                      # GeoSite:bytedance
+                             - '+.byteimg.com.*.*.*.*'                                    # GeoSite:bytedance
                              - '+.byteimgc.com'                                           # GeoSite:bytedance
+                             - '+.byteimgc.com.*'                                         # GeoSite:bytedance
+                             - '+.byteimgc.com.*.*'                                       # GeoSite:bytedance
+                             - '+.byteimgc.com.*.*.*'                                     # GeoSite:bytedance
+                             - '+.byteimgc.com.*.*.*.*'                                   # GeoSite:bytedance
                            # - '+.byteintl.net'                                           # GeoSite:bytedance                             # foreign & foreign-other
                            # - '+.bytelb.com'                                             # GeoSite:bytedance                             # foreign
                              - '+.bytelb.net'                                             # GeoSite:bytedance
                              - '+.bytelb000.net'                                          # GeoSite:bytedance
                              - '+.bytemaimg.com'                                          # GeoSite:bytedance
+                             - '+.bytemaimg.com.*'                                        # GeoSite:bytedance
+                             - '+.bytemaimg.com.*.*'                                      # GeoSite:bytedance
+                             - '+.bytemaimg.com.*.*.*'                                    # GeoSite:bytedance
+                             - '+.bytemaimg.com.*.*.*.*'                                  # GeoSite:bytedance
                              - '+.bytemastatic.com'                                       # GeoSite:bytedance
                              - '+.bytemedi.com'                                           # GeoSite:bytedance
                              - '+.bytenewst.com'                                          # GeoSite:bytedance

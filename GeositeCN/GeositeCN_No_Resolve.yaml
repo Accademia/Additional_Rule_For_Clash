@@ -842,10 +842,10 @@ payload:
                              - DOMAIN-SUFFIX   , byteactivity16.com                                      # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byteapi.com                                             # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , bytecdn.cn                                              # GeoSite:bytedance                             # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , bytecdn.com                                             # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytecdn.net                                             # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytecdn.com                                             # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytecdn.net                                             # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytecdntp.com                                           # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytecimg.com                                            # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytecimg.com                                            # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byted-dast.com                                          # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byted-edu.com                                           # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byted-static.com                                        # GeoSite:bytedance
@@ -853,12 +853,12 @@ payload:
                              - DOMAIN-SUFFIX   , byted.org                                               # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytedance-boe.net                                       # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , bytedance.cn                                            # GeoSite:bytedance                             # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , bytedance.com                                           # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytedance.net                                           # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytedance.org                                           # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytedanceapi.com                                        # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytedance.com                                           # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytedance.net                                           # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytedance.org                                           # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytedanceapi.com                                        # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytedapm.com                                            # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytedcdn.com                                            # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytedcdn.com                                            # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytedeliver.com                                         # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytedgames.com                                          # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytedns.com                                             # GeoSite:bytedance
@@ -886,13 +886,13 @@ payload:
                              - DOMAIN-SUFFIX   , bytehwm.com                                             # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byteics.com                                             # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , byteics.net                                             # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , byteimg.com                                             # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , byteimgc.com                                            # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , byteimg.com                                             # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , byteimgc.com                                            # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , byteintl.net                                            # GeoSite:bytedance                             # foreign & foreign-other
                            # - DOMAIN-SUFFIX   , bytelb.com                                              # GeoSite:bytedance                             # foreign
                              - DOMAIN-SUFFIX   , bytelb.net                                              # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytelb000.net                                           # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , bytemaimg.com                                           # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , bytemaimg.com                                           # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytemastatic.com                                        # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytemedi.com                                            # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bytenewst.com                                           # GeoSite:bytedance
