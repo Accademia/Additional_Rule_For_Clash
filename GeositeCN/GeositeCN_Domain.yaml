@@ -5745,7 +5745,7 @@ payload:
                            # - '+.slog.sina.com.cn'                                       # GeoSite:sina-ads                              # duplicate .cn suffix rule
                            # - '+.wapwbclick.mobile.sina.cn'                              # GeoSite:sina-ads                              # duplicate .cn suffix rule
                            # - '+.wbclick.mobile.sina.cn'                                 # GeoSite:sina-ads                              # duplicate .cn suffix rule
-                             - '+.sinopec-usa.com'                                        # GeoSite:sinopec
+                           # - '+.sinopec-usa.com'                                        # GeoSite:sinopec
                            # - '+.sinopec.com'                                            # GeoSite:sinopec                               # foreign & foreign-other
                              - '+.sinopecgroup.com'                                       # GeoSite:sinopec
                            # - '+.sinopecnews.com.cn'                                     # GeoSite:sinopec                               # duplicate .cn suffix rule

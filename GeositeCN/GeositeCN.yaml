@@ -5665,7 +5665,7 @@ payload:
                            # - DOMAIN-SUFFIX   , slog.sina.com.cn                                        # GeoSite:sina-ads                              # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , wapwbclick.mobile.sina.cn                               # GeoSite:sina-ads                              # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , wbclick.mobile.sina.cn                                  # GeoSite:sina-ads                              # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , sinopec-usa.com                                         # GeoSite:sinopec
+                           # - DOMAIN-SUFFIX   , sinopec-usa.com                                         # GeoSite:sinopec
                            # - DOMAIN-SUFFIX   , sinopec.com                                             # GeoSite:sinopec                               # foreign & foreign-other
                              - DOMAIN-SUFFIX   , sinopecgroup.com                                        # GeoSite:sinopec
                            # - DOMAIN-SUFFIX   , sinopecnews.com.cn                                      # GeoSite:sinopec                               # duplicate .cn suffix rule
