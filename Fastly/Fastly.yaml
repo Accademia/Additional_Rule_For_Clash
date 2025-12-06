@@ -1,0 +1,24 @@
+payload:
+
+      - IP-CIDR        , 23.235.32.0/20          # , no-resolve                        
+      - IP-CIDR        , 43.249.72.0/22          # , no-resolve                      
+      - IP-CIDR        , 103.244.50.0/24         # , no-resolve                  
+      - IP-CIDR        , 103.245.222.0/23        # , no-resolve                  
+      - IP-CIDR        , 103.245.224.0/24        # , no-resolve                  
+      - IP-CIDR        , 104.156.80.0/20         # , no-resolve                  
+      - IP-CIDR        , 140.248.64.0/18         # , no-resolve                  
+      - IP-CIDR        , 140.248.128.0/17        # , no-resolve                  
+      - IP-CIDR        , 146.75.0.0/17           # , no-resolve                
+      - IP-CIDR        , 151.101.0.0/16          # , no-resolve                
+      - IP-CIDR        , 157.52.64.0/18          # , no-resolve                
+      - IP-CIDR        , 167.82.0.0/17           # , no-resolve                
+      - IP-CIDR        , 167.82.128.0/20         # , no-resolve                  
+      - IP-CIDR        , 167.82.160.0/20         # , no-resolve                  
+      - IP-CIDR        , 167.82.224.0/20         # , no-resolve                  
+      - IP-CIDR        , 172.111.64.0/18         # , no-resolve                  
+      - IP-CIDR        , 185.31.16.0/22          # , no-resolve                
+      - IP-CIDR        , 199.27.72.0/21          # , no-resolve                
+      - IP-CIDR        , 199.232.0.0/16          # , no-resolve                            
+
+      - IP-CIDR        , 2a04:4e40::/32          # , no-resolve                
+      - IP-CIDR        , 2a04:4e42::/32          # , no-resolve                            

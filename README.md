@@ -148,6 +148,8 @@
 
 + Kwai ：“Kwai“（快手国际版） 的 分流规则
 
++ Fastly： Fastly CDN 的分流规则
+
 + China ：由于国内分流规则
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则
     + 原项目： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）
