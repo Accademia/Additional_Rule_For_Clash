@@ -2291,21 +2291,53 @@ payload:
                              - '+.douyinact.com'                                          # GeoSite:douyin
                              - '+.douyinact.net'                                          # GeoSite:douyin
                              - '+.douyincdn.com'                                          # GeoSite:douyin
+                             - '+.douyincdn.com.*'                                        # GeoSite:douyin
+                             - '+.douyincdn.com.*.*'                                      # GeoSite:douyin
+                             - '+.douyincdn.com.*.*.*'                                    # GeoSite:douyin
+                             - '+.douyincdn.com.*.*.*.*'                                  # GeoSite:douyin
                              - '+.douyinfe.com'                                           # GeoSite:douyin
                              - '+.douyinliving.com'                                       # GeoSite:douyin
-                             - '+.douyinpic.com'                                          # GeoSite:douyin                                 & foreign-other
+                             - '+.douyinliving.com.*'                                     # GeoSite:douyin
+                             - '+.douyinliving.com.*.*'                                   # GeoSite:douyin
+                             - '+.douyinliving.com.*.*.*'                                 # GeoSite:douyin
+                             - '+.douyinliving.com.*.*.*.*'                               # GeoSite:douyin
+                             - '+.douyinpic.com'                                          # GeoSite:douyin
+                             - '+.douyinpic.com.*'                                        # GeoSite:douyin
+                             - '+.douyinpic.com.*.*'                                      # GeoSite:douyin
+                             - '+.douyinpic.com.*.*.*'                                    # GeoSite:douyin
+                             - '+.douyinpic.com.*.*.*.*'                                  # GeoSite:douyin
                              - '+.douyinstatic.com'                                       # GeoSite:douyin
+                             - '+.douyinstatic.com.*'                                     # GeoSite:douyin
+                             - '+.douyinstatic.com.*.*'                                   # GeoSite:douyin
+                             - '+.douyinstatic.com.*.*.*'                                 # GeoSite:douyin
+                             - '+.douyinstatic.com.*.*.*.*'                               # GeoSite:douyin
                              - '+.douyinvod.com'                                          # GeoSite:douyin
+                             - '+.douyinvod.com.*'                                        # GeoSite:douyin
+                             - '+.douyinvod.com.*.*'                                      # GeoSite:douyin
+                             - '+.douyinvod.com.*.*.*'                                    # GeoSite:douyin
+                             - '+.douyinvod.com.*.*.*.*'                                  # GeoSite:douyin
                              - '+.duoshan.com'                                            # GeoSite:douyin
                              - '+.huoshan.com'                                            # GeoSite:douyin
-                             - '+.huoshancdn.com'                                         # GeoSite:douyin                                
+                             - '+.huoshan.com.*'                                          # GeoSite:douyin
+                             - '+.huoshan.com.*.*'                                        # GeoSite:douyin
+                             - '+.huoshan.com.*.*.*'                                      # GeoSite:douyin
+                             - '+.huoshan.com.*.*.*.*'                                    # GeoSite:douyin
+                             - '+.huoshancdn.com'                                         # GeoSite:douyin  
+                             - '+.huoshancdn.com.*'                                       # GeoSite:douyin 
+                             - '+.huoshancdn.com.*.*'                                     # GeoSite:douyin 
+                             - '+.huoshancdn.com.*.*.*'                                   # GeoSite:douyin 
+                             - '+.huoshancdn.com.*.*.*.*'                                 # GeoSite:douyin                               
                              - '+.huoshangroup.com'                                       # GeoSite:douyin                                
                              - '+.huoshanimg.com'                                         # GeoSite:douyin
                              - '+.huoshanlive.com'                                        # GeoSite:douyin
+                             - '+.huoshanlive.com.*'                                      # GeoSite:douyin
+                             - '+.huoshanlive.com.*.*'                                    # GeoSite:douyin
+                             - '+.huoshanlive.com.*.*.*'                                  # GeoSite:douyin
+                             - '+.huoshanlive.com.*.*.*.*'                                # GeoSite:douyin
                              - '+.huoshanparty.com'                                       # GeoSite:douyin                                
                              - '+.huoshanstatic.com'                                      # GeoSite:douyin
                              - '+.huoshante8.com'                                         # GeoSite:douyin                                
-                             - '+.huoshanvideo.cn'                                        # GeoSite:douyin                                # duplicate .cn suffix rule
+                           # - '+.huoshanvideo.cn'                                        # GeoSite:douyin                                # duplicate .cn suffix rule
                              - '+.huoshanvideo.net'                                       # GeoSite:douyin                                
                              - '+.huoshanvod.com'                                         # GeoSite:douyin                                
                              - '+.huoshanxiaoshipin.cn'                                   # GeoSite:douyin                                # duplicate .cn suffix rule

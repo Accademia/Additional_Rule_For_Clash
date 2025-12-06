@@ -2287,15 +2287,15 @@ payload:
                              - DOMAIN-SUFFIX   , betastar.cn                                             # GeoSite:douyin                                # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , boxdouyin.com                                           # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , cookicut.com                                            # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyin.com                                              # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinact.com                                           # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinact.net                                           # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyin.com                                              # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinact.com                                           # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinact.net                                           # GeoSite:douyin
                              - DOMAIN-KEYWORD  , douyincdn.com                                           # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinfe.com                                            # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinliving.com                                        # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinpic.com                                           # GeoSite:douyin                                 & foreign-other
-                             - DOMAIN-SUFFIX   , douyinstatic.com                                        # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , douyinvod.com                                           # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinfe.com                                            # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinliving.com                                        # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinpic.com                                           # GeoSite:douyin                                 & foreign-other
+                             - DOMAIN-KEYWORD  , douyinstatic.com                                        # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , douyinvod.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , duoshan.com                                             # GeoSite:douyin
                              - DOMAIN-SUFFIX   , huoshan.com                                             # GeoSite:douyin
                              - DOMAIN-KEYWORD  , huoshancdn.com                                          # GeoSite:douyin                                
@@ -2311,12 +2311,12 @@ payload:
                              - DOMAIN-SUFFIX   , huoshanxiaoshipin.cn                                    # GeoSite:douyin                                # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , huoshanxiaoshipin.net                                   # GeoSite:douyin                                
                            # - DOMAIN-SUFFIX   , huoshanzhibo.cn                                         # GeoSite:douyin                                # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , huoshanzhibo.com                                        # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshanzhibo.net                                        # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , idouyinliving.com                                       # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , idouyinpic.com                                          # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , idouyinstatic.com                                       # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , idouyinvod.com                                          # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshanzhibo.com                                        # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , huoshanzhibo.net                                        # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , idouyinliving.com                                       # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , idouyinpic.com                                          # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , idouyinstatic.com                                       # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , idouyinvod.com                                          # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , iesdouyin.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , iesdouyin.net                                           # GeoSite:douyin
                            # - DOMAIN-SUFFIX   , ieshuodong.cn                                           # GeoSite:douyin                                # duplicate .cn suffix rule
