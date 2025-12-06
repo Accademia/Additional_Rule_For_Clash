@@ -2297,17 +2297,17 @@ payload:
                              - DOMAIN-KEYWORD  , douyinstatic.com                                        # GeoSite:douyin
                              - DOMAIN-KEYWORD  , douyinvod.com                                           # GeoSite:douyin
                              - DOMAIN-SUFFIX   , duoshan.com                                             # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshan.com                                             # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , huoshan.com                                             # GeoSite:douyin
                              - DOMAIN-KEYWORD  , huoshancdn.com                                          # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , huoshangroup.com                                        # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , huoshanimg.com                                          # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshanlive.com                                         # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshanparty.com                                        # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , huoshanstatic.com                                       # GeoSite:douyin
-                             - DOMAIN-SUFFIX   , huoshante8.com                                          # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , huoshanvideo.cn                                         # GeoSite:douyin                                # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , huoshanvideo.net                                        # GeoSite:douyin                                
-                             - DOMAIN-SUFFIX   , huoshanvod.com                                          # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshangroup.com                                        # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshanimg.com                                          # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , huoshanlive.com                                         # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , huoshanparty.com                                        # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshanstatic.com                                       # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , huoshante8.com                                          # GeoSite:douyin                                
+                           # - DOMAIN-KEYWORD  , huoshanvideo.cn                                         # GeoSite:douyin                                # duplicate .cn suffix rule
+                             - DOMAIN-KEYWORD  , huoshanvideo.net                                        # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , huoshanvod.com                                          # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , huoshanxiaoshipin.cn                                    # GeoSite:douyin                                # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , huoshanxiaoshipin.net                                   # GeoSite:douyin                                
                            # - DOMAIN-SUFFIX   , huoshanzhibo.cn                                         # GeoSite:douyin                                # duplicate .cn suffix rule
