@@ -4096,7 +4096,7 @@ payload:
                            # - DOMAIN-SUFFIX   , ru-moscow-1.myhuaweicloud.com                           # GeoSite:huaweicloud
                            # - DOMAIN-SUFFIX   , ru-northwest-2.myhuaweicloud.com                        # GeoSite:huaweicloud                           # foreign & foreign-other
                            # - DOMAIN-SUFFIX   , ru-northwest-201.myhuaweicloud.com                      # GeoSite:huaweicloud
-                             - DOMAIN-SUFFIX   , sa-brazil-1.myhuaweicloud.com                           # GeoSite:huaweicloud
+                           # - DOMAIN-SUFFIX   , sa-brazil-1.myhuaweicloud.com                           # GeoSite:huaweicloud
                            # - DOMAIN-SUFFIX   , tc3bl.cn                                                # GeoSite:huaweicloud                           # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , tm2a8.cn                                                # GeoSite:huaweicloud                           # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , tm7sg.cn                                                # GeoSite:huaweicloud                           # duplicate .cn suffix rule

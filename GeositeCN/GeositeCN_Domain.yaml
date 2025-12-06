@@ -4096,7 +4096,7 @@ payload:
                            # - '+.ru-moscow-1.myhuaweicloud.com'                          # GeoSite:huaweicloud
                            # - '+.ru-northwest-2.myhuaweicloud.com'                       # GeoSite:huaweicloud                           # foreign & foreign-other
                            # - '+.ru-northwest-201.myhuaweicloud.com'                     # GeoSite:huaweicloud
-                             - '+.sa-brazil-1.myhuaweicloud.com'                          # GeoSite:huaweicloud
+                           # - '+.sa-brazil-1.myhuaweicloud.com'                          # GeoSite:huaweicloud
                            # - '+.tc3bl.cn'                                               # GeoSite:huaweicloud                           # duplicate .cn suffix rule
                            # - '+.tm2a8.cn'                                               # GeoSite:huaweicloud                           # duplicate .cn suffix rule
                            # - '+.tm7sg.cn'                                               # GeoSite:huaweicloud                           # duplicate .cn suffix rule
