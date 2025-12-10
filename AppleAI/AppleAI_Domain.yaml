@@ -9,7 +9,7 @@ payload:
     - 'gspe1-ssl.ls.apple.com'
     - 'apple-relay.mask.apple-dns.net'
     
-    - 'apple-relay.fastly-edge.com'                  # Apple Intelligence Extensions（TCP/UDP 443）
+    - 'apple-relay.fastly-edge.com'                 # Apple Intelligence Extensions（TCP/UDP 443）
     - 'apple-relay.apple.com'                       # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'apple-relay.cloudflare.com'                  # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'cp4.cloudflare.com'                          # Private Cloud Compute（PCC）（TCP/UDP 443）
@@ -20,6 +20,7 @@ payload:
 
    #- 'seed.siri.apple.com'
 
+    - '+.v.aaplimg.com'
    #- 'seed-siri-apple-com.v.aaplimg.com'
    #- 'smoot-searchv2-aapse1c.v.aaplimg.com'
     
