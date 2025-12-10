@@ -1,5 +1,8 @@
 payload:
 
+    # 来源 ： https://support.apple.com/en-us/101555 
+    # 搜索 ： Apple Intelligence, Siri, and Search
+
     - DOMAIN-SUFFIX , smoot.apple.com                           # 搜索服务：Siri/Spotlight/Lookup/Safari/News/信息/音乐（TCP 443）
     - DOMAIN        , guzzoni.apple.com                         # Siri 与听写（TCP 443）
 

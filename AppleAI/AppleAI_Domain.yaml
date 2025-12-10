@@ -1,12 +1,15 @@
 payload:
 
+    # 来源 ： https://support.apple.com/en-us/101555   
+    # 搜索 ： Apple Intelligence, Siri, and Search
+
     - '+.smoot.apple.com'                           # 搜索服务：Siri/Spotlight/Lookup/Safari/News/信息/音乐（TCP 443）
     - 'guzzoni.apple.com'                           # Siri 与听写（TCP 443）
 
     - 'gspe1-ssl.ls.apple.com'
     - 'apple-relay.mask.apple-dns.net'
     
-    - 'apple-relay.fastly-edge.co'                  # Apple Intelligence Extensions（TCP/UDP 443）
+    - 'apple-relay.fastly-edge.com'                  # Apple Intelligence Extensions（TCP/UDP 443）
     - 'apple-relay.apple.com'                       # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'apple-relay.cloudflare.com'                  # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'cp4.cloudflare.com'                          # Private Cloud Compute（PCC）（TCP/UDP 443）
