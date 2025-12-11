@@ -6747,133 +6747,133 @@ payload:
                              - DOMAIN-SUFFIX   , zuoyebang.com                                           # GeoSite:zuoyebang
                              - DOMAIN-SUFFIX   , zybang.com                                              # GeoSite:zuoyebang
 
-                             # 在 China_Domain.yaml 中存在，但 GeositeCN_Domain.yaml 中完全不存在的规则
-                             - DOMAIN-SUFFIX   , 12306.com                                               # 
-                             - DOMAIN-SUFFIX   , 343480.com                                              # 
-                             - DOMAIN-SUFFIX   , 360in.com                                               # 
-                             - DOMAIN-SUFFIX   , 51.la                                                   # 
-                             - DOMAIN-SUFFIX   , afp.adchina.com                                         # 
-                             - DOMAIN-SUFFIX   , air-matters.com                                         # 
-                             - DOMAIN-SUFFIX   , aliyuncs.com                                            # 
-                             - DOMAIN-SUFFIX   , appshike.com                                            # 
-                             - DOMAIN-SUFFIX   , b612.net                                                # 
-                             - DOMAIN-SUFFIX   , bababian.com                                            # 
-                             - DOMAIN-SUFFIX   , bcy.net                                                 # 
-                             - DOMAIN-SUFFIX   , bcyimg.com                                              # 
-                             - DOMAIN-SUFFIX   , bdatu.com                                               # 
-                             - DOMAIN-SUFFIX   , beitaichufang.com                                       # 
-                             - DOMAIN-SUFFIX   , camera360.com                                           # 
-                             - DOMAIN-SUFFIX   , ccgslb.com                                              # 
-                             - DOMAIN-SUFFIX   , ccgslb.net                                              # 
-                             - DOMAIN-SUFFIX   , chuimg.com                                              # 
-                             - DOMAIN-SUFFIX   , chunyu.mobi                                             # 
-                             - DOMAIN-SUFFIX   , click.qianqian.com                                      # 
-                             - DOMAIN-SUFFIX   , cmechina.net                                            # 
-                             - DOMAIN-SUFFIX   , cmfu.com                                                # 
-                             - DOMAIN-SUFFIX   , cn-east-2.myhuaweicloud.com                             # 
-                             - DOMAIN-SUFFIX   , cn-east-3.myhuaweicloud.com                             # 
-                             - DOMAIN-SUFFIX   , cn-north-1.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-2.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-3.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-4.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-5.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-6.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-north-9.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-northeast-1.myhuaweicloud.com                        # 
-                             - DOMAIN-SUFFIX   , cn-south-1.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-south-2.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-south-4.myhuaweicloud.com                            # 
-                             - DOMAIN-SUFFIX   , cn-southwest-2.myhuaweicloud.com                        # 
-                             - DOMAIN-SUFFIX   , cnbeta.com                                              # 
-                             - DOMAIN-SUFFIX   , cnlang.org                                              # 
-                             - DOMAIN-SUFFIX   , com-hs-hkdy.com                                         # 
-                             - DOMAIN-SUFFIX   , cootekservice.com                                       # 
-                             - DOMAIN-SUFFIX   , cz88.net                                                # 
-                             - DOMAIN-SUFFIX   , docschina.org                                           # 
-                             - DOMAIN-SUFFIX   , easou.com                                               # 
-                             - DOMAIN-SUFFIX   , eudic.net                                               # 
-                             - DOMAIN-SUFFIX   , ewqcxz.com                                              # 
-                             - DOMAIN-SUFFIX   , ex.puata.info                                           # 
-                             - DOMAIN-SUFFIX   , faceu.mobi                                              # 
-                             - DOMAIN-SUFFIX   , feiliao.com                                             # 
-                             - DOMAIN-SUFFIX   , flyert.com                                              # 
-                             - DOMAIN-SUFFIX   , frdic.com                                               # 
-                             - DOMAIN-SUFFIX   , fresh-ideas.cc                                          # 
-                             - DOMAIN-SUFFIX   , g-cores.com                                             # 
-                             - DOMAIN-SUFFIX   , godic.net                                               # 
-                             - DOMAIN-SUFFIX   , haibian.com                                             # 
-                             - DOMAIN-SUFFIX   , haoyisheng.com                                          # 
-                             - DOMAIN-SUFFIX   , hori-gz.com                                             # 
-                             - DOMAIN-SUFFIX   , hxcdn.net                                               # 
-                             - DOMAIN-SUFFIX   , hz.pre.tbusergw.taobao.net                              # 
-                             - DOMAIN-SUFFIX   , hz.tbusergw.taobao.net                                  # 
-                             - DOMAIN-SUFFIX   , icedropper.com                                          # 
-                             - DOMAIN-SUFFIX   , ipapark.com                                             # 
-                             - DOMAIN-SUFFIX   , ipinyou.com                                             # 
-                             - DOMAIN-SUFFIX   , iyingdi.com                                             # 
-                             - DOMAIN-SUFFIX   , jidian.im                                               # 
-                             - DOMAIN-SUFFIX   , jiedaibao.gs                                            # 
-                             - DOMAIN-SUFFIX   , jstucdn.com                                             # 
-                             - DOMAIN-SUFFIX   , jxlog.istreamsche.com                                   # 
-                             - DOMAIN-SUFFIX   , kaiyanapp.com                                           # 
-                             - DOMAIN-SUFFIX   , keepfrds.com                                            # 
-                             - DOMAIN-SUFFIX   , knewone.com                                             # 
-                             - DOMAIN-SUFFIX   , kuyunbo.club                                            # 
-                             - DOMAIN-SUFFIX   , lemicp.com                                              # 
-                             - DOMAIN-SUFFIX   , letvcloud.com                                           # 
-                             - DOMAIN-SUFFIX   , lf-rc1.yhgfb-cn-static.com                              # 
-                             - DOMAIN-SUFFIX   , localizecdn.com                                         # 
-                             - DOMAIN-SUFFIX   , lucifr.com                                              # 
-                             - DOMAIN-SUFFIX   , luckincdn.com                                           # 
-                             - DOMAIN-SUFFIX   , luoo.net                                                # 
-                             - DOMAIN-SUFFIX   , lxjapp.com                                              # 
-                             - DOMAIN-SUFFIX   , mai.tn                                                  # 
-                             - DOMAIN-SUFFIX   , maoyun.tv                                               # 
-                             - DOMAIN-SUFFIX   , material.istreamsche.com                                # 
-                             - DOMAIN-SUFFIX   , mbcloud.com                                             # 
-                             - DOMAIN-SUFFIX   , meipai.com                                              # 
-                             - DOMAIN-SUFFIX   , meixincdn.com                                           # 
-                             - DOMAIN-SUFFIX   , mlt01.com                                               # 
-                             - DOMAIN-SUFFIX   , mobike.com                                              # 
-                             - DOMAIN-SUFFIX   , mubu.com                                                # 
-                             - DOMAIN-SUFFIX   , myunlu.com                                              # 
-                             - DOMAIN-SUFFIX   , nim-lang-cn.org                                         # 
-                             - DOMAIN-SUFFIX   , p4pfile.com                                             # 
-                             - DOMAIN-SUFFIX   , qdaily.com                                              # 
-                             - DOMAIN-SUFFIX   , qingmang.me                                             # 
-                             - DOMAIN-SUFFIX   , qq.net                                                  # 
-                             - DOMAIN-SUFFIX   , quumibao.com                                            # 
-                             - DOMAIN-SUFFIX   , rj.m.taobao.co                                          # 
-                             - DOMAIN-SUFFIX   , ronghub.com                                             # 
-                             - DOMAIN-SUFFIX   , rrmj.tv                                                 # 
-                             - DOMAIN-SUFFIX   , s-reader.com                                            # 
-                             - DOMAIN-SUFFIX   , siomxity.com                                            # 
-                             - DOMAIN-SUFFIX   , smartisan.com                                           # 
-                             - DOMAIN-SUFFIX   , sohu-inc.com                                            # 
-                             - DOMAIN-SUFFIX   , staticdn.net                                            # 
-                             - DOMAIN-SUFFIX   , tanxlog.istreamsche.com                                 # 
-                             - DOMAIN-SUFFIX   , tipdim.org                                              # 
-                             - DOMAIN-SUFFIX   , tjupt.org                                               # 
-                             - DOMAIN-SUFFIX   , tongji.linezing.com                                     # 
-                             - DOMAIN-SUFFIX   , uat1.bfsspadserver.8le8le.com                           # 
-                             - DOMAIN-SUFFIX   , uxengine.net                                            # 
-                             - DOMAIN-SUFFIX   , v-56.com                                                # 
-                             - DOMAIN-SUFFIX   , webqxs.com                                              # 
-                             - DOMAIN-SUFFIX   , weico.cc                                                # 
-                             - DOMAIN-SUFFIX   , weixin.com                                              # 
-                             - DOMAIN-SUFFIX   , werewolf.53site.com                                     # 
-                             - DOMAIN-SUFFIX   , www.yxssp.com                                           # 
-                             - DOMAIN-SUFFIX   , xdrig.com                                               # 
-                             - DOMAIN-SUFFIX   , xitek.com                                               # 
-                             - DOMAIN-SUFFIX   , xueyuanjun.com                                          # 
-                             - DOMAIN-SUFFIX   , yiliao.hupan.com                                        # 
-                             - DOMAIN-SUFFIX   , yixia.com                                               # 
-                             - DOMAIN-SUFFIX   , ysepay.com                                              # 
-                             - DOMAIN-SUFFIX   , yunjiasu-cdn.net                                        # 
-                             - DOMAIN-SUFFIX   , zgslb.net                                               # 
-                             - DOMAIN-SUFFIX   , zhangle.com                                             # 
-                             - DOMAIN-SUFFIX   , zhugeapi.net                                            # 
-                             - DOMAIN-SUFFIX   , zhugeio.com                                             # 
-                             - DOMAIN-SUFFIX   , zmz002.com                                              # 
-                             - DOMAIN-SUFFIX   , zmzapi.net                                              # 
-                             - DOMAIN-SUFFIX   , zmzfile.com                                             # 
+                           # # 在 China_Domain.yaml 中存在，但 GeositeCN_Domain.yaml 中完全不存在的规则
+                           # - DOMAIN-SUFFIX   , 12306.com                                               # 
+                           # - DOMAIN-SUFFIX   , 343480.com                                              # 
+                           # - DOMAIN-SUFFIX   , 360in.com                                               # 
+                           # - DOMAIN-SUFFIX   , 51.la                                                   # 
+                           # - DOMAIN-SUFFIX   , afp.adchina.com                                         # 
+                           # - DOMAIN-SUFFIX   , air-matters.com                                         # 
+                           # - DOMAIN-SUFFIX   , aliyuncs.com                                            # 
+                           # - DOMAIN-SUFFIX   , appshike.com                                            # 
+                           # - DOMAIN-SUFFIX   , b612.net                                                # 
+                           # - DOMAIN-SUFFIX   , bababian.com                                            # 
+                           # - DOMAIN-SUFFIX   , bcy.net                                                 # 
+                           # - DOMAIN-SUFFIX   , bcyimg.com                                              # 
+                           # - DOMAIN-SUFFIX   , bdatu.com                                               # 
+                           # - DOMAIN-SUFFIX   , beitaichufang.com                                       # 
+                           # - DOMAIN-SUFFIX   , camera360.com                                           # 
+                           # - DOMAIN-SUFFIX   , ccgslb.com                                              # 
+                           # - DOMAIN-SUFFIX   , ccgslb.net                                              # 
+                           # - DOMAIN-SUFFIX   , chuimg.com                                              # 
+                           # - DOMAIN-SUFFIX   , chunyu.mobi                                             # 
+                           # - DOMAIN-SUFFIX   , click.qianqian.com                                      # 
+                           # - DOMAIN-SUFFIX   , cmechina.net                                            # 
+                           # - DOMAIN-SUFFIX   , cmfu.com                                                # 
+                           # - DOMAIN-SUFFIX   , cn-east-2.myhuaweicloud.com                             # 
+                           # - DOMAIN-SUFFIX   , cn-east-3.myhuaweicloud.com                             # 
+                           # - DOMAIN-SUFFIX   , cn-north-1.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-2.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-3.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-4.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-5.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-6.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-north-9.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-northeast-1.myhuaweicloud.com                        # 
+                           # - DOMAIN-SUFFIX   , cn-south-1.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-south-2.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-south-4.myhuaweicloud.com                            # 
+                           # - DOMAIN-SUFFIX   , cn-southwest-2.myhuaweicloud.com                        # 
+                           # - DOMAIN-SUFFIX   , cnbeta.com                                              # 
+                           # - DOMAIN-SUFFIX   , cnlang.org                                              # 
+                           # - DOMAIN-SUFFIX   , com-hs-hkdy.com                                         # 
+                           # - DOMAIN-SUFFIX   , cootekservice.com                                       # 
+                           # - DOMAIN-SUFFIX   , cz88.net                                                # 
+                           # - DOMAIN-SUFFIX   , docschina.org                                           # 
+                           # - DOMAIN-SUFFIX   , easou.com                                               # 
+                           # - DOMAIN-SUFFIX   , eudic.net                                               # 
+                           # - DOMAIN-SUFFIX   , ewqcxz.com                                              # 
+                           # - DOMAIN-SUFFIX   , ex.puata.info                                           # 
+                           # - DOMAIN-SUFFIX   , faceu.mobi                                              # 
+                           # - DOMAIN-SUFFIX   , feiliao.com                                             # 
+                           # - DOMAIN-SUFFIX   , flyert.com                                              # 
+                           # - DOMAIN-SUFFIX   , frdic.com                                               # 
+                           # - DOMAIN-SUFFIX   , fresh-ideas.cc                                          # 
+                           # - DOMAIN-SUFFIX   , g-cores.com                                             # 
+                           # - DOMAIN-SUFFIX   , godic.net                                               # 
+                           # - DOMAIN-SUFFIX   , haibian.com                                             # 
+                           # - DOMAIN-SUFFIX   , haoyisheng.com                                          # 
+                           # - DOMAIN-SUFFIX   , hori-gz.com                                             # 
+                           # - DOMAIN-SUFFIX   , hxcdn.net                                               # 
+                           # - DOMAIN-SUFFIX   , hz.pre.tbusergw.taobao.net                              # 
+                           # - DOMAIN-SUFFIX   , hz.tbusergw.taobao.net                                  # 
+                           # - DOMAIN-SUFFIX   , icedropper.com                                          # 
+                           # - DOMAIN-SUFFIX   , ipapark.com                                             # 
+                           # - DOMAIN-SUFFIX   , ipinyou.com                                             # 
+                           # - DOMAIN-SUFFIX   , iyingdi.com                                             # 
+                           # - DOMAIN-SUFFIX   , jidian.im                                               # 
+                           # - DOMAIN-SUFFIX   , jiedaibao.gs                                            # 
+                           # - DOMAIN-SUFFIX   , jstucdn.com                                             # 
+                           # - DOMAIN-SUFFIX   , jxlog.istreamsche.com                                   # 
+                           # - DOMAIN-SUFFIX   , kaiyanapp.com                                           # 
+                           # - DOMAIN-SUFFIX   , keepfrds.com                                            # 
+                           # - DOMAIN-SUFFIX   , knewone.com                                             # 
+                           # - DOMAIN-SUFFIX   , kuyunbo.club                                            # 
+                           # - DOMAIN-SUFFIX   , lemicp.com                                              # 
+                           # - DOMAIN-SUFFIX   , letvcloud.com                                           # 
+                           # - DOMAIN-SUFFIX   , lf-rc1.yhgfb-cn-static.com                              # 
+                           # - DOMAIN-SUFFIX   , localizecdn.com                                         # 
+                           # - DOMAIN-SUFFIX   , lucifr.com                                              # 
+                           # - DOMAIN-SUFFIX   , luckincdn.com                                           # 
+                           # - DOMAIN-SUFFIX   , luoo.net                                                # 
+                           # - DOMAIN-SUFFIX   , lxjapp.com                                              # 
+                           # - DOMAIN-SUFFIX   , mai.tn                                                  # 
+                           # - DOMAIN-SUFFIX   , maoyun.tv                                               # 
+                           # - DOMAIN-SUFFIX   , material.istreamsche.com                                # 
+                           # - DOMAIN-SUFFIX   , mbcloud.com                                             # 
+                           # - DOMAIN-SUFFIX   , meipai.com                                              # 
+                           # - DOMAIN-SUFFIX   , meixincdn.com                                           # 
+                           # - DOMAIN-SUFFIX   , mlt01.com                                               # 
+                           # - DOMAIN-SUFFIX   , mobike.com                                              # 
+                           # - DOMAIN-SUFFIX   , mubu.com                                                # 
+                           # - DOMAIN-SUFFIX   , myunlu.com                                              # 
+                           # - DOMAIN-SUFFIX   , nim-lang-cn.org                                         # 
+                           # - DOMAIN-SUFFIX   , p4pfile.com                                             # 
+                           # - DOMAIN-SUFFIX   , qdaily.com                                              # 
+                           # - DOMAIN-SUFFIX   , qingmang.me                                             # 
+                           # - DOMAIN-SUFFIX   , qq.net                                                  # 
+                           # - DOMAIN-SUFFIX   , quumibao.com                                            # 
+                           # - DOMAIN-SUFFIX   , rj.m.taobao.co                                          # 
+                           # - DOMAIN-SUFFIX   , ronghub.com                                             # 
+                           # - DOMAIN-SUFFIX   , rrmj.tv                                                 # 
+                           # - DOMAIN-SUFFIX   , s-reader.com                                            # 
+                           # - DOMAIN-SUFFIX   , siomxity.com                                            # 
+                           # - DOMAIN-SUFFIX   , smartisan.com                                           # 
+                           # - DOMAIN-SUFFIX   , sohu-inc.com                                            # 
+                           # - DOMAIN-SUFFIX   , staticdn.net                                            # 
+                           # - DOMAIN-SUFFIX   , tanxlog.istreamsche.com                                 # 
+                           # - DOMAIN-SUFFIX   , tipdim.org                                              # 
+                           # - DOMAIN-SUFFIX   , tjupt.org                                               # 
+                           # - DOMAIN-SUFFIX   , tongji.linezing.com                                     # 
+                           # - DOMAIN-SUFFIX   , uat1.bfsspadserver.8le8le.com                           # 
+                           # - DOMAIN-SUFFIX   , uxengine.net                                            # 
+                           # - DOMAIN-SUFFIX   , v-56.com                                                # 
+                           # - DOMAIN-SUFFIX   , webqxs.com                                              # 
+                           # - DOMAIN-SUFFIX   , weico.cc                                                # 
+                           # - DOMAIN-SUFFIX   , weixin.com                                              # 
+                           # - DOMAIN-SUFFIX   , werewolf.53site.com                                     # 
+                           # - DOMAIN-SUFFIX   , www.yxssp.com                                           # 
+                           # - DOMAIN-SUFFIX   , xdrig.com                                               # 
+                           # - DOMAIN-SUFFIX   , xitek.com                                               # 
+                           # - DOMAIN-SUFFIX   , xueyuanjun.com                                          # 
+                           # - DOMAIN-SUFFIX   , yiliao.hupan.com                                        # 
+                           # - DOMAIN-SUFFIX   , yixia.com                                               # 
+                           # - DOMAIN-SUFFIX   , ysepay.com                                              # 
+                           # - DOMAIN-SUFFIX   , yunjiasu-cdn.net                                        # 
+                           # - DOMAIN-SUFFIX   , zgslb.net                                               # 
+                           # - DOMAIN-SUFFIX   , zhangle.com                                             # 
+                           # - DOMAIN-SUFFIX   , zhugeapi.net                                            # 
+                           # - DOMAIN-SUFFIX   , zhugeio.com                                             # 
+                           # - DOMAIN-SUFFIX   , zmz002.com                                              # 
+                           # - DOMAIN-SUFFIX   , zmzapi.net                                              # 
+                           # - DOMAIN-SUFFIX   , zmzfile.com                                             # 

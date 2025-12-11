@@ -6827,133 +6827,133 @@ payload:
                              - '+.zuoyebang.com'                                          # GeoSite:zuoyebang
                              - '+.zybang.com'                                             # GeoSite:zuoyebang
 
-                             # 在 China_Domain.yaml 中存在，但 GeositeCN_Domain.yaml 中完全不存在的规则
-                             - '+.12306.com'                                              # 
-                             - '+.343480.com'                                             # 
-                             - '+.360in.com'                                              # 
-                             - '+.51.la'                                                  # 
-                             - '+.afp.adchina.com'                                        # 
-                             - '+.air-matters.com'                                        # 
-                             - '+.aliyuncs.com'                                           # 
-                             - '+.appshike.com'                                           # 
-                             - '+.b612.net'                                               # 
-                             - '+.bababian.com'                                           # 
-                             - '+.bcy.net'                                                # 
-                             - '+.bcyimg.com'                                             # 
-                             - '+.bdatu.com'                                              # 
-                             - '+.beitaichufang.com'                                      # 
-                             - '+.camera360.com'                                          # 
-                             - '+.ccgslb.com'                                             # 
-                             - '+.ccgslb.net'                                             # 
-                             - '+.chuimg.com'                                             # 
-                             - '+.chunyu.mobi'                                            # 
-                             - '+.click.qianqian.com'                                     # 
-                             - '+.cmechina.net'                                           # 
-                             - '+.cmfu.com'                                               # 
-                             - '+.cn-east-2.myhuaweicloud.com'                            # 
-                             - '+.cn-east-3.myhuaweicloud.com'                            # 
-                             - '+.cn-north-1.myhuaweicloud.com'                           # 
-                             - '+.cn-north-2.myhuaweicloud.com'                           # 
-                             - '+.cn-north-3.myhuaweicloud.com'                           # 
-                             - '+.cn-north-4.myhuaweicloud.com'                           # 
-                             - '+.cn-north-5.myhuaweicloud.com'                           # 
-                             - '+.cn-north-6.myhuaweicloud.com'                           # 
-                             - '+.cn-north-9.myhuaweicloud.com'                           # 
-                             - '+.cn-northeast-1.myhuaweicloud.com'                       # 
-                             - '+.cn-south-1.myhuaweicloud.com'                           # 
-                             - '+.cn-south-2.myhuaweicloud.com'                           # 
-                             - '+.cn-south-4.myhuaweicloud.com'                           # 
-                             - '+.cn-southwest-2.myhuaweicloud.com'                       # 
-                             - '+.cnbeta.com'                                             # 
-                             - '+.cnlang.org'                                             # 
-                             - '+.com-hs-hkdy.com'                                        # 
-                             - '+.cootekservice.com'                                      # 
-                             - '+.cz88.net'                                               # 
-                             - '+.docschina.org'                                          # 
-                             - '+.easou.com'                                              # 
-                             - '+.eudic.net'                                              # 
-                             - '+.ewqcxz.com'                                             # 
-                             - '+.ex.puata.info'                                          # 
-                             - '+.faceu.mobi'                                             # 
-                             - '+.feiliao.com'                                            # 
-                             - '+.flyert.com'                                             # 
-                             - '+.frdic.com'                                              # 
-                             - '+.fresh-ideas.cc'                                         # 
-                             - '+.g-cores.com'                                            # 
-                             - '+.godic.net'                                              # 
-                             - '+.haibian.com'                                            # 
-                             - '+.haoyisheng.com'                                         # 
-                             - '+.hori-gz.com'                                            # 
-                             - '+.hxcdn.net'                                              # 
-                             - '+.hz.pre.tbusergw.taobao.net'                             # 
-                             - '+.hz.tbusergw.taobao.net'                                 # 
-                             - '+.icedropper.com'                                         # 
-                             - '+.ipapark.com'                                            # 
-                             - '+.ipinyou.com'                                            # 
-                             - '+.iyingdi.com'                                            # 
-                             - '+.jidian.im'                                              # 
-                             - '+.jiedaibao.gs'                                           # 
-                             - '+.jstucdn.com'                                            # 
-                             - '+.jxlog.istreamsche.com'                                  # 
-                             - '+.kaiyanapp.com'                                          # 
-                             - '+.keepfrds.com'                                           # 
-                             - '+.knewone.com'                                            # 
-                             - '+.kuyunbo.club'                                           # 
-                             - '+.lemicp.com'                                             # 
-                             - '+.letvcloud.com'                                          # 
-                             - '+.lf-rc1.yhgfb-cn-static.com'                             # 
-                             - '+.localizecdn.com'                                        # 
-                             - '+.lucifr.com'                                             # 
-                             - '+.luckincdn.com'                                          # 
-                             - '+.luoo.net'                                               # 
-                             - '+.lxjapp.com'                                             # 
-                             - '+.mai.tn'                                                 # 
-                             - '+.maoyun.tv'                                              # 
-                             - '+.material.istreamsche.com'                               # 
-                             - '+.mbcloud.com'                                            # 
-                             - '+.meipai.com'                                             # 
-                             - '+.meixincdn.com'                                          # 
-                             - '+.mlt01.com'                                              # 
-                             - '+.mobike.com'                                             # 
-                             - '+.mubu.com'                                               # 
-                             - '+.myunlu.com'                                             # 
-                             - '+.nim-lang-cn.org'                                        # 
-                             - '+.p4pfile.com'                                            # 
-                             - '+.qdaily.com'                                             # 
-                             - '+.qingmang.me'                                            # 
-                             - '+.qq.net'                                                 # 
-                             - '+.quumibao.com'                                           # 
-                             - '+.rj.m.taobao.co'                                         # 
-                             - '+.ronghub.com'                                            # 
-                             - '+.rrmj.tv'                                                # 
-                             - '+.s-reader.com'                                           # 
-                             - '+.siomxity.com'                                           # 
-                             - '+.smartisan.com'                                          # 
-                             - '+.sohu-inc.com'                                           # 
-                             - '+.staticdn.net'                                           # 
-                             - '+.tanxlog.istreamsche.com'                                # 
-                             - '+.tipdim.org'                                             # 
-                             - '+.tjupt.org'                                              # 
-                             - '+.tongji.linezing.com'                                    # 
-                             - '+.uat1.bfsspadserver.8le8le.com'                          # 
-                             - '+.uxengine.net'                                           # 
-                             - '+.v-56.com'                                               # 
-                             - '+.webqxs.com'                                             # 
-                             - '+.weico.cc'                                               # 
-                             - '+.weixin.com'                                             # 
-                             - '+.werewolf.53site.com'                                    # 
-                             - '+.www.yxssp.com'                                          # 
-                             - '+.xdrig.com'                                              # 
-                             - '+.xitek.com'                                              # 
-                             - '+.xueyuanjun.com'                                         # 
-                             - '+.yiliao.hupan.com'                                       # 
-                             - '+.yixia.com'                                              # 
-                             - '+.ysepay.com'                                             # 
-                             - '+.yunjiasu-cdn.net'                                       # 
-                             - '+.zgslb.net'                                              # 
-                             - '+.zhangle.com'                                            # 
-                             - '+.zhugeapi.net'                                           # 
-                             - '+.zhugeio.com'                                            # 
-                             - '+.zmz002.com'                                             # 
-                             - '+.zmzapi.net'                                             # 
-                             - '+.zmzfile.com'                                            # 
+                           # # 在 China_Domain.yaml 中存在，但 GeositeCN_Domain.yaml 中完全不存在的规则
+                           # - '+.12306.com'                                              # 
+                           # - '+.343480.com'                                             # 
+                           # - '+.360in.com'                                              # 
+                           # - '+.51.la'                                                  # 
+                           # - '+.afp.adchina.com'                                        # 
+                           # - '+.air-matters.com'                                        # 
+                           # - '+.aliyuncs.com'                                           # 
+                           # - '+.appshike.com'                                           # 
+                           # - '+.b612.net'                                               # 
+                           # - '+.bababian.com'                                           # 
+                           # - '+.bcy.net'                                                # 
+                           # - '+.bcyimg.com'                                             # 
+                           # - '+.bdatu.com'                                              # 
+                           # - '+.beitaichufang.com'                                      # 
+                           # - '+.camera360.com'                                          # 
+                           # - '+.ccgslb.com'                                             # 
+                           # - '+.ccgslb.net'                                             # 
+                           # - '+.chuimg.com'                                             # 
+                           # - '+.chunyu.mobi'                                            # 
+                           # - '+.click.qianqian.com'                                     # 
+                           # - '+.cmechina.net'                                           # 
+                           # - '+.cmfu.com'                                               # 
+                           # - '+.cn-east-2.myhuaweicloud.com'                            # 
+                           # - '+.cn-east-3.myhuaweicloud.com'                            # 
+                           # - '+.cn-north-1.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-2.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-3.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-4.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-5.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-6.myhuaweicloud.com'                           # 
+                           # - '+.cn-north-9.myhuaweicloud.com'                           # 
+                           # - '+.cn-northeast-1.myhuaweicloud.com'                       # 
+                           # - '+.cn-south-1.myhuaweicloud.com'                           # 
+                           # - '+.cn-south-2.myhuaweicloud.com'                           # 
+                           # - '+.cn-south-4.myhuaweicloud.com'                           # 
+                           # - '+.cn-southwest-2.myhuaweicloud.com'                       # 
+                           # - '+.cnbeta.com'                                             # 
+                           # - '+.cnlang.org'                                             # 
+                           # - '+.com-hs-hkdy.com'                                        # 
+                           # - '+.cootekservice.com'                                      # 
+                           # - '+.cz88.net'                                               # 
+                           # - '+.docschina.org'                                          # 
+                           # - '+.easou.com'                                              # 
+                           # - '+.eudic.net'                                              # 
+                           # - '+.ewqcxz.com'                                             # 
+                           # - '+.ex.puata.info'                                          # 
+                           # - '+.faceu.mobi'                                             # 
+                           # - '+.feiliao.com'                                            # 
+                           # - '+.flyert.com'                                             # 
+                           # - '+.frdic.com'                                              # 
+                           # - '+.fresh-ideas.cc'                                         # 
+                           # - '+.g-cores.com'                                            # 
+                           # - '+.godic.net'                                              # 
+                           # - '+.haibian.com'                                            # 
+                           # - '+.haoyisheng.com'                                         # 
+                           # - '+.hori-gz.com'                                            # 
+                           # - '+.hxcdn.net'                                              # 
+                           # - '+.hz.pre.tbusergw.taobao.net'                             # 
+                           # - '+.hz.tbusergw.taobao.net'                                 # 
+                           # - '+.icedropper.com'                                         # 
+                           # - '+.ipapark.com'                                            # 
+                           # - '+.ipinyou.com'                                            # 
+                           # - '+.iyingdi.com'                                            # 
+                           # - '+.jidian.im'                                              # 
+                           # - '+.jiedaibao.gs'                                           # 
+                           # - '+.jstucdn.com'                                            # 
+                           # - '+.jxlog.istreamsche.com'                                  # 
+                           # - '+.kaiyanapp.com'                                          # 
+                           # - '+.keepfrds.com'                                           # 
+                           # - '+.knewone.com'                                            # 
+                           # - '+.kuyunbo.club'                                           # 
+                           # - '+.lemicp.com'                                             # 
+                           # - '+.letvcloud.com'                                          # 
+                           # - '+.lf-rc1.yhgfb-cn-static.com'                             # 
+                           # - '+.localizecdn.com'                                        # 
+                           # - '+.lucifr.com'                                             # 
+                           # - '+.luckincdn.com'                                          # 
+                           # - '+.luoo.net'                                               # 
+                           # - '+.lxjapp.com'                                             # 
+                           # - '+.mai.tn'                                                 # 
+                           # - '+.maoyun.tv'                                              # 
+                           # - '+.material.istreamsche.com'                               # 
+                           # - '+.mbcloud.com'                                            # 
+                           # - '+.meipai.com'                                             # 
+                           # - '+.meixincdn.com'                                          # 
+                           # - '+.mlt01.com'                                              # 
+                           # - '+.mobike.com'                                             # 
+                           # - '+.mubu.com'                                               # 
+                           # - '+.myunlu.com'                                             # 
+                           # - '+.nim-lang-cn.org'                                        # 
+                           # - '+.p4pfile.com'                                            # 
+                           # - '+.qdaily.com'                                             # 
+                           # - '+.qingmang.me'                                            # 
+                           # - '+.qq.net'                                                 # 
+                           # - '+.quumibao.com'                                           # 
+                           # - '+.rj.m.taobao.co'                                         # 
+                           # - '+.ronghub.com'                                            # 
+                           # - '+.rrmj.tv'                                                # 
+                           # - '+.s-reader.com'                                           # 
+                           # - '+.siomxity.com'                                           # 
+                           # - '+.smartisan.com'                                          # 
+                           # - '+.sohu-inc.com'                                           # 
+                           # - '+.staticdn.net'                                           # 
+                           # - '+.tanxlog.istreamsche.com'                                # 
+                           # - '+.tipdim.org'                                             # 
+                           # - '+.tjupt.org'                                              # 
+                           # - '+.tongji.linezing.com'                                    # 
+                           # - '+.uat1.bfsspadserver.8le8le.com'                          # 
+                           # - '+.uxengine.net'                                           # 
+                           # - '+.v-56.com'                                               # 
+                           # - '+.webqxs.com'                                             # 
+                           # - '+.weico.cc'                                               # 
+                           # - '+.weixin.com'                                             # 
+                           # - '+.werewolf.53site.com'                                    # 
+                           # - '+.www.yxssp.com'                                          # 
+                           # - '+.xdrig.com'                                              # 
+                           # - '+.xitek.com'                                              # 
+                           # - '+.xueyuanjun.com'                                         # 
+                           # - '+.yiliao.hupan.com'                                       # 
+                           # - '+.yixia.com'                                              # 
+                           # - '+.ysepay.com'                                             # 
+                           # - '+.yunjiasu-cdn.net'                                       # 
+                           # - '+.zgslb.net'                                              # 
+                           # - '+.zhangle.com'                                            # 
+                           # - '+.zhugeapi.net'                                           # 
+                           # - '+.zhugeio.com'                                            # 
+                           # - '+.zmz002.com'                                             # 
+                           # - '+.zmzapi.net'                                             # 
+                           # - '+.zmzfile.com'                                            # 
