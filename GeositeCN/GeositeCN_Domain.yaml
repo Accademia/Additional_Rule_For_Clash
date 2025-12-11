@@ -2087,7 +2087,7 @@ payload:
                              - '+.cowcs.com'                                              # GeoSite:cowtransfer
                              - '+.cowtransfer.com'                                        # GeoSite:cowtransfer
                              - '+.codechina.net'                                          # GeoSite:csdn
-                             - '+.csdn.com'                                               # GeoSite:csdn                                  # foreign & foreign-other
+                           # - '+.csdn.com'                                               # GeoSite:csdn                                  # foreign & foreign-other
                              - '+.csdn.net'                                               # GeoSite:csdn
                            # - '+.csdn.net.cn'                                            # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.csdnimg.cn'                                             # GeoSite:csdn                                  # duplicate .cn suffix rule

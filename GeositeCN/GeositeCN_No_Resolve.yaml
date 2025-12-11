@@ -2055,7 +2055,7 @@ payload:
                              - DOMAIN-SUFFIX   , cowcs.com                                               # GeoSite:cowtransfer
                              - DOMAIN-SUFFIX   , cowtransfer.com                                         # GeoSite:cowtransfer
                              - DOMAIN-SUFFIX   , codechina.net                                           # GeoSite:csdn
-                             - DOMAIN-SUFFIX   , csdn.com                                                # GeoSite:csdn                                  # foreign & foreign-other
+                           # - DOMAIN-SUFFIX   , csdn.com                                                # GeoSite:csdn                                  # foreign & foreign-other
                              - DOMAIN-SUFFIX   , csdn.net                                                # GeoSite:csdn
                            # - DOMAIN-SUFFIX   , csdn.net.cn                                             # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - DOMAIN-SUFFIX   , csdnimg.cn                                              # GeoSite:csdn                                  # duplicate .cn suffix rule
