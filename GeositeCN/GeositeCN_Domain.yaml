@@ -1167,8 +1167,8 @@ payload:
                              - '+.namiso.com'                                             # GeoSite:category-ai-cn
                              - '+.qianwen.aliyun.com'                                     # GeoSite:category-ai-cn
                              - '+.qianwen.com'                                            # GeoSite:category-ai-cn
-                           # - '+.qwen.ai'                                                # GeoSite:category-ai-cn                        # foreign
-                           # - '+.qwenlm.ai'                                              # GeoSite:category-ai-cn                        # foreign
+                             - '+.qwen.ai'                                                # GeoSite:category-ai-cn                        # foreign
+                             - '+.qwenlm.ai'                                              # GeoSite:category-ai-cn                        # foreign
                            # - '+.rwkv.cn'                                                # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
                              - '+.rwkv.com'                                               # GeoSite:category-ai-cn
                            # - '+.tiangong.cn'                                            # GeoSite:category-ai-cn                        # duplicate .cn suffix rule
@@ -2087,7 +2087,7 @@ payload:
                              - '+.cowcs.com'                                              # GeoSite:cowtransfer
                              - '+.cowtransfer.com'                                        # GeoSite:cowtransfer
                              - '+.codechina.net'                                          # GeoSite:csdn
-                           # - '+.csdn.com'                                               # GeoSite:csdn                                  # foreign & foreign-other
+                             - '+.csdn.com'                                               # GeoSite:csdn                                  # foreign & foreign-other
                              - '+.csdn.net'                                               # GeoSite:csdn
                            # - '+.csdn.net.cn'                                            # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.csdnimg.cn'                                             # GeoSite:csdn                                  # duplicate .cn suffix rule
@@ -2102,7 +2102,7 @@ payload:
                            # - '+.programmer.com.cn'                                      # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.programmer.net.cn'                                      # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.ctexcel.ca'                                             # GeoSite:ctexcel                               # foreign-other
-                           # - '+.ctexcel.com'                                            # GeoSite:ctexcel                               # foreign & foreign-other
+                             - '+.ctexcel.com'                                            # GeoSite:ctexcel                               # foreign & foreign-other
                            # - '+.ctexcel.com.hk'                                         # GeoSite:ctexcel                               # foreign & foreign-other
                            # - '+.ctexcel.fr'                                             # GeoSite:ctexcel
                            # - '+.ctexcel.us'                                             # GeoSite:ctexcel
@@ -2255,7 +2255,7 @@ payload:
                              - '+.dji.com'                                                # GeoSite:dji
                              - '+.dji.ink'                                                # GeoSite:dji
                            # - '+.dji.net'                                                # GeoSite:dji                                   # foreign
-                           # - '+.djicdn.com'                                             # GeoSite:dji                                   # foreign
+                             - '+.djicdn.com'                                             # GeoSite:dji                                   # foreign
                            # - '+.djiits.com'                                             # GeoSite:dji                                   # foreign
                            # - '+.djiops.com'                                             # GeoSite:dji                                   # foreign
                            # - '+.djiservice.org'                                         # GeoSite:dji                                   # foreign
@@ -2610,7 +2610,7 @@ payload:
                              - '+.17173.com'                                              # GeoSite:geolocation-cn
                              - '+.178linux.com'                                           # GeoSite:geolocation-cn
                              - '+.17989.com'                                              # GeoSite:geolocation-cn
-                           # - '+.17cdn.com'                                              # GeoSite:geolocation-cn                        # foreign & foreign-other
+                             - '+.17cdn.com'                                              # GeoSite:geolocation-cn                        # foreign & foreign-other
                              - '+.17house.com'                                            # GeoSite:geolocation-cn
                              - '+.18183.com'                                              # GeoSite:geolocation-cn
                              - '+.1905.com'                                               # GeoSite:geolocation-cn
@@ -3785,7 +3785,7 @@ payload:
                            # - '+.zixuntop.com'                                           # GeoSite:geolocation-cn                        # foreign & foreign-other
                              - '+.zmengzhu.com'                                           # GeoSite:geolocation-cn
                              - '+.zongheng.com'                                           # GeoSite:geolocation-cn
-                           # - '+.zoom3g.com'                                             # GeoSite:geolocation-cn
+                             - '+.zoom3g.com'                                             # GeoSite:geolocation-cn
                            # - '+.zoomyou.cn'                                             # GeoSite:geolocation-cn                        # duplicate .cn suffix rule
                              - '+.zpb365.com'                                             # GeoSite:geolocation-cn
                            # - '+.zrblog.net'                                             # GeoSite:geolocation-cn                        # foreign & foreign-other
@@ -5281,15 +5281,15 @@ payload:
                              - '+.myqcloud.com'                                           # GeoSite:qcloud
                            # - '+.na-ashburn.myqcloud.com'                                # GeoSite:qcloud                                # foreign-other
                            # - '+.na-ashburn.tencentcos.cn'                               # GeoSite:qcloud                                # duplicate .cn suffix rule
-                             - '+.na-ashburn.tencentcos.com'                              # GeoSite:qcloud
+                           # - '+.na-ashburn.tencentcos.com'                              # GeoSite:qcloud
                            # - '+.na-ashburn.tencentcos.com.cn'                           # GeoSite:qcloud                                # duplicate .cn suffix rule
                            # - '+.na-siliconvalley.myqcloud.com'                          # GeoSite:qcloud                                # foreign-other
                            # - '+.na-siliconvalley.tencentcos.cn'                         # GeoSite:qcloud                                # duplicate .cn suffix rule
-                             - '+.na-siliconvalley.tencentcos.com'                        # GeoSite:qcloud
+                           # - '+.na-siliconvalley.tencentcos.com'                        # GeoSite:qcloud
                            # - '+.na-siliconvalley.tencentcos.com.cn'                     # GeoSite:qcloud                                # duplicate .cn suffix rule
                            # - '+.na-toronto.myqcloud.com'                                # GeoSite:qcloud                                # foreign-other
                            # - '+.na-toronto.tencentcos.cn'                               # GeoSite:qcloud                                # duplicate .cn suffix rule
-                             - '+.na-toronto.tencentcos.com'                              # GeoSite:qcloud
+                           # - '+.na-toronto.tencentcos.com'                              # GeoSite:qcloud
                            # - '+.na-toronto.tencentcos.com.cn'                           # GeoSite:qcloud                                # duplicate .cn suffix rule
                              - '+.onexmail.com'                                           # GeoSite:qcloud
                              - '+.openapp.run'                                            # GeoSite:qcloud
@@ -5303,7 +5303,7 @@ payload:
                              - '+.pn1waq.com'                                             # GeoSite:qcloud
                              - '+.qcloud-edumall.com'                                     # GeoSite:qcloud
                              - '+.qcloud.com'                                             # GeoSite:qcloud
-                           # - '+.qcloud.la'                                              # GeoSite:qcloud
+                             - '+.qcloud.la'                                              # GeoSite:qcloud
                              - '+.qcloudapps.com'                                         # GeoSite:qcloud
                              - '+.qcloudcdn.com'                                          # GeoSite:qcloud
                            # - '+.qcloudcdntest.cn'                                       # GeoSite:qcloud                                # duplicate .cn suffix rule
@@ -5934,7 +5934,7 @@ payload:
                              - '+.imweb.io'                                               # GeoSite:tencent
                              - '+.ivweb.io'                                               # GeoSite:tencent
                              - '+.myapp.com'                                              # GeoSite:tencent
-                           # - '+.qlivecdn.com'                                           # GeoSite:tencent                               # foreign
+                             - '+.qlivecdn.com'                                           # GeoSite:tencent                               # foreign
                            # - '+.qlogo.cn'                                               # GeoSite:tencent                               # duplicate .cn suffix rule
                            # - '+.qpic.cn'                                                # GeoSite:tencent                               # duplicate .cn suffix rule
                              - '+.qq.cn.com'                                              # GeoSite:tencent
@@ -6240,7 +6240,7 @@ payload:
                              - '+.ucloudstack.com'                                        # GeoSite:ucloud
                              - '+.ucloudstack.net'                                        # GeoSite:ucloud
                              - '+.ucloudstor.com'                                         # GeoSite:ucloud
-                           # - '+.ucloudufile.com'                                        # GeoSite:ucloud                                # foreign & foreign-other
+                             - '+.ucloudufile.com'                                        # GeoSite:ucloud                                # foreign & foreign-other
                            # - '+.ucnaming.cn'                                            # GeoSite:ucloud                                # duplicate .cn suffix rule
                              - '+.ucnaming.com'                                           # GeoSite:ucloud
                              - '+.ucnaming.info'                                          # GeoSite:ucloud
@@ -6769,14 +6769,14 @@ payload:
                              - '+.yundalog.com'                                           # GeoSite:yundaex
                              - '+.yundaltl.com'                                           # GeoSite:yundaex
                              - '+.yundasys.com'                                           # GeoSite:yundaex
-                           # - '+.yfcache.com'                                            # GeoSite:yunfanjiasu                           # foreign & foreign-other
-                           # - '+.yfcalc.com'                                             # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yfcache.com'                                            # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yfcalc.com'                                             # GeoSite:yunfanjiasu                           # foreign & foreign-other
                              - '+.yfcdn.net'                                              # GeoSite:yunfanjiasu
-                           # - '+.yfcloud.com'                                            # GeoSite:yunfanjiasu                           # foreign & foreign-other
-                           # - '+.yfdts.net'                                              # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yfcloud.com'                                            # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yfdts.net'                                              # GeoSite:yunfanjiasu                           # foreign & foreign-other
                              - '+.yfp2p.net'                                              # GeoSite:yunfanjiasu
-                           # - '+.yfscdn.net'                                             # GeoSite:yunfanjiasu                           # foreign & foreign-other
-                           # - '+.yunfancdn.com'                                          # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yfscdn.net'                                             # GeoSite:yunfanjiasu                           # foreign & foreign-other
+                             - '+.yunfancdn.com'                                          # GeoSite:yunfanjiasu                           # foreign & foreign-other
                              - '+.yy.com'                                                 # GeoSite:yy
                              - '+.yystatic.com'                                           # GeoSite:yy
                            # - '+.zcmbc.com.cn'                                           # GeoSite:zdns                                  # duplicate .cn suffix rule
@@ -6827,3 +6827,133 @@ payload:
                              - '+.zuoyebang.com'                                          # GeoSite:zuoyebang
                              - '+.zybang.com'                                             # GeoSite:zuoyebang
 
+                             # 在 China_Domain.yaml 中存在，但 GeositeCN_Domain.yaml 中完全不存在的规则
+                             - '+.12306.com'                                              # 
+                             - '+.343480.com'                                             # 
+                             - '+.360in.com'                                              # 
+                             - '+.51.la'                                                  # 
+                             - '+.afp.adchina.com'                                        # 
+                             - '+.air-matters.com'                                        # 
+                             - '+.aliyuncs.com'                                           # 
+                             - '+.appshike.com'                                           # 
+                             - '+.b612.net'                                               # 
+                             - '+.bababian.com'                                           # 
+                             - '+.bcy.net'                                                # 
+                             - '+.bcyimg.com'                                             # 
+                             - '+.bdatu.com'                                              # 
+                             - '+.beitaichufang.com'                                      # 
+                             - '+.camera360.com'                                          # 
+                             - '+.ccgslb.com'                                             # 
+                             - '+.ccgslb.net'                                             # 
+                             - '+.chuimg.com'                                             # 
+                             - '+.chunyu.mobi'                                            # 
+                             - '+.click.qianqian.com'                                     # 
+                             - '+.cmechina.net'                                           # 
+                             - '+.cmfu.com'                                               # 
+                             - '+.cn-east-2.myhuaweicloud.com'                            # 
+                             - '+.cn-east-3.myhuaweicloud.com'                            # 
+                             - '+.cn-north-1.myhuaweicloud.com'                           # 
+                             - '+.cn-north-2.myhuaweicloud.com'                           # 
+                             - '+.cn-north-3.myhuaweicloud.com'                           # 
+                             - '+.cn-north-4.myhuaweicloud.com'                           # 
+                             - '+.cn-north-5.myhuaweicloud.com'                           # 
+                             - '+.cn-north-6.myhuaweicloud.com'                           # 
+                             - '+.cn-north-9.myhuaweicloud.com'                           # 
+                             - '+.cn-northeast-1.myhuaweicloud.com'                       # 
+                             - '+.cn-south-1.myhuaweicloud.com'                           # 
+                             - '+.cn-south-2.myhuaweicloud.com'                           # 
+                             - '+.cn-south-4.myhuaweicloud.com'                           # 
+                             - '+.cn-southwest-2.myhuaweicloud.com'                       # 
+                             - '+.cnbeta.com'                                             # 
+                             - '+.cnlang.org'                                             # 
+                             - '+.com-hs-hkdy.com'                                        # 
+                             - '+.cootekservice.com'                                      # 
+                             - '+.cz88.net'                                               # 
+                             - '+.docschina.org'                                          # 
+                             - '+.easou.com'                                              # 
+                             - '+.eudic.net'                                              # 
+                             - '+.ewqcxz.com'                                             # 
+                             - '+.ex.puata.info'                                          # 
+                             - '+.faceu.mobi'                                             # 
+                             - '+.feiliao.com'                                            # 
+                             - '+.flyert.com'                                             # 
+                             - '+.frdic.com'                                              # 
+                             - '+.fresh-ideas.cc'                                         # 
+                             - '+.g-cores.com'                                            # 
+                             - '+.godic.net'                                              # 
+                             - '+.haibian.com'                                            # 
+                             - '+.haoyisheng.com'                                         # 
+                             - '+.hori-gz.com'                                            # 
+                             - '+.hxcdn.net'                                              # 
+                             - '+.hz.pre.tbusergw.taobao.net'                             # 
+                             - '+.hz.tbusergw.taobao.net'                                 # 
+                             - '+.icedropper.com'                                         # 
+                             - '+.ipapark.com'                                            # 
+                             - '+.ipinyou.com'                                            # 
+                             - '+.iyingdi.com'                                            # 
+                             - '+.jidian.im'                                              # 
+                             - '+.jiedaibao.gs'                                           # 
+                             - '+.jstucdn.com'                                            # 
+                             - '+.jxlog.istreamsche.com'                                  # 
+                             - '+.kaiyanapp.com'                                          # 
+                             - '+.keepfrds.com'                                           # 
+                             - '+.knewone.com'                                            # 
+                             - '+.kuyunbo.club'                                           # 
+                             - '+.lemicp.com'                                             # 
+                             - '+.letvcloud.com'                                          # 
+                             - '+.lf-rc1.yhgfb-cn-static.com'                             # 
+                             - '+.localizecdn.com'                                        # 
+                             - '+.lucifr.com'                                             # 
+                             - '+.luckincdn.com'                                          # 
+                             - '+.luoo.net'                                               # 
+                             - '+.lxjapp.com'                                             # 
+                             - '+.mai.tn'                                                 # 
+                             - '+.maoyun.tv'                                              # 
+                             - '+.material.istreamsche.com'                               # 
+                             - '+.mbcloud.com'                                            # 
+                             - '+.meipai.com'                                             # 
+                             - '+.meixincdn.com'                                          # 
+                             - '+.mlt01.com'                                              # 
+                             - '+.mobike.com'                                             # 
+                             - '+.mubu.com'                                               # 
+                             - '+.myunlu.com'                                             # 
+                             - '+.nim-lang-cn.org'                                        # 
+                             - '+.p4pfile.com'                                            # 
+                             - '+.qdaily.com'                                             # 
+                             - '+.qingmang.me'                                            # 
+                             - '+.qq.net'                                                 # 
+                             - '+.quumibao.com'                                           # 
+                             - '+.rj.m.taobao.co'                                         # 
+                             - '+.ronghub.com'                                            # 
+                             - '+.rrmj.tv'                                                # 
+                             - '+.s-reader.com'                                           # 
+                             - '+.siomxity.com'                                           # 
+                             - '+.smartisan.com'                                          # 
+                             - '+.sohu-inc.com'                                           # 
+                             - '+.staticdn.net'                                           # 
+                             - '+.tanxlog.istreamsche.com'                                # 
+                             - '+.tipdim.org'                                             # 
+                             - '+.tjupt.org'                                              # 
+                             - '+.tongji.linezing.com'                                    # 
+                             - '+.uat1.bfsspadserver.8le8le.com'                          # 
+                             - '+.uxengine.net'                                           # 
+                             - '+.v-56.com'                                               # 
+                             - '+.webqxs.com'                                             # 
+                             - '+.weico.cc'                                               # 
+                             - '+.weixin.com'                                             # 
+                             - '+.werewolf.53site.com'                                    # 
+                             - '+.www.yxssp.com'                                          # 
+                             - '+.xdrig.com'                                              # 
+                             - '+.xitek.com'                                              # 
+                             - '+.xueyuanjun.com'                                         # 
+                             - '+.yiliao.hupan.com'                                       # 
+                             - '+.yixia.com'                                              # 
+                             - '+.ysepay.com'                                             # 
+                             - '+.yunjiasu-cdn.net'                                       # 
+                             - '+.zgslb.net'                                              # 
+                             - '+.zhangle.com'                                            # 
+                             - '+.zhugeapi.net'                                           # 
+                             - '+.zhugeio.com'                                            # 
+                             - '+.zmz002.com'                                             # 
+                             - '+.zmzapi.net'                                             # 
+                             - '+.zmzfile.com'                                            # 
