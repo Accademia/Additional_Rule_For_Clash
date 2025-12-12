@@ -1,18 +1,18 @@
 payload:
 
-  - DOMAIN        , 8888.google                                 # Google
-  - DOMAIN        , dns.google                                  # Google
-  - DOMAIN        , dns.google.com                              # Google
+  - DOMAIN-SUFFIX , 8888.google                                 # Google
+  - DOMAIN-SUFFIX , dns.google                                  # Google
+  - DOMAIN-SUFFIX , dns.google.com                              # Google
   - IP-CIDR       , 8.8.4.4/32                                  # Google
   - IP-CIDR       , 8.8.8.8/32                                  # Google
   - IP-CIDR6      , 2001:4860:4860::8844/128                    # Google
   - IP-CIDR6      , 2001:4860:4860::8888/128                    # Google
-  - DOMAIN        , dns64.dns.google                            # Google Public DNS64 的 DoH 入口（NAT64 场景）
-  - DOMAIN        , 1dot1dot1dot1.cloudflare-dns.com            # Cloudflare
-  - DOMAIN        , chrome.cloudflare-dns.com                   # Cloudflare
-  - DOMAIN        , cloudflare-dns.com                          # Cloudflare
-  - DOMAIN        , dns.cloudflare.com                          # Cloudflare
-  - DOMAIN        , one.one.one.one                             # Cloudflare
+  - DOMAIN-SUFFIX , dns64.dns.google                            # Google Public DNS64 的 DoH 入口（NAT64 场景）
+  - DOMAIN-SUFFIX , 1dot1dot1dot1.cloudflare-dns.com            # Cloudflare
+  - DOMAIN-SUFFIX , chrome.cloudflare-dns.com                   # Cloudflare
+  - DOMAIN-SUFFIX , cloudflare-dns.com                          # Cloudflare
+  - DOMAIN-SUFFIX , dns.cloudflare.com                          # Cloudflare
+  - DOMAIN-SUFFIX , one.one.one.one                             # Cloudflare
   - IP-CIDR       , 1.0.0.1/32                                  # Cloudflare
   - IP-CIDR       , 1.0.0.2/32                                  # Cloudflare
   - IP-CIDR       , 1.0.0.3/32                                  # Cloudflare
@@ -26,16 +26,16 @@ payload:
   - IP-CIDR6      , 2606:4700:4700::1112/128                    # Cloudflare
   - IP-CIDR6      , 2606:4700::6810:f8f9/128                    # Cloudflare
   - IP-CIDR6      , 2606:4700::6810:f9f9/128                    # Cloudflare
-  - DOMAIN        , dns64.cloudflare-dns.com                    # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
-  - DOMAIN        , family.cloudflare-dns.com                   # Cloudflare Family
-  - DOMAIN        , mozilla.cloudflare-dns.com                  # Cloudflare Mozilla
-  - DOMAIN        , security.cloudflare-dns.com                 # Cloudflare Security
-  - DOMAIN        , apple-dns.net                               # Apple
-  - DOMAIN        , dns.apple.com                               # Apple
-  - DOMAIN        , dns.quad9.net                               # Quad9
-  - DOMAIN        , dns10.quad9.net                             # Quad9
-  - DOMAIN        , dns11.quad9.net                             # Quad9
-  - DOMAIN        , dns9.quad9.net                              # Quad9
+  - DOMAIN-SUFFIX , dns64.cloudflare-dns.com                    # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
+  - DOMAIN-SUFFIX , family.cloudflare-dns.com                   # Cloudflare Family
+  - DOMAIN-SUFFIX , mozilla.cloudflare-dns.com                  # Cloudflare Mozilla
+  - DOMAIN-SUFFIX , security.cloudflare-dns.com                 # Cloudflare Security
+ #- DOMAIN-SUFFIX , apple-dns.net                               # Apple
+ #- DOMAIN-SUFFIX , dns.apple.com                               # Apple
+  - DOMAIN-SUFFIX , dns.quad9.net                               # Quad9
+  - DOMAIN-SUFFIX , dns10.quad9.net                             # Quad9
+  - DOMAIN-SUFFIX , dns11.quad9.net                             # Quad9
+  - DOMAIN-SUFFIX , dns9.quad9.net                              # Quad9
   - IP-CIDR       , 149.112.112.10/32                           # Quad9
   - IP-CIDR       , 149.112.112.11/32                           # Quad9
   - IP-CIDR       , 149.112.112.112/32                          # Quad9
@@ -52,18 +52,18 @@ payload:
   - IP-CIDR6      , 2620:fe::fe:10/128                          # Quad9
   - IP-CIDR6      , 2620:fe::fe:11/128                          # Quad9
   - IP-CIDR6      , 2620:fe::fe:9/128                           # Quad9
-  - DOMAIN        , dns.umbrella.com                            # OpenDNS
-  - DOMAIN        , doh.opendns.com                             # OpenDNS
+  - DOMAIN-SUFFIX , dns.umbrella.com                            # OpenDNS
+  - DOMAIN-SUFFIX , doh.opendns.com                             # OpenDNS
   - IP-CIDR       , 146.112.41.2/32                             # OpenDNS
   - IP-CIDR       , 208.67.220.220/32                           # OpenDNS
   - IP-CIDR       , 208.67.222.222/32                           # OpenDNS
   - IP-CIDR6      , 2620:119:fc::2/128                          # OpenDNS
-  - DOMAIN        , doh.familyshield.opendns.com                # OpenDNS FamilyShield
-  - DOMAIN        , opendns.com                                 # OpenDNS (美国)
-  - DOMAIN        , dns-family.adguard.com                      # AdGuard DNS
-  - DOMAIN        , dns-unfiltered.adguard.com                  # AdGuard DNS
-  - DOMAIN        , dns.adguard.com                             # AdGuard DNS
-  - DOMAIN        , unfiltered.adguard-dns.com                  # AdGuard DNS
+  - DOMAIN-SUFFIX , doh.familyshield.opendns.com                # OpenDNS FamilyShield
+  - DOMAIN-SUFFIX , opendns.com                                 # OpenDNS (美国)
+  - DOMAIN-SUFFIX , dns-family.adguard.com                      # AdGuard DNS
+  - DOMAIN-SUFFIX , dns-unfiltered.adguard.com                  # AdGuard DNS
+  - DOMAIN-SUFFIX , dns.adguard.com                             # AdGuard DNS
+  - DOMAIN-SUFFIX , unfiltered.adguard-dns.com                  # AdGuard DNS
   - IP-CIDR       , 176.103.130.130/32                          # AdGuard DNS
   - IP-CIDR       , 176.103.130.131/32                          # AdGuard DNS
   - IP-CIDR       , 176.103.130.132/32                          # AdGuard DNS
@@ -84,17 +84,17 @@ payload:
   - IP-CIDR6      , 2a10:50c0::ad2:ff/128                       # AdGuard DNS
   - IP-CIDR6      , 2a10:50c0::bad1:ff/128                      # AdGuard DNS
   - IP-CIDR6      , 2a10:50c0::bad2:ff/128                      # AdGuard DNS
-  - DOMAIN        , dns.adguard-dns.com                         # AdGuard DNS 默认 DoH 入口，官方文档新域名
-  - DOMAIN        , family.adguard-dns.com                      # AdGuard DNS Family 过滤版 DoH
-  - DOMAIN        , dns.nextdns.io                              # NextDNS
+  - DOMAIN-SUFFIX , dns.adguard-dns.com                         # AdGuard DNS 默认 DoH 入口，官方文档新域名
+  - DOMAIN-SUFFIX , family.adguard-dns.com                      # AdGuard DNS Family 过滤版 DoH
+  - DOMAIN-SUFFIX , dns.nextdns.io                              # NextDNS
   - IP-CIDR       , 104.238.181.28/32                           # NextDNS
   - IP-CIDR       , 143.110.229.87/32                           # NextDNS
   - IP-CIDR       , 45.90.28.0/32                               # NextDNS
   - IP-CIDR       , 45.90.30.0/32                               # NextDNS
   - IP-CIDR6      , 2a07:a8c0::/128                             # NextDNS
   - IP-CIDR6      , 2a07:a8c1::/128                             # NextDNS
-  - DOMAIN        , cleanbrowsing.org                           # CleanBrowsing (美国)
-  - DOMAIN        , doh.cleanbrowsing.org                       # CleanBrowsing
+  - DOMAIN-SUFFIX , cleanbrowsing.org                           # CleanBrowsing (美国)
+  - DOMAIN-SUFFIX , doh.cleanbrowsing.org                       # CleanBrowsing
   - IP-CIDR       , 185.228.168.10/32                           # CleanBrowsing
   - IP-CIDR       , 185.228.168.168/32                          # CleanBrowsing
   - IP-CIDR       , 185.228.168.199/32                          # CleanBrowsing
@@ -108,164 +108,164 @@ payload:
   - IP-CIDR6      , 2a0d:2a00:2::/128                           # CleanBrowsing
   - IP-CIDR6      , 2a0d:2a00:2::1/128                          # CleanBrowsing
   - IP-CIDR6      , 2a0d:2a00:2::2/128                          # CleanBrowsing
-  - DOMAIN        , security-filter-dns.cleanbrowsing.org       # CleanBrowsing Security
-  - DOMAIN        , dns.sb                                      # DNS.SB
-  - DOMAIN        , doh.dns.sb                                  # DNS.SB
-  - DOMAIN        , doh.sb                                      # DNS.SB
-  - DOMAIN        , dot.sb                                      # DNS.SB
+  - DOMAIN-SUFFIX , security-filter-dns.cleanbrowsing.org       # CleanBrowsing Security
+  - DOMAIN-SUFFIX , dns.sb                                      # DNS.SB
+  - DOMAIN-SUFFIX , doh.dns.sb                                  # DNS.SB
+  - DOMAIN-SUFFIX , doh.sb                                      # DNS.SB
+  - DOMAIN-SUFFIX , dot.sb                                      # DNS.SB
   - IP-CIDR       , 45.11.45.11/32                              # DNS.SB
-  - DOMAIN        , dns.watch                                   # DNS.Watch (德国)
-  - DOMAIN        , uncensoreddns.org                           # UncensoredDNS (丹麦)
-  - DOMAIN        , family.canadianshield.cira.ca               # CIRA Canadian Shield (加拿大)
-  - DOMAIN        , private.canadianshield.cira.ca              # CIRA Canadian Shield (加拿大)
-  - DOMAIN        , protected.canadianshield.cira.ca            # CIRA Canadian Shield (加拿大)
-  - DOMAIN        , com.cast.net                                # Xfinity (美国)
-  - DOMAIN        , doh.xfinity.com                             # Xfinity (美国)
-  - DOMAIN        , dns.twnic.tw                                # 台湾 Quad 101
-  - DOMAIN        , dns.hinet.net                               # Chunghwa Telecom (HiNet, 台湾)
-  - DOMAIN        , doh.hinet.net                               # Chunghwa Telecom DoH
-  - DOMAIN        , dns.telekom.de                              # Deutsche Telekom DoH
-  - DOMAIN        , doh-01.spectrum.com                         # Spectrum DoH
-  - DOMAIN        , doh-02.spectrum.com                         # Spectrum DoH
+  - DOMAIN-SUFFIX , dns.watch                                   # DNS.Watch (德国)
+  - DOMAIN-SUFFIX , uncensoreddns.org                           # UncensoredDNS (丹麦)
+  - DOMAIN-SUFFIX , family.canadianshield.cira.ca               # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , private.canadianshield.cira.ca              # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , protected.canadianshield.cira.ca            # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , com.cast.net                                # Xfinity (美国)
+  - DOMAIN-SUFFIX , doh.xfinity.com                             # Xfinity (美国)
+  - DOMAIN-SUFFIX , dns.twnic.tw                                # 台湾 Quad 101
+  - DOMAIN-SUFFIX , dns.hinet.net                               # Chunghwa Telecom (HiNet, 台湾)
+  - DOMAIN-SUFFIX , doh.hinet.net                               # Chunghwa Telecom DoH
+  - DOMAIN-SUFFIX , dns.telekom.de                              # Deutsche Telekom DoH
+  - DOMAIN-SUFFIX , doh-01.spectrum.com                         # Spectrum DoH
+  - DOMAIN-SUFFIX , doh-02.spectrum.com                         # Spectrum DoH
   - IP-CIDR       , 24.240.146.8/32                             # Spectrum DoH
   - IP-CIDR6      , 2600:6c7f:f000:202::8/128                   # Spectrum DoH
-  - DOMAIN        , he.net                                      # Hurricane Electric (美国)
-  - DOMAIN        , ordns.he.net                                # Hurricane Electric (美国)
-  - DOMAIN        , doh.powerdns.com                            # PowerDNS (荷兰)
-  - DOMAIN        , doh.powerdns.org                            # PowerDNS (荷兰)
-  - DOMAIN        , powerdns.org                                # PowerDNS (荷兰)
-  - DOMAIN        , tenta.io                                    # Tenta (美国)
-  - DOMAIN        , doh.dnsfilter.com                           # DNSFilter DoH
-  - DOMAIN        , doh.safedns.com                             # SafeDNS DoH
-  - DOMAIN        , safeservedns.com                            # SafeServe DNS (Namecheap)
-  - DOMAIN        , dns-dot.defensx.com                         # DefensX DoT/DoH
+  - DOMAIN-SUFFIX , he.net                                      # Hurricane Electric (美国)
+  - DOMAIN-SUFFIX , ordns.he.net                                # Hurricane Electric (美国)
+  - DOMAIN-SUFFIX , doh.powerdns.com                            # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , doh.powerdns.org                            # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , powerdns.org                                # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , tenta.io                                    # Tenta (美国)
+  - DOMAIN-SUFFIX , doh.dnsfilter.com                           # DNSFilter DoH
+  - DOMAIN-SUFFIX , doh.safedns.com                             # SafeDNS DoH
+  - DOMAIN-SUFFIX , safeservedns.com                            # SafeServe DNS (Namecheap)
+  - DOMAIN-SUFFIX , dns-dot.defensx.com                         # DefensX DoT/DoH
   - DOMAIN-SUFFIX , dns.controld.com                            # https://controld.com/free-dns
   - DOMAIN-SUFFIX , freedns.controld.com                        # https://controld.com/free-dns
   - IP-CIDR       , 76.76.10.11/32                              # https://controld.com/free-dns
   - IP-CIDR       , 76.76.2.11/32                               # https://controld.com/free-dns
   - IP-CIDR6      , 2606:1a40:1::11/128                         # https://controld.com/free-dns
   - IP-CIDR6      , 2606:1a40::11/128                           # https://controld.com/free-dns
-  - DOMAIN        , child-noads.joindns4.eu                     # DNS4EU Child + No-Ads
+  - DOMAIN-SUFFIX , child-noads.joindns4.eu                     # DNS4EU Child + No-Ads
   - IP-CIDR       , 86.54.11.11/32                              # DNS4EU Child + No-Ads
   - IP-CIDR       , 86.54.11.211/32                             # DNS4EU Child + No-Ads
   - IP-CIDR6      , 2a13:1001::86:54:11:11/128                  # DNS4EU Child + No-Ads
   - IP-CIDR6      , 2a13:1001::86:54:11:211/128                 # DNS4EU Child + No-Ads
-  - DOMAIN        , child.joindns4.eu                           # DNS4EU Child
+  - DOMAIN-SUFFIX , child.joindns4.eu                           # DNS4EU Child
   - IP-CIDR       , 86.54.11.12/32                              # DNS4EU Child
   - IP-CIDR       , 86.54.11.212/32                             # DNS4EU Child
   - IP-CIDR6      , 2a13:1001::86:54:11:12/128                  # DNS4EU Child
   - IP-CIDR6      , 2a13:1001::86:54:11:212/128                 # DNS4EU Child
-  - DOMAIN        , noads.joindns4.eu                           # DNS4EU No-Ads
+  - DOMAIN-SUFFIX , noads.joindns4.eu                           # DNS4EU No-Ads
   - IP-CIDR       , 86.54.11.13/32                              # DNS4EU No-Ads
   - IP-CIDR       , 86.54.11.213/32                             # DNS4EU No-Ads
   - IP-CIDR6      , 2a13:1001::86:54:11:13/128                  # DNS4EU No-Ads
   - IP-CIDR6      , 2a13:1001::86:54:11:213/128                 # DNS4EU No-Ads
-  - DOMAIN        , protective.joindns4.eu                      # DNS4EU Protective
+  - DOMAIN-SUFFIX , protective.joindns4.eu                      # DNS4EU Protective
   - IP-CIDR       , 86.54.11.1/32                               # DNS4EU Protective
   - IP-CIDR       , 86.54.11.201/32                             # DNS4EU Protective
   - IP-CIDR6      , 2a13:1001::86:54:11:1/128                   # DNS4EU Protective
   - IP-CIDR6      , 2a13:1001::86:54:11:201/128                 # DNS4EU Protective
-  - DOMAIN        , unfiltered.joindns4.eu                      # DNS4EU Unfiltered
+  - DOMAIN-SUFFIX , unfiltered.joindns4.eu                      # DNS4EU Unfiltered
   - IP-CIDR       , 86.54.11.100/32                             # DNS4EU Unfiltered
   - IP-CIDR       , 86.54.11.200/32                             # DNS4EU Unfiltered
   - IP-CIDR6      , 2a13:1001::86:54:11:100/128                 # DNS4EU Unfiltered
   - IP-CIDR6      , 2a13:1001::86:54:11:200/128                 # DNS4EU Unfiltered
-  - DOMAIN        , doh.libredns.gr                             # LibreDNS (希腊)
-  - DOMAIN        , libredns.gr                                 # LibreDNS (希腊)
-  - DOMAIN        , adblock.doh.mullvad.net                     # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
-  - DOMAIN        , dns.mullvad.net                             # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
-  - DOMAIN        , doh.mullvad.net                             # Mullvad DNS (瑞典)
-  - DOMAIN        , dns.surfshark.com                           # Surfshark DNS (全球)
-  - DOMAIN        , basic.rethinkdns.com                        # RethinkDNS (全球分布式)
-  - DOMAIN        , doh.42l.fr                                  # 42l DNS (法国)
-  - DOMAIN        , dns-nyc.aaflalo.me                          # Aaflalo DNS (美国)
-  - DOMAIN        , dns.aaflalo.me                              # Aaflalo DNS (美国)
-  - DOMAIN        , dns.aa.net.uk                               # AAISP (英国)
-  - DOMAIN        , doh.alternate-dns.com                       # Alternate DNS (美国)
-  - DOMAIN        , applied-privacy.net                         # Applied Privacy (奥地利)
-  - DOMAIN        , doh.applied-privacy.net                     # Applied Privacy (奥地利)
-  - DOMAIN        , doh.armadillodns.net                        # Armadillo DNS (全球)
-  - DOMAIN        , doh-de.blahdns.com                          # BlahDNS (德国)
-  - DOMAIN        , doh-fi.blahdns.com                          # BlahDNS (芬兰)
-  - DOMAIN        , doh-jp.blahdns.com                          # BlahDNS (日本)
-  - DOMAIN        , doh.blahdns.com                             # BlahDNS (欧洲)
-  - DOMAIN        , example.doh.blockerdns.com                  # BlockerDNS (美国)
-  - DOMAIN        , dns.blokada.org                             # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
-  - DOMAIN        , boothlabs.me                                # Booth Labs (加拿大)
-  - DOMAIN        , dns.cfiec.net                               # CFIEC DNS (全球)
-  - DOMAIN        , dns.circl.lu                                # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
-  - DOMAIN        , dns.cmrg.net                                # CMRG DNS (加拿大)
-  - DOMAIN        , doh.comodo.com                              # Comodo
+  - DOMAIN-SUFFIX , doh.libredns.gr                             # LibreDNS (希腊)
+  - DOMAIN-SUFFIX , libredns.gr                                 # LibreDNS (希腊)
+  - DOMAIN-SUFFIX , adblock.doh.mullvad.net                     # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
+  - DOMAIN-SUFFIX , dns.mullvad.net                             # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
+  - DOMAIN-SUFFIX , doh.mullvad.net                             # Mullvad DNS (瑞典)
+  - DOMAIN-SUFFIX , dns.surfshark.com                           # Surfshark DNS (全球)
+  - DOMAIN-SUFFIX , basic.rethinkdns.com                        # RethinkDNS (全球分布式)
+  - DOMAIN-SUFFIX , doh.42l.fr                                  # 42l DNS (法国)
+  - DOMAIN-SUFFIX , dns-nyc.aaflalo.me                          # Aaflalo DNS (美国)
+  - DOMAIN-SUFFIX , dns.aaflalo.me                              # Aaflalo DNS (美国)
+  - DOMAIN-SUFFIX , dns.aa.net.uk                               # AAISP (英国)
+  - DOMAIN-SUFFIX , doh.alternate-dns.com                       # Alternate DNS (美国)
+  - DOMAIN-SUFFIX , applied-privacy.net                         # Applied Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.applied-privacy.net                     # Applied Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.armadillodns.net                        # Armadillo DNS (全球)
+  - DOMAIN-SUFFIX , doh-de.blahdns.com                          # BlahDNS (德国)
+  - DOMAIN-SUFFIX , doh-fi.blahdns.com                          # BlahDNS (芬兰)
+  - DOMAIN-SUFFIX , doh-jp.blahdns.com                          # BlahDNS (日本)
+  - DOMAIN-SUFFIX , doh.blahdns.com                             # BlahDNS (欧洲)
+  - DOMAIN-SUFFIX , example.doh.blockerdns.com                  # BlockerDNS (美国)
+  - DOMAIN-SUFFIX , dns.blokada.org                             # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
+  - DOMAIN-SUFFIX , boothlabs.me                                # Booth Labs (加拿大)
+  - DOMAIN-SUFFIX , dns.cfiec.net                               # CFIEC DNS (全球)
+  - DOMAIN-SUFFIX , dns.circl.lu                                # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
+  - DOMAIN-SUFFIX , dns.cmrg.net                                # CMRG DNS (加拿大)
+  - DOMAIN-SUFFIX , doh.comodo.com                              # Comodo
   - IP-CIDR       , 8.20.247.20/32                              # Comodo
   - IP-CIDR       , 8.26.56.26/32                               # Comodo
-  - DOMAIN        , dns.containerpi.com                         # ContainerPi DNS (全球)
-  - DOMAIN        , dohdot.coxlab.net                           # CoxLab DNS (美国)
-  - DOMAIN        , dnsprivacy.at                               # DNS Privacy (奥地利)
-  - DOMAIN        , doh.dnswarden.com                           # DNS Warden (全球分布式)
-  - DOMAIN        , dns.dns-over-https.com                      # DNS-over-HTTPS (全球)
-  - DOMAIN        , dns.dnsoverhttps.net                        # DNS-over-HTTPS (全球)
-  - DOMAIN        , adblock.dns.dnswarden.com                   # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
-  - DOMAIN        , dns1.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
-  - DOMAIN        , dns1.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 1（DoH/DoT）
-  - DOMAIN        , dns2.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 2（anycast）
-  - DOMAIN        , dns2.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 2
-  - DOMAIN        , dnscrypt.ca                                 # DNSCrypt Canada (加拿大)
-  - DOMAIN        , doh.dnslify.com                             # Dnslify (全球)
-  - DOMAIN        , doh.crypto.sx                               # DOH Crypto (全球分布式)
-  - DOMAIN        , doh.li                                      # DOH LI (全球)
-  - DOMAIN        , eth-services.de                             # ETH Services (德国)
-  - DOMAIN        , rdns.faelix.net                             # Faelix DNS (全球)
-  - DOMAIN        , doh.ffmuc.net                               # FFMUC (德国)
-  - DOMAIN        , fische.io                                   # Fische (德国)
-  - DOMAIN        , dns.flatuslifir.is                          # Flatuslifir DNS (冰岛)
-  - DOMAIN        , restena.lu                                  # Foundation RESTENA (卢森堡)
-  - DOMAIN        , go6lab.si                                   # Go6Lab (斯洛文尼亚)
-  - DOMAIN        , query.hdns.io                               # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
-  - DOMAIN        , dns.hostux.net                              # Hostux DNS (全球)
-  - DOMAIN        , ibksturm.synology.me                        # Ibksturm (瑞士)
-  - DOMAIN        , ibuki.cgnat.net                             # Ibuki DNS (全球)
-  - DOMAIN        , public.dns.iij.jp                           # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
-  - DOMAIN        , doh.iij.jp                                  # IIJ DNS (日本)
-  - DOMAIN        , dns1.in-berlin.de                           # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
-  - DOMAIN        , dns2.in-berlin.de                           # in-berlin.de 公共 DoH 节点 2
-  - DOMAIN        , dns.ipv6dns.com                             # IPv6 DNS (全球)
-  - DOMAIN        , jcdns.fun                                   # JCDNS (全球)
-  - DOMAIN        , dns.keweon.center                           # Keweon DNS (全球)
-  - DOMAIN        , us1.dns.lavate.ch                           # LavaDNS 美国节点，和上面同家服务商
-  - DOMAIN        , eu1.dns.lavate.ch                           # LavaDNS 芬兰节点（EU），无日志 DoH
-  - DOMAIN        , ldn.imlonghao.com                           # Lorraine Data Network (法国)
-  - DOMAIN        , dns.moulticast.net                          # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
-  - DOMAIN        , adblock.mydns.network                       # MyDNS Network
-  - DOMAIN        , freedom.mydns.network                       # myDNS.network 标准 DoH（不拦截）
-  - DOMAIN        , doh.nekomimi-router.com                     # NekomimiRouter (日本)
-  - DOMAIN        , neutopia.org                                # Neutopia (法国)
-  - DOMAIN        , odvr.nic.cz                                 # NIC CZ (捷克)
-  - DOMAIN        , opennic.net                                 # OpenNIC (社区开放DNS)
-  - DOMAIN        , doh.centraleu.pi-dns.com                    # Pi-DNS (欧洲)
-  - DOMAIN        , doh.eastus.pi-dns.com                       # Pi-DNS (美国东部)
-  - DOMAIN        , doh.northeu.pi-dns.com                      # Pi-DNS (北欧)
-  - DOMAIN        , doh.westus.pi-dns.com                       # Pi-DNS (美国西部)
-  - DOMAIN        , dns-tls.qis.io                              # QIS DNS (全球)
-  - DOMAIN        , doh.qis.io                                  # QIS DNS (全球)
-  - DOMAIN        , sfw.overthebox.ovh                          # Scaleway (法国)
-  - DOMAIN        , doh.seby.io                                 # Seby DNS (澳大利亚)
-  - DOMAIN        , doh.securedns.eu                            # SecureDNS (欧洲)
-  - DOMAIN        , fi.doh.dns.snopyta.org                      # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
-  - DOMAIN        , snopyta.org                                 # Snopyta (芬兰)
-  - DOMAIN        , cdn-doh.ssnm.xyz                            # SSNM (全球)
-  - DOMAIN        , dns.switch.ch                               # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
-  - DOMAIN        , dns.t53.de                                  # T53 DNS (德国)
-  - DOMAIN        , doh.tiar.app                                # Tiarap DNS (新加坡)
-  - DOMAIN        , doh.tiarap.org                              # Tiarap DNS (全球)
-  - DOMAIN        , jp.tiar.app                                 # Tiarap DNS (日本)
-  - DOMAIN        , jp.tiarap.org                               # Tiarap DNS (日本)
-  - DOMAIN        , dns.tin-fan.com                             # Tin Fan DNS (全球分布式)
-  - DOMAIN        , adfree.usableprivacy.net                    # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
-  - DOMAIN        , doh.verisign.com                            # Verisign
-  - DOMAIN        , dns.wevpn.com                               # WeDNS（WeVPN 背后），未过滤 DoH 配置
-  - DOMAIN        , dns-weblock.wevpn.com                       # WeDNS 带广告/恶意域名过滤的 DoH
-  - DOMAIN        , wikimedia-dns.org                           # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
-  - DOMAIN        , yeti-dns.org                                # Yeti DNS (全球分布式)
+  - DOMAIN-SUFFIX , dns.containerpi.com                         # ContainerPi DNS (全球)
+  - DOMAIN-SUFFIX , dohdot.coxlab.net                           # CoxLab DNS (美国)
+  - DOMAIN-SUFFIX , dnsprivacy.at                               # DNS Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.dnswarden.com                           # DNS Warden (全球分布式)
+  - DOMAIN-SUFFIX , dns.dns-over-https.com                      # DNS-over-HTTPS (全球)
+  - DOMAIN-SUFFIX , dns.dnsoverhttps.net                        # DNS-over-HTTPS (全球)
+  - DOMAIN-SUFFIX , adblock.dns.dnswarden.com                   # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
+  - DOMAIN-SUFFIX , dns1.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
+  - DOMAIN-SUFFIX , dns1.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 1（DoH/DoT）
+  - DOMAIN-SUFFIX , dns2.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 2（anycast）
+  - DOMAIN-SUFFIX , dns2.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 2
+  - DOMAIN-SUFFIX , dnscrypt.ca                                 # DNSCrypt Canada (加拿大)
+  - DOMAIN-SUFFIX , doh.dnslify.com                             # Dnslify (全球)
+  - DOMAIN-SUFFIX , doh.crypto.sx                               # DOH Crypto (全球分布式)
+  - DOMAIN-SUFFIX , doh.li                                      # DOH LI (全球)
+  - DOMAIN-SUFFIX , eth-services.de                             # ETH Services (德国)
+  - DOMAIN-SUFFIX , rdns.faelix.net                             # Faelix DNS (全球)
+  - DOMAIN-SUFFIX , doh.ffmuc.net                               # FFMUC (德国)
+  - DOMAIN-SUFFIX , fische.io                                   # Fische (德国)
+  - DOMAIN-SUFFIX , dns.flatuslifir.is                          # Flatuslifir DNS (冰岛)
+  - DOMAIN-SUFFIX , restena.lu                                  # Foundation RESTENA (卢森堡)
+  - DOMAIN-SUFFIX , go6lab.si                                   # Go6Lab (斯洛文尼亚)
+  - DOMAIN-SUFFIX , query.hdns.io                               # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
+  - DOMAIN-SUFFIX , dns.hostux.net                              # Hostux DNS (全球)
+  - DOMAIN-SUFFIX , ibksturm.synology.me                        # Ibksturm (瑞士)
+  - DOMAIN-SUFFIX , ibuki.cgnat.net                             # Ibuki DNS (全球)
+  - DOMAIN-SUFFIX , public.dns.iij.jp                           # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
+  - DOMAIN-SUFFIX , doh.iij.jp                                  # IIJ DNS (日本)
+  - DOMAIN-SUFFIX , dns1.in-berlin.de                           # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
+  - DOMAIN-SUFFIX , dns2.in-berlin.de                           # in-berlin.de 公共 DoH 节点 2
+  - DOMAIN-SUFFIX , dns.ipv6dns.com                             # IPv6 DNS (全球)
+  - DOMAIN-SUFFIX , jcdns.fun                                   # JCDNS (全球)
+  - DOMAIN-SUFFIX , dns.keweon.center                           # Keweon DNS (全球)
+  - DOMAIN-SUFFIX , us1.dns.lavate.ch                           # LavaDNS 美国节点，和上面同家服务商
+  - DOMAIN-SUFFIX , eu1.dns.lavate.ch                           # LavaDNS 芬兰节点（EU），无日志 DoH
+  - DOMAIN-SUFFIX , ldn.imlonghao.com                           # Lorraine Data Network (法国)
+  - DOMAIN-SUFFIX , dns.moulticast.net                          # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
+  - DOMAIN-SUFFIX , adblock.mydns.network                       # MyDNS Network
+  - DOMAIN-SUFFIX , freedom.mydns.network                       # myDNS.network 标准 DoH（不拦截）
+  - DOMAIN-SUFFIX , doh.nekomimi-router.com                     # NekomimiRouter (日本)
+  - DOMAIN-SUFFIX , neutopia.org                                # Neutopia (法国)
+  - DOMAIN-SUFFIX , odvr.nic.cz                                 # NIC CZ (捷克)
+  - DOMAIN-SUFFIX , opennic.net                                 # OpenNIC (社区开放DNS)
+  - DOMAIN-SUFFIX , doh.centraleu.pi-dns.com                    # Pi-DNS (欧洲)
+  - DOMAIN-SUFFIX , doh.eastus.pi-dns.com                       # Pi-DNS (美国东部)
+  - DOMAIN-SUFFIX , doh.northeu.pi-dns.com                      # Pi-DNS (北欧)
+  - DOMAIN-SUFFIX , doh.westus.pi-dns.com                       # Pi-DNS (美国西部)
+  - DOMAIN-SUFFIX , dns-tls.qis.io                              # QIS DNS (全球)
+  - DOMAIN-SUFFIX , doh.qis.io                                  # QIS DNS (全球)
+  - DOMAIN-SUFFIX , sfw.overthebox.ovh                          # Scaleway (法国)
+  - DOMAIN-SUFFIX , doh.seby.io                                 # Seby DNS (澳大利亚)
+  - DOMAIN-SUFFIX , doh.securedns.eu                            # SecureDNS (欧洲)
+  - DOMAIN-SUFFIX , fi.doh.dns.snopyta.org                      # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
+  - DOMAIN-SUFFIX , snopyta.org                                 # Snopyta (芬兰)
+  - DOMAIN-SUFFIX , cdn-doh.ssnm.xyz                            # SSNM (全球)
+  - DOMAIN-SUFFIX , dns.switch.ch                               # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
+  - DOMAIN-SUFFIX , dns.t53.de                                  # T53 DNS (德国)
+  - DOMAIN-SUFFIX , doh.tiar.app                                # Tiarap DNS (新加坡)
+  - DOMAIN-SUFFIX , doh.tiarap.org                              # Tiarap DNS (全球)
+  - DOMAIN-SUFFIX , jp.tiar.app                                 # Tiarap DNS (日本)
+  - DOMAIN-SUFFIX , jp.tiarap.org                               # Tiarap DNS (日本)
+  - DOMAIN-SUFFIX , dns.tin-fan.com                             # Tin Fan DNS (全球分布式)
+  - DOMAIN-SUFFIX , adfree.usableprivacy.net                    # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
+  - DOMAIN-SUFFIX , doh.verisign.com                            # Verisign
+  - DOMAIN-SUFFIX , dns.wevpn.com                               # WeDNS（WeVPN 背后），未过滤 DoH 配置
+  - DOMAIN-SUFFIX , dns-weblock.wevpn.com                       # WeDNS 带广告/恶意域名过滤的 DoH
+  - DOMAIN-SUFFIX , wikimedia-dns.org                           # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
+  - DOMAIN-SUFFIX , yeti-dns.org                                # Yeti DNS (全球分布式)
   - IP-CIDR       , 4.2.2.1/32                                  # Level3
   - IP-CIDR       , 4.2.2.2/32                                  # Level3
   - IP-CIDR       , 4.2.2.3/32                                  # Level3

@@ -1,166 +1,166 @@
 payload:
 
-  - '8888.google'                           # Google
-  - 'dns.google'                            # Google
-  - 'dns.google.com'                        # Google
-  - 'dns64.dns.google'                      # Google Public DNS64 的 DoH 入口（NAT64 场景）
-  - '1dot1dot1dot1.cloudflare-dns.com'      # Cloudflare
-  - 'chrome.cloudflare-dns.com'             # Cloudflare
-  - 'cloudflare-dns.com'                    # Cloudflare
-  - 'dns.cloudflare.com'                    # Cloudflare
-  - 'dns64.cloudflare-dns.com'              # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
-  - 'family.cloudflare-dns.com'             # Cloudflare Family
-  - 'mozilla.cloudflare-dns.com'            # Cloudflare Mozilla
-  - 'one.one.one.one'                       # Cloudflare
-  - 'security.cloudflare-dns.com'           # Cloudflare Security
-  - 'apple-dns.net'                         # Apple
-  - 'dns.apple.com'                         # Apple
-  - 'dns.quad9.net'                         # Quad9
-  - 'dns10.quad9.net'                       # Quad9
-  - 'dns11.quad9.net'                       # Quad9
-  - 'dns9.quad9.net'                        # Quad9
-  - 'dns.umbrella.com'                      # OpenDNS
-  - 'doh.familyshield.opendns.com'          # OpenDNS FamilyShield
-  - 'doh.opendns.com'                       # OpenDNS
-  - 'opendns.com'                           # OpenDNS (美国)
-  - 'dns-family.adguard.com'                # AdGuard DNS
-  - 'dns-unfiltered.adguard.com'            # AdGuard DNS
-  - 'dns.adguard-dns.com'                   # AdGuard DNS 默认 DoH 入口，官方文档新域名
-  - 'dns.adguard.com'                       # AdGuard DNS
-  - 'family.adguard-dns.com'                # AdGuard DNS Family 过滤版 DoH
-  - 'unfiltered.adguard-dns.com'            # AdGuard DNS
-  - 'dns.nextdns.io'                        # NextDNS
-  - 'cleanbrowsing.org'                     # CleanBrowsing (美国)
-  - 'doh.cleanbrowsing.org'                 # CleanBrowsing
-  - 'security-filter-dns.cleanbrowsing.org' # CleanBrowsing Security
-  - 'dns.sb'                                # DNS.SB
-  - 'doh.dns.sb'                            # DNS.SB
-  - 'doh.sb'                                # DNS.SB
-  - 'dot.sb'                                # DNS.SB
-  - 'dns.watch'                             # DNS.Watch (德国)
-  - 'uncensoreddns.org'                     # UncensoredDNS (丹麦)
-  - 'family.canadianshield.cira.ca'         # CIRA Canadian Shield (加拿大)
-  - 'private.canadianshield.cira.ca'        # CIRA Canadian Shield (加拿大)
-  - 'protected.canadianshield.cira.ca'      # CIRA Canadian Shield (加拿大)
-  - 'com.cast.net'                          # Xfinity (美国)
-  - 'doh.xfinity.com'                       # Xfinity (美国)
-  - 'dns.twnic.tw'                          # 台湾 Quad 101
-  - 'dns.hinet.net'                         # Chunghwa Telecom (HiNet, 台湾)
-  - 'doh.hinet.net'                         # Chunghwa Telecom DoH
-  - 'dns.telekom.de'                        # Deutsche Telekom DoH
-  - 'doh-01.spectrum.com'                   # Spectrum DoH
-  - 'doh-02.spectrum.com'                   # Spectrum DoH
-  - 'he.net'                                # Hurricane Electric (美国)
-  - 'ordns.he.net'                          # Hurricane Electric (美国)
-  - 'doh.powerdns.com'                      # PowerDNS (荷兰)
-  - 'doh.powerdns.org'                      # PowerDNS (荷兰)
-  - 'powerdns.org'                          # PowerDNS (荷兰)
-  - 'tenta.io'                              # Tenta (美国)
-  - 'doh.dnsfilter.com'                     # DNSFilter DoH
-  - 'doh.safedns.com'                       # SafeDNS DoH
-  - 'safeservedns.com'                      # SafeServe DNS (Namecheap)
-  - 'dns-dot.defensx.com'                   # DefensX DoT/DoH
-  - '+.dns.controld.com'                    # https://controld.com/free-dns
-  - '+.freedns.controld.com'                # https://controld.com/free-dns
-  - 'child-noads.joindns4.eu'               # DNS4EU Child + No-Ads
-  - 'child.joindns4.eu'                     # DNS4EU Child
-  - 'noads.joindns4.eu'                     # DNS4EU No-Ads
-  - 'protective.joindns4.eu'                # DNS4EU Protective
-  - 'unfiltered.joindns4.eu'                # DNS4EU Unfiltered
-  - 'doh.libredns.gr'                       # LibreDNS (希腊)
-  - 'libredns.gr'                           # LibreDNS (希腊)
-  - 'adblock.doh.mullvad.net'               # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
-  - 'dns.mullvad.net'                       # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
-  - 'doh.mullvad.net'                       # Mullvad DNS (瑞典)
-  - 'dns.surfshark.com'                     # Surfshark DNS (全球)
-  - 'basic.rethinkdns.com'                  # RethinkDNS (全球分布式)
-  - 'doh.42l.fr'                            # 42l DNS (法国)
-  - 'dns-nyc.aaflalo.me'                    # Aaflalo DNS (美国)
-  - 'dns.aaflalo.me'                        # Aaflalo DNS (美国)
-  - 'dns.aa.net.uk'                         # AAISP (英国)
-  - 'doh.alternate-dns.com'                 # Alternate DNS (美国)
-  - 'applied-privacy.net'                   # Applied Privacy (奥地利)
-  - 'doh.applied-privacy.net'               # Applied Privacy (奥地利)
-  - 'doh.armadillodns.net'                  # Armadillo DNS (全球)
-  - 'doh-de.blahdns.com'                    # BlahDNS (德国)
-  - 'doh-fi.blahdns.com'                    # BlahDNS (芬兰)
-  - 'doh-jp.blahdns.com'                    # BlahDNS (日本)
-  - 'doh.blahdns.com'                       # BlahDNS (欧洲)
-  - 'example.doh.blockerdns.com'            # BlockerDNS (美国)
-  - 'dns.blokada.org'                       # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
-  - 'boothlabs.me'                          # Booth Labs (加拿大)
-  - 'dns.cfiec.net'                         # CFIEC DNS (全球)
-  - 'dns.circl.lu'                          # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
-  - 'dns.cmrg.net'                          # CMRG DNS (加拿大)
-  - 'doh.comodo.com'                        # Comodo
-  - 'dns.containerpi.com'                   # ContainerPi DNS (全球)
-  - 'dohdot.coxlab.net'                     # CoxLab DNS (美国)
-  - 'dnsprivacy.at'                         # DNS Privacy (奥地利)
-  - 'doh.dnswarden.com'                     # DNS Warden (全球分布式)
-  - 'dns.dns-over-https.com'                # DNS-over-HTTPS (全球)
-  - 'dns.dnsoverhttps.net'                  # DNS-over-HTTPS (全球)
-  - 'adblock.dns.dnswarden.com'             # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
-  - 'dns1.dnscrypt.ca'                      # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
-  - 'dns1.ipv6.dnscrypt.ca'                 # dnscrypt.ca IPv6 节点 1（DoH/DoT）
-  - 'dns2.dnscrypt.ca'                      # dnscrypt.ca 加拿大节点 2（anycast）
-  - 'dns2.ipv6.dnscrypt.ca'                 # dnscrypt.ca IPv6 节点 2
-  - 'dnscrypt.ca'                           # DNSCrypt Canada (加拿大)
-  - 'doh.dnslify.com'                       # Dnslify (全球)
-  - 'doh.crypto.sx'                         # DOH Crypto (全球分布式)
-  - 'doh.li'                                # DOH LI (全球)
-  - 'eth-services.de'                       # ETH Services (德国)
-  - 'rdns.faelix.net'                       # Faelix DNS (全球)
-  - 'doh.ffmuc.net'                         # FFMUC (德国)
-  - 'fische.io'                             # Fische (德国)
-  - 'dns.flatuslifir.is'                    # Flatuslifir DNS (冰岛)
-  - 'restena.lu'                            # Foundation RESTENA (卢森堡)
-  - 'go6lab.si'                             # Go6Lab (斯洛文尼亚)
-  - 'query.hdns.io'                         # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
-  - 'dns.hostux.net'                        # Hostux DNS (全球)
-  - 'ibksturm.synology.me'                  # Ibksturm (瑞士)
-  - 'ibuki.cgnat.net'                       # Ibuki DNS (全球)
-  - 'public.dns.iij.jp'                     # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
-  - 'doh.iij.jp'                            # IIJ DNS (日本)
-  - 'dns1.in-berlin.de'                     # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
-  - 'dns2.in-berlin.de'                     # in-berlin.de 公共 DoH 节点 2
-  - 'dns.ipv6dns.com'                       # IPv6 DNS (全球)
-  - 'jcdns.fun'                             # JCDNS (全球)
-  - 'dns.keweon.center'                     # Keweon DNS (全球)
-  - 'us1.dns.lavate.ch'                     # LavaDNS 美国节点，和上面同家服务商
-  - 'eu1.dns.lavate.ch'                     # LavaDNS 芬兰节点（EU），无日志 DoH
-  - 'ldn.imlonghao.com'                     # Lorraine Data Network (法国)
-  - 'dns.moulticast.net'                    # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
-  - 'adblock.mydns.network'                 # MyDNS Network
-  - 'freedom.mydns.network'                 # myDNS.network 标准 DoH（不拦截）
-  - 'doh.nekomimi-router.com'               # NekomimiRouter (日本)
-  - 'neutopia.org'                          # Neutopia (法国)
-  - 'odvr.nic.cz'                           # NIC CZ (捷克)
-  - 'opennic.net'                           # OpenNIC (社区开放DNS)
-  - 'doh.centraleu.pi-dns.com'              # Pi-DNS (欧洲)
-  - 'doh.eastus.pi-dns.com'                 # Pi-DNS (美国东部)
-  - 'doh.northeu.pi-dns.com'                # Pi-DNS (北欧)
-  - 'doh.westus.pi-dns.com'                 # Pi-DNS (美国西部)
-  - 'dns-tls.qis.io'                        # QIS DNS (全球)
-  - 'doh.qis.io'                            # QIS DNS (全球)
-  - 'sfw.overthebox.ovh'                    # Scaleway (法国)
-  - 'doh.seby.io'                           # Seby DNS (澳大利亚)
-  - 'doh.securedns.eu'                      # SecureDNS (欧洲)
-  - 'fi.doh.dns.snopyta.org'                # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
-  - 'snopyta.org'                           # Snopyta (芬兰)
-  - 'cdn-doh.ssnm.xyz'                      # SSNM (全球)
-  - 'dns.switch.ch'                         # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
-  - 'dns.t53.de'                            # T53 DNS (德国)
-  - 'doh.tiar.app'                          # Tiarap DNS (新加坡)
-  - 'doh.tiarap.org'                        # Tiarap DNS (全球)
-  - 'jp.tiar.app'                           # Tiarap DNS (日本)
-  - 'jp.tiarap.org'                         # Tiarap DNS (日本)
-  - 'dns.tin-fan.com'                       # Tin Fan DNS (全球分布式)
-  - 'adfree.usableprivacy.net'              # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
-  - 'doh.verisign.com'                      # Verisign
-  - 'dns.wevpn.com'                         # WeDNS（WeVPN 背后），未过滤 DoH 配置
-  - 'dns-weblock.wevpn.com'                 # WeDNS 带广告/恶意域名过滤的 DoH
-  - 'wikimedia-dns.org'                     # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
-  - 'yeti-dns.org'                          # Yeti DNS (全球分布式)
+  - '+.8888.google'                           # Google
+  - '+.dns.google'                            # Google
+  - '+.dns.google.com'                        # Google
+  - '+.dns64.dns.google'                      # Google Public DNS64 的 DoH 入口（NAT64 场景）
+  - '+.1dot1dot1dot1.cloudflare-dns.com'      # Cloudflare
+  - '+.chrome.cloudflare-dns.com'             # Cloudflare
+  - '+.cloudflare-dns.com'                    # Cloudflare
+  - '+.dns.cloudflare.com'                    # Cloudflare
+  - '+.dns64.cloudflare-dns.com'              # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
+  - '+.family.cloudflare-dns.com'             # Cloudflare Family
+  - '+.mozilla.cloudflare-dns.com'            # Cloudflare Mozilla
+  - '+.one.one.one.one'                       # Cloudflare
+  - '+.security.cloudflare-dns.com'           # Cloudflare Security
+ #- '+.apple-dns.net'                         # Apple
+ #- '+.dns.apple.com'                         # Apple
+  - '+.dns.quad9.net'                         # Quad9
+  - '+.dns10.quad9.net'                       # Quad9
+  - '+.dns11.quad9.net'                       # Quad9
+  - '+.dns9.quad9.net'                        # Quad9
+  - '+.dns.umbrella.com'                      # OpenDNS
+  - '+.doh.familyshield.opendns.com'          # OpenDNS FamilyShield
+  - '+.doh.opendns.com'                       # OpenDNS
+  - '+.opendns.com'                           # OpenDNS (美国)
+  - '+.dns-family.adguard.com'                # AdGuard DNS
+  - '+.dns-unfiltered.adguard.com'            # AdGuard DNS
+  - '+.dns.adguard-dns.com'                   # AdGuard DNS 默认 DoH 入口，官方文档新域名
+  - '+.dns.adguard.com'                       # AdGuard DNS
+  - '+.family.adguard-dns.com'                # AdGuard DNS Family 过滤版 DoH
+  - '+.unfiltered.adguard-dns.com'            # AdGuard DNS
+  - '+.dns.nextdns.io'                        # NextDNS
+  - '+.cleanbrowsing.org'                     # CleanBrowsing (美国)
+  - '+.doh.cleanbrowsing.org'                 # CleanBrowsing
+  - '+.security-filter-dns.cleanbrowsing.org' # CleanBrowsing Security
+  - '+.dns.sb'                                # DNS.SB
+  - '+.doh.dns.sb'                            # DNS.SB
+  - '+.doh.sb'                                # DNS.SB
+  - '+.dot.sb'                                # DNS.SB
+  - '+.dns.watch'                             # DNS.Watch (德国)
+  - '+.uncensoreddns.org'                     # UncensoredDNS (丹麦)
+  - '+.family.canadianshield.cira.ca'         # CIRA Canadian Shield (加拿大)
+  - '+.private.canadianshield.cira.ca'        # CIRA Canadian Shield (加拿大)
+  - '+.protected.canadianshield.cira.ca'      # CIRA Canadian Shield (加拿大)
+  - '+.com.cast.net'                          # Xfinity (美国)
+  - '+.doh.xfinity.com'                       # Xfinity (美国)
+  - '+.dns.twnic.tw'                          # 台湾 Quad 101
+  - '+.dns.hinet.net'                         # Chunghwa Telecom (HiNet, 台湾)
+  - '+.doh.hinet.net'                         # Chunghwa Telecom DoH
+  - '+.dns.telekom.de'                        # Deutsche Telekom DoH
+  - '+.doh-01.spectrum.com'                   # Spectrum DoH
+  - '+.doh-02.spectrum.com'                   # Spectrum DoH
+  - '+.he.net'                                # Hurricane Electric (美国)
+  - '+.ordns.he.net'                          # Hurricane Electric (美国)
+  - '+.doh.powerdns.com'                      # PowerDNS (荷兰)
+  - '+.doh.powerdns.org'                      # PowerDNS (荷兰)
+  - '+.powerdns.org'                          # PowerDNS (荷兰)
+  - '+.tenta.io'                              # Tenta (美国)
+  - '+.doh.dnsfilter.com'                     # DNSFilter DoH
+  - '+.doh.safedns.com'                       # SafeDNS DoH
+  - '+.safeservedns.com'                      # SafeServe DNS (Namecheap)
+  - '+.dns-dot.defensx.com'                   # DefensX DoT/DoH
+  - '+.+.dns.controld.com'                    # https://controld.com/free-dns
+  - '+.+.freedns.controld.com'                # https://controld.com/free-dns
+  - '+.child-noads.joindns4.eu'               # DNS4EU Child + No-Ads
+  - '+.child.joindns4.eu'                     # DNS4EU Child
+  - '+.noads.joindns4.eu'                     # DNS4EU No-Ads
+  - '+.protective.joindns4.eu'                # DNS4EU Protective
+  - '+.unfiltered.joindns4.eu'                # DNS4EU Unfiltered
+  - '+.doh.libredns.gr'                       # LibreDNS (希腊)
+  - '+.libredns.gr'                           # LibreDNS (希腊)
+  - '+.adblock.doh.mullvad.net'               # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
+  - '+.dns.mullvad.net'                       # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
+  - '+.doh.mullvad.net'                       # Mullvad DNS (瑞典)
+  - '+.dns.surfshark.com'                     # Surfshark DNS (全球)
+  - '+.basic.rethinkdns.com'                  # RethinkDNS (全球分布式)
+  - '+.doh.42l.fr'                            # 42l DNS (法国)
+  - '+.dns-nyc.aaflalo.me'                    # Aaflalo DNS (美国)
+  - '+.dns.aaflalo.me'                        # Aaflalo DNS (美国)
+  - '+.dns.aa.net.uk'                         # AAISP (英国)
+  - '+.doh.alternate-dns.com'                 # Alternate DNS (美国)
+  - '+.applied-privacy.net'                   # Applied Privacy (奥地利)
+  - '+.doh.applied-privacy.net'               # Applied Privacy (奥地利)
+  - '+.doh.armadillodns.net'                  # Armadillo DNS (全球)
+  - '+.doh-de.blahdns.com'                    # BlahDNS (德国)
+  - '+.doh-fi.blahdns.com'                    # BlahDNS (芬兰)
+  - '+.doh-jp.blahdns.com'                    # BlahDNS (日本)
+  - '+.doh.blahdns.com'                       # BlahDNS (欧洲)
+  - '+.example.doh.blockerdns.com'            # BlockerDNS (美国)
+  - '+.dns.blokada.org'                       # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
+  - '+.boothlabs.me'                          # Booth Labs (加拿大)
+  - '+.dns.cfiec.net'                         # CFIEC DNS (全球)
+  - '+.dns.circl.lu'                          # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
+  - '+.dns.cmrg.net'                          # CMRG DNS (加拿大)
+  - '+.doh.comodo.com'                        # Comodo
+  - '+.dns.containerpi.com'                   # ContainerPi DNS (全球)
+  - '+.dohdot.coxlab.net'                     # CoxLab DNS (美国)
+  - '+.dnsprivacy.at'                         # DNS Privacy (奥地利)
+  - '+.doh.dnswarden.com'                     # DNS Warden (全球分布式)
+  - '+.dns.dns-over-https.com'                # DNS-over-HTTPS (全球)
+  - '+.dns.dnsoverhttps.net'                  # DNS-over-HTTPS (全球)
+  - '+.adblock.dns.dnswarden.com'             # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
+  - '+.dns1.dnscrypt.ca'                      # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
+  - '+.dns1.ipv6.dnscrypt.ca'                 # dnscrypt.ca IPv6 节点 1（DoH/DoT）
+  - '+.dns2.dnscrypt.ca'                      # dnscrypt.ca 加拿大节点 2（anycast）
+  - '+.dns2.ipv6.dnscrypt.ca'                 # dnscrypt.ca IPv6 节点 2
+  - '+.dnscrypt.ca'                           # DNSCrypt Canada (加拿大)
+  - '+.doh.dnslify.com'                       # Dnslify (全球)
+  - '+.doh.crypto.sx'                         # DOH Crypto (全球分布式)
+  - '+.doh.li'                                # DOH LI (全球)
+  - '+.eth-services.de'                       # ETH Services (德国)
+  - '+.rdns.faelix.net'                       # Faelix DNS (全球)
+  - '+.doh.ffmuc.net'                         # FFMUC (德国)
+  - '+.fische.io'                             # Fische (德国)
+  - '+.dns.flatuslifir.is'                    # Flatuslifir DNS (冰岛)
+  - '+.restena.lu'                            # Foundation RESTENA (卢森堡)
+  - '+.go6lab.si'                             # Go6Lab (斯洛文尼亚)
+  - '+.query.hdns.io'                         # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
+  - '+.dns.hostux.net'                        # Hostux DNS (全球)
+  - '+.ibksturm.synology.me'                  # Ibksturm (瑞士)
+  - '+.ibuki.cgnat.net'                       # Ibuki DNS (全球)
+  - '+.public.dns.iij.jp'                     # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
+  - '+.doh.iij.jp'                            # IIJ DNS (日本)
+  - '+.dns1.in-berlin.de'                     # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
+  - '+.dns2.in-berlin.de'                     # in-berlin.de 公共 DoH 节点 2
+  - '+.dns.ipv6dns.com'                       # IPv6 DNS (全球)
+  - '+.jcdns.fun'                             # JCDNS (全球)
+  - '+.dns.keweon.center'                     # Keweon DNS (全球)
+  - '+.us1.dns.lavate.ch'                     # LavaDNS 美国节点，和上面同家服务商
+  - '+.eu1.dns.lavate.ch'                     # LavaDNS 芬兰节点（EU），无日志 DoH
+  - '+.ldn.imlonghao.com'                     # Lorraine Data Network (法国)
+  - '+.dns.moulticast.net'                    # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
+  - '+.adblock.mydns.network'                 # MyDNS Network
+  - '+.freedom.mydns.network'                 # myDNS.network 标准 DoH（不拦截）
+  - '+.doh.nekomimi-router.com'               # NekomimiRouter (日本)
+  - '+.neutopia.org'                          # Neutopia (法国)
+  - '+.odvr.nic.cz'                           # NIC CZ (捷克)
+  - '+.opennic.net'                           # OpenNIC (社区开放DNS)
+  - '+.doh.centraleu.pi-dns.com'              # Pi-DNS (欧洲)
+  - '+.doh.eastus.pi-dns.com'                 # Pi-DNS (美国东部)
+  - '+.doh.northeu.pi-dns.com'                # Pi-DNS (北欧)
+  - '+.doh.westus.pi-dns.com'                 # Pi-DNS (美国西部)
+  - '+.dns-tls.qis.io'                        # QIS DNS (全球)
+  - '+.doh.qis.io'                            # QIS DNS (全球)
+  - '+.sfw.overthebox.ovh'                    # Scaleway (法国)
+  - '+.doh.seby.io'                           # Seby DNS (澳大利亚)
+  - '+.doh.securedns.eu'                      # SecureDNS (欧洲)
+  - '+.fi.doh.dns.snopyta.org'                # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
+  - '+.snopyta.org'                           # Snopyta (芬兰)
+  - '+.cdn-doh.ssnm.xyz'                      # SSNM (全球)
+  - '+.dns.switch.ch'                         # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
+  - '+.dns.t53.de'                            # T53 DNS (德国)
+  - '+.doh.tiar.app'                          # Tiarap DNS (新加坡)
+  - '+.doh.tiarap.org'                        # Tiarap DNS (全球)
+  - '+.jp.tiar.app'                           # Tiarap DNS (日本)
+  - '+.jp.tiarap.org'                         # Tiarap DNS (日本)
+  - '+.dns.tin-fan.com'                       # Tin Fan DNS (全球分布式)
+  - '+.adfree.usableprivacy.net'              # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
+  - '+.doh.verisign.com'                      # Verisign
+  - '+.dns.wevpn.com'                         # WeDNS（WeVPN 背后），未过滤 DoH 配置
+  - '+.dns-weblock.wevpn.com'                 # WeDNS 带广告/恶意域名过滤的 DoH
+  - '+.wikimedia-dns.org'                     # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
+  - '+.yeti-dns.org'                          # Yeti DNS (全球分布式)
 
 
 
