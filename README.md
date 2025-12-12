@@ -154,6 +154,7 @@
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则
     + 原项目： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）
     + 修正后， 规则数量 ：约 3000条 
+    + 这个规则，基本上是GeositeCN规则的子集。更浓缩，但是覆盖性稍差。白名单分流，建议使用GeositeCN。我自用的模版，也从China规则，迁移到了GeositeCN。
 
 + GeositeCN ：由于国内分流规则
     + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则
