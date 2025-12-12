@@ -153,10 +153,13 @@
 + China ：由于国内分流规则
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则
     + 原项目： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）
+    + 修正后， 规则数量 ：约 3000条 
 
 + GeositeCN ：由于国内分流规则
     + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则
     + 原项目： https://github.com/v2fly/domain-list-community/blob/master/data/cn 
+    + 修正后，规则数量 ：约 4800条 
+    + 修正后，已包括 上述China规则内 97% 的规则。而 频度极低 + 完全冷门 的约100个规则，没有被包括在内。 
 
 <br>
 <br>

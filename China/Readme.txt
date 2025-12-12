@@ -17,6 +17,11 @@
 #   
 #	目前整理后，规则总数：3070个：2025-12-03
 #
+#	目前这个规则的完备性，没有 GeositeCN 好，只是其子集。GeostieCN 规则链接
+#
+#		https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeositeCN	
+#
+#
 # 引用范例 ：
 #
 #    China_No_Resolve                  : {type: http, behavior: classical , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/GeositeCN/China_No_Resolve.yaml'                                , path: ./ruleset/China_No_Resolve.yaml                  }
