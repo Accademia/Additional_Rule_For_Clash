@@ -2102,7 +2102,7 @@ payload:
                            # - '+.programmer.com.cn'                                      # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.programmer.net.cn'                                      # GeoSite:csdn                                  # duplicate .cn suffix rule
                            # - '+.ctexcel.ca'                                             # GeoSite:ctexcel                               # foreign-other
-                             - '+.ctexcel.com'                                            # GeoSite:ctexcel                               # foreign & foreign-other
+                           # - '+.ctexcel.com'                                            # GeoSite:ctexcel                               # foreign & foreign-other
                            # - '+.ctexcel.com.hk'                                         # GeoSite:ctexcel                               # foreign & foreign-other
                            # - '+.ctexcel.fr'                                             # GeoSite:ctexcel
                            # - '+.ctexcel.us'                                             # GeoSite:ctexcel
@@ -2610,7 +2610,7 @@ payload:
                              - '+.17173.com'                                              # GeoSite:geolocation-cn
                              - '+.178linux.com'                                           # GeoSite:geolocation-cn
                              - '+.17989.com'                                              # GeoSite:geolocation-cn
-                             - '+.17cdn.com'                                              # GeoSite:geolocation-cn                        # foreign & foreign-other
+                           # - '+.17cdn.com'                                              # GeoSite:geolocation-cn                        # foreign & foreign-other
                              - '+.17house.com'                                            # GeoSite:geolocation-cn
                              - '+.18183.com'                                              # GeoSite:geolocation-cn
                              - '+.1905.com'                                               # GeoSite:geolocation-cn
