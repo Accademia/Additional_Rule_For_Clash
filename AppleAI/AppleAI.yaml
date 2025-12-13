@@ -20,7 +20,7 @@ payload:
 
    #- DOMAIN        , seed.siri.apple.com
 
-    - DOMAIN-SUFFIX , v.aaplimg.com
+   #- DOMAIN-SUFFIX , v.aaplimg.com
    #- DOMAIN        , seed-siri-apple-com.v.aaplimg.com
    #- DOMAIN        , smoot-searchv2-aapse1c.v.aaplimg.com
     

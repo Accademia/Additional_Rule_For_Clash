@@ -1,0 +1,28 @@
+payload:
+
+    - DOMAIN-SUFFIX , cdn-apple.com                                             # 
+    - DOMAIN-SUFFIX , apple.com                                                 # 
+    - DOMAIN-SUFFIX , icloud.com                                                # 
+    - DOMAIN-SUFFIX , itunes.com                                                # 
+    - DOMAIN-SUFFIX , apple                                                     # 
+    - DOMAIN-SUFFIX , icloud-content.com                                        # 
+    - DOMAIN-SUFFIX , apple-dns.net                                             # 
+    - DOMAIN-SUFFIX , mzstatic.com                                              # 
+    - DOMAIN-SUFFIX , apple-cloudkit.com                                        # 
+    - DOMAIN-SUFFIX , aaplimg.com                                               # 
+    - DOMAIN-SUFFIX , apple-mapkit.com                                          # 
+    - DOMAIN-SUFFIX , digicert.com                                              # 
+    - DOMAIN-SUFFIX , entrust.net                                               # 
+    - DOMAIN-SUFFIX , sectigo.com                                               # 
+    - DOMAIN-SUFFIX , me.com                                                    # 
+    - DOMAIN-SUFFIX , mac.com                                                   # 
+    - DOMAIN-SUFFIX , apple-livephotoskit.com                                   # 
+    - DOMAIN-SUFFIX , edgesuite.net                                             # 
+    - DOMAIN-SUFFIX , apple.co                                                  # 
+
+    - DOMAIN        , apple-relay.fastly-edge.com                               # Apple Intelligence Extensions（TCP/UDP 443）
+    - DOMAIN        , apple-relay.cloudflare.com                                # Private Cloud Compute（PCC）（TCP/UDP 443）
+    - DOMAIN        , cp4.cloudflare.com                                        # Private Cloud Compute（PCC）（TCP/UDP 443）
+
+    - IP-CIDR       , 17.0.0.0/8                            , no-resolve       
+

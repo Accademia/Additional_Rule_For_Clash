@@ -148,6 +148,8 @@
 
 + Kwai ：“Kwai“（快手国际版） 的 分流规则
 
++ Apple： 苹果 的分流规则
+
 + Fastly： Fastly CDN 的分流规则
 
 + China ：由于国内分流规则
