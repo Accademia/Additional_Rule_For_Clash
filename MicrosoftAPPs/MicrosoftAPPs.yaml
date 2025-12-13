@@ -1,0 +1,83 @@
+payload:
+
+        # ===============================================
+        # 微软生态核心直连规则 (Windows/Office/Outlook)
+        # ===============================================
+
+        # --- 1. 顶级品牌主域 ---
+         - DOMAIN-SUFFIX , microsoft
+         - DOMAIN-SUFFIX , office
+         - DOMAIN-SUFFIX , windows
+         - DOMAIN-SUFFIX , microsoft.com
+         - DOMAIN-SUFFIX , microsoft365.com
+         - DOMAIN-SUFFIX , windows.com
+         - DOMAIN-SUFFIX , windows.net                                        # 系统底层/通知/部分资源（含 blob.core.windows.net，范围较大）
+         - DOMAIN-SUFFIX , office.com
+         - DOMAIN-SUFFIX , office365.com
+         - DOMAIN-SUFFIX , live.com
+         - DOMAIN-SUFFIX , live.net                                           # 补全：OneDrive/Office/Teams 常见 API/静态资源（apis.live.net / statics.teams.cdn.live.net 等）
+         - DOMAIN-SUFFIX , msn.com                                            # 按你要求：用 msn.com 覆盖 OneDrive consumer 清单里的 storage.msn.com
+         - DOMAIN-SUFFIX , bing.com
+         - DOMAIN-SUFFIX , s-microsoft.com                                    # 补全：Microsoft Store 图片/建议资源（store-images.s-microsoft.com）
+
+                                                                            # 注：如需使用 Bing AI / Copilot，请将 bing.com 和 copilot.microsoft.com 设为代理
+
+
+        # --- 2. 生产力工具 (邮件/文档/通讯) ---
+         - DOMAIN-SUFFIX , outlook.com
+         - DOMAIN-SUFFIX , hotmail.com
+         - DOMAIN-SUFFIX , office.net
+         - DOMAIN-SUFFIX , onedrive.com
+         - DOMAIN-SUFFIX , 1drv.com                                           # 补全：OneDrive 文件传输（*.files.1drv.com）
+         - DOMAIN-SUFFIX , 1drv.ms                                            # 补全：OneDrive 分享短链（1drv.ms）
+         - DOMAIN-SUFFIX , livefilestore.com                                  # 补全：OneDrive consumer 存储相关（*.livefilestore.com）
+         - DOMAIN-SUFFIX , onenote.com
+         - DOMAIN-SUFFIX , onenote.net                                        # 补全：OneNote CDN（*cdn.onenote.net）
+         - DOMAIN-SUFFIX , sharepoint.com                                     # 文档同步后端（如用 OneDrive/SharePoint 商业版）
+         - DOMAIN-SUFFIX , skype.com
+         - DOMAIN-SUFFIX , skypeassets.com                                    # 补全：Skype/Teams 资源（join.secure.skypeassets.com 等）
+         - DOMAIN-SUFFIX , lync.com                                           # Teams 通讯协议
+
+
+        # --- 3. 身份验证 & 安全 (防风控) ---
+         - DOMAIN-SUFFIX , microsoftonline.com
+         - DOMAIN-SUFFIX , microsoftonline-p.com                              # 补全：身份体系相关（login.microsoftonline-p.com 等）
+         - DOMAIN-SUFFIX , microsoftonline-p.net                              # 补全：身份体系配置（clientconfig.microsoftonline-p.net）
+         - DOMAIN-SUFFIX , msauth.net
+         - DOMAIN-SUFFIX , msauthimages.net
+         - DOMAIN-SUFFIX , msftauth.net                                       # 补全：现代认证常见依赖
+         - DOMAIN-SUFFIX , msftauthimages.net                                 # 补全：现代认证静态资源
+         - DOMAIN-SUFFIX , phonefactor.net                                    # 补全：MFA/风控常见依赖
+         - DOMAIN-SUFFIX , msidentity.com                                     # 补全：微软身份体系域
+         - DOMAIN-SUFFIX , msftidentity.com                                   # 补全：微软身份体系域
+         - DOMAIN-SUFFIX , microsoftazuread-sso.com                           # 补全：Seamless SSO（autologon.microsoftazuread-sso.com）
+
+
+        # --- 4. 系统更新 & 应用商店 ---
+         - DOMAIN-SUFFIX , windowsupdate.com
+         - DOMAIN-SUFFIX , microsoftstore.com
+         - DOMAIN-SUFFIX , onestore.ms
+
+
+        # --- 5. 核心底层服务 & 网络判断 ---
+         - DOMAIN-SUFFIX , svc.ms
+         - DOMAIN-SUFFIX , msftconnecttest.com
+         - DOMAIN-SUFFIX , msftncsi.com
+
+
+        # --- 6. 静态资源 / CDN / 跳转 ---
+         - DOMAIN-SUFFIX , aka.ms
+         - DOMAIN-SUFFIX , sfx.ms
+         - DOMAIN-SUFFIX , microsoft.com.edgesuite.net                        # 补全：Office CDN edgesuite（officecdn.microsoft.com.edgesuite.net）
+         - DOMAIN-SUFFIX , otelrules.azureedge.net                            # 补全：Office/M365 Apps 更新/规则（单点域名，避免放开整个 azureedge.net）
+         - DOMAIN-SUFFIX , msecnd.net
+         - DOMAIN-SUFFIX , msocdn.com
+         - DOMAIN-SUFFIX , aspnetcdn.com
+         - DOMAIN-SUFFIX , gfx.ms                                             # 补全：auth.gfx.ms 等
+         - DOMAIN-SUFFIX , microsoft-com.akamaized.net                        # 补全：Microsoft Store 图片资源（img-prod-cms-rt-microsoft-com.akamaized.net）
+         - DOMAIN-SUFFIX , msn-com.akamaized.net                              # 补全：MSN/内置应用图片资源（img-s-msn-com.akamaized.net）
+
+
+        # --- 7. 开发相关 (保留你需要的) ---
+         - DOMAIN-SUFFIX , visualstudio.com
+         - DOMAIN-SUFFIX , vsassets.io
