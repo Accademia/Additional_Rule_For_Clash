@@ -152,23 +152,8 @@
 
 + Apple： 苹果 的 Clash分流规则
 
-
 + MicrosoftAPPs： 微软APP全家桶 的 Clash分流规则 
-    + 已包含 ：Windows 全家桶（ Win10、Win11 系统升级、内置应用商店下载 ）
-    + 已包含 ：Office 2019+ 、Office 365 全家桶
-        + Word、Excel、PowerPoint、Visio
-        + OneNote、OneDrive、OutLook、
-        + Hotmail、SharePoint、Skype 
-        + …
-    + 不包含 ：
-        + ❌ Copilot ：必须翻墙
-        + ❌ Bing ：建议翻墙
-        + ❌ Edge ：建议翻墙
-        + ❌ Azure微软云：包含大量第三方公司
-        + ❌ Xbox：独立业务 
-        + ❌ Github：独立业务 + 必须翻墙
-        + 建议：上述单独分流。
-        + 建议：本分流规则 不建议前置，建议安排在上述未包含的分流规则之后。因为上述服务中，有些APP（如Copilot）会存在大量的子链接。而本规则 使用全家桶的顶级域名，存在覆盖冲突。
+    + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github
 
 + China ：由于 国内流量（白名单翻墙） 的 Clash分流规则 （ 推荐直接用 GeositeCN ）
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则。原项目地址： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China 
