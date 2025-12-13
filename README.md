@@ -166,11 +166,11 @@
         + ❌ Azure微软云：包含大量第三方公司
         + ❌ Xbox：独立业务 
         + ❌ Github：独立业务 + 必须翻墙
-        + 建议：上述单独分流
+        + 建议：上述单独分流。
+        + 建议：本分流规则 不建议前置，建议安排在上述分流规则之后，
 
 + China ：由于 国内流量（白名单翻墙） 的 Clash分流规则 （ 推荐直接用 GeositeCN ）
-    + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则
-    + 原项目： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）
+    + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则。原项目地址： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China 
     + 修正后， 规则数量 ：约 3000条 
     + 这个规则，基本上是GeositeCN规则的子集。
         + 特点：更浓缩，但是覆盖性稍差。
@@ -178,10 +178,9 @@
         + 我自用的模版，也从China规则，迁移到了GeositeCN。
 
 + GeositeCN ：由于 国内流量（白名单翻墙）的 Clash分流规则
-    + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则
-    + 原项目： https://github.com/v2fly/domain-list-community/blob/master/data/cn 
+    + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则。原项目地址： https://github.com/v2fly/domain-list-community/blob/master/data/cn 
     + 修正后，规则数量 ：约 4800条 
-    + 修正后，已包括 上述China规则中的 97%的规则。而其余未包含的规则， 频度极低 + 完全冷门 ，约100个规则。 
+    + 修正后，已包括 blackmatrix7/China规则中的 97%的规则。而其余未包含的规则， 频度极低 + 完全冷门 ，约100个，以注释的方式填入本规则当中。 
 
 <br>
 <br>
