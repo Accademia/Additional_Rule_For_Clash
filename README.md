@@ -155,9 +155,9 @@
 + MicrosoftAPPs： 微软APP全家桶 的 Clash分流规则 
     + 已包含 ：Windows 全家桶（Win10、Win11 系统升级、内置应用商店下载）
     + 已包含 ：Office 2019+ 、Office 365 全家桶
-        + Word、Excel、PowerPoint、
+        + Word、Excel、PowerPoint、Visio
         + OneNote、OneDrive、OutLook、
-        + Hotmail、SharePoint 
+        + Hotmail、SharePoint、Skype 
         + …
     + 不包含 ：
         + ❌ Copilot ：必须翻墙
