@@ -38,6 +38,9 @@ payload:
     - '+.microsoftonline.com'                                    # 
     - '+.microsoftonline-p.com'                                  # 补全：身份体系相关（login.microsoftonline-p.com 等）
     - '+.microsoftonline-p.net'                                  # 补全：身份体系配置（clientconfig.microsoftonline-p.net）
+    - '+.sharepointonline.com'                                   # 
+    - '+.onmicrosoft.com'                                        # 
+    - '+.microsoftusercontent.com'                               # 
     - '+.msauth.net'                                             # 
     - '+.msauthimages.net'                                       # 
     - '+.msftauth.net'                                           # 补全：现代认证常见依赖
@@ -60,14 +63,19 @@ payload:
     # --- 6. 静态资源 / CDN / 跳转 ---
     - '+.aka.ms'                                                 # 
     - '+.sfx.ms'                                                 # 
+    - '+.gfx.ms'                                                 # 补全：auth.gfx.ms 等
     - '+.microsoft.com.edgesuite.net'                            # 补全：Office CDN edgesuite（officecdn.microsoft.com.edgesuite.net）
     - '+.otelrules.azureedge.net'                                # 补全：Office/M365 Apps 更新/规则（单点域名，避免放开整个 azureedge.net）
+    - '+.mlccdnprod.azureedge.net'                               # 
+    - '+.msedge.net'                                             # 
     - '+.msecnd.net'                                             # 
     - '+.msocdn.com'                                             # 
     - '+.aspnetcdn.com'                                          # 
-    - '+.gfx.ms'                                                 # 补全：auth.gfx.ms 等
     - '+.microsoft-com.akamaized.net'                            # 补全：Microsoft Store 图片资源（img-prod-cms-rt-microsoft-com.akamaized.net）
     - '+.msn-com.akamaized.net'                                  # 补全：MSN/内置应用图片资源（img-s-msn-com.akamaized.net）
+    - '+.informationprotection.azure.com'                        # 
+    - '+.aadrm.com'                                              # 
+    - '+.virtualearth.net'                                       # 
 
     # --- 7. 开发相关 (保留你需要的) ---
     - '+.visualstudio.com'                                       # 

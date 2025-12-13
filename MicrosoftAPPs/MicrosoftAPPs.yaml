@@ -20,8 +20,6 @@ payload:
          - DOMAIN-SUFFIX , bing.com
          - DOMAIN-SUFFIX , s-microsoft.com                                    # 补全：Microsoft Store 图片/建议资源（store-images.s-microsoft.com）
 
-                                                                            # 注：如需使用 Bing AI / Copilot，请将 bing.com 和 copilot.microsoft.com 设为代理
-
 
         # --- 2. 生产力工具 (邮件/文档/通讯) ---
          - DOMAIN-SUFFIX , outlook.com
@@ -68,14 +66,22 @@ payload:
         # --- 6. 静态资源 / CDN / 跳转 ---
          - DOMAIN-SUFFIX , aka.ms
          - DOMAIN-SUFFIX , sfx.ms
+         - DOMAIN-SUFFIX , gfx.ms                                             # 补全：auth.gfx.ms 等
          - DOMAIN-SUFFIX , microsoft.com.edgesuite.net                        # 补全：Office CDN edgesuite（officecdn.microsoft.com.edgesuite.net）
          - DOMAIN-SUFFIX , otelrules.azureedge.net                            # 补全：Office/M365 Apps 更新/规则（单点域名，避免放开整个 azureedge.net）
+         - DOMAIN-SUFFIX , mlccdnprod.azureedge.net                           # 
+         - DOMAIN-SUFFIX , sharepointonline.com                               # 
+         - DOMAIN-SUFFIX , onmicrosoft.com                                    # 
+         - DOMAIN-SUFFIX , microsoftusercontent.com                           # 
+         - DOMAIN-SUFFIX , msedge.net                                         # 
          - DOMAIN-SUFFIX , msecnd.net
          - DOMAIN-SUFFIX , msocdn.com
          - DOMAIN-SUFFIX , aspnetcdn.com
-         - DOMAIN-SUFFIX , gfx.ms                                             # 补全：auth.gfx.ms 等
          - DOMAIN-SUFFIX , microsoft-com.akamaized.net                        # 补全：Microsoft Store 图片资源（img-prod-cms-rt-microsoft-com.akamaized.net）
          - DOMAIN-SUFFIX , msn-com.akamaized.net                              # 补全：MSN/内置应用图片资源（img-s-msn-com.akamaized.net）
+         - DOMAIN-SUFFIX , informationprotection.azure.com                    # 
+         - DOMAIN-SUFFIX , aadrm.com                                          # 
+         - DOMAIN-SUFFIX , virtualearth.net                                   # 
 
 
         # --- 7. 开发相关 (保留你需要的) ---
