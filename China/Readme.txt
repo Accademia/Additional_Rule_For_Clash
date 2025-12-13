@@ -17,9 +17,15 @@
 #   
 #	目前整理后，规则总数：3070个：2025-12-03
 #
-#	目前这个规则的完备性，没有 GeositeCN 好，只是其子集。GeostieCN 规则链接
+#	⚠️ 目前这个规则的完备性，没有 GeositeCN 好，只是其子集。GeostieCN 规则链接
 #
 #		https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeositeCN	
+#
+#    		+ 这个规则，基本上是GeositeCN规则的子集。
+#        		+ 特点：更浓缩，但是覆盖性稍差。
+#        		+ 建议：白名单分流，建议使用GeositeCN。
+#        		+ 我自用的模版，也从China规则，迁移到了GeositeCN。
+#
 #
 #
 # 引用范例 ：
