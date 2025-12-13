@@ -46,7 +46,7 @@
   - 豆瓣 ：    	立即生效 
   - 闲鱼\淘宝 ：    	立即生效
 
-+ Bank		：各国银行 Clash分流规则
++ Bank		：各国银行 的 Clash分流规则
   - 美国银行
   - 加拿大银行
   - 英国银行
@@ -58,13 +58,13 @@
   - 法国银行
   - 德国银行
 
-+ VirtualFinance : 虚拟金融公司 Clash分流规则
++ VirtualFinance : 虚拟金融公司 的 Clash分流规则
   - Paypal
   - Wise
   - Monzo
   - Revolut
 
-+ GeoRouting_For_Domain ：按 国家顶级域名 的Clash分流规则
++ GeoRouting_For_Domain ：按 国家顶级域名 的 Clash分流规则
   - 北美  # America (North America)       
   - 南美  # America (South America)       
   - 西欧  # Europe (East   Europe)        
@@ -82,7 +82,7 @@
   - 东非  # Africa (East    Africa)       
   - 中非  # Africa (Central Africa)   
 
-+ GeoRouting_For_IP 	：按 GeoIP 的Clash分流规则
++ GeoRouting_For_IP 	：按 GeoIP 的 Clash分流规则
   - 北美  # America (North America)       
   - 南美  # America (South America)       
   - 西欧  # Europe (East   Europe)        
@@ -104,65 +104,83 @@
 
 + PreRepairEasyPrivacy	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS） 
++ GlobalDNS		：全球DNS，（可信的、无用户隐私泄漏的 DNS） 的 Clash分流规则
 
-+ ChinaDNS		：中国大陆 DNS（被GFW污染的DNS） 
++ ChinaDNS		：中国大陆 DNS（被GFW污染的DNS） 的 Clash分流规则
 
-+ HijackingPlus		：反有害网站（针对反诈插件） 
++ HijackingPlus		：反有害网站（针对反诈插件） 的 Clash分流规则
 
-+ WaybackMachine	：网络时光机（互联网档案馆）
++ WaybackMachine	：网络时光机（互联网档案馆）的 Clash分流规则
 
-+ eMuleServer		：电驴目录服务器（不涉及P2P下载） 
++ eMuleServer		：电驴目录服务器（不涉及P2P下载） 的 Clash分流规则
 
-+ Alipan		: 阿里云盘 Clash分流规则
++ Alipan		: 阿里云盘 的 Clash分流规则
 
-+ BaiduNetDisk		: 百度网盘 Clash分流规则
++ BaiduNetDisk		: 百度网盘 的 Clash分流规则
 
-+ WeiYun		: 腾讯微云 Clash分流规则
++ WeiYun		: 腾讯微云 的 Clash分流规则
 
-+ RustDesk		: RustDesk Clash分流规则
++ RustDesk		: RustDesk 的 Clash分流规则
 
-+ Parsec		: Parsec Clash分流规则
++ Parsec		: Parsec 的 Clash分流规则
 
-+ Triller		: Triller Clash分流规则
++ Triller		: Triller 的 Clash分流规则 （此软件已经被官方关闭）
 
-+ Signal		: Signal Clash分流规则
++ Signal		: Signal 的 Clash分流规则
 
-+ AppleNews		: 苹果新闻 分流规则
++ AppleNews		: 苹果新闻 的 Clash分流规则
 
-+ AppleAI		: 苹果智能 (apple intelligence) Clash分流规则 
++ AppleAI		: 苹果智能 (apple intelligence) 的 Clash分流规则 
 
-+ Grok			: xAI Grok Clash分流规则
++ Grok			: xAI Grok AI 的 Clash分流规则
 
-+ Gemini		: Google Gemini Clash分流规则
++ Gemini		: Google Gemini AI 的 Clash分流规则
 
-+ Copilot		: Microsoft Copilot Clash分流规则
++ Copilot		: Microsoft Copilot AI 的 Clash分流规则
 
-+ MacAppUpgrade		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ）  Clash 分流规则
++ MacAppUpgrade		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ） 的 Clash 分流规则
 
 + UnsupportVPN		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
 
-+ Pornhub	：P站 Clash分流规则
++ Pornhub	：P站 的 Clash分流规则
 
-+ Aqara ：Aqara Homekit 监控摄像头 的分流规则
++ Aqara ：Aqara Homekit 监控摄像头 的 Clash分流规则
 
-+ Kwai ：“Kwai“（快手国际版） 的 分流规则
++ Kwai ：“Kwai“（快手国际版） 的 Clash分流规则
 
-+ Apple： 苹果 的分流规则
++ Fastly： Fastly CDN 的 Clash分流规则
 
-+ Fastly： Fastly CDN 的分流规则
++ Apple： 苹果 的 Clash分流规则
 
-+ China ：由于国内分流规则
++ MicrosoftAPPs： 微软APP全家桶 的 Clash分流规则 
+    + 已包含 ：Windows 全家桶（Win10、Win11 系统升级、内置应用商店下载）
+    + 已包含 ：Office 2019+ 、Office 365 全家桶
+        + Word、Excel、PowerPoint、
+        + OneNote、OneDrive、OutLook、
+        + Hotmail、SharePoint 
+        + …
+    + 不包含 ：
+        + ❌ Copilot ：必须翻墙
+        + ❌ Bing ：建议翻墙
+        + ❌ Edge ：建议翻墙
+        + ❌ Azure微软云：包含大量第三方公司
+        + ❌ Xbox：独立业务 
+        + 建议：上述单独分流
+
++ China ：由于 国内流量（白名单翻墙） 的 Clash分流规则 （ 推荐直接用 GeositeCN ）
     + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则
     + 原项目： https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China  ）
     + 修正后， 规则数量 ：约 3000条 
-    + 这个规则，基本上是GeositeCN规则的子集。更浓缩，但是覆盖性稍差。白名单分流，建议使用GeositeCN。我自用的模版，也从China规则，迁移到了GeositeCN。
+    + 这个规则，基本上是GeositeCN规则的子集。
+        + 特点：更浓缩，但是覆盖性稍差。
+        + 建议：白名单分流，建议使用GeositeCN。
+        + 我自用的模版，也从China规则，迁移到了GeositeCN。
 
-+ GeositeCN ：由于国内分流规则
++ GeositeCN ：由于 国内流量（白名单翻墙）的 Clash分流规则
     + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则
     + 原项目： https://github.com/v2fly/domain-list-community/blob/master/data/cn 
     + 修正后，规则数量 ：约 4800条 
-    + 修正后，已包括 上述China规则内 97% 的规则。而 频度极低 + 完全冷门 的约100个规则，没有被包括在内。 
+    + 修正后，已包括 上述China规则中的 97%的规则。而其余未包含的规则， 频度极低 + 完全冷门 ，约100个规则。 
 
 <br>
 <br>
