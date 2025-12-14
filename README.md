@@ -155,13 +155,13 @@
 + MicrosoftAPPs： 微软APP全家桶 的 Clash分流规则 
     + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github
 
-+ China ：由于 国内流量（白名单翻墙） 的 Clash分流规则 （ 推荐直接用 GeositeCN ）
-    + 是 blackmatrix7/ios_rule_script 中的 China分流规则 的 修正版 ，删除掉了其 占总规则18%的 错误规则。
-    + 修正后， 规则数量 ：约 3000条 
++ China ：🇨🇳 中国网站 的 Clash分流规则 
+    + blackmatrix7/ios_rule_script/China 的 修正版 
+    + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3000条 
 
-+ GeositeCN ：由于 国内流量（白名单翻墙）的 Clash分流规则
-    + 是 geosite:cn 分流规则 的修正版，删除掉了其 占总规则29%的  错误规则。
-    + 修正后，规则数量 ：约 4800条 
++ GeositeCN ：🇨🇳 中国网站 的 Clash分流规则
+    + geosite:cn 的 修正版
+    + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4800条 
 
 <br>
 <br>
