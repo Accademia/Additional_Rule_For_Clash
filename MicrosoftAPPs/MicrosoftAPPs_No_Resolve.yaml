@@ -23,7 +23,7 @@ payload:
 
         # --- 2. 生产力工具 (邮件/文档/通讯) ---
          - DOMAIN-SUFFIX , outlook.com
-         - DOMAIN-SUFFIX , hotmail.com
+        #- DOMAIN-SUFFIX , hotmail.com
          - DOMAIN-SUFFIX , office.net
          - DOMAIN-SUFFIX , onedrive.com
          - DOMAIN-SUFFIX , 1drv.com                                           # 补全：OneDrive 文件传输（*.files.1drv.com）
