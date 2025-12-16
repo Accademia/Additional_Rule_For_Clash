@@ -3,10 +3,12 @@ payload:
     # 微软生态核心直连规则 (Windows/Office/Outlook)
     # ===============================================
 
-    # --- 1. 顶级品牌主域 ---
+        # --- 0. 根域名 ---
      - '+.microsoft'                                              # 
      - '+.office'                                                 # 
      - '+.windows'                                                # 
+
+    # --- 1. 顶级品牌主域 ---
      - '+.microsoft.com'                                          # 
      - '+.microsoft365.com'                                       # 
      - '+.windows.com'                                            # 
@@ -20,8 +22,8 @@ payload:
      - '+.s-microsoft.com'                                        # 补全：Microsoft Store 图片/建议资源（store-images.s-microsoft.com）
 
     # --- 2. 生产力工具 (邮件/文档/通讯) ---
-     - '+.outlook.com'                                            # 
     #- '+.hotmail.com'                                            # 
+     - '+.outlook.com'                                            # 
      - '+.office.net'                                             # 
      - '+.onedrive.com'                                           # 
      - '+.1drv.com'                                               # 补全：OneDrive 文件传输（*.files.1drv.com）
@@ -80,3 +82,153 @@ payload:
     # --- 7. 开发相关 (保留你需要的) ---
      - '+.visualstudio.com'                                       # 
      - '+.vsassets.io'                                            # 
+
+
+    # --------------------------------------------------------------
+    # 用于 HTTPDNS定位，匹配选用哪个CDN 
+    # --------------------------------------------------------------
+
+    # --- 1. 顶级品牌主域 ---
+     - '+.microsoft.com.*.*'                                      # 
+     - '+.microsoft365.com.*.*'                                   # 
+     - '+.windows.com.*.*'                                        # 
+     - '+.windows.net.*.*'                                        # 系统底层/通知/部分资源（含 blob.core.windows.net，范围较大）
+     - '+.office.com.*.*'                                         # 
+     - '+.office365.com.*.*'                                      # 
+     - '+.live.com.*.*'                                           # 
+     - '+.live.net.*.*'                                           # 补全：OneDrive/Office/Teams 常见 API/静态资源（apis.live.net / statics.teams.cdn.live.net 等）
+     - '+.msn.com.*.*'                                            # 按你要求：用 msn.com 覆盖 OneDrive consumer 清单里的 storage.msn.com
+     - '+.bing.com.*.*'                                           # 
+     - '+.s-microsoft.com.*.*'                                    # 补全：Microsoft Store 图片/建议资源（store-images.s-microsoft.com）
+
+    # --- 2. 生产力工具 (邮件/文档/通讯) ---
+    #- '+.hotmail.com.*.*'                                        # 
+     - '+.outlook.com.*.*'                                        # 
+     - '+.office.net.*.*'                                         # 
+     - '+.onedrive.com.*.*'                                       # 
+     - '+.1drv.com.*.*'                                           # 补全：OneDrive 文件传输（*.files.1drv.com）
+     - '+.1drv.ms.*.*'                                            # 补全：OneDrive 分享短链（1drv.ms）
+     - '+.livefilestore.com.*.*'                                  # 补全：OneDrive consumer 存储相关（*.livefilestore.com）
+     - '+.onenote.com.*.*'                                        # 
+     - '+.onenote.net.*.*'                                        # 补全：OneNote CDN（*cdn.onenote.net）
+     - '+.sharepoint.com.*.*'                                     # 文档同步后端（如用 OneDrive/SharePoint 商业版）
+     - '+.skype.com.*.*'                                          # 
+     - '+.skypeassets.com.*.*'                                    # 补全：Skype/Teams 资源（join.secure.skypeassets.com 等）
+     - '+.lync.com.*.*'                                           # Teams 通讯协议
+
+    # --- 3. 身份验证 & 安全 (防风控) ---
+     - '+.microsoftonline.com.*.*'                                # 
+     - '+.microsoftonline-p.com.*.*'                              # 补全：身份体系相关（login.microsoftonline-p.com 等）
+     - '+.microsoftonline-p.net.*.*'                              # 补全：身份体系配置（clientconfig.microsoftonline-p.net）
+     - '+.sharepointonline.com.*.*'                               # 
+     - '+.onmicrosoft.com.*.*'                                    # 
+     - '+.microsoftusercontent.com.*.*'                           # 
+     - '+.msauth.net.*.*'                                         # 
+     - '+.msauthimages.net.*.*'                                   # 
+     - '+.msftauth.net.*.*'                                       # 补全：现代认证常见依赖
+     - '+.msftauthimages.net.*.*'                                 # 补全：现代认证静态资源
+     - '+.phonefactor.net.*.*'                                    # 补全：MFA/风控常见依赖
+     - '+.msidentity.com.*.*'                                     # 补全：微软身份体系域
+     - '+.msftidentity.com.*.*'                                   # 补全：微软身份体系域
+     - '+.microsoftazuread-sso.com.*.*'                           # 补全：Seamless SSO（autologon.microsoftazuread-sso.com）
+
+    # --- 4. 系统更新 & 应用商店 ---
+     - '+.windowsupdate.com.*.*'                                  # 
+     - '+.microsoftstore.com.*.*'                                 # 
+     - '+.onestore.ms.*.*'                                        # 
+
+    # --- 5. 核心底层服务 & 网络判断 ---
+     - '+.svc.ms.*.*'                                             # 
+     - '+.msftconnecttest.com.*.*'                                # 
+     - '+.msftncsi.com.*.*'                                       # 
+
+    # --- 6. 静态资源 / CDN / 跳转 ---
+     - '+.aka.ms.*.*'                                             # 
+     - '+.sfx.ms.*.*'                                             # 
+     - '+.gfx.ms.*.*'                                             # 补全：auth.gfx.ms 等
+     - '+.microsoft.com.edgesuite.net.*.*'                        # 补全：Office CDN edgesuite（officecdn.microsoft.com.edgesuite.net）
+     - '+.otelrules.azureedge.net.*.*'                            # 补全：Office/M365 Apps 更新/规则（单点域名，避免放开整个 azureedge.net）
+     - '+.mlccdnprod.azureedge.net.*.*'                           # 
+     - '+.msedge.net.*.*'                                         # 
+     - '+.msecnd.net.*.*'                                         # 
+     - '+.msocdn.com.*.*'                                         # 
+     - '+.aspnetcdn.com.*.*'                                      # 
+     - '+.microsoft-com.akamaized.net.*.*'                        # 补全：Microsoft Store 图片资源（img-prod-cms-rt-microsoft-com.akamaized.net）
+     - '+.msn-com.akamaized.net.*.*'                              # 补全：MSN/内置应用图片资源（img-s-msn-com.akamaized.net）
+     - '+.informationprotection.azure.com.*.*'                    # 
+     - '+.aadrm.com.*.*'                                          # 
+     - '+.virtualearth.net.*.*'                                   # 
+
+
+
+
+    # --- 1. 顶级品牌主域 ---
+     - '+.microsoft.com.*.*.*'                                  # 
+     - '+.microsoft365.com.*.*.*'                               # 
+     - '+.windows.com.*.*.*'                                    # 
+     - '+.windows.net.*.*.*'                                    # 系统底层/通知/部分资源（含 blob.core.windows.net，范围较大）
+     - '+.office.com.*.*.*'                                     # 
+     - '+.office365.com.*.*.*'                                  # 
+     - '+.live.com.*.*.*'                                       # 
+     - '+.live.net.*.*.*'                                       # 补全：OneDrive/Office/Teams 常见 API/静态资源（apis.live.net / statics.teams.cdn.live.net 等）
+     - '+.msn.com.*.*.*'                                        # 按你要求：用 msn.com 覆盖 OneDrive consumer 清单里的 storage.msn.com
+     - '+.bing.com.*.*.*'                                       # 
+     - '+.s-microsoft.com.*.*.*'                                # 补全：Microsoft Store 图片/建议资源（store-images.s-microsoft.com）
+
+    # --- 2. 生产力工具 (邮件/文档/通讯) ---
+    #- '+.hotmail.com.*.*.*'                                    # 
+     - '+.outlook.com.*.*.*'                                    # 
+     - '+.office.net.*.*.*'                                     # 
+     - '+.onedrive.com.*.*.*'                                   # 
+     - '+.1drv.com.*.*.*'                                       # 补全：OneDrive 文件传输（*.files.1drv.com）
+     - '+.1drv.ms.*.*.*'                                        # 补全：OneDrive 分享短链（1drv.ms）
+     - '+.livefilestore.com.*.*.*'                              # 补全：OneDrive consumer 存储相关（*.livefilestore.com）
+     - '+.onenote.com.*.*.*'                                    # 
+     - '+.onenote.net.*.*.*'                                    # 补全：OneNote CDN（*cdn.onenote.net）
+     - '+.sharepoint.com.*.*.*'                                 # 文档同步后端（如用 OneDrive/SharePoint 商业版）
+     - '+.skype.com.*.*.*'                                      # 
+     - '+.skypeassets.com.*.*.*'                                # 补全：Skype/Teams 资源（join.secure.skypeassets.com 等）
+     - '+.lync.com.*.*.*'                                       # Teams 通讯协议
+
+    # --- 3. 身份验证 & 安全 (防风控) ---
+     - '+.microsoftonline.com.*.*.*'                            # 
+     - '+.microsoftonline-p.com.*.*.*'                          # 补全：身份体系相关（login.microsoftonline-p.com 等）
+     - '+.microsoftonline-p.net.*.*.*'                          # 补全：身份体系配置（clientconfig.microsoftonline-p.net）
+     - '+.sharepointonline.com.*.*.*'                           # 
+     - '+.onmicrosoft.com.*.*.*'                                # 
+     - '+.microsoftusercontent.com.*.*.*'                       # 
+     - '+.msauth.net.*.*.*'                                     # 
+     - '+.msauthimages.net.*.*.*'                               # 
+     - '+.msftauth.net.*.*.*'                                   # 补全：现代认证常见依赖
+     - '+.msftauthimages.net.*.*.*'                             # 补全：现代认证静态资源
+     - '+.phonefactor.net.*.*.*'                                # 补全：MFA/风控常见依赖
+     - '+.msidentity.com.*.*.*'                                 # 补全：微软身份体系域
+     - '+.msftidentity.com.*.*.*'                               # 补全：微软身份体系域
+     - '+.microsoftazuread-sso.com.*.*.*'                       # 补全：Seamless SSO（autologon.microsoftazuread-sso.com）
+
+    # --- 4. 系统更新 & 应用商店 ---
+     - '+.windowsupdate.com.*.*.*'                              # 
+     - '+.microsoftstore.com.*.*.*'                             # 
+     - '+.onestore.ms.*.*.*'                                    # 
+
+    # --- 5. 核心底层服务 & 网络判断 ---
+     - '+.svc.ms.*.*.*'                                         # 
+     - '+.msftconnecttest.com.*.*.*'                            # 
+     - '+.msftncsi.com.*.*.*'                                   # 
+
+    # --- 6. 静态资源 / CDN / 跳转 ---
+     - '+.aka.ms.*.*.*'                                         # 
+     - '+.sfx.ms.*.*.*'                                         # 
+     - '+.gfx.ms.*.*.*'                                         # 补全：auth.gfx.ms 等
+     - '+.microsoft.com.edgesuite.net.*.*.*'                    # 补全：Office CDN edgesuite（officecdn.microsoft.com.edgesuite.net）
+     - '+.otelrules.azureedge.net.*.*.*'                        # 补全：Office/M365 Apps 更新/规则（单点域名，避免放开整个 azureedge.net）
+     - '+.mlccdnprod.azureedge.net.*.*.*'                       # 
+     - '+.msedge.net.*.*.*'                                     # 
+     - '+.msecnd.net.*.*.*'                                     # 
+     - '+.msocdn.com.*.*.*'                                     # 
+     - '+.aspnetcdn.com.*.*.*'                                  # 
+     - '+.microsoft-com.akamaized.net.*.*.*'                    # 补全：Microsoft Store 图片资源（img-prod-cms-rt-microsoft-com.akamaized.net）
+     - '+.msn-com.akamaized.net.*.*.*'                          # 补全：MSN/内置应用图片资源（img-s-msn-com.akamaized.net）
+     - '+.informationprotection.azure.com.*.*.*'                # 
+     - '+.aadrm.com.*.*.*'                                      # 
+     - '+.virtualearth.net.*.*.*'                               # 

@@ -19,7 +19,57 @@ payload:
     - '+.apple-livephotoskit.com'                                # 
     - '+.edgesuite.net'                                          # 
     - '+.apple.co'                                               # 
+
+
+    # --------------------------------------------------------------
+    # 用于 HTTPDNS定位，匹配选用哪个CDN 
+    # --------------------------------------------------------------
+
+    - '+.cdn-apple.com.*.*'                                      # 
+    - '+.apple.com.*.*'                                          # 
+    - '+.icloud.com.*.*'                                         # 
+    - '+.itunes.com.*.*'                                         # 
+    - '+.apple.*.*'                                              # 
+    - '+.icloud-content.com.*.*'                                 # 
+    - '+.apple-dns.net.*.*'                                      # 
+    - '+.mzstatic.com.*.*'                                       # 
+    - '+.apple-cloudkit.com.*.*'                                 # 
+    - '+.aaplimg.com.*.*'                                        # 
+    - '+.apple-mapkit.com.*.*'                                   # 
+    - '+.digicert.com.*.*'                                       # 
+    - '+.entrust.net.*.*'                                        # 
+    - '+.sectigo.com.*.*'                                        # 
+    - '+.me.com.*.*'                                             # 
+    - '+.mac.com.*.*'                                            # 
+    - '+.apple-livephotoskit.com.*.*'                            # 
+    - '+.edgesuite.net.*.*'                                      # 
+    - '+.apple.co.*.*'                                           # 
                 
+    - '+.cdn-apple.com.*.*.*'                                    # 
+    - '+.apple.com.*.*.*'                                        # 
+    - '+.icloud.com.*.*.*'                                       # 
+    - '+.itunes.com.*.*.*'                                       # 
+    - '+.apple.*.*.*'                                            # 
+    - '+.icloud-content.com.*.*.*'                               # 
+    - '+.apple-dns.net.*.*.*'                                    # 
+    - '+.mzstatic.com.*.*.*'                                     # 
+    - '+.apple-cloudkit.com.*.*.*'                               # 
+    - '+.aaplimg.com.*.*.*'                                      # 
+    - '+.apple-mapkit.com.*.*.*'                                 # 
+    - '+.digicert.com.*.*.*'                                     # 
+    - '+.entrust.net.*.*.*'                                      # 
+    - '+.sectigo.com.*.*.*'                                      # 
+    - '+.me.com.*.*.*'                                           # 
+    - '+.mac.com.*.*.*'                                          # 
+    - '+.apple-livephotoskit.com.*.*.*'                          # 
+    - '+.edgesuite.net.*.*.*'                                    # 
+    - '+.apple.co.*.*.*'                                         # 
+
+
+    # --------------------------------------------------------------
+    # 第三方
+    # --------------------------------------------------------------
+
     - 'apple-relay.fastly-edge.com'                              # Apple Intelligence Extensions（TCP/UDP 443）
     - 'apple-relay.cloudflare.com'                               # Private Cloud Compute（PCC）（TCP/UDP 443）
     - 'cp4.cloudflare.com'                                       # Private Cloud Compute（PCC）（TCP/UDP 443）
