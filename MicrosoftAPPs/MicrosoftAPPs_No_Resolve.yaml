@@ -4,6 +4,8 @@ payload:
         # 微软生态核心直连规则 (Windows/Office/Outlook)
         # ===============================================
 
+        ## 仅包括 Windows \ Office365 \ Visual Studio 三大组件，不包括 Bing \ Azure \ Xbox \ Github 
+
         # --- 0. 根域名 ---
          - DOMAIN-SUFFIX , microsoft
          - DOMAIN-SUFFIX , office
