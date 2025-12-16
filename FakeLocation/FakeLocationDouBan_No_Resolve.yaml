@@ -6,10 +6,8 @@ payload:
 
    # 生效时间：立刻 !!!!
 
-    - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
-    - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
-    - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
-    
+   #- DOMAIN-SUFFIX  , httpdns.douban.com             # , REJECT-DROP         
+
     - DOMAIN-SUFFIX  , douban.com             
 
     - IP-CIDR        , 49.233.242.15/32                                        , no-resolve 

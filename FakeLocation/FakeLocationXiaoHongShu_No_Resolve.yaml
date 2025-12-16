@@ -8,15 +8,11 @@ payload:
    
    # ⚠️⚠️⚠️ 注意：请不要在Stash中，使用仅 “仅使用Tunnel代理”，不然会导致 “IP归属地” 修改失败
    
-    - DOMAIN-KEYWORD , httpdns                          , REJECT-DROP       
-    - DOMAIN-KEYWORD , httpsdns                         , REJECT-DROP       
-    - DOMAIN-KEYWORD , app-analytics-services           , REJECT-DROP                      #   # 
+    - DOMAIN-SUFFIX  , tracker.xiaohongshu.com       #   , REJECT-DROP                      #   # 
 
-    - DOMAIN-SUFFIX  , tracker.xiaohongshu.com          , REJECT-DROP                      #   # 
-
-    - DOMAIN-KEYWORD , xiaohongshu               
-   #- DOMAIN-SUFFIX  , edith.xiaohongshu.com     
-   #- DOMAIN-SUFFIX  , www.xiaohongshu.com       
+   #- DOMAIN-KEYWORD , xiaohongshu               
+    - DOMAIN-SUFFIX  , edith.xiaohongshu.com     
+    - DOMAIN-SUFFIX  , www.xiaohongshu.com       
 
    # 不建议使用以下IP，因为会与网易新闻客户端的IP有IP交叉
    #- IP-CIDR        , 114.55.236.88/32                         , no-resolve        

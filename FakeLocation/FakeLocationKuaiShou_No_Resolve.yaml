@@ -12,11 +12,10 @@
 
    # 疑似：如果屏蔽了HTTPDNS，可能会导致IP归属地修改失败？
 
-#   - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                          , REJRCT-DROP    # 
-#  #- DOMAIN-KEYWORD , jomodns.com                                                      # 
-#  #- DOMAIN-KEYWORD , ovscdns.net                                                      # 
-#
-#
+  # - DOMAIN-KEYWORD , hdns.gslb.ksyuncdn.com                        # , REJRCT-DROP    # 
+  # - DOMAIN-KEYWORD , jomodns.com                                   # , REJRCT-DROP    # 
+  # - DOMAIN-KEYWORD , ovscdns.net                                   # , REJRCT-DROP    # 
+
     - DOMAIN-KEYWORD , gifshow.com                                                      #                   
     - DOMAIN-KEYWORD , ksapisrv.com                                                     #   
 #                     
