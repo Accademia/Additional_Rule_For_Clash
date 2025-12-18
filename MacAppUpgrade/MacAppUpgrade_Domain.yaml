@@ -6,7 +6,10 @@ payload:
     - '+.raw.githubusercontent.com'                           #
     - '+.github.com'                                          #
 
-    - '+.down.115.com'                                        #          | homebrew : brew install --cask 115browser
+    - 'ccmdls.adobe.com'                                      #  Adobe CC 全家桶
+
+
+   #- '+.down.115.com'                                        #          | homebrew : brew install --cask 115browser
     - '+.dl.4kdownload.com'                                   #          | homebrew : brew install --cask 4k-image-compressor
     - '+.beyondgrep.com'                                      #          | homebrew : brew install ack
     - '+.static.adguard.com'                                  #          | homebrew : brew install --cask adguard
@@ -25,7 +28,7 @@ payload:
     - '+.www.airserver.com'                                   #  sparkle | 
     - '+.apphousekitchen.com'                                 #  sparkle | homebrew : brew install --cask aldente
     - '+.cachefly.alfredapp.com'                              #          | homebrew : brew install --cask alfred
-    - '+.download.alicdn.com'                                 #          | homebrew : brew install --cask aliwangwang
+   #- '+.download.alicdn.com'                                 #          | homebrew : brew install --cask aliwangwang
     - '+.cdn.ensili.co'                                       #  sparkle | 
     - '+.ensili.co'                                           #  sparkle | 
     - '+.repo.anaconda.com'                                   #          | homebrew : brew install --cask anaconda
@@ -119,9 +122,9 @@ payload:
     - '+.desktop.docker.com'                                  #          | homebrew : brew install --cask docker-desktop
     - '+.appitstudio.github.io'                               #  sparkle | 
     - '+.dl.dolphin-emu.org'                                  #          | homebrew : brew install --cask dolphin
-    - '+.lf-flow-web-cdn.doubao.com'                          #          | homebrew : brew install --cask doubao
-    - '+.www.douyin.com'                                      #          | homebrew : brew install --cask douyin
-    - '+.lf-impc.douyinstatic.com'                            #          | homebrew : brew install --cask douyin-chat
+   #- '+.lf-flow-web-cdn.doubao.com'                          #          | homebrew : brew install --cask doubao
+   #- '+.www.douyin.com'                                      #          | homebrew : brew install --cask douyin
+   #- '+.lf-impc.douyinstatic.com'                            #          | homebrew : brew install --cask douyin-chat
     - '+.software.charliemonroe.net'                          #  sparkle | homebrew : brew install --cask downie
     - '+.static.drawthings.ai'                                #          | homebrew : brew install --cask draw-things
     - '+.micromat.com'                                        #  sparkle | 
@@ -438,7 +441,7 @@ payload:
     - '+.bzgdownloads.s3.amazonaws.com'                       #  sparkle | homebrew : brew install --cask unite
     - '+.www.flameeyes.com'                                   #          | homebrew : brew install unpaper
     - '+.updatest.app'                                        #  sparkle | 
-    - '+.download.updf.com'                                   #          | homebrew : brew install --cask updf
+   #- '+.download.updf.com'                                   #          | homebrew : brew install --cask updf
     - '+.launchpad.net'                                       #          | homebrew : brew install --cask veracrypt
     - '+.lf3-package.vlabstatic.com'                          #          | homebrew : brew install --cask videofusion
     - '+.virtualii.com'                                       #          | homebrew : brew install --cask virtual-ii
@@ -465,14 +468,16 @@ payload:
     - '+.git.zx2c4.com'                                       #          | homebrew : brew install wireguard-go \ brew install wireguard-tools
     - '+.desairem.com'                                        #  sparkle | 
     - '+.bitbucket.org'                                       #          | homebrew : brew install x265
-    - '+.nativedl.pcdn.xmcdn.com'                             #          | homebrew : brew install --cask ximalaya
+   #- '+.nativedl.pcdn.xmcdn.com'                             #          | homebrew : brew install --cask ximalaya
     - '+.dl3.xmind.net'                                       #          | homebrew : brew install --cask xmind
     - '+.download.xnview.com'                                 #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
     - '+.www.xquartz.org'                                     #  sparkle | 
     - '+.downloads.xvid.com'                                  #          | homebrew : brew install xvid
-    - '+.cdn-hybrid-prod.hunyuan.tencent.com'                 #          | homebrew : brew install --cask yuanbao
+   #- '+.cdn-hybrid-prod.hunyuan.tencent.com'                 #          | homebrew : brew install --cask yuanbao
     - '+.zed.dev'                                             #          | homebrew : brew install --cask zed
     - '+.releases.5km.tech'                                   #  sparkle | 
     - '+.zipic.5km.tech'                                      #  sparkle | homebrew : brew install --cask zipic
     - '+.cdn.zoom.us'                                         #          | homebrew : brew install --cask zoom
     - '+.download.zotero.org'                                 #          | homebrew : brew install --cask zotero
+
+                     

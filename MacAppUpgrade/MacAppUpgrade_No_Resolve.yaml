@@ -6,7 +6,10 @@ payload:
     - DOMAIN-SUFFIX  , raw.githubusercontent.com                       #
     - DOMAIN-SUFFIX  , github.com                                      #
 
-    - DOMAIN-SUFFIX  , down.115.com                                    #          | homebrew : brew install --cask 115browser
+    - DOMAIN-SUFFIX  , ccmdls.adobe.com                                #  Adobe CC 全家桶
+
+
+   #- DOMAIN-SUFFIX  , down.115.com                                    #          | homebrew : brew install --cask 115browser
     - DOMAIN-SUFFIX  , dl.4kdownload.com                               #          | homebrew : brew install --cask 4k-image-compressor
     - DOMAIN-SUFFIX  , beyondgrep.com                                  #          | homebrew : brew install ack
     - DOMAIN-SUFFIX  , static.adguard.com                              #          | homebrew : brew install --cask adguard
@@ -25,7 +28,7 @@ payload:
     - DOMAIN-SUFFIX  , www.airserver.com                               #  sparkle | 
     - DOMAIN-SUFFIX  , apphousekitchen.com                             #  sparkle | homebrew : brew install --cask aldente
     - DOMAIN-SUFFIX  , cachefly.alfredapp.com                          #          | homebrew : brew install --cask alfred
-    - DOMAIN-SUFFIX  , download.alicdn.com                             #          | homebrew : brew install --cask aliwangwang
+   #- DOMAIN-SUFFIX  , download.alicdn.com                             #          | homebrew : brew install --cask aliwangwang
     - DOMAIN-SUFFIX  , cdn.ensili.co                                   #  sparkle | 
     - DOMAIN-SUFFIX  , ensili.co                                       #  sparkle | 
     - DOMAIN-SUFFIX  , repo.anaconda.com                               #          | homebrew : brew install --cask anaconda
@@ -119,9 +122,9 @@ payload:
     - DOMAIN-SUFFIX  , desktop.docker.com                              #          | homebrew : brew install --cask docker-desktop
     - DOMAIN-SUFFIX  , appitstudio.github.io                           #  sparkle | 
     - DOMAIN-SUFFIX  , dl.dolphin-emu.org                              #          | homebrew : brew install --cask dolphin
-    - DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com                      #          | homebrew : brew install --cask doubao
-    - DOMAIN-SUFFIX  , www.douyin.com                                  #          | homebrew : brew install --cask douyin
-    - DOMAIN-SUFFIX  , lf-impc.douyinstatic.com                        #          | homebrew : brew install --cask douyin-chat
+   #- DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com                      #          | homebrew : brew install --cask doubao
+   #- DOMAIN-SUFFIX  , www.douyin.com                                  #          | homebrew : brew install --cask douyin
+   #- DOMAIN-SUFFIX  , lf-impc.douyinstatic.com                        #          | homebrew : brew install --cask douyin-chat
     - DOMAIN-SUFFIX  , software.charliemonroe.net                      #  sparkle | homebrew : brew install --cask downie
     - DOMAIN-SUFFIX  , static.drawthings.ai                            #          | homebrew : brew install --cask draw-things
     - DOMAIN-SUFFIX  , micromat.com                                    #  sparkle | 
@@ -438,7 +441,7 @@ payload:
     - DOMAIN-SUFFIX  , bzgdownloads.s3.amazonaws.com                   #  sparkle | homebrew : brew install --cask unite
     - DOMAIN-SUFFIX  , www.flameeyes.com                               #          | homebrew : brew install unpaper
     - DOMAIN-SUFFIX  , updatest.app                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , download.updf.com                               #          | homebrew : brew install --cask updf
+   #- DOMAIN-SUFFIX  , download.updf.com                               #          | homebrew : brew install --cask updf
     - DOMAIN-SUFFIX  , launchpad.net                                   #          | homebrew : brew install --cask veracrypt
     - DOMAIN-SUFFIX  , lf3-package.vlabstatic.com                      #          | homebrew : brew install --cask videofusion
     - DOMAIN-SUFFIX  , virtualii.com                                   #          | homebrew : brew install --cask virtual-ii
@@ -465,12 +468,12 @@ payload:
     - DOMAIN-SUFFIX  , git.zx2c4.com                                   #          | homebrew : brew install wireguard-go \ brew install wireguard-tools
     - DOMAIN-SUFFIX  , desairem.com                                    #  sparkle | 
     - DOMAIN-SUFFIX  , bitbucket.org                                   #          | homebrew : brew install x265
-    - DOMAIN-SUFFIX  , nativedl.pcdn.xmcdn.com                         #          | homebrew : brew install --cask ximalaya
+   #- DOMAIN-SUFFIX  , nativedl.pcdn.xmcdn.com                         #          | homebrew : brew install --cask ximalaya
     - DOMAIN-SUFFIX  , dl3.xmind.net                                   #          | homebrew : brew install --cask xmind
     - DOMAIN-SUFFIX  , download.xnview.com                             #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
     - DOMAIN-SUFFIX  , www.xquartz.org                                 #  sparkle | 
     - DOMAIN-SUFFIX  , downloads.xvid.com                              #          | homebrew : brew install xvid
-    - DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com             #          | homebrew : brew install --cask yuanbao
+   #- DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com             #          | homebrew : brew install --cask yuanbao
     - DOMAIN-SUFFIX  , zed.dev                                         #          | homebrew : brew install --cask zed
     - DOMAIN-SUFFIX  , releases.5km.tech                               #  sparkle | 
     - DOMAIN-SUFFIX  , zipic.5km.tech                                  #  sparkle | homebrew : brew install --cask zipic
