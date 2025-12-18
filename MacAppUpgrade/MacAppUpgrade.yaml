@@ -6,7 +6,7 @@ payload:
     - DOMAIN-SUFFIX  , raw.githubusercontent.com                       #
     - DOMAIN-SUFFIX  , github.com                                      #
 
-    - DOMAIN-SUFFIX  , ccmdls.adobe.com                                #  Adobe CC 全家桶
+    - DOMAIN         , ccmdls.adobe.com                                #  Adobe CC 全家桶
 
 
    #- DOMAIN-SUFFIX  , down.115.com                                    #          | homebrew : brew install --cask 115browser
