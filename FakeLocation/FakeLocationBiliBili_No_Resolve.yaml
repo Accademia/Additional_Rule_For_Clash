@@ -6,7 +6,7 @@ payload:
 
    # 生效时间：立刻（留言），不间断后的两周（主页）
 
-    - DOMAIN-KEYWORD , app-analytics-services          , REJECT-DROP                  
+   #- DOMAIN-KEYWORD , app-analytics-services          , REJECT-DROP                  
 
 
    # [HTTPDNS] HTTPDNS（Bilibili） 

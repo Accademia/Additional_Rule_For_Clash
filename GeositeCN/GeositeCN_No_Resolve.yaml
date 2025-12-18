@@ -2278,7 +2278,7 @@ payload:
                              - DOMAIN-SUFFIX   , activity-wbsj.com                                       # GeoSite:douyin
                              - DOMAIN-SUFFIX   , aihst8.com                                              # GeoSite:douyin
                            # - DOMAIN-SUFFIX   , amemv.cn                                                # GeoSite:douyin                                # duplicate .cn suffix rule
-                             - DOMAIN-SUFFIX   , amemv.com                                               # GeoSite:douyin
+                             - DOMAIN-KEYWORD  , amemv.com                                               # GeoSite:douyin
                              - DOMAIN-SUFFIX   , amemv.net                                               # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , awemeughun.com                                          # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , awemeuglang.com                                         # GeoSite:douyin                                
