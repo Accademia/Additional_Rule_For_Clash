@@ -297,7 +297,7 @@ payload:
     - DOMAIN-SUFFIX  , multitouch.app                                  #          | homebrew : brew install --cask multitouch
     - DOMAIN-SUFFIX  , www.multitouch.app                              #  sparkle | 
     - DOMAIN-SUFFIX  , cdn.mweb.im                                     #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.mwebapp.cn                                  #  sparkle | 
+   #- DOMAIN-SUFFIX  , cdn.mwebapp.cn                                  #  sparkle | 
     - DOMAIN-SUFFIX  , dl.getmythic.app                                #  sparkle | homebrew : brew install --cask mythic
     - DOMAIN-SUFFIX  , www.nano-editor.org                             #          | homebrew : brew install nano
     - DOMAIN-SUFFIX  , dn.navicat.com                                  #          | homebrew : brew install --cask navicat-premium-lite

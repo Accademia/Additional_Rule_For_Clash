@@ -297,7 +297,7 @@ payload:
     - '+.multitouch.app'                                      #          | homebrew : brew install --cask multitouch
     - '+.www.multitouch.app'                                  #  sparkle | 
     - '+.cdn.mweb.im'                                         #  sparkle | 
-    - '+.cdn.mwebapp.cn'                                      #  sparkle | 
+   #- '+.cdn.mwebapp.cn'                                      #  sparkle | 
     - '+.dl.getmythic.app'                                    #  sparkle | homebrew : brew install --cask mythic
     - '+.www.nano-editor.org'                                 #          | homebrew : brew install nano
     - '+.dn.navicat.com'                                      #          | homebrew : brew install --cask navicat-premium-lite
