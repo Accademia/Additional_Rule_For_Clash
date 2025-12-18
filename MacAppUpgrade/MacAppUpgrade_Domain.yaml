@@ -157,7 +157,7 @@ payload:
     - '+.download-installer.cdn.mozilla.net'                  #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
     - '+.ftp.osuosl.org'                                      #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
     - '+.wojciechkulik.pl'                                    #  sparkle | 
-    - '+.cdn.better365.cn'                                    #  sparkle | homebrew : brew install --cask flykey
+   #- '+.cdn.better365.cn'                                    #  sparkle | homebrew : brew install --cask flykey
     - '+.www.better365.com'                                   #  sparkle | 
     - '+.gitlab.freedesktop.org'                              #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
     - '+.www.foobar2000.org'                                  #          | homebrew : brew install --cask foobar2000

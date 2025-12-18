@@ -157,7 +157,7 @@ payload:
     - DOMAIN-SUFFIX  , download-installer.cdn.mozilla.net              #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
     - DOMAIN-SUFFIX  , ftp.osuosl.org                                  #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
     - DOMAIN-SUFFIX  , wojciechkulik.pl                                #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.better365.cn                                #  sparkle | homebrew : brew install --cask flykey
+   #- DOMAIN-SUFFIX  , cdn.better365.cn                                #  sparkle | homebrew : brew install --cask flykey
     - DOMAIN-SUFFIX  , www.better365.com                               #  sparkle | 
     - DOMAIN-SUFFIX  , gitlab.freedesktop.org                          #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
     - DOMAIN-SUFFIX  , www.foobar2000.org                              #          | homebrew : brew install --cask foobar2000
