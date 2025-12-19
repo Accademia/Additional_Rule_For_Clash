@@ -2280,6 +2280,7 @@ payload:
                            # - DOMAIN-SUFFIX   , amemv.cn                                                # GeoSite:douyin                                # duplicate .cn suffix rule
                              - DOMAIN-KEYWORD  , amemv.com                                               # GeoSite:douyin
                              - DOMAIN-SUFFIX   , amemv.net                                               # GeoSite:douyin                                
+                             - DOMAIN-KEYWORD  , -aweme-                                                 # GeoSite:douyin                              
                              - DOMAIN-SUFFIX   , awemeughun.com                                          # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , awemeuglang.com                                         # GeoSite:douyin                                
                              - DOMAIN-SUFFIX   , awemeugsoul.com                                         # GeoSite:douyin                                
@@ -4667,6 +4668,7 @@ payload:
                              - DOMAIN-SUFFIX   , kwaizt.com                                              # GeoSite:kuaishou
                              - DOMAIN-SUFFIX   , kwimgs.com                                              # GeoSite:kuaishou
                              - DOMAIN-SUFFIX   , wsukwai.com                                             # GeoSite:kuaishou
+                             - DOMAIN-SUFFIX   , wskwai.com                                              # GeoSite:kuaishou
                              - DOMAIN-SUFFIX   , yximgs.com                                              # GeoSite:kuaishou
                            # - DOMAIN-SUFFIX   , adbkwai.com                                             # GeoSite:kuaishou-ads
                            # - DOMAIN-SUFFIX   , adkwai.com                                              # GeoSite:kuaishou-ads

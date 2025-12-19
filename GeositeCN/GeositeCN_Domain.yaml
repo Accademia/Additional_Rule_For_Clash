@@ -2315,7 +2315,10 @@ payload:
                              - '+.amemv.com.*.*'                                          # GeoSite:douyin
                              - '+.amemv.com.*.*.*'                                        # GeoSite:douyin
                              - '+.amemv.com.*.*.*.*'                                      # GeoSite:douyin
-                             - '+.amemv.net'                                              # GeoSite:douyin                                
+                             - '+.amemv.net'                                              # GeoSite:douyin                           
+                             - '+.*-aweme-*.*.*'                                          # GeoSite:douyin                           
+                             - '+.*-aweme-*.*.*.*'                                        # GeoSite:douyin                        
+                             - '+.*-aweme-*.*.*.*.*'                                      # GeoSite:douyin                                   
                              - '+.awemeughun.com'                                         # GeoSite:douyin                                
                              - '+.awemeuglang.com'                                        # GeoSite:douyin                                
                              - '+.awemeugsoul.com'                                        # GeoSite:douyin                                
@@ -4751,6 +4754,7 @@ payload:
                              - '+.kwaizt.com'                                             # GeoSite:kuaishou
                              - '+.kwimgs.com'                                             # GeoSite:kuaishou
                              - '+.wsukwai.com'                                            # GeoSite:kuaishou
+                             - '+.wskwai.com'                                             # GeoSite:kuaishou
                              - '+.yximgs.com'                                             # GeoSite:kuaishou
                            # - '+.adbkwai.com'                                            # GeoSite:kuaishou-ads
                            # - '+.adkwai.com'                                             # GeoSite:kuaishou-ads
