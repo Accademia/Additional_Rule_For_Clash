@@ -1112,6 +1112,10 @@ payload:
                              - '+.zjbyte.com'                                             # GeoSite:bytedance
                              - '+.zjbyte.net'                                             # GeoSite:bytedance
                              - '+.zjcdn.com'                                              # GeoSite:bytedance
+                             - '+.zjcdn.com.*'                                            # GeoSite:bytedance
+                             - '+.zjcdn.com.*.*'                                          # GeoSite:bytedance
+                             - '+.zjcdn.com.*.*.*'                                        # GeoSite:bytedance
+                             - '+.zjcdn.com.*.*.*.*'                                      # GeoSite:bytedance
                              - '+.zjfcdn.com'                                             # GeoSite:bytedance
                              - '+.zjgslb.com'                                             # GeoSite:bytedance
                              - '+.bds.snssdk.com'                                         # GeoSite:bytedance-ads

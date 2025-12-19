@@ -1079,7 +1079,7 @@ payload:
                            # - DOMAIN-SUFFIX   , zjbyte.cn                                               # GeoSite:bytedance                             # duplicate .cn suffix rule
                              - DOMAIN-SUFFIX   , zjbyte.com                                              # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , zjbyte.net                                              # GeoSite:bytedance
-                             - DOMAIN-SUFFIX   , zjcdn.com                                               # GeoSite:bytedance
+                             - DOMAIN-KEYWORD  , zjcdn.com                                               # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , zjfcdn.com                                              # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , zjgslb.com                                              # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , bds.snssdk.com                                          # GeoSite:bytedance-ads
