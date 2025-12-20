@@ -10,6 +10,7 @@ payload:
          - DOMAIN-SUFFIX , microsoft
          - DOMAIN-SUFFIX , office
          - DOMAIN-SUFFIX , windows
+         - DOMAIN-SUFFIX , live                                                 
 
         # --- 1. 顶级品牌主域 ---
          - DOMAIN-KEYWORD, microsoft.com

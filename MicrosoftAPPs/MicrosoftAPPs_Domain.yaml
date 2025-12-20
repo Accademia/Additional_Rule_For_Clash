@@ -9,6 +9,7 @@ payload:
      - '+.microsoft'                                              # 
      - '+.office'                                                 # 
      - '+.windows'                                                # 
+     - '+.live'                                                   #
 
     # --- 1. 顶级品牌主域 ---
      - '+.microsoft.com'                                          # 
