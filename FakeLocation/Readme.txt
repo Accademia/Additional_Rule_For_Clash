@@ -38,6 +38,14 @@
 #	2. ⚠️⚠️⚠️ 请不要在Stash中，使用仅 “仅使用Tunnel代理”，不然会导致，小红书、抖音的 “IP归属地” 修改不生效
 #
 #
+
+
+⚠️ 建议：先引用 blackmatrix 中 httpdns 规则 ，并阻断。然后再使用上述修改ip归属地规则。
+        如果你还是改不了ip归属地，建议使用 “超级省电clash模版”。
+        这是本人自用验证过的。100%可改ip归属地。
+
+
+
 # 引用范例 ：
 #
 #   FakeLocationBiliBili_No_Resolve     : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/FakeLocation/FakeLocationBiliBili_No_Resolve.yaml'            , path:./ruleset/FakeLocationBiliBili_No_Resolve.yaml        }
