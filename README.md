@@ -149,6 +149,8 @@
 
 + Pornhub	：P站 的 Clash分流规则
 
++ MissAV	：MissAV 的 Clash分流规则
+
 + Aqara ：Aqara Homekit 监控摄像头 的 Clash分流规则
 
 + Kwai ：“Kwai“（快手国际版） 的 Clash分流规则
