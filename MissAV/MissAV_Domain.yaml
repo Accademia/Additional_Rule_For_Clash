@@ -1,10 +1,12 @@
 payload:
 
 
-    # missav
+    - '+.missav.*'
+   #- '+.missav.ws'
+   #- '+.missav.ai'
+   #- '+.missav.live'
 
     - '+.myavlive.com'
-    - '+.missav.live'
     - '+.*-missav.recombee.com'
     - '+.xxxvjmp.com'
 

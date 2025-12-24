@@ -1,7 +1,9 @@
 payload:
 
-
-    # missav
+    - DOMAIN-KEYWORD  , missav.
+   #- DOMAIN-SUFFIX   , missav.ws
+   #- DOMAIN-SUFFIX   , missav.ai
+   #- DOMAIN-SUFFIX   , missav.live
     
     - DOMAIN-SUFFIX   , myavlive.com
     - DOMAIN-SUFFIX   , missav.live
