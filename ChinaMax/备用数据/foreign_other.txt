@@ -1,0 +1,1301 @@
+     - 'analytics.strava.com'                          # Strava 运动 (美国)，隐私敏感
+     - 'blzddist1-a.akamaihd.net'                    
+     - 'cdn.angruo.com'                                # Angruo是一个国际CDN/托管服务
+     - 'cdn.lilyemby.com'                              # LilyEmby是开源媒体服务器Emby的变体
+     - 'client.amplifi.com'                          
+     - 'download.jetbrains.com'                        # JetBrains 开发工具 (捷克/国际)，国内解析有时会被污染
+     - 'download.microsoft.com'                        # 微软 (美国)
+     - 'images-cn.ssl-images-amazon.com'             
+     - 'ip.istatmenus.app'                             # iStat Menus (Bjango, 澳大利亚/美国)
+     - 'kc.kexinshe.com'                               # Kexinshe是国际设计/艺术平台
+     - 'ntservicepack.microsoft.com'                   # 微软
+     - 'origin-a.akamaihd.ne'                        
+     - 'origin-a.akamaihd.net'                       
+     - 'smart.uhdnow.com'                              # UHDNow是国际4K视频/媒体服务
+     - 'sms.imagetasks.com'                            # ImageTasks是国际图像处理/任务平台
+     - 'steamcommunity-a.akamaihd.net'                 # Steam 社区 (美国/Akamai)，国内解析通常是被阻断或污染的
+     - 'tx.lilyemby.com'                               # LilyEmby变体
+     - 'www.libvideo.com'                              # LibVideo是国际视频库/开源项目
+     - 'www.yxssp.com'                                 # 域名已失效
+     - '+.00cdn.com'                                   # 00CDN是国际CDN服务
+     - '+.0379home.com'                                # 国际家居/房产平台
+     - '+.055110.com'                                  # 国际电话/通信服务域名
+     - '+.05sun.com'                                   # 国际科技/博客平台
+     - '+.123juzi.com'                                 # 域名已失效
+     - '+.126.link'                                    # 域名已失效
+     - '+.163industry.com'                             # 境外域名
+     - '+.17cdn.com'                                   # 境外域名
+     - '+.17jita.com'                                  # 境外域名
+     - '+.1nongjing.com'                               # 境外域名
+     - '+.258.com'                                     # 境外域名
+     - '+.2cto.com'                                    # 境外域名
+     - '+.3234.com'                                    # 域名已失效
+     - '+.33lc.com'                                    # 域名已失效
+     - '+.343480.com'                                  # 域名已失效
+     - '+.3456.cc'                                   
+     - '+.356884.com'                                  # 境外域名
+     - '+.360aiyi.com'                                 # 境外域名
+     - '+.360chou.com'                                 # 境外域名
+     - '+.360huzhubao.com'                             # 境外域名
+     - '+.360jq.com'                                   # 域名已失效
+     - '+.360top.com'                                  # 域名已失效
+     - '+.360webcache.com'                             # 域名已失效
+     - '+.365azw.com'                                  # 境外域名
+     - '+.36krcdn.com'                                 # 域名已失效
+     - '+.40407.com'                                   # 境外域名
+     - '+.4399biule.com'                               # 域名已失效
+     - '+.4399dmw.com'                                 # 域名已失效
+     - '+.4399er.com'                                  # 域名已失效
+     - '+.4399wanju.com'                               # 域名已失效
+     - '+.510you.com'                                  # 域名已失效
+     - '+.51gaifang.com'                               # 域名已失效
+     - '+.51ym.me'                                   
+     - '+.52z.com'                                     # 域名已失效
+     - '+.55.com'                                      # 域名已失效
+     - '+.55bbs.com'                                   # 域名已失效
+     - '+.56che.com'                                   # 境外域名
+     - '+.5858.com'                                    # 境外域名
+     - '+.58xinghuo.com'                               # 域名已失效
+     - '+.5bite.com'                                   # 境外域名
+     - '+.5you.com'                                    # 域名已失效
+     - '+.6655.com'                                    # 境外域名
+     - '+.68h5.com'                                    # 域名已失效
+     - '+.71.am'                                     
+     - '+.71.am.com'                                 
+     - '+.714.com'                                     # 域名已失效
+     - '+.75.team'                                   
+     - '+.75team.com'                                
+     - '+.7down.com'                                   # 域名已失效
+     - '+.8btc.com'                                    # 巴比特。区块链媒体，常需代理访问
+     - '+.900.la'                                    
+     - '+.917.com'                                     # 境外域名
+     - '+.91yunxiao.com'                               # 境外域名
+     - '+.95095.com'                                   # 境外域名
+     - '+.9553.com'                                    # 域名已失效
+     - '+.97973.com'                                   # 域名已失效
+     - '+.99danji.com'                                 # 域名已失效
+     - '+.9ht.com'                                     # 境外域名
+     - '+.aaplimg.com'                                 # Apple 图片服务 (美国)。隐私敏感。
+     - '+.abercrombie.com'                             # A&F 服装 (美国)
+     - '+.abhouses.com'                                # 美国服装品牌官网（Abercrombie & Fitch，美国托管）
+     - '+.acadn.com'                                   # Abercrombie静态资源域（美国CDN，非中国节点）
+     - '+.acctdns.com'                                 # 域名已失效
+     - '+.acetaffy.club'                               # 个人网站 (非中国)
+     - '+.acfun.tv'                                    # 境外媒体/流媒体服务
+     - '+.acm.org'                                     # 计算机协会 (美国)
+     - '+.acplay.net'                                  # 域名已失效
+     - '+.acs.org'                                     # 化学学会 (美国)
+     - '+.adimages.sina.com.hk'                      
+     - '+.adobesc.com'                                 # 境外域名
+     - '+.af-south-1.myhuaweicloud.com'                # 华为云 - 非洲南部（约翰内斯堡）节点
+     - '+.afdian.net'                                  # 域名已失效
+     - '+.afp.adchina.com'                             # 域名已失效
+     - '+.agora.io'                                  
+     - '+.agoralab.co'                               
+     - '+.aiaa.org'                                    # American Institute of Aeronautics and Astronautics
+     - '+.aicoinstorge.com'                            AICoin 相关
+     - '+.aip.org'                                     # American Institute of Physics
+     - '+.air-matters.io'                              # 境外域名
+     - '+.aitransfy.com'                               # 域名已失效
+     - '+.akadns.net'                                  # Akamai CDN DNS 域
+     - '+.aldwx.com'                                   # 域名已失效
+     - '+.alibabacapital.com'                          # 域名已失效
+     - '+.alibabacloud.co.in'                        
+     - '+.alibabacloud.com'                           # 阿里云国际站。国内是 aliyun.com
+     - '+.alibabacloud.com.au'                       
+     - '+.alibabacloud.com.hk'                       
+     - '+.alibabacloud.com.my'                       
+     - '+.alibabacloud.com.sg'                       
+     - '+.alibabacloud.com.tw'                       
+     - '+.alicloud.com'                                # 境外域名
+     - '+.aliexpress.ru'                             
+     - '+.alihealth.hk'                              
+     - '+.aliimg.com'                                  # 域名已失效
+     - '+.alikmd.com'                                  # 域名已失效
+     - '+.alimei.com'                                  # 域名已失效
+     - '+.alipay.hk'                                 
+     - '+.alitianji.com'                               # 境外域名
+     - '+.alphassl.com'                                # GlobalSign 旗下 AlphaSSL 证书网站
+     - '+.amd.com'                                     # AMD 芯片 (美国)
+     - '+.ams.org'                                     # 数学学会 (美国)
+     - '+.animebytes.tv'                               # AnimeBytes 是面向国际用户的私人动漫下载站点
+     - '+.animetamashi.com'                            # 域名已失效
+     - '+.animetorrents.me'                            # 私人动漫 BT Tracker
+     - '+.annualreviews.org'                           # 年度评论 (美国)
+     - '+.anruan.com'                                  # 域名已失效
+     - '+.ap-southeast-1.myhuaweicloud.com'            # 华为云 - 亚太东南（香港/新加坡）节点
+     - '+.ap-southeast-2.myhuaweicloud.com'            # 华为云 - 亚太东南（曼谷）节点
+     - '+.ap-southeast-3.myhuaweicloud.com'            # 华为云 - 亚太东南（新加坡）节点
+     - '+.apaas-zone-test.com'                         # 域名已失效
+     - '+.apcdns.net'                                  # 域名已失效
+     - '+.api.crisp.chat'                              # 法国在线客服 SaaS 
+     - '+.aps.org'                                     # 物理学会 (美国)
+     - '+.ascelibrary.org'                             # 土木工程 (美国)
+     - '+.asm.org'                                     # 微生物学会 (美国)
+     - '+.asme.org'                                    # 机械工程 (美国)
+     - '+.astm.org'                                    # 国际标准 (美国)
+     - '+.awesome-hd.me'                               # 私人高清影视下载站点
+     - '+.b3log.org'                                   # 域名已失效
+     - '+.b612.net'                                    # 域名已失效
+     - '+.bababian.com'                                # 域名已失效
+     - '+.baduziyuan.com'                              # 境外域名
+     - '+.baifae.com'                                  # 域名已失效
+     - '+.bamenzhushou.com'                            # 域名已失效
+     - '+.battlecare.net'                              # 域名已失效
+     - '+.baydn.com'                                   # 域名已失效
+     - '+.bbbcdns.com'                                 # 境外域名
+     - '+.bcfmglobal.com'                              # 域名已失效
+     - '+.bcy.net'                                     # 域名已失效
+     - '+.bcyimg.com'                                  # 域名已失效
+     - '+.bdxiguaimg.com'                              # 域名已失效
+     - '+.bdxiguastatic.com'                           # 域名已失效
+     - '+.bdydns.net'                                  # 域名已失效
+     - '+.beatsbydre.com'                              # Beats/Apple (美国)
+     - '+.beihaidc.com'                                # 境外域名
+     - '+.bestopview.com'                              # 域名已失效
+     - '+.bihu.com'                                    # 域名已失效
+     - '+.bilibili.tv'                                 # B站国际版 (主要面向东南亚)。与国内B站内容不互通，服务器在海外。
+     - '+.bilicdn1.com'                                # 域名已失效
+     - '+.bilicdn2.com'                                # 域名已失效
+     - '+.bilicdn3.com'                                # 域名已失效
+     - '+.bilicdn4.com'                                # 域名已失效
+     - '+.bilicdn5.com'                                # 域名已失效
+     - '+.biligame.co'                                 # 域名已失效
+     - '+.biliintl.com'                                # B站国际版后端
+     - '+.bjango.com'                                  # iStat Menus 开发商，澳大利亚公司
+     - '+.bkapigw.com'                                 # 域名已失效
+     - '+.bkapps.com'                                  # 域名已失效
+     - '+.bkclouds.cc'                                 # 域名已失效
+     - '+.bmj.com'                                     # 英国医学杂志 (英国)
+     - '+.bocaviation.com'                             # 境外域名
+     - '+.bocgi.com'                                   # 境外域名
+     - '+.bocgins.com'                                 # 境外域名
+     - '+.bochk.com'                                   # 中银香港。完全独立的香港银行，IP在香港  
+     - '+.bocigroup.com'                               # 中银国际 (香港投行)。
+     - '+.broadcasthe.net'                             # PT 站 (BTN)
+     - '+.browserleaks.com'                            # 隐私检测网站 (国际)，走国内 DNS 会暴露你在测隐私
+     - '+.bstatic.com'                                 # Booking.com 缤客 CDN (荷兰/美国)
+     - '+.btcfans.com'                                 # 境外域名
+     - '+.build9s.io'                                  # 域名已失效
+     - '+.bx1k.com'                                    # 域名已失效
+     - '+.byodonline.com'                              # 域名已失效
+     - '+.byted.org'                                   # 域名已失效
+     - '+.bytedance.net'                               # 域名已失效
+     - '+.bytedanceapi.com'                            # 域名已失效
+     - '+.bytedns1.com'                                # 域名已失效
+     - '+.bytefcdn.com'                                # 域名已失效
+     - '+.bytegecko.com'                               # 域名已失效
+     - '+.bytehwm.com'                                 # 域名已失效
+     - '+.byteintl.net'                                # 字节跳动国际技术域。用于TikTok等海外业务的底层支持
+     - '+.bytetos.com'                                 # 域名已失效
+     - '+.bytexservice.com'                            # 域名已失效
+     - '+.c-t.work'                                    # 域名已失效
+     - '+.cabbagebox.com'                              # 境外域名
+     - '+.caiyun.com'                                  # 境外域名
+     - '+.cambridge.org'                               # 剑桥大学出版社 (英国)
+     - '+.cardbaobao.com'                              # 域名已失效
+     - '+.cas.org'                                     # 化学文摘社 (美国)
+     - '+.ccbintl.com.hk'                            
+     - '+.ccbseoul.com'                                # 境外域名
+     - '+.ccbxt.com'                                   # 域名已失效
+     - '+.cdndo.com'                                   # 域名已失效
+     - '+.cdndoctor.com'                               # 域名已失效
+     - '+.cdngot.com'                                  # 域名已失效
+     - '+.cdnhwcatq08.com'                             # 域名已失效
+     - '+.cdnhwcbni108.com'                            # 域名已失效
+     - '+.cdnhwcbqs106.com'                            # 域名已失效
+     - '+.cdnhwcchh18.com'                             # 域名已失效
+     - '+.cdnhwccmz121.com'                            # 域名已失效
+     - '+.cdnhwcead111.com'                            # 境外域名
+     - '+.cdnhwcedi10.com'                             # 域名已失效
+     - '+.cdnhwcedt124.com'                            # 域名已失效
+     - '+.cdnhwcggk22.com'                             # 域名已失效
+     - '+.cdnhwcgnc118.com'                            # 域名已失效
+     - '+.cdnhwcgqa21.com'                             # 域名已失效
+     - '+.cdnhwchcg02.com'                             # 域名已失效
+     - '+.cdnhwcibv122.com'                            # 域名已失效
+     - '+.cdnhwcick110.com'                            # 境外域名
+     - '+.cdnhwcjlg112.com'                            # 域名已失效
+     - '+.cdnhwcjog12.com'                             # 域名已失效
+     - '+.cdnhwcjsb120.com'                            # 域名已失效
+     - '+.cdnhwckfz116.com'                            # 域名已失效
+     - '+.cdnhwcljk104.com'                            # 域名已失效
+     - '+.cdnhwclxu105.com'                            # 域名已失效
+     - '+.cdnhwcoem01.com'                             # 域名已失效
+     - '+.cdnhwcohm19.com'                             # 域名已失效
+     - '+.cdnhwcoph123.com'                            # 域名已失效
+     - '+.cdnhwcprh113.com'                            # 域名已失效
+     - '+.cdnhwcpsd13.com'                             # 域名已失效
+     - '+.cdnhwcqir15.com'                             # 域名已失效
+     - '+.cdnhwcqve117.com'                            # 域名已失效
+     - '+.cdnhwctxz24.com'                             # 域名已失效
+     - '+.cdnhwcupf06.com'                             # 域名已失效
+     - '+.cdnhwcurq03.com'                             # 域名已失效
+     - '+.cdnhwcvix16.com'                             # 域名已失效
+     - '+.cdnhwcxcy07.com'                             # 域名已失效
+     - '+.cdnhwczba04.com'                             # 域名已失效
+     - '+.cdnhwczjt20.com'                             # 域名已失效
+     - '+.cdnhwczks109.com'                            # 境外域名
+     - '+.cdnhwczmn114.com'                            # 域名已失效
+     - '+.cdnhwcztu09.com'                             # 域名已失效
+     - '+.cdnhwczxh101.com'                            # 域名已失效
+     - '+.ceblease.com'                                # 境外域名
+     - '+.chaindd.com'                                 # 域名已失效
+     - '+.chainnode.com'                               # 境外域名
+     - '+.chaoxing.cc'                                 # 域名已失效
+     - '+.chashebao.com'                               # 境外域名
+     - '+.chazhengla.com'                              # 域名已失效
+     - '+.cheyisou.com'                                # 域名已失效
+     - '+.chinamobileltd.com'                          # 境外域名
+     - '+.chinapp.net'                                 # 境外域名
+     - '+.chinasspp.com'                               # 境外域名
+     - '+.chinatelecom-h.com'                          # 中国电信香港
+     - '+.chinatelecomglobal.com'                      # 中国电信国际
+     - '+.chinaunicom.com.hk'                          # 中国电信香港
+     - '+.chinaunicomglobal.com'                       # 中国联通国际
+     - '+.chinaunionpay.net'                           # 域名已失效
+     - '+.chinazns.com'                                # 境外域名
+     - '+.chua.pro'                                    # 境外域名
+     - '+.chuansong.me'                                # 境外域名
+     - '+.chuansongme.com'                             # 境外域名
+     - '+.chunbo.com'                                  # 境外域名
+     - '+.chunboimg.com'                               # 境外域名
+     - '+.chuyu.me'                                    # 境外域名
+     - '+.citiccapital.com'                            # 境外域名
+     - '+.citiciam.com'                                # 境外域名
+     - '+.citicifh.com'                                # 域名已失效
+     - '+.citics.com.hk'                             
+     - '+.clarivate.com'                               # 科睿唯安 (Web of Science) (英国/美国)
+     - '+.clashroyaleapp.com'                          # Clash Royale 皇室战争 (Supercell, 芬兰)
+     - '+.classix-unlimited.co.uk'                     # 英国的经典影视网站
+     - '+.clk1.top'                                    # 域名已失效
+     - '+.cloud-beijing.com'                           # 域名已失效
+     - '+.cloud-industry-delivery.site'                # 域名已失效
+     - '+.cloud-ningbo.com'                            # 域名已失效
+     - '+.cloud-ordos.com'                             # 域名已失效
+     - '+.cloud-shenzhen.com'                          # 域名已失效
+     - '+.cloud-shiyan.com'                            # 域名已失效
+     - '+.cloud-wuhan.com'                             # 域名已失效
+     - '+.cloud-xian.com'                              # 域名已失效
+     - '+.cloud-xm.com'                                # 域名已失效
+     - '+.cloud-zhaoqing.com'                          # 域名已失效
+     - '+.cloud-zhongwei.com'                          # 域名已失效
+     - '+.cloudanqing.com'                             # 域名已失效
+     - '+.cloudbaoshan.com'                            # 域名已失效
+     - '+.cloudbeibei.com'                             # 域名已失效
+     - '+.cloudbinzhou.com'                            # 域名已失效
+     - '+.cloudchangde.com'                            # 域名已失效
+     - '+.cloudchangsha.com'                           # 域名已失效
+     - '+.cloudchaozhou.com'                           # 域名已失效
+     - '+.cloudchengde.com'                            # 域名已失效
+     - '+.cloudchengdu.com'                            # 域名已失效
+     - '+.cloudchuzhou.com'                            # 域名已失效
+     - '+.cloudczs.com'                                # 域名已失效
+     - '+.clouddalian.com'                             # 域名已失效
+     - '+.clouddatong.com'                             # 域名已失效
+     - '+.clouddongying.com'                           # 域名已失效
+     - '+.cloudflareinsights-cn.com'                   # 域名已失效
+     - '+.cloudflareprod.com'                        
+     - '+.cloudflarestaging.com'                     
+     - '+.cloudflarestoragegw.com'                   
+     - '+.cloudfoshan.com'                           
+     - '+.cloudfuqing.com'                           
+     - '+.cloudganzhou.com'                            # 域名已失效
+     - '+.cloudguangzhou.com'                          # 域名已失效
+     - '+.cloudhaidong.com'                            # 域名已失效
+     - '+.cloudhefei.com'                              # 域名已失效
+     - '+.cloudhengshui.com'                           # 域名已失效
+     - '+.cloudhuizhou.com'                            # 域名已失效
+     - '+.cloudjinchang.com'                           # 域名已失效
+     - '+.cloudjingzhou.com'                           # 域名已失效
+     - '+.cloudjining.com'                             # 域名已失效
+     - '+.cloudjiujiang.com'                           # 域名已失效
+     - '+.cloudkunming.com'                            # 域名已失效
+     - '+.cloudleshan.com'                             # 域名已失效
+     - '+.cloudlijiang.com'                            # 域名已失效
+     - '+.cloudlishui.com'                             # 域名已失效
+     - '+.cloudluohe.com'                              # 域名已失效
+     - '+.cloudluoyang.com'                            # 域名已失效
+     - '+.cloudmeishan.com'                            # 域名已失效
+     - '+.cloudnanan.com'                              # 域名已失效
+     - '+.cloudnanjing.com'                            # 域名已失效
+     - '+.cloudnanning.com'                            # 域名已失效
+     - '+.cloudnantong.com'                            # 域名已失效
+     - '+.cloudquanzhou.com'                           # 域名已失效
+     - '+.cloudsanya.com'                              # 域名已失效
+     - '+.cloudshanghai.com'                           # 域名已失效
+     - '+.cloudshaoyang.com'                           # 域名已失效
+     - '+.cloudshenfuxingqu.com'                       # 域名已失效
+     - '+.cloudsigma.com'                              # 瑞士云服务商 CloudSigma
+     - '+.cloudsiping.com'                             # 域名已失效
+     - '+.cloudsuqian.com'                             # 域名已失效
+     - '+.cloudtangshan.com'                           # 域名已失效
+     - '+.cloudtongchuan.com'                          # 域名已失效
+     - '+.cloudtongliang.com'                          # 域名已失效
+     - '+.cloudweinan.com'                             # 域名已失效
+     - '+.cloudxiangtan.com'                           # 域名已失效
+     - '+.cloudxianyou.com'                            # 域名已失效
+     - '+.cloudxining.com'                             # 域名已失效
+     - '+.cloudxns.com'                                # 境外域名
+     - '+.cloudxns.net'                                # 境外域名
+     - '+.cloudyanan.com'                              # 域名已失效
+     - '+.cloudyancheng.com'                           # 域名已失效
+     - '+.cloudyantai.com'                             # 域名已失效
+     - '+.cloudyinchuan.com'                           # 域名已失效
+     - '+.cloudyueyang.com'                            # 域名已失效
+     - '+.cloudyuncheng.com'                           # 域名已失效
+     - '+.cloudyuxi.com'                               # 域名已失效
+     - '+.cloudzhongshan.com'                          # 域名已失效
+     - '+.cloudzhuhai.com'                             # 域名已失效
+     - '+.clsa.com'                                    # 中信里昂证券。总部在香港/伦敦。
+     - '+.cmbi.com.hk'                               
+     - '+.cmbwinglungbank.com'                         # 招商永隆银行 (香港)
+     - '+.cmcmcdn.com'                                 # 境外域名
+     - '+.cmct.tv'                                     # 境外媒体/流媒体服务
+     - '+.cn-north-5.myhuaweicloud.com'                # 域名已失效
+     - '+.cn-north-6.myhuaweicloud.com'                # 域名已失效
+     - '+.cn88.net'                                    # 境外域名
+     - '+.cnanzhi.com'                                 # 境外域名
+     - '+.cnbeta.com'                                  # 域名已失效
+     - '+.cnbetacdn.com'                               # 境外域名
+     - '+.cncbinternational.com'                       # 境外域名
+     - '+.cncqcloud.com'                               # 域名已失效
+     - '+.cnepub.com'                                  # 境外域名
+     - '+.cnlang.org'                                  # 域名已失效
+     - '+.codechina.net'                               # 域名已失效
+     - '+.coding.me'                                   # 域名已失效
+     - '+.coindog.com'                                 # 币狗
+     - '+.com-hs-hkdy.com'                             # 域名已失效
+     - '+.comsenz.com'                                 # 域名已失效
+     - '+.coolsite.vip'                                # 域名已失效
+     - '+.cowlevel.net'                                # 境外域名
+     - '+.crashlytics.com'                             # Google 旗下的崩溃分析 (美国)，常被广告拦截误杀，建议走国外
+     - '+.crggcn.com'                                  # Google崩溃分析服务域名（国外服务器，无ICP备案）
+     - '+.csci.hk'                                   
+     - '+.csdn.com'                                    # 境外域名
+     - '+.csto.com'                                    # 域名已失效
+     - '+.ctexcel.ca'                                  # 中国电信加拿大 (海外业务)
+     - '+.ctexcel.com'                                 # 中国电信美洲/欧洲移动业务。官网服务器在海外
+     - '+.ctexcel.com.hk'                              # 中国电信香港
+     - '+.ctexcel.fr'                                  # 中国电信法国
+     - '+.ctexcel.us'                                  # 中国电信美国
+     - '+.ctiforum.com'                                # 境外域名
+     - '+.ctrip.co.id'                                 # 携程印尼站
+     - '+.ctrip.co.kr'                                 # 携程韩国站
+     - '+.ctrip.co.th'                                 # 携程泰国站
+     - '+.ctrip.com.hk'                              
+     - '+.ctrip.my'                                    # 携程大马站
+     - '+.ctrip.sg'                                    # 携程新加坡站
+     - '+.ctripbuy.hk'                               
+     - '+.ctripteam.com'                               # 域名已失效
+     - '+.ctsbw.com'                                   # 境外域名
+     - '+.cwxzx.com'                                   # 境外域名
+     - '+.cxbiji.com'                                  # 域名已失效
+     - '+.cybtc.com'                                   # 境外域名
+     - '+.czybjz.com'                                  # 境外域名
+     - '+.dadajiasu.com'                               # 境外域名
+     - '+.dajie.com'                                   # 域名已失效
+     - '+.dajieimg.com'                                # 域名已失效
+     - '+.dandanplay.com'                              # 境外域名
+     - '+.dandanzan.com'                               # 境外域名
+     - '+.danji6.com'                                  # 境外域名
+     - '+.dao123.com'                                  # 域名已失效
+     - '+.daovoice.io'                                 # 域名已失效
+     - '+.dazijia.com'                                 # 境外域名
+     - '+.dcarlive.com'                                # 域名已失效
+     - '+.dcarstatic.com'                              # 域名已失效
+     - '+.dcdkjx.com'                                  # 域名已失效
+     - '+.dct-cloud.com'                               # 境外域名
+     - '+.deepin.io'                                   # 境外域名
+     - '+.deepinos.org'                                # 域名已失效
+     - '+.dengguobi.com'                               # 境外域名
+     - '+.dianchacha.com'                              # 境外域名
+     - '+.didi-food.com'                               # DiDi Food。滴滴的外卖业务仅在海外（如墨西哥、日本）运营，中国国内是美团/饿了么。
+     - '+.didiaustralia.blog'                          # 滴滴澳洲
+     - '+.didiglobal.com'                              # 滴滴全球。用于巴西、墨西哥等海外滴滴业务
+     - '+.didimobility.co.jp'                          # 滴滴日本
+     - '+.diopic.net'                                  # 域名已失效
+     - '+.discuz.net'                                  # 域名已失效
+     - '+.discuz.org'                                  # 域名已失效
+     - '+.dl.delivery.mp.microsoft.com'              
+     - '+.dler.cloud'                                  # 境外域名
+     - '+.dlgslb.net'                                  # 境外域名
+     - '+.dlnel.com'                                   # 域名已失效
+     - '+.dlnel.org'                                   # 域名已失效
+     - '+.dnspod.mobi'                                 # 域名已失效
+     - '+.dockerone.com'                               # (虽是国内社区，但 Docker 官方相关建议走代理)
+     - '+.dockone.io'                                  # 境外域名
+     - '+.doctoryou.ai'                                # 境外域名
+     - '+.dogedoge.com'                                # 境外域名
+     - '+.doticloud.com'                               # 境外域名
+     - '+.douban.fm'                                   # 域名已失效
+     - '+.douxie.com'                                  # 境外域名
+     - '+.douyinliving.com'                            # 域名已失效
+     - '+.douyinpic.com'                               # 域名已失效
+     - '+.douyinstatic.com'                            # 域名已失效
+     - '+.douyinvod.com'                               # 域名已失效
+     - '+.dreamcast.hk'                              
+     - '+.duoduocdn.com'                               # 域名已失效
+     - '+.duoshuo.com'                                 # 域名已失效
+     - '+.dwion.com'                                   # 境外域名
+     - '+.dyhjw.com'                                   # 境外域名
+     - '+.dytt8.net'                                   # 境外域名
+     - '+.dzdvip.com'                                  # 境外域名
+     - '+.dzw3.com'                                    # 境外域名
+     - '+.easiu.com'                                   # 境外域名
+     - '+.eastsoo.com'                                 # 境外域名
+     - '+.ebchinaintl.com'                             # 境外域名
+     - '+.ebfortune.com'                               # 境外域名
+     - '+.ebscohost.com'                               # EBSCOhost 学术数据库
+     - '+.ecitic.net'                                  # 境外域名
+     - '+.ecjobhome.com'                               # 境外域名
+     - '+.ecloud-gdu.com'                              # 境外域名
+     - '+.ecombdapi.com'                               # 域名已失效
+     - '+.edu4399.com'                                 # 域名已失效
+     - '+.emerald.com'                                 # Emerald Publishing 学术出版商
+     - '+.empornium.me'                                # PT 站
+     - '+.emsec.hk'                                  
+     - '+.emumax.com'                                  # 境外域名
+     - '+.engineeringvillage.com'                      # 工程索引 (Elsevier, 荷兰/国际)
+     - '+.enterdesk.com'                               # 域名已失效
+     - '+.essurl.com'                                  # 域名已失效
+     - '+.eu-west-0.myhuaweicloud.com'                  # 华为云 - 欧洲西部（巴黎）节点
+     - '+.everbright.com'                              # 境外域名
+     - '+.ewqcxz.com'                                  # 域名已失效
+     - '+.f.cx'                                        # .cx 是圣诞岛域名，常用于短链或个人代理服务，不建议作为中国域名处理
+     - '+.fastapi.net'                                 # FastAPI 文档镜像或相关站。FastAPI 官网是 tiangolo.com，此 .net 域名解析 IP 通常在美国，非中国资源
+     - '+.feiliao.com'                                 # 域名已失效
+     - '+.feimaoyun.com'                               # 境外域名
+     - '+.feiniaomy.com'                               # 境外域名
+     - '+.feishucdn.com'                               # 域名已失效
+     - '+.fetion-portal.com'                           # 境外域名
+     - '+.fetionpic.com'                               # 域名已失效
+     - '+.ffbuddy.com'                                 # 域名已失效
+     - '+.fir.im'                                      # 境外域名
+     - '+.fixdown.com'                                 # 域名已失效
+     - '+.fjhps.com'                                   # 境外域名
+     - '+.fliggy.hk'                                 
+     - '+.flxdns.com'                                  # 境外域名
+     - '+.flyert.com'                                  # 域名已失效
+     - '+.fm3838.com'                                  # 境外域名
+     - '+.fofa.so'                                     # 域名已失效
+     - '+.ford.com'                                    # 福特汽车 (美国)
+     - '+.foresightfund.com'                           # 福特汽车海外站点（美国托管，无中国备案）
+     - '+.founderff.com'                               # 福特基金会网站（美国托管，无中国备案）
+     - '+.fqjob.net'                                   # 境外域名
+     - '+.fqnovelpic.com'                              # 域名已失效
+     - '+.fqnovelvod.com'                              # 域名已失效
+     - '+.frontjs.com'                                 # 域名已失效
+     - '+.funnycore.com'                               # 域名已失效
+     - '+.futu5.com'                                   # 富途证券 (旧域)
+     - '+.futunn.com'                                  # 富途牛牛。服务器在香港/美国。因跨境证券监管问题，建议走代理
+     - '+.fyeds1.com'                                  # 域名已失效
+     - '+.fyeds3.com'                                  # 域名已失效
+     - '+.fyeds4.com'                                  # 域名已失效
+     - '+.fyeds5.com'                                  # 域名已失效
+     - '+.fyeds6.com'                                  # 域名已失效
+     - '+.fyeds7.com'                                  # 域名已失效
+     - '+.fyeds8.com'                                  # 域名已失效
+     - '+.fyeds9.com'                                  # 域名已失效
+     - '+.fymall0.com'                                 # 域名已失效
+     - '+.fymall1.com'                                 # 域名已失效
+     - '+.fymall4.com'                                 # 域名已失效
+     - '+.fymall7.com'                                 # 域名已失效
+     - '+.fymall9.com'                                 # 域名已失效
+     - '+.fymallqa0.com'                               # 域名已失效
+     - '+.fymallqa1.com'                               # 域名已失效
+     - '+.fymallqa2.com'                               # 域名已失效
+     - '+.fymallqa3.com'                               # 域名已失效
+     - '+.fymallqa4.com'                               # 域名已失效
+     - '+.fymallqa7.com'                               # 域名已失效
+     - '+.fymallqa9.com'                               # 域名已失效
+     - '+.fzaqjy.com'                                  # 域名已失效
+     - '+.g-cores.com'                                 # 域名已失效
+     - '+.gaapqcloud.com'                              # 域名已失效
+     - '+.gandi.net'                                   # 域名注册商 (法国)，隐私敏感
+     - '+.ganjistatic1.com'                            # 域名已失效
+     - '+.garmin.com'                                  # 佳明 (美国/瑞士)，地理位置数据敏感
+     - '+.gazellegames.net'                            # PT 站 (Games)
+     - '+.gclouddolphin.com'                           # 域名已失效
+     - '+.gdjdxy.com'                                  # 域名已失效
+     - '+.globrand.com'                                # 域名已失效
+     - '+.gmz88.com'                                   # 域名已失效
+     - '+.gneec.com'                                   # 域名已失效
+     - '+.gneec3.com'                                  # 域名已失效
+     - '+.gneec4.com'                                  # 域名已失效
+     - '+.gneec7.com'                                  # 境外域名
+     - '+.gogokid.com'                                 # 域名已失效
+     - '+.goodread.com'                                # 境外域名
+     - '+.goproxy.io'                                  # Go 语言全球代理。这是一个服务于全球的 Go Module 代理，服务器分布在美国、日本、香港，并非纯国内服务
+     - '+.goto-game.com'                               # 域名已失效
+     - '+.goto-game.mobi'                              # 域名已失效
+     - '+.goto-game.org'                               # 域名已失效
+     - '+.gotolink.net'                                # 域名已失效
+     - '+.govqcloud.com'                               # 域名已失效
+     - '+.greenxiazai.com'                             # 境外域名
+     - '+.gsadds.com'                                  # 域名已失效
+     - '+.gtm.pub'                                     # 域名已失效
+     - '+.guabu.com'                                   # 境外域名
+     - '+.gucheng.com'                                 # 境外域名
+     - '+.guoxinmac.com'                               # 境外域名
+     - '+.guzhangting.com'                             # 境外域名
+     - '+.gxb.io'                                      # 境外域名
+     - '+.gzwanju.com'                                 # 境外域名
+     - '+.h5uc.com'                                    # 境外域名
+     - '+.hacpai.com'                                  # 域名已失效
+     - '+.hainanairlines.com'                          # 境外域名
+     - '+.haote.com'                                   # 域名已失效
+     - '+.haoyouyinxiang.com'                          # 域名已失效
+     - '+.happyhlddz.com'                              # 域名已失效
+     - '+.hdbits.org'                                  # PT 站 (顶级高清)
+     - '+.hdchina.org'                                 # PT 站 (虽叫China，但域名和服务器常变动，建议走代理)
+     - '+.hdcmct.org'                                  # PT 站
+     - '+.hddolby.com'                                 # PT 站
+     - '+.hdhome.org'                                  # PT 站
+     - '+.hdyxgame.com'                                # 域名已失效
+     - '+.henha.com'                                   # 域名已失效
+     - '+.heytea-co.com'                               # 境外域名
+     - '+.hhtravel.com.tw'                           
+     - '+.hiclc.com'                                   # 域名已失效
+     - '+.hihonor.com'                                 # 荣耀全球官网。国内是 honor.cn。此域名面向海外，服务器在新加坡/欧洲
+     - '+.hkgcloudcs.com'                              # 境外域名
+     - '+.hkserversolution.com'                        # HKS。高性能海外服务器商家，官网为了抗攻击通常在海外CDN
+     - '+.hktheone.com'                                # 香港 The ONE 商场
+     - '+.hnyuyuhui.com'                               # 境外域名
+     - '+.hollisterco.com'                             # 服装 (美国)
+     - '+.hongsanban.com'                              # 境外域名
+     - '+.hostbuf.com'                                 # 境外域名
+     - '+.hotmail.com'                                 # 微软邮箱
+     - '+.houdao.com'                                  # 域名已失效
+     - '+.houyuantuan.com'                             # 境外域名
+     - '+.hr-welink.com'                               # 境外域名
+     - '+.huaweicloud-dns.com'                         # 域名已失效
+     - '+.huaweicloud-dns.net'                         # 境外域名
+     - '+.huaweicloud-dns.org'                         # 境外域名
+     - '+.huaweicloud-smn.com'                         # 域名已失效
+     - '+.huaweicloud-smn.net'                         # 域名已失效
+     - '+.huaweicloudlive.com'                         # 域名已失效
+     - '+.huaweimarketplace.com'                       # 境外域名
+     - '+.huaxiong.com'                                # 域名已失效
+     - '+.hujia.org'                                   # 境外域名
+     - '+.huochepiao.com'                              # 境外域名
+     - '+.huocheso.com'                                # 境外域名
+     - '+.hwcloudvis.com'                              # 域名已失效
+     - '+.hwocloud.com'                                # 域名已失效
+     - '+.hxfy888.com'                                 # 境外域名
+     - '+.ica-alliance.org'                            # 国际艺术创意联盟 (国际机构)
+     - '+.icaidao.com'                                 # 境外域名
+     - '+.icbc-at.com'                                 # 工行 奥地利
+     - '+.icbc-cz.com'                                 # 工行 捷克
+     - '+.icbc-ltd.com'                                # 工行 海外分行
+     - '+.icbc-uk.com'                                 # 工行 英国
+     - '+.icbc-us.com'                                 # 工行 美国
+     - '+.icbc.ae'                                     # 工行 阿联酋
+     - '+.icbc.be'                                     # 工行 比利时
+     - '+.icbc.co.id'                                  # 工行 印尼
+     - '+.icbc.co.jp'                                  # 工行 日本
+     - '+.icbc.co.kr'                                  # 工行 海外分行
+     - '+.icbc.co.nl'                                  # 工行 海外分行
+     - '+.icbc.com.au'                                 # 工行 海外分行
+     - '+.icbc.com.es'                                 # 工行 海外分行
+     - '+.icbc.com.kh'                                 # 工行 海外分行
+     - '+.icbc.com.kw'                                 # 工行 海外分行
+     - '+.icbc.com.la'                                 # 工行 海外分行
+     - '+.icbc.com.mm'                                 # 工行 海外分行
+     - '+.icbc.com.mo'                                 # 工行 海外分行
+     - '+.icbc.com.mx'                                 # 工行 海外分行
+     - '+.icbc.com.pe'                                 # 工行 海外分行
+     - '+.icbc.com.pk'                                 # 工行 海外分行
+     - '+.icbc.com.qa'                                 # 工行 海外分行
+     - '+.icbc.com.sg'                                 # 工行 海外分行
+     - '+.icbc.com.vn'                                 # 工行 海外分行
+     - '+.icbc.de'                                     # 工行 德国
+     - '+.icbc.eu'                                     # 工行 欧洲
+     - '+.icbc.lu'                                     # 工行 卢森堡
+     - '+.icbcalmaty.kz'                               # 工行 海外分行
+     - '+.icbcasia.com'                                # 工行 海外分行
+     - '+.icbcbr.com.br'                               # 工行 海外分行
+     - '+.icbci.com.hk'                                # 工行 海外分行
+     - '+.icbcina.com'                                 # 工行 海外分行
+     - '+.icbcindia.com'                               # 工行 海外分行
+     - '+.icbcit.com'                                  # 工行 海外分行
+     - '+.icbclondon.com'                              # 工行 海外分行
+     - '+.icbcme.ae'                                   # 工行 海外分行
+     - '+.icbcmoscow.ru'                               # 工行 海外分行
+     - '+.icbcmy.com'                                  # 工行 海外分行
+     - '+.icbcnz.com'                                  # 工行 海外分行
+     - '+.icbcpanama.com'                              # 工行 海外分行
+     - '+.icbcparis.fr'                                # 工行 海外分行
+     - '+.icbcpl.com'                                  # 工行 海外分行
+     - '+.icbcstandard.com'                            # 工行 海外分行
+     - '+.icbcstandardbank.com'                        # 工行 海外分行
+     - '+.icbcstandardresources.com'                   # 工行 海外分行
+     - '+.icbcstandardsecurities.com'                  # 工行 海外分行
+     - '+.icbcswiss.com'                               # 工行 海外分行
+     - '+.icbcthai.com'                                # 工行 海外分行
+     - '+.icbkfs.com'                                  # 工银金融服务 (美国)
+     - '+.icbkus.com'                                  # 工银美国
+     - '+.icetorrent.org'                              # 欧洲的私人 torrent 社区
+     - '+.icevirtuallibrary.com'                       # 英国土木工程师学会 ICE Virtual Library
+     - '+.ics.design'                                  # 境外域名
+     - '+.idcgcloudcs.com'                             # 域名已失效
+     - '+.ieee.org'                                    # 电气电子工程师学会 (美国)
+     - '+.ifanr.in'                                  
+     - '+.ifengweekly.com'                             # 境外域名
+     - '+.igamecj.com'                                 # 境外域名
+     - '+.igtm.pub'                                    # 域名已失效
+     - '+.ihappystudio.com'                            # 域名已失效
+     - '+.im9.com'                                     # 境外域名
+     - '+.images-amazon.com'                         
+     - '+.imcapptest.com'                              # 域名已失效
+     - '+.imf.org'                                     # 国际货币基金组织
+     - '+.img4me.com'                                  # 境外域名
+     - '+.imweb.io'                                    # 域名已失效
+     - '+.in.th'                                     
+     - '+.infoq.com'                                   # 境外域名
+     - '+.infoqstatic.com'                             # 域名已失效
+     - '+.intltencentcos.com'                          # Intl Tencent COS。这是腾讯云对象的国际加速域名，服务器节点位于海外（如新加坡、美国、欧洲）
+     - '+.iop.org'                                     # 物理学会 (英国)
+     - '+.ip-cdn.com'                                  # 境外域名
+     - '+.ip.la'                                     
+     - '+.iprdp.net'                                   # 域名已失效
+     - '+.ipssh.net'                                   # 域名已失效
+     - '+.iq.com'                                      # 境外域名
+     - '+.isd.com'                                     # 境外域名
+     - '+.ispqcloud.com'                               # 域名已失效
+     - '+.it165.net'                                   # 域名已失效
+     - '+.it610.com'                                   # 境外域名
+     - '+.itopsdk.com'                                 # 境外域名
+     - '+.ivweb.io'                                    # 域名已失效
+     - '+.ixdzs.com'                                   # 境外域名
+     - '+.ixgvideo.com'                                # 域名已失效
+     - '+.izuchebao.com'                               # 域名已失效
+     - '+.jamanetwork.com'                             # 美国医学会杂志
+     - '+.java.com'                                    # Oracle (美国)
+     - '+.jbcz.tv'                                     # 域名已失效
+     - '+.jchat.io'                                    # 域名已失效
+     - '+.jcloud-cache.net'                            # 境外域名
+     - '+.jcloud-live.com'                             # 域名已失效
+     - '+.jcloud-oss.com'                              # 域名已失效
+     - '+.jcloudcache.com'                             # 域名已失效
+     - '+.jcloudcache.net'                             # 域名已失效
+     - '+.jclouddn.com'                                # 域名已失效
+     - '+.jclouddns.com'                               # 域名已失效
+     - '+.jclouddns.net'                               # 域名已失效
+     - '+.jcloudedge.com'                              # 域名已失效
+     - '+.jcloudedge.net'                              # 域名已失效
+     - '+.jcloudgslb.net'                              # 域名已失效
+     - '+.jcloudimg.net'                               # 域名已失效
+     - '+.jcloudlb.net'                                # 域名已失效
+     - '+.jcloudlive.com'                              # 域名已失效
+     - '+.jcloudoss.com'                               # 域名已失效
+     - '+.jcloudresolve.com'                           # 域名已失效
+     - '+.jcloudresolve.net'                           # 域名已失效
+     - '+.jcloudstatic.net'                            # 域名已失效
+     - '+.jcloudvideo.com'                             # 域名已失效
+     - '+.jcloudvideo.net'                             # 域名已失效
+     - '+.jd.co.th'                                  
+     - '+.jd.hk'                                     
+     - '+.jd.id'                                     
+     - '+.jd.ru'                                       # 京东 俄罗斯站
+     - '+.jdcloud-edu.com'                             # 域名已失效
+     - '+.jdcloud-elive.com'                           # 域名已失效
+     - '+.jdcloud-livebuy.com'                         # 域名已失效
+     - '+.jdcloud-openapi.com'                         # 域名已失效
+     - '+.jdcloudcache.com'                            # 域名已失效
+     - '+.jdcloudcache.net'                            # 域名已失效
+     - '+.jdcloudcdn.com'                              # 域名已失效
+     - '+.jdcloudcdn.net'                              # 域名已失效
+     - '+.jdclouddns.net'                              # 域名已失效
+     - '+.jdcloudedge.com'                             # 域名已失效
+     - '+.jdcloudedge.net'                             # 域名已失效
+     - '+.jdcloudlb.net'                               # 域名已失效
+     - '+.jdcloudlive.com'                             # 域名已失效
+     - '+.jdcloudlive.net'                             # 域名已失效
+     - '+.jdcloudresolve.com'                          # 域名已失效
+     - '+.jdcloudresolve.net'                          # 域名已失效
+     - '+.jdcloudstatus.com'                           # 域名已失效
+     - '+.jdcloudvideo.com'                            # 域名已失效
+     - '+.jdcloudvideo.net'                            # 域名已失效
+     - '+.jddapeigou.com'                              # 域名已失效
+     - '+.jdgslb.net'                                  # 域名已失效
+     - '+.jdpaydns.com'                                # 域名已失效
+     - '+.jhu.edu'                                     # 约翰霍普金斯大学 (美国)
+     - '+.jianzhi8.com'                                # 域名已失效
+     - '+.jiasuhui.com'                                # 境外域名
+     - '+.jidian.im'                                   # 域名已失效
+     - '+.jiedaibao.gs'                                # 域名已失效
+     - '+.jiemeng8.com'                                # 境外域名
+     - '+.jinglingbiaozhu.com'                         # 境外域名
+     - '+.jingpinhui.com'                              # 域名已失效
+     - '+.jinse.com'                                   # 境外域名
+     - '+.jisuxia.com'                                 # 境外域名
+     - '+.jj20.com'                                    # 境外域名
+     - '+.jomocdn.net'                                 # 域名已失效
+     - '+.joybuy.com'                                  # 京东全球
+     - '+.joybuy.es'                                   # 京东西班牙
+     - '+.jpopsuki.eu'                                 # PT 站 (日音)
+     - '+.jsboxbbs.com'                                # 境外域名
+     - '+.jstor.org'                                   # JSTOR 学术论文与期刊库
+     - '+.jstucdn.com'                                 # 域名已失效
+     - '+.julive.com'                                  # 境外域名
+     - '+.jxksw.net'                                   # 境外域名
+     - '+.jxlog.istreamsche.com'                       # 域名已失效
+     - '+.kaifayun.com'                                # 域名已失效
+     - '+.kaifubiao.com'                               # 域名已失效
+     - '+.kameng98.com'                                # 境外域名
+     - '+.kanbox.com'                                  # 域名已失效
+     - '+.kaopu001.com'                                # 境外域名
+     - '+.karger.com'                                  # 医学出版 (瑞士)
+     - '+.kaspersky-labs.com'                          # 卡巴斯基 (俄罗斯/国际)
+     - '+.keboyunxiao.com'                             # 境外域名
+     - '+.keepfrds.com'                                # 域名已失效
+     - '+.kiyuu.club'                                  # 域名已失效
+     - '+.koocdn.com'                                  # 域名已失效
+     - '+.ku6cdn.com'                                  # 域名已失效
+     - '+.ku6img.com'                                  # 域名已失效
+     - '+.kuaihou.com'                                 # 域名已失效
+     - '+.kuqin.com'                                   # 域名已失效
+     - '+.kuyunbo.club'                                # 域名已失效
+     - '+.la-north-2.myhuaweicloud.com'                # 华为云 - 拉美北部（墨西哥）节点
+     - '+.la-south-2.myhuaweicloud.com'                # 华为云 - 拉美南部（圣地亚哥/圣保罗）节点
+     - '+.lancdn.com'                                  # 境外域名
+     - '+.landian.vip'                                 # 境外域名
+     - '+.landiannews.com'                             # 境外域名
+     - '+.lanzous.com'                                 # 境外域名
+     - '+.laomaotao.org'                               # 境外域名
+     - '+.larsonlimited.com'                           # 域名已失效
+     - '+.lazada.com'                                  # 阿里旗下但主要面向东南亚，服务器主要在新加坡
+     - '+.lemicp.com'                                  # 域名已失效
+     - '+.leturich.org'                                # 域名已失效
+     - '+.lianmishu.com'                               # 境外域名
+     - '+.lianzhuli.com'                               # 境外域名
+     - '+.libguides.com'                               # Springshare LibGuides 平台
+     - '+.lieyunwang.com'                              # 域名已失效
+     - '+.lightonus.com'                               # 境外域名
+     - '+.linglonglife.com'                            # 域名已失效
+     - '+.lingshoujia.com'                             # 境外域名
+     - '+.liuxiaoer.com'                               # 境外域名
+     - '+.livechina.com'                               # 域名已失效
+     - '+.liweijia.com'                                # 境外域名
+     - '+.lizhi.io'                                    # 境外域名
+     - '+.lnlib.net'                                   # 域名已失效
+     - '+.localizecdn.com'                             # 域名已失效
+     - '+.logiseasy.com'                               # 域名已失效
+     - '+.loli.net'                                    # SM.MS 图床。虽然是国人开发，但为了抗攻击已全面接入 Cloudflare，IP 为泛播 IP，不应视为中国 IP
+     - '+.lppzimg.com'                                 # 域名已失效
+     - '+.luckincoffee.com'                            # 境外域名
+     - '+.ludoworld.net'                             
+     - '+.lvmama.com'                                  # 域名已失效
+     - '+.lvsexitong.com'                              # 境外域名
+     - '+.lwurl.to'                                    # 
+     - '+.lxway.com'                                   # 域名已失效
+     - '+.m1.run'                                      # 域名已失效
+     - '+.m6.run'                                      # 域名已失效
+     - '+.m9.run'                                      # 域名已失效
+     - '+.madsrevolution.net'                        
+     - '+.mahjongai.net'                               # 域名已失效
+     - '+.mahjongcup.com'                              # 域名已失效
+     - '+.mahjongcup.net'                              # 域名已失效
+     - '+.mai.tn'                                      # 域名已失效
+     - '+.mail4399.com'                                # 域名已失效
+     - '+.maisanqi.com'                                # 域名已失效
+     - '+.maoyun.com'                                  # 境外域名
+     - '+.maoyun.tv'                                   # 域名已失效
+     - '+.maoyuncloud.com'                             # 域名已失效
+     - '+.material.istreamsche.com'                    # 域名已失效
+     - '+.mayshijia.com'                               # 域名已失效
+     - '+.mbcloud.com'                                 # 域名已失效
+     - '+.me.com'                                    
+     - '+.me1.ltd'                                     # 域名已失效
+     - '+.mechina.org'                                 # 境外域名
+     - '+.media.paperclipclub.net'                     # 域名已失效
+     - '+.meika360.com'                                # 域名已失效
+     - '+.meishij.net'                                 # 境外域名
+     - '+.metatrader4.com'                             # 外汇软件 (俄罗斯/国际)
+     - '+.metatrader5.com'                             # 外汇软件
+     - '+.mfcteda.com'                                 # 境外域名
+     - '+.mi-img.com'                                  # 域名已失效
+     - '+.miaobolive.com'                              # 域名已失效
+     - '+.microsoftonline.com'                         # 微软在线服务 (美国)，隐私极度敏感 (Office/OneDrive 登录)
+     - '+.midasbuy.com'                                # 腾讯全球充值平台（海外服务器，无ICP备案）
+     - '+.mihoyomall.com'                              # 域名已失效
+     - '+.mijisou.com'                                 # 境外域名
+     - '+.minitiao.com'                                # 域名已失效
+     - '+.missjia.net'                                 # 域名已失效
+     - '+.mmarket6.com'                                # 域名已失效
+     - '+.mmbang.info'                                 # 域名已失效
+     - '+.mndqlib.net'                                 # 境外域名
+     - '+.mofazhu.com'                                 # 境外域名
+     - '+.moke.com'                                    # 境外域名
+     - '+.moleecel.com'                                # 境外域名
+     - '+.moocollege.com'                              # 境外域名
+     - '+.morethan.tv'                                 # 面向国际用户的“ratio‑free”电视剧/电影 tracker
+     - '+.mpg.de'                                      # 马普所 (德国)
+     - '+.ms'                                          
+     - '+.msauth.net'                                  # Microsoft 账户登录验证域名
+     - '+.msecnd.net'                                  # Microsoft/Azure CDN 域名
+     - '+.msocdn.com'                                  # Office 相关静态资源 CDN
+     - '+.mszdld.com'                                  # 域名已失效
+     - '+.mszdld.net'                                  # 域名已失效
+     - '+.muomou.com'                                  # 境外域名
+     - '+.muwai.com'                                   # 域名已失效
+     - '+.muzhiwan.com'                                # 境外域名
+     - '+.myanonamouse.net'                            # 外国私人 BT 站（有声书为主）
+     - '+.mychinaunicom.com'                           # 境外域名
+     - '+.myelasticsearch.com'                         # 境外域名
+     - '+.myhwcdn.com'                                 # 域名已失效
+     - '+.myilibrary.com'                              # MyiLibrary 电子书平台（现已并入 Ingram）
+     - '+.myip.la'                                     # IP自查
+     - '+.myqcloud.com'                                # 域名已失效
+     - '+.myshow360.net'                               # 域名已失效
+     - '+.myunlu.com'                                  # 域名已失效
+     - '+.myypark.com'                                 # 域名已失效
+     - '+.mzstatic.com'                              
+     - '+.na-mexico-1.myhuaweicloud.com'               # 华为云 - 北美（墨西哥）节点
+     - '+.nagcloudcs.com'                              # 域名已失效
+     - '+.nanyangpt.com'                             
+     - '+.nature.com'                                  # 自然杂志 (英国)
+     - '+.ncore.cc'                                    # PT 站
+     - '+.newasp.net'                                  # 域名已失效
+     - '+.nextworkshop.net'                            # 域名已失效
+     - '+.nfoservers.com'                            
+     - '+.ngacn.cc'                                    # 境外域名
+     - '+.nihaoafrica.org'                             # 域名已失效
+     - '+.nim-lang-cn.org'                             # 域名已失效
+     - '+.novipnoad.com'                               # 境外域名
+     - '+.nvsheng.com'                                 # 域名已失效
+     - '+.nzbdw.com'                                   # 域名已失效
+     - '+.nzwgs.com'                                   # 域名已失效
+     - '+.oascentral.sina.com.hk'                    
+     - '+.oecd-ilibrary.org'                           # 经合组织
+     - '+.office.com'                                  # 微软 Office
+     - '+.office.net'                                  # 微软 Office
+     - '+.office365.com'                               # 微软 Office 365
+     - '+.officese.com'                                # 微软相关
+     - '+.onenote.net'                                 # 微软 OneNote笔记
+     - '+.oneplus.com'                                 # 一加全球官网。国内官网通常重定向到OPPO商城。此域名服务欧美用户，服务器在美国。
+     - '+.oneplus.net'                                 # 一加全球
+     - '+.oneplusbbs.com'                              # 一加海外论坛（OxygenOS讨论区），服务器在美国。
+     - '+.onexmail.com'                                # 域名已失效
+     - '+.onlinesjtu.com'                              # 境外域名
+     - '+.ooklaserver.net'                             # Speedtest 测速节点 (国际)
+     - '+.open.cd'                                     # 皇后 PT 站 (OpenCD)。知名的音乐 PT 站，为了规避审查，服务器在海外
+     - '+.openapp.run'                                 # 域名已失效
+     - '+.openlearning.com'                          
+     - '+.oppo.mobi'                                   # 域名已失效
+     - '+.oppodigital.com'                             # OPPO 影音 (已停产，服务器多在海外)
+     - '+.oppoer.me'                                   # 域名已失效
+     - '+.oppomobile.com'                              # OPPO国际固件/服务域名。国内通常用 oppo.com 或 oppo.cn。此域名主要用于海外手机服务，位于新加坡
+     - '+.opstatics.com'                               # 境外域名
+     - '+.oracle-tencent.com'                          # 域名已失效
+     - '+.oracle-tencent.net'                          # 域名已失效
+     - '+.oracle.com'                                  # Oracle 甲骨文 (美国)
+     - '+.osapublishing.org'                           # 光学学会 (美国)
+     - '+.oup.com'                                     # 牛津大学出版社 (英国)
+     - '+.ourbits.club'                                # 私人PT站 (海外)
+     - '+.ourdvs.com'                                  # 私人PT站 (海外)
+     - '+.ourdvsss.com'                                # 域名已失效
+     - '+.outlook.com'                                 # 微软邮箱 (美国)，隐私极度敏感
+     - '+.ovid.com'                                    # 医学数据库 (美国)
+     - '+.owsgo.com'                                   # 域名已失效
+     - '+.oxfordartonline.com'                         # 牛津艺术
+     - '+.oxfordbibliographies.com'                    # 牛津参考书目
+     - '+.oxfordmusiconline.com'                       # 牛津音乐
+     - '+.p4pfile.com'                                 # 域名已失效
+     - '+.pagescube.com'                               # 域名已失效
+     - '+.papocket.com'                                # 域名已失效
+     - '+.passthepopcorn.me'                           # PT 站 (电影)
+     - '+.pglstatp-toutiao.com'                        # 域名已失效
+     - '+.phpwind.com'                                 # 域名已失效
+     - '+.phpwind.net'                                 # 域名已失效
+     - '+.piaoliang.com'                               # 境外域名
+     - '+.pingan.com.hk'                             
+     - '+.pn1waq.com'                                  # 域名已失效
+     - '+.pnas.org'                                    # 美国科学院院刊
+     - '+.pniao.com'                                   # 境外域名
+     - '+.privatehd.to'                                # PT 站
+     - '+.proquest.com'                                # 学位论文数据库 (美国)
+     - '+.proximabeta.com'                             # 腾讯海外游戏发行
+     - '+.pterclub.com'                                # PT 站 (猫站)
+     - '+.pubghelper.com'                              # PUBG 绝地求生 (韩国)，国内通常需加速器
+     - '+.pubgtool.com'                                # PUBG 工具
+     - '+.qc188.com'                                   # 境外域名
+     - '+.qcloud-edumall.com'                          # 域名已失效
+     - '+.qcloudapps.com'                              # 域名已失效
+     - '+.qcloudcos.com'                               # 域名已失效
+     - '+.qclouder.com'                                # 域名已失效
+     - '+.qcloudgme.com'                               # 域名已失效
+     - '+.qcloudipv6.com'                              # 域名已失效
+     - '+.qcloudmarket.com'                            # 域名已失效
+     - '+.qcloudns.com'                                # 域名已失效
+     - '+.qcloudtiw.com'                               # 域名已失效
+     - '+.qcloudtt.com'                                # 域名已失效
+     - '+.qdwebim.com'                                 # 域名已失效
+     - '+.qhimgs5.com'                                 # 域名已失效
+     - '+.qhimgs6.com'                                 # 域名已失效
+     - '+.qhres.com'                                   # 域名已失效
+     - '+.qiangbus.com'                                # 境外域名
+     - '+.qin.io'                                      # 境外域名
+     - '+.qingmang.me'                                 # 域名已失效
+     - '+.qingmang.mobi'                               # 境外域名
+     - '+.qingtingtrip.com'                            # 域名已失效
+     - '+.qq.cn.com'                                   # 域名已失效
+     - '+.qq.net'                                      # 域名已失效
+     - '+.qq163.com'                                   # 域名已失效
+     - '+.qq163.net'                                   # 域名已失效
+     - '+.qqgameapp.com'                               # 域名已失效
+     - '+.qqgamedesign.com'                            # 域名已失效
+     - '+.qqgexingqianming.com'                        # 域名已失效
+     - '+.qqmail.com'                                  # 域名已失效
+     - '+.qqrizhi.com'                                 # 域名已失效
+     - '+.qqshuoshuo.com'                              # 境外域名
+     - '+.qqurl.com'                                   # 境外域名
+     - '+.quumibao.com'                                # 域名已失效
+     - '+.qyerstatic.com'                              # 域名已失效
+     - '+.qyunapp.com'                                 # 域名已失效
+     - '+.rarbg.to'                                    # 公共 BT 索引站点（保加利亚）
+     - '+.raychase.net'                                # 境外域名
+     - '+.realcybertron.com'                           # 域名已失效
+     - '+.realme.com'                                  # Realme全球官网。国内是 realme.com.cn（或子域）。主域名面向印度/东南亚/欧洲。
+     - '+.realmebbs.com'                               # Realme海外论坛
+     - '+.realmemobile.com'                            # Realme海外移动服务
+     - '+.redacted.ch'                                 # PT 站 (音乐)
+     - '+.renren-inc.com'                              # 境外域名
+     - '+.rfchost.com'                                 # 境外域名
+     - '+.rmwxgame.com'                                # 域名已失效
+     - '+.ronghub.com'                                 # 域名已失效
+     - '+.rsc.org'                                     # 皇家化学会 (英国)
+     - '+.ru-northwest-2.myhuaweicloud.com'            # 华为云 - 俄罗斯节点
+     - '+.ruan8.com'                                   # 域名已失效
+     - '+.ruby-china.org'                              # 境外域名
+     - '+.rubyconfchina.org'                           # 境外域名
+     - '+.runsheng.com'                                # 境外域名
+     - '+.rzrc114.com'                                 # 境外域名
+     - '+.s-microsoft.com'                           
+     - '+.sa-brazil-1.myhuaweicloud.com'               # 华为云 - 巴西节点
+     - '+.saasops.tech'                                # 域名已失效
+     - '+.sagepub.com'                                 # SAGE 出版 (美国)
+     - '+.sanwen.net'                                  # 境外域名
+     - '+.saraba1st.com'                               # 域名已失效
+     - '+.sciencedirect.com'                           # Elsevier 数据库 (荷兰)
+     - '+.scomper.me'                                  # 境外域名
+     - '+.scopus.com'                                  # 引用数据库 (荷兰)
+     - '+.sczsxx.com'                                  # 境外域名
+     - '+.seafile.com'                                 # 境外域名
+     - '+.seasungames.com'                             # 境外域名
+     - '+.sec-wiki.com'                                # 境外域名
+     - '+.sf-financial.com'                            # 域名已失效
+     - '+.sf-saas.com'                                 # 境外域名
+     - '+.sfcar.hk'                                  
+     - '+.sgsic.com'                                   # 境外域名
+     - '+.shang360.com'                                # 域名已失效
+     - '+.shangc.net'                                  # 境外域名
+     - '+.shanhaitujian.com'                           # 域名已失效
+     - '+.sharejs.com'                                 # 境外域名
+     - '+.sharepoint.com'                              # Microsoft 365 / SharePoint Online 主域名
+     - '+.shelter-china.com'                           # 境外域名
+     - '+.shelterdome.net'                             # 域名已失效
+     - '+.sheui.com'                                   # 境外域名
+     - '+.shhxzq.com'                                  # 境外域名
+     - '+.shouyoubus.com'                              # 境外域名
+     - '+.shuoshuokong.com'                            # 境外域名
+     - '+.siam.org'                                    # 工业应用数学 (美国)
+     - '+.simei8.com'                                  # 境外域名
+     - '+.sinajs.com'                                  # 境外域名
+     - '+.sinopec-usa.com'                             # 中石化 美国
+     - '+.sinopec.com'                                 # 境外域名
+     - '+.sjwyx.com'                                   # 域名已失效
+     - '+.skysea.com'                                  # 域名已失效
+     - '+.smtcdns.com'                                 # 域名已失效
+     - '+.snapdrop.net'                                # Snapdrop 开源局域网文件分享站
+     - '+.snwx.com'                                    # 境外域名
+     - '+.sofun.com'                                   # 境外域名
+     - '+.somode.com'                                  # 域名已失效
+     - '+.sony.com'                                    # 索尼 (日本/美国)
+     - '+.sonyentertainmentnetwork.com'                # 索尼 PSN 服务
+     - '+.spcdntipbak.com'                             # 域名已失效
+     - '+.spcloudhw.com'                               # 境外域名
+     - '+.spcloudhw.net'                               # 域名已失效
+     - '+.spiedigitallibrary.org'                      # 光学工程 (美国)
+     - '+.springer.com'                                # 施普林格 (德国)
+     - '+.springerlink.com'                            # 施普林格数据库
+     - '+.springsunday.net'                            # PT 站
+     - '+.starbaby.cc'                                 # 域名已失效
+     - '+.starbaby.com'                                # 境外域名
+     - '+.starlakelab.com'                             # 域名已失效
+     - '+.startssl.com'                                # StartSSL。这是一个以色列的证书颁发机构（现已停止签发），服务器在以色列或美国
+     - '+.steampp.net'                                 # Watt Toolkit (原 Steam++ / Steam 助手)。这是一个 Steam 加速工具的官网，通常使用 Cloudflare 或 Github Pages 托管
+     - '+.suningholdings.com'                          # 域名已失效
+     - '+.sunrtb.com'                                  # 境外域名
+     - '+.supercell.com'                               # Supercell 游戏 (芬兰)
+     - '+.sys321.com'                                  # 域名已失效
+     - '+.syxlgame.com'                                # 域名已失效
+     - '+.szfw.org'                                    # 境外域名
+     - '+.t.tt'                                        # 境外域名
+     - '+.t00ls.cc'                                    # T00ls。低调的网络安全/黑客论坛。为了防 DDOS 和审查，通常隐藏在 Cloudflare 或海外高防 IP 之后
+     - '+.t00ls.net'                                   # T00ls。低调的网络安全/黑客论坛。为了防 DDOS 和审查，通常隐藏在 Cloudflare 或海外高防 IP 之后
+     - '+.t1y5.com'                                    # 境外域名
+     - '+.tandfonline.com'                             # Taylor & Francis (英国)
+     - '+.tanxlog.istreamsche.com'                     # 域名已失效
+     - '+.taobizhong.com'                              # 境外域名
+     - '+.tawk.link'                                   # 客服聊天插件 (国际)
+     - '+.tawk.to'                                     # 客服聊天插件 (国际)
+     - '+.tburl.in'                                  
+     - '+.tcdlive.com'                                 # 域名已失效
+     - '+.tcdnhw.com'                                  # 域名已失效
+     - '+.tcdnkcbak.com'                               # 域名已失效
+     - '+.tcdnlive.com'                                # 域名已失效
+     - '+.tcdnlivebak1.com'                            # 域名已失效
+     - '+.tcdnlivebak2.com'                            # 域名已失效
+     - '+.tcdntip.com'                                 # 域名已失效
+     - '+.tcdnvodbak.com'                              # 域名已失效
+     - '+.tcfmglobal.com'                              # 域名已失效
+     - '+.tcloudbase.com'                              # 域名已失效
+     - '+.tcloudbase.net'                              # 域名已失效
+     - '+.tcloudbi.com'                                # 域名已失效
+     - '+.tclouddrive.com'                             # 域名已失效
+     - '+.tcloudedu.com'                               # 域名已失效
+     - '+.tcloudhw.com'                                # 域名已失效
+     - '+.tcloudhw.net'                                # 域名已失效
+     - '+.tefscloud.net'                               # 域名已失效
+     - '+.teleows.com'                                 # 境外域名
+     - '+.tenant-zone-dev.com'                         # 域名已失效
+     - '+.tencdns.net'                                 # 域名已失效
+     - '+.tencent-cloud.com'                           # 域名已失效
+     - '+.tencent-gcloud.com'                          # 域名已失效
+     - '+.tencent.co.id'                             
+     - '+.tencent.com.hk'                            
+     - '+.tencent.design'                              # 域名已失效
+     - '+.tencentapps.com'                             # 域名已失效
+     - '+.tencentbyod.com'                             # 域名已失效
+     - '+.tencentcdb.com'                              # 域名已失效
+     - '+.tencentclb.com'                              # 域名已失效
+     - '+.tencentcloud-aiot.com'                       # 域名已失效
+     - '+.tencentcloudclub.com'                        # 域名已失效
+     - '+.tencentcloudcr.com'                          # 域名已失效
+     - '+.tencentcloudmarket.com'                      # 域名已失效
+     - '+.tencentcloudsec.com'                         # 域名已失效
+     - '+.tencentcloudses.com'                         # 域名已失效
+     - '+.tencentdb.com'                               # 域名已失效
+     - '+.tencentdms.com'                              # 域名已失效
+     - '+.tencenteiam.com'                             # 域名已失效
+     - '+.tencentid.com'                               # 域名已失效
+     - '+.tencentproxy.com'                            # 境外域名
+     - '+.tencenttid.com'                              # 域名已失效
+     - '+.tencentwemeet.club'                          # 域名已失效
+     - '+.texasholdemcup.com'                          # 域名已失效
+     - '+.texasholdemcup.net'                          # 域名已失效
+     - '+.thundercdn.com'                              # 域名已失效
+     - '+.tianlailive.com'                             # 域名已失效
+     - '+.tidaas.com'                                  # 域名已失效
+     - '+.tiktokd.net'                                 # TikTok (海外抖音) - 必须移除
+     - '+.tiktokd.org'                                 # TikTok - 必须移除
+     - '+.timmerse.com'                                # 境外域名
+     - '+.tipdim.org'                                  # 域名已失效
+     - '+.tjupt.org'                                   # 域名已失效
+     - '+.tlgslb.com'                                  # 境外域名
+     - '+.tmall.hk'                                  
+     - '+.tmall.ru'                                    # 天猫 俄罗斯
+     - '+.tmalltv.com'                                 # 域名已失效
+     - '+.tmjl.ai'                                     # 境外域名
+     - '+.tmzvps.com'                                  # 境外域名
+     - '+.tom.com'                                     # 境外域名
+     - '+.tools.team'                                  # 域名已失效
+     - '+.tophub.today'                                # 境外域名
+     - '+.toplife.com'                                 # 域名已失效
+     - '+.totheglory.im'                               # PT 站 (TTG)
+     - '+.touqikan.com'                                # 境外域名
+     - '+.toutiaocloud.com'                            # 域名已失效
+     - '+.trellocdn.com'                               # Trello 协作工具 (Atlassian, 澳大利亚/美国)
+     - '+.trip.com'                                    # 携程国际版。国内是 ctrip.com。Trip.com 总部在新加坡
+     - '+.tsparkling.com'                              # 域名已失效
+     - '+.ttmeiju.com'                                 # 境外域名
+     - '+.tudouui.com'                                 # 域名已失效
+     - '+.tuer123.com'                                 # 域名已失效
+     - '+.tuicool.com'                                 # 域名已失效
+     - '+.tuiwen.net'                                  # 域名已失效
+     - '+.tutuapp.com'                                 # 境外域名
+     - '+.twscholar.com'                               # Taiwan Scholar（台湾学术在线）。这是一个台湾的学术数据库，服务器在台湾或美国
+     - '+.tx-exhibition.com'                           # 域名已失效
+     - '+.txbyod.com'                                  # 域名已失效
+     - '+.txtyxg.com'                                  # 域名已失效
+     - '+.u-cdn.net'                                   # 域名已失效
+     - '+.u.tools'                                     # 境外域名
+     - '+.u17i.com'                                    # 域名已失效
+     - '+.u17t.com'                                    # 域名已失效
+     - '+.ucbug.com'                                   # 境外域名
+     - '+.ucgslb.info'                                 # 境外域名
+     - '+.ucgslb.top'                                  # 域名已失效
+     - '+.ucloud-edm.com'                              # 域名已失效
+     - '+.ucloudnaming.net'                            # 域名已失效
+     - '+.ucloudoss.com'                               # 境外域名
+     - '+.ucloudstor.com'                              # 域名已失效
+     - '+.ucloudufile.com'                             # 境外域名
+     - '+.ucnaming.com'                                # 域名已失效
+     - '+.ucnaming.info'                               # 域名已失效
+     - '+.ucnaming.net'                                # 境外域名
+     - '+.udacity.com'                                 # 优达学城 (美国)
+     - '+.uewaf.com'                                   # 域名已失效
+     - '+.uggame.com'                                  # 境外域名
+     - '+.ugslb.top'                                   # 域名已失效
+     - '+.uhasadmin.com'                               # 域名已失效
+     - '+.un.org'                                      # 联合国
+     - '+.unaming.info'                                # 域名已失效
+     - '+.unaming.net'                                 # 域名已失效
+     - '+.uni-bielefeld.de'                            # 比勒费尔德大学 (德国)
+     - '+.uning.com'                                   # 境外域名
+     - '+.unionpay.net'                                # 域名已失效
+     - '+.unionpayintl.com'                            # 银联国际
+     - '+.uonline-sh.net'                              # 域名已失效
+     - '+.update.microsoft.com'                      
+     - '+.useso.com'                                   # 域名已失效
+     - '+.uslk.net'                                    # 境外域名
+     - '+.v5875.com'                                   # 境外域名
+     - '+.vanclimg.com'                                # 境外域名
+     - '+.vaptcha.net'                                 # 境外域名
+     - '+.vcloudstc.com'                               # 域名已失效
+     - '+.vcloudvod.com'                               # 境外域名
+     - '+.veryhuo.com'                                 # 域名已失效
+     - '+.videoxiaoyouxi.com'                          # 域名已失效
+     - '+.vijos.org'                                   # 境外域名
+     - '+.visualstudio.com'                            # 微软开发工具
+     - '+.vodtcbk.com'                                 # 域名已失效
+     - '+.volceapplog.com'                             # 域名已失效
+     - '+.volces.com'                                  # 域名已失效
+     - '+.vxo7tu.com'                                  # 域名已失效
+     - '+.wangyangyang.vip'                            # 境外域名
+     - '+.wanplus.com'                                 # 域名已失效
+     - '+.wanyx.com'                                   # 域名已失效
+     - '+.wcbygame.com'                                # 域名已失效
+     - '+.wdfok.com'                                   # 域名已失效
+     - '+.weather.com'                                 # The Weather Channel 主站
+     - '+.webofknowledge.com'                          # WoS 数据库
+     - '+.webqxs.com'                                  # 域名已失效
+     - '+.wechat.com'                                  # WeChat (国际版)。国内是 weixin.qq.com。wechat.com 主要服务海外用户，服务器在新加坡/香港
+     - '+.wegamedeveloper.com'                         # 域名已失效
+     - '+.weicaifu.com'                                # 域名已失效
+     - '+.weilaicaijing.com'                           # 域名已失效
+     - '+.weiphone.com'                                # 境外域名
+     - '+.weiphone.net'                                # 域名已失效
+     - '+.welltrend-edu.com'                           # 境外域名
+     - '+.wenku8.net'                                  # 境外域名
+     - '+.wenmingban.com'                              # 境外域名
+     - '+.westlaw.com'                                 # 法律数据库 (美国)
+     - '+.wework-studio.com'                           # 域名已失效
+     - '+.whatismyip.com'                              # IP 查询 (国际)，走国内 DNS 查不到你的真实出口 IP
+     - '+.whlovehome.com'                              # 域名已失效
+     - '+.wiley.com'                                   # Wiley 出版 (美国)
+     - '+.win007.com'                                  # 域名已失效
+     - '+.win8.net'                                    # 域名已失效
+     - '+.windows.com'                                 # 微软 Windows
+     - '+.windows.net'                                 # 微软云服务/Azure
+     - '+.windows10zj.com'                           
+     - '+.windows7en.com'                            
+     - '+.windowsupdate.com'                           # 微软更新
+     - '+.windowsupdate.microsoft.com'                 # 微软更新
+     - '+.windowszj.com'                               # 微软服务 (美国)
+     - '+.wkcdn.com'                                   # 境外域名
+     - '+.wo116114.com'                                # 域名已失效
+     - '+.wol.tv'                                      # 美国休斯敦附近教会的宗教频道
+     - '+.wonnder.com'                                 # 境外域名
+     - '+.wooyun.org'                                  # 域名已失效
+     - '+.worldbank.org'                               # 世界银行
+     - '+.worldscientific.com'                         # 世界科技出版 (新加坡)
+     - '+.woyaogexing.com'                             # 境外域名
+     - '+.woyoo.com'                                   # 境外域名
+     - '+.wps.com'                                     # WPS 国际版。国内是 wps.cn。国际版含AI功能，服务器在美国。
+     - '+.wsoso.com'                                   # 境外域名
+     - '+.wuximediaglobal.com'                         # 境外域名
+     - '+.xbox.com'                                    # 微软 Xbox
+     - '+.xboxlive.com'                                # 微软 Xbox Live
+     - '+.xhaiwai.com'                                 # 域名已失效
+     - '+.xhostfire.com'                               # 境外域名
+     - '+.xhscdn.net'                                  # 域名已失效
+     - '+.xiami.fm'                                    # 域名已失效
+     - '+.xianfae.com'                                 # 域名已失效
+     - '+.xiaobaixitong.com'                           # 境外域名
+     - '+.xiaogouh5.com'                               # 境外域名
+     - '+.xiaoka.tv'                                   # 境外媒体/流媒体服务
+     - '+.xiaoluyouxuan.com'                           # 境外域名
+     - '+.xiaoluzhidian.com'                           # 域名已失效
+     - '+.xiaomicp.com'                                # 境外域名
+     - '+.xiaomiflash.com'                             # 境外域名
+     - '+.xingtan001.com'                              # 境外域名
+     - '+.xinshipu.com'                                # 境外域名
+     - '+.xitong8.com'                                 # 域名已失效
+     - '+.xitu.io'                                     # 境外域名
+     - '+.xiu8.com'                                    # 境外域名
+     - '+.xiziwang.net'                                # 境外域名
+     - '+.xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s' 
+     - '+.xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s' 
+     - '+.xn--r70as2s.xn--fiqs8s'                    
+     - '+.xpgod.com'                                   # 境外域名
+     - '+.xqymuy.com'                                  # 域名已失效
+     - '+.xsa239.com'                                  # 境外域名
+     - '+.xslb.net'                                    # 境外域名
+     - '+.xuanchuanyi.com'                             # 境外域名
+     - '+.xuexi365.net'                                # 域名已失效
+     - '+.xuexicha.com'                                # 境外域名
+     - '+.xueyuanjun.com'                              # 域名已失效
+     - '+.xxtmail.com'                                 # 域名已失效
+     - '+.xzking.com'                                  # 境外域名
+     - '+.yach.me'                                     # 境外域名
+     - '+.yahui.cc'                                    # 境外域名
+     - '+.yaolan.com'                                  # 境外域名
+     - '+.yfcache.com'                                 # 境外域名
+     - '+.yfcalc.com'                                  # 境外域名
+     - '+.yfcdn.net'                                   # 域名已失效
+     - '+.yfcloud.com'                                 # 境外域名
+     - '+.yfdts.net'                                   # 境外域名
+     - '+.yfp2p.net'                                   # 域名已失效
+     - '+.yfscdn.net'                                  # 境外域名
+     - '+.yh31.com'                                    # 境外域名
+     - '+.yigoonet.com'                                # 境外域名
+     - '+.yihaodian.com'                               # 域名已失效
+     - '+.yihaodianimg.com'                            # 域名已失效
+     - '+.yikaochacha.com'                             # 境外域名
+     - '+.yinhang123.net'                              # 境外域名
+     - '+.yizhibo.com'                                 # 域名已失效
+     - '+.yizhitou.com'                                # 域名已失效
+     - '+.ylike.net'                                   # 域名已失效
+     - '+.ym.run'                                      # 域名已失效
+     - '+.yo9.com'                                     # 域名已失效
+     - '+.youba.com'                                   # 域名已失效
+     - '+.youboy.com'                                  # 境外域名
+     - '+.youhua.com'                                  # 域名已失效
+     - '+.youlian.fun'                                 # 域名已失效
+     - '+.youxigt.com'                                 # 域名已失效
+     - '+.yowhale.com'                                 # 境外域名
+     - '+.yrz.name'                                  
+     - '+.yufuid.net'                                  # 域名已失效
+     - '+.yunba.io'                                    # 境外域名
+     - '+.yunfancdn.com'                               # 境外域名
+     - '+.yunjiasu-cdn.net'                            # 域名已失效
+     - '+.yunqishi.net'                                # 境外域名
+     - '+.yuzua.com'                                   # 境外域名
+     - '+.yxdmgame.com'                                # 域名已失效
+     - '+.yxwsgame.com'                                # 域名已失效
+     - '+.yzyxgame.com'                                # 域名已失效
+     - '+.zcjbgame.com'                                # 域名已失效
+     - '+.zczj.com'                                    # 境外域名
+     - '+.zdfans.com'                                  # 域名已失效
+     - '+.zhanbuba.com'                                # 境外域名
+     - '+.zhangzishi.cc'                             
+     - '+.zhaodanji.com'                               # 域名已失效
+     - '+.zhifang.com'                                 # 境外域名
+     - '+.zhuangjiba.com'                              # 境外域名
+     - '+.zhuanyewanjia.com'                           # 域名已失效
+     - '+.zhuayoukong.com'                             # 境外域名
+     - '+.zhuihd.com'                                  # 境外域名
+     - '+.zhuoyuegame.com'                             # 域名已失效
+     - '+.zijiecdn.net'                                # 域名已失效
+     - '+.zimuzu.io'                                   # 字幕组 (敏感)
+     - '+.zimuzu.tv'                                   # 字幕组：人人影视字幕组。众所周知的原因，其服务器早已多次迁移至海外（韩国/美国/香港）以规避审查，直连国内 DNS 几乎100% 无法解析或被污染
+     - '+.zixuntop.com'                                # 境外域名
+     - '+.zmz002.com'                                  # 域名已失效
+     - '+.zmz2019.com'                                 # 境外域名
+     - '+.zmzapi.com'                                  # 境外域名
+     - '+.zmzapi.net'                                  # 域名已失效
+     - '+.zoom3g.com'                                  # 域名已失效
+     - '+.zrblog.net'                                  # 境外域名

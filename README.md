@@ -164,11 +164,15 @@
 
 + China ：🇨🇳 中国网站 的 Clash分流规则 
     + blackmatrix7/ios_rule_script/China 的 修正版 
-    + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3000条 
+    + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3,000条 
 
 + GeositeCN ：🇨🇳 中国网站 的 Clash分流规则
     + geosite:cn 的 修正版
-    + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4800条 
+    + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4,800条 
+
++ ChinaMax ：🇨🇳 中国网站 的 Clash分流规则 
+    + blackmatrix7/ios_rule_script/ChinaMax 的 修正版 
+    + 注释掉 17% 错误、冗余规则后，有效规则 = 约 98,500条 
 
 <br>
 <br>
