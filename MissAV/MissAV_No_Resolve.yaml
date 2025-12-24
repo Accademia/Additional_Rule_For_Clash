@@ -8,6 +8,7 @@ payload:
     - DOMAIN-SUFFIX   , myavlive.com
     - DOMAIN-SUFFIX   , missav.recombee.com
     - DOMAIN-SUFFIX   , xxxvjmp.com
+    - DOMAIN-SUFFIX   , xxxivjmp.com
 
     - DOMAIN-SUFFIX   , xmavrtracktor.com
     - DOMAIN-SUFFIX   , xmedia-hls.saawsedge.com

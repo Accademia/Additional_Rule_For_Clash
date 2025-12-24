@@ -9,6 +9,7 @@ payload:
     - '+.myavlive.com'
     - '+.*-missav.recombee.com'
     - '+.xxxvjmp.com'
+    - '+.xxxivjmp.com'
 
     - '+.mavrtracktor.com'
     - '+.media-hls.saawsedge.com'
