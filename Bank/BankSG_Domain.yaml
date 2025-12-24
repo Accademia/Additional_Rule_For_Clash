@@ -5,9 +5,10 @@ payload:
    # -----------------------------------------------
    
 
-    - '+. hsbc.com.sg'              # HSBC Singapore                                    汇丰新加坡
-    - 'sg.hsbc.com'                 # HSBC Singapore                                    汇丰新加坡
-    - '+.sg.hsbc.com'               # HSBC Singapore                                    汇丰新加坡
+    - '+. hsbc.com.sg'              # 汇丰新加坡      HSBC Singapore                                    
+    - 'sg.hsbc.com'                 # 汇丰新加坡      HSBC Singapore                                    
+    - '+.sg.hsbc.com'               # 汇丰新加坡      HSBC Singapore                                    
+    - '+.vam-sg.*.vv1865.com'       # 汇丰新加坡
     
 
     - '+. dbs.com.sg'               # DBS Bank                                          星展银行（新加坡）   

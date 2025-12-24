@@ -8,6 +8,7 @@ payload:
     - '+.hsbc.com.us'               # 汇丰美国     HSBC North America Holdings  
     - 'us.hsbc.com'                 # 汇丰美国     HSBC North America Holdings  
     - '+.us.hsbc.com'               # 汇丰美国     HSBC North America Holdings  
+    - '+.vam-us.*.vv1865.com'       # 汇丰美国     HSBC North America Holdings  
 
    # ---------- Plaid ---------- #  # 银行间协作
    

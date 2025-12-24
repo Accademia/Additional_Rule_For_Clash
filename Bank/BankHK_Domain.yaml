@@ -7,6 +7,7 @@ payload:
     - '+.hsbc.com.hk'               # 汇丰香港
     - 'hk.hsbc.com'                 # 汇丰香港
     - '+.hk.hsbc.com'               # 汇丰香港
+    - '+.vam-hk.*.vv1865.com'       # 汇丰香港
 
     - '+.bochk.com'                 # 中银香港
     - '+.ocbcwhhk.com'              # 华侨永亨
@@ -16,11 +17,14 @@ payload:
    #- '+.                          #       
     
     - '+.cncbinternational.com'     # 中信国际
-    - '+.sc.com.hk'                 # 渣打香港
     - '+.citibank.com.hk'           # 花旗香港
     - '+.dbs.com.hk'                # 星展香港
     - '+.ncb.com.hk'                # 南洋银行
-    
+
+    - '+.sc.com.hk'                 # 渣打香港
+    - '+.sc.com'                    # 渣打香港
+
+
    #- '+.                          #       
     
     - '+.za.group'                  # 众安银行

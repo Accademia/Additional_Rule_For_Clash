@@ -7,6 +7,7 @@ payload:
     - '+.hsbc.co.uk'                # 汇丰英国 (HSBC Bank UK)
     - 'uk.hsbc.com'                 # 汇丰英国 (HSBC Bank UK)
     - '+.uk.hsbc.com'               # 汇丰英国 (HSBC Bank UK)
+    - '+.vam-uk.*.vv1865.com'       # 汇丰英国 (HSBC Bank UK)
 
     - '+.starlingbank.com'          # Starling Bank
     - '+.ifastgb.com'               # iFast Bank
