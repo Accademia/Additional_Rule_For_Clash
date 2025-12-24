@@ -4,9 +4,9 @@ payload:
 
     - '+.*hanime*.*'
 
-   #- '+.hanime1.me'
-   #- '+.hanime1.com'
-   #- '+.hanimeone.me'
+    - '+.hanime1.me'
+    - '+.hanime1.com'
+    - '+.hanimeone.me'
 
 
     - '+.hembed.com'
