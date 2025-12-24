@@ -157,6 +157,9 @@
 # ❌❌❌❌❌ 要特别注意，IPv6问题，不仅仅会导致Siri无法调用C哈他GPT，也会导致用户无法在设置siri的界面登录中登录ChatGPT。系统会显示：“无法登录，登录账户时出现问题” ，哪怕你已经输入完了登录密码和验证码，依旧无法登录。
 #
 
+
+
+
 ################################################################
 # 本分流规则 用法 ：
 ################################################################
@@ -172,7 +175,8 @@
 #
 #    AppleAI_Domain                       : {type: http, behavior: domain    , interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/AppleAI/AppleAI_Domain.yaml'                                        , path: ./ruleset/AppleAI_Domain.yaml                        }   
 
-#
+
+
 
 #
 # ----------------------------------
