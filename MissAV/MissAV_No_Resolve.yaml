@@ -10,6 +10,8 @@ payload:
 
     - DOMAIN-SUFFIX   , xmavrtracktor.com
     - DOMAIN-SUFFIX   , xmedia-hls.saawsedge.com
+    - DOMAIN-SUFFIX   , nineyu.com
+    - DOMAIN-SUFFIX   , surrit.com
 
     - DOMAIN-SUFFIX   , xhotzcam.com
 
