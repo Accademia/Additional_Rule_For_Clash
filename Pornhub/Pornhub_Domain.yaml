@@ -1,5 +1,6 @@
 payload:
 
+    # pornhub
     - '+.pornhub.net'                            
     - '+.pornhub.com'      
     - '+.pornhub.org'
@@ -12,6 +13,14 @@ payload:
 
     - '+.pornhubapparel.com'
     - '+.pornhub-deutsch.net'
+
+
+    # missav
+    - '+.myavlive.com'
+    - '+.missav.live'
+    - '+.*-missav.recombee.com'
+
+
 
 
 

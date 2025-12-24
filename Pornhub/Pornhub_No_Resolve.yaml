@@ -1,5 +1,7 @@
 payload:
 
+    # pornhub
+
     - DOMAIN-KEYWORD  , pornhub                               
    #- DOMAIN-SUFFIX   , pornhub.com   
    #- DOMAIN-SUFFIX   , pornhub.org
@@ -14,6 +16,11 @@ payload:
     - DOMAIN-SUFFIX   , pornhub-deutsch.net
 
 
+    # missav
+    
+    - DOMAIN-SUFFIX   , myavlive.com
+    - DOMAIN-SUFFIX   , missav.live
+    - DOMAIN-SUFFIX   , missav.recombee.com
 
 
 
