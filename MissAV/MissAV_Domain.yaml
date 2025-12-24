@@ -12,7 +12,7 @@ payload:
     - '+.xxxivjmp.com'
 
     - '+.mavrtracktor.com'
-    - '+.media-hls.saawsedge.com'
+    - '+.*hls.saawsedge.com'
     - '+.nineyu.com'
     - '+.surrit.com'
 
