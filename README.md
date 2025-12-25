@@ -160,7 +160,7 @@
 + Apple： 苹果 的 Clash分流规则
 
 + MicrosoftAPPs： 微软APP全家桶 的 Clash分流规则 
-    + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github
+    + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github、LinkedIn
 
 + China ：🇨🇳 中国网站 的 Clash分流规则 
     + blackmatrix7/ios_rule_script/China 的 修正版 
