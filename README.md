@@ -172,7 +172,8 @@
 
 + ChinaMax ：🇨🇳 中国网站 的 Clash分流规则 
     + blackmatrix7/ios_rule_script/ChinaMax 的 修正版 
-    + 注释掉 17% 错误、冗余规则后，有效规则 = 约 98,500条 
+    + 注释掉 17% 错误、冗余规则后，有效规则 = 约 98,000条 
+    + 其清洗粒度，不及GeositeCN。具体请看此规则说明
 
 <br>
 <br>
