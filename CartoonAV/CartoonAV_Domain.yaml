@@ -2,7 +2,8 @@ payload:
 
     - '+.e-hentai.org'
 
-    - '+.hanime*.*'
+    - '+.hanime1.*'
+    - '+.hanimeone.*'
 
    #- '+.hanime1.me'
    #- '+.hanime1.com'
