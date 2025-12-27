@@ -148,13 +148,13 @@ nameserver-policy                 :
 # Rule分流：直连 中国IP     
 rules                             :  
   # 中国直连
-  - GEOIP , cn , 🇨🇳.<Country>—CN
+  - GEOIP , cn                    , 🇨🇳.<Country>—CN
   # 兜底：其余流量，转发VPN （白名单模式）
-  - MATCH      , ♾️.<Final> 
+  - MATCH                         , ♾️.<Final> 
 
 # 远程规则集
 rule-providers                    : 
-   GeositeCN_Domain      : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml' , path : './ruleset/GeositeCN_Domain.yaml' }                              
+   GeositeCN_Domain               : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml' , path : './ruleset/GeositeCN_Domain.yaml' }                              
 
 ```
 <br>

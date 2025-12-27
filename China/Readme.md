@@ -139,13 +139,13 @@ nameserver-policy                 :
 # Rule分流：直连 中国IP     
 rules                             :
   # 中国直连
-  - GEOIP , cn , 🇨🇳.<Country>—CN
+  - GEOIP , cn                    , 🇨🇳.<Country>—CN
   # 兜底：其余流量，转发VPN （白名单模式）
-  - MATCH      , ♾️.<Final> 
+  - MATCH                         , ♾️.<Final> 
 
 # 远程规则集
 rule-providers                    : 
-   China_Domain          : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/China/China_Domain.yaml' , path : './ruleset/China_Domain.yaml' }                              
+   China_Domain                   : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/China/China_Domain.yaml' , path : './ruleset/China_Domain.yaml' }                              
 
 ```
 <br>
