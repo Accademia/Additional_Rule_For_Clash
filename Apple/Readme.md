@@ -1,0 +1,79 @@
+
+# Apple 苹果服务分流规则
+
+### 项目简述
+
+* **用途：** 针对 Apple 苹果设备（iPhone, MacBook, iPad 等）及相关服务的分流规则 
+* **精简策略：** 苹果公司在 40 年发展中曾使用过高达 1500 个域名，其中大量已废弃。本规则集**只保留**目前仍在使用的活跃域名 
+
+<br>
+
+### ⚠️ 核心说明与排除项
+
+在使用本规则前，请注意以下策略细节：
+
+ **排除中国区服务**：本规则 **不收录** “云上贵州”及中国区苹果特有的服务域名。这些流量通常直接走 `geosite:cn` 规则即可 
+
+
+<br>
+<br>
+
+---
+
+# 引用配置范例
+<br>
+
+请在您的 Clash / Stash 配置文件中参考以下格式引入。
+<br>
+
+### 📦 规则文件后缀说明 (三选一)
+
+本项目提供三组不同后缀的规则文件，请根据您的客户端和需求，**任选其一**即可 
+
+| 后缀类型 | 说明 | 适用场景 |
+| :--- | :--- | :--- |
+| **Domain + IP** | **🔥🔥🔥 推荐** | 极大增加匹配速度并减少内存占用 |
+| **No_Resolve** | 包含 `no-resolve` 策略 | 适用于不需要 DNS 解析的场景 |
+| **(无后缀)** | 标准 Classical 格式 |  |
+
+<br>
+<br>
+
+### 1. Domain + IP 策略引用 (🔥 推荐)
+<br>
+
+```yaml
+# ---------------------------------------------------
+#  Apple - 引用示例 (Domain + IP 版)
+# ---------------------------------------------------
+
+Apple_Domain : {type: http, behavior: domain, interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_Domain.yaml](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_Domain.yaml)', path: ./ruleset/Apple_Domain.yaml }
+Apple_IP     : {type: http, behavior: ipcidr, interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_IP.yaml](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_IP.yaml)',     path: ./ruleset/Apple_IP.yaml     }
+
+```
+<br>
+
+### 2. No-Resolve 策略引用
+<br>
+
+```yaml
+# ---------------------------------------------------
+#  Apple - 引用示例 (No-Resolve 版)
+# ---------------------------------------------------
+
+Apple_No_Resolve : {type: http, behavior: classical, interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_No_Resolve.yaml](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple_No_Resolve.yaml)', path: ./ruleset/Apple_No_Resolve.yaml }
+
+```
+<br>
+
+### 3. 标准策略引用 (Classical)
+<br>
+
+```yaml
+# ---------------------------------------------------
+#  Apple - 引用示例 (标准版)
+# ---------------------------------------------------
+
+Apple : {type: http, behavior: classical, interval: 86400, url: '[https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple.yaml](https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/Apple/Apple.yaml)', path: ./ruleset/Apple.yaml }
+
+```
