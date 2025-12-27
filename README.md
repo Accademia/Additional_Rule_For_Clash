@@ -233,7 +233,7 @@
     - 单纯设置分流规则，可能 Grok APP for iOS（仅APP端） 仍旧连不上，需要在Stash、Clash的配置文件中，对IPv6做特殊处理 ！！！
 
     - 具体请看这里的说明：
-        - https://github.com/Accademia/Additional_Rule_For_Clash/edit/main/Grok/Readme.txt 
+        - https://github.com/Accademia/Additional_Rule_For_Clash/edit/main/Grok
 
 <br>
 
@@ -242,7 +242,7 @@
     -  🇨🇳 国行 iPhone 、 iPad （不含Mac），无需尝试❕❕ 已被苹果锁死 ❕❕
       
     - 具体可以看这里的说明：⚠️⚠️
-        - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI/Readme.txt
+        - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI
      
 <br>
    
