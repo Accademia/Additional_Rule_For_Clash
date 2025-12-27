@@ -129,22 +129,22 @@ dns                               : # 禁用FakeIP + 禁用Fallback DNS
   fake-ip-filter                  : [ '+.*' ] 
 
 # DNS分流 ：获得 🇨🇳中国IP
-nameserver-policy: 
+nameserver-policy                 : 
    # 中国域名解析， 调用 国内DNS服务器
    'RULE-SET:ChinaMax_Domain'     :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN'  , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'    ] 
    # 其余所有域名解析， 通过 “兜底策略”的VPN节点 ，转发给海外DNS服务器 
    '+.*'                          :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'   , 'https://dns.google/dns-query#♾️.<Final>'     ]
      
 # Rule分流：直连 中国IP     
-rules:
+rules                             :
   # 中国直连
   - GEOIP , cn , 🇨🇳.<Country>—CN
   # 兜底：其余流量，转发VPN （白名单模式）
   - MATCH      , ♾️.<Final> 
 
 # 远程规则集
-rule-providers: 
-   ChinaMax_Domain    : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaMax/ChinaMax_Domain.yaml' , path : './ruleset/ChinaMax_Domain.yaml' }                              
+rule-providers                    : 
+   ChinaMax_Domain       : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaMax/ChinaMax_Domain.yaml' , path : './ruleset/ChinaMax_Domain.yaml' }                              
 
 ```
 <br>
