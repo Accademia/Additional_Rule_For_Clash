@@ -129,7 +129,7 @@
 
 **特别重要‼️ 必看‼️ 如果想达到最佳使用效果，请务必遵循以下逻辑：**
 
-使用时，优先在 DNS分流策略（ nameserver-policy ） 中引用 ，而不是在 分流规则（ rule ） 中引用。最佳引用方式，范例如下：
+使用时，优先在 DNS分流策略（ nameserver-policy ） 中引用 ，而不是优先在 分流规则（ rule ） 中引用。最佳引用方式，范例如下：
 
 ```yaml
 
@@ -146,6 +146,10 @@ rule-providers:
    GeositeCN_Domain    : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml' , path : './ruleset/GeositeCN_Domain.yaml' }                              
 
 ```
+<br>
+
+✅✅✅ 上述这种写法，可以几乎100%避免  由于本规则集合极个别不精准（比如，域名所有者，更换了IP，从指向国内IP，变成了指向境外IP），而导致的分流错误。
+
 <br>
 
 上述过程，核心原理：
