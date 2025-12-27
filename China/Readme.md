@@ -126,7 +126,7 @@
 
 # DNS分流 ：获得 🇨🇳中国IP
 nameserver-policy: 
-   'RULE-SET:China_Domain'    :  'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' 
+   'RULE-SET:China_Domain'  :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN' ] 
      
 # Rule分流：直连 中国IP     
 rules:
