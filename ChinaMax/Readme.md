@@ -122,7 +122,8 @@
 使用时，优先在 DNS分流策略（ nameserver-policy ） 中引用 ，而不是优先在 分流规则（ rule ） 中引用。最佳引用方式，范例如下：
 
 ```yaml
-dns                               : # 禁用FakeIP + 禁用Fallback DNS
+# 禁用FakeIP + 禁用Fallback DNS
+dns                               : 
   enable                          : true     
   enhanced-mode                   : redir-host
   fake-ip-filter-mode             : blacklist
