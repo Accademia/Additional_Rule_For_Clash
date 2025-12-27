@@ -221,7 +221,14 @@
 ----------------------------------
 <br>
 
-+ xAI Grok 分流规则 ❗️❗️❗️❗️❗️
++ [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	 分流规则 ❗️❗️❗️❗️❗️
+  
+  - 由于Stash作者 “拒绝支持” 一些必备特性。❌❌❌ 所以，本规则，不保证在 Stash for iOS 中可以100%生效，仅完美兼容Clash Meta，具体可以看此规则的详情页。
+
+
+<br>
+
++ [xAI Grok](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Grok) 分流规则 ❗️❗️❗️❗️❗️
 
     - 单纯设置分流规则，可能 Grok APP for iOS（仅APP端） 仍旧连不上，需要在Stash、Clash的配置文件中，对IPv6做特殊处理 ！！！
 
@@ -230,7 +237,7 @@
 
 <br>
 
-+ AppleAI (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
++ [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI) (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
     -  🇨🇳 国行 iPhone 、 iPad （不含Mac），无需尝试❕❕ 已被苹果锁死 ❕❕
       
@@ -241,7 +248,7 @@
    
 + 存在交叉的 分流规则 
 
-    - AppleAI 和 AppleNews ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置的开关。以免出现相互干扰。
+    -  [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI)  和 [AppleNews](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleNews)	 ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置的开关。以免出现相互干扰。
     
 <br>
 <br>
