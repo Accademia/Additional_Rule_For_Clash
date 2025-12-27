@@ -132,9 +132,9 @@ dns                               : # 禁用FakeIP + 禁用Fallback DNS
 # DNS分流 ：获得 🇨🇳中国IP
 nameserver-policy: 
    # 中国域名解析， 调用 国内DNS服务器
-   'RULE-SET:China_Domain'  :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'   ]    
+   'RULE-SET:China_Domain'        :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'   ]    
    # 其余所有域名解析， 通过 “♾️.<Final>”的VPN节点 ，转发给海外DNS服务器 
-   '+.*'                    :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'  , 'https://dns.google/dns-query#♾️.<Final>'     ]   
+   '+.*'                          :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'  , 'https://dns.google/dns-query#♾️.<Final>'     ]   
    
 # Rule分流：直连 中国IP     
 rules:
