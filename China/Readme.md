@@ -127,12 +127,16 @@
 # DNS分流 ：获得 🇨🇳中国IP
 nameserver-policy: 
    # 中国域名解析， 调用 国内DNS服务器
-   'RULE-SET:China_Domain'  :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN' ]    
-   # 其余所有域名解析， 通过 “兜底策略”的VPN节点 ，转发给海外DNS服务器 
-   '+.*'                    :  [ 'https://cloudflare-dns.com/dns-query#♾️.<兜底策略>'   , 'https://dns.google/dns-query#♾️.<兜底策略>'     ]   
+   'RULE-SET:China_Domain'  :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN' , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'   ]    
+   # 其余所有域名解析， 通过 “♾️.<Final>”的VPN节点 ，转发给海外DNS服务器 
+   '+.*'                    :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'  , 'https://dns.google/dns-query#♾️.<Final>'     ]   
+   
 # Rule分流：直连 中国IP     
 rules:
+  # 中国直连
   - GEOIP , cn , 🇨🇳.<Country>—CN
+  # 兜底：其余流量，转发VPN （白名单模式）
+  - MATCH      , ♾️.<Final> 
 
 # 远程规则集
 rule-providers: 
@@ -141,7 +145,7 @@ rule-providers:
 ```
 <br>
 
-✅✅✅ 上述这种写法，可以几乎100%避免  由于本规则集合极个别不精准（比如，域名所有者，更换了IP，从指向国内IP，变成了指向境外IP），而导致的分流错误。
+✅✅✅ 上述这种写法，可以几乎100%避免  由于本规则集合极个别不精准（比如，域名所有者，更换了IP，从指向国内IP，变成了指向境外IP），而导致的分流错误。 并且100%防止了，DNS泄漏！
 
 <br>
 
@@ -153,7 +157,7 @@ rule-providers:
 
 <br>
 
-更多范例（如：上述过程中，如何 100% 避免DNS泄漏），可以看 如下：
+更多范例（如：上述过程中，如何 100% 避免 美国VPN节点 请求日本CDN 等 绕路行为 ），可以看 如下：
 
  - 《 超级省电 Clash 分流规则模版》：https://github.com/Accademia/Clash_Configuration_Template
  
