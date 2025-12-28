@@ -22,5 +22,5 @@ payload:
       - IP-CIDR        , 199.27.72.0/21          # , no-resolve                
       - IP-CIDR        , 199.232.0.0/16          # , no-resolve                            
 
-      - IP-CIDR        , 2a04:4e40::/32          # , no-resolve                
-      - IP-CIDR        , 2a04:4e42::/32          # , no-resolve                            
+      - IP-CIDR6       , 2a04:4e40::/32          # , no-resolve                
+      - IP-CIDR6       , 2a04:4e42::/32          # , no-resolve                            
