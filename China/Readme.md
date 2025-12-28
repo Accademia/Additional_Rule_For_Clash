@@ -161,7 +161,7 @@ rule-providers :
   
   - ‼️‼️‼️ 必须明白 ‼️‼️‼️ ：DNS策略分流（ nameserver-policy ），比普通分流规则（ rule ）重要十倍以上。因为当你通过 nameserver-policy，让哪个国家的VPS转发“域名解析请求”的时候，IP所在国家就已经确定了，后面再怎么写rule分流规则，都改变不了这个IP的地理位置。所以，在你写clash分流规则时，尤其是在基于地理位置（如 国家）的分离规则时，如果你的DNS的策略分流规则（ nameserver-policy ），弱于 你的 普通分流规则 （ Rule ），100%完全就是本末倒置 ‼️‼️‼️‼️‼️‼️‼️‼️‼️ 记住，DNS策略分流（ nameserver-policy ） vs  普通分流规则（ rule ），两者之间 1:1 复刻！两者互为镜像！才能达到最佳最完美（ 0绕路 + 0 DNS泄漏 + 满血版DNS解析）的分流 ‼️‼️‼️  （ 具体实施范例，可以看《 超级省电 Clash 分流规则模版》 ）
 
-  - ‼️‼️‼️ 必须 禁用FakeIP + 禁用Fallback DNS ‼️‼️‼️  这技术压根就不应该被发明出来。100%垃圾中的垃圾。具体原因在 [《 超级省电 Clash 分流规则模版 》](https://github.com/Accademia/Clash_Configuration_Template) 的 [为什么必须禁用 ，官方推荐的 “ Fake IP + Fallback DNS + no-resolve ” 组合？](https://github.com/Accademia/Clash_Configuration_Template?tab=readme-ov-file#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%AC%E6%A8%A1%E7%89%88-%E5%AE%8C%E5%85%A8%E7%A6%81%E7%94%A8-%E4%BA%86%E5%AE%98%E6%96%B9%E6%8E%A8%E8%8D%90%E7%9A%84--fake-ip--fallback-dns--no-resolve--%E7%9A%84%E7%BB%84%E5%90%88) 中，已有阐述。
+  - ‼️‼️‼️ 必须 禁用FakeIP + 禁用Fallback DNS ‼️‼️‼️  这技术压根就不应该被发明出来。100%垃圾中的垃圾。具体原因在 《 超级省电 Clash 分流规则模版 》内，如下章节已有阐述： [ 为什么必须禁用 ，官方推荐的 “ Fake IP + Fallback DNS + no-resolve ” 组合？](https://github.com/Accademia/Clash_Configuration_Template?tab=readme-ov-file#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%AC%E6%A8%A1%E7%89%88-%E5%AE%8C%E5%85%A8%E7%A6%81%E7%94%A8-%E4%BA%86%E5%AE%98%E6%96%B9%E6%8E%A8%E8%8D%90%E7%9A%84--fake-ip--fallback-dns--no-resolve--%E7%9A%84%E7%BB%84%E5%90%88) 
 
 <br>
 
