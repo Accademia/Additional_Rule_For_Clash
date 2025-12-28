@@ -164,15 +164,15 @@
     + 包含：Windows操作系统 的 系统更新 和 各种内置 、Office 、 以及其他 微软客户端APP
 
 + [China](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/China) ：🇨🇳 中国网站 的 Clash分流规则 
-    + [blackmatrix7](https://github.com/blackmatrix7)/ios_rule_script/China 的 修正版 
+    + [blackmatrix7/ios_rule_script/China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China) 的 修正版 
     + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3,000条 
 
 + [GeositeCN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeositeCN) ：🇨🇳 中国网站 的 Clash分流规则
-    + [v2fly](https://github.com/v2fly)/geosite:cn 的 修正版
+    + [v2fly/geosite:cn](https://github.com/v2fly) 的 修正版
     + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4,800条 
 
 + [ChinaMax](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/ChinaMax) ：🇨🇳 中国网站 的 Clash分流规则 
-    + [blackmatrix7](https://github.com/blackmatrix7)/ios_rule_script/ChinaMax 的 修正版 
+    + [blackmatrix7/ios_rule_script/ChinaMax](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax) 的 修正版 
     + 注释掉 17% 错误、冗余规则后，有效规则 = 约 98,000条 
     + 其清洗粒度，不及GeositeCN。具体请看此规则说明
 
