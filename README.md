@@ -129,8 +129,6 @@
 
 + [Parsec](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Parsec)		: Parsec 的 Clash分流规则
 
-+ [Triller](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Triller)		: Triller 的 Clash分流规则 （此软件已经被官方关闭）
-
 + [Signal](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Signal)		: Signal 的 Clash分流规则
 
 + [AppleNews](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleNews)		: 苹果新闻 的 Clash分流规则

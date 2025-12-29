@@ -10,7 +10,6 @@
 #    UnsupportVPN                           : {type: http, behavior: classical, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/UnsupportVPN/UnsupportVPN.yaml'                              , path: ./ruleset/UnsupportVPN.yaml              }
 #
 #    UnsupportVPN_Domain                    : {type: http, behavior: domain, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/UnsupportVPN/UnsupportVPN_Domian.yaml'                          , path: ./ruleset/UnsupportVPN_Domian.yaml       }
-#    UnsupportVPN_IP                        : {type: http, behavior: ipcidr, interval: 86400, url: 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@master/UnsupportVPN/UnsupportVPN_IP.yaml'                              , path: ./ruleset/UnsupportVPN_IP.yaml           }
 
 
 #
