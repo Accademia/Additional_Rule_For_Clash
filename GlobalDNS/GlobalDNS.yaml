@@ -1,568 +1,579 @@
 payload:
 
-  - DOMAIN-SUFFIX , 8888.google                                 # Google
-  - DOMAIN-SUFFIX , dns.google                                  # Google
-  - DOMAIN-SUFFIX , dns.google.com                              # Google
-  - IP-CIDR       , 8.8.4.4/32                                  # Google
-  - IP-CIDR       , 8.8.8.8/32                                  # Google
-  - IP-CIDR6      , 2001:4860:4860::8844/128                    # Google
-  - IP-CIDR6      , 2001:4860:4860::8888/128                    # Google
-  - DOMAIN-SUFFIX , dns64.dns.google                            # Google Public DNS64 的 DoH 入口（NAT64 场景）
-  - DOMAIN-SUFFIX , 1dot1dot1dot1.cloudflare-dns.com            # Cloudflare
-  - DOMAIN-SUFFIX , chrome.cloudflare-dns.com                   # Cloudflare
-  - DOMAIN-SUFFIX , cloudflare-dns.com                          # Cloudflare
-  - DOMAIN-SUFFIX , dns.cloudflare.com                          # Cloudflare
-  - DOMAIN-SUFFIX , one.one.one.one                             # Cloudflare
-  - IP-CIDR       , 1.0.0.1/32                                  # Cloudflare
-  - IP-CIDR       , 1.0.0.2/32                                  # Cloudflare
-  - IP-CIDR       , 1.0.0.3/32                                  # Cloudflare
-  - IP-CIDR       , 1.1.1.1/32                                  # Cloudflare
-  - IP-CIDR       , 1.1.1.2/32                                  # Cloudflare
-  - IP-CIDR       , 1.1.1.3/32                                  # Cloudflare
-  - IP-CIDR       , 104.16.248.249/32                           # Cloudflare
-  - IP-CIDR       , 104.16.249.249/32                           # Cloudflare
-  - IP-CIDR6      , 2606:4700:4700::1001/128                    # Cloudflare
-  - IP-CIDR6      , 2606:4700:4700::1111/128                    # Cloudflare
-  - IP-CIDR6      , 2606:4700:4700::1112/128                    # Cloudflare
-  - IP-CIDR6      , 2606:4700::6810:f8f9/128                    # Cloudflare
-  - IP-CIDR6      , 2606:4700::6810:f9f9/128                    # Cloudflare
-  - DOMAIN-SUFFIX , dns64.cloudflare-dns.com                    # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
-  - DOMAIN-SUFFIX , family.cloudflare-dns.com                   # Cloudflare Family
-  - DOMAIN-SUFFIX , mozilla.cloudflare-dns.com                  # Cloudflare Mozilla
-  - DOMAIN-SUFFIX , security.cloudflare-dns.com                 # Cloudflare Security
- #- DOMAIN-SUFFIX , apple-dns.net                               # Apple
- #- DOMAIN-SUFFIX , dns.apple.com                               # Apple
-  - DOMAIN-SUFFIX , dns.quad9.net                               # Quad9
-  - DOMAIN-SUFFIX , dns10.quad9.net                             # Quad9
-  - DOMAIN-SUFFIX , dns11.quad9.net                             # Quad9
-  - DOMAIN-SUFFIX , dns9.quad9.net                              # Quad9
-  - IP-CIDR       , 149.112.112.10/32                           # Quad9
-  - IP-CIDR       , 149.112.112.11/32                           # Quad9
-  - IP-CIDR       , 149.112.112.112/32                          # Quad9
-  - IP-CIDR       , 149.112.112.12/32                           # Quad9
-  - IP-CIDR       , 149.112.112.9/32                            # Quad9
-  - IP-CIDR       , 9.9.9.10/32                                 # Quad9
-  - IP-CIDR       , 9.9.9.11/32                                 # Quad9
-  - IP-CIDR       , 9.9.9.12/32                                 # Quad9
-  - IP-CIDR       , 9.9.9.9/32                                  # Quad9
-  - IP-CIDR6      , 2620:fe::10/128                             # Quad9
-  - IP-CIDR6      , 2620:fe::11/128                             # Quad9
-  - IP-CIDR6      , 2620:fe::9/128                              # Quad9
-  - IP-CIDR6      , 2620:fe::fe/128                             # Quad9
-  - IP-CIDR6      , 2620:fe::fe:10/128                          # Quad9
-  - IP-CIDR6      , 2620:fe::fe:11/128                          # Quad9
-  - IP-CIDR6      , 2620:fe::fe:9/128                           # Quad9
-  - DOMAIN-SUFFIX , dns.umbrella.com                            # OpenDNS
-  - DOMAIN-SUFFIX , doh.opendns.com                             # OpenDNS
-  - IP-CIDR       , 146.112.41.2/32                             # OpenDNS
-  - IP-CIDR       , 208.67.220.220/32                           # OpenDNS
-  - IP-CIDR       , 208.67.222.222/32                           # OpenDNS
-  - IP-CIDR6      , 2620:119:fc::2/128                          # OpenDNS
-  - DOMAIN-SUFFIX , doh.familyshield.opendns.com                # OpenDNS FamilyShield
-  - DOMAIN-SUFFIX , opendns.com                                 # OpenDNS (美国)
-  - DOMAIN-SUFFIX , dns-family.adguard.com                      # AdGuard DNS
-  - DOMAIN-SUFFIX , dns-unfiltered.adguard.com                  # AdGuard DNS
-  - DOMAIN-SUFFIX , dns.adguard.com                             # AdGuard DNS
-  - DOMAIN-SUFFIX , unfiltered.adguard-dns.com                  # AdGuard DNS
-  - IP-CIDR       , 176.103.130.130/32                          # AdGuard DNS
-  - IP-CIDR       , 176.103.130.131/32                          # AdGuard DNS
-  - IP-CIDR       , 176.103.130.132/32                          # AdGuard DNS
-  - IP-CIDR       , 176.103.130.134/32                          # AdGuard DNS
-  - IP-CIDR       , 94.140.14.14/32                             # AdGuard DNS
-  - IP-CIDR       , 94.140.14.140/32                            # AdGuard DNS
-  - IP-CIDR       , 94.140.14.141/32                            # AdGuard DNS
-  - IP-CIDR       , 94.140.14.15/32                             # AdGuard DNS
-  - IP-CIDR       , 94.140.15.15/32                             # AdGuard DNS
-  - IP-CIDR       , 94.140.15.16/32                             # AdGuard DNS
-  - IP-CIDR6      , 2a00:5a60::ad1:ff/128                       # AdGuard DNS
-  - IP-CIDR6      , 2a00:5a60::ad2:ff/128                       # AdGuard DNS
-  - IP-CIDR6      , 2a00:5a60::bad1:ff/128                      # AdGuard DNS
-  - IP-CIDR6      , 2a00:5a60::bad2:ff/128                      # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::1:ff/128                         # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::2:ff/128                         # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::ad1:ff/128                       # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::ad2:ff/128                       # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::bad1:ff/128                      # AdGuard DNS
-  - IP-CIDR6      , 2a10:50c0::bad2:ff/128                      # AdGuard DNS
-  - DOMAIN-SUFFIX , dns.adguard-dns.com                         # AdGuard DNS 默认 DoH 入口，官方文档新域名
-  - DOMAIN-SUFFIX , family.adguard-dns.com                      # AdGuard DNS Family 过滤版 DoH
-  - DOMAIN-SUFFIX , dns.nextdns.io                              # NextDNS
-  - IP-CIDR       , 104.238.181.28/32                           # NextDNS
-  - IP-CIDR       , 143.110.229.87/32                           # NextDNS
-  - IP-CIDR       , 45.90.28.0/32                               # NextDNS
-  - IP-CIDR       , 45.90.30.0/32                               # NextDNS
-  - IP-CIDR6      , 2a07:a8c0::/128                             # NextDNS
-  - IP-CIDR6      , 2a07:a8c1::/128                             # NextDNS
-  - DOMAIN-SUFFIX , cleanbrowsing.org                           # CleanBrowsing (美国)
-  - DOMAIN-SUFFIX , doh.cleanbrowsing.org                       # CleanBrowsing
-  - IP-CIDR       , 185.228.168.10/32                           # CleanBrowsing
-  - IP-CIDR       , 185.228.168.168/32                          # CleanBrowsing
-  - IP-CIDR       , 185.228.168.199/32                          # CleanBrowsing
-  - IP-CIDR       , 185.228.168.9/32                            # CleanBrowsing
-  - IP-CIDR       , 185.228.169.11/32                           # CleanBrowsing
-  - IP-CIDR       , 185.228.169.168/32                          # CleanBrowsing
-  - IP-CIDR       , 185.228.169.9/32                            # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:1::/128                           # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:1::1/128                          # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:1::2/128                          # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:2::/128                           # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:2::1/128                          # CleanBrowsing
-  - IP-CIDR6      , 2a0d:2a00:2::2/128                          # CleanBrowsing
-  - DOMAIN-SUFFIX , security-filter-dns.cleanbrowsing.org       # CleanBrowsing Security
-  - DOMAIN-SUFFIX , dns.sb                                      # DNS.SB
-  - DOMAIN-SUFFIX , doh.dns.sb                                  # DNS.SB
-  - DOMAIN-SUFFIX , doh.sb                                      # DNS.SB
-  - DOMAIN-SUFFIX , dot.sb                                      # DNS.SB
-  - IP-CIDR       , 45.11.45.11/32                              # DNS.SB
-  - DOMAIN-SUFFIX , dns.watch                                   # DNS.Watch (德国)
-  - DOMAIN-SUFFIX , uncensoreddns.org                           # UncensoredDNS (丹麦)
-  - DOMAIN-SUFFIX , family.canadianshield.cira.ca               # CIRA Canadian Shield (加拿大)
-  - DOMAIN-SUFFIX , private.canadianshield.cira.ca              # CIRA Canadian Shield (加拿大)
-  - DOMAIN-SUFFIX , protected.canadianshield.cira.ca            # CIRA Canadian Shield (加拿大)
-  - DOMAIN-SUFFIX , com.cast.net                                # Xfinity (美国)
-  - DOMAIN-SUFFIX , doh.xfinity.com                             # Xfinity (美国)
-  - DOMAIN-SUFFIX , dns.twnic.tw                                # 台湾 Quad 101
-  - DOMAIN-SUFFIX , dns.hinet.net                               # Chunghwa Telecom (HiNet, 台湾)
-  - DOMAIN-SUFFIX , doh.hinet.net                               # Chunghwa Telecom DoH
-  - DOMAIN-SUFFIX , dns.telekom.de                              # Deutsche Telekom DoH
-  - DOMAIN-SUFFIX , doh-01.spectrum.com                         # Spectrum DoH
-  - DOMAIN-SUFFIX , doh-02.spectrum.com                         # Spectrum DoH
-  - IP-CIDR       , 24.240.146.8/32                             # Spectrum DoH
-  - IP-CIDR6      , 2600:6c7f:f000:202::8/128                   # Spectrum DoH
-  - DOMAIN-SUFFIX , he.net                                      # Hurricane Electric (美国)
-  - DOMAIN-SUFFIX , ordns.he.net                                # Hurricane Electric (美国)
-  - DOMAIN-SUFFIX , doh.powerdns.com                            # PowerDNS (荷兰)
-  - DOMAIN-SUFFIX , doh.powerdns.org                            # PowerDNS (荷兰)
-  - DOMAIN-SUFFIX , powerdns.org                                # PowerDNS (荷兰)
-  - DOMAIN-SUFFIX , tenta.io                                    # Tenta (美国)
-  - DOMAIN-SUFFIX , doh.dnsfilter.com                           # DNSFilter DoH
-  - DOMAIN-SUFFIX , doh.safedns.com                             # SafeDNS DoH
-  - DOMAIN-SUFFIX , safeservedns.com                            # SafeServe DNS (Namecheap)
-  - DOMAIN-SUFFIX , dns-dot.defensx.com                         # DefensX DoT/DoH
-  - DOMAIN-SUFFIX , dns.controld.com                            # https://controld.com/free-dns
-  - DOMAIN-SUFFIX , freedns.controld.com                        # https://controld.com/free-dns
-  - IP-CIDR       , 76.76.10.11/32                              # https://controld.com/free-dns
-  - IP-CIDR       , 76.76.2.11/32                               # https://controld.com/free-dns
-  - IP-CIDR6      , 2606:1a40:1::11/128                         # https://controld.com/free-dns
-  - IP-CIDR6      , 2606:1a40::11/128                           # https://controld.com/free-dns
-  - DOMAIN-SUFFIX , child-noads.joindns4.eu                     # DNS4EU Child + No-Ads
-  - IP-CIDR       , 86.54.11.11/32                              # DNS4EU Child + No-Ads
-  - IP-CIDR       , 86.54.11.211/32                             # DNS4EU Child + No-Ads
-  - IP-CIDR6      , 2a13:1001::86:54:11:11/128                  # DNS4EU Child + No-Ads
-  - IP-CIDR6      , 2a13:1001::86:54:11:211/128                 # DNS4EU Child + No-Ads
-  - DOMAIN-SUFFIX , child.joindns4.eu                           # DNS4EU Child
-  - IP-CIDR       , 86.54.11.12/32                              # DNS4EU Child
-  - IP-CIDR       , 86.54.11.212/32                             # DNS4EU Child
-  - IP-CIDR6      , 2a13:1001::86:54:11:12/128                  # DNS4EU Child
-  - IP-CIDR6      , 2a13:1001::86:54:11:212/128                 # DNS4EU Child
-  - DOMAIN-SUFFIX , noads.joindns4.eu                           # DNS4EU No-Ads
-  - IP-CIDR       , 86.54.11.13/32                              # DNS4EU No-Ads
-  - IP-CIDR       , 86.54.11.213/32                             # DNS4EU No-Ads
-  - IP-CIDR6      , 2a13:1001::86:54:11:13/128                  # DNS4EU No-Ads
-  - IP-CIDR6      , 2a13:1001::86:54:11:213/128                 # DNS4EU No-Ads
-  - DOMAIN-SUFFIX , protective.joindns4.eu                      # DNS4EU Protective
-  - IP-CIDR       , 86.54.11.1/32                               # DNS4EU Protective
-  - IP-CIDR       , 86.54.11.201/32                             # DNS4EU Protective
-  - IP-CIDR6      , 2a13:1001::86:54:11:1/128                   # DNS4EU Protective
-  - IP-CIDR6      , 2a13:1001::86:54:11:201/128                 # DNS4EU Protective
-  - DOMAIN-SUFFIX , unfiltered.joindns4.eu                      # DNS4EU Unfiltered
-  - IP-CIDR       , 86.54.11.100/32                             # DNS4EU Unfiltered
-  - IP-CIDR       , 86.54.11.200/32                             # DNS4EU Unfiltered
-  - IP-CIDR6      , 2a13:1001::86:54:11:100/128                 # DNS4EU Unfiltered
-  - IP-CIDR6      , 2a13:1001::86:54:11:200/128                 # DNS4EU Unfiltered
-  - DOMAIN-SUFFIX , doh.libredns.gr                             # LibreDNS (希腊)
-  - DOMAIN-SUFFIX , libredns.gr                                 # LibreDNS (希腊)
-  - DOMAIN-SUFFIX , adblock.doh.mullvad.net                     # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
-  - DOMAIN-SUFFIX , dns.mullvad.net                             # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
-  - DOMAIN-SUFFIX , doh.mullvad.net                             # Mullvad DNS (瑞典)
-  - DOMAIN-SUFFIX , dns.surfshark.com                           # Surfshark DNS (全球)
-  - DOMAIN-SUFFIX , basic.rethinkdns.com                        # RethinkDNS (全球分布式)
-  - DOMAIN-SUFFIX , doh.42l.fr                                  # 42l DNS (法国)
-  - DOMAIN-SUFFIX , dns-nyc.aaflalo.me                          # Aaflalo DNS (美国)
-  - DOMAIN-SUFFIX , dns.aaflalo.me                              # Aaflalo DNS (美国)
-  - DOMAIN-SUFFIX , dns.aa.net.uk                               # AAISP (英国)
-  - DOMAIN-SUFFIX , doh.alternate-dns.com                       # Alternate DNS (美国)
-  - DOMAIN-SUFFIX , applied-privacy.net                         # Applied Privacy (奥地利)
-  - DOMAIN-SUFFIX , doh.applied-privacy.net                     # Applied Privacy (奥地利)
-  - DOMAIN-SUFFIX , doh.armadillodns.net                        # Armadillo DNS (全球)
-  - DOMAIN-SUFFIX , doh-de.blahdns.com                          # BlahDNS (德国)
-  - DOMAIN-SUFFIX , doh-fi.blahdns.com                          # BlahDNS (芬兰)
-  - DOMAIN-SUFFIX , doh-jp.blahdns.com                          # BlahDNS (日本)
-  - DOMAIN-SUFFIX , doh.blahdns.com                             # BlahDNS (欧洲)
-  - DOMAIN-SUFFIX , example.doh.blockerdns.com                  # BlockerDNS (美国)
-  - DOMAIN-SUFFIX , dns.blokada.org                             # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
-  - DOMAIN-SUFFIX , boothlabs.me                                # Booth Labs (加拿大)
-  - DOMAIN-SUFFIX , dns.cfiec.net                               # CFIEC DNS (全球)
-  - DOMAIN-SUFFIX , dns.circl.lu                                # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
-  - DOMAIN-SUFFIX , dns.cmrg.net                                # CMRG DNS (加拿大)
-  - DOMAIN-SUFFIX , doh.comodo.com                              # Comodo
-  - IP-CIDR       , 8.20.247.20/32                              # Comodo
-  - IP-CIDR       , 8.26.56.26/32                               # Comodo
-  - DOMAIN-SUFFIX , dns.containerpi.com                         # ContainerPi DNS (全球)
-  - DOMAIN-SUFFIX , dohdot.coxlab.net                           # CoxLab DNS (美国)
-  - DOMAIN-SUFFIX , dnsprivacy.at                               # DNS Privacy (奥地利)
-  - DOMAIN-SUFFIX , doh.dnswarden.com                           # DNS Warden (全球分布式)
-  - DOMAIN-SUFFIX , dns.dns-over-https.com                      # DNS-over-HTTPS (全球)
-  - DOMAIN-SUFFIX , dns.dnsoverhttps.net                        # DNS-over-HTTPS (全球)
-  - DOMAIN-SUFFIX , adblock.dns.dnswarden.com                   # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
-  - DOMAIN-SUFFIX , dns1.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
-  - DOMAIN-SUFFIX , dns1.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 1（DoH/DoT）
-  - DOMAIN-SUFFIX , dns2.dnscrypt.ca                            # dnscrypt.ca 加拿大节点 2（anycast）
-  - DOMAIN-SUFFIX , dns2.ipv6.dnscrypt.ca                       # dnscrypt.ca IPv6 节点 2
-  - DOMAIN-SUFFIX , dnscrypt.ca                                 # DNSCrypt Canada (加拿大)
-  - DOMAIN-SUFFIX , doh.dnslify.com                             # Dnslify (全球)
-  - DOMAIN-SUFFIX , doh.crypto.sx                               # DOH Crypto (全球分布式)
-  - DOMAIN-SUFFIX , doh.li                                      # DOH LI (全球)
-  - DOMAIN-SUFFIX , eth-services.de                             # ETH Services (德国)
-  - DOMAIN-SUFFIX , rdns.faelix.net                             # Faelix DNS (全球)
-  - DOMAIN-SUFFIX , doh.ffmuc.net                               # FFMUC (德国)
-  - DOMAIN-SUFFIX , fische.io                                   # Fische (德国)
-  - DOMAIN-SUFFIX , dns.flatuslifir.is                          # Flatuslifir DNS (冰岛)
-  - DOMAIN-SUFFIX , restena.lu                                  # Foundation RESTENA (卢森堡)
-  - DOMAIN-SUFFIX , go6lab.si                                   # Go6Lab (斯洛文尼亚)
-  - DOMAIN-SUFFIX , query.hdns.io                               # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
-  - DOMAIN-SUFFIX , dns.hostux.net                              # Hostux DNS (全球)
-  - DOMAIN-SUFFIX , ibksturm.synology.me                        # Ibksturm (瑞士)
-  - DOMAIN-SUFFIX , ibuki.cgnat.net                             # Ibuki DNS (全球)
-  - DOMAIN-SUFFIX , public.dns.iij.jp                           # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
-  - DOMAIN-SUFFIX , doh.iij.jp                                  # IIJ DNS (日本)
-  - DOMAIN-SUFFIX , dns1.in-berlin.de                           # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
-  - DOMAIN-SUFFIX , dns2.in-berlin.de                           # in-berlin.de 公共 DoH 节点 2
-  - DOMAIN-SUFFIX , dns.ipv6dns.com                             # IPv6 DNS (全球)
-  - DOMAIN-SUFFIX , jcdns.fun                                   # JCDNS (全球)
-  - DOMAIN-SUFFIX , dns.keweon.center                           # Keweon DNS (全球)
-  - DOMAIN-SUFFIX , us1.dns.lavate.ch                           # LavaDNS 美国节点，和上面同家服务商
-  - DOMAIN-SUFFIX , eu1.dns.lavate.ch                           # LavaDNS 芬兰节点（EU），无日志 DoH
-  - DOMAIN-SUFFIX , ldn.imlonghao.com                           # Lorraine Data Network (法国)
-  - DOMAIN-SUFFIX , dns.moulticast.net                          # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
-  - DOMAIN-SUFFIX , adblock.mydns.network                       # MyDNS Network
-  - DOMAIN-SUFFIX , freedom.mydns.network                       # myDNS.network 标准 DoH（不拦截）
-  - DOMAIN-SUFFIX , doh.nekomimi-router.com                     # NekomimiRouter (日本)
-  - DOMAIN-SUFFIX , neutopia.org                                # Neutopia (法国)
-  - DOMAIN-SUFFIX , odvr.nic.cz                                 # NIC CZ (捷克)
-  - DOMAIN-SUFFIX , opennic.net                                 # OpenNIC (社区开放DNS)
-  - DOMAIN-SUFFIX , doh.centraleu.pi-dns.com                    # Pi-DNS (欧洲)
-  - DOMAIN-SUFFIX , doh.eastus.pi-dns.com                       # Pi-DNS (美国东部)
-  - DOMAIN-SUFFIX , doh.northeu.pi-dns.com                      # Pi-DNS (北欧)
-  - DOMAIN-SUFFIX , doh.westus.pi-dns.com                       # Pi-DNS (美国西部)
-  - DOMAIN-SUFFIX , dns-tls.qis.io                              # QIS DNS (全球)
-  - DOMAIN-SUFFIX , doh.qis.io                                  # QIS DNS (全球)
-  - DOMAIN-SUFFIX , sfw.overthebox.ovh                          # Scaleway (法国)
-  - DOMAIN-SUFFIX , doh.seby.io                                 # Seby DNS (澳大利亚)
-  - DOMAIN-SUFFIX , doh.securedns.eu                            # SecureDNS (欧洲)
-  - DOMAIN-SUFFIX , fi.doh.dns.snopyta.org                      # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
-  - DOMAIN-SUFFIX , snopyta.org                                 # Snopyta (芬兰)
-  - DOMAIN-SUFFIX , cdn-doh.ssnm.xyz                            # SSNM (全球)
-  - DOMAIN-SUFFIX , dns.switch.ch                               # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
-  - DOMAIN-SUFFIX , dns.t53.de                                  # T53 DNS (德国)
-  - DOMAIN-SUFFIX , doh.tiar.app                                # Tiarap DNS (新加坡)
-  - DOMAIN-SUFFIX , doh.tiarap.org                              # Tiarap DNS (全球)
-  - DOMAIN-SUFFIX , jp.tiar.app                                 # Tiarap DNS (日本)
-  - DOMAIN-SUFFIX , jp.tiarap.org                               # Tiarap DNS (日本)
-  - DOMAIN-SUFFIX , dns.tin-fan.com                             # Tin Fan DNS (全球分布式)
-  - DOMAIN-SUFFIX , adfree.usableprivacy.net                    # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
-  - DOMAIN-SUFFIX , doh.verisign.com                            # Verisign
-  - DOMAIN-SUFFIX , dns.wevpn.com                               # WeDNS（WeVPN 背后），未过滤 DoH 配置
-  - DOMAIN-SUFFIX , dns-weblock.wevpn.com                       # WeDNS 带广告/恶意域名过滤的 DoH
-  - DOMAIN-SUFFIX , wikimedia-dns.org                           # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
-  - DOMAIN-SUFFIX , yeti-dns.org                                # Yeti DNS (全球分布式)
-  - IP-CIDR       , 4.2.2.1/32                                  # Level3
-  - IP-CIDR       , 4.2.2.2/32                                  # Level3
-  - IP-CIDR       , 4.2.2.3/32                                  # Level3
-  - IP-CIDR       , 4.2.2.4/32                                  # Level3
-  - IP-CIDR       , 4.2.2.5/32                                  # Level3
-  - IP-CIDR       , 4.2.2.6/32                                  # Level3
-  - IP-CIDR       , 185.184.222.222/32                          # dns.sb
-  - IP-CIDR       , 185.222.222.222/32                          # dns.sb
-  - IP-CIDR       , 216.128.181.13/32                           # dns.sb
-  - IP-CIDR6      , 2606:4700:3033::681b:9eb2/128               # dns.sb
-  - IP-CIDR6      , 2606:4700:3033::ac43:9650/128               # dns.sb
-  - IP-CIDR6      , 2606:4700:3035::681b:9fb2/128               # dns.sb
-  - IP-CIDR6      , 2a09::/128                                  # dns.sb
-  - IP-CIDR6      , 2a09::1/128                                 # dns.sb
-  - IP-CIDR       , 84.200.69.80/32                             # DNS.WATCH
-  - IP-CIDR       , 84.200.70.40/32                             # DNS.WATCH
-  - IP-CIDR       , 89.233.43.71/32                             # UncensoredDNS
-  - IP-CIDR6      , 2a01:3a0:53:53::/128                        # UncensoredDNS
-  - IP-CIDR       , 75.75.77.99/32                              # Xfinity
-  - IP-CIDR       , 96.113.151.141/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.142/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.143/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.145/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.147/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.148/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.149/32                           # Xfinity
-  - IP-CIDR       , 96.113.151.150/32                           # Xfinity
-  - IP-CIDR6      , 2001:558:fe21:6b:96:113:151:145/128         # Xfinity
-  - IP-CIDR6      , 2001:558:fe21:6b:96:113:151:147/128         # Xfinity
-  - IP-CIDR       , 12.159.2.159/32                             # AT&T
-  - IP-CIDR       , 13.89.120.251/32                            # AT&T
-  - IP-CIDR       , 13.89.121.94/32                             # AT&T
-  - IP-CIDR       , 13.89.121.95/32                             # AT&T
-  - IP-CIDR       , 20.42.80.15/32                              # AT&T
-  - IP-CIDR       , 20.42.80.49/32                              # AT&T
-  - IP-CIDR       , 40.76.112.230/32                            # AT&T
-  - IP-CIDR       , 101.101.101.101/32                          # Quad 101
-  - IP-CIDR       , 101.102.103.104/32                          # Quad 101
-  - IP-CIDR       , 210.17.9.228/32                             # Quad 101
-  - IP-CIDR6      , 2001:c50:ffff:1:101:101:101:101/128         # Quad 101
-  - IP-CIDR6      , 2001:de4::101/128                           # Quad 101
-  - IP-CIDR6      , 2001:de4::102/128                           # Quad 101
-  - IP-CIDR       , 168.95.1.1/32                               # Chunghwa Telecom (HiNet)
-  - IP-CIDR       , 168.95.192.1/32                             # Chunghwa Telecom (HiNet)
-  - IP-CIDR       , 217.0.43.50/32                              # Deutsche Telekom
-  - IP-CIDR       , 74.82.42.42/32                              # Hurricane Electric
-  - IP-CIDR6      , 2001:470:20::2/128                          # Hurricane Electric
-  - IP-CIDR       , 136.144.215.158/32                          # PowerDNS
-  - IP-CIDR       , 213.239.207.143/32                          # PowerDNS
-  - IP-CIDR6      , 2a01:7c8:d002:1ef:5054:ff:fe40:3703/128     # PowerDNS
-  - IP-CIDR       , 200.1.123.46/32                             # NIC Chile
-  - IP-CIDR6      , 2001:1398:1:0:200:1:123:46/128              # NIC Chile
-  - IP-CIDR       , 66.244.159.100/32                           # Tenta
-  - IP-CIDR       , 66.244.159.200/32                           # Tenta
-  - IP-CIDR       , 99.192.182.100/32                           # Tenta
-  - IP-CIDR       , 99.192.182.200/32                           # Tenta
-  - IP-CIDR       , 103.247.36.150/32                           # DNSFilter
-  - IP-CIDR       , 103.247.36.36/32                            # DNSFilter
-  - IP-CIDR       , 103.247.36.9/32                             # DNSFilter
-  - IP-CIDR       , 103.247.37.150/32                           # DNSFilter
-  - IP-CIDR       , 103.247.37.37/32                            # DNSFilter
-  - IP-CIDR       , 103.247.37.9/32                             # DNSFilter
-  - IP-CIDR       , 195.46.39.39/32                             # SafeDNS
-  - IP-CIDR       , 195.46.39.40/32                             # SafeDNS
-  - IP-CIDR       , 198.54.117.10/32                            # SafeServe DNS
-  - IP-CIDR       , 198.54.117.11/32                            # SafeServe DNS
-  - IP-CIDR       , 3.33.218.70/32                              # DefensX
-  - IP-CIDR       , 3.33.220.70/32                              # DefensX
-  - IP-CIDR       , 116.202.176.26/32                           # libredns.gr
-  - IP-CIDR       , 168.235.81.167/32                           # aaflalo.me
-  - IP-CIDR       , 176.56.236.175/32                           # aaflalo.me
-  - IP-CIDR6      , 2604:180:f3::42/128                         # aaflalo.me
-  - IP-CIDR6      , 2a00:d880:5:bf0::7c93/128                   # aaflalo.me
-  - IP-CIDR       , 5.83.75.10/32                               # Aire Networks
-  - IP-CIDR       , 84.232.73.171/32                            # Aire Networks
-  - IP-CIDR       , 88.148.19.98/32                             # Aire Networks
-  - IP-CIDR       , 109.70.100.100/32                           # Applied Privacy
-  - IP-CIDR       , 146.255.56.98/32                            # Applied Privacy
-  - IP-CIDR       , 94.130.106.88/32                            # appliedprivacy.net
-  - IP-CIDR6      , 2a03:e600:100::53:1/128                     # appliedprivacy.net
-  - IP-CIDR       , 190.115.26.106/32                           # B-DNS
-  - IP-CIDR       , 194.54.82.12/32                             # B-DNS
-  - IP-CIDR       , 194.54.82.13/32                             # B-DNS
-  - IP-CIDR       , 62.75.198.178/32                            # B-DNS
-  - IP-CIDR       , 88.80.20.20/32                              # B-DNS
-  - IP-CIDR       , 88.80.21.20/32                              # B-DNS
-  - IP-CIDR       , 108.61.201.119/32                           # BlahDNS
-  - IP-CIDR       , 139.162.112.47/32                           # BlahDNS
-  - IP-CIDR       , 139.180.141.57/32                           # BlahDNS
-  - IP-CIDR       , 159.69.198.101/32                           # BlahDNS
-  - IP-CIDR       , 217.61.0.97/32                              # BlahDNS
-  - IP-CIDR       , 45.32.55.94/32                              # BlahDNS
-  - IP-CIDR       , 78.46.244.143/32                            # BlahDNS
-  - IP-CIDR       , 95.216.212.177/32                           # BlahDNS
-  - IP-CIDR6      , 2001:19f0:7001:1ded:5400:1ff:fe90:945b/128  # BlahDNS
-  - IP-CIDR6      , 2001:19f0:7001:3259:5400:2ff:fe71:bc9/128   # BlahDNS
-  - IP-CIDR6      , 2606:4700:3031::6818:798e/128               # BlahDNS
-  - IP-CIDR6      , 2606:4700:3035::6818:788e/128               # BlahDNS
-  - IP-CIDR6      , 2a01:4f8:1c1c:6b4b::1/128                   # BlahDNS
-  - IP-CIDR6      , 2a01:4f8:c17:ec67::1/128                    # BlahDNS
-  - IP-CIDR6      , 2a01:4f9:c010:43ce::1/128                   # BlahDNS
-  - IP-CIDR6      , 2a03:a140:10:2461::1/128                    # BlahDNS
-  - IP-CIDR       , 35.230.160.38/32                            # blockerDNS
-  - IP-CIDR       , 35.231.247.227/32                           # blockerDNS
-  - IP-CIDR       , 35.237.220.84/32                            # blockerDNS
-  - IP-CIDR       , 35.245.234.132/32                           # blockerDNS
-  - IP-CIDR       , 198.100.148.224/32                          # boothlabs.me
-  - IP-CIDR       , 198.100.148.36/32                           # boothlabs.me
-  - IP-CIDR6      , 2607:5300:60:be0::1/128                     # boothlabs.me
-  - IP-CIDR       , 139.59.48.222/32                            # captnemo.in
-  - IP-CIDR       , 174.68.248.77/32                            # Cox
-  - IP-CIDR       , 104.255.175.2/32                            # cryptostorm
-  - IP-CIDR       , 109.248.149.133/32                          # cryptostorm
-  - IP-CIDR       , 109.71.42.228/32                            # cryptostorm
-  - IP-CIDR       , 128.127.104.108/32                          # cryptostorm
-  - IP-CIDR       , 155.254.29.113/32                           # cryptostorm
-  - IP-CIDR       , 162.221.207.228/32                          # cryptostorm
-  - IP-CIDR       , 167.114.84.132/32                           # cryptostorm
-  - IP-CIDR       , 173.234.159.235/32                          # cryptostorm
-  - IP-CIDR       , 173.234.56.115/32                           # cryptostorm
-  - IP-CIDR       , 178.175.139.211/32                          # cryptostorm
-  - IP-CIDR       , 185.107.80.84/32                            # cryptostorm
-  - IP-CIDR       , 185.117.118.20/32                           # cryptostorm
-  - IP-CIDR       , 185.212.169.139/32                          # cryptostorm
-  - IP-CIDR       , 185.94.193.234/32                           # cryptostorm
-  - IP-CIDR       , 195.154.40.48/32                            # cryptostorm
-  - IP-CIDR       , 198.7.58.227/32                             # cryptostorm
-  - IP-CIDR       , 209.58.147.36/32                            # cryptostorm
-  - IP-CIDR       , 212.129.46.32/32                            # cryptostorm
-  - IP-CIDR       , 213.163.64.208/32                           # cryptostorm
-  - IP-CIDR       , 23.19.67.116/32                             # cryptostorm
-  - IP-CIDR       , 27.255.77.56/32                             # cryptostorm
-  - IP-CIDR       , 37.120.147.2/32                             # cryptostorm
-  - IP-CIDR       , 5.133.8.187/32                              # cryptostorm
-  - IP-CIDR       , 5.254.96.195/32                             # cryptostorm
-  - IP-CIDR       , 64.120.5.251/32                             # cryptostorm
-  - IP-CIDR       , 64.42.181.227/32                            # cryptostorm
-  - IP-CIDR       , 81.17.31.34/32                              # cryptostorm
-  - IP-CIDR       , 82.163.72.123/32                            # cryptostorm
-  - IP-CIDR       , 84.16.240.43/32                             # cryptostorm
-  - IP-CIDR       , 89.163.214.174/32                           # cryptostorm
-  - IP-CIDR       , 176.9.199.158/32                            # decloudus.com
-  - IP-CIDR6      , 2a01:4f8:151:11b0::3/128                    # decloudus.com
-  - IP-CIDR       , 217.169.20.22/32                            # dns.aa.net.uk
-  - IP-CIDR       , 217.169.20.23/32                            # dns.aa.net.uk
-  - IP-CIDR       , 139.59.51.46/32                             # dns.bitgeek.in
-  - IP-CIDR       , 13.49.175.86/32                             # dns.brahma.world
-  - IP-CIDR6      , 2a05:d016:af8:4000:7710:6fc:bde3:fe0e/128   # dns.brahma.world
-  - IP-CIDR       , 199.58.81.218/32                            # dns.cmrg.net
-  - IP-CIDR6      , 2001:470:1c:76d::53/128                     # dns.cmrg.net
-  - IP-CIDR       , 185.95.218.42/32                            # dns.digitale-gesellschaft.ch
-  - IP-CIDR       , 185.95.218.43/32                            # dns.digitale-gesellschaft.ch
-  - IP-CIDR6      , 2a05:fc84::42/128                           # dns.digitale-gesellschaft.ch
-  - IP-CIDR6      , 2a05:fc84::43/128                           # dns.digitale-gesellschaft.ch
-  - IP-CIDR       , 46.239.223.80/32                            # dns.flatuslifir.is
-  - IP-CIDR       , 51.15.70.167/32                             # dns.larsdebruin.net
-  - IP-CIDR       , 51.79.68.177/32                             # dns.okashi.me
-  - IP-CIDR6      , 2607:5300:205:200::ed3/128                  # dns.okashi.me
-  - IP-CIDR       , 51.38.83.141/32                             # dns.oszx.co
-  - IP-CIDR6      , 2001:41d0:801:2000::d64/128                 # dns.oszx.co
-  - IP-CIDR       , 51.38.82.198/32                             # dns.pumplex.com
-  - IP-CIDR6      , 2001:41d0:801:2000::1b28/128                # dns.pumplex.com
-  - IP-CIDR       , 139.99.222.72/32                            # dns.seby.io
-  - IP-CIDR       , 45.76.113.31/32                             # dns.seby.io
-  - IP-CIDR       , 130.59.31.248/32                            # dns.switch.ch
-  - IP-CIDR       , 130.59.31.251/32                            # dns.switch.ch
-  - IP-CIDR6      , 2001:620:0:ff::2/128                        # dns.switch.ch
-  - IP-CIDR6      , 2001:620:0:ff::3/128                        # dns.switch.ch
-  - IP-CIDR       , 80.156.145.201/32                           # dns.t53.de
-  - IP-CIDR       , 107.191.43.90/32                            # dns.tin-fan.com
-  - IP-CIDR       , 145.239.92.241/32                           # dns.tin-fan.com
-  - IP-CIDR       , 155.138.240.237/32                          # dns.tin-fan.com
-  - IP-CIDR       , 95.217.16.205/32                            # dns.tin-fan.com
-  - IP-CIDR6      , 2001:19f0:5:6012:5400:2ff:fe60:7579/128     # dns.tin-fan.com
-  - IP-CIDR6      , 2001:19f0:6401:b3d:5400:2ff:fe5a:fb9f/128   # dns.tin-fan.com
-  - IP-CIDR6      , 2001:41d0:601:1100::3485/128                # dns.tin-fan.com
-  - IP-CIDR6      , 2a01:4f9:c010:6093::3485/128                # dns.tin-fan.com
-  - IP-CIDR       , 149.56.228.45/32                            # dnscrypt.ca
-  - IP-CIDR       , 167.114.220.125/32                          # dnscrypt.ca
-  - IP-CIDR       , 104.238.186.192/32                          # dnscrypt.uk
-  - IP-CIDR       , 176.9.1.117/32                              # dnsforge.de
-  - IP-CIDR       , 176.9.62.58/32                              # dnsforge.de
-  - IP-CIDR       , 176.9.93.198/32                             # dnsforge.de
-  - IP-CIDR6      , 2a01:4f8:141:316d::117/128                  # dnsforge.de
-  - IP-CIDR6      , 2a01:4f8:151:34aa::198/128                  # dnsforge.de
-  - IP-CIDR       , 185.235.81.1/32                             # dnslify.com
-  - IP-CIDR       , 185.235.81.2/32                             # dnslify.com
-  - IP-CIDR       , 104.236.178.232/32                          # dnsoverhttps.net
-  - IP-CIDR       , 94.130.110.178/32                           # dnsprivacy.at
-  - IP-CIDR       , 94.130.110.185/32                           # dnsprivacy.at
-  - IP-CIDR6      , 2a01:4f8:c0c:3bfc::2/128                    # dnsprivacy.at
-  - IP-CIDR6      , 2a01:4f8:c0c:3c03::2/128                    # dnsprivacy.at
-  - IP-CIDR       , 185.216.27.142/32                           # doh.42l.fr
-  - IP-CIDR6      , 2606:4700:3034::681c:16a/128                # doh.crypto.sx
-  - IP-CIDR6      , 2606:4700:3036::681c:6a/128                 # doh.crypto.sx
-  - IP-CIDR       , 185.150.99.255/32                           # doh.ffmuc.net
-  - IP-CIDR       , 5.1.66.255/32                               # doh.ffmuc.net
-  - IP-CIDR6      , 2001:678:e68:f000::/128                     # doh.ffmuc.net
-  - IP-CIDR6      , 2001:678:ed0:f000::/128                     # doh.ffmuc.net
-  - IP-CIDR       , 46.101.66.244/32                            # doh.li
-  - IP-CIDR       , 174.138.29.175/32                           # doh.tiar.app
-  - IP-CIDR6      , 2400:6180:0:d0::5f73:4001/128               # doh.tiar.app
-  - IP-CIDR       , 195.10.195.195/32                           # eth-services.de
-  - IP-CIDR       , 94.247.43.254/32                            # eth-services.de
-  - IP-CIDR6      , 2a00:f826:8:1::254/128                      # eth-services.de
-  - IP-CIDR6      , 2a00:f826:8:2::195/128                      # eth-services.de
-  - IP-CIDR       , 185.134.196.54/32                           # faelix.net
-  - IP-CIDR       , 185.134.197.54/32                           # faelix.net
-  - IP-CIDR       , 46.227.200.54/32                            # faelix.net
-  - IP-CIDR       , 46.227.200.55/32                            # faelix.net
-  - IP-CIDR6      , 2a01:9e00::54/128                           # faelix.net
-  - IP-CIDR6      , 2a01:9e00::55/128                           # faelix.net
-  - IP-CIDR6      , 2a01:9e01::54/128                           # faelix.net
-  - IP-CIDR6      , 2a01:9e01::55/128                           # faelix.net
-  - IP-CIDR       , 78.47.243.3/32                              # fische.io
-  - IP-CIDR6      , 2a01:4f8:1c0c:80c9::1/128                   # fische.io
-  - IP-CIDR       , 158.64.1.29/32                              # Foundation RESTENA
-  - IP-CIDR6      , 2001:a18:1::29/128                          # Foundation RESTENA
-  - IP-CIDR       , 185.49.141.37/32                            # getdnsapi.net
-  - IP-CIDR6      , 2a04:b900:0:100::37/128                     # getdnsapi.net
-  - IP-CIDR6      , 2001:67c:27e4::35/128                       # Go6Lab
-  - IP-CIDR       , 185.26.126.14/32                            # Hostux
-  - IP-CIDR       , 185.26.126.37/32                            # Hostux
-  - IP-CIDR       , 46.226.108.173/32                           # Hostux
-  - IP-CIDR       , 46.226.109.82/32                            # Hostux
-  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fe75:cd60/128     # Hostux
-  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fe86:1d28/128     # Hostux
-  - IP-CIDR       , 151.80.222.79/32                            # i2pd.xyz
-  - IP-CIDR6      , 2001:470:1f15:b80::53/128                   # i2pd.xyz
-  - IP-CIDR       , 213.196.191.96/32                           # ibksturm.synology.me
-  - IP-CIDR       , 168.138.243.216/32                          # ibuki.cgnat.net
-  - IP-CIDR       , 62.210.177.189/32                           # iriseden.eu
-  - IP-CIDR       , 62.210.180.71/32                            # iriseden.eu
-  - IP-CIDR6      , 2001:bc8:32d7:307::301/128                  # iriseden.eu
-  - IP-CIDR6      , 2001:bc8:32d7:308::201/128                  # iriseden.eu
-  - IP-CIDR       , 172.105.241.93/32                           # jp.gridns.xyz
-  - IP-CIDR       , 172.104.93.80/32                            # jp.tiar.app
-  - IP-CIDR6      , 2400:8902::f03c:91ff:feda:c514/128          # jp.tiar.app
-  - IP-CIDR       , 51.158.147.50/32                            # lelux.fi
-  - IP-CIDR6      , 2001:bc8:2db9:100::/128                     # lelux.fi
-  - IP-CIDR       , 5.11.11.11/32                               # Liquid Telecom
-  - IP-CIDR       , 5.11.11.5/32                                # Liquid Telecom
-  - IP-CIDR       , 80.67.188.188/32                            # Lorraine Data Network
-  - IP-CIDR6      , 2001:913::8/128                             # Lorraine Data Network
-  - IP-CIDR       , 142.4.204.111/32                            # luggs.co
-  - IP-CIDR       , 142.4.205.47/32                             # luggs.co
-  - IP-CIDR6      , 2607:5300:120:a8a:142:4:204:111/128         # luggs.co
-  - IP-CIDR6      , 2607:5300:120:a8a:142:4:205:47/128          # luggs.co
-  - IP-CIDR       , 89.234.186.112/32                           # Neutopia
-  - IP-CIDR6      , 2a00:5884:8209::2/128                       # Neutopia
-  - IP-CIDR       , 104.244.78.231/32                           # NixNet
-  - IP-CIDR       , 198.251.90.89/32                            # NixNet
-  - IP-CIDR       , 198.251.90.91/32                            # NixNet
-  - IP-CIDR       , 199.195.251.84/32                           # NixNet
-  - IP-CIDR       , 209.141.34.95/32                            # NixNet
-  - IP-CIDR       , 184.105.193.78/32                           # OARC
-  - IP-CIDR6      , 2620:ff:c000:0:1:0:64:25/128                # OARC
-  - IP-CIDR       , 185.43.135.1/32                             # odvr.nic.cz
-  - IP-CIDR       , 193.17.47.1/32                              # odvr.nic.cz
-  - IP-CIDR6      , 2001:148f:fffe::1/128                       # odvr.nic.cz
-  - IP-CIDR6      , 2001:148f:ffff::1/128                       # odvr.nic.cz
-  - IP-CIDR       , 146.185.176.36/32                           # phillymesh.net
-  - IP-CIDR6      , 2a03:b0c0:0:1010::1a7:c001/128              # phillymesh.net
-  - IP-CIDR       , 185.213.26.187/32                           # pi-dns.com
-  - IP-CIDR       , 45.63.30.163/32                             # pi-dns.com
-  - IP-CIDR       , 45.67.219.208/32                            # pi-dns.com
-  - IP-CIDR       , 66.42.33.135/32                             # pi-dns.com
-  - IP-CIDR       , 88.198.91.187/32                            # pi-dns.com
-  - IP-CIDR       , 95.216.181.228/32                           # pi-dns.com
-  - IP-CIDR6      , 2001:19f0:5801:b7c::1/128                   # pi-dns.com
-  - IP-CIDR6      , 2001:19f0:7001:225d::1/128                  # pi-dns.com
-  - IP-CIDR6      , 2a01:4f8:1c0c:8233::1/128                   # pi-dns.com
-  - IP-CIDR6      , 2a01:4f9:c01f:4::abcd/128                   # pi-dns.com
-  - IP-CIDR6      , 2a04:bdc7:100:70::abcd/128                  # pi-dns.com
-  - IP-CIDR6      , 2a0d:5600:33:3::abcd/128                    # pi-dns.com
-  - IP-CIDR       , 103.2.57.5/32                               # public.dns.iij.jp
-  - IP-CIDR       , 103.2.57.6/32                               # public.dns.iij.jp
-  - IP-CIDR       , 51.15.98.97/32                              # resolver.dnspoint.cloud
-  - IP-CIDR       , 116.203.179.248/32                          # rumpelsepp.org
-  - IP-CIDR       , 146.185.167.43/32                           # SecureDNS
-  - IP-CIDR6      , 2a03:b0c0:0:1010::e9a:3001/128              # SecureDNS
-  - IP-CIDR       , 163.172.180.125/32                          # sfw.scaleway-fr
-  - IP-CIDR       , 139.162.3.123/32                            # sg.gridns.xyz
-  - IP-CIDR       , 95.216.229.153/32                           # snopyta.org
-  - IP-CIDR       , 95.216.24.230/32                            # snopyta.org
-  - IP-CIDR6      , 2a01:4f9:2a:1919::21/128                    # snopyta.org
-  - IP-CIDR6      , 2a01:4f9:2a:1919::9301/128                  # snopyta.org
-  - IP-CIDR       , 145.100.185.15/32                           # Surfnet
-  - IP-CIDR       , 145.100.185.16/32                           # Surfnet
-  - IP-CIDR       , 145.100.185.17/32                           # Surfnet
-  - IP-CIDR       , 145.100.185.18/32                           # Surfnet
-  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:15/128          # Surfnet
-  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:16/128          # Surfnet
-  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:17/128          # Surfnet
-  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:18/128          # Surfnet
-  - IP-CIDR       , 149.154.153.153/32                          # usableprivacy.net
-  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fea9:41a/128      # Yeti
+  - DOMAIN-SUFFIX , 8888.google                                              # Google
+  - DOMAIN-SUFFIX , dns.google                                               # Google
+  - DOMAIN-SUFFIX , dns.google.com                                           # Google
+  - IP-CIDR       , 8.8.4.4/32                               # , no-resolve  # Google
+  - IP-CIDR       , 8.8.8.8/32                               # , no-resolve  # Google
+  - IP-CIDR6      , 2001:4860:4860::8844/128                 # , no-resolve  # Google
+  - IP-CIDR6      , 2001:4860:4860::8888/128                 # , no-resolve  # Google
+  - DOMAIN-SUFFIX , dns64.dns.google                                         # Google Public DNS64 的 DoH 入口（NAT64 场景）
+  - DOMAIN-SUFFIX , 1dot1dot1dot1.cloudflare-dns.com                         # Cloudflare
+  - DOMAIN-SUFFIX , chrome.cloudflare-dns.com                                # Cloudflare
+  - DOMAIN-SUFFIX , cloudflare-dns.com                                       # Cloudflare
+  - DOMAIN-SUFFIX , dns.cloudflare.com                                       # Cloudflare
+  - DOMAIN-SUFFIX , one.one.one.one                                          # Cloudflare
+  - IP-CIDR       , 1.0.0.1/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 1.0.0.2/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 1.0.0.3/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 1.1.1.1/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 1.1.1.2/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 1.1.1.3/32                               # , no-resolve  # Cloudflare
+  - IP-CIDR       , 104.16.248.249/32                        # , no-resolve  # Cloudflare
+  - IP-CIDR       , 104.16.249.249/32                        # , no-resolve  # Cloudflare
+  - IP-CIDR6      , 2606:4700:4700::1001/128                 # , no-resolve  # Cloudflare
+  - IP-CIDR6      , 2606:4700:4700::1111/128                 # , no-resolve  # Cloudflare
+  - IP-CIDR6      , 2606:4700:4700::1112/128                 # , no-resolve  # Cloudflare
+  - IP-CIDR6      , 2606:4700::6810:f8f9/128                 # , no-resolve  # Cloudflare
+  - IP-CIDR6      , 2606:4700::6810:f9f9/128                 # , no-resolve  # Cloudflare
+  - DOMAIN-SUFFIX , dns64.cloudflare-dns.com                                 # Cloudflare 1.1.1.1 的 DNS64 anycast 主机名
+  - DOMAIN-SUFFIX , family.cloudflare-dns.com                                # Cloudflare Family
+  - DOMAIN-SUFFIX , mozilla.cloudflare-dns.com                               # Cloudflare Mozilla
+  - DOMAIN-SUFFIX , security.cloudflare-dns.com                              # Cloudflare Security
+ #- DOMAIN-SUFFIX , apple-dns.net                                            # Apple
+ #- DOMAIN-SUFFIX , dns.apple.com                                            # Apple
+  - DOMAIN-SUFFIX , dns.quad9.net                                            # Quad9
+  - DOMAIN-SUFFIX , dns10.quad9.net                                          # Quad9
+  - DOMAIN-SUFFIX , dns11.quad9.net                                          # Quad9
+  - DOMAIN-SUFFIX , dns9.quad9.net                                           # Quad9
+  - IP-CIDR       , 149.112.112.10/32                        # , no-resolve  # Quad9
+  - IP-CIDR       , 149.112.112.11/32                        # , no-resolve  # Quad9
+  - IP-CIDR       , 149.112.112.112/32                       # , no-resolve  # Quad9
+  - IP-CIDR       , 149.112.112.12/32                        # , no-resolve  # Quad9
+  - IP-CIDR       , 149.112.112.9/32                         # , no-resolve  # Quad9
+  - IP-CIDR       , 9.9.9.10/32                              # , no-resolve  # Quad9
+  - IP-CIDR       , 9.9.9.11/32                              # , no-resolve  # Quad9
+  - IP-CIDR       , 9.9.9.12/32                              # , no-resolve  # Quad9
+  - IP-CIDR       , 9.9.9.9/32                               # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::10/128                          # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::11/128                          # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::9/128                           # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::fe/128                          # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::fe:10/128                       # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::fe:11/128                       # , no-resolve  # Quad9
+  - IP-CIDR6      , 2620:fe::fe:9/128                        # , no-resolve  # Quad9
+  - DOMAIN-SUFFIX , dns.umbrella.com                                         # OpenDNS
+  - DOMAIN-SUFFIX , doh.opendns.com                                          # OpenDNS
+  - IP-CIDR       , 146.112.41.2/32                          # , no-resolve  # OpenDNS
+  - IP-CIDR       , 208.67.220.220/32                        # , no-resolve  # OpenDNS
+  - IP-CIDR       , 208.67.222.222/32                        # , no-resolve  # OpenDNS
+  - IP-CIDR6      , 2620:119:fc::2/128                       # , no-resolve  # OpenDNS
+  - DOMAIN-SUFFIX , doh.familyshield.opendns.com                             # OpenDNS FamilyShield
+  - DOMAIN-SUFFIX , opendns.com                                              # OpenDNS (美国)
+  - DOMAIN-SUFFIX , dns-family.adguard.com                                   # AdGuard DNS
+  - DOMAIN-SUFFIX , dns-unfiltered.adguard.com                               # AdGuard DNS
+  - DOMAIN-SUFFIX , dns.adguard.com                                          # AdGuard DNS
+  - DOMAIN-SUFFIX , unfiltered.adguard-dns.com                               # AdGuard DNS
+  - IP-CIDR       , 176.103.130.130/32                       # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 176.103.130.131/32                       # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 176.103.130.132/32                       # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 176.103.130.134/32                       # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.14.14/32                          # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.14.140/32                         # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.14.141/32                         # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.14.15/32                          # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.15.15/32                          # , no-resolve  # AdGuard DNS
+  - IP-CIDR       , 94.140.15.16/32                          # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a00:5a60::ad1:ff/128                    # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a00:5a60::ad2:ff/128                    # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a00:5a60::bad1:ff/128                   # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a00:5a60::bad2:ff/128                   # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::1:ff/128                      # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::2:ff/128                      # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::ad1:ff/128                    # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::ad2:ff/128                    # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::bad1:ff/128                   # , no-resolve  # AdGuard DNS
+  - IP-CIDR6      , 2a10:50c0::bad2:ff/128                   # , no-resolve  # AdGuard DNS
+  - DOMAIN-SUFFIX , dns.adguard-dns.com                                      # AdGuard DNS 默认 DoH 入口，官方文档新域名
+  - DOMAIN-SUFFIX , family.adguard-dns.com                                   # AdGuard DNS Family 过滤版 DoH
+  - DOMAIN-SUFFIX , dns.nextdns.io                                           # NextDNS
+  - IP-CIDR       , 104.238.181.28/32                        # , no-resolve  # NextDNS
+  - IP-CIDR       , 143.110.229.87/32                        # , no-resolve  # NextDNS
+  - IP-CIDR       , 45.90.28.0/32                            # , no-resolve  # NextDNS
+  - IP-CIDR       , 45.90.30.0/32                            # , no-resolve  # NextDNS
+  - IP-CIDR6      , 2a07:a8c0::/128                          # , no-resolve  # NextDNS
+  - IP-CIDR6      , 2a07:a8c1::/128                          # , no-resolve  # NextDNS
+  - DOMAIN-SUFFIX , cleanbrowsing.org                                        # CleanBrowsing (美国)
+  - DOMAIN-SUFFIX , doh.cleanbrowsing.org                                    # CleanBrowsing
+  - IP-CIDR       , 185.228.168.10/32                        # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.168.168/32                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.168.199/32                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.168.9/32                         # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.169.11/32                        # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.169.168/32                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR       , 185.228.169.9/32                         # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:1::/128                        # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:1::1/128                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:1::2/128                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:2::/128                        # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:2::1/128                       # , no-resolve  # CleanBrowsing
+  - IP-CIDR6      , 2a0d:2a00:2::2/128                       # , no-resolve  # CleanBrowsing
+  - DOMAIN-SUFFIX , security-filter-dns.cleanbrowsing.org                    # CleanBrowsing Security
+  - DOMAIN-SUFFIX , dns.sb                                                   # DNS.SB
+  - DOMAIN-SUFFIX , doh.dns.sb                                               # DNS.SB
+  - DOMAIN-SUFFIX , doh.sb                                                   # DNS.SB
+  - DOMAIN-SUFFIX , dot.sb                                                   # DNS.SB
+  - IP-CIDR       , 45.11.45.11/32                           # , no-resolve  # DNS.SB
+  - DOMAIN-SUFFIX , dns.watch                                                # DNS.Watch (德国)
+  - DOMAIN-SUFFIX , uncensoreddns.org                                        # UncensoredDNS (丹麦)
+  - DOMAIN-SUFFIX , family.canadianshield.cira.ca                            # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , private.canadianshield.cira.ca                           # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , protected.canadianshield.cira.ca                         # CIRA Canadian Shield (加拿大)
+  - DOMAIN-SUFFIX , com.cast.net                                             # Xfinity (美国)
+  - DOMAIN-SUFFIX , doh.xfinity.com                                          # Xfinity (美国)
+  - DOMAIN-SUFFIX , dns.twnic.tw                                             # 台湾 Quad 101
+  - DOMAIN-SUFFIX , dns.hinet.net                                            # Chunghwa Telecom (HiNet, 台湾)
+  - DOMAIN-SUFFIX , doh.hinet.net                                            # Chunghwa Telecom DoH
+  - DOMAIN-SUFFIX , dns.telekom.de                                           # Deutsche Telekom DoH
+  - DOMAIN-SUFFIX , doh-01.spectrum.com                                      # Spectrum DoH
+  - DOMAIN-SUFFIX , doh-02.spectrum.com                                      # Spectrum DoH
+  - IP-CIDR       , 24.240.146.8/32                          # , no-resolve  # Spectrum DoH
+  - IP-CIDR6      , 2600:6c7f:f000:202::8/128                # , no-resolve  # Spectrum DoH
+  - DOMAIN-SUFFIX , he.net                                                   # Hurricane Electric (美国)
+  - DOMAIN-SUFFIX , ordns.he.net                                             # Hurricane Electric (美国)
+  - DOMAIN-SUFFIX , doh.powerdns.com                                         # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , doh.powerdns.org                                         # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , powerdns.org                                             # PowerDNS (荷兰)
+  - DOMAIN-SUFFIX , tenta.io                                                 # Tenta (美国)
+  - DOMAIN-SUFFIX , doh.dnsfilter.com                                        # DNSFilter DoH
+  - DOMAIN-SUFFIX , doh.safedns.com                                          # SafeDNS DoH
+  - DOMAIN-SUFFIX , safeservedns.com                                         # SafeServe DNS (Namecheap)
+  - DOMAIN-SUFFIX , dns-dot.defensx.com                                      # DefensX DoT/DoH
+  - DOMAIN-SUFFIX , dns.controld.com                                         # https://controld.com/free-dns
+  - DOMAIN-SUFFIX , freedns.controld.com                                     # https://controld.com/free-dns
+  - IP-CIDR       , 76.76.10.11/32                           # , no-resolve  # https://controld.com/free-dns
+  - IP-CIDR       , 76.76.2.11/32                            # , no-resolve  # https://controld.com/free-dns
+  - IP-CIDR6      , 2606:1a40:1::11/128                      # , no-resolve  # https://controld.com/free-dns
+  - IP-CIDR6      , 2606:1a40::11/128                        # , no-resolve  # https://controld.com/free-dns
+  - DOMAIN-SUFFIX , child-noads.joindns4.eu                                  # DNS4EU Child + No-Ads
+  - IP-CIDR       , 86.54.11.11/32                           # , no-resolve  # DNS4EU Child + No-Ads
+  - IP-CIDR       , 86.54.11.211/32                          # , no-resolve  # DNS4EU Child + No-Ads
+  - IP-CIDR6      , 2a13:1001::86:54:11:11/128               # , no-resolve  # DNS4EU Child + No-Ads
+  - IP-CIDR6      , 2a13:1001::86:54:11:211/128              # , no-resolve  # DNS4EU Child + No-Ads
+  - DOMAIN-SUFFIX , child.joindns4.eu                                        # DNS4EU Child
+  - IP-CIDR       , 86.54.11.12/32                           # , no-resolve  # DNS4EU Child
+  - IP-CIDR       , 86.54.11.212/32                          # , no-resolve  # DNS4EU Child
+  - IP-CIDR6      , 2a13:1001::86:54:11:12/128               # , no-resolve  # DNS4EU Child
+  - IP-CIDR6      , 2a13:1001::86:54:11:212/128              # , no-resolve  # DNS4EU Child
+  - DOMAIN-SUFFIX , noads.joindns4.eu                                        # DNS4EU No-Ads
+  - IP-CIDR       , 86.54.11.13/32                           # , no-resolve  # DNS4EU No-Ads
+  - IP-CIDR       , 86.54.11.213/32                          # , no-resolve  # DNS4EU No-Ads
+  - IP-CIDR6      , 2a13:1001::86:54:11:13/128               # , no-resolve  # DNS4EU No-Ads
+  - IP-CIDR6      , 2a13:1001::86:54:11:213/128              # , no-resolve  # DNS4EU No-Ads
+  - DOMAIN-SUFFIX , protective.joindns4.eu                                   # DNS4EU Protective
+  - IP-CIDR       , 86.54.11.1/32                            # , no-resolve  # DNS4EU Protective
+  - IP-CIDR       , 86.54.11.201/32                          # , no-resolve  # DNS4EU Protective
+  - IP-CIDR6      , 2a13:1001::86:54:11:1/128                # , no-resolve  # DNS4EU Protective
+  - IP-CIDR6      , 2a13:1001::86:54:11:201/128              # , no-resolve  # DNS4EU Protective
+  - DOMAIN-SUFFIX , unfiltered.joindns4.eu                                   # DNS4EU Unfiltered
+  - IP-CIDR       , 86.54.11.100/32                          # , no-resolve  # DNS4EU Unfiltered
+  - IP-CIDR       , 86.54.11.200/32                          # , no-resolve  # DNS4EU Unfiltered
+  - IP-CIDR6      , 2a13:1001::86:54:11:100/128              # , no-resolve  # DNS4EU Unfiltered
+  - IP-CIDR6      , 2a13:1001::86:54:11:200/128              # , no-resolve  # DNS4EU Unfiltered
+  - DOMAIN-SUFFIX , doh.libredns.gr                                          # LibreDNS (希腊)
+  - DOMAIN-SUFFIX , libredns.gr                                              # LibreDNS (希腊)
+  - DOMAIN-SUFFIX , adblock.doh.mullvad.net                                  # Mullvad 带广告拦截 DoH（仍大量在用，官方在向新域名迁移）
+  - DOMAIN-SUFFIX , dns.mullvad.net                                          # Mullvad 公共 DNS 新主机名，统一替代 doh.mullvad.net/dot.mullvad.net
+  - DOMAIN-SUFFIX , doh.mullvad.net                                          # Mullvad DNS (瑞典)
+  - DOMAIN-SUFFIX , dns.surfshark.com                                        # Surfshark DNS (全球)
+  - DOMAIN-SUFFIX , basic.rethinkdns.com                                     # RethinkDNS (全球分布式)
+  - DOMAIN-SUFFIX , doh.42l.fr                                               # 42l DNS (法国)
+  - DOMAIN-SUFFIX , dns-nyc.aaflalo.me                                       # Aaflalo DNS (美国)
+  - DOMAIN-SUFFIX , dns.aaflalo.me                                           # Aaflalo DNS (美国)
+  - DOMAIN-SUFFIX , dns.aa.net.uk                                            # AAISP (英国)
+  - DOMAIN-SUFFIX , doh.alternate-dns.com                                    # Alternate DNS (美国)
+  - DOMAIN-SUFFIX , applied-privacy.net                                      # Applied Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.applied-privacy.net                                  # Applied Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.armadillodns.net                                     # Armadillo DNS (全球)
+  - DOMAIN-SUFFIX , doh-de.blahdns.com                                       # BlahDNS (德国)
+  - DOMAIN-SUFFIX , doh-fi.blahdns.com                                       # BlahDNS (芬兰)
+  - DOMAIN-SUFFIX , doh-jp.blahdns.com                                       # BlahDNS (日本)
+  - DOMAIN-SUFFIX , doh.blahdns.com                                          # BlahDNS (欧洲)
+  - DOMAIN-SUFFIX , example.doh.blockerdns.com                               # BlockerDNS (美国)
+  - DOMAIN-SUFFIX , dns.blokada.org                                          # Blokada DNS，移动端/Adblock 圈比较常见的 DoH 解析
+  - DOMAIN-SUFFIX , boothlabs.me                                             # Booth Labs (加拿大)
+  - DOMAIN-SUFFIX , dns.cfiec.net                                            # CFIEC DNS (全球)
+  - DOMAIN-SUFFIX , dns.circl.lu                                             # CIRCL.lu（卢森堡 CSIRT）运维的 DoH 解析，常见于安全/阻断列表
+  - DOMAIN-SUFFIX , dns.cmrg.net                                             # CMRG DNS (加拿大)
+  - DOMAIN-SUFFIX , doh.comodo.com                                           # Comodo
+  - IP-CIDR       , 8.20.247.20/32                           # , no-resolve  # Comodo
+  - IP-CIDR       , 8.26.56.26/32                            # , no-resolve  # Comodo
+  - DOMAIN-SUFFIX , dns.containerpi.com                                      # ContainerPi DNS (全球)
+  - DOMAIN-SUFFIX , dohdot.coxlab.net                                        # CoxLab DNS (美国)
+  - DOMAIN-SUFFIX , dnsprivacy.at                                            # DNS Privacy (奥地利)
+  - DOMAIN-SUFFIX , doh.dnswarden.com                                        # DNS Warden (全球分布式)
+  - DOMAIN-SUFFIX , dns.dns-over-https.com                                   # DNS-over-HTTPS (全球)
+  - DOMAIN-SUFFIX , dns.dnsoverhttps.net                                     # DNS-over-HTTPS (全球)
+  - DOMAIN-SUFFIX , adblock.dns.dnswarden.com                                # DNS.Warden 广告/恶意域名过滤版 DoH（和 doh.dnswarden.com 同家）
+  - DOMAIN-SUFFIX , dns1.dnscrypt.ca                                         # dnscrypt.ca 加拿大节点 1，支持 DoH/DoT
+  - DOMAIN-SUFFIX , dns1.ipv6.dnscrypt.ca                                    # dnscrypt.ca IPv6 节点 1（DoH/DoT）
+  - DOMAIN-SUFFIX , dns2.dnscrypt.ca                                         # dnscrypt.ca 加拿大节点 2（anycast）
+  - DOMAIN-SUFFIX , dns2.ipv6.dnscrypt.ca                                    # dnscrypt.ca IPv6 节点 2
+  - DOMAIN-SUFFIX , dnscrypt.ca                                              # DNSCrypt Canada (加拿大)
+  - DOMAIN-SUFFIX , doh.dnslify.com                                          # Dnslify (全球)
+  - DOMAIN-SUFFIX , doh.crypto.sx                                            # DOH Crypto (全球分布式)
+  - DOMAIN-SUFFIX , doh.li                                                   # DOH LI (全球)
+  - DOMAIN-SUFFIX , eth-services.de                                          # ETH Services (德国)
+  - DOMAIN-SUFFIX , rdns.faelix.net                                          # Faelix DNS (全球)
+  - DOMAIN-SUFFIX , doh.ffmuc.net                                            # FFMUC (德国)
+  - DOMAIN-SUFFIX , fische.io                                                # Fische (德国)
+  - DOMAIN-SUFFIX , dns.flatuslifir.is                                       # Flatuslifir DNS (冰岛)
+  - DOMAIN-SUFFIX , restena.lu                                               # Foundation RESTENA (卢森堡)
+  - DOMAIN-SUFFIX , go6lab.si                                                # Go6Lab (斯洛文尼亚)
+  - DOMAIN-SUFFIX , query.hdns.io                                            # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
+  - DOMAIN-SUFFIX , dns.hostux.net                                           # Hostux DNS (全球)
+  - DOMAIN-SUFFIX , ibksturm.synology.me                                     # Ibksturm (瑞士)
+  - DOMAIN-SUFFIX , ibuki.cgnat.net                                          # Ibuki DNS (全球)
+  - DOMAIN-SUFFIX , public.dns.iij.jp                                        # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
+  - DOMAIN-SUFFIX , doh.iij.jp                                               # IIJ DNS (日本)
+  - DOMAIN-SUFFIX , dns1.in-berlin.de                                        # in-berlin.de（德国柏林 ISP）公共 DoH 节点 1（收录于多份 DoH 列表）
+  - DOMAIN-SUFFIX , dns2.in-berlin.de                                        # in-berlin.de 公共 DoH 节点 2
+  - DOMAIN-SUFFIX , dns.ipv6dns.com                                          # IPv6 DNS (全球)
+  - DOMAIN-SUFFIX , jcdns.fun                                                # JCDNS (全球)
+  - DOMAIN-SUFFIX , dns.keweon.center                                        # Keweon DNS (全球)
+  - DOMAIN-SUFFIX , us1.dns.lavate.ch                                        # LavaDNS 美国节点，和上面同家服务商
+  - DOMAIN-SUFFIX , eu1.dns.lavate.ch                                        # LavaDNS 芬兰节点（EU），无日志 DoH
+  - DOMAIN-SUFFIX , ldn.imlonghao.com                                        # Lorraine Data Network (法国)
+  - DOMAIN-SUFFIX , dns.moulticast.net                                       # Moulticast IPv6 anycast DoH，欧洲多点，无日志、无过滤
+  - DOMAIN-SUFFIX , adblock.mydns.network                                    # MyDNS Network
+  - DOMAIN-SUFFIX , freedom.mydns.network                                    # myDNS.network 标准 DoH（不拦截）
+  - DOMAIN-SUFFIX , doh.nekomimi-router.com                                  # NekomimiRouter (日本)
+  - DOMAIN-SUFFIX , neutopia.org                                             # Neutopia (法国)
+  - DOMAIN-SUFFIX , odvr.nic.cz                                              # NIC CZ (捷克)
+  - DOMAIN-SUFFIX , opennic.net                                              # OpenNIC (社区开放DNS)
+  - DOMAIN-SUFFIX , doh.centraleu.pi-dns.com                                 # Pi-DNS (欧洲)
+  - DOMAIN-SUFFIX , doh.eastus.pi-dns.com                                    # Pi-DNS (美国东部)
+  - DOMAIN-SUFFIX , doh.northeu.pi-dns.com                                   # Pi-DNS (北欧)
+  - DOMAIN-SUFFIX , doh.westus.pi-dns.com                                    # Pi-DNS (美国西部)
+  - DOMAIN-SUFFIX , dns-tls.qis.io                                           # QIS DNS (全球)
+  - DOMAIN-SUFFIX , doh.qis.io                                               # QIS DNS (全球)
+  - DOMAIN-SUFFIX , sfw.overthebox.ovh                                       # Scaleway (法国)
+  - DOMAIN-SUFFIX , doh.seby.io                                              # Seby DNS (澳大利亚)
+  - DOMAIN-SUFFIX , doh.securedns.eu                                         # SecureDNS (欧洲)
+  - DOMAIN-SUFFIX , fi.doh.dns.snopyta.org                                   # Snopyta（芬兰）非日志 DoH，隐私圈老牌节点
+  - DOMAIN-SUFFIX , snopyta.org                                              # Snopyta (芬兰)
+  - DOMAIN-SUFFIX , cdn-doh.ssnm.xyz                                         # SSNM (全球)
+  - DOMAIN-SUFFIX , dns.switch.ch                                            # 瑞士 SWITCH 公共 DNS，官方文档给出的 DoH：/dns-query
+  - DOMAIN-SUFFIX , dns.t53.de                                               # T53 DNS (德国)
+  - DOMAIN-SUFFIX , doh.tiar.app                                             # Tiarap DNS (新加坡)
+  - DOMAIN-SUFFIX , doh.tiarap.org                                           # Tiarap DNS (全球)
+  - DOMAIN-SUFFIX , jp.tiar.app                                              # Tiarap DNS (日本)
+  - DOMAIN-SUFFIX , jp.tiarap.org                                            # Tiarap DNS (日本)
+  - DOMAIN-SUFFIX , dns.tin-fan.com                                          # Tin Fan DNS (全球分布式)
+  - DOMAIN-SUFFIX , adfree.usableprivacy.net                                 # Usable Privacy(updns) 公共 DoH/DoT，去广告+追踪，无日志
+  - DOMAIN-SUFFIX , doh.verisign.com                                         # Verisign
+  - DOMAIN-SUFFIX , dns.wevpn.com                                            # WeDNS（WeVPN 背后），未过滤 DoH 配置
+  - DOMAIN-SUFFIX , dns-weblock.wevpn.com                                    # WeDNS 带广告/恶意域名过滤的 DoH
+  - DOMAIN-SUFFIX , wikimedia-dns.org                                        # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
+  - DOMAIN-SUFFIX , yeti-dns.org                                             # Yeti DNS (全球分布式)
+
+  - DOMAIN-SUFFIX , max.rethinkdns.com                                       # RethinkDNS (Max)
+  - DOMAIN-SUFFIX , sky.rethinkdns.com                                       # RethinkDNS (Sky)
+ #- DOMAIN-SUFFIX , dns.bebasid.com                                          # BebasDNS (印尼)
+  - DOMAIN-SUFFIX , v.recipes                                                # v.recipes (支持自定义上游)
+  - DOMAIN-SUFFIX , dns.decloudus.com                                        # DeCloudUs (附件仅在ASCII表中存在，未在策略组)
+  - DOMAIN-SUFFIX , doh.nl.ahadns.net                                        # AhaDNS (荷兰)
+  - DOMAIN-SUFFIX , doh.la.ahadns.net                                        # AhaDNS (洛杉矶)
+  - DOMAIN-SUFFIX , dns.dnswarden.com                                        # DNS Warden (Uncensored 域名与附件中 doh 开头不同)
+  - DOMAIN-SUFFIX , dns.oszx.co                                              # OSZX DNS (附件仅在ASCII表中存在，未在策略组)
+
+  - IP-CIDR       , 4.2.2.1/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 4.2.2.2/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 4.2.2.3/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 4.2.2.4/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 4.2.2.5/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 4.2.2.6/32                               # , no-resolve  # Level3
+  - IP-CIDR       , 185.184.222.222/32                       # , no-resolve  # dns.sb
+  - IP-CIDR       , 185.222.222.222/32                       # , no-resolve  # dns.sb
+  - IP-CIDR       , 216.128.181.13/32                        # , no-resolve  # dns.sb
+  - IP-CIDR6      , 2606:4700:3033::681b:9eb2/128            # , no-resolve  # dns.sb
+  - IP-CIDR6      , 2606:4700:3033::ac43:9650/128            # , no-resolve  # dns.sb
+  - IP-CIDR6      , 2606:4700:3035::681b:9fb2/128            # , no-resolve  # dns.sb
+  - IP-CIDR6      , 2a09::/128                               # , no-resolve  # dns.sb
+  - IP-CIDR6      , 2a09::1/128                              # , no-resolve  # dns.sb
+  - IP-CIDR       , 84.200.69.80/32                          # , no-resolve  # DNS.WATCH
+  - IP-CIDR       , 84.200.70.40/32                          # , no-resolve  # DNS.WATCH
+  - IP-CIDR       , 89.233.43.71/32                          # , no-resolve  # UncensoredDNS
+  - IP-CIDR6      , 2a01:3a0:53:53::/128                     # , no-resolve  # UncensoredDNS
+  - IP-CIDR       , 75.75.77.99/32                           # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.141/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.142/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.143/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.145/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.147/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.148/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.149/32                        # , no-resolve  # Xfinity
+  - IP-CIDR       , 96.113.151.150/32                        # , no-resolve  # Xfinity
+  - IP-CIDR6      , 2001:558:fe21:6b:96:113:151:145/128      # , no-resolve  # Xfinity
+  - IP-CIDR6      , 2001:558:fe21:6b:96:113:151:147/128      # , no-resolve  # Xfinity
+  - IP-CIDR       , 12.159.2.159/32                          # , no-resolve  # AT&T
+  - IP-CIDR       , 13.89.120.251/32                         # , no-resolve  # AT&T
+  - IP-CIDR       , 13.89.121.94/32                          # , no-resolve  # AT&T
+  - IP-CIDR       , 13.89.121.95/32                          # , no-resolve  # AT&T
+  - IP-CIDR       , 20.42.80.15/32                           # , no-resolve  # AT&T
+  - IP-CIDR       , 20.42.80.49/32                           # , no-resolve  # AT&T
+  - IP-CIDR       , 40.76.112.230/32                         # , no-resolve  # AT&T
+  - IP-CIDR       , 101.101.101.101/32                       # , no-resolve  # Quad 101
+  - IP-CIDR       , 101.102.103.104/32                       # , no-resolve  # Quad 101
+  - IP-CIDR       , 210.17.9.228/32                          # , no-resolve  # Quad 101
+  - IP-CIDR6      , 2001:c50:ffff:1:101:101:101:101/128      # , no-resolve  # Quad 101
+  - IP-CIDR6      , 2001:de4::101/128                        # , no-resolve  # Quad 101
+  - IP-CIDR6      , 2001:de4::102/128                        # , no-resolve  # Quad 101
+  - IP-CIDR       , 168.95.1.1/32                            # , no-resolve  # Chunghwa Telecom (HiNet)
+  - IP-CIDR       , 168.95.192.1/32                          # , no-resolve  # Chunghwa Telecom (HiNet)
+  - IP-CIDR       , 217.0.43.50/32                           # , no-resolve  # Deutsche Telekom
+  - IP-CIDR       , 74.82.42.42/32                           # , no-resolve  # Hurricane Electric
+  - IP-CIDR6      , 2001:470:20::2/128                       # , no-resolve  # Hurricane Electric
+  - IP-CIDR       , 136.144.215.158/32                       # , no-resolve  # PowerDNS
+  - IP-CIDR       , 213.239.207.143/32                       # , no-resolve  # PowerDNS
+  - IP-CIDR6      , 2a01:7c8:d002:1ef:5054:ff:fe40:3703/128  # , no-resolve  # PowerDNS
+  - IP-CIDR       , 200.1.123.46/32                          # , no-resolve  # NIC Chile
+  - IP-CIDR6      , 2001:1398:1:0:200:1:123:46/128           # , no-resolve  # NIC Chile
+  - IP-CIDR       , 66.244.159.100/32                        # , no-resolve  # Tenta
+  - IP-CIDR       , 66.244.159.200/32                        # , no-resolve  # Tenta
+  - IP-CIDR       , 99.192.182.100/32                        # , no-resolve  # Tenta
+  - IP-CIDR       , 99.192.182.200/32                        # , no-resolve  # Tenta
+  - IP-CIDR       , 103.247.36.150/32                        # , no-resolve  # DNSFilter
+  - IP-CIDR       , 103.247.36.36/32                         # , no-resolve  # DNSFilter
+  - IP-CIDR       , 103.247.36.9/32                          # , no-resolve  # DNSFilter
+  - IP-CIDR       , 103.247.37.150/32                        # , no-resolve  # DNSFilter
+  - IP-CIDR       , 103.247.37.37/32                         # , no-resolve  # DNSFilter
+  - IP-CIDR       , 103.247.37.9/32                          # , no-resolve  # DNSFilter
+  - IP-CIDR       , 195.46.39.39/32                          # , no-resolve  # SafeDNS
+  - IP-CIDR       , 195.46.39.40/32                          # , no-resolve  # SafeDNS
+  - IP-CIDR       , 198.54.117.10/32                         # , no-resolve  # SafeServe DNS
+  - IP-CIDR       , 198.54.117.11/32                         # , no-resolve  # SafeServe DNS
+  - IP-CIDR       , 3.33.218.70/32                           # , no-resolve  # DefensX
+  - IP-CIDR       , 3.33.220.70/32                           # , no-resolve  # DefensX
+  - IP-CIDR       , 116.202.176.26/32                        # , no-resolve  # libredns.gr
+  - IP-CIDR       , 168.235.81.167/32                        # , no-resolve  # aaflalo.me
+  - IP-CIDR       , 176.56.236.175/32                        # , no-resolve  # aaflalo.me
+  - IP-CIDR6      , 2604:180:f3::42/128                      # , no-resolve  # aaflalo.me
+  - IP-CIDR6      , 2a00:d880:5:bf0::7c93/128                # , no-resolve  # aaflalo.me
+  - IP-CIDR       , 5.83.75.10/32                            # , no-resolve  # Aire Networks
+  - IP-CIDR       , 84.232.73.171/32                         # , no-resolve  # Aire Networks
+  - IP-CIDR       , 88.148.19.98/32                          # , no-resolve  # Aire Networks
+  - IP-CIDR       , 109.70.100.100/32                        # , no-resolve  # Applied Privacy
+  - IP-CIDR       , 146.255.56.98/32                         # , no-resolve  # Applied Privacy
+  - IP-CIDR       , 94.130.106.88/32                         # , no-resolve  # appliedprivacy.net
+  - IP-CIDR6      , 2a03:e600:100::53:1/128                  # , no-resolve  # appliedprivacy.net
+  - IP-CIDR       , 190.115.26.106/32                        # , no-resolve  # B-DNS
+  - IP-CIDR       , 194.54.82.12/32                          # , no-resolve  # B-DNS
+  - IP-CIDR       , 194.54.82.13/32                          # , no-resolve  # B-DNS
+  - IP-CIDR       , 62.75.198.178/32                         # , no-resolve  # B-DNS
+  - IP-CIDR       , 88.80.20.20/32                           # , no-resolve  # B-DNS
+  - IP-CIDR       , 88.80.21.20/32                           # , no-resolve  # B-DNS
+  - IP-CIDR       , 108.61.201.119/32                        # , no-resolve  # BlahDNS
+  - IP-CIDR       , 139.162.112.47/32                        # , no-resolve  # BlahDNS
+  - IP-CIDR       , 139.180.141.57/32                        # , no-resolve  # BlahDNS
+  - IP-CIDR       , 159.69.198.101/32                        # , no-resolve  # BlahDNS
+  - IP-CIDR       , 217.61.0.97/32                           # , no-resolve  # BlahDNS
+  - IP-CIDR       , 45.32.55.94/32                           # , no-resolve  # BlahDNS
+  - IP-CIDR       , 78.46.244.143/32                         # , no-resolve  # BlahDNS
+  - IP-CIDR       , 95.216.212.177/32                        # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2001:19f0:7001:1ded:5400:1ff:fe90:945b/128 , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2001:19f0:7001:3259:5400:2ff:fe71:bc9/128# , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2606:4700:3031::6818:798e/128            # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2606:4700:3035::6818:788e/128            # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2a01:4f8:1c1c:6b4b::1/128                # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2a01:4f8:c17:ec67::1/128                 # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2a01:4f9:c010:43ce::1/128                # , no-resolve  # BlahDNS
+  - IP-CIDR6      , 2a03:a140:10:2461::1/128                 # , no-resolve  # BlahDNS
+  - IP-CIDR       , 35.230.160.38/32                         # , no-resolve  # blockerDNS
+  - IP-CIDR       , 35.231.247.227/32                        # , no-resolve  # blockerDNS
+  - IP-CIDR       , 35.237.220.84/32                         # , no-resolve  # blockerDNS
+  - IP-CIDR       , 35.245.234.132/32                        # , no-resolve  # blockerDNS
+  - IP-CIDR       , 198.100.148.224/32                       # , no-resolve  # boothlabs.me
+  - IP-CIDR       , 198.100.148.36/32                        # , no-resolve  # boothlabs.me
+  - IP-CIDR6      , 2607:5300:60:be0::1/128                  # , no-resolve  # boothlabs.me
+  - IP-CIDR       , 139.59.48.222/32                         # , no-resolve  # captnemo.in
+  - IP-CIDR       , 174.68.248.77/32                         # , no-resolve  # Cox
+  - IP-CIDR       , 104.255.175.2/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 109.248.149.133/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 109.71.42.228/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 128.127.104.108/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 155.254.29.113/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 162.221.207.228/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 167.114.84.132/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 173.234.159.235/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 173.234.56.115/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 178.175.139.211/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 185.107.80.84/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 185.117.118.20/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 185.212.169.139/32                       # , no-resolve  # cryptostorm
+  - IP-CIDR       , 185.94.193.234/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 195.154.40.48/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 198.7.58.227/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 209.58.147.36/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 212.129.46.32/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 213.163.64.208/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 23.19.67.116/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 27.255.77.56/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 37.120.147.2/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 5.133.8.187/32                           # , no-resolve  # cryptostorm
+  - IP-CIDR       , 5.254.96.195/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 64.120.5.251/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 64.42.181.227/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 81.17.31.34/32                           # , no-resolve  # cryptostorm
+  - IP-CIDR       , 82.163.72.123/32                         # , no-resolve  # cryptostorm
+  - IP-CIDR       , 84.16.240.43/32                          # , no-resolve  # cryptostorm
+  - IP-CIDR       , 89.163.214.174/32                        # , no-resolve  # cryptostorm
+  - IP-CIDR       , 176.9.199.158/32                         # , no-resolve  # decloudus.com
+  - IP-CIDR6      , 2a01:4f8:151:11b0::3/128                 # , no-resolve  # decloudus.com
+  - IP-CIDR       , 217.169.20.22/32                         # , no-resolve  # dns.aa.net.uk
+  - IP-CIDR       , 217.169.20.23/32                         # , no-resolve  # dns.aa.net.uk
+  - IP-CIDR       , 139.59.51.46/32                          # , no-resolve  # dns.bitgeek.in
+  - IP-CIDR       , 13.49.175.86/32                          # , no-resolve  # dns.brahma.world
+  - IP-CIDR6      , 2a05:d016:af8:4000:7710:6fc:bde3:fe0e/128# , no-resolve  # dns.brahma.world
+  - IP-CIDR       , 199.58.81.218/32                         # , no-resolve  # dns.cmrg.net
+  - IP-CIDR6      , 2001:470:1c:76d::53/128                  # , no-resolve  # dns.cmrg.net
+  - IP-CIDR       , 185.95.218.42/32                         # , no-resolve  # dns.digitale-gesellschaft.ch
+  - IP-CIDR       , 185.95.218.43/32                         # , no-resolve  # dns.digitale-gesellschaft.ch
+  - IP-CIDR6      , 2a05:fc84::42/128                        # , no-resolve  # dns.digitale-gesellschaft.ch
+  - IP-CIDR6      , 2a05:fc84::43/128                        # , no-resolve  # dns.digitale-gesellschaft.ch
+  - IP-CIDR       , 46.239.223.80/32                         # , no-resolve  # dns.flatuslifir.is
+  - IP-CIDR       , 51.15.70.167/32                          # , no-resolve  # dns.larsdebruin.net
+  - IP-CIDR       , 51.79.68.177/32                          # , no-resolve  # dns.okashi.me
+  - IP-CIDR6      , 2607:5300:205:200::ed3/128               # , no-resolve  # dns.okashi.me
+  - IP-CIDR       , 51.38.83.141/32                          # , no-resolve  # dns.oszx.co
+  - IP-CIDR6      , 2001:41d0:801:2000::d64/128              # , no-resolve  # dns.oszx.co
+  - IP-CIDR       , 51.38.82.198/32                          # , no-resolve  # dns.pumplex.com
+  - IP-CIDR6      , 2001:41d0:801:2000::1b28/128             # , no-resolve  # dns.pumplex.com
+  - IP-CIDR       , 139.99.222.72/32                         # , no-resolve  # dns.seby.io
+  - IP-CIDR       , 45.76.113.31/32                          # , no-resolve  # dns.seby.io
+  - IP-CIDR       , 130.59.31.248/32                         # , no-resolve  # dns.switch.ch
+  - IP-CIDR       , 130.59.31.251/32                         # , no-resolve  # dns.switch.ch
+  - IP-CIDR6      , 2001:620:0:ff::2/128                     # , no-resolve  # dns.switch.ch
+  - IP-CIDR6      , 2001:620:0:ff::3/128                     # , no-resolve  # dns.switch.ch
+  - IP-CIDR       , 80.156.145.201/32                        # , no-resolve  # dns.t53.de
+  - IP-CIDR       , 107.191.43.90/32                         # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR       , 145.239.92.241/32                        # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR       , 155.138.240.237/32                       # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR       , 95.217.16.205/32                         # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR6      , 2001:19f0:5:6012:5400:2ff:fe60:7579/128  # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR6      , 2001:19f0:6401:b3d:5400:2ff:fe5a:fb9f/128# , no-resolve  # dns.tin-fan.com
+  - IP-CIDR6      , 2001:41d0:601:1100::3485/128             # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR6      , 2a01:4f9:c010:6093::3485/128             # , no-resolve  # dns.tin-fan.com
+  - IP-CIDR       , 149.56.228.45/32                         # , no-resolve  # dnscrypt.ca
+  - IP-CIDR       , 167.114.220.125/32                       # , no-resolve  # dnscrypt.ca
+  - IP-CIDR       , 104.238.186.192/32                       # , no-resolve  # dnscrypt.uk
+  - IP-CIDR       , 176.9.1.117/32                           # , no-resolve  # dnsforge.de
+  - IP-CIDR       , 176.9.62.58/32                           # , no-resolve  # dnsforge.de
+  - IP-CIDR       , 176.9.93.198/32                          # , no-resolve  # dnsforge.de
+  - IP-CIDR6      , 2a01:4f8:141:316d::117/128               # , no-resolve  # dnsforge.de
+  - IP-CIDR6      , 2a01:4f8:151:34aa::198/128               # , no-resolve  # dnsforge.de
+  - IP-CIDR       , 185.235.81.1/32                          # , no-resolve  # dnslify.com
+  - IP-CIDR       , 185.235.81.2/32                          # , no-resolve  # dnslify.com
+  - IP-CIDR       , 104.236.178.232/32                       # , no-resolve  # dnsoverhttps.net
+  - IP-CIDR       , 94.130.110.178/32                        # , no-resolve  # dnsprivacy.at
+  - IP-CIDR       , 94.130.110.185/32                        # , no-resolve  # dnsprivacy.at
+  - IP-CIDR6      , 2a01:4f8:c0c:3bfc::2/128                 # , no-resolve  # dnsprivacy.at
+  - IP-CIDR6      , 2a01:4f8:c0c:3c03::2/128                 # , no-resolve  # dnsprivacy.at
+  - IP-CIDR       , 185.216.27.142/32                        # , no-resolve  # doh.42l.fr
+  - IP-CIDR6      , 2606:4700:3034::681c:16a/128             # , no-resolve  # doh.crypto.sx
+  - IP-CIDR6      , 2606:4700:3036::681c:6a/128              # , no-resolve  # doh.crypto.sx
+  - IP-CIDR       , 185.150.99.255/32                        # , no-resolve  # doh.ffmuc.net
+  - IP-CIDR       , 5.1.66.255/32                            # , no-resolve  # doh.ffmuc.net
+  - IP-CIDR6      , 2001:678:e68:f000::/128                  # , no-resolve  # doh.ffmuc.net
+  - IP-CIDR6      , 2001:678:ed0:f000::/128                  # , no-resolve  # doh.ffmuc.net
+  - IP-CIDR       , 46.101.66.244/32                         # , no-resolve  # doh.li
+  - IP-CIDR       , 174.138.29.175/32                        # , no-resolve  # doh.tiar.app
+  - IP-CIDR6      , 2400:6180:0:d0::5f73:4001/128            # , no-resolve  # doh.tiar.app
+  - IP-CIDR       , 195.10.195.195/32                        # , no-resolve  # eth-services.de
+  - IP-CIDR       , 94.247.43.254/32                         # , no-resolve  # eth-services.de
+  - IP-CIDR6      , 2a00:f826:8:1::254/128                   # , no-resolve  # eth-services.de
+  - IP-CIDR6      , 2a00:f826:8:2::195/128                   # , no-resolve  # eth-services.de
+  - IP-CIDR       , 185.134.196.54/32                        # , no-resolve  # faelix.net
+  - IP-CIDR       , 185.134.197.54/32                        # , no-resolve  # faelix.net
+  - IP-CIDR       , 46.227.200.54/32                         # , no-resolve  # faelix.net
+  - IP-CIDR       , 46.227.200.55/32                         # , no-resolve  # faelix.net
+  - IP-CIDR6      , 2a01:9e00::54/128                        # , no-resolve  # faelix.net
+  - IP-CIDR6      , 2a01:9e00::55/128                        # , no-resolve  # faelix.net
+  - IP-CIDR6      , 2a01:9e01::54/128                        # , no-resolve  # faelix.net
+  - IP-CIDR6      , 2a01:9e01::55/128                        # , no-resolve  # faelix.net
+  - IP-CIDR       , 78.47.243.3/32                           # , no-resolve  # fische.io
+  - IP-CIDR6      , 2a01:4f8:1c0c:80c9::1/128                # , no-resolve  # fische.io
+  - IP-CIDR       , 158.64.1.29/32                           # , no-resolve  # Foundation RESTENA
+  - IP-CIDR6      , 2001:a18:1::29/128                       # , no-resolve  # Foundation RESTENA
+  - IP-CIDR       , 185.49.141.37/32                         # , no-resolve  # getdnsapi.net
+  - IP-CIDR6      , 2a04:b900:0:100::37/128                  # , no-resolve  # getdnsapi.net
+  - IP-CIDR6      , 2001:67c:27e4::35/128                    # , no-resolve  # Go6Lab
+  - IP-CIDR       , 185.26.126.14/32                         # , no-resolve  # Hostux
+  - IP-CIDR       , 185.26.126.37/32                         # , no-resolve  # Hostux
+  - IP-CIDR       , 46.226.108.173/32                        # , no-resolve  # Hostux
+  - IP-CIDR       , 46.226.109.82/32                         # , no-resolve  # Hostux
+  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fe75:cd60/128  # , no-resolve  # Hostux
+  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fe86:1d28/128  # , no-resolve  # Hostux
+  - IP-CIDR       , 151.80.222.79/32                         # , no-resolve  # i2pd.xyz
+  - IP-CIDR6      , 2001:470:1f15:b80::53/128                # , no-resolve  # i2pd.xyz
+  - IP-CIDR       , 213.196.191.96/32                        # , no-resolve  # ibksturm.synology.me
+  - IP-CIDR       , 168.138.243.216/32                       # , no-resolve  # ibuki.cgnat.net
+  - IP-CIDR       , 62.210.177.189/32                        # , no-resolve  # iriseden.eu
+  - IP-CIDR       , 62.210.180.71/32                         # , no-resolve  # iriseden.eu
+  - IP-CIDR6      , 2001:bc8:32d7:307::301/128               # , no-resolve  # iriseden.eu
+  - IP-CIDR6      , 2001:bc8:32d7:308::201/128               # , no-resolve  # iriseden.eu
+  - IP-CIDR       , 172.105.241.93/32                        # , no-resolve  # jp.gridns.xyz
+  - IP-CIDR       , 172.104.93.80/32                         # , no-resolve  # jp.tiar.app
+  - IP-CIDR6      , 2400:8902::f03c:91ff:feda:c514/128       # , no-resolve  # jp.tiar.app
+  - IP-CIDR       , 51.158.147.50/32                         # , no-resolve  # lelux.fi
+  - IP-CIDR6      , 2001:bc8:2db9:100::/128                  # , no-resolve  # lelux.fi
+  - IP-CIDR       , 5.11.11.11/32                            # , no-resolve  # Liquid Telecom
+  - IP-CIDR       , 5.11.11.5/32                             # , no-resolve  # Liquid Telecom
+  - IP-CIDR       , 80.67.188.188/32                         # , no-resolve  # Lorraine Data Network
+  - IP-CIDR6      , 2001:913::8/128                          # , no-resolve  # Lorraine Data Network
+  - IP-CIDR       , 142.4.204.111/32                         # , no-resolve  # luggs.co
+  - IP-CIDR       , 142.4.205.47/32                          # , no-resolve  # luggs.co
+  - IP-CIDR6      , 2607:5300:120:a8a:142:4:204:111/128      # , no-resolve  # luggs.co
+  - IP-CIDR6      , 2607:5300:120:a8a:142:4:205:47/128       # , no-resolve  # luggs.co
+  - IP-CIDR       , 89.234.186.112/32                        # , no-resolve  # Neutopia
+  - IP-CIDR6      , 2a00:5884:8209::2/128                    # , no-resolve  # Neutopia
+  - IP-CIDR       , 104.244.78.231/32                        # , no-resolve  # NixNet
+  - IP-CIDR       , 198.251.90.89/32                         # , no-resolve  # NixNet
+  - IP-CIDR       , 198.251.90.91/32                         # , no-resolve  # NixNet
+  - IP-CIDR       , 199.195.251.84/32                        # , no-resolve  # NixNet
+  - IP-CIDR       , 209.141.34.95/32                         # , no-resolve  # NixNet
+  - IP-CIDR       , 184.105.193.78/32                        # , no-resolve  # OARC
+  - IP-CIDR6      , 2620:ff:c000:0:1:0:64:25/128             # , no-resolve  # OARC
+  - IP-CIDR       , 185.43.135.1/32                          # , no-resolve  # odvr.nic.cz
+  - IP-CIDR       , 193.17.47.1/32                           # , no-resolve  # odvr.nic.cz
+  - IP-CIDR6      , 2001:148f:fffe::1/128                    # , no-resolve  # odvr.nic.cz
+  - IP-CIDR6      , 2001:148f:ffff::1/128                    # , no-resolve  # odvr.nic.cz
+  - IP-CIDR       , 146.185.176.36/32                        # , no-resolve  # phillymesh.net
+  - IP-CIDR6      , 2a03:b0c0:0:1010::1a7:c001/128           # , no-resolve  # phillymesh.net
+  - IP-CIDR       , 185.213.26.187/32                        # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 45.63.30.163/32                          # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 45.67.219.208/32                         # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 66.42.33.135/32                          # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 88.198.91.187/32                         # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 95.216.181.228/32                        # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2001:19f0:5801:b7c::1/128                # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2001:19f0:7001:225d::1/128               # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2a01:4f8:1c0c:8233::1/128                # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2a01:4f9:c01f:4::abcd/128                # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2a04:bdc7:100:70::abcd/128               # , no-resolve  # pi-dns.com
+  - IP-CIDR6      , 2a0d:5600:33:3::abcd/128                 # , no-resolve  # pi-dns.com
+  - IP-CIDR       , 103.2.57.5/32                            # , no-resolve  # public.dns.iij.jp
+  - IP-CIDR       , 103.2.57.6/32                            # , no-resolve  # public.dns.iij.jp
+  - IP-CIDR       , 51.15.98.97/32                           # , no-resolve  # resolver.dnspoint.cloud
+  - IP-CIDR       , 116.203.179.248/32                       # , no-resolve  # rumpelsepp.org
+  - IP-CIDR       , 146.185.167.43/32                        # , no-resolve  # SecureDNS
+  - IP-CIDR6      , 2a03:b0c0:0:1010::e9a:3001/128           # , no-resolve  # SecureDNS
+  - IP-CIDR       , 163.172.180.125/32                       # , no-resolve  # sfw.scaleway-fr
+  - IP-CIDR       , 139.162.3.123/32                         # , no-resolve  # sg.gridns.xyz
+  - IP-CIDR       , 95.216.229.153/32                        # , no-resolve  # snopyta.org
+  - IP-CIDR       , 95.216.24.230/32                         # , no-resolve  # snopyta.org
+  - IP-CIDR6      , 2a01:4f9:2a:1919::21/128                 # , no-resolve  # snopyta.org
+  - IP-CIDR6      , 2a01:4f9:2a:1919::9301/128               # , no-resolve  # snopyta.org
+  - IP-CIDR       , 145.100.185.15/32                        # , no-resolve  # Surfnet
+  - IP-CIDR       , 145.100.185.16/32                        # , no-resolve  # Surfnet
+  - IP-CIDR       , 145.100.185.17/32                        # , no-resolve  # Surfnet
+  - IP-CIDR       , 145.100.185.18/32                        # , no-resolve  # Surfnet
+  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:15/128       # , no-resolve  # Surfnet
+  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:16/128       # , no-resolve  # Surfnet
+  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:17/128       # , no-resolve  # Surfnet
+  - IP-CIDR6      , 2001:610:1:40ba:145:100:185:18/128       # , no-resolve  # Surfnet
+  - IP-CIDR       , 149.154.153.153/32                       # , no-resolve  # usableprivacy.net
+  - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fea9:41a/128   # , no-resolve  # Yeti
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
 

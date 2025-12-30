@@ -162,7 +162,15 @@ payload:
   - '+.wikimedia-dns.org'                     # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
   - '+.yeti-dns.org'                          # Yeti DNS (全球分布式)
 
-
+  - '+.max.rethinkdns.com'                    # RethinkDNS (Max)
+  - '+.sky.rethinkdns.com'                    # RethinkDNS (Sky)
+ #- '+.dns.bebasid.com'                       # BebasDNS (印尼)
+  - '+.v.recipes'                             # v.recipes (支持自定义上游)
+  - '+.dns.decloudus.com'                     # DeCloudUs (附件仅在ASCII表中存在，未在策略组)
+  - '+.doh.nl.ahadns.net'                     # AhaDNS (荷兰)
+  - '+.doh.la.ahadns.net'                     # AhaDNS (洛杉矶)
+  - '+.dns.dnswarden.com'                     # DNS Warden (Uncensored 域名与附件中 doh 开头不同)
+  - '+.dns.oszx.co'                           # OSZX DNS (附件仅在ASCII表中存在，未在策略组)
 
 # 特别注意：所有来自中国的DNS均会污染解析！！！！
 

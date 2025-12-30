@@ -266,6 +266,17 @@ payload:
   - DOMAIN-SUFFIX , dns-weblock.wevpn.com                                    # WeDNS 带广告/恶意域名过滤的 DoH
   - DOMAIN-SUFFIX , wikimedia-dns.org                                        # Wikimedia Foundation 公共 DNS，DoH/DoT（小规模 beta，但被 DNSPrivacy 收录）
   - DOMAIN-SUFFIX , yeti-dns.org                                             # Yeti DNS (全球分布式)
+
+  - DOMAIN-SUFFIX , max.rethinkdns.com                                       # RethinkDNS (Max)
+  - DOMAIN-SUFFIX , sky.rethinkdns.com                                       # RethinkDNS (Sky)
+ #- DOMAIN-SUFFIX , dns.bebasid.com                                          # BebasDNS (印尼)
+  - DOMAIN-SUFFIX , v.recipes                                                # v.recipes (支持自定义上游)
+  - DOMAIN-SUFFIX , dns.decloudus.com                                        # DeCloudUs (附件仅在ASCII表中存在，未在策略组)
+  - DOMAIN-SUFFIX , doh.nl.ahadns.net                                        # AhaDNS (荷兰)
+  - DOMAIN-SUFFIX , doh.la.ahadns.net                                        # AhaDNS (洛杉矶)
+  - DOMAIN-SUFFIX , dns.dnswarden.com                                        # DNS Warden (Uncensored 域名与附件中 doh 开头不同)
+  - DOMAIN-SUFFIX , dns.oszx.co                                              # OSZX DNS (附件仅在ASCII表中存在，未在策略组)
+
   - IP-CIDR       , 4.2.2.1/32                                 , no-resolve  # Level3
   - IP-CIDR       , 4.2.2.2/32                                 , no-resolve  # Level3
   - IP-CIDR       , 4.2.2.3/32                                 , no-resolve  # Level3
