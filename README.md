@@ -141,8 +141,6 @@
 
 + [MacAppUpgrade](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MacAppUpgrade)		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ） 的 Clash 分流规则
 
-+ [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
-
 + [Pornhub](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Pornhub)	：P站 的 Clash分流规则
 
 + [Aqara](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Aqara) ：Aqara Homekit 监控摄像头 的 Clash分流规则
@@ -156,6 +154,11 @@
 + [MicrosoftAPPs](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MicrosoftAPPs)： 微软APP全家桶 的 Clash分流规则 
     + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github、LinkedIn
     + 包含：Windows操作系统 的 系统更新 和 各种内置 、Office 、 以及其他 微软客户端APP
+
++ [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
+  + 与HomeIP分流规格的区别，如 ： 
+     - HomeIPUS     = 必须 🇺🇸 美国住宅IP 才能访问的网站
+     - UnsupportVPN = 只要是 非机房IP / 非VPN IP ，都能访问的网站（无论是否是住宅IP）
 
 + [China](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/China) ：🇨🇳 中国网站 的 Clash分流规则 
     + [blackmatrix7/ios_rule_script/China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China) 的 修正版 
