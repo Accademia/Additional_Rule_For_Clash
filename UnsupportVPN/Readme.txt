@@ -35,7 +35,7 @@
 
   + 与HomeIP分流规格的区别，如 ： 
      - HomeIPUS     = 必须 🇺🇸 美国住宅IP 才能访问的网站
-     - UnsupportVPN = 只要是 非机房IP / 非VPN IP ，都能访问的网站（无论是否是住宅IP）
+     - UnsupportVPN = 只要是 非机房IP / 非VPN IP ，都能访问的网站（无论是否是住宅IP，无论是否是对方国家的IP，只要是非机房IP，直连也能访问）
 
 <br>
 
