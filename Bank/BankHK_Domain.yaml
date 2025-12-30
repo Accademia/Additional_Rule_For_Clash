@@ -16,7 +16,7 @@ payload:
     - '+.sc.com'                                # 渣打香港
     - '+.standchartbank.*.*.*'                  # 渣打香港
     - '+.standchartbank.*.*'                    # 渣打香港
-    - '+.omtrdc.net'                            # 渣打香港
+   #- '+.omtrdc.net'                            # 渣打香港
     - 'yvn1g4-cdn-settings.appsflyersdk.com'    # 渣打香港
     - 'yvn1g4-launches.appsflyersdk.com'        # 渣打香港
     

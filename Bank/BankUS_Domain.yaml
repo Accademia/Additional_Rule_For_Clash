@@ -21,79 +21,99 @@ payload:
    
    # ---------- Chase ---------- #  
     
-    - '+.chase.com'                 # 摩根大通    Chase
+    - '+.chase.com'                    # 摩根大通    Chase
                      
    # -------- Wellsfargo -------- # 
     
-    - '+.wellsfargo.com'            # 富国银行    Wellsfargo
+    - '+.wellsfargo.com'               # 富国银行    Wellsfargo
     
    # -------- Citibank -------- #  
     
-    - '+.citi.com'                  # 花旗银行    Citibank  
-    - '+.citibank.com'              # 花旗银行    Citibank  
+    - '+.citi.com'                     # 花旗银行    Citibank  
+    - '+.citibank.com'                 # 花旗银行    Citibank  
 
    # ------ Bank of America ----- # 
     
-    - '+.bankofamerica.com'         # 美洲银行    Bank of America
-    - DOMAIN-KEYWORD , bankofamerica             # 美洲银行    Bank of America
-    
+    - '+.bankofamerica.com'            # 美洲银行    Bank of America
+    - '+.bankofamerica.*'              # 美洲银行    Bank of America
+    - '+.bankofamerica.*.*'            # 美洲银行    Bank of America
+    - '+.bankofamerica.*.*.*'          # 美洲银行    Bank of America
+    - '+.bankofamerica1.*'             # 美洲银行    Bank of America
+    - '+.bankofamerica1.*.*'           # 美洲银行    Bank of America
+    - '+.bankofamerica1.*.*.*'         # 美洲银行    Bank of America
+
+    - '+.bac-assets.com'               # 美洲银行    Bank of America
+
+
    # --------- US Bank --------- # 
    
-    - '+.usbank.com'                # 美国合众银行  U.S. Bancorp
+    - '+.usbank.com'                   # 美国合众银行  U.S. Bancorp
 
    # ------- 信用卡 银行 ------- #
    
-    - '+.capitalone.com'            # 第一资本     Capital One Financial
-    - '+.americanexpress.com'       # 美国运通     American Express Company
-    - '+.discover.com'              # 发现卡       Discover Financial Services
+    - '+.capitalone.com'               # 第一资本     Capital One Financial
+    - '+.americanexpress.com'          # 美国运通     American Express Company
+    - '+.discover.com'                 # 发现卡       Discover Financial Services
    
-    - '+.synchronybank.com'         # 同步银行     Synchrony （Paypal在美国的合作银行）
+    - '+.synchronybank.com'            # 同步银行     Synchrony （Paypal在美国的合作银行）
     
    # ------ 中资背景 银行 ------- #
    
-    - '+.eastwest.com'              # 华美汇丰     EastWest
-    - '+.cathaybank.com'            # 国泰汇丰     Cathay Bank
+    - '+.velobank.com'                 # 华美汇丰     EastWest
+    - '+.eastwest.com'                 # 华美汇丰     EastWest
+    - '+.eastwestbank.*'               # 华美汇丰     EastWest
+    - '+.eastwestbank.*.*'             # 华美汇丰     EastWest
+    - '+.eastwestbank.*.*.*'           # 华美汇丰     EastWest
+    - '+.cm.everesttech.net'           # 华美汇丰     EastWest
+    - '+.epayments-epaystatic-e.money-movement.com'   # 华美汇丰     EastWest
+
+
+    - '+.cathaybank.com'               # 国泰汇丰     Cathay Bank
+    - '+.q2ebanking.com'               # 国泰汇丰     Cathay Bank
+    - '+.savvymoney.com'               # 国泰汇丰     Cathay Bank
+    - '+.onlineaccess1.com'            # 国泰汇丰     Cathay Bank
     
+
    # -------- 数字 银行 -------- #
    
-    - '+.varomoney.com'             # Varo银行
-    - '+.velobank.com'              # Velo银行
-    - '+.trydave.com'               # Dave卡
-    - '+.sezzle.com'                # Sezzle卡
-    - '+.gobankrewards.com'         # Go2Bank卡
+    - '+.varomoney.com'                # Varo银行
+    - '+.velobank.com'                 # Velo银行
+    - '+.trydave.com'                  # Dave卡
+    - '+.sezzle.com'                   # Sezzle卡
+    - '+.gobankrewards.com'            # Go2Bank卡
     
-   #- '+.                           # 
-   #- '+.                           # 
-   #- '+.                           # 
+   #- '+.                              # 
+   #- '+.                              # 
+   #- '+.                              # 
     
-   #- DOMAIN-KEYWORD , td.com/us/                  # 明道银行     TD Group US Holdings
-   #- '+.                           # 
+   #- DOMAIN-KEYWORD , td.com/us/                     # 明道银行     TD Group US Holdings
+   #- '+.                              # 
    
 
-   # ------- 其他 本土银行 ------- #
+   # ------- 其他 本土银行 ------- #    
    
-    - '+.pnc.com'                   # PNC Financial Services
-    - '+.jpmorganchase.com'         # JPMorgan Chase                       
-    - '+.citigroup.com'             # Citigroup                            
-    - '+.goldmansachs.com'          # Goldman Sachs Group                  
-    - '+.morganstanley.com'         # Morgan Stanley                       
-    - '+.bnymellon.com'             # Bank of New York Mellon              
-    - '+.truist.com'                # Truist Financial                     
-    - '+.statestreet.com'           # State Street Corporation             
-    - '+.schwab.com'                # Charles Schwab Corporation           
-    - '+.citizensbank.com'          # Citizens Financial Group             
-    - '+.ally.com'                  # Ally Financial                       
-    - '+.53.com'                    # Fifth Third Bancorp                  
-    - '+.key.com'                   # KeyCorp                              
-    - '+.northerntrust.com'         # Northern Trust Corporation           
-    - '+.regions.com'               # Regions Financial Corporation        
-    - '+.mtb.com'                   # M&T Bank Corporation                 
-    - '+.huntington.com'            # Huntington Bancshares                
-    - '+.truist.com'                # SunTrust Banks (现为Truist Financial)
-    - '+.bbvausa.com'               # BBVA USA Bancshares                  
-    - '+.santanderbank.com'         # Santander Holdings USA               
-    - '+.comerica.com'              # Comerica                             
-    - '+.zionsbank.com'             # Zions Bancorporation  
+    - '+.pnc.com'                      # PNC Financial Services
+    - '+.jpmorganchase.com'            # JPMorgan Chase                       
+    - '+.citigroup.com'                # Citigroup                            
+    - '+.goldmansachs.com'             # Goldman Sachs Group                  
+    - '+.morganstanley.com'            # Morgan Stanley                       
+    - '+.bnymellon.com'                # Bank of New York Mellon              
+    - '+.truist.com'                   # Truist Financial                     
+    - '+.statestreet.com'              # State Street Corporation             
+    - '+.schwab.com'                   # Charles Schwab Corporation           
+    - '+.citizensbank.com'             # Citizens Financial Group             
+    - '+.ally.com'                     # Ally Financial                       
+    - '+.53.com'                       # Fifth Third Bancorp                  
+    - '+.key.com'                      # KeyCorp                              
+    - '+.northerntrust.com'            # Northern Trust Corporation           
+    - '+.regions.com'                  # Regions Financial Corporation        
+    - '+.mtb.com'                      # M&T Bank Corporation                 
+    - '+.huntington.com'               # Huntington Bancshares                
+    - '+.truist.com'                   # SunTrust Banks (现为Truist Financial)
+    - '+.bbvausa.com'                  # BBVA USA Bancshares                  
+    - '+.santanderbank.com'            # Santander Holdings USA               
+    - '+.comerica.com'                 # Comerica                             
+    - '+.zionsbank.com'                # Zions Bancorporation  
     
    #- '+.                            # 
    #- '+.                            # 
