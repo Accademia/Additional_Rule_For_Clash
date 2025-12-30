@@ -5,7 +5,7 @@ payload:
    # -----------------------------------------------
    
     - DOMAIN-SUFFIX  ,  hsbc.com.sg              # HSBC Singapore                                    汇丰新加坡
-    - DOMAIN         , sg.hsbc.com               # HSBC Singapore                                    汇丰新加坡
+    - DOMAIN         ,  sg.hsbc.com              # HSBC Singapore                                    汇丰新加坡
     - DOMAIN-SUFFIX  , .sg.hsbc.com              # HSBC Singapore                                    汇丰新加坡
 
     - DOMAIN-SUFFIX  ,  dbs.com.sg               # DBS Bank                                          星展银行（新加坡）   
