@@ -145,8 +145,6 @@
 
 + [Pornhub](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Pornhub)	：P站 的 Clash分流规则
 
-+ [MissAV](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MissAV)	：MissAV 的 Clash分流规则
-
 + [Aqara](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Aqara) ：Aqara Homekit 监控摄像头 的 Clash分流规则
 
 + [Kwai](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Kwai) ：“Kwai“（快手国际版） 的 Clash分流规则
