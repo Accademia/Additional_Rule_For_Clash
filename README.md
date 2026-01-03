@@ -103,7 +103,9 @@
   - 东非  # Africa (East    Africa)       
   - 中非  # Africa (Central Africa)   
 
-+ [HomeIP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HomeIP)		：必须要 “住宅IP” 才能正常下单的网站 
++ [HomeIP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HomeIP)		：必须要 落地国 “住宅IP” 才能正常下单的网站 
+
++ [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 用 VPN （机房IP） 连不上， 但（无需 落地国 住宅IP）直连 能连上的网站
 
 + [PreRepairEasyPrivacy](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/PreRepairEasyPrivacy)	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
@@ -154,11 +156,6 @@
 + [MicrosoftAPPs](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MicrosoftAPPs)： 微软APP全家桶 的 Clash分流规则 
     + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github、LinkedIn
     + 包含：Windows操作系统 的 系统更新 和 各种内置 、Office 、 以及其他 微软客户端APP
-
-+ [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 不支持VPN的网站（除 银行、HomeIP 分流规则以外的 网站）
-  + 与HomeIP分流规格的区别，如 ： 
-     - HomeIPUS     = 必须 🇺🇸 美国住宅IP 才能访问的网站
-     - UnsupportVPN = 只要是 非机房IP / 非VPN IP ，都能访问的网站（无论是否是住宅IP，无论是否是对方国家的IP，只要是非机房IP，直连也能访问）
 
 + [China](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/China) ：🇨🇳 中国网站 的 Clash分流规则 
     + [blackmatrix7/ios_rule_script/China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China) 的 修正版 
