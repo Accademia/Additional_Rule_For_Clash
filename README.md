@@ -23,7 +23,7 @@
         - 0 绕路
         - 修改 IP归属地显示 （如抖音留言）
         - 同时集成 多套规则库 （ geosite + blackmatrix + 本规则集）
-
+  - https://github.com/Accademia/Clash_Configuration_Template
 
 <br>
 <br>
