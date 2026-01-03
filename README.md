@@ -2,8 +2,7 @@
 
 面向Clash的分流规则
 
-+ 用途： 作为 blackmatrix7/ios_rule_script的补充规则（填补其缺失的却则）
-  - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash 
++ 用途： 作为 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash) 的补充规则（填补其缺失的却则）
 
 + 兼容的客户端：	
    - Stash （ for iOS/Mac ）
@@ -14,14 +13,16 @@
 
 + 本项目，是否会长期维护？
   - 是的，本项目会长期维护。
-  - 本项目，是从我长期自用的 “超级省电clash分流规则模版” 的内置规则中 拆分出来的。
-  - 本项目，用于补充 “超级省电clash分流模版” 需要使用到， 但市面上却没有的， 规则集。
+  - 本项目，是从我长期自用的 [《超级省电clash分流规则模》](https://github.com/Accademia/Clash_Configuration_Template) 的内置规则中 拆分出来的。用于补充 [《超级省电clash分流模版》](https://github.com/Accademia/Clash_Configuration_Template) 需要使用到， 但市面上却没有的 规则集。
  
-+ 上述提到的 “超级省电clash分流规则模版” 是什么 ？
-   - 面向如下需求的Clash模版：
-        - 🔥 移动端 极致省电  +  0 DNS泄漏  +  修改IP归属地显示  +  国内国外主流APP分流 
-   - 项目地址：https://github.com/Accademia/Clash_Configuration_Template
-   - 集成规则库： “ blackmatrix + geosite + 本规则集 ” ！
++ 上述提到的 [《超级省电clash分流规则模版》](https://github.com/Accademia/Clash_Configuration_Template) 是什么 ？
+   - 是 本规则集合 “最佳用法”  范例 ✅ ✅ ✅   （ 已自用 > 2年 ）
+   - 最大特色：
+        - 极致省电   🔥🔥🔥🔥🔥 （手机端）
+        - 0 DNS泄漏  
+        - 0 绕路
+        - 修改 IP归属地显示 （如抖音留言）
+        - 同时集成 多套规则库 （ geosite + blackmatrix + 本规则集）
 
 
 <br>
