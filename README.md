@@ -3,35 +3,43 @@
 面向Clash的分流规则
 
 + 用途： 
+ 
   - 作为 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash) 的补充规则（填补其缺失的却则）
 
 <br>
 
 + 兼容的客户端：	
+ 
    - Stash （ for iOS/Mac ）
    - Clash Verga Rec （ for Mac/win ）
 
 <br>
 
 + 为什么要建立新项目，而不是给原规则提issue： 
+
   - blackmatrix7 作者无意扩展新规则，本规则也只是添加 本项目主 自己常用的 长期验证过的 规则
 
 <br>
 
 + 本项目，是否会长期维护：
+
   - 是的，本项目会长期维护。
+
   - 本项目，是从我长期自用的 [《超级省电clash分流规则模》](https://github.com/Accademia/Clash_Configuration_Template) 的内置规则中 拆分出来的。用于补充 [《超级省电clash分流模版》](https://github.com/Accademia/Clash_Configuration_Template) 需要使用到， 但市面上却没有的 规则集。
 
 <br>
  
 + 上述提到的 [《超级省电clash分流规则模版》](https://github.com/Accademia/Clash_Configuration_Template) 是什么 ？
+  
    - 是 本规则集合 “最佳用法”  范例 ✅ ✅ ✅   （ 已自用 > 2年 ）
+ 
    - 最大特色：
         - 极致省电   🔥🔥🔥🔥🔥 （手机端）
         - 0 DNS泄漏  
         - 0 绕路
         - 修改 IP归属地显示 （如抖音留言）
         - 同时集成 多套规则库 （ geosite + blackmatrix + 本规则集）
+
   - https://github.com/Accademia/Clash_Configuration_Template
 
 <br>
