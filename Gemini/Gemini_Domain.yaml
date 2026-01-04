@@ -91,5 +91,6 @@ payload:
     - '+.mtalk.google.com'
     - '+.oauthaccountmanager.googleapis.com'
     - '+.notifications-pa.googleapis.com'
+    - '+.oauth2.googleapis.com'
 
 
