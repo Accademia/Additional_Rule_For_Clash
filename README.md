@@ -236,8 +236,18 @@
 
 + [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	 分流规则 ❗️❗️❗️❗️❗️
   
-  - 由于Stash作者 “拒绝支持” 一些必备特性。❌❌❌ 所以，本规则，不保证在 Stash for iOS 中可以100%生效，仅完美兼容Clash Meta，具体可以看此规则的详情页。
+  - 由于Stash作者 “拒绝支持” 一些 “关键特性” 。❌❌❌ 所以，本规则，不保证在 Stash for iOS 中可以 100%生效，仅完美兼容Clash Meta，具体可以看此规则的详情页。
 
+
+<br>
+
++ [Gemini](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini) 分流规则 ❗️❗️❗️❗️❗️
+
+   - 此规则 必须前置 （ 到所有Google其他产品分流规则之前），不然会 降智 或 被拒绝连接 ！！！
+
+    - 具体请看这里的说明：
+
+       - https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini
 
 <br>
 
@@ -246,6 +256,7 @@
     - 单纯设置分流规则，可能 Grok APP for iOS（仅APP端） 仍旧连不上，需要在Stash、Clash的配置文件中，对IPv6做特殊处理 ！！！
 
     - 具体请看这里的说明：
+
         - https://github.com/Accademia/Additional_Rule_For_Clash/edit/main/Grok
 
 <br>
@@ -255,6 +266,7 @@
     -  🇨🇳 国行 iPhone 、 iPad （不含Mac），无需尝试❕❕ 已被苹果锁死 ❕❕
       
     - 具体可以看这里的说明：⚠️⚠️
+
         - https://github.com/Accademia/Additional_Rule_For_Clash/blob/main/AppleAI
      
 <br>
