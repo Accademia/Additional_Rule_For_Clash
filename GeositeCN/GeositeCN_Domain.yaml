@@ -2287,6 +2287,10 @@ payload:
                              - '+.dcarlive.com'                                           # GeoSite:dongchedi
                              - '+.dcarstatic.com'                                         # GeoSite:dongchedi
                              - '+.dcarvod.com'                                            # GeoSite:dongchedi
+                             - '+.dcarvod.com.*'                                          # GeoSite:dongchedi
+                             - '+.dcarvod.com.*.*'                                        # GeoSite:dongchedi
+                             - '+.dcarvod.com.*.*.*'                                      # GeoSite:dongchedi
+                             - '+.dcarvod.com.*.*.*.*'                                    # GeoSite:dongchedi
                              - '+.dcdapp.com'                                             # GeoSite:dongchedi
                              - '+.dongchedi.com'                                          # GeoSite:dongchedi
                              - '+.dongchediapp.com'                                       # GeoSite:dongchedi

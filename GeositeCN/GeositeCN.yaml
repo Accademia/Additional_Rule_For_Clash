@@ -2250,7 +2250,7 @@ payload:
                              - DOMAIN-SUFFIX   , dcarimg.com                                             # GeoSite:dongchedi
                              - DOMAIN-SUFFIX   , dcarlive.com                                            # GeoSite:dongchedi
                              - DOMAIN-SUFFIX   , dcarstatic.com                                          # GeoSite:dongchedi
-                             - DOMAIN-SUFFIX   , dcarvod.com                                             # GeoSite:dongchedi
+                             - DOMAIN-KEYWORD  , dcarvod.com                                             # GeoSite:dongchedi
                              - DOMAIN-SUFFIX   , dcdapp.com                                              # GeoSite:dongchedi
                              - DOMAIN-SUFFIX   , dongchedi.com                                           # GeoSite:dongchedi
                              - DOMAIN-SUFFIX   , dongchediapp.com                                        # GeoSite:dongchedi
