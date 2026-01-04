@@ -19,6 +19,7 @@ payload:
     - '+.content-autofill.googleapis.com'
     - '+.robinfrontend-pa.googleapis.com'
 
+
     # Google CDN
     - '+.www.gstatic.com'
     - '+.fonts.gstatic.com'
@@ -50,6 +51,7 @@ payload:
 
     - '+.generativeai.google'
 
+
     # Google Gemini
     - '+.gemini.google'
     - '+.gemini.google.com'
@@ -67,7 +69,9 @@ payload:
     - '+.i.ytimg.com'
     - '+.yt3.ggpht.com'
 
+
     # https://support.google.com/a/answer/15627649?hl=en
+
 
     # 预防性
     - '+.generativelanguage.*'
