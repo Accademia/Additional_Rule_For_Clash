@@ -91,10 +91,13 @@ payload:
 
 
     # 其他补充 （已手工检查）
+    
     - '+.signaler-pa.clients6.google.com'
     - '+.mtalk.google.com'
+
     - '+.oauthaccountmanager.googleapis.com'
     - '+.notifications-pa.googleapis.com'
     - '+.oauth2.googleapis.com'
+    - '+.play.googleapis.com'
 
 
