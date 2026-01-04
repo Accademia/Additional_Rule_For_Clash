@@ -68,3 +68,19 @@ payload:
     - '+.yt3.ggpht.com'
 
     # https://support.google.com/a/answer/15627649?hl=en
+
+
+    - '+.generativelanguage.*'
+    - '+.generativelanguage.*.*'
+    - '+.generativelanguage.*.*.*'
+    - '+.generativelanguage.*.*.*.*'
+
+    - '+.developerprofiles.*'
+    - '+.developerprofiles.*.*'
+    - '+.developerprofiles.*.*.*'
+    - '+.developerprofiles.*.*.*.*'
+
+    - '+.colab.*'
+    - '+.colab.*.*'
+    - '+.colab.*.*.*'
+    - '+.colab.*.*.*.*'
