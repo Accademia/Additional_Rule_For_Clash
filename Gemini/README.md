@@ -8,7 +8,18 @@
 
 <br>
 
-## 注意
+## ⚠️⚠️⚠️⚠️⚠️ 特别注意
+
+本规则 必须前置 ❕❕❕❕
+
+即，前置到谷歌系其他产品的规则以前。如 Youtube 、Google Search 、Google Play 、Gmail 、Google Drive 等等 上述产品的分流规则，必须放在本规则后生效  ❕❕❕ 不然 ，谷歌100%会监测到你多IP连接Gemini。会100%降智 或 拒绝连接。 并且强烈建议使用住宅IP连接。不然也有降智风险。
+
+海外四大AI （ ChatGPT 、Grok 、Gemini 、Claude ），强烈建议，只使用住宅IP连接，即便将 降智风险 降到最低。
+
+<br>
+
+
+## ❌❌❌❌❌ 隐私风险 
 
   - Google Gemini 是全球 前四大AI（ChatGPT Grok Gemini Claude）中，唯一一个不提供足量隐私功能的APP。即，在 “完整功能” 的模式下，你与Gemini的对话 会100%拿去用于训练谷歌AI，并且可以被谷歌的人工，是可以随时手动审查你与AI的所有对话内容。（ 这个问题 在Reddit上 已经被 🇺🇸美国网友 骂疯了 ）
  
