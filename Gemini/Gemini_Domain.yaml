@@ -45,8 +45,8 @@ payload:
     - '+.bard.google.com'
     - '+.lh3.google.com'
     - '+.ogs.google.com'
-    - '+.play.google.com'       # 会干扰 Google Play Store，但是必须加上， 谷歌会通过这个网址判断是否多IP访问，从而屏蔽或降智
-   #- '+.www.google.com'
+    - '+.play.google.com'       # 会干扰 Google Play Store ，但是必须加上， 谷歌会通过这个网址判断是否多IP访问，从而屏蔽或降智
+    - '+.www.google.com'        # 会干扰 Google Search ，但是必须加上， 谷歌会通过这个网址判断是否多IP访问，从而屏蔽或降智
    #- '+.www.youtube.com'
 
     - '+.generativeai.google'
