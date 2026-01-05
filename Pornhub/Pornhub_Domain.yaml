@@ -17,6 +17,8 @@ payload:
     # 以下 是一些常用的 AV站 可以在线点播的
 
     # missav
+    
+    - '+.avmiss.*'
 
     - '+.missav.*'
 
