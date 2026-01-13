@@ -25,11 +25,11 @@
 
   - 是的，本项目会长期维护。
 
-  - 本项目，是从我长期自用的 [《超级省电clash分流规则模》](https://github.com/Accademia/Clash_Configuration_Template) 的内置规则中 拆分出来的。用于补充 [《超级省电clash分流模版》](https://github.com/Accademia/Clash_Configuration_Template) 需要使用到， 但市面上却没有的 规则集。
+  - 本项目，是从我长期自用的 [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) 的内置规则中 拆分出来的。用于补充 [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) 需要使用到， 但市面上却没有的 规则集。
 
 <br>
  
-+ 上述提到的 ⭐️⭐️⭐️ [《超级省电clash分流规则模版》](https://github.com/Accademia/Clash_Configuration_Template) ⭐️⭐️⭐️ 是什么 ？
++ 上述提到的 ⭐️⭐️⭐️ [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) ⭐️⭐️⭐️ 是什么 ？
   
    - 是 本规则集合 “最佳用法”  范例 ✅ ✅ ✅   （ 已自用 > 2年 ）
  
