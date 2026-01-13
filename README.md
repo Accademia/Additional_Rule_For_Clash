@@ -2,34 +2,30 @@
 
 面向Clash的分流规则
 
-+ 用途： 
++ ### 用途： 
  
   - 作为 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash) 的补充规则（填补其缺失的却则）
 
-<br>
 
-+ 兼容的客户端：	
++ ### 兼容的客户端：	
  
    - Stash （ for iOS/Mac ）
    - Clash Verga Rec （ for Mac/win ）
 
-<br>
 
-+ 为什么要建立新项目，而不是给原规则提issue： 
++ ### 为什么要建立新项目，而不是给原规则提issue： 
 
   - blackmatrix7 作者无意扩展新规则，本规则也只是添加 本项目主 自己常用的 长期验证过的 规则
 
-<br>
 
-+ 本项目，是否会长期维护：
++ ### 本项目，是否会长期维护：
 
   - 是的，本项目会长期维护。
 
   - 本项目，是从我长期自用的 [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) 的内置规则中 拆分出来的。用于补充 [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) 需要使用到， 但市面上却没有的 规则集。
 
-<br>
  
-+ 上述提到的 ⭐️⭐️⭐️ [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) ⭐️⭐️⭐️ 是什么 ？
++ ### 上述提到的 ⭐️⭐️⭐️ [《超级省电clash配置模版》](https://github.com/Accademia/Clash_Configuration_Template) ⭐️⭐️⭐️ 是什么 ？
   
    - 是 本规则集合 “最佳用法”  范例 ✅ ✅ ✅   （ 已自用 > 2年 ）
  
@@ -52,7 +48,7 @@
 
 # 规则介绍 ：
 
-+ [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	: 国产APP 用户IP归属地显示（用户地理位置显示） Clash分流规则
++ ###  [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	: 国产APP 用户IP归属地显示 Clash分流规则
   - Bilibili 	
       - 留言：立即生效
       - 主页：“连续挂”2周才生效   
@@ -66,7 +62,7 @@
   - 豆瓣 ：    	立即生效 
   - 闲鱼\淘宝 ：    	立即生效
   
-+ [Bank](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Bank)		：各国银行 的 Clash分流规则
++ ### [Bank](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Bank)		：各国银行 的 Clash分流规则
   - 美国银行
   - 加拿大银行
   - 英国银行
@@ -78,13 +74,13 @@
   - 法国银行
   - 德国银行
 
-+ [VirtualFinance](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/VirtualFinance) : 虚拟金融公司 的 Clash分流规则
++ ### [VirtualFinance](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/VirtualFinance) : 虚拟金融公司 的 Clash分流规则
   - Paypal
   - Wise
   - Monzo
   - Revolut
 
-+ [GeoRouting_For_Domain](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeoRouting_For_Domain) ：按 国家顶级域名 的 Clash分流规则
++ ### [GeoRouting_For_Domain](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeoRouting_For_Domain) ：按 国家顶级域名 的 Clash分流规则
   - 北美  # America (North America)       
   - 南美  # America (South America)       
   - 西欧  # Europe (East   Europe)        
@@ -102,7 +98,7 @@
   - 东非  # Africa (East    Africa)       
   - 中非  # Africa (Central Africa)   
 
-+ [GeoRouting_For_IP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeoRouting_For_IP) 	：按 GeoIP 的 Clash分流规则
++ ### [GeoRouting_For_IP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeoRouting_For_IP) 	：按 GeoIP 的 Clash分流规则
   - 北美  # America (North America)       
   - 南美  # America (South America)       
   - 西欧  # Europe (East   Europe)        
@@ -120,69 +116,75 @@
   - 东非  # Africa (East    Africa)       
   - 中非  # Africa (Central Africa)   
 
-+ [HomeIP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HomeIP)		：必须要 落地国 “住宅IP” 才能正常下单的网站 
++ ### [HomeIP](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HomeIP)		：必须要 落地国 “住宅IP” 才能正常下单的网站 
 
-+ [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 用 VPN （机房IP） 连不上， 但（无需 落地国 住宅IP）直连 能连上的网站
++ ### [UnsupportVPN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/UnsupportVPN)		: 用 VPN （机房IP） 连不上， 但（无需 落地国 住宅IP）直连 能连上的网站
 
-+ [PreRepairEasyPrivacy](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/PreRepairEasyPrivacy)	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
++ ### [PreRepairEasyPrivacy](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/PreRepairEasyPrivacy)	：对blackmatrix7种的“EasyPrivacy“和“AdvertisingLite”分流规则，进行修复 Clash分流规则
 
-+ [GlobalDNS](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GlobalDNS)		：全球DNS，（可信的、无用户隐私泄漏的 DNS） 的 Clash分流规则
++ ### [GlobalDNS](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GlobalDNS)		：全球DNS，（可信的、无用户隐私泄漏的 DNS） 的 Clash分流规则
 
-+ [ChinaDNS](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/ChinaDNS)		：中国大陆 DNS（被GFW污染的DNS） 的 Clash分流规则
++ ### [ChinaDNS](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/ChinaDNS)		：中国大陆 DNS（被GFW污染的DNS） 的 Clash分流规则
 
-+ [HijackingPlus](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HijackingPlus)		：反有害网站（针对反诈插件） 的 Clash分流规则
++ ### [HijackingPlus](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/HijackingPlus)		：反有害网站（针对反诈插件） 的 Clash分流规则
 
-+ [WaybackMachine](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/WaybackMachine)	：网络时光机（互联网档案馆）的 Clash分流规则
++ ### [WaybackMachine](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/WaybackMachine)	：网络时光机（互联网档案馆）的 Clash分流规则
 
-+ [eMuleServer](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/eMuleServer)		：电驴目录服务器（不涉及P2P下载） 的 Clash分流规则
++ ### [eMuleServer](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/eMuleServer)		：电驴目录服务器（不涉及P2P下载） 的 Clash分流规则
 
-+ [Alipan](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Alipan)		: 阿里云盘 的 Clash分流规则
++ ### [Alipan](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Alipan)		: 阿里云盘 的 Clash分流规则
 
-+ [BaiduNetDisk](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/BaiduNetDisk)		: 百度网盘 的 Clash分流规则
++ ### [BaiduNetDisk](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/BaiduNetDisk)		: 百度网盘 的 Clash分流规则
 
-+ [WeiYun](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/WeiYun)		: 腾讯微云 的 Clash分流规则
++ ### [WeiYun](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/WeiYun)		: 腾讯微云 的 Clash分流规则
 
-+ [RustDesk](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/RustDesk)		: RustDesk 的 Clash分流规则
++ ### [RustDesk](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/RustDesk)		: RustDesk 的 Clash分流规则
 
-+ [Parsec](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Parsec)		: Parsec 的 Clash分流规则
++ ### [Parsec](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Parsec)		: Parsec 的 Clash分流规则
 
-+ [Signal](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Signal)		: Signal 的 Clash分流规则
++ ### [Signal](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Signal)		: Signal 的 Clash分流规则
 
-+ [AppleNews](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleNews)		: 苹果新闻 的 Clash分流规则
++ ### [AppleNews](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleNews)		: 苹果新闻 的 Clash分流规则
 
-+ [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI)		: 苹果智能 (apple intelligence) 的 Clash分流规则 
++ ### [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI)		: 苹果智能 (apple intelligence) 的 Clash分流规则 
 
-+ [Grok](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Grok)			: xAI Grok AI 的 Clash分流规则
++ ### [Grok](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Grok)			: xAI Grok AI 的 Clash分流规则
 
-+ [Gemini](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini)		: Google Gemini AI 的 Clash分流规则
++ ### [Gemini](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini)		: Google Gemini AI 的 Clash分流规则
 
-+ [Copilot](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Copilot)		: Microsoft Copilot AI 的 Clash分流规则
++ ### [Copilot](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Copilot)		: Microsoft Copilot AI 的 Clash分流规则
 
-+ [MacAppUpgrade](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MacAppUpgrade)		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ） 的 Clash 分流规则
++ ### [MacAppUpgrade](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MacAppUpgrade)		: MacOS上第三方 App 自更新和重装（ 通过 homebrew、sparkle 框架 ） 的 Clash 分流规则
 
-+ [Pornhub](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Pornhub)	：P站 的 Clash分流规则
++ ### [Pornhub](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Pornhub)	：P站 的 Clash分流规则
 
-+ [Aqara](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Aqara) ：Aqara Homekit 监控摄像头 的 Clash分流规则
++ ### [Aqara](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Aqara) ：Aqara Homekit 监控摄像头 的 Clash分流规则
 
-+ [Kwai](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Kwai) ：“Kwai“（快手国际版） 的 Clash分流规则
++ ### [Kwai](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Kwai) ：“Kwai“（快手国际版） 的 Clash分流规则
 
-+ [Fastly](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Fastly)： Fastly CDN 的 Clash分流规则
++ ### [Fastly](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Fastly)： Fastly CDN 的 Clash分流规则
 
-+ [Apple](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Apple)： 苹果 的 Clash分流规则
++ ### [Apple](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Apple)： 苹果 的 Clash分流规则
 
-+ [MicrosoftAPPs](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MicrosoftAPPs)： 微软APP全家桶 的 Clash分流规则 
-    + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github、LinkedIn
-    + 包含：Windows操作系统 的 系统更新 和 各种内置 、Office 、 以及其他 微软客户端APP
++ ### [MicrosoftAPPs](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/MicrosoftAPPs)： 微软APP全家桶 的 Clash分流规则 
+     
+     + 不包含 ：AI服务、云VPS服务、搜索服务、Xbox、github、LinkedIn
+     
+     + 包含：Windows操作系统 的 系统更新 和 各种内置 、Office 、 以及其他 微软客户端APP
 
-+ [China](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/China) ：🇨🇳 中国网站 的 Clash分流规则 
-    + [blackmatrix7/ios_rule_script/China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China) 的 修正版 
-    + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3,000条 
++ ### [China](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/China) ：🇨🇳 中国网站 的 Clash分流规则 
+     
+     + [blackmatrix7/ios_rule_script/China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China) 的 修正版 
+     
+     + 注释掉 18% 错误、冗余规则后，有效规则 = 约 3,000条 
 
-+ [GeositeCN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeositeCN) ：🇨🇳 中国网站 的 Clash分流规则
-    + [v2fly/geosite:cn](https://github.com/v2fly) 的 修正版
-    + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4,800条 
++ ### [GeositeCN](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/GeositeCN) ：🇨🇳 中国网站 的 Clash分流规则
+     
+     + [v2fly/geosite:cn](https://github.com/v2fly) 的 修正版
+     
+     + 注释掉 29% 的 错误、冗余规则后，有效规则 = 约 4,800条 
 
-+ [ChinaMax](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/ChinaMax) ：🇨🇳 中国网站 的 Clash分流规则 
++ ### [ChinaMax](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/ChinaMax) ：🇨🇳 中国网站 的 Clash分流规则 
     + [blackmatrix7/ios_rule_script/ChinaMax](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax) 的 修正版 
     + 注释掉 17% 错误、冗余规则后，有效规则 = 约 98,000条 
     + 其清洗粒度，不及GeositeCN。具体请看此规则说明
@@ -191,7 +193,7 @@
 <br>
 
 
-# 使用说明 ⚠️
+# ⚠️ 使用说明 
 
 <br>
 
@@ -214,7 +216,7 @@
 
 <br>
 
-⚠️ 注意，仅优先保证 ： Domain/IP 后缀的规则 ，是长期验证过的（ = 自用级验证 + 100%正确 ） 。其他后缀的规则，均未参与。尤其no_resolve 规则，我本人应该永远也不会 自用级验证，原因请看这里：
+⚠️⚠️⚠️⚠️ 注意，仅优先保证 ： Domain/IP 后缀的规则 ，是长期验证过的（ = 自用级验证 + 100%正确 ）⚠️⚠️⚠️⚠️   。其他后缀的规则，均未参与。尤其no_resolve 规则，我本人应该永远也不会 自用级验证，原因请看这里：
 
  - [ 为什么 必须禁用 ，官方推荐 的 “ Fake IP + Fallback DNS + no-resolve ” 组合 ？](https://github.com/Accademia/Clash_Configuration_Template?tab=readme-ov-file#%EF%B8%8F%EF%B8%8F-%E4%B8%BA%E4%BB%80%E4%B9%88-%E5%BF%85%E9%A1%BB%E5%AE%8C%E5%85%A8%E7%A6%81%E7%94%A8-%E5%AE%98%E6%96%B9%E6%8E%A8%E8%8D%90%E7%9A%84--fake-ip--fallback-dns--no-resolve--%E7%BB%84%E5%90%88) 
 
@@ -233,14 +235,14 @@
 # 特别注意 ❗️❗️❗️❗️❗️❗️❗️
 <br>
 
-+ [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	 分流规则 ❗️❗️❗️❗️❗️
++ ### [FakeLocation](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/FakeLocation)	 分流规则 ❗️❗️❗️❗️❗️
   
   - 由于Stash作者 “拒绝支持” 一些 “关键特性” 。❌❌❌ 所以，本规则，不保证在 Stash for iOS 中可以 100%生效，仅完美兼容Clash Meta，具体可以看此规则的详情页。
 
 
 <br>
 
-+ [Gemini](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini) 分流规则 ❗️❗️❗️❗️❗️
++ ### [Gemini](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Gemini) 分流规则 ❗️❗️❗️❗️❗️
 
    - 此规则 必须前置 （ 到所有Google其他产品分流规则之前），不然会 降智 或 被拒绝连接 ！！！
 
@@ -250,7 +252,7 @@
 
 <br>
 
-+ [xAI Grok](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Grok) 分流规则 ❗️❗️❗️❗️❗️
++ ### [xAI Grok](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/Grok) 分流规则 ❗️❗️❗️❗️❗️
 
     - 单纯设置分流规则，可能 Grok APP for iOS（仅APP端） 仍旧连不上，需要在Stash、Clash的配置文件中，对IPv6做特殊处理 ！！！
 
@@ -260,7 +262,7 @@
 
 <br>
 
-+ [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI) (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
++ ### [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI) (苹果智能 apple intelligence) 分流规则 ❗️❗️❗️❗️❗️
 
     -  🇨🇳 国行 iPhone 、 iPad （不含Mac），无需尝试❕❕ 已被苹果锁死 ❕❕
       
@@ -270,7 +272,7 @@
      
 <br>
    
-+ 存在交叉的 分流规则 
++ ### 存在交叉的 分流规则 
 
     -  [AppleAI](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleAI)  和 [AppleNews](https://github.com/Accademia/Additional_Rule_For_Clash/tree/main/AppleNews)	 ，这俩个 分流规则，两者存在交叉规则。建议：最好使用同一个节点配置的开关。以免出现相互干扰。
     
