@@ -49,6 +49,7 @@ payload:
     - '+.www.google.com'        # 会干扰 Google Search ，但是必须加上， 谷歌会通过这个网址判断是否多IP访问，从而屏蔽或降智
    #- '+.www.youtube.com'
 
+
     - '+.generativeai.google'
 
 
@@ -95,8 +96,9 @@ payload:
     - '+.signaler-pa.clients6.google.com'
     - '+.mtalk.google.com'
     - '+.accounts.google.com'
-    - '+.signaler-pa.googleapis.com:'
+    - '+.signaler-pa.googleapis.com'
 
+    - 'google.com'
     
     - '+.oauthaccountmanager.googleapis.com'
     - '+.notifications-pa.googleapis.com'
