@@ -936,7 +936,7 @@ payload:
                              - DOMAIN-SUFFIX   , ibdxigualive.com                                        # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , ibdxiguastatic.com                                      # GeoSite:bytedance
                              - DOMAIN-SUFFIX   , ibdxiguavod.com                                         # GeoSite:bytedance
-                           # - DOMAIN-SUFFIX   , ibytedapm.com                                           # GeoSite:bytedance
+                             - DOMAIN-SUFFIX   , ibytedapm.com                                           # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , ibytedtos.com                                           # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , ibyteimg.com                                            # GeoSite:bytedance
                            # - DOMAIN-SUFFIX   , icphoto.cn                                              # GeoSite:bytedance                             # duplicate .cn suffix rule
