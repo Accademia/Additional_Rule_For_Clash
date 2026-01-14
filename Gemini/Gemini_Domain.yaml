@@ -95,9 +95,9 @@ payload:
     - '+.signaler-pa.clients6.google.com'
     - '+.mtalk.google.com'
     - '+.accounts.google.com'
+    - '+.signaler-pa.googleapis.com:'
 
     
-
     - '+.oauthaccountmanager.googleapis.com'
     - '+.notifications-pa.googleapis.com'
     - '+.oauth2.googleapis.com'
