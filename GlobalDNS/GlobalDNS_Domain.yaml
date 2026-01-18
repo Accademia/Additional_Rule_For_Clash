@@ -171,8 +171,285 @@ payload:
   - '+.doh.la.ahadns.net'                     # AhaDNS (洛杉矶)
   - '+.dns.dnswarden.com'                     # DNS Warden (Uncensored 域名与附件中 doh 开头不同)
   - '+.dns.oszx.co'                           # OSZX DNS (附件仅在ASCII表中存在，未在策略组)
+  - '+.jp01.dns4me.net'                       # dns4me (日本, jp01)
+  - '+.sg01.dns4me.net'                       # dns4me (新加坡, sg01)
+  - '+.sin03.dnscry.pt'                       # dnscry.pt (新加坡, sin03)
+  - '+.tyo02.dnscry.pt'                       # dnscry.pt (日本, tyo02)
 
-# 特别注意：所有来自中国的DNS均会污染解析！！！！
+  - '+.3dns.eu'                               # Dom!nic
+  - '+.abel.waringer-atg.de'                  # waringer-atg.de
+  - '+.abn01.dnscry.pt'                       # dnscry.pt (Ashburn, US)
+  - '+.ada.openbld.net'                       # OpenBLD.net
+  - '+.adblock.krctech.dev'                   # krctech.dev
+  - '+.addns1.m-it.ro'                        # m-it.ro
+  - '+.adfreedns.top'                         # Adfreedns
+  - '+.adg.geili.me'                          # smilence
+  - '+.adg.khon.dev'                          # khon.dev
+  - '+.adguard.meddy94.de'                    # meddy94.de
+  - '+.adguard.shoupperuser.com'              # shoupperuser.com
+  - '+.adl.adfilter.net'                      # AdFilter (Adelaide)
+  - '+.ae-fuj-w-p-1.nashkan.net'              # nashkan.net
+  - '+.ae-fuj-w-p-2.nashkan.net'              # nashkan.net
+  - '+.ae-fuj-w-p-3.nashkan.net'              # nashkan.net
+  - '+.ag.apollohct.com'                      # OpenLoop
+  - '+.agh.dshubham.xyz'                      # dshubham.xyz
+  - '+.arashi.net.eu.org'                     # Arashi DNS
+  - '+.ath01.dnscry.pt'                       # dnscry.pt (Athens, Greece)
+  - '+.atl01.dnscry.pt'                       # dnscry.pt (Atlanta, US)
+  - '+.au-syd-w-f-1.nashkan.net'              # nashkan.net
+  - '+.au01.dns4me.net'                       # dns4me
+  - '+.au02.dns4me.net'                       # dns4me
+  - '+.bazooki-infra.dev'                     # bazooki-infra.dev
+  - '+.bne01.dnscry.pt'                       # dnscry.pt (Brisbane, Australia)
+  - '+.bog01.dnscry.pt'                       # dnscry.pt (Bogotá, Colombia)
+  - '+.bom01.dnscry.pt'                       # dnscry.pt (Mumbai, India)
+  - '+.bru01.dnscry.pt'                       # dnscry.pt (Brussels, Belgium)
+  - '+.bts01.dnscry.pt'                       # dnscry.pt (Bratislava, Slovakia)
+  - '+.ca01.dns4me.net'                       # dns4me
+  - '+.ca02.dns4me.net'                       # dns4me
+  - '+.chuncheon.dnsovertor.cc'               # DNS over Tor
+  - '+.clean.dnsforge.de'                     # dnsforge.de (Ads and pornblocking)
+  - '+.cph01.dnscry.pt'                       # dnscry.pt (Copenhagen, Norway)
+  - '+.cryptostorm.is'                        # Cryptostorm
+  - '+.cvt01.dnscry.pt'                       # dnscry.pt (Coventry, UK)
+  - '+.de-f1.foxyfy.net'                      # Foxyfy DNS (Germany (South))
+  - '+.de01.dns4me.net'                       # dns4me
+  - '+.dns.a47.me'                            # a47.me
+  - '+.dns.akbxr.com'                         # AKBXR DNS
+  - '+.dns.anon.no'                           # anon.no
+  - '+.dns.applewebkit.dev'                   # applewebkit.dev
+  - '+.dns.aquilenet.fr'                      # Aquilenet DNS
+  - '+.dns.asterimoon.com'                    # Asteri Moon
+  - '+.dns.belnet.be'                         # Belnet
+  - '+.dns.bitdefender.net'                   # Bitdefender
+  - '+.dns.bitservices.io'                    # BITServices
+  - '+.dns.bmwhocking.com'                    # Ben Hocking
+  - '+.dns.brahma.world'                      # Brahma World
+  - '+.dns.brembeck.cloud'                    # brembeck.cloud
+  - '+.dns.busold.ws'                         # busold.ws
+  - '+.dns.caspervk.net'                      # caspervk.net
+  - '+.dns.cctld.kg'                          # CCTLD.KG
+  - '+.dns.cert.ee'                           # CERT Estonia
+  - '+.dns.chenu.ch'                          # chenu.ch
+  - '+.dns.christerwaren.fi'                  # Christer Warén
+  - '+.dns.chunghwamc.com'                    # ChunghwaMC
+  - '+.dns.comss.one'                         # Comss.one DNS
+  - '+.dns.csa-rz.de'                         # csa-rz.de
+  - '+.dns.csaonline.de'                      # CSA-IT
+  - '+.dns.csswg.org'                         # CSS Working Group
+  - '+.dns.cynthialabs.net'                   # CynthiaLabs
+  - '+.dns.d94.xyz'                           # d94.xyz
+  - '+.dns.datenquark.de'                     # datenquark.de
+  - '+.dns.decky.eu'                          # Pavol Decky
+  - '+.dns.dev-umbrellagov.com'               # dev-umbrellagov
+  - '+.dns.digitale-gesellschaft.ch'          # Digitale Gesellschaft
+  - '+.dns.digitalsize.net'                   # dns.digitalsize.net
+  - '+.dns.dnshome.de'                        # dnsHome.de
+  - '+.dns.dremaxx.de'                        # dremaxx.de
+  - '+.dns.dynx.pro'                          # DynX (Adblock)
+  - '+.dns.elemental.software'                # Elemental Software
+  - '+.dns.eliv.kr'                           # ELIV DNS
+  - '+.dns.faked.org'                         # faked.org
+  - '+.dns.fancyorg.at'                       # Fancyorg.at
+  - '+.dns.farshidhakimy.de'                  # farshidhakimy.de
+  - '+.dns.floriantinney.de'                  # floriantinney.de
+  - '+.dns.flymc.cc'                          # FLY_MC
+  - '+.dns.foxyfy.net'                        # Foxyfy DNS (Germany (Generic))
+  - '+.dns.froth.zone'                        # Froth.zone
+  - '+.dns.gamban.com'                        # Gamban
+  - '+.dns.girino.org'                        # girino.org
+  - '+.dns.glf.wtf'                           # Gottlieb Freitag
+  - '+.dns.guard.io'                          # Guardio
+  - '+.dns.haka.se'                           # Hakase
+  - '+.dns.inforlogia.com'                    # Inforlogia
+  - '+.dns.kapite.in'                         # kapite.in
+  - '+.dns.kernel-error.de'                   # Kernel Error
+  - '+.dns.kescher.at'                        # kescher
+  - '+.dns.koala.us.to'                       # Koala
+  - '+.dns.kosan.moe'                         # Kosan
+  - '+.dns.l337.site'                         # l337.site
+  - '+.dns.liberador.net'                     # Liberador.net
+  - '+.dns.lobbygod.com'                      # LobbyGod
+  - '+.dns.luma-medien.com'                   # LuMa Medien
+  - '+.dns.marasov.id'                        # marasov.id
+  - '+.dns.marbledfennec.net'                 # Marbled Fennec Networks / FurrIX
+  - '+.dns.mateo.ovh'                         # mateo.ovh
+  - '+.dns.mayx.eu.org'                       # Mayx
+  - '+.dns.mh4ckt3mh4ckt1c4s.xyz'             # mh4ckt3mh4ckt1c4s.xyz
+  - '+.dns.mnet-online.de'                    # mnet-online.de
+  - '+.dns.mzjtechnology.com'                 # MZJ Technology
+  - '+.dns.neeb.it'                           # neeb.it
+  - '+.dns.nick-slowinski.de'                 # Nick Slowinski
+  - '+.dns.ningkelle.id'                      # Ningkelle (Adblock)
+  - '+.dns.njal.la'                           # Njalla
+  - '+.dns.novg.net'                          # novg.net
+  - '+.dns.ofdoom.net'                        # ofdoom.net
+  - '+.dns.paesa.es'                          # PaesaDNS
+  - '+.dns.paulo.nom.za'                      # Paulo
+  - '+.dns.pub'                               # DNSPod
+  - '+.dns.quiet.rocks'                       # Quiet Rocks
+  - '+.dns.rbn.gr'                            # RobinGroppe.de
+  - '+.dns.redhosting.com.ar'                 # redhosting.com.ar
+  - '+.dns.retakecs.com'                      # RetakeCS
+  - '+.dns.roedel.cloud'                      # roedel.cloud
+  - '+.dns.sheggi.ch'                         # Sheggi
+  - '+.dns.silen.org'                         # silen.org
+  - '+.dns.skrep.eu'                          # skrep.eu
+  - '+.dns.slinkyman.net'                     # Slinkyman.net
+  - '+.dns.smartguard.io'                     # SmartGuard
+  - '+.dns.startupstack.tech'                 # Startup Stack
+  - '+.dns.stirringphoto.com'                 # stirringphoto.com
+  - '+.dns.stormycloud.org'                   # StormyCloud
+  - '+.dns.suhaila.dev'                       # suhaila.dev
+  - '+.dns.superstefan.win'                   # superstefan.win
+  - '+.dns.surfsharkdns.com'                  # Surfshark DNS
+  - '+.dns.szpadel.ovh'                       # szpadel.ovh
+  - '+.dns.technologycage.com'                # Marco Fox
+  - '+.dns.tipsy.coffee'                      # TipsyCoffee
+  - '+.dns.tls-data.de'                       # Tls-data.de
+  - '+.dns.unx.io'                            # unx.io
+  - '+.dns.vaioswolke.xyz'                    # vaioswolke.xyz
+  - '+.dns.w3ctag.org'                        # W3C TAG
+  - '+.dns.xlion.tw'                          # xlion.tw
+  - '+.dns.yuu-g.net'                         # Yuu528
+  - '+.dns1.techniverse.net'                  # CleverAdmin
+  - '+.dns12.quad9.net'                       # Quad9
+  - '+.dns4eu.online'                         # o2cloud.fr
+  - '+.dnsdoh.art'                            # dnsdoh.art
+  - '+.dnsforge.de'                           # dnsforge.de (Adblocking)
+  - '+.dnslow.me'                             # dnslow.me
+  - '+.dnsvps.familiamv.net'                  # familiamv.net
+  - '+.dog.dns.qwer.pw'                       # QWER DNS
+  - '+.doh-own-recursion.nicolas-dorriere.fr' # Nicolas Dorriere (Non filtering)
+  - '+.doh.aaaab3n.moe'                       # Canarypwn
+  - '+.doh.angry.im'                          # Angry.im
+  - '+.doh.archuser.org'                      # Pubhole
+  - '+.doh.beauty'                            # doh.beauty
+  - '+.doh.buzz'                              # doh.buzz
+  - '+.doh.disconnect.app'                    # Disconnect.app
+  - '+.doh.dns4all.eu'                        # DNS4all
+  - '+.doh.domreg.lt'                         # domreg.lt
+  - '+.doh.futa.gg'                           # FutaDNS
+  - '+.doh.kel.pe'                            # André Kelpe
+  - '+.doh.lacontrevoie.fr'                   # La Contre-Voie
+  - '+.doh.lv'                                # NIC.LV
+  - '+.doh.mmmalia.com'                       # mmmalia.com
+  - '+.doh.nic.lv'                            # NIC.LV
+  - '+.doh.niyawe.de'                         # NiYaWe
+  - '+.doh.sz-dns.com'                        # SZ DNS
+  - '+.doh.umbrella.com'                      # Cisco Umbrella (OpenDNS) (Umbrella)
+  - '+.doh.viatech.com.tw'                    # VIA
+  - '+.doh.zknt.org'                          # zknt.org
+  - '+.doth.huque.com'                        # Huque
+  - '+.dub01.dnscry.pt'                       # dnscry.pt (Dublin, Ireland)
+  - '+.dukun.de'                              # Dukun.de
+  - '+.es-ma.foxyfy.net'                      # Foxyfy DNS (Spain)
+  - '+.evn01.dnscry.pt'                       # dnscry.pt (Yerevan, Armenia)
+  - '+.family.dns.ningkelle.id'               # Ningkelle (Family)
+  - '+.family.mydns.network'                  # mydns.network (Family)
+  - '+.fidelius.top'                          # fidelius.top
+  - '+.fra01.dnscry.pt'                       # dnscry.pt (Frankfurt, Germany-vServer)
+  - '+.fra02.dnscry.pt'                       # dnscry.pt (Frankfurt, Germany-xTom)
+  - '+.frog.dns.qwer.pw'                      # QWER DNS
+  - '+.gb-lon-w-p-2.nashkan.net'              # nashkan.net
+  - '+.geg01.dnscry.pt'                       # dnscry.pt (Spokane, US)
+  - '+.gibblets.top'                          # gibblets.top
+  - '+.github.com'                            # Docker
+  - '+.glacius.top'                           # glacius.top
+  - '+.gru01.dnscry.pt'                       # dnscry.pt (São Paulo, Brazil)
+  - '+.gva01.dnscry.pt'                       # dnscry.pt (Geneva, Switzerland)
+  - '+.haf01.dnscry.pt'                       # dnscry.pt (Hafnarfjordur, Iceland)
+  - '+.hard.dnsforge.de'                      # dnsforge.de (Hard)
+  - '+.helios.plan9-dns.com'                  # plan9-dns (Mexico)
+  - '+.ie01.dns4me.net'                       # dns4me
+  - '+.imperio.top'                           # imperio.top
+  - '+.ist01.dnscry.pt'                       # dnscry.pt (Istanbul, Turkey)
+  - '+.japan.dnsovertor.cc'                   # DNS over Tor
+  - '+.juuri.hagezi.org'                      # HaGeZi DNS (Finland, Helsinki)
+  - '+.kiv01.dnscry.pt'                       # dnscry.pt (Chișinău, Moldova)
+  - '+.kronos.plan9-dns.com'                  # plan9-dns (New Jersey)
+  - '+.las01.dnscry.pt'                       # dnscry.pt (Las Vegas, US)
+  - '+.lion.dns.qwer.pw'                      # QWER DNS
+  - '+.loadlow.me'                            # loadlow.me
+  - '+.lon01.dnscry.pt'                       # dnscry.pt (London, UK)
+  - '+.mad01.dnscry.pt'                       # dnscry.pt (Madrid, Spain)
+  - '+.masters-of-cloud.de'                   # Masters of Cloud
+  - '+.mil01.dnscry.pt'                       # dnscry.pt (Milan, Italy)
+  - '+.nicolas-dorriere.fr'                   # Nicolas Dorriere (Adblocking)
+  - '+.nicsezcheckfbi.gov'                    # FBI NICS E-Check
+  - '+.ns.data.haus'                          # data.haus
+  - '+.ns.net.kg'                             # Arashi DNS
+  - '+.ns0.fdn.fr'                            # FDN
+  - '+.ns1.fdn.fr'                            # FDN
+  - '+.ns1.opennameserver.org'                # opennameserver.org (Baden-Baden, Germany)
+  - '+.ns2.4netguides.org'                    # 4NetGuides
+  - '+.nsec.arnor.org'                        # arnor.org
+  - '+.nue01.dnscry.pt'                       # dnscry.pt (Nuremberg, Germany)
+  - '+.nz01.dns4me.net'                       # dns4me
+  - '+.omr01.dnscry.pt'                       # dnscry.pt (Oradea, Romania)
+  - '+.par01.dnscry.pt'                       # dnscry.pt (Paris, France)
+  - '+.paranoia.mydns.network'                # mydns.network (Paranoia (no Google/Cloudflare))
+  - '+.pdx01.dnscry.pt'                       # dnscry.pt (Portland, US)
+  - '+.per.adfilter.net'                      # AdFilter (Perth)
+  - '+.phl01.dnscry.pt'                       # dnscry.pt (Philadelphia, US)
+  - '+.phx01.dnscry.pt'                       # dnscry.pt (Phoenix, US)
+  - '+.pihole.aws.ketan.dev'                  # ketan.dev
+  - '+.pluton.plan9-dns.com'                  # plan9-dns (Florida)
+  - '+.pooblet.co.za'                         # pooblet.co.za
+  - '+.privacy.plumedns.com'                  # PlumeDNS
+  - '+.rdd01.dnscry.pt'                       # dnscry.pt (Redditch, UK)
+  - '+.regiopolis.cloud'                      # regiopolis.cloud
+  - '+.renardbleu.dev'                        # renardbleu.dev
+  - '+.resolver.dnsprivacy.org.uk'            # UK DNS Privacy Project
+  - '+.resolver.sunet.se'                     # Sunet DNS
+  - '+.resolver1.absolight.net'               # Absolight
+  - '+.resolver2.absolight.net'               # Absolight
+  - '+.revelio.top'                           # revelio.top
+  - '+.rfree1.blue-shield.at'                 # Blue Shield Umbrella
+  - '+.rfree2.blue-shield.at'                 # Blue Shield Umbrella
+  - '+.ro-buc-w-p-1.nashkan.net'              # nashkan.net
+  - '+.root.hagezi.org'                       # HaGeZi DNS (Germany, Falkenstein)
+  - '+.router.comss.one'                      # Comss.one DNS
+  - '+.sa01.dns4me.net'                       # dns4me
+  - '+.sea01.dnscry.pt'                       # dnscry.pt (Seattle, US)
+  - '+.secure.avastdns.com'                   # Avast DNS
+  - '+.secure.hafnova.com'                    # Hafnova
+  - '+.seoul.dnsovertor.cc'                   # DNS over Tor
+  - '+.sg-w-p-1.nashkan.net'                  # nashkan.net
+  - '+.sjc01.dnscry.pt'                       # dnscry.pt (Santa Clara, US)
+  - '+.slc01.dnscry.pt'                       # dnscry.pt (Salt Lake City, US)
+  - '+.sof01.dnscry.pt'                       # dnscry.pt (Sofia)
+  - '+.sto01.dnscry.pt'                       # dnscry.pt (Stockholm, Sweden)
+  - '+.sunnygyl.com'                          # sunnygyl.com
+  - '+.syd.adfilter.net'                      # AdFilter (Sydney)
+  - '+.syd02.dnscry.pt'                       # dnscry.pt (Sydney FlowVPS, Australia)
+  - '+.tbs01.dnscry.pt'                       # dnscry.pt (Tbilisi, Georgia)
+  - '+.tiger.dns.qwer.pw'                     # QWER DNS
+  - '+.tll01.dnscry.pt'                       # dnscry.pt (Tallinn, Estonia)
+  - '+.tpa01.dnscry.pt'                       # dnscry.pt (Tampa, US)
+  - '+.trf01.dnscry.pt'                       # dnscry.pt (Sandefjord, Norway)
+  - '+.tsm01.dnscry.pt'                       # dnscry.pt (Taos, US)
+  - '+.uk01.dns4me.net'                       # dns4me
+  - '+.us-chi-w-f-1.nashkan.net'              # nashkan.net
+  - '+.us-chi-w-p-1.nashkan.net'              # nashkan.net
+  - '+.us-jac-w-f-1.nashkan.net'              # nashkan.net
+  - '+.us-jac-w-p-1.nashkan.net'              # nashkan.net
+  - '+.us-kan-w-p-1.nashkan.net'              # nashkan.net
+  - '+.us-nyc-w-p-1.nashkan.net'              # nashkan.net
+  - '+.us01.dns4me.net'                       # dns4me
+  - '+.us02.dns4me.net'                       # dns4me
+  - '+.vie01.dnscry.pt'                       # dnscry.pt (Vienna, Austria)
+  - '+.vno01.dnscry.pt'                       # dnscry.pt (Vilnius, Lithuania)
+  - '+.waw02.dnscry.pt'                       # dnscry.pt (Warsaw, Poland)
+  - '+.wurzn.hagezi.org'                      # HaGeZi DNS (Germany, Nuremberg)
+  - '+.xn--durhre-yxa.de'                     # duröhre.de
+  - '+.yarp.lefolgoc.net'                     # Yarp
+  - '+.yhz01.dnscry.pt'                       # dnscry.pt (Halifax, Canada)
+  - '+.yvr01.dnscry.pt'                       # dnscry.pt (Vancouver, Canada)
+  - '+.yyc01.dnscry.pt'                       # dnscry.pt (Calgary, Canada)
+  - '+.yyz01.dnscry.pt'                       # dnscry.pt (Toronto, Canada)
+  - '+.zdn.ro'                                # zdn.ro
+
 
 #-----------------------------------------------------------------------------------
 # 加密的 DNS 服务列表 （每日更新）  国外DNS，不统计中国DNS（不包括🇹🇼台湾），以及其他流氓国家的DNS，包括但不限于、俄罗斯、伊朗、古巴、朝鲜、白俄罗斯、越南等
