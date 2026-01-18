@@ -412,7 +412,6 @@ payload:
   - '+.slc01.dnscry.pt'                       # dnscry.pt (Salt Lake City, US)
   - '+.sof01.dnscry.pt'                       # dnscry.pt (Sofia)
   - '+.sto01.dnscry.pt'                       # dnscry.pt (Stockholm, Sweden)
-  - '+.sunnygyl.com'                          # sunnygyl.com
   - '+.syd.adfilter.net'                      # AdFilter (Sydney)
   - '+.syd02.dnscry.pt'                       # dnscry.pt (Sydney FlowVPS, Australia)
   - '+.tbs01.dnscry.pt'                       # dnscry.pt (Tbilisi, Georgia)

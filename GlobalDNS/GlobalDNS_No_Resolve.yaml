@@ -814,7 +814,6 @@ payload:
   - DOMAIN-SUFFIX , slc01.dnscry.pt                                                              # dnscry.pt (Salt Lake City, US)
   - DOMAIN-SUFFIX , sof01.dnscry.pt                                                              # dnscry.pt (Sofia)
   - DOMAIN-SUFFIX , sto01.dnscry.pt                                                              # dnscry.pt (Stockholm, Sweden)
-  - DOMAIN-SUFFIX , sunnygyl.com                                                                 # sunnygyl.com
   - DOMAIN-SUFFIX , syd.adfilter.net                                                             # AdFilter (Sydney)
   - DOMAIN-SUFFIX , syd02.dnscry.pt                                                              # dnscry.pt (Sydney FlowVPS, Australia)
   - DOMAIN-SUFFIX , tbs01.dnscry.pt                                                              # dnscry.pt (Tbilisi, Georgia)
@@ -899,7 +898,6 @@ payload:
   - IP-CIDR       , 46.226.143.83/32                                          , no-resolve       # CERT Estonia
   - IP-CIDR       , 46.226.143.86/32                                          , no-resolve       # CERT Estonia
   - IP-CIDR       , 46.231.240.107/32                                         , no-resolve       # La Contre-Voie
-  - IP-CIDR       , 47.243.233.55/32                                          , no-resolve       # sunnygyl.com
   - IP-CIDR       , 49.12.43.208/32                                           , no-resolve       # dnsforge.de (Ads and pornblocking)
   - IP-CIDR       , 49.12.67.122/32                                           , no-resolve       # dnsforge.de (Adblocking)
   - IP-CIDR       , 49.12.222.213/32                                          , no-resolve       # dnsforge.de (Hard)

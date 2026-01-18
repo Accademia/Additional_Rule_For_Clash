@@ -461,7 +461,6 @@ payload:
   - '46.226.143.83/32'                                        # CERT Estonia
   - '46.226.143.86/32'                                        # CERT Estonia
   - '46.231.240.107/32'                                       # La Contre-Voie
-  - '47.243.233.55/32'                                        # sunnygyl.com
   - '49.12.43.208/32'                                         # dnsforge.de (Ads and pornblocking)
   - '49.12.67.122/32'                                         # dnsforge.de (Adblocking)
   - '49.12.222.213/32'                                        # dnsforge.de (Hard)
