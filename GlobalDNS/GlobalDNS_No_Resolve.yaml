@@ -222,7 +222,6 @@ payload:
   - DOMAIN-SUFFIX , go6lab.si                                                                    # Go6Lab (斯洛文尼亚)
   - DOMAIN-SUFFIX , query.hdns.io                                                                # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
   - DOMAIN-SUFFIX , dns.hostux.net                                                               # Hostux DNS (全球)
-  - DOMAIN-SUFFIX , ibksturm.synology.me                                                         # Ibksturm (瑞士)
   - DOMAIN-SUFFIX , ibuki.cgnat.net                                                              # Ibuki DNS (全球)
   - DOMAIN-SUFFIX , public.dns.iij.jp                                                            # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
   - DOMAIN-SUFFIX , doh.iij.jp                                                                   # IIJ DNS (日本)
@@ -506,7 +505,6 @@ payload:
   - IP-CIDR6      , 2001:4b98:dc2:43:216:3eff:fe86:1d28/128                   , no-resolve       # Hostux
   - IP-CIDR       , 151.80.222.79/32                                          , no-resolve       # i2pd.xyz
   - IP-CIDR6      , 2001:470:1f15:b80::53/128                                 , no-resolve       # i2pd.xyz
-  - IP-CIDR       , 213.196.191.96/32                                         , no-resolve       # ibksturm.synology.me
   - IP-CIDR       , 168.138.243.216/32                                        , no-resolve       # ibuki.cgnat.net
   - IP-CIDR       , 62.210.177.189/32                                         , no-resolve       # iriseden.eu
   - IP-CIDR       , 62.210.180.71/32                                          , no-resolve       # iriseden.eu
@@ -635,7 +633,6 @@ payload:
   - DOMAIN-SUFFIX , dns.chenu.ch                                                                 # chenu.ch
   - DOMAIN-SUFFIX , dns.christerwaren.fi                                                         # Christer Warén
   - DOMAIN-SUFFIX , dns.chunghwamc.com                                                           # ChunghwaMC
-  - DOMAIN-SUFFIX , dns.comss.one                                                                # Comss.one DNS
   - DOMAIN-SUFFIX , dns.csa-rz.de                                                                # csa-rz.de
   - DOMAIN-SUFFIX , dns.csaonline.de                                                             # CSA-IT
   - DOMAIN-SUFFIX , dns.csswg.org                                                                # CSS Working Group
@@ -722,15 +719,12 @@ payload:
   - DOMAIN-SUFFIX , dnsvps.familiamv.net                                                         # familiamv.net
   - DOMAIN-SUFFIX , dog.dns.qwer.pw                                                              # QWER DNS
   - DOMAIN-SUFFIX , doh-own-recursion.nicolas-dorriere.fr                                        # Nicolas Dorriere (Non filtering)
-  - DOMAIN-SUFFIX , doh.aaaab3n.moe                                                              # Canarypwn
   - DOMAIN-SUFFIX , doh.angry.im                                                                 # Angry.im
   - DOMAIN-SUFFIX , doh.archuser.org                                                             # Pubhole
-  - DOMAIN-SUFFIX , doh.beauty                                                                   # doh.beauty
   - DOMAIN-SUFFIX , doh.buzz                                                                     # doh.buzz
   - DOMAIN-SUFFIX , doh.disconnect.app                                                           # Disconnect.app
   - DOMAIN-SUFFIX , doh.dns4all.eu                                                               # DNS4all
   - DOMAIN-SUFFIX , doh.domreg.lt                                                                # domreg.lt
-  - DOMAIN-SUFFIX , doh.futa.gg                                                                  # FutaDNS
   - DOMAIN-SUFFIX , doh.kel.pe                                                                   # André Kelpe
   - DOMAIN-SUFFIX , doh.lacontrevoie.fr                                                          # La Contre-Voie
   - DOMAIN-SUFFIX , doh.lv                                                                       # NIC.LV
@@ -810,7 +804,6 @@ payload:
   - DOMAIN-SUFFIX , rfree2.blue-shield.at                                                        # Blue Shield Umbrella
   - DOMAIN-SUFFIX , ro-buc-w-p-1.nashkan.net                                                     # nashkan.net
   - DOMAIN-SUFFIX , root.hagezi.org                                                              # HaGeZi DNS (Germany, Falkenstein)
-  - DOMAIN-SUFFIX , router.comss.one                                                             # Comss.one DNS
   - DOMAIN-SUFFIX , sa01.dns4me.net                                                              # dns4me
   - DOMAIN-SUFFIX , sea01.dnscry.pt                                                              # dnscry.pt (Seattle, US)
   - DOMAIN-SUFFIX , secure.avastdns.com                                                          # Avast DNS
@@ -952,7 +945,6 @@ payload:
   - IP-CIDR       , 82.118.16.121/32                                          , no-resolve       # dnscry.pt (Milan, Italy)
   - IP-CIDR       , 83.112.172.194/32                                         , no-resolve       # Nicolas Dorriere (Adblocking)
   - IP-CIDR       , 83.138.55.186/32                                          , no-resolve       # dnscry.pt (Vienna, Austria)
-  - IP-CIDR       , 83.220.169.155/32                                         , no-resolve       # Comss.one DNS
   - IP-CIDR       , 85.90.207.199/32                                          , no-resolve       # dnscry.pt (Yerevan, Armenia)
   - IP-CIDR       , 85.215.153.54/32                                          , no-resolve       # dremaxx.de
   - IP-CIDR       , 87.106.35.241/32                                          , no-resolve       # dremaxx.de
@@ -996,8 +988,6 @@ payload:
   - IP-CIDR       , 104.18.1.48/32                                            , no-resolve       # serverless-dns ([RethinkDNS]()
   - IP-CIDR       , 104.18.8.193/32                                           , no-resolve       # Gamban
   - IP-CIDR       , 104.18.9.193/32                                           , no-resolve       # Gamban
-  - IP-CIDR       , 104.18.20.135/32                                          , no-resolve       # FutaDNS
-  - IP-CIDR       , 104.18.21.135/32                                          , no-resolve       # FutaDNS
   - IP-CIDR       , 104.21.0.91/32                                            , no-resolve       # gibblets.top
   - IP-CIDR       , 104.21.1.225/32                                           , no-resolve       # duröhre.de
   - IP-CIDR       , 104.21.3.221/32                                           , no-resolve       # DNS over Tor
@@ -1164,7 +1154,6 @@ payload:
   - IP-CIDR       , 195.80.119.99/32                                          , no-resolve       # CERT Estonia
   - IP-CIDR       , 195.80.119.101/32                                         , no-resolve       # CERT Estonia
   - IP-CIDR       , 195.114.14.74/32                                          , no-resolve       # dnscry.pt (Sydney FlowVPS, Australia)
-  - IP-CIDR       , 195.133.25.16/32                                          , no-resolve       # Comss.one DNS
   - IP-CIDR       , 195.201.21.251/32                                         , no-resolve       # zknt.org
   - IP-CIDR       , 195.201.131.183/32                                        , no-resolve       # a47.me
   - IP-CIDR       , 198.23.164.176/32                                         , no-resolve       # Foxyfy DNS (Germany (Generic))
@@ -1182,7 +1171,6 @@ payload:
   - IP-CIDR       , 209.250.227.42/32                                         , no-resolve       # UK DNS Privacy Project
   - IP-CIDR       , 212.18.0.5/32                                             , no-resolve       # mnet-online.de
   - IP-CIDR       , 212.18.3.5/32                                             , no-resolve       # mnet-online.de
-  - IP-CIDR       , 212.109.195.93/32                                         , no-resolve       # Comss.one DNS
   - IP-CIDR       , 213.32.25.25/32                                           , no-resolve       # szpadel.ovh
   - IP-CIDR       , 213.166.247.100/32                                        , no-resolve       # CSA-IT
   - IP-CIDR       , 213.239.221.173/32                                        , no-resolve       # NiYaWe

@@ -334,7 +334,6 @@ payload:
   - '2001:4b98:dc2:43:216:3eff:fe86:1d28/128'                 # Hostux
   - '151.80.222.79/32'                                        # i2pd.xyz
   - '2001:470:1f15:b80::53/128'                               # i2pd.xyz
-  - '213.196.191.96/32'                                       # ibksturm.synology.me
   - '168.138.243.216/32'                                      # ibuki.cgnat.net
   - '62.210.177.189/32'                                       # iriseden.eu
   - '62.210.180.71/32'                                        # iriseden.eu
@@ -508,7 +507,6 @@ payload:
   - '82.118.16.121/32'                                        # dnscry.pt (Milan, Italy)
   - '83.112.172.194/32'                                       # Nicolas Dorriere (Adblocking)
   - '83.138.55.186/32'                                        # dnscry.pt (Vienna, Austria)
-  - '83.220.169.155/32'                                       # Comss.one DNS
   - '85.90.207.199/32'                                        # dnscry.pt (Yerevan, Armenia)
   - '85.215.153.54/32'                                        # dremaxx.de
   - '87.106.35.241/32'                                        # dremaxx.de
@@ -552,8 +550,6 @@ payload:
   - '104.18.1.48/32'                                          # serverless-dns ([RethinkDNS]()
   - '104.18.8.193/32'                                         # Gamban
   - '104.18.9.193/32'                                         # Gamban
-  - '104.18.20.135/32'                                        # FutaDNS
-  - '104.18.21.135/32'                                        # FutaDNS
   - '104.21.0.91/32'                                          # gibblets.top
   - '104.21.1.225/32'                                         # duröhre.de
   - '104.21.3.221/32'                                         # DNS over Tor
@@ -638,7 +634,6 @@ payload:
   - '164.132.7.242/32'                                        # Christer Warén
   - '165.140.117.248/32'                                      # dnscry.pt (Tampa, US)
   - '167.235.31.95/32'                                        # Marco Fox
-  - '168.110.220.247/32'                                      # AKBXR DNS
   - '168.119.55.211/32'                                       # kapite.in
   - '168.138.198.14/32'                                       # Koala
   - '169.48.27.179/32'                                        # dns4me
@@ -720,7 +715,6 @@ payload:
   - '195.80.119.99/32'                                        # CERT Estonia
   - '195.80.119.101/32'                                       # CERT Estonia
   - '195.114.14.74/32'                                        # dnscry.pt (Sydney FlowVPS, Australia)
-  - '195.133.25.16/32'                                        # Comss.one DNS
   - '195.201.21.251/32'                                       # zknt.org
   - '195.201.131.183/32'                                      # a47.me
   - '198.23.164.176/32'                                       # Foxyfy DNS (Germany (Generic))
@@ -738,7 +732,6 @@ payload:
   - '209.250.227.42/32'                                       # UK DNS Privacy Project
   - '212.18.0.5/32'                                           # mnet-online.de
   - '212.18.3.5/32'                                           # mnet-online.de
-  - '212.109.195.93/32'                                       # Comss.one DNS
   - '213.32.25.25/32'                                         # szpadel.ovh
   - '213.166.247.100/32'                                      # CSA-IT
   - '213.239.221.173/32'                                      # NiYaWe

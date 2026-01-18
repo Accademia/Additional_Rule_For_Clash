@@ -117,7 +117,6 @@ payload:
   - '+.go6lab.si'                             # Go6Lab (斯洛文尼亚)
   - '+.query.hdns.io'                         # HDNS 聚合型 DoH 端点（多份 DoH 域名集合中出现）
   - '+.dns.hostux.net'                        # Hostux DNS (全球)
-  - '+.ibksturm.synology.me'                  # Ibksturm (瑞士)
   - '+.ibuki.cgnat.net'                       # Ibuki DNS (全球)
   - '+.public.dns.iij.jp'                     # IIJ / Quad101 官方公共 DNS 名字；服务仅接受 DoH/DoT
   - '+.doh.iij.jp'                            # IIJ DNS (日本)
@@ -215,7 +214,6 @@ payload:
   - '+.de-f1.foxyfy.net'                      # Foxyfy DNS (Germany (South))
   - '+.de01.dns4me.net'                       # dns4me
   - '+.dns.a47.me'                            # a47.me
-  - '+.dns.akbxr.com'                         # AKBXR DNS
   - '+.dns.anon.no'                           # anon.no
   - '+.dns.applewebkit.dev'                   # applewebkit.dev
   - '+.dns.aquilenet.fr'                      # Aquilenet DNS
@@ -233,7 +231,6 @@ payload:
   - '+.dns.chenu.ch'                          # chenu.ch
   - '+.dns.christerwaren.fi'                  # Christer Warén
   - '+.dns.chunghwamc.com'                    # ChunghwaMC
-  - '+.dns.comss.one'                         # Comss.one DNS
   - '+.dns.csa-rz.de'                         # csa-rz.de
   - '+.dns.csaonline.de'                      # CSA-IT
   - '+.dns.csswg.org'                         # CSS Working Group
@@ -320,15 +317,12 @@ payload:
   - '+.dnsvps.familiamv.net'                  # familiamv.net
   - '+.dog.dns.qwer.pw'                       # QWER DNS
   - '+.doh-own-recursion.nicolas-dorriere.fr' # Nicolas Dorriere (Non filtering)
-  - '+.doh.aaaab3n.moe'                       # Canarypwn
   - '+.doh.angry.im'                          # Angry.im
   - '+.doh.archuser.org'                      # Pubhole
-  - '+.doh.beauty'                            # doh.beauty
   - '+.doh.buzz'                              # doh.buzz
   - '+.doh.disconnect.app'                    # Disconnect.app
   - '+.doh.dns4all.eu'                        # DNS4all
   - '+.doh.domreg.lt'                         # domreg.lt
-  - '+.doh.futa.gg'                           # FutaDNS
   - '+.doh.kel.pe'                            # André Kelpe
   - '+.doh.lacontrevoie.fr'                   # La Contre-Voie
   - '+.doh.lv'                                # NIC.LV
@@ -408,7 +402,6 @@ payload:
   - '+.rfree2.blue-shield.at'                 # Blue Shield Umbrella
   - '+.ro-buc-w-p-1.nashkan.net'              # nashkan.net
   - '+.root.hagezi.org'                       # HaGeZi DNS (Germany, Falkenstein)
-  - '+.router.comss.one'                      # Comss.one DNS
   - '+.sa01.dns4me.net'                       # dns4me
   - '+.sea01.dnscry.pt'                       # dnscry.pt (Seattle, US)
   - '+.secure.avastdns.com'                   # Avast DNS
@@ -946,10 +939,6 @@ payload:
 # |  212.129.46.32     |   443   |   udp    |   DNSCrypt   |   cryptostorm                  |
 # |  213.163.64.208    |   443   |   tcp    |   DNSCrypt   |   cryptostorm                  |
 # |  213.163.64.208    |   443   |   udp    |   DNSCrypt   |   cryptostorm                  |
-# |  213.196.191.96    |   8443  |   tcp    |   DNSCrypt   |   ibksturm.Synology.me'          |
-# |  213.196.191.96    |   8443  |   udp    |   DNSCrypt   |   ibksturm.Synology.me'          |
-# |  213.196.191.96    |   443   |   tcp    |   DoH        |   ibksturm.Synology.me'          |
-# |  213.196.191.96    |   853   |   tcp    |   DoT        |   ibksturm.Synology.me'          |
 # |  216.128.181.13    |   443   |   tcp    |   DoH        |   dns.sb                       |
 # |  217.61.0.97       |   853   |   tcp    |   DoT        |   BlahDNS                      |
 # |  217.169.20.22     |   443   |   tcp    |   DoH        |   dns.aa.net'.uk'                 |
