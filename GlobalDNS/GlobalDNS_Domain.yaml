@@ -286,7 +286,6 @@ payload:
   - '+.dns.ofdoom.net'                        # ofdoom.net
   - '+.dns.paesa.es'                          # PaesaDNS
   - '+.dns.paulo.nom.za'                      # Paulo
-  - '+.dns.pub'                               # DNSPod
   - '+.dns.quiet.rocks'                       # Quiet Rocks
   - '+.dns.rbn.gr'                            # RobinGroppe.de
   - '+.dns.redhosting.com.ar'                 # redhosting.com.ar
