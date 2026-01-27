@@ -287,7 +287,7 @@
 
   不会 ！ 这俩格式，纯属自嗨。 
    >
-   > - 关键原因：对于 《 性能负担 + 功耗消耗 + 内存占用 》 起 “决定性因素”  =  behavior （ domain + ipcidr  或  classical ） ， 而不是 文件类型（ text 、 yaml 、 mrs ） 。
+   > - 关键原因：对于 《 性能负担 + 功耗消耗 + 内存占用 》 起 “决定性因素”  =  behavior （ domain + ipcidr 🆚  classical ） ， 而不是 文件类型（ text 、 yaml 、 mrs ） 。
    >
    > - mrs \ text 缺点 ：对 VPN 运行性能 0影响，且 无法添加注释，可维护性极差 。（毕竟，所有Clash VPN软件，100%都是 后台静默更新 远程规则集，这是 异步操作，对于 用户 = 0感知。压根看不出，优化价值何在 🤣 ）
 
