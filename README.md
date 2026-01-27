@@ -285,9 +285,7 @@
 
 ### 本项目 是否提供 mrs 、text 格式 订阅 ？
 
-不会！
-
-这俩格式，纯属自嗨。 
+不会 ！ 这俩格式，纯属自嗨。 
  >
  > - 关键原因：对于 《 性能 + 内存》 起 “决定性因素” 是 behavior （ domain + ipcidr  或  classical ） ， 而不是 text 、 yaml 、 mrs ，
  >
