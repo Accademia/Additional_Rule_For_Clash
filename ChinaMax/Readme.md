@@ -137,10 +137,14 @@ dns :
 
 # DNS分流 ：获得 🇨🇳中国IP
 nameserver-policy : 
-   # 中国域名解析， 调用 国内DNS服务器
+   # 第一级 ： GeositeCN，优化功耗 （ 避免：比对十几万条后，才发现是常用直连的域名 ） 
+   'RULE-SET:GeositeCN_Domain'    :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN'  , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'    ]   
+   # 第二级 ：前置GFWlist，预防性 纠错 ChinaMax 
+   'rule-set:GFWList_Domain'      :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'   , 'https://dns.google/dns-query#♾️.<Final>'      ]
+   # 第三级 ：中国域名解析， 调用 国内DNS服务器
    'RULE-SET:ChinaMax_Domain'     :  [ 'https://dns.alidns.com/dns-query#🇨🇳.<Country>—CN'  , 'https://doh.pub/dns-query#🇨🇳.<Country>—CN'    ] 
-   # 其余所有域名解析， 通过 “兜底策略”的VPN节点 ，转发给海外DNS服务器 
-   '+.*'                          :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'   , 'https://dns.google/dns-query#♾️.<Final>'     ]
+   # 第四级 ：其余所有域名解析， 通过 “兜底策略”的VPN节点 ，转发给海外DNS服务器 
+   '+.*'                          :  [ 'https://cloudflare-dns.com/dns-query#♾️.<Final>'   , 'https://dns.google/dns-query#♾️.<Final>'      ]
      
 # Rule分流：直连 中国IP     
 rules :
@@ -151,7 +155,9 @@ rules :
 
 # 远程规则集
 rule-providers : 
-   ChinaMax_Domain                : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaMax/ChinaMax_Domain.yaml' , path : './ruleset/ChinaMax_Domain.yaml' }                              
+   ChinaMax_Domain                : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/ChinaMax/ChinaMax_Domain.yaml'   , path : './ruleset/ChinaMax_Domain.yaml'  }    
+   GeositeCN_Domain               : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/Accademia/Additional_Rule_For_Clash@latest/GeositeCN/GeositeCN_Domain.yaml' , path : './ruleset/GeositeCN_Domain.yaml' }     
+   GFWList_Domain                 : { type : 'http'  , behavior : 'domain'  , format : 'yaml'  , url : 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@latest/rule/Clash/Proxy/Proxy_Domain.yaml'     , path : './ruleset/GFWList_Domain.yaml'   }                             
 
 ```
 <br>
