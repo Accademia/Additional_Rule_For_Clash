@@ -4,8 +4,9 @@ payload:
 
    # -------------------------------------------------
     - DOMAIN-SUFFIX , eu     # 欧洲
+    - DOMAIN-SUFFIX , gb     # 欧洲 - 西欧 - 英国   #  .gb 域名，几乎不再使用 ，但是在 GeoIP 中使用 gb
    # -------------------------------------------------
-    - DOMAIN-SUFFIX , uk     # 欧洲 - 西欧 - 英国   #  .gb 域名，几乎不再使用
+    - DOMAIN-SUFFIX , uk     # 欧洲 - 西欧 - 英国   #  .gb 域名，几乎不再使用 ，但是在 GeoIP 中使用 gb
     - DOMAIN-SUFFIX , fr     # 欧洲 - 西欧 - 法国
     - DOMAIN-SUFFIX , de     # 欧洲 - 西欧 - 德国  
     - DOMAIN-SUFFIX , nl     # 欧洲 - 西欧 - 荷兰  
@@ -29,7 +30,9 @@ payload:
    #
     - DOMAIN-SUFFIX , cy     # 欧洲 - 西欧 - 塞浦路斯
     - DOMAIN-SUFFIX , gr     # 欧洲 - 西欧 - 希腊
-   #- DOMAIN-SUFFIX , ac     # 欧洲 - 西欧 - 圣赫勒拿、阿森松岛和特里斯坦达库尼亚群岛
+   #- DOMAIN-SUFFIX , sh     # 欧洲 - 西欧 - 圣赫勒拿岛
+   #- DOMAIN-SUFFIX , ac     # 欧洲 - 西欧 - 阿森松岛
+   #- DOMAIN-SUFFIX , ta     # 欧洲 - 西欧 - 特里斯坦达库尼亚群岛
    #- DOMAIN-SUFFIX , sj     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
     - DOMAIN-SUFFIX , ax     # 欧洲 - 西欧 - 奥兰群岛
     - DOMAIN-SUFFIX , gi     # 欧洲 - 西欧 - 直布罗陀

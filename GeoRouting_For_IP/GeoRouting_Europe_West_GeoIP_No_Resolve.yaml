@@ -3,7 +3,7 @@ payload:
    ############################### 欧洲 (西欧) ###############################
 
    # ------------------------------------------------------------
-    - GEOIP , uk      , no-resolve     # 欧洲 - 西欧 - 英国
+    - GEOIP , gb      , no-resolve     # 欧洲 - 西欧 - 英国          # 顶级域名 ccTLD ：uk
     - GEOIP , de      , no-resolve     # 欧洲 - 西欧 - 德国
     - GEOIP , fr      , no-resolve     # 欧洲 - 西欧 - 法国
     - GEOIP , nl      , no-resolve     # 欧洲 - 西欧 - 荷兰
@@ -26,7 +26,9 @@ payload:
    
     - GEOIP , cy      , no-resolve     # 欧洲 - 西欧 - 塞浦路斯
     - GEOIP , gr      , no-resolve     # 欧洲 - 西欧 - 希腊
-    - GEOIP , ac      , no-resolve     # 欧洲 - 西欧 - 圣赫勒拿、阿森松岛和特里斯坦达库尼亚群岛
+    - GEOIP , sh      , no-resolve     # 欧洲 - 西欧 - 圣赫勒拿
+    - GEOIP , ac      , no-resolve     # 欧洲 - 西欧 - 阿森松岛
+    - GEOIP , ta      , no-resolve     # 欧洲 - 西欧 - 特里斯坦达库尼亚群岛
     - GEOIP , sj      , no-resolve     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
     - GEOIP , ax      , no-resolve     # 欧洲 - 西欧 - 奥兰群岛
     - GEOIP , gi      , no-resolve     # 欧洲 - 西欧 - 直布罗陀
