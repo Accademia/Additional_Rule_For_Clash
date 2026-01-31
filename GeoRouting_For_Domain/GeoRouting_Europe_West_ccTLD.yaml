@@ -30,7 +30,7 @@ payload:
    #
     - DOMAIN-SUFFIX , cy     # 欧洲 - 西欧 - 塞浦路斯
     - DOMAIN-SUFFIX , gr     # 欧洲 - 西欧 - 希腊
-   #- DOMAIN-SUFFIX , sh     # 欧洲 - 西欧 - 圣赫勒拿岛
+   #- DOMAIN-SUFFIX , sh     # 欧洲 - 西欧 - 圣赫勒拿岛、阿森松岛、特里斯坦达库尼亚群岛
    #- DOMAIN-SUFFIX , ac     # 欧洲 - 西欧 - 阿森松岛
    #- DOMAIN-SUFFIX , ta     # 欧洲 - 西欧 - 特里斯坦达库尼亚群岛
    #- DOMAIN-SUFFIX , sj     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
