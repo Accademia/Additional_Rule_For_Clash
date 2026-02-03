@@ -29,8 +29,6 @@ payload:
     - GEOIP , sh    # , no-resolve     # 欧洲 - 西欧 - 圣赫勒拿、阿森松岛、特里斯坦达库尼亚群岛
    #- GEOIP , ac    # , no-resolve     # 欧洲 - 西欧 - 阿森松岛                      # MaxMind 暂未启用      
    #- GEOIP , ta    # , no-resolve     # 欧洲 - 西欧 - 特里斯坦达库尼亚群岛          # MaxMind 暂未启用   
-    - GEOIP , ac    # , no-resolve     # 欧洲 - 西欧 - 阿森松岛
-    - GEOIP , ta    # , no-resolve     # 欧洲 - 西欧 - 特里斯坦达库尼亚群岛
     - GEOIP , sj    # , no-resolve     # 欧洲 - 西欧 - 斯瓦尔巴特和扬马延
     - GEOIP , ax    # , no-resolve     # 欧洲 - 西欧 - 奥兰群岛
     - GEOIP , gi    # , no-resolve     # 欧洲 - 西欧 - 直布罗陀
