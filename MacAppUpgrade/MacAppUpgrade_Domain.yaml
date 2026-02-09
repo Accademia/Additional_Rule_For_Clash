@@ -14,7 +14,7 @@ payload:
     - '+.trials.adobe.com'                                          #          | homebrew : brew install --cask adobe-acrobat-pro
     - '+.ardownload2.adobe.com'                                     #          | homebrew : brew install --cask adobe-acrobat-reader
     - '+.ccmdls.adobe.com'                                          #          | homebrew : brew install --cask adobe-creative-cloud
-   #- '+.cdn.aliyundrive.net'                                       #          | homebrew : brew install --cask adrive
+  # - '+.cdn.aliyundrive.net'                                       #          | homebrew : brew install --cask adrive
     - '+.download.gnome.org'                                        #          | homebrew : brew install at-spi2-core \ brew install adwaita-icon-theme \ brew install gdk-pixbuf \ brew install glib \ brew install gsettings-desktop-schemas \ brew install gtk+3 \ brew install libepoxy \ brew install librsvg \ brew install pango
     - '+.affinity-update.s3.amazonaws.com'                          #          | homebrew : brew install --cask affinity \ brew install --cask affinity-publisher \ brew install --cask affinity-designer \ brew install --cask affinity-photo
     - '+.su.airbuddy.app'                                           #  sparkle | homebrew : brew install --cask airbuddy
@@ -153,7 +153,7 @@ payload:
     - '+.excalidrawz-new.web.app'                                   #  sparkle | 
     - '+.cdn.flexibits.com'                                         #  sparkle | homebrew : brew install --cask fantastical
     - '+.flexibits.com'                                             #  sparkle | 
-   #- '+.sf3-cn.feishucdn.com'                                      #          | homebrew : brew install --cask feishu
+  # - '+.sf3-cn.feishucdn.com'                                      #          | homebrew : brew install --cask feishu
     - '+.ffmpeg.org'                                                #          | homebrew : brew install ffmpeg@7 \ brew install ffmpeg@6 \ brew install ffmpeg
     - '+.fftw.org'                                                  #          | homebrew : brew install fftw
     - '+.echoone.com'                                               #          | homebrew : brew install --cask file-juicer
@@ -283,9 +283,9 @@ payload:
     - '+.cdn.awehunt.com'                                           #          | homebrew : brew install --cask maczip \ brew install --cask qspace-pro
     - '+.codeberg.org'                                              #          | homebrew : brew install mad
     - '+.magicquit.com'                                             #          | homebrew : brew install --cask magicquit
-   #- '+.res.126.net'                                               #          | homebrew : brew install --cask mailmaster
+  # - '+.res.126.net'                                               #          | homebrew : brew install --cask mailmaster
     - '+.www.titanium-software.fr'                                  #          | homebrew : brew install --cask maintenance \ brew install --cask onyx
-   #- '+.weiboformac.sinaapp.com'                                   #  sparkle | 
+  # - '+.weiboformac.sinaapp.com'                                   #  sparkle | 
     - '+.www.makemkv.com'                                           #          | homebrew : brew install --cask makemkv
     - '+.manico.im'                                                 #          | homebrew : brew install --cask manico
     - '+.mediaarea.net'                                             #          | homebrew : brew install --cask mediainfo
@@ -309,12 +309,12 @@ payload:
     - '+.multitouch.app'                                            #          | homebrew : brew install --cask multitouch
     - '+.www.multitouch.app'                                        #  sparkle | 
     - '+.cdn.mweb.im'                                               #  sparkle | 
-    - '+.cdn.mwebapp.cn'                                            #  sparkle | 
+  # - '+.cdn.mwebapp.cn'                                            #  sparkle | 
     - '+.dl.getmythic.app'                                          #  sparkle | homebrew : brew install --cask mythic
     - '+.www.nano-editor.org'                                       #          | homebrew : brew install nano
     - '+.dn.navicat.com'                                            #          | homebrew : brew install --cask navicat-premium-lite
     - '+.dev.yorhel.nl'                                             #          | homebrew : brew install ncdu
-   #- '+.d1.music.126.net'                                          #          | homebrew : brew install --cask neteasemusic
+  # - '+.d1.music.126.net'                                          #          | homebrew : brew install --cask neteasemusic
     - '+.ranchero.com'                                              #  sparkle | 
     - '+.cdn.netspotapp.com'                                        #  sparkle | homebrew : brew install --cask netspot
     - '+.api.devontechnologies.com'                                 #  sparkle | 
@@ -371,10 +371,10 @@ payload:
     - '+.www.python.org'                                            #          | homebrew : brew install python@3.13 \ brew install python@3.14
     - '+.download.qemu.org'                                         #          | homebrew : brew install qemu
     - '+.sbarex.github.io'                                          #  sparkle | 
-   #- '+.dldir1v6.qq.com'                                           #          | homebrew : brew install --cask qq
-   #- '+.dldir1.qq.com'                                             #          | homebrew : brew install --cask qqlive \ brew install --cask weiyun \ brew install --cask wechat
-   #- '+.c.y.qq.com'                                                #          | homebrew : brew install --cask qqmusic
-   #- '+.pdds.quark.cn'                                             #          | homebrew : brew install --cask quarkclouddrive
+  # - '+.dldir1v6.qq.com'                                           #          | homebrew : brew install --cask qq
+  # - '+.dldir1.qq.com'                                             #          | homebrew : brew install --cask qqlive \ brew install --cask weiyun \ brew install --cask wechat
+  # - '+.c.y.qq.com'                                                #          | homebrew : brew install --cask qqmusic
+  # - '+.pdds.quark.cn'                                             #          | homebrew : brew install --cask quarkclouddrive
     - '+.amicoapps.com'                                             #  sparkle | homebrew : brew install --cask quit-all
     - '+.www.rarlab.com'                                            #          | homebrew : brew install --cask rar
     - '+.redream.io'                                                #          | homebrew : brew install --cask redream
@@ -428,10 +428,10 @@ payload:
     - '+.upgrades.syncthing.net'                                    #  sparkle | 
     - '+.global.download.synology.com'                              #          | homebrew : brew install --cask synologyassistant
     - '+.pkgs.tailscale.com'                                        #          | homebrew : brew install --cask tailscale-app
-   #- '+.tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com'            #          | homebrew : brew install --cask teambition
+  # - '+.tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com'            #          | homebrew : brew install --cask teambition
     - '+.osx.telegram.org'                                          #  sparkle | homebrew : brew install --cask telegram
-   #- '+.desktop.docs.qq.com'                                       #          | homebrew : brew install --cask tencent-docs
-   #- '+.updatecdn.meeting.qq.com'                                  #          | homebrew : brew install --cask tencent-meeting
+  # - '+.desktop.docs.qq.com'                                       #          | homebrew : brew install --cask tencent-docs
+  # - '+.updatecdn.meeting.qq.com'                                  #          | homebrew : brew install --cask tencent-meeting
     - '+.www.cgsecurity.org'                                        #          | homebrew : brew install testdisk
     - '+.textsniper.app'                                            #  sparkle | 
     - '+.www.codeandweb.com'                                        #          | homebrew : brew install --cask texturepacker
