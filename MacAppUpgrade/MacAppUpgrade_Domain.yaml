@@ -1,483 +1,500 @@
 payload:
 
-    - '+.brew.sh'                                             #
-    - '+.ghcr.io'                                             #
-    - '+.pkg-containers.githubusercontent.com'                #
-    - '+.raw.githubusercontent.com'                           #
-    - '+.github.com'                                          #
+    - '+.brew.sh'                                                   #
+    - '+.ghcr.io'                                                   #
+    - '+.pkg-containers.githubusercontent.com'                      #
+    - '+.raw.githubusercontent.com'                                 #
+    - '+.github.com'                                                #
 
-    - 'ccmdls.adobe.com'                                      #  Adobe CC 全家桶
-
-
-   #- '+.down.115.com'                                        #          | homebrew : brew install --cask 115browser
-    - '+.dl.4kdownload.com'                                   #          | homebrew : brew install --cask 4k-image-compressor
-    - '+.beyondgrep.com'                                      #          | homebrew : brew install ack
-    - '+.static.adguard.com'                                  #          | homebrew : brew install --cask adguard
-    - '+.static.adtidy.org'                                   #  sparkle | 
-    - '+.trials.adobe.com'                                    #          | homebrew : brew install --cask adobe-acrobat-pro
-    - '+.ardownload2.adobe.com'                               #          | homebrew : brew install --cask adobe-acrobat-reader
-    - '+.ccmdls.adobe.com'                                    #          | homebrew : brew install --cask adobe-creative-cloud
-   #- '+.cdn.aliyundrive.net'                                 #          | homebrew : brew install --cask adrive
-    - '+.download.gnome.org'                                  #          | homebrew : brew install at-spi2-core \ brew install adwaita-icon-theme \ brew install gdk-pixbuf \ brew install glib \ brew install gsettings-desktop-schemas \ brew install gtk+3 \ brew install libepoxy \ brew install librsvg \ brew install pango
-    - '+.affinity-update.s3.amazonaws.com'                    #          | homebrew : brew install --cask affinity-designer \ brew install --cask affinity-photo \ brew install --cask affinity \ brew install --cask affinity-publisher
-    - '+.su.airbuddy.app'                                     #  sparkle | homebrew : brew install --cask airbuddy
-    - '+.cdn.rogueamoeba.com'                                 #          | homebrew : brew install --cask airfoil \ brew install --cask audio-hijack \ brew install --cask loopback \ brew install --cask soundsource
-    - '+.download.airsquirrels.com'                           #  sparkle | homebrew : brew install --cask airparrot
-    - '+.updates-prod.airsquirrels.com'                       #  sparkle | 
-    - '+.dl.airserver.com'                                    #  sparkle | homebrew : brew install --cask airserver
-    - '+.www.airserver.com'                                   #  sparkle | 
-    - '+.apphousekitchen.com'                                 #  sparkle | homebrew : brew install --cask aldente
-    - '+.cachefly.alfredapp.com'                              #          | homebrew : brew install --cask alfred
-   #- '+.download.alicdn.com'                                 #          | homebrew : brew install --cask aliwangwang
-    - '+.cdn.ensili.co'                                       #  sparkle | 
-    - '+.ensili.co'                                           #  sparkle | 
-    - '+.repo.anaconda.com'                                   #          | homebrew : brew install --cask anaconda
-    - '+.aomedia.googlesource.com'                            #          | homebrew : brew install aom
-    - '+.download.nektony.com'                                #  sparkle | homebrew : brew install --cask app-cleaner \ brew install --cask funter \ brew install --cask vsd-viewer
-    - '+.freemacsoft.net'                                     #  sparkle | 
-    - '+.rawcdn.githack.com'                                  #  sparkle | 
-    - '+.www.freemacsoft.net'                                 #          | homebrew : brew install --cask appcleaner
-    - '+.milanvarady.github.io'                               #  sparkle | 
-    - '+.www.apache.org'                                      #          | homebrew : brew install apr \ brew install apr-util \ brew install subversion
-    - '+.www.araxis.com'                                      #          | homebrew : brew install --cask araxis-merge
-    - '+.releases.arc.net'                                    #  sparkle | homebrew : brew install --cask arc
-    - '+.code.videolan.org'                                   #          | homebrew : brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
-    - '+.pixeleyes.co.nz'                                     #          | homebrew : brew install --cask automounterhelper
-    - '+.www.soma-zone.com'                                   #  sparkle | homebrew : brew install --cask backuploupe
-    - '+.macbartender.com'                                    #  sparkle | 
-    - '+.www.macbartender.com'                                #  sparkle | homebrew : brew install --cask bartender
-    - '+.ftpmirror.gnu.org'                                   #          | homebrew : brew install bash \ brew install coreutils \ brew install ddrescue \ brew install gettext \ brew install gmp \ brew install grep \ brew install libidn2 \ brew install libidn \ brew install libmicrohttpd \ brew install libtasn1 \ brew install libtool \ brew install libunistring \ brew install m4 \ brew install ncurses \ brew install nettle \ brew install parallel \ brew install readline \ brew install wget
-    - '+.src.fedoraproject.org'                               #          | homebrew : brew install bash-completion
-    - '+.mirror.ctan.org'                                     #          | homebrew : brew install --cask basictex
-    - '+.betterdisplay.pro'                                   #  sparkle | 
-    - '+.folivora.ai'                                         #  sparkle | homebrew : brew install --cask bettertouchtool
-    - '+.updates.folivora.ai'                                 #  sparkle | 
-    - '+.macitbetter.com'                                     #  sparkle | homebrew : brew install --cask betterzip
-    - '+.www.scootersoftware.com'                             #          | homebrew : brew install --cask beyond-compare
-    - '+.dl.hdslb.com'                                        #          | homebrew : brew install --cask bilibili
-    - '+.ftp.binance.com'                                     #          | homebrew : brew install --cask binance
-    - '+.download.blender.org'                                #          | homebrew : brew install --cask blender
-    - '+.f000.backblazeb2.com'                                #  sparkle | homebrew : brew install --cask blip
-    - '+.static.blip.net'                                     #  sparkle | 
-    - '+.cdn.macblurayplayer.com'                             #  sparkle | homebrew : brew install --cask blu-ray-player-pro
-    - '+.www.zeroonetwenty.com'                               #  sparkle | 
-    - '+.zeroonetwenty.com'                                   #          | homebrew : brew install --cask blueharvest
-    - '+.ak-build.bluestacks.com'                             #          | homebrew : brew install --cask bluestacks
-    - '+.appcast.ripperhe.com'                                #  sparkle | 
-    - '+.release.ripperhe.com'                                #  sparkle | homebrew : brew install --cask bobhelper
-    - '+.boltai.com'                                          #  sparkle | 
-    - '+.download.boltai.com'                                 #  sparkle | homebrew : brew install --cask boltai
-    - '+.burn-osx.sourceforge.io'                             #  sparkle | 
-    - '+.sourceforge.net'                                     #  sparkle | 
-    - '+.curl.se'                                             #          | homebrew : brew install ca-certificates \ brew install curl
-    - '+.cairographics.org'                                   #          | homebrew : brew install cairo \ brew install pixman
-    - '+.download.calibre-ebook.com'                          #          | homebrew : brew install --cask calibre
-    - '+.download.techsmith.com'                              #          | homebrew : brew install --cask camtasia
-    - '+.desktop-release.canva.com'                           #          | homebrew : brew install --cask canva
-    - '+.lf16-capcut.faceulv.com'                             #          | homebrew : brew install --cask capcut
-    - '+.api.bombich.com'                                     #  sparkle | 
-    - '+.bombich.scdn1.secure.raxcdn.com'                     #          | homebrew : brew install --cask carbon-copy-cloner
-    - '+.files.pythonhosted.org'                              #          | homebrew : brew install certifi \ brew install cffi \ brew install cryptography \ brew install glances \ brew install img2pdf \ brew install meta-package-manager \ brew install mycli \ brew install ocrmypdf \ brew install pillow \ brew install pydantic \ brew install pycparser \ brew install pydantic-core \ brew install rpds-py \ brew install yt-dlp
-    - '+.persistent.oaistatic.com'                            #  sparkle | homebrew : brew install --cask chatgpt \ brew install --cask chatgpt-atlas
-    - '+.releases.cherry-ai.com'                              #          | homebrew : brew install --cask cherry-studio
-    - '+.git.sr.ht'                                           #          | homebrew : brew install --cask chiaki
-    - '+.mx-app-blob-prod.maxon.net'                          #          | homebrew : brew install --cask cinebench
-    - '+.storage.googleapis.com'                              #          | homebrew : brew install pdf2image \ brew install webp \ brew install --cask claude-code \ brew install --cask claude \ brew install --cask renamer
-    - '+.www.dbklabs.com'                                     #  sparkle | homebrew : brew install --cask clicker-for-netflix
-    - '+.files.lowtechguys.com'                               #  sparkle | homebrew : brew install --cask clop
-    - '+.downloads.cloudflareclient.com'                      #          | homebrew : brew install --cask cloudflare-warp
-    - '+.cmake.org'                                           #          | homebrew : brew install --cask cmake-app
-    - '+.cocoamsx.com'                                        #  sparkle | 
-    - '+.coderunnerapp.com'                                   #  sparkle | homebrew : brew install --cask coderunner
-    - '+.saerasoft.com'                                       #  sparkle | 
-    - '+.download.todesktop.com'                              #          | homebrew : brew install --cask comfyui
-    - '+.dl.dropboxusercontent.com'                           #          | homebrew : brew install --cask command-x
-    - '+.commandqapp.com'                                     #  sparkle | 
-    - '+.get.retina.studio'                                   #  sparkle | homebrew : brew install --cask commandq
-    - '+.copilotforxcode.intii.com'                           #  sparkle | 
-    - '+.media.codeweavers.com'                               #  sparkle | homebrew : brew install --cask crossover
-    - '+.www.codeweavers.com'                                 #  sparkle | 
-    - '+.downloads.cursor.com'                                #          | homebrew : brew install --cask cursor-cli \ brew install --cask cursor
-    - '+.update.cyberduck.io'                                 #  sparkle | homebrew : brew install --cask cyberduck
-    - '+.version.cyberduck.io'                                #  sparkle | 
-    - '+.disc-tools.com'                                      #  sparkle | 
-    - '+.secure.disc-soft.com'                                #  sparkle | 
-    - '+.daisydiskapp.com'                                    #  sparkle | homebrew : brew install --cask daisydisk
-    - '+.gondor.apana.org.au'                                 #          | homebrew : brew install dash \ brew install dash-shell
-    - '+.downloads.prosofteng.com'                            #  sparkle | homebrew : brew install --cask data-rescue
-    - '+.service.prosofteng.com'                              #  sparkle | 
-    - '+.www.visualdatatools.com'                             #          | homebrew : brew install --cask datagraph
-    - '+.dbus.freedesktop.org'                                #          | homebrew : brew install dbus
-    - '+.www.deepl.com'                                       #          | homebrew : brew install --cask deepl
-    - '+.download.delta.chat'                                 #          | homebrew : brew install --cask deltachat
-    - '+.electron.descript.com'                               #          | homebrew : brew install --cask descript
-    - '+.dtapp-pub.dingtalk.com'                              #          | homebrew : brew install --cask dingtalk
-    - '+.dl.discordapp.net'                                   #          | homebrew : brew install --cask discord
-    - '+.dl.cleverfiles.com'                                  #  sparkle | homebrew : brew install --cask disk-drill
-    - '+.www.cleverfiles.com'                                 #  sparkle | 
-    - '+.diskcatalogmaker.com'                                #  sparkle | homebrew : brew install --cask diskcatalogmaker
-    - '+.fujiwara.sakura.ne.jp'                               #  sparkle | 
-    - '+.0x2a.at'                                             #          | homebrew : brew install djvu2pdf
-    - '+.dockdoor.kepler.cafe'                                #  sparkle | 
-    - '+.desktop.docker.com'                                  #          | homebrew : brew install --cask docker-desktop
-    - '+.appitstudio.github.io'                               #  sparkle | 
-    - '+.dl.dolphin-emu.org'                                  #          | homebrew : brew install --cask dolphin
-   #- '+.lf-flow-web-cdn.doubao.com'                          #          | homebrew : brew install --cask doubao
-   #- '+.www.douyin.com'                                      #          | homebrew : brew install --cask douyin
-   #- '+.lf-impc.douyinstatic.com'                            #          | homebrew : brew install --cask douyin-chat
-    - '+.software.charliemonroe.net'                          #  sparkle | homebrew : brew install --cask downie
-    - '+.static.drawthings.ai'                                #          | homebrew : brew install --cask draw-things
-    - '+.micromat.com'                                        #  sparkle | 
-    - '+.s3.amazonaws.com'                                    #  sparkle | homebrew : brew install --cask hazel \ brew install --cask textsniper
-    - '+.binaryfruit.com'                                     #          | homebrew : brew install --cask drivedx
-    - '+.d2wvuuix8c9e48.cloudfront.net'                       #  sparkle | homebrew : brew install --cask dropshare
-    - '+.dropshare.app'                                       #  sparkle | 
-    - '+.aptonic.com'                                         #  sparkle | homebrew : brew install --cask dropzone
-    - '+.updates.aptonic.com'                                 #  sparkle | 
-    - '+.devstorm-apps.com'                                   #  sparkle | 
-    - '+.mirrors.edge.kernel.org'                             #          | homebrew : brew install dtc \ brew install git
-    - '+.origin-a.akamaihd.net'                               #          | homebrew : brew install --cask ea
-    - '+.edge.elgato.com'                                     #          | homebrew : brew install --cask elgato-stream-deck
-    - '+.cdn.electronic.us'                                   #  sparkle | homebrew : brew install --cask elmedia-player \ brew install --cask folx \ brew install --cask macdroid
-    - '+.emacsformacosx.com'                                  #          | homebrew : brew install --cask emacs-app
-    - '+.cdn-dist.emclient.com'                               #          | homebrew : brew install --cask emclient
-    - '+.epicgames-download1.akamaized.net'                   #          | homebrew : brew install --cask epic-games
-    - '+.update.eqmac.app'                                    #  sparkle | 
-    - '+.mac.desktop.evernote.com'                            #          | homebrew : brew install --cask evernote
-    - '+.excalidrawz-new.web.app'                             #  sparkle | 
-    - '+.cdn.flexibits.com'                                   #  sparkle | homebrew : brew install --cask fantastical
-    - '+.flexibits.com'                                       #  sparkle | 
-   #- '+.sf3-cn.feishucdn.com'                                #          | homebrew : brew install --cask feishu
-    - '+.ffmpeg.org'                                          #          | homebrew : brew install ffmpeg \ brew install ffmpeg@6 \ brew install ffmpeg@7
-    - '+.echoone.com'                                         #          | homebrew : brew install --cask file-juicer
-    - '+.dl.devmate.com'                                      #          | homebrew : brew install --cask filepane \ brew install --cask startupizer \ brew install --cask the-unarchiver \ brew install --cask trim-enabler
-    - '+.updates.mymixapps.com'                               #  sparkle | 
-    - '+.www.akop.org'                                        #  sparkle | 
-    - '+.firealpaca.com'                                      #          | homebrew : brew install --cask firealpaca
-    - '+.download-installer.cdn.mozilla.net'                  #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
-    - '+.ftp.osuosl.org'                                      #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
-    - '+.wojciechkulik.pl'                                    #  sparkle | 
-   #- '+.cdn.better365.cn'                                    #  sparkle | homebrew : brew install --cask flykey
-    - '+.www.better365.com'                                   #  sparkle | 
-    - '+.gitlab.freedesktop.org'                              #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
-    - '+.www.foobar2000.org'                                  #          | homebrew : brew install --cask foobar2000
-    - '+.foremost.sourceforge.net'                            #          | homebrew : brew install foremost
-    - '+.cdn.fork.dev'                                        #  sparkle | homebrew : brew install --cask fork
-    - '+.fork.dev'                                            #  sparkle | 
-    - '+.download.binarynights.com'                           #  sparkle | homebrew : brew install --cask forklift
-    - '+.updates.binarynights.com'                            #  sparkle | 
-    - '+.download.ctmdev.com'                                 #  sparkle | 
-    - '+.download.foxtrot-search.com'                         #  sparkle | 
-    - '+.services.ctmdev.com'                                 #  sparkle | 
-    - '+.pierre.chachatelier.fr'                              #  sparkle | homebrew : brew install --cask latexit
-    - '+.thomasokken.com'                                     #          | homebrew : brew install --cask free42-decimal
-    - '+.tristan-software.ch'                                 #          | homebrew : brew install --cask fsmonitor
-    - '+.functionkey.pro'                                     #  sparkle | 
-    - '+.softwaredownload.futunn.com'                         #          | homebrew : brew install --cask futubull \ brew install --cask futubull@legacy
-    - '+.files.fxfactory.com'                                 #          | homebrew : brew install --cask fxfactory
-    - '+.bruji.com'                                           #  sparkle | 
-    - '+.www.bruji.com'                                       #  sparkle | 
-    - '+.downloads.iwascoding.com'                            #          | homebrew : brew install --cask garagesale
-    - '+.cdn.geekbench.com'                                   #  sparkle | homebrew : brew install --cask geekbench \ brew install --cask geekbench-ai
-    - '+.cdn.primatelabs.com'                                 #  sparkle | 
-    - '+.www.primatelabs.com'                                 #  sparkle | 
-    - '+.registry.npmjs.org'                                  #          | homebrew : brew install gemini-cli
-    - '+.www.bannister.org'                                   #          | homebrew : brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
-    - '+.download.geogebra.org'                               #          | homebrew : brew install --cask geogebra
-    - '+.d1fqctmfkpkkcg.cloudfront.net'                       #          | homebrew : brew install --cask gifox
-    - '+.www.lcdf.org'                                        #          | homebrew : brew install gifsicle
-    - '+.download.gimp.org'                                   #          | homebrew : brew install --cask gimp
-    - '+.desktop.githubusercontent.com'                       #          | homebrew : brew install --cask github
-    - '+.gnupg.org'                                           #          | homebrew : brew install gnupg \ brew install libassuan \ brew install libgcrypt \ brew install libgpg-error \ brew install libksba \ brew install npth
-    - '+.www.gnupg.org'                                       #          | homebrew : brew install gpgme \ brew install gpgmepp \ brew install gnutls \ brew install pinentry
-    - '+.www.stclairsoft.com'                                 #  sparkle | homebrew : brew install --cask go64
-    - '+.gog-cdn-fastly.gog.com'                              #          | homebrew : brew install --cask gog-galaxy
-    - '+.dl.google.com'                                       #          | homebrew : brew install --cask google-drive \ brew install --cask google-earth-pro \ brew install --cask google-trends \ brew install --cask google-chrome
-    - '+.download-mac.grammarly.com'                          #          | homebrew : brew install --cask grammarly-desktop
-    - '+.www.lemkesoft.info'                                  #  sparkle | homebrew : brew install --cask graphicconverter
-    - '+.www.lemkesoft.org'                                   #  sparkle | 
-    - '+.gridsapp.net'                                        #          | homebrew : brew install --cask grids
-    - '+.gstreamer.freedesktop.org'                           #          | homebrew : brew install --cask gstreamer-runtime \ brew install --cask gstreamer-development
-    - '+.handbrake.fr'                                        #  sparkle | homebrew : brew install --cask handbrake \ brew install --cask handbrake-app
-    - '+.dl.hapigo.com'                                       #          | homebrew : brew install --cask hapigo
-    - '+.framagit.org'                                        #          | homebrew : brew install hatari
-    - '+.www.noodlesoft.com'                                  #  sparkle | 
-    - '+.icon-theme.freedesktop.org'                          #          | homebrew : brew install hicolor-icon-theme
-    - '+.updates.hookproductivity.com'                        #  sparkle | homebrew : brew install --cask hookmark
-    - '+.dl.houdah.com'                                       #          | homebrew : brew install --cask houdahspot
-    - '+.ftp.hp.com'                                          #          | homebrew : brew install --cask hp-prime
-    - '+.download2.interactivebrokers.com'                    #          | homebrew : brew install --cask ibkr
-    - '+.jordanbaird.github.io'                               #  sparkle | 
-    - '+.dl-portal.iina.io'                                   #  sparkle | homebrew : brew install --cask iina
-    - '+.www.iina.io'                                         #  sparkle | 
-    - '+.apps.shinynode.com'                                  #  sparkle | 
-    - '+.sf-applications.s3.amazonaws.com'                    #  sparkle | homebrew : brew install --cask image2icon
-    - '+.imagemagick.org'                                     #          | homebrew : brew install imagemagick
-    - '+.imageoptim.com'                                      #  sparkle | homebrew : brew install --cask imageoptim
-    - '+.downloads.imazing.com'                               #  sparkle | homebrew : brew install --cask imazing
-    - '+.media.inkscape.org'                                  #          | homebrew : brew install --cask inkscape
-    - '+.inputsource.pro'                                     #  sparkle | homebrew : brew install --cask input-source-pro
-    - '+.macdaddy.io'                                         #          | homebrew : brew install --cask install-disk-creator
-    - '+.downloads.es.net'                                    #          | homebrew : brew install iperf3
-    - '+.www.imagetasks.com'                                  #  sparkle | 
-    - '+.iterm2.com'                                          #  sparkle | homebrew : brew install --cask iterm2
-    - '+.itsycal.s3.amazonaws.com'                            #          | homebrew : brew install --cask itsycal
-    - '+.u.keka.io'                                           #  sparkle | 
-    - '+.prerelease.keybase.io'                               #          | homebrew : brew install --cask keybase
-    - '+.files.stairways.com'                                 #          | homebrew : brew install --cask keyboard-maestro
-    - '+.keycastr.github.io'                                  #  sparkle | 
-    - '+.mirrors.kodi.tv'                                     #          | homebrew : brew install --cask kodi
-    - '+.download.kde.org'                                    #          | homebrew : brew install --cask krita
-    - '+.sf16-sg.larksuitecdn.com'                            #          | homebrew : brew install --cask lark
-    - '+.max.codes'                                           #  sparkle | homebrew : brew install --cask latest
-    - '+.www.greenwoodsoftware.com'                           #          | homebrew : brew install less
-    - '+.gitlab.xiph.org'                                     #          | homebrew : brew install libao
-    - '+.www.libarchive.org'                                  #          | homebrew : brew install libarchive
-    - '+.download.videolan.org'                               #          | homebrew : brew install libbluray \ brew install libudfread
-    - '+.files.musepack.net'                                  #          | homebrew : brew install libcuefile \ brew install libreplaygain \ brew install musepack
-    - '+.www.csie.ntu.edu.tw'                                 #          | homebrew : brew install liblinear
-    - '+.www.libraw.org'                                      #          | homebrew : brew install libraw
-    - '+.download.libsodium.org'                              #          | homebrew : brew install libsodium
-    - '+.www.libssh.org'                                      #          | homebrew : brew install libssh
-    - '+.libssh2.org'                                         #          | homebrew : brew install libssh2
-    - '+.download.osgeo.org'                                  #          | homebrew : brew install libtiff
-    - '+.www.x.org'                                           #          | homebrew : brew install libx11 \ brew install libxau \ brew install libxext \ brew install libxfixes \ brew install libxdmcp \ brew install libxi \ brew install libxrender \ brew install libxtst
-    - '+.xorg.freedesktop.org'                                #          | homebrew : brew install libxcb \ brew install xorgproto
-    - '+.libzip.org'                                          #          | homebrew : brew install libzip
-    - '+.www.cockos.com'                                      #          | homebrew : brew install --cask licecap
-    - '+.dl.linearmouse.org'                                  #  sparkle | homebrew : brew install --cask linearmouse
-    - '+.linearmouse.app'                                     #  sparkle | 
-    - '+.www.peterborgapps.com'                               #          | homebrew : brew install --cask lingon-x
-    - '+.www.obdev.at'                                        #          | homebrew : brew install --cask little-snitch
-    - '+.installers.lmstudio.ai'                              #          | homebrew : brew install --cask lm-studio
-    - '+.gitee.com'                                           #  sparkle | 
-    - '+.longshot.chitaner.com'                               #  sparkle | 
-    - '+.packages.loom.com'                                   #          | homebrew : brew install --cask loom
-    - '+.www.inf.puc-rio.br'                                  #          | homebrew : brew install lpeg
-    - '+.www.lua.org'                                         #          | homebrew : brew install lua
-    - '+.downloads.skylum.com'                                #  sparkle | 
-    - '+.luminarneomacm1.skylum.com'                          #  sparkle | 
-    - '+.invisible-mirror.net'                                #          | homebrew : brew install lynx
-    - '+.www.oberhumer.com'                                   #          | homebrew : brew install lzo
-    - '+.renset.dev'                                          #  sparkle | homebrew : brew install --cask macai
-    - '+.macdown.uranusjr.com'                                #  sparkle | 
-    - '+.www.koingosw.com'                                    #          | homebrew : brew install --cask macpilot
-    - '+.mactracker.ca'                                       #  sparkle | homebrew : brew install --cask mactracker
-    - '+.update.mactracker.ca'                                #  sparkle | 
-    - '+.www.corecode.io'                                     #  sparkle | homebrew : brew install --cask macupdater \ brew install --cask smartreporter-free \ brew install --cask ssdreporter-free \ brew install --cask uninstallpkg
-    - '+.macvim.org'                                          #  sparkle | 
-    - '+.cdn.macwhisper.com'                                  #  sparkle | homebrew : brew install --cask macwhisper
-    - '+.macwhisper-site.vercel.app'                          #  sparkle | 
-    - '+.stickytimers.app'                                    #  sparkle | 
-    - '+.cdn.awehunt.com'                                     #          | homebrew : brew install --cask maczip \ brew install --cask qspace-pro
-    - '+.magicquit.com'                                       #          | homebrew : brew install --cask magicquit
-   #- '+.res.126.net'                                         #          | homebrew : brew install --cask mailmaster
-    - '+.www.titanium-software.fr'                            #          | homebrew : brew install --cask maintenance \ brew install --cask onyx
-    - '+.weiboformac.sinaapp.com'                             #  sparkle | 
-    - '+.www.makemkv.com'                                     #          | homebrew : brew install --cask makemkv
-    - '+.manico.im'                                           #          | homebrew : brew install --cask manico
-    - '+.mediaarea.net'                                       #          | homebrew : brew install --cask mediainfo
-    - '+.mednafen.github.io'                                  #          | homebrew : brew install mednafen
-    - '+.gitlab.com'                                          #          | homebrew : brew install svt-av1 \ brew install watch \ brew install --cask meld
-    - '+.www.messenger.com'                                   #          | homebrew : brew install --cask messenger
-    - '+.sw-update.obdev.at'                                  #          | homebrew : brew install --cask micro-snitch
-    - '+.officecdnmac.microsoft.com'                          #          | homebrew : brew install --cask microsoft-auto-update \ brew install --cask microsoft-onenote \ brew install --cask microsoft-excel \ brew install --cask microsoft-outlook \ brew install --cask microsoft-powerpoint \ brew install --cask microsoft-word \ brew install --cask windows-app
-    - '+.msedge.sf.dl.delivery.mp.microsoft.com'              #          | homebrew : brew install --cask microsoft-edge
-    - '+.statics.teams.cdn.office.net'                        #          | homebrew : brew install --cask microsoft-teams
-    - '+.mindmacapp.github.io'                                #  sparkle | 
-    - '+.www.gryphel.com'                                     #          | homebrew : brew install --cask mini-vmac
-    - '+.download.mipony.net'                                 #          | homebrew : brew install --cask mipony
-    - '+.mkvtoolnix.download'                                 #          | homebrew : brew install --cask mkvtoolnix \ brew install --cask mkvtoolnix-app
-    - '+.www.moderncsv.com'                                   #          | homebrew : brew install --cask modern-csv
-    - '+.download.mono-project.com'                           #          | homebrew : brew install --cask mono-mdk-for-visual-studio
-    - '+.www.bytereef.org'                                    #          | homebrew : brew install mpdecimal
-    - '+.www.mpg123.de'                                       #          | homebrew : brew install mpg123
-    - '+.mujs.com'                                            #          | homebrew : brew install mujs
-    - '+.macplus-software.com'                                #  sparkle | 
-    - '+.multitouch.app'                                      #          | homebrew : brew install --cask multitouch
-    - '+.www.multitouch.app'                                  #  sparkle | 
-    - '+.cdn.mweb.im'                                         #  sparkle | 
-   #- '+.cdn.mwebapp.cn'                                      #  sparkle | 
-    - '+.dl.getmythic.app'                                    #  sparkle | homebrew : brew install --cask mythic
-    - '+.www.nano-editor.org'                                 #          | homebrew : brew install nano
-    - '+.dn.navicat.com'                                      #          | homebrew : brew install --cask navicat-premium-lite
-    - '+.dev.yorhel.nl'                                       #          | homebrew : brew install ncdu
-   #- '+.d1.music.126.net'                                    #          | homebrew : brew install --cask neteasemusic
-    - '+.ranchero.com'                                        #  sparkle | 
-    - '+.cdn.netspotapp.com'                                  #  sparkle | homebrew : brew install --cask netspot
-    - '+.api.devontechnologies.com'                           #  sparkle | 
-    - '+.download.devontechnologies.com'                      #  sparkle | homebrew : brew install --cask devonthink
-    - '+.www.witt-software.com'                               #  sparkle | homebrew : brew install --cask pdf-squeezer
-    - '+.download.nextcloud.com'                              #          | homebrew : brew install --cask nextcloud
-    - '+.nmap.org'                                            #          | homebrew : brew install nmap
-    - '+.nodejs.org'                                          #          | homebrew : brew install node
-    - '+.lo.cafe'                                             #  sparkle | homebrew : brew install --cask notchnook
-    - '+.desktop-release.notion-static.com'                   #          | homebrew : brew install --cask notion
-    - '+.calendar-desktop-release.notion-static.com'          #          | homebrew : brew install --cask notion-calendar
-    - '+.mail-desktop-release.notion-static.com'              #          | homebrew : brew install --cask notion-mail
-    - '+.repo.nperf.com'                                      #          | homebrew : brew install --cask nperf
-    - '+.archive.mozilla.org'                                 #          | homebrew : brew install nspr
-    - '+.ftp.mozilla.org'                                     #          | homebrew : brew install nss
-    - '+.files.us-sea-1.linodeobjects.com'                    #  sparkle | 
-    - '+.s1.numi.app'                                         #  sparkle | 
-    - '+.s3.numi.app'                                         #          | homebrew : brew install --cask numi
-    - '+.download.nvidia.com'                                 #          | homebrew : brew install --cask nvidia-geforce-now
-    - '+.cdn-fastly.obsproject.com'                           #  sparkle | homebrew : brew install --cask obs
-    - '+.obsproject.com'                                      #  sparkle | 
-    - '+.r2-app.eagle.cool'                                   #          | homebrew : brew install --cask ogdesign-eagle
-    - '+.fireball.studio'                                     #          | homebrew : brew install --cask one-switch
-    - '+.oneclient.sfx.ms'                                    #          | homebrew : brew install --cask onedrive
-    - '+.jacklandrin.github.io'                               #  sparkle | 
-    - '+.distfiles.gentoo.org'                                #          | homebrew : brew install openal-soft
-    - '+.raw.github.com'                                      #  sparkle | 
-    - '+.swupdate.openvpn.org'                                #          | homebrew : brew install openvpn
-    - '+.swupdate.openvpn.net'                                #          | homebrew : brew install --cask openvpn-connect
-    - '+.2.na.dl.wireshark.org'                               #  sparkle | 
-    - '+.www.wireshark.org'                                   #  sparkle | homebrew : brew install --cask wireshark-app
-    - '+.www.charlessoft.com'                                 #  sparkle | homebrew : brew install --cask pacifist
-    - '+.downloads.sourceforge.net'                           #  sparkle | homebrew : brew install djvulibre \ brew install freetype \ brew install giflib \ brew install glew \ brew install lame \ brew install libpng \ brew install libsoxr \ brew install little-cms2 \ brew install mad \ brew install netcat \ brew install opencore-amr \ brew install pcre \ brew install pdfcrack \ brew install smartmontools \ brew install unzip \ brew install vice \ brew install zip \ brew install zsh \ brew install --cask burn \ brew install --cask dosbox \ brew install --cask paintbrush \ brew install --cask qbittorrent
-    - '+.paintbrush.sourceforge.io'                           #  sparkle | 
-    - '+.rink.hockeyapp.net'                                  #  sparkle | 
-    - '+.dl.paragon-software.com'                             #          | homebrew : brew install --cask paragon-extfs \ brew install --cask paragon-ntfs
-    - '+.builds.parsec.app'                                   #          | homebrew : brew install --cask parsec
-    - '+.downloads.pdfexpert.com'                             #  sparkle | homebrew : brew install --cask pdf-expert
-    - '+.witt-software.com'                                   #  sparkle | 
-    - '+.picsee.chitaner.com'                                 #  sparkle | 
-    - '+.downloads.plex.tv'                                   #          | homebrew : brew install --cask plex
-    - '+.static.crates.io'                                    #          | homebrew : brew install pngquant
-    - '+.pilotmoon.com'                                       #  sparkle | homebrew : brew install --cask popclip
-    - '+.softwareupdate.pilotmoon.com'                        #  sparkle | 
-    - '+.poppler.freedesktop.org'                             #          | homebrew : brew install poppler
-    - '+.files.portaudio.com'                                 #          | homebrew : brew install portaudio
-    - '+.www.script-factory.net'                              #  sparkle | 
-    - '+.www.ppsspp.org'                                      #          | homebrew : brew install --cask ppsspp \ brew install --cask ppsspp-emulator
-    - '+.assets.pronotes.app'                                 #  sparkle | homebrew : brew install --cask pronotes
-    - '+.pronotes.app'                                        #  sparkle | 
-    - '+.www.pronotes.app'                                    #  sparkle | 
-    - '+.purei.org'                                           #          | homebrew : brew install --cask purei-play
-    - '+.www.ivarch.com'                                      #          | homebrew : brew install pv
-    - '+.www.python.org'                                      #          | homebrew : brew install python@3.13 \ brew install python@3.14
-    - '+.download.qemu.org'                                   #          | homebrew : brew install qemu
-    - '+.sbarex.github.io'                                    #  sparkle | 
-   #- '+.dldir1v6.qq.com'                                     #          | homebrew : brew install --cask qq
-   #- '+.dldir1.qq.com'                                       #          | homebrew : brew install --cask qqlive \ brew install --cask wechat \ brew install --cask weiyun
-   #- '+.c.y.qq.com'                                          #          | homebrew : brew install --cask qqmusic
-    - '+.amicoapps.com'                                       #  sparkle | homebrew : brew install --cask quit-all
-    - '+.www.rarlab.com'                                      #          | homebrew : brew install --cask rar
-    - '+.redream.io'                                          #          | homebrew : brew install --cask redream
-    - '+.www.iospirit.com'                                    #          | homebrew : brew install --cask remote-buddy
-    - '+.static.retrovm.org'                                  #          | homebrew : brew install --cask retro-virtual-machine
-    - '+.buildbot.libretro.com'                               #          | homebrew : brew install --cask retroarch-metal
-    - '+.download.rota.to'                                    #  sparkle | homebrew : brew install --cask rotato
-    - '+.royaltsx-v6.royalapps.com'                           #  sparkle | homebrew : brew install --cask royal-tsx
-    - '+.deb.debian.org'                                      #          | homebrew : brew install rtmpdump \ brew install w3m
-    - '+.breakfastquay.com'                                   #          | homebrew : brew install rubberband
-    - '+.cache.ruby-lang.org'                                 #          | homebrew : brew install ruby
-    - '+.screenstudioassets.com'                              #          | homebrew : brew install --cask screen-studio
-    - '+.www.telestream.net'                                  #  sparkle | homebrew : brew install --cask screenflow
-    - '+.scrivener.s3.amazonaws.com'                          #  sparkle | homebrew : brew install --cask scrivener
-    - '+.www.literatureandlatte.com'                          #  sparkle | 
-    - '+.downloads.scummvm.org'                               #  sparkle | homebrew : brew install --cask scummvm \ brew install --cask scummvm-app
-    - '+.www.scummvm.org'                                     #  sparkle | 
-    - '+.www.bensoftware.com'                                 #          | homebrew : brew install --cask securityspy
-    - '+.cdn.cindori.com'                                     #  sparkle | homebrew : brew install --cask sensei
-    - '+.updates.signal.org'                                  #          | homebrew : brew install --cask signal
-    - '+.d1b3av25dd6jdq.cloudfront.net'                       #  sparkle | homebrew : brew install --cask sim-genie
-    - '+.simgenie.app'                                        #  sparkle | 
-    - '+.sipapp.fra1.digitaloceanspaces.com'                  #  sparkle | homebrew : brew install --cask sip \ brew install --cask sip-app
-    - '+.download.sketchup.com'                               #          | homebrew : brew install --cask sketchup
-    - '+.download.skype.com'                                  #          | homebrew : brew install --cask skype
-    - '+.downloads.slack-edge.com'                            #          | homebrew : brew install --cask slack
-    - '+.f002.backblazeb2.com'                                #          | homebrew : brew install --cask slidepad
-    - '+.sveinbjorn.org'                                      #  sparkle | homebrew : brew install --cask sloth
-    - '+.neededapps.com'                                      #  sparkle | homebrew : brew install --cask snapmotion
-    - '+.download.snipaste.com'                               #          | homebrew : brew install --cask snipaste
-    - '+.localhost'                                           #  sparkle | 
-    - '+.download.scdn.co'                                    #          | homebrew : brew install --cask spotify
-    - '+.sqlite.org'                                          #          | homebrew : brew install sqlite
-    - '+.mac-release-static.stash.ws'                         #  sparkle | 
-    - '+.releases.stash.ws'                                   #  sparkle | 
-    - '+.cordlessdog.com'                                     #          | homebrew : brew install --cask stay
-    - '+.cdn.cloudflare.steamstatic.com'                      #          | homebrew : brew install --cask steam
-    - '+.steamcdn-a.akamaihd.net'                             #          | homebrew : brew install --cask steamcmd
-    - '+.mentalfaculty.s3.amazonaws.com'                      #  sparkle | 
-    - '+.mentalfaculty.s3.us-east-1.amazonaws.com'            #  sparkle | 
-    - '+.subler.org'                                          #  sparkle | 
-    - '+.download.sublimetext.com'                            #          | homebrew : brew install --cask sublime-text
-    - '+.assets.selkie.design'                                #  sparkle | 
-    - '+.sindresorhus.com'                                    #  sparkle | 
-    - '+.shirtpocket.s3.amazonaws.com'                        #          | homebrew : brew install --cask superduper
-    - '+.cdn.netbsd.org'                                      #          | homebrew : brew install supermodel
-    - '+.www.mothersruin.com'                                 #          | homebrew : brew install --cask suspicious-package
-    - '+.highlyopinionated.co'                                #  sparkle | 
-    - '+.upgrades.syncthing.net'                              #  sparkle | 
-    - '+.global.download.synology.com'                        #          | homebrew : brew install --cask synologyassistant
-    - '+.pkgs.tailscale.com'                                  #          | homebrew : brew install --cask tailscale-app
-   #- '+.tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com'      #          | homebrew : brew install --cask teambition
-    - '+.osx.telegram.org'                                    #  sparkle | homebrew : brew install --cask telegram
-   #- '+.desktop.docs.qq.com'                                 #          | homebrew : brew install --cask tencent-docs
-   #- '+.updatecdn.meeting.qq.com'                            #          | homebrew : brew install --cask tencent-meeting
-    - '+.www.cgsecurity.org'                                  #          | homebrew : brew install testdisk
-    - '+.textsniper.app'                                      #  sparkle | 
-    - '+.www.codeandweb.com'                                  #          | homebrew : brew install --cask texturepacker
-    - '+.www.tunabellysoftware.com'                           #  sparkle | homebrew : brew install --cask tg-pro
-    - '+.down.sandai.net'                                     #          | homebrew : brew install --cask thunder
-    - '+.download.tigerfintech.com'                           #          | homebrew : brew install --cask tiger-trade
-    - '+.carnationsoftware.com'                               #          | homebrew : brew install --cask tm-error-logger
-    - '+.archive.torproject.org'                              #          | homebrew : brew install --cask tor-browser
-    - '+.update.transmissionbt.com'                           #  sparkle | 
-    - '+.download-cdn.panic.com'                              #          | homebrew : brew install --cask transmit
-    - '+.www.panic.com'                                       #  sparkle | 
-    - '+.www.transnomino.com'                                 #          | homebrew : brew install --cask transnomino
-    - '+.www.micromat.com'                                    #  sparkle | 
-    - '+.dl.apparentsoft.com'                                 #  sparkle | 
-    - '+.tripmode-updates.ch'                                 #          | homebrew : brew install --cask tripmode
-    - '+.0xcc.net'                                            #          | homebrew : brew install ttyrec
-    - '+.tunnelblick.net'                                     #  sparkle | homebrew : brew install --cask tunnelblick
-    - '+.download.typora.io'                                  #          | homebrew : brew install --cask typora
-    - '+.typora.io'                                           #  sparkle | 
-    - '+.www.freedesktop.org'                                 #          | homebrew : brew install uchardet
-    - '+.nlnetlabs.nl'                                        #          | homebrew : brew install unbound
-    - '+.bzgdownloads.s3.amazonaws.com'                       #  sparkle | homebrew : brew install --cask unite
-    - '+.www.flameeyes.com'                                   #          | homebrew : brew install unpaper
-    - '+.updatest.app'                                        #  sparkle | 
-   #- '+.download.updf.com'                                   #          | homebrew : brew install --cask updf
-    - '+.launchpad.net'                                       #          | homebrew : brew install --cask veracrypt
-    - '+.lf3-package.vlabstatic.com'                          #          | homebrew : brew install --cask videofusion
-    - '+.virtualii.com'                                       #          | homebrew : brew install --cask virtual-ii
-    - '+.download.virtualbox.org'                             #          | homebrew : brew install --cask virtualbox
-    - '+.su.virtualbuddy.app'                                 #          | homebrew : brew install --cask virtualbuddy
-    - '+.download.visualstudio.microsoft.com'                 #          | homebrew : brew install --cask visual-studio
-    - '+.update.code.visualstudio.com'                        #          | homebrew : brew install --cask visual-studio-code
-    - '+.data.visualboyadvance-m.org'                         #  sparkle | 
-    - '+.get.videolan.org'                                    #          | homebrew : brew install --cask vlc
-    - '+.softwareupdate-prod.broadcom.com'                    #          | homebrew : brew install --cask vmware-fusion
-    - '+.nektony.com'                                         #  sparkle | 
-    - '+.www.hamrick.com'                                     #          | homebrew : brew install --cask vuescan
-    - '+.app.warp.dev'                                        #          | homebrew : brew install --cask warp
-    - '+.cdn-2.webcatalog.io'                                 #          | homebrew : brew install --cask webcatalog
-    - '+.peacockmedia.software'                               #          | homebrew : brew install --cask website-watchman
-    - '+.u1sweb.webullfintech.com'                            #          | homebrew : brew install --cask webull
-    - '+.csie.io'                                             #  sparkle | 
-    - '+.www.whatroute.net'                                   #  sparkle | homebrew : brew install --cask whatroute
-    - '+.web.whatsapp.com'                                    #          | homebrew : brew install --cask whatsapp
-    - '+.data.getwhisky.app'                                  #  sparkle | 
-    - '+.www.intuitibits.com'                                 #  sparkle | homebrew : brew install --cask wifi-explorer
-    - '+.wins.cool'                                           #  sparkle | 
-    - '+.winswebsite.s3.us-east-005.backblazeb2.com'          #  sparkle | homebrew : brew install --cask wins
-    - '+.git.zx2c4.com'                                       #          | homebrew : brew install wireguard-go \ brew install wireguard-tools
-    - '+.desairem.com'                                        #  sparkle | 
-    - '+.bitbucket.org'                                       #          | homebrew : brew install x265
-   #- '+.nativedl.pcdn.xmcdn.com'                             #          | homebrew : brew install --cask ximalaya
-    - '+.dl3.xmind.net'                                       #          | homebrew : brew install --cask xmind
-    - '+.download.xnview.com'                                 #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
-    - '+.www.xquartz.org'                                     #  sparkle | 
-    - '+.downloads.xvid.com'                                  #          | homebrew : brew install xvid
-   #- '+.cdn-hybrid-prod.hunyuan.tencent.com'                 #          | homebrew : brew install --cask yuanbao
-    - '+.zed.dev'                                             #          | homebrew : brew install --cask zed
-    - '+.releases.5km.tech'                                   #  sparkle | 
-    - '+.zipic.5km.tech'                                      #  sparkle | homebrew : brew install --cask zipic
-    - '+.cdn.zoom.us'                                         #          | homebrew : brew install --cask zoom
-    - '+.download.zotero.org'                                 #          | homebrew : brew install --cask zotero
-
-                     
+    - '+.down.115.com'                                              #          | homebrew : brew install --cask 115browser
+    - '+.dl.4kdownload.com'                                         #          | homebrew : brew install --cask 4k-image-compressor
+    - '+.beyondgrep.com'                                            #          | homebrew : brew install ack
+    - '+.static.adguard.com'                                        #          | homebrew : brew install --cask adguard
+    - '+.static.adtidy.org'                                         #  sparkle | 
+    - '+.trials.adobe.com'                                          #          | homebrew : brew install --cask adobe-acrobat-pro
+    - '+.ardownload2.adobe.com'                                     #          | homebrew : brew install --cask adobe-acrobat-reader
+    - '+.ccmdls.adobe.com'                                          #          | homebrew : brew install --cask adobe-creative-cloud
+   #- '+.cdn.aliyundrive.net'                                       #          | homebrew : brew install --cask adrive
+    - '+.download.gnome.org'                                        #          | homebrew : brew install at-spi2-core \ brew install adwaita-icon-theme \ brew install gdk-pixbuf \ brew install glib \ brew install gsettings-desktop-schemas \ brew install gtk+3 \ brew install libepoxy \ brew install librsvg \ brew install pango
+    - '+.affinity-update.s3.amazonaws.com'                          #          | homebrew : brew install --cask affinity \ brew install --cask affinity-publisher \ brew install --cask affinity-designer \ brew install --cask affinity-photo
+    - '+.su.airbuddy.app'                                           #  sparkle | homebrew : brew install --cask airbuddy
+    - '+.cdn.rogueamoeba.com'                                       #          | homebrew : brew install --cask airfoil \ brew install --cask audio-hijack \ brew install --cask loopback \ brew install --cask soundsource
+    - '+.download.airsquirrels.com'                                 #  sparkle | homebrew : brew install --cask airparrot
+    - '+.updates-prod.airsquirrels.com'                             #  sparkle | 
+    - '+.dl.airserver.com'                                          #  sparkle | homebrew : brew install --cask airserver
+    - '+.www.airserver.com'                                         #  sparkle | 
+    - '+.apphousekitchen.com'                                       #  sparkle | homebrew : brew install --cask aldente
+    - '+.cachefly.alfredapp.com'                                    #          | homebrew : brew install --cask alfred
+    - '+.download.alicdn.com'                                       #          | homebrew : brew install --cask aliwangwang
+    - '+.cdn.ensili.co'                                             #  sparkle | 
+    - '+.ensili.co'                                                 #  sparkle | 
+    - '+.altstore.io'                                               #  sparkle | 
+    - '+.cdn.altstore.io'                                           #  sparkle | homebrew : brew install --cask altserver
+    - '+.f000.backblazeb2.com'                                      #  sparkle | homebrew : brew install --cask blip
+    - '+.repo.anaconda.com'                                         #          | homebrew : brew install --cask anaconda
+    - '+.aomedia.googlesource.com'                                  #          | homebrew : brew install aom
+    - '+.download.nektony.com'                                      #  sparkle | homebrew : brew install --cask app-cleaner \ brew install --cask funter \ brew install --cask vsd-viewer
+    - '+.freemacsoft.net'                                           #  sparkle | 
+    - '+.rawcdn.githack.com'                                        #  sparkle | 
+    - '+.www.freemacsoft.net'                                       #          | homebrew : brew install --cask appcleaner
+    - '+.milanvarady.github.io'                                     #  sparkle | 
+    - '+.www.apache.org'                                            #          | homebrew : brew install apr \ brew install apr-util \ brew install subversion
+    - '+.www.araxis.com'                                            #          | homebrew : brew install --cask araxis-merge
+    - '+.releases.arc.net'                                          #  sparkle | homebrew : brew install --cask arc
+    - '+.code.videolan.org'                                         #          | homebrew : brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
+    - '+.pixeleyes.co.nz'                                           #          | homebrew : brew install --cask automounterhelper
+    - '+.www.soma-zone.com'                                         #  sparkle | homebrew : brew install --cask backuploupe
+    - '+.macbartender.com'                                          #  sparkle | homebrew : brew install --cask bartender
+    - '+.www.macbartender.com'                                      #  sparkle | 
+    - '+.ftpmirror.gnu.org'                                         #          | homebrew : brew install bash \ brew install coreutils \ brew install ddrescue \ brew install gettext \ brew install gcc \ brew install gmp \ brew install grep \ brew install libidn \ brew install libidn2 \ brew install libmpc \ brew install libmicrohttpd \ brew install libtasn1 \ brew install libtool \ brew install libunistring \ brew install m4 \ brew install mpfr \ brew install ncurses \ brew install nettle \ brew install parallel \ brew install readline \ brew install wget
+    - '+.src.fedoraproject.org'                                     #          | homebrew : brew install bash-completion
+    - '+.mirror.ctan.org'                                           #          | homebrew : brew install --cask basictex
+    - '+.betterdisplay.pro'                                         #  sparkle | 
+    - '+.folivora.ai'                                               #  sparkle | homebrew : brew install --cask bettertouchtool
+    - '+.updates.folivora.ai'                                       #  sparkle | 
+    - '+.macitbetter.com'                                           #  sparkle | homebrew : brew install --cask betterzip
+    - '+.www.scootersoftware.com'                                   #          | homebrew : brew install --cask beyond-compare
+    - '+.dl.hdslb.com'                                              #          | homebrew : brew install --cask bilibili
+    - '+.ftp.binance.com'                                           #          | homebrew : brew install --cask binance
+    - '+.downloads.isc.org'                                         #          | homebrew : brew install bind
+    - '+.download.blender.org'                                      #          | homebrew : brew install --cask blender
+    - '+.f000.backblazeb2.com'                                      #  sparkle | homebrew : brew install --cask blip
+    - '+.static.blip.net'                                           #  sparkle | 
+    - '+.cdn.macblurayplayer.com'                                   #  sparkle | homebrew : brew install --cask blu-ray-player-pro
+    - '+.www.zeroonetwenty.com'                                     #  sparkle | 
+    - '+.zeroonetwenty.com'                                         #          | homebrew : brew install --cask blueharvest
+    - '+.ak-build.bluestacks.com'                                   #          | homebrew : brew install --cask bluestacks
+    - '+.appcast.ripperhe.com'                                      #  sparkle | 
+    - '+.release.ripperhe.com'                                      #  sparkle | homebrew : brew install --cask bobhelper
+    - '+.boltai.com'                                                #  sparkle | 
+    - '+.updates.boltai.com'                                        #  sparkle | homebrew : brew install --cask boltai
+    - '+.burn-osx.sourceforge.io'                                   #  sparkle | 
+    - '+.sourceforge.net'                                           #  sparkle | 
+    - '+.curl.se'                                                   #          | homebrew : brew install ca-certificates \ brew install curl
+    - '+.cairographics.org'                                         #          | homebrew : brew install cairo \ brew install pixman
+    - '+.download.calibre-ebook.com'                                #          | homebrew : brew install --cask calibre
+    - '+.download.techsmith.com'                                    #          | homebrew : brew install --cask camtasia
+    - '+.desktop-release.canva.com'                                 #          | homebrew : brew install --cask canva
+    - '+.lf16-capcut.faceulv.com'                                   #          | homebrew : brew install --cask capcut
+    - '+.api.bombich.com'                                           #  sparkle | 
+    - '+.bombich.scdn1.secure.raxcdn.com'                           #          | homebrew : brew install --cask carbon-copy-cloner
+    - '+.files.pythonhosted.org'                                    #          | homebrew : brew install cffi \ brew install certifi \ brew install cryptography \ brew install glances \ brew install img2pdf \ brew install meta-package-manager \ brew install mycli \ brew install numpy \ brew install ocrmypdf \ brew install openai-whisper \ brew install pillow \ brew install pipx \ brew install pycparser \ brew install pydantic \ brew install pydantic-core \ brew install rpds-py \ brew install yt-dlp
+    - '+.download.chatboxai.app'                                    #          | homebrew : brew install --cask chatbox
+    - '+.persistent.oaistatic.com'                                  #  sparkle | homebrew : brew install --cask chatgpt-atlas \ brew install --cask chatgpt \ brew install --cask codex-app
+    - '+.releases.cherry-ai.com'                                    #          | homebrew : brew install --cask cherry-studio
+    - '+.git.sr.ht'                                                 #          | homebrew : brew install w3m \ brew install --cask chiaki
+    - '+.mx-app-blob-prod.maxon.net'                                #          | homebrew : brew install --cask cinebench
+    - '+.downloads.claude.ai'                                       #          | homebrew : brew install --cask claude
+    - '+.registry.npmjs.org'                                        #          | homebrew : brew install claude-cmd \ brew install gemini-cli
+    - '+.storage.googleapis.com'                                    #          | homebrew : brew install pdf2image \ brew install webp \ brew install --cask claude-code
+    - '+.www.dbklabs.com'                                           #  sparkle | homebrew : brew install --cask clicker-for-netflix
+    - '+.downloads.cloudflareclient.com'                            #          | homebrew : brew install --cask cloudflare-warp
+    - '+.cmake.org'                                                 #          | homebrew : brew install --cask cmake-app
+    - '+.cocoamsx.com'                                              #  sparkle | 
+    - '+.coderunnerapp.com'                                         #  sparkle | homebrew : brew install --cask coderunner
+    - '+.saerasoft.com'                                             #  sparkle | 
+    - '+.download.todesktop.com'                                    #          | homebrew : brew install --cask comfyui
+    - '+.dl.dropboxusercontent.com'                                 #          | homebrew : brew install --cask command-x
+    - '+.commandqapp.com'                                           #  sparkle | 
+    - '+.get.retina.studio'                                         #  sparkle | homebrew : brew install --cask commandq
+    - '+.media.codeweavers.com'                                     #  sparkle | homebrew : brew install --cask crossover
+    - '+.www.codeweavers.com'                                       #  sparkle | 
+    - '+.downloads.cursor.com'                                      #          | homebrew : brew install --cask cursor-cli \ brew install --cask cursor
+    - '+.update.cyberduck.io'                                       #  sparkle | homebrew : brew install --cask cyberduck
+    - '+.version.cyberduck.io'                                      #  sparkle | 
+    - '+.disc-tools.com'                                            #  sparkle | 
+    - '+.secure.disc-soft.com'                                      #  sparkle | 
+    - '+.daisydiskapp.com'                                          #  sparkle | homebrew : brew install --cask daisydisk
+    - '+.cdn.netbsd.org'                                            #          | homebrew : brew install dash-shell \ brew install dash
+    - '+.downloads.prosofteng.com'                                  #  sparkle | homebrew : brew install --cask data-rescue
+    - '+.service.prosofteng.com'                                    #  sparkle | 
+    - '+.www.visualdatatools.com'                                   #          | homebrew : brew install --cask datagraph
+    - '+.dbus.freedesktop.org'                                      #          | homebrew : brew install dbus
+    - '+.www.deepl.com'                                             #          | homebrew : brew install --cask deepl
+    - '+.download.delta.chat'                                       #          | homebrew : brew install --cask deltachat
+    - '+.electron.descript.com'                                     #          | homebrew : brew install --cask descript
+    - '+.dtapp-pub.dingtalk.com'                                    #          | homebrew : brew install --cask dingtalk
+    - '+.dl.discordapp.net'                                         #          | homebrew : brew install --cask discord
+    - '+.dl.cleverfiles.com'                                        #  sparkle | homebrew : brew install --cask disk-drill
+    - '+.www.cleverfiles.com'                                       #  sparkle | 
+    - '+.diskcatalogmaker.com'                                      #  sparkle | homebrew : brew install --cask diskcatalogmaker
+    - '+.fujiwara.sakura.ne.jp'                                     #  sparkle | 
+    - '+.0x2a.at'                                                   #          | homebrew : brew install djvu2pdf
+    - '+.dockdoor.kepler.cafe'                                      #  sparkle | 
+    - '+.desktop.docker.com'                                        #          | homebrew : brew install --cask docker-desktop
+    - '+.appitstudio.github.io'                                     #  sparkle | 
+    - '+.dl.dolphin-emu.org'                                        #          | homebrew : brew install --cask dolphin
+    - '+.lf-flow-web-cdn.doubao.com'                                #          | homebrew : brew install --cask doubao
+    - '+.www.douyin.com'                                            #          | homebrew : brew install --cask douyin
+    - '+.lf-impc.douyinstatic.com'                                  #          | homebrew : brew install --cask douyin-chat
+    - '+.software.charliemonroe.net'                                #  sparkle | homebrew : brew install --cask downie
+    - '+.static.drawthings.ai'                                      #          | homebrew : brew install --cask draw-things
+    - '+.micromat.com'                                              #  sparkle | 
+    - '+.s3.amazonaws.com'                                          #  sparkle | homebrew : brew install --cask hazel \ brew install --cask textsniper
+    - '+.binaryfruit.com'                                           #          | homebrew : brew install --cask drivedx
+    - '+.d2wvuuix8c9e48.cloudfront.net'                             #  sparkle | homebrew : brew install --cask dropshare
+    - '+.dropshare.app'                                             #  sparkle | 
+    - '+.aptonic.com'                                               #  sparkle | homebrew : brew install --cask dropzone
+    - '+.updates.aptonic.com'                                       #  sparkle | 
+    - '+.devstorm-apps.com'                                         #  sparkle | 
+    - '+.mirrors.edge.kernel.org'                                   #          | homebrew : brew install dtc \ brew install git
+    - '+.origin-a.akamaihd.net'                                     #          | homebrew : brew install --cask ea
+    - '+.gitlab.com'                                                #          | homebrew : brew install eigen \ brew install svt-av1 \ brew install --cask meld
+    - '+.edge.elgato.com'                                           #          | homebrew : brew install --cask elgato-stream-deck
+    - '+.cdn.electronic.us'                                         #  sparkle | homebrew : brew install --cask elmedia-player \ brew install --cask folx \ brew install --cask macdroid
+    - '+.emacsformacosx.com'                                        #          | homebrew : brew install --cask emacs-app
+    - '+.cdn-dist.emclient.com'                                     #          | homebrew : brew install --cask emclient
+    - '+.epicgames-download1.akamaized.net'                         #          | homebrew : brew install --cask epic-games
+    - '+.update.eqmac.app'                                          #  sparkle | 
+    - '+.static.eudic.net'                                          #  sparkle | 
+    - '+.static.frdic.com'                                          #          | homebrew : brew install --cask eudic
+    - '+.www.eudic.net'                                             #  sparkle | 
+    - '+.mac.desktop.evernote.com'                                  #          | homebrew : brew install --cask evernote
+    - '+.excalidrawz-new.web.app'                                   #  sparkle | 
+    - '+.cdn.flexibits.com'                                         #  sparkle | homebrew : brew install --cask fantastical
+    - '+.flexibits.com'                                             #  sparkle | 
+   #- '+.sf3-cn.feishucdn.com'                                      #          | homebrew : brew install --cask feishu
+    - '+.ffmpeg.org'                                                #          | homebrew : brew install ffmpeg@7 \ brew install ffmpeg@6 \ brew install ffmpeg
+    - '+.fftw.org'                                                  #          | homebrew : brew install fftw
+    - '+.echoone.com'                                               #          | homebrew : brew install --cask file-juicer
+    - '+.dl.devmate.com'                                            #          | homebrew : brew install --cask filepane \ brew install --cask startupizer \ brew install --cask the-unarchiver \ brew install --cask trim-enabler
+    - '+.updates.mymixapps.com'                                     #  sparkle | 
+    - '+.www.akop.org'                                              #  sparkle | 
+    - '+.firealpaca.com'                                            #          | homebrew : brew install --cask firealpaca
+    - '+.download-installer.cdn.mozilla.net'                        #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
+    - '+.ftp.osuosl.org'                                            #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
+    - '+.wojciechkulik.pl'                                          #  sparkle | 
+    - '+.cdn.better365.cn'                                          #  sparkle | homebrew : brew install --cask flykey
+    - '+.www.better365.com'                                         #  sparkle | 
+    - '+.gitlab.freedesktop.org'                                    #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
+    - '+.www.foobar2000.org'                                        #          | homebrew : brew install --cask foobar2000
+    - '+.foremost.sourceforge.net'                                  #          | homebrew : brew install foremost
+    - '+.cdn.fork.dev'                                              #  sparkle | homebrew : brew install --cask fork
+    - '+.fork.dev'                                                  #  sparkle | 
+    - '+.download.binarynights.com'                                 #  sparkle | homebrew : brew install --cask forklift
+    - '+.updates.binarynights.com'                                  #  sparkle | 
+    - '+.download.ctmdev.com'                                       #  sparkle | 
+    - '+.download.foxtrot-search.com'                               #  sparkle | 
+    - '+.services.ctmdev.com'                                       #  sparkle | 
+    - '+.pierre.chachatelier.fr'                                    #  sparkle | homebrew : brew install --cask latexit
+    - '+.thomasokken.com'                                           #          | homebrew : brew install --cask free42-decimal
+    - '+.tristan-software.ch'                                       #          | homebrew : brew install --cask fsmonitor
+    - '+.functionkey.pro'                                           #  sparkle | 
+    - '+.softwaredownload.futunn.com'                               #          | homebrew : brew install --cask futubull \ brew install --cask futubull@legacy
+    - '+.files.fxfactory.com'                                       #          | homebrew : brew install --cask fxfactory
+    - '+.bruji.com'                                                 #  sparkle | 
+    - '+.www.bruji.com'                                             #  sparkle | 
+    - '+.downloads.iwascoding.com'                                  #          | homebrew : brew install --cask garagesale
+    - '+.cdn.geekbench.com'                                         #  sparkle | homebrew : brew install --cask geekbench \ brew install --cask geekbench-ai
+    - '+.cdn.primatelabs.com'                                       #  sparkle | 
+    - '+.www.primatelabs.com'                                       #  sparkle | 
+    - '+.www.bannister.org'                                         #          | homebrew : brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
+    - '+.download.geogebra.org'                                     #          | homebrew : brew install --cask geogebra
+    - '+.d1fqctmfkpkkcg.cloudfront.net'                             #          | homebrew : brew install --cask gifox
+    - '+.www.lcdf.org'                                              #          | homebrew : brew install gifsicle
+    - '+.download.gimp.org'                                         #          | homebrew : brew install --cask gimp
+    - '+.desktop.githubusercontent.com'                             #          | homebrew : brew install --cask github
+    - '+.githubcopilotide.z13.web.core.windows.net'                 #  sparkle | homebrew : brew install --cask github-copilot-for-xcode
+    - '+.gnupg.org'                                                 #          | homebrew : brew install gnupg \ brew install libassuan \ brew install libgcrypt \ brew install libgpg-error \ brew install libksba \ brew install npth
+    - '+.www.gnupg.org'                                             #          | homebrew : brew install gnutls \ brew install gpgmepp \ brew install gpgme \ brew install pinentry
+    - '+.www.stclairsoft.com'                                       #  sparkle | homebrew : brew install --cask go64
+    - '+.gog-cdn-fastly.gog.com'                                    #          | homebrew : brew install --cask gog-galaxy
+    - '+.dl.google.com'                                             #          | homebrew : brew install --cask google-drive \ brew install --cask google-earth-pro \ brew install --cask google-trends \ brew install --cask google-chrome
+    - '+.download-mac.grammarly.com'                                #          | homebrew : brew install --cask grammarly-desktop
+    - '+.www.lemkesoft.info'                                        #  sparkle | homebrew : brew install --cask graphicconverter
+    - '+.www.lemkesoft.org'                                         #  sparkle | 
+    - '+.gridsapp.net'                                              #          | homebrew : brew install --cask grids
+    - '+.gstreamer.freedesktop.org'                                 #          | homebrew : brew install --cask gstreamer-development \ brew install --cask gstreamer-runtime
+    - '+.handbrake.fr'                                              #  sparkle | homebrew : brew install --cask handbrake-app \ brew install --cask handbrake
+    - '+.dl.hapigo.com'                                             #          | homebrew : brew install --cask hapigo
+    - '+.framagit.org'                                              #          | homebrew : brew install hatari
+    - '+.www.noodlesoft.com'                                        #  sparkle | 
+    - '+.icon-theme.freedesktop.org'                                #          | homebrew : brew install hicolor-icon-theme
+    - '+.updates.hookproductivity.com'                              #  sparkle | homebrew : brew install --cask hookmark
+    - '+.dl.houdah.com'                                             #          | homebrew : brew install --cask houdahspot
+    - '+.ftp.hp.com'                                                #          | homebrew : brew install --cask hp-prime
+    - '+.download.open-mpi.org'                                     #          | homebrew : brew install hwloc \ brew install open-mpi
+    - '+.download2.interactivebrokers.com'                          #          | homebrew : brew install --cask ibkr
+    - '+.jordanbaird.github.io'                                     #  sparkle | 
+    - '+.dl-portal.iina.io'                                         #  sparkle | homebrew : brew install --cask iina
+    - '+.www.iina.io'                                               #  sparkle | 
+    - '+.apps.shinynode.com'                                        #  sparkle | 
+    - '+.sf-applications.s3.amazonaws.com'                          #  sparkle | homebrew : brew install --cask image2icon
+    - '+.imagemagick.org'                                           #          | homebrew : brew install imagemagick
+    - '+.imageoptim.com'                                            #  sparkle | homebrew : brew install --cask imageoptim
+    - '+.downloads.imazing.com'                                     #  sparkle | homebrew : brew install --cask imazing
+    - '+.media.inkscape.org'                                        #          | homebrew : brew install --cask inkscape
+    - '+.inputsource.pro'                                           #  sparkle | homebrew : brew install --cask input-source-pro
+    - '+.macdaddy.io'                                               #          | homebrew : brew install --cask install-disk-creator
+    - '+.downloads.es.net'                                          #          | homebrew : brew install iperf3
+    - '+.libisl.sourceforge.io'                                     #          | homebrew : brew install isl
+    - '+.www.imagetasks.com'                                        #  sparkle | 
+    - '+.iterm2.com'                                                #  sparkle | homebrew : brew install --cask iterm2
+    - '+.itsycal.s3.amazonaws.com'                                  #          | homebrew : brew install --cask itsycal
+    - '+.u.keka.io'                                                 #  sparkle | 
+    - '+.prerelease.keybase.io'                                     #          | homebrew : brew install --cask keybase
+    - '+.files.stairways.com'                                       #          | homebrew : brew install --cask keyboard-maestro
+    - '+.keycastr.github.io'                                        #  sparkle | 
+    - '+.mirrors.kodi.tv'                                           #          | homebrew : brew install --cask kodi
+    - '+.download.kde.org'                                          #          | homebrew : brew install --cask krita
+    - '+.sf16-sg.larksuitecdn.com'                                  #          | homebrew : brew install --cask lark
+    - '+.max.codes'                                                 #  sparkle | homebrew : brew install --cask latest
+    - '+.static.remixdesign.app'                                    #  sparkle | homebrew : brew install --cask launchos
+    - '+.www.greenwoodsoftware.com'                                 #          | homebrew : brew install less
+    - '+.gitlab.xiph.org'                                           #          | homebrew : brew install libao
+    - '+.www.libarchive.org'                                        #          | homebrew : brew install libarchive
+    - '+.download.videolan.org'                                     #          | homebrew : brew install libbluray \ brew install libudfread
+    - '+.files.musepack.net'                                        #          | homebrew : brew install libcuefile \ brew install libreplaygain \ brew install musepack
+    - '+.www.csie.ntu.edu.tw'                                       #          | homebrew : brew install liblinear
+    - '+.www.libraw.org'                                            #          | homebrew : brew install libraw
+    - '+.download.libsodium.org'                                    #          | homebrew : brew install libsodium
+    - '+.www.libssh.org'                                            #          | homebrew : brew install libssh
+    - '+.libssh2.org'                                               #          | homebrew : brew install libssh2
+    - '+.linux.thai.net'                                            #          | homebrew : brew install libthai
+    - '+.download.osgeo.org'                                        #          | homebrew : brew install libtiff
+    - '+.www.x.org'                                                 #          | homebrew : brew install libxdmcp \ brew install libx11 \ brew install libxau \ brew install libxext \ brew install libxfixes \ brew install libxrender \ brew install libxi \ brew install libxtst
+    - '+.xorg.freedesktop.org'                                      #          | homebrew : brew install libxcb \ brew install xorgproto
+    - '+.libzip.org'                                                #          | homebrew : brew install libzip
+    - '+.www.cockos.com'                                            #          | homebrew : brew install --cask licecap
+    - '+.dl.linearmouse.org'                                        #  sparkle | homebrew : brew install --cask linearmouse
+    - '+.linearmouse.app'                                           #  sparkle | 
+    - '+.www.peterborgapps.com'                                     #          | homebrew : brew install --cask lingon-x
+    - '+.www.obdev.at'                                              #          | homebrew : brew install --cask little-snitch
+    - '+.installers.lmstudio.ai'                                    #          | homebrew : brew install --cask lm-studio
+    - '+.gitee.com'                                                 #  sparkle | 
+    - '+.longshot.chitaner.com'                                     #  sparkle | 
+    - '+.packages.loom.com'                                         #          | homebrew : brew install --cask loom
+    - '+.www.inf.puc-rio.br'                                        #          | homebrew : brew install lpeg
+    - '+.www.lua.org'                                               #          | homebrew : brew install lua
+    - '+.downloads.skylum.com'                                      #  sparkle | 
+    - '+.luminarneomacm1.skylum.com'                                #  sparkle | 
+    - '+.invisible-mirror.net'                                      #          | homebrew : brew install lynx
+    - '+.www.oberhumer.com'                                         #          | homebrew : brew install lzo
+    - '+.renset.dev'                                                #  sparkle | homebrew : brew install --cask macai
+    - '+.macdown.uranusjr.com'                                      #  sparkle | 
+    - '+.www.koingosw.com'                                          #          | homebrew : brew install --cask macpilot
+    - '+.mactracker.ca'                                             #  sparkle | homebrew : brew install --cask mactracker
+    - '+.update.mactracker.ca'                                      #  sparkle | 
+    - '+.www.corecode.io'                                           #  sparkle | homebrew : brew install --cask macupdater \ brew install --cask smartreporter-free \ brew install --cask ssdreporter-free \ brew install --cask uninstallpkg
+    - '+.macvim.org'                                                #  sparkle | 
+    - '+.cdn.macwhisper.com'                                        #  sparkle | homebrew : brew install --cask macwhisper
+    - '+.macwhisper-site.vercel.app'                                #  sparkle | 
+    - '+.stickytimers.app'                                          #  sparkle | 
+    - '+.cdn.awehunt.com'                                           #          | homebrew : brew install --cask maczip \ brew install --cask qspace-pro
+    - '+.codeberg.org'                                              #          | homebrew : brew install mad
+    - '+.magicquit.com'                                             #          | homebrew : brew install --cask magicquit
+   #- '+.res.126.net'                                               #          | homebrew : brew install --cask mailmaster
+    - '+.www.titanium-software.fr'                                  #          | homebrew : brew install --cask maintenance \ brew install --cask onyx
+   #- '+.weiboformac.sinaapp.com'                                   #  sparkle | 
+    - '+.www.makemkv.com'                                           #          | homebrew : brew install --cask makemkv
+    - '+.manico.im'                                                 #          | homebrew : brew install --cask manico
+    - '+.mediaarea.net'                                             #          | homebrew : brew install --cask mediainfo
+    - '+.mednafen.github.io'                                        #          | homebrew : brew install mednafen
+    - '+.gitlab.com'                                                #          | homebrew : brew install svt-av1 \ brew install watch \ brew install --cask meld
+    - '+.www.messenger.com'                                         #          | homebrew : brew install --cask messenger
+    - '+.sw-update.obdev.at'                                        #          | homebrew : brew install --cask micro-snitch
+    - '+.officecdnmac.microsoft.com'                                #          | homebrew : brew install --cask microsoft-auto-update \ brew install --cask microsoft-onenote \ brew install --cask microsoft-excel \ brew install --cask microsoft-outlook \ brew install --cask microsoft-powerpoint \ brew install --cask microsoft-word \ brew install --cask windows-app
+    - '+.msedge.sf.dl.delivery.mp.microsoft.com'                    #          | homebrew : brew install --cask microsoft-edge
+    - '+.statics.teams.cdn.office.net'                              #          | homebrew : brew install --cask microsoft-teams
+    - '+.mindmacapp.github.io'                                      #  sparkle | 
+    - '+.www.gryphel.com'                                           #          | homebrew : brew install --cask mini-vmac
+    - '+.download.mipony.net'                                       #          | homebrew : brew install --cask mipony
+    - '+.mkvtoolnix.download'                                       #          | homebrew : brew install --cask mkvtoolnix \ brew install --cask mkvtoolnix-app
+    - '+.www.moderncsv.com'                                         #          | homebrew : brew install --cask modern-csv
+    - '+.download.mono-project.com'                                 #          | homebrew : brew install --cask mono-mdk-for-visual-studio
+    - '+.www.bytereef.org'                                          #          | homebrew : brew install mpdecimal
+    - '+.www.mpg123.de'                                             #          | homebrew : brew install mpg123
+    - '+.mujs.com'                                                  #          | homebrew : brew install mujs
+    - '+.macplus-software.com'                                      #  sparkle | 
+    - '+.multitouch.app'                                            #          | homebrew : brew install --cask multitouch
+    - '+.www.multitouch.app'                                        #  sparkle | 
+    - '+.cdn.mweb.im'                                               #  sparkle | 
+    - '+.cdn.mwebapp.cn'                                            #  sparkle | 
+    - '+.dl.getmythic.app'                                          #  sparkle | homebrew : brew install --cask mythic
+    - '+.www.nano-editor.org'                                       #          | homebrew : brew install nano
+    - '+.dn.navicat.com'                                            #          | homebrew : brew install --cask navicat-premium-lite
+    - '+.dev.yorhel.nl'                                             #          | homebrew : brew install ncdu
+   #- '+.d1.music.126.net'                                          #          | homebrew : brew install --cask neteasemusic
+    - '+.ranchero.com'                                              #  sparkle | 
+    - '+.cdn.netspotapp.com'                                        #  sparkle | homebrew : brew install --cask netspot
+    - '+.api.devontechnologies.com'                                 #  sparkle | 
+    - '+.download.devontechnologies.com'                            #  sparkle | homebrew : brew install --cask devonthink
+    - '+.www.witt-software.com'                                     #  sparkle | homebrew : brew install --cask pdf-squeezer
+    - '+.download.nextcloud.com'                                    #          | homebrew : brew install --cask nextcloud
+    - '+.nmap.org'                                                  #          | homebrew : brew install nmap
+    - '+.nodejs.org'                                                #          | homebrew : brew install node
+    - '+.lo.cafe'                                                   #  sparkle | homebrew : brew install --cask notchnook
+    - '+.desktop-release.notion-static.com'                         #          | homebrew : brew install --cask notion
+    - '+.calendar-desktop-release.notion-static.com'                #          | homebrew : brew install --cask notion-calendar
+    - '+.mail-desktop-release.notion-static.com'                    #          | homebrew : brew install --cask notion-mail
+    - '+.repo.nperf.com'                                            #          | homebrew : brew install --cask nperf
+    - '+.archive.mozilla.org'                                       #          | homebrew : brew install nspr
+    - '+.ftp.mozilla.org'                                           #          | homebrew : brew install nss
+    - '+.cdn.numi.app'                                              #  sparkle | 
+    - '+.s1.numi.app'                                               #  sparkle | 
+    - '+.s3.numi.app'                                               #          | homebrew : brew install --cask numi
+    - '+.download.nvidia.com'                                       #          | homebrew : brew install --cask nvidia-geforce-now
+    - '+.cdn-fastly.obsproject.com'                                 #  sparkle | homebrew : brew install --cask obs
+    - '+.obsproject.com'                                            #  sparkle | 
+    - '+.r2-app.eagle.cool'                                         #          | homebrew : brew install --cask ogdesign-eagle
+    - '+.fireball.studio'                                           #          | homebrew : brew install --cask one-switch
+    - '+.oneclient.sfx.ms'                                          #          | homebrew : brew install --cask onedrive
+    - '+.jacklandrin.github.io'                                     #  sparkle | 
+    - '+.openal-soft.org'                                           #          | homebrew : brew install openal-soft
+    - '+.raw.github.com'                                            #  sparkle | 
+    - '+.swupdate.openvpn.org'                                      #          | homebrew : brew install openvpn
+    - '+.swupdate.openvpn.net'                                      #          | homebrew : brew install --cask openvpn-connect
+    - '+.2.na.dl.wireshark.org'                                     #  sparkle | 
+    - '+.www.wireshark.org'                                         #  sparkle | homebrew : brew install --cask wireshark-app
+    - '+.www.charlessoft.com'                                       #  sparkle | homebrew : brew install --cask pacifist
+    - '+.downloads.sourceforge.net'                                 #  sparkle | homebrew : brew install djvulibre \ brew install freetype \ brew install giflib \ brew install glew \ brew install lame \ brew install libpng \ brew install libsoxr \ brew install little-cms2 \ brew install netcat \ brew install opencore-amr \ brew install pcre \ brew install pdfcrack \ brew install smartmontools \ brew install unzip \ brew install vice \ brew install watch \ brew install zip \ brew install zsh \ brew install --cask burn \ brew install --cask dosbox \ brew install --cask paintbrush \ brew install --cask qbittorrent
+    - '+.paintbrush.sourceforge.io'                                 #  sparkle | 
+    - '+.rink.hockeyapp.net'                                        #  sparkle | 
+    - '+.dl.paragon-software.com'                                   #          | homebrew : brew install --cask paragon-extfs \ brew install --cask paragon-ntfs
+    - '+.builds.parsec.app'                                         #          | homebrew : brew install --cask parsec
+    - '+.downloads.pdfexpert.com'                                   #  sparkle | homebrew : brew install --cask pdf-expert
+    - '+.witt-software.com'                                         #  sparkle | 
+    - '+.picsee.chitaner.com'                                       #  sparkle | 
+    - '+.downloads.plex.tv'                                         #          | homebrew : brew install --cask plex
+    - '+.static.crates.io'                                          #          | homebrew : brew install pngquant
+    - '+.pilotmoon.com'                                             #  sparkle | homebrew : brew install --cask popclip
+    - '+.softwareupdate.pilotmoon.com'                              #  sparkle | 
+    - '+.poppler.freedesktop.org'                                   #          | homebrew : brew install poppler
+    - '+.files.portaudio.com'                                       #          | homebrew : brew install portaudio
+    - '+.www.script-factory.net'                                    #  sparkle | 
+    - '+.www.ppsspp.org'                                            #          | homebrew : brew install --cask ppsspp \ brew install --cask ppsspp-emulator
+    - '+.assets.pronotes.app'                                       #  sparkle | homebrew : brew install --cask pronotes
+    - '+.pronotes.app'                                              #  sparkle | 
+    - '+.www.pronotes.app'                                          #  sparkle | 
+    - '+.purei.org'                                                 #          | homebrew : brew install --cask purei-play
+    - '+.www.ivarch.com'                                            #          | homebrew : brew install pv
+    - '+.www.python.org'                                            #          | homebrew : brew install python@3.13 \ brew install python@3.14
+    - '+.download.qemu.org'                                         #          | homebrew : brew install qemu
+    - '+.sbarex.github.io'                                          #  sparkle | 
+   #- '+.dldir1v6.qq.com'                                           #          | homebrew : brew install --cask qq
+   #- '+.dldir1.qq.com'                                             #          | homebrew : brew install --cask qqlive \ brew install --cask weiyun \ brew install --cask wechat
+   #- '+.c.y.qq.com'                                                #          | homebrew : brew install --cask qqmusic
+   #- '+.pdds.quark.cn'                                             #          | homebrew : brew install --cask quarkclouddrive
+    - '+.amicoapps.com'                                             #  sparkle | homebrew : brew install --cask quit-all
+    - '+.www.rarlab.com'                                            #          | homebrew : brew install --cask rar
+    - '+.redream.io'                                                #          | homebrew : brew install --cask redream
+    - '+.www.iospirit.com'                                          #          | homebrew : brew install --cask remote-buddy
+    - '+.incredible-bee-honeycomb.fra1.digitaloceanspaces.com'      #          | homebrew : brew install --cask renamer
+    - '+.static.retrovm.org'                                        #          | homebrew : brew install --cask retro-virtual-machine
+    - '+.buildbot.libretro.com'                                     #          | homebrew : brew install --cask retroarch-metal
+    - '+.download.rota.to'                                          #  sparkle | homebrew : brew install --cask rotato
+    - '+.royaltsx-v6.royalapps.com'                                 #  sparkle | homebrew : brew install --cask royal-tsx
+    - '+.deb.debian.org'                                            #          | homebrew : brew install rtmpdump \ brew install w3m
+    - '+.breakfastquay.com'                                         #          | homebrew : brew install rubberband
+    - '+.cache.ruby-lang.org'                                       #          | homebrew : brew install ruby
+    - '+.screenstudioassets.com'                                    #          | homebrew : brew install --cask screen-studio
+    - '+.www.telestream.net'                                        #  sparkle | homebrew : brew install --cask screenflow
+    - '+.scrivener.s3.amazonaws.com'                                #  sparkle | homebrew : brew install --cask scrivener
+    - '+.www.literatureandlatte.com'                                #  sparkle | 
+    - '+.downloads.scummvm.org'                                     #  sparkle | homebrew : brew install --cask scummvm-app \ brew install --cask scummvm
+    - '+.www.scummvm.org'                                           #  sparkle | 
+    - '+.www.bensoftware.com'                                       #          | homebrew : brew install --cask securityspy
+    - '+.cdn.cindori.com'                                           #  sparkle | homebrew : brew install --cask sensei
+    - '+.updates.signal.org'                                        #          | homebrew : brew install --cask signal
+    - '+.d1b3av25dd6jdq.cloudfront.net'                             #  sparkle | homebrew : brew install --cask sim-genie
+    - '+.simgenie.app'                                              #  sparkle | 
+    - '+.sipapp.fra1.digitaloceanspaces.com'                        #  sparkle | homebrew : brew install --cask sip \ brew install --cask sip-app
+    - '+.download.sketchup.com'                                     #          | homebrew : brew install --cask sketchup
+    - '+.download.skype.com'                                        #          | homebrew : brew install --cask skype
+    - '+.downloads.slack-edge.com'                                  #          | homebrew : brew install --cask slack
+    - '+.f002.backblazeb2.com'                                      #          | homebrew : brew install --cask slidepad
+    - '+.sveinbjorn.org'                                            #  sparkle | homebrew : brew install --cask sloth
+    - '+.www.corecode.io'                                           #  sparkle | homebrew : brew install --cask macupdater \ brew install --cask smartreporter-free \ brew install --cask ssdreporter-free \ brew install --cask uninstallpkg
+    - '+.neededapps.com'                                            #  sparkle | homebrew : brew install --cask snapmotion
+    - '+.download.snipaste.com'                                     #          | homebrew : brew install --cask snipaste
+    - '+.localhost'                                                 #  sparkle | 
+    - '+.download.scdn.co'                                          #          | homebrew : brew install --cask spotify
+    - '+.sqlite.org'                                                #          | homebrew : brew install sqlite
+    - '+.mac-release-static.stash.ws'                               #  sparkle | 
+    - '+.releases.stash.ws'                                         #  sparkle | 
+    - '+.cordlessdog.com'                                           #          | homebrew : brew install --cask stay
+    - '+.cdn.cloudflare.steamstatic.com'                            #          | homebrew : brew install --cask steam
+    - '+.steamcdn-a.akamaihd.net'                                   #          | homebrew : brew install --cask steamcmd
+    - '+.mentalfaculty.s3.amazonaws.com'                            #  sparkle | 
+    - '+.mentalfaculty.s3.us-east-1.amazonaws.com'                  #  sparkle | 
+    - '+.subler.org'                                                #  sparkle | 
+    - '+.download.sublimetext.com'                                  #          | homebrew : brew install --cask sublime-text
+    - '+.assets.selkie.design'                                      #  sparkle | 
+    - '+.sindresorhus.com'                                          #  sparkle | 
+    - '+.shirtpocket.s3.amazonaws.com'                              #          | homebrew : brew install --cask superduper
+    - '+.cdn.netbsd.org'                                            #          | homebrew : brew install supermodel
+    - '+.www.mothersruin.com'                                       #          | homebrew : brew install --cask suspicious-package
+    - '+.highlyopinionated.co'                                      #  sparkle | 
+    - '+.upgrades.syncthing.net'                                    #  sparkle | 
+    - '+.global.download.synology.com'                              #          | homebrew : brew install --cask synologyassistant
+    - '+.pkgs.tailscale.com'                                        #          | homebrew : brew install --cask tailscale-app
+   #- '+.tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com'            #          | homebrew : brew install --cask teambition
+    - '+.osx.telegram.org'                                          #  sparkle | homebrew : brew install --cask telegram
+   #- '+.desktop.docs.qq.com'                                       #          | homebrew : brew install --cask tencent-docs
+   #- '+.updatecdn.meeting.qq.com'                                  #          | homebrew : brew install --cask tencent-meeting
+    - '+.www.cgsecurity.org'                                        #          | homebrew : brew install testdisk
+    - '+.textsniper.app'                                            #  sparkle | 
+    - '+.www.codeandweb.com'                                        #          | homebrew : brew install --cask texturepacker
+    - '+.www.tunabellysoftware.com'                                 #  sparkle | homebrew : brew install --cask tg-pro
+    - '+.down.sandai.net'                                           #          | homebrew : brew install --cask thunder
+    - '+.download.tigerfintech.com'                                 #          | homebrew : brew install --cask tiger-trade
+    - '+.carnationsoftware.com'                                     #          | homebrew : brew install --cask tm-error-logger
+    - '+.www.torproject.org'                                        #          | homebrew : brew install --cask tor-browser
+    - '+.update.transmissionbt.com'                                 #  sparkle | 
+    - '+.download-cdn.panic.com'                                    #          | homebrew : brew install --cask transmit
+    - '+.www.panic.com'                                             #  sparkle | 
+    - '+.www.transnomino.com'                                       #          | homebrew : brew install --cask transnomino
+    - '+.www.micromat.com'                                          #  sparkle | 
+    - '+.dl.apparentsoft.com'                                       #  sparkle | 
+    - '+.tripmode-updates.ch'                                       #          | homebrew : brew install --cask tripmode
+    - '+.deb.debian.org'                                            #          | homebrew : brew install ttyrec
+    - '+.tunnelblick.net'                                           #  sparkle | homebrew : brew install --cask tunnelblick
+    - '+.ettoresoftware.store'                                      #          | homebrew : brew install --cask typeit4me
+    - '+.download.typora.io'                                        #          | homebrew : brew install --cask typora
+    - '+.downloads.typora.io'                                       #  sparkle | 
+    - '+.typora.io'                                                 #  sparkle | 
+    - '+.www.freedesktop.org'                                       #          | homebrew : brew install uchardet
+    - '+.nlnetlabs.nl'                                              #          | homebrew : brew install unbound
+    - '+.bzgdownloads.s3.amazonaws.com'                             #  sparkle | homebrew : brew install --cask unite
+    - '+.www.flameeyes.com'                                         #          | homebrew : brew install unpaper
+    - '+.updatest.app'                                              #  sparkle | homebrew : brew install --cask updatest@beta
+    - '+.download.updf.com'                                         #          | homebrew : brew install --cask updf
+    - '+.lttng.org'                                                 #          | homebrew : brew install userspace-rcu
+    - '+.launchpad.net'                                             #          | homebrew : brew install --cask veracrypt
+    - '+.lf3-package.vlabstatic.com'                                #          | homebrew : brew install --cask videofusion
+    - '+.virtualii.com'                                             #          | homebrew : brew install --cask virtual-ii
+    - '+.download.virtualbox.org'                                   #          | homebrew : brew install --cask virtualbox
+    - '+.su.virtualbuddy.app'                                       #          | homebrew : brew install --cask virtualbuddy
+    - '+.download.visualstudio.microsoft.com'                       #          | homebrew : brew install --cask visual-studio
+    - '+.update.code.visualstudio.com'                              #          | homebrew : brew install --cask visual-studio-code
+    - '+.data.visualboyadvance-m.org'                               #  sparkle | 
+    - '+.get.videolan.org'                                          #          | homebrew : brew install --cask vlc
+    - '+.softwareupdate-prod.broadcom.com'                          #          | homebrew : brew install --cask vmware-fusion
+    - '+.nektony.com'                                               #  sparkle | 
+    - '+.www.hamrick.com'                                           #          | homebrew : brew install --cask vuescan
+    - '+.app.warp.dev'                                              #          | homebrew : brew install --cask warp
+    - '+.cdn-2.webcatalog.io'                                       #          | homebrew : brew install --cask webcatalog
+    - '+.peacockmedia.software'                                     #          | homebrew : brew install --cask website-watchman
+    - '+.u1sweb.webullfintech.com'                                  #          | homebrew : brew install --cask webull
+    - '+.csie.io'                                                   #  sparkle | 
+    - '+.www.whatroute.net'                                         #  sparkle | homebrew : brew install --cask whatroute
+    - '+.web.whatsapp.com'                                          #          | homebrew : brew install --cask whatsapp
+    - '+.data.getwhisky.app'                                        #  sparkle | 
+    - '+.www.intuitibits.com'                                       #  sparkle | homebrew : brew install --cask wifi-explorer
+    - '+.wins.cool'                                                 #  sparkle | 
+    - '+.winswebsite.s3.us-east-005.backblazeb2.com'                #  sparkle | homebrew : brew install --cask wins
+    - '+.git.zx2c4.com'                                             #          | homebrew : brew install wireguard-tools \ brew install wireguard-go
+    - '+.www.wireshark.org'                                         #          | homebrew : brew install --cask wireshark-app
+    - '+.desairem.com'                                              #  sparkle | 
+    - '+.bitbucket.org'                                             #          | homebrew : brew install x265
+    - '+.nativedl.pcdn.xmcdn.com'                                   #          | homebrew : brew install --cask ximalaya
+    - '+.dl3.xmind.net'                                             #          | homebrew : brew install --cask xmind
+    - '+.download.xnview.com'                                       #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
+    - '+.www.xquartz.org'                                           #  sparkle | 
+    - '+.downloads.xvid.com'                                        #          | homebrew : brew install xvid
+    - '+.cdn-hybrid-prod.hunyuan.tencent.com'                       #          | homebrew : brew install --cask yuanbao
+    - '+.zed.dev'                                                   #          | homebrew : brew install --cask zed
+    - '+.releases.5km.tech'                                         #  sparkle | homebrew : brew install --cask zipic
+    - '+.zipic.5km.tech'                                            #  sparkle | 
+    - '+.cdn.zoom.us'                                               #          | homebrew : brew install --cask zoom
+    - '+.download.zotero.org'                                       #          | homebrew : brew install --cask zotero

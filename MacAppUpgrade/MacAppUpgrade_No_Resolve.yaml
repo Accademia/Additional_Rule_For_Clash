@@ -1,481 +1,482 @@
 payload:
 
-    - DOMAIN-SUFFIX  , brew.sh                                         #
-    - DOMAIN-SUFFIX  , ghcr.io                                         #
-    - DOMAIN-SUFFIX  , pkg-containers.githubusercontent.com            #
-    - DOMAIN-SUFFIX  , raw.githubusercontent.com                       #
-    - DOMAIN-SUFFIX  , github.com                                      #
+    - DOMAIN-SUFFIX  , brew.sh, no-resolve                                               #
+    - DOMAIN-SUFFIX  , ghcr.io, no-resolve                                               #
+    - DOMAIN-SUFFIX  , pkg-containers.githubusercontent.com, no-resolve                  #
+    - DOMAIN-SUFFIX  , raw.githubusercontent.com, no-resolve                             #
+    - DOMAIN-SUFFIX  , github.com, no-resolve                                            #
 
-    - DOMAIN         , ccmdls.adobe.com                                #  Adobe CC 全家桶
-
-
-   #- DOMAIN-SUFFIX  , down.115.com                                    #          | homebrew : brew install --cask 115browser
-    - DOMAIN-SUFFIX  , dl.4kdownload.com                               #          | homebrew : brew install --cask 4k-image-compressor
-    - DOMAIN-SUFFIX  , beyondgrep.com                                  #          | homebrew : brew install ack
-    - DOMAIN-SUFFIX  , static.adguard.com                              #          | homebrew : brew install --cask adguard
-    - DOMAIN-SUFFIX  , static.adtidy.org                               #  sparkle | 
-    - DOMAIN-SUFFIX  , trials.adobe.com                                #          | homebrew : brew install --cask adobe-acrobat-pro
-    - DOMAIN-SUFFIX  , ardownload2.adobe.com                           #          | homebrew : brew install --cask adobe-acrobat-reader
-    - DOMAIN-SUFFIX  , ccmdls.adobe.com                                #          | homebrew : brew install --cask adobe-creative-cloud
-   #- DOMAIN-SUFFIX  , cdn.aliyundrive.net                             #          | homebrew : brew install --cask adrive
-    - DOMAIN-SUFFIX  , download.gnome.org                              #          | homebrew : brew install at-spi2-core \ brew install adwaita-icon-theme \ brew install gdk-pixbuf \ brew install glib \ brew install gsettings-desktop-schemas \ brew install gtk+3 \ brew install libepoxy \ brew install librsvg \ brew install pango
-    - DOMAIN-SUFFIX  , affinity-update.s3.amazonaws.com                #          | homebrew : brew install --cask affinity-designer \ brew install --cask affinity-photo \ brew install --cask affinity \ brew install --cask affinity-publisher
-    - DOMAIN-SUFFIX  , su.airbuddy.app                                 #  sparkle | homebrew : brew install --cask airbuddy
-    - DOMAIN-SUFFIX  , cdn.rogueamoeba.com                             #          | homebrew : brew install --cask airfoil \ brew install --cask audio-hijack \ brew install --cask loopback \ brew install --cask soundsource
-    - DOMAIN-SUFFIX  , download.airsquirrels.com                       #  sparkle | homebrew : brew install --cask airparrot
-    - DOMAIN-SUFFIX  , updates-prod.airsquirrels.com                   #  sparkle | 
-    - DOMAIN-SUFFIX  , dl.airserver.com                                #  sparkle | homebrew : brew install --cask airserver
-    - DOMAIN-SUFFIX  , www.airserver.com                               #  sparkle | 
-    - DOMAIN-SUFFIX  , apphousekitchen.com                             #  sparkle | homebrew : brew install --cask aldente
-    - DOMAIN-SUFFIX  , cachefly.alfredapp.com                          #          | homebrew : brew install --cask alfred
-   #- DOMAIN-SUFFIX  , download.alicdn.com                             #          | homebrew : brew install --cask aliwangwang
-    - DOMAIN-SUFFIX  , cdn.ensili.co                                   #  sparkle | 
-    - DOMAIN-SUFFIX  , ensili.co                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , repo.anaconda.com                               #          | homebrew : brew install --cask anaconda
-    - DOMAIN-SUFFIX  , aomedia.googlesource.com                        #          | homebrew : brew install aom
-    - DOMAIN-SUFFIX  , download.nektony.com                            #  sparkle | homebrew : brew install --cask app-cleaner \ brew install --cask funter \ brew install --cask vsd-viewer
-    - DOMAIN-SUFFIX  , freemacsoft.net                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , rawcdn.githack.com                              #  sparkle | 
-    - DOMAIN-SUFFIX  , www.freemacsoft.net                             #          | homebrew : brew install --cask appcleaner
-    - DOMAIN-SUFFIX  , milanvarady.github.io                           #  sparkle | 
-    - DOMAIN-SUFFIX  , www.apache.org                                  #          | homebrew : brew install apr \ brew install apr-util \ brew install subversion
-    - DOMAIN-SUFFIX  , www.araxis.com                                  #          | homebrew : brew install --cask araxis-merge
-    - DOMAIN-SUFFIX  , releases.arc.net                                #  sparkle | homebrew : brew install --cask arc
-    - DOMAIN-SUFFIX  , code.videolan.org                               #          | homebrew : brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
-    - DOMAIN-SUFFIX  , pixeleyes.co.nz                                 #          | homebrew : brew install --cask automounterhelper
-    - DOMAIN-SUFFIX  , www.soma-zone.com                               #  sparkle | homebrew : brew install --cask backuploupe
-    - DOMAIN-SUFFIX  , macbartender.com                                #  sparkle | 
-    - DOMAIN-SUFFIX  , www.macbartender.com                            #  sparkle | homebrew : brew install --cask bartender
-    - DOMAIN-SUFFIX  , ftpmirror.gnu.org                               #          | homebrew : brew install bash \ brew install coreutils \ brew install ddrescue \ brew install gettext \ brew install gmp \ brew install grep \ brew install libidn2 \ brew install libidn \ brew install libmicrohttpd \ brew install libtasn1 \ brew install libtool \ brew install libunistring \ brew install m4 \ brew install ncurses \ brew install nettle \ brew install parallel \ brew install readline \ brew install wget
-    - DOMAIN-SUFFIX  , src.fedoraproject.org                           #          | homebrew : brew install bash-completion
-    - DOMAIN-SUFFIX  , mirror.ctan.org                                 #          | homebrew : brew install --cask basictex
-    - DOMAIN-SUFFIX  , betterdisplay.pro                               #  sparkle | 
-    - DOMAIN-SUFFIX  , folivora.ai                                     #  sparkle | homebrew : brew install --cask bettertouchtool
-    - DOMAIN-SUFFIX  , updates.folivora.ai                             #  sparkle | 
-    - DOMAIN-SUFFIX  , macitbetter.com                                 #  sparkle | homebrew : brew install --cask betterzip
-    - DOMAIN-SUFFIX  , www.scootersoftware.com                         #          | homebrew : brew install --cask beyond-compare
-    - DOMAIN-SUFFIX  , dl.hdslb.com                                    #          | homebrew : brew install --cask bilibili
-    - DOMAIN-SUFFIX  , ftp.binance.com                                 #          | homebrew : brew install --cask binance
-    - DOMAIN-SUFFIX  , download.blender.org                            #          | homebrew : brew install --cask blender
-    - DOMAIN-SUFFIX  , f000.backblazeb2.com                            #  sparkle | homebrew : brew install --cask blip
-    - DOMAIN-SUFFIX  , static.blip.net                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.macblurayplayer.com                         #  sparkle | homebrew : brew install --cask blu-ray-player-pro
-    - DOMAIN-SUFFIX  , www.zeroonetwenty.com                           #  sparkle | 
-    - DOMAIN-SUFFIX  , zeroonetwenty.com                               #          | homebrew : brew install --cask blueharvest
-    - DOMAIN-SUFFIX  , ak-build.bluestacks.com                         #          | homebrew : brew install --cask bluestacks
-    - DOMAIN-SUFFIX  , appcast.ripperhe.com                            #  sparkle | 
-    - DOMAIN-SUFFIX  , release.ripperhe.com                            #  sparkle | homebrew : brew install --cask bobhelper
-    - DOMAIN-SUFFIX  , boltai.com                                      #  sparkle | 
-    - DOMAIN-SUFFIX  , download.boltai.com                             #  sparkle | homebrew : brew install --cask boltai
-    - DOMAIN-SUFFIX  , burn-osx.sourceforge.io                         #  sparkle | 
-    - DOMAIN-SUFFIX  , sourceforge.net                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , curl.se                                         #          | homebrew : brew install ca-certificates \ brew install curl
-    - DOMAIN-SUFFIX  , cairographics.org                               #          | homebrew : brew install cairo \ brew install pixman
-    - DOMAIN-SUFFIX  , download.calibre-ebook.com                      #          | homebrew : brew install --cask calibre
-    - DOMAIN-SUFFIX  , download.techsmith.com                          #          | homebrew : brew install --cask camtasia
-    - DOMAIN-SUFFIX  , desktop-release.canva.com                       #          | homebrew : brew install --cask canva
-    - DOMAIN-SUFFIX  , lf16-capcut.faceulv.com                         #          | homebrew : brew install --cask capcut
-    - DOMAIN-SUFFIX  , api.bombich.com                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , bombich.scdn1.secure.raxcdn.com                 #          | homebrew : brew install --cask carbon-copy-cloner
-    - DOMAIN-SUFFIX  , files.pythonhosted.org                          #          | homebrew : brew install certifi \ brew install cffi \ brew install cryptography \ brew install glances \ brew install img2pdf \ brew install meta-package-manager \ brew install mycli \ brew install ocrmypdf \ brew install pillow \ brew install pydantic \ brew install pycparser \ brew install pydantic-core \ brew install rpds-py \ brew install yt-dlp
-    - DOMAIN-SUFFIX  , persistent.oaistatic.com                        #  sparkle | homebrew : brew install --cask chatgpt \ brew install --cask chatgpt-atlas
-    - DOMAIN-SUFFIX  , releases.cherry-ai.com                          #          | homebrew : brew install --cask cherry-studio
-    - DOMAIN-SUFFIX  , git.sr.ht                                       #          | homebrew : brew install --cask chiaki
-    - DOMAIN-SUFFIX  , mx-app-blob-prod.maxon.net                      #          | homebrew : brew install --cask cinebench
-    - DOMAIN-SUFFIX  , storage.googleapis.com                          #          | homebrew : brew install pdf2image \ brew install webp \ brew install --cask claude-code \ brew install --cask claude \ brew install --cask renamer
-    - DOMAIN-SUFFIX  , www.dbklabs.com                                 #  sparkle | homebrew : brew install --cask clicker-for-netflix
-    - DOMAIN-SUFFIX  , files.lowtechguys.com                           #  sparkle | homebrew : brew install --cask clop
-    - DOMAIN-SUFFIX  , downloads.cloudflareclient.com                  #          | homebrew : brew install --cask cloudflare-warp
-    - DOMAIN-SUFFIX  , cmake.org                                       #          | homebrew : brew install --cask cmake-app
-    - DOMAIN-SUFFIX  , cocoamsx.com                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , coderunnerapp.com                               #  sparkle | homebrew : brew install --cask coderunner
-    - DOMAIN-SUFFIX  , saerasoft.com                                   #  sparkle | 
-    - DOMAIN-SUFFIX  , download.todesktop.com                          #          | homebrew : brew install --cask comfyui
-    - DOMAIN-SUFFIX  , dl.dropboxusercontent.com                       #          | homebrew : brew install --cask command-x
-    - DOMAIN-SUFFIX  , commandqapp.com                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , get.retina.studio                               #  sparkle | homebrew : brew install --cask commandq
-    - DOMAIN-SUFFIX  , copilotforxcode.intii.com                       #  sparkle | 
-    - DOMAIN-SUFFIX  , media.codeweavers.com                           #  sparkle | homebrew : brew install --cask crossover
-    - DOMAIN-SUFFIX  , www.codeweavers.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , downloads.cursor.com                            #          | homebrew : brew install --cask cursor-cli \ brew install --cask cursor
-    - DOMAIN-SUFFIX  , update.cyberduck.io                             #  sparkle | homebrew : brew install --cask cyberduck
-    - DOMAIN-SUFFIX  , version.cyberduck.io                            #  sparkle | 
-    - DOMAIN-SUFFIX  , disc-tools.com                                  #  sparkle | 
-    - DOMAIN-SUFFIX  , secure.disc-soft.com                            #  sparkle | 
-    - DOMAIN-SUFFIX  , daisydiskapp.com                                #  sparkle | homebrew : brew install --cask daisydisk
-    - DOMAIN-SUFFIX  , gondor.apana.org.au                             #          | homebrew : brew install dash \ brew install dash-shell
-    - DOMAIN-SUFFIX  , downloads.prosofteng.com                        #  sparkle | homebrew : brew install --cask data-rescue
-    - DOMAIN-SUFFIX  , service.prosofteng.com                          #  sparkle | 
-    - DOMAIN-SUFFIX  , www.visualdatatools.com                         #          | homebrew : brew install --cask datagraph
-    - DOMAIN-SUFFIX  , dbus.freedesktop.org                            #          | homebrew : brew install dbus
-    - DOMAIN-SUFFIX  , www.deepl.com                                   #          | homebrew : brew install --cask deepl
-    - DOMAIN-SUFFIX  , download.delta.chat                             #          | homebrew : brew install --cask deltachat
-    - DOMAIN-SUFFIX  , electron.descript.com                           #          | homebrew : brew install --cask descript
-    - DOMAIN-SUFFIX  , dtapp-pub.dingtalk.com                          #          | homebrew : brew install --cask dingtalk
-    - DOMAIN-SUFFIX  , dl.discordapp.net                               #          | homebrew : brew install --cask discord
-    - DOMAIN-SUFFIX  , dl.cleverfiles.com                              #  sparkle | homebrew : brew install --cask disk-drill
-    - DOMAIN-SUFFIX  , www.cleverfiles.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , diskcatalogmaker.com                            #  sparkle | homebrew : brew install --cask diskcatalogmaker
-    - DOMAIN-SUFFIX  , fujiwara.sakura.ne.jp                           #  sparkle | 
-    - DOMAIN-SUFFIX  , 0x2a.at                                         #          | homebrew : brew install djvu2pdf
-    - DOMAIN-SUFFIX  , dockdoor.kepler.cafe                            #  sparkle | 
-    - DOMAIN-SUFFIX  , desktop.docker.com                              #          | homebrew : brew install --cask docker-desktop
-    - DOMAIN-SUFFIX  , appitstudio.github.io                           #  sparkle | 
-    - DOMAIN-SUFFIX  , dl.dolphin-emu.org                              #          | homebrew : brew install --cask dolphin
-   #- DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com                      #          | homebrew : brew install --cask doubao
-   #- DOMAIN-SUFFIX  , www.douyin.com                                  #          | homebrew : brew install --cask douyin
-   #- DOMAIN-SUFFIX  , lf-impc.douyinstatic.com                        #          | homebrew : brew install --cask douyin-chat
-    - DOMAIN-SUFFIX  , software.charliemonroe.net                      #  sparkle | homebrew : brew install --cask downie
-    - DOMAIN-SUFFIX  , static.drawthings.ai                            #          | homebrew : brew install --cask draw-things
-    - DOMAIN-SUFFIX  , micromat.com                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , s3.amazonaws.com                                #  sparkle | homebrew : brew install --cask hazel \ brew install --cask textsniper
-    - DOMAIN-SUFFIX  , binaryfruit.com                                 #          | homebrew : brew install --cask drivedx
-    - DOMAIN-SUFFIX  , d2wvuuix8c9e48.cloudfront.net                   #  sparkle | homebrew : brew install --cask dropshare
-    - DOMAIN-SUFFIX  , dropshare.app                                   #  sparkle | 
-    - DOMAIN-SUFFIX  , aptonic.com                                     #  sparkle | homebrew : brew install --cask dropzone
-    - DOMAIN-SUFFIX  , updates.aptonic.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , devstorm-apps.com                               #  sparkle | 
-    - DOMAIN-SUFFIX  , mirrors.edge.kernel.org                         #          | homebrew : brew install dtc \ brew install git
-    - DOMAIN-SUFFIX  , origin-a.akamaihd.net                           #          | homebrew : brew install --cask ea
-    - DOMAIN-SUFFIX  , edge.elgato.com                                 #          | homebrew : brew install --cask elgato-stream-deck
-    - DOMAIN-SUFFIX  , cdn.electronic.us                               #  sparkle | homebrew : brew install --cask elmedia-player \ brew install --cask folx \ brew install --cask macdroid
-    - DOMAIN-SUFFIX  , emacsformacosx.com                              #          | homebrew : brew install --cask emacs-app
-    - DOMAIN-SUFFIX  , cdn-dist.emclient.com                           #          | homebrew : brew install --cask emclient
-    - DOMAIN-SUFFIX  , epicgames-download1.akamaized.net               #          | homebrew : brew install --cask epic-games
-    - DOMAIN-SUFFIX  , update.eqmac.app                                #  sparkle | 
-    - DOMAIN-SUFFIX  , mac.desktop.evernote.com                        #          | homebrew : brew install --cask evernote
-    - DOMAIN-SUFFIX  , excalidrawz-new.web.app                         #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.flexibits.com                               #  sparkle | homebrew : brew install --cask fantastical
-    - DOMAIN-SUFFIX  , flexibits.com                                   #  sparkle | 
-   #- DOMAIN-SUFFIX  , sf3-cn.feishucdn.com                            #          | homebrew : brew install --cask feishu
-    - DOMAIN-SUFFIX  , ffmpeg.org                                      #          | homebrew : brew install ffmpeg \ brew install ffmpeg@6 \ brew install ffmpeg@7
-    - DOMAIN-SUFFIX  , echoone.com                                     #          | homebrew : brew install --cask file-juicer
-    - DOMAIN-SUFFIX  , dl.devmate.com                                  #          | homebrew : brew install --cask filepane \ brew install --cask startupizer \ brew install --cask the-unarchiver \ brew install --cask trim-enabler
-    - DOMAIN-SUFFIX  , updates.mymixapps.com                           #  sparkle | 
-    - DOMAIN-SUFFIX  , www.akop.org                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , firealpaca.com                                  #          | homebrew : brew install --cask firealpaca
-    - DOMAIN-SUFFIX  , download-installer.cdn.mozilla.net              #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
-    - DOMAIN-SUFFIX  , ftp.osuosl.org                                  #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
-    - DOMAIN-SUFFIX  , wojciechkulik.pl                                #  sparkle | 
-   #- DOMAIN-SUFFIX  , cdn.better365.cn                                #  sparkle | homebrew : brew install --cask flykey
-    - DOMAIN-SUFFIX  , www.better365.com                               #  sparkle | 
-    - DOMAIN-SUFFIX  , gitlab.freedesktop.org                          #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
-    - DOMAIN-SUFFIX  , www.foobar2000.org                              #          | homebrew : brew install --cask foobar2000
-    - DOMAIN-SUFFIX  , foremost.sourceforge.net                        #          | homebrew : brew install foremost
-    - DOMAIN-SUFFIX  , cdn.fork.dev                                    #  sparkle | homebrew : brew install --cask fork
-    - DOMAIN-SUFFIX  , fork.dev                                        #  sparkle | 
-    - DOMAIN-SUFFIX  , download.binarynights.com                       #  sparkle | homebrew : brew install --cask forklift
-    - DOMAIN-SUFFIX  , updates.binarynights.com                        #  sparkle | 
-    - DOMAIN-SUFFIX  , download.ctmdev.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , download.foxtrot-search.com                     #  sparkle | 
-    - DOMAIN-SUFFIX  , services.ctmdev.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , pierre.chachatelier.fr                          #  sparkle | homebrew : brew install --cask latexit
-    - DOMAIN-SUFFIX  , thomasokken.com                                 #          | homebrew : brew install --cask free42-decimal
-    - DOMAIN-SUFFIX  , tristan-software.ch                             #          | homebrew : brew install --cask fsmonitor
-    - DOMAIN-SUFFIX  , functionkey.pro                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , softwaredownload.futunn.com                     #          | homebrew : brew install --cask futubull \ brew install --cask futubull@legacy
-    - DOMAIN-SUFFIX  , files.fxfactory.com                             #          | homebrew : brew install --cask fxfactory
-    - DOMAIN-SUFFIX  , bruji.com                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , www.bruji.com                                   #  sparkle | 
-    - DOMAIN-SUFFIX  , downloads.iwascoding.com                        #          | homebrew : brew install --cask garagesale
-    - DOMAIN-SUFFIX  , cdn.geekbench.com                               #  sparkle | homebrew : brew install --cask geekbench \ brew install --cask geekbench-ai
-    - DOMAIN-SUFFIX  , cdn.primatelabs.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , www.primatelabs.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , registry.npmjs.org                              #          | homebrew : brew install gemini-cli
-    - DOMAIN-SUFFIX  , www.bannister.org                               #          | homebrew : brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
-    - DOMAIN-SUFFIX  , download.geogebra.org                           #          | homebrew : brew install --cask geogebra
-    - DOMAIN-SUFFIX  , d1fqctmfkpkkcg.cloudfront.net                   #          | homebrew : brew install --cask gifox
-    - DOMAIN-SUFFIX  , www.lcdf.org                                    #          | homebrew : brew install gifsicle
-    - DOMAIN-SUFFIX  , download.gimp.org                               #          | homebrew : brew install --cask gimp
-    - DOMAIN-SUFFIX  , desktop.githubusercontent.com                   #          | homebrew : brew install --cask github
-    - DOMAIN-SUFFIX  , gnupg.org                                       #          | homebrew : brew install gnupg \ brew install libassuan \ brew install libgcrypt \ brew install libgpg-error \ brew install libksba \ brew install npth
-    - DOMAIN-SUFFIX  , www.gnupg.org                                   #          | homebrew : brew install gpgme \ brew install gpgmepp \ brew install gnutls \ brew install pinentry
-    - DOMAIN-SUFFIX  , www.stclairsoft.com                             #  sparkle | homebrew : brew install --cask go64
-    - DOMAIN-SUFFIX  , gog-cdn-fastly.gog.com                          #          | homebrew : brew install --cask gog-galaxy
-    - DOMAIN-SUFFIX  , dl.google.com                                   #          | homebrew : brew install --cask google-drive \ brew install --cask google-earth-pro \ brew install --cask google-trends \ brew install --cask google-chrome
-    - DOMAIN-SUFFIX  , download-mac.grammarly.com                      #          | homebrew : brew install --cask grammarly-desktop
-    - DOMAIN-SUFFIX  , www.lemkesoft.info                              #  sparkle | homebrew : brew install --cask graphicconverter
-    - DOMAIN-SUFFIX  , www.lemkesoft.org                               #  sparkle | 
-    - DOMAIN-SUFFIX  , gridsapp.net                                    #          | homebrew : brew install --cask grids
-    - DOMAIN-SUFFIX  , gstreamer.freedesktop.org                       #          | homebrew : brew install --cask gstreamer-runtime \ brew install --cask gstreamer-development
-    - DOMAIN-SUFFIX  , handbrake.fr                                    #  sparkle | homebrew : brew install --cask handbrake \ brew install --cask handbrake-app
-    - DOMAIN-SUFFIX  , dl.hapigo.com                                   #          | homebrew : brew install --cask hapigo
-    - DOMAIN-SUFFIX  , framagit.org                                    #          | homebrew : brew install hatari
-    - DOMAIN-SUFFIX  , www.noodlesoft.com                              #  sparkle | 
-    - DOMAIN-SUFFIX  , icon-theme.freedesktop.org                      #          | homebrew : brew install hicolor-icon-theme
-    - DOMAIN-SUFFIX  , updates.hookproductivity.com                    #  sparkle | homebrew : brew install --cask hookmark
-    - DOMAIN-SUFFIX  , dl.houdah.com                                   #          | homebrew : brew install --cask houdahspot
-    - DOMAIN-SUFFIX  , ftp.hp.com                                      #          | homebrew : brew install --cask hp-prime
-    - DOMAIN-SUFFIX  , download2.interactivebrokers.com                #          | homebrew : brew install --cask ibkr
-    - DOMAIN-SUFFIX  , jordanbaird.github.io                           #  sparkle | 
-    - DOMAIN-SUFFIX  , dl-portal.iina.io                               #  sparkle | homebrew : brew install --cask iina
-    - DOMAIN-SUFFIX  , www.iina.io                                     #  sparkle | 
-    - DOMAIN-SUFFIX  , apps.shinynode.com                              #  sparkle | 
-    - DOMAIN-SUFFIX  , sf-applications.s3.amazonaws.com                #  sparkle | homebrew : brew install --cask image2icon
-    - DOMAIN-SUFFIX  , imagemagick.org                                 #          | homebrew : brew install imagemagick
-    - DOMAIN-SUFFIX  , imageoptim.com                                  #  sparkle | homebrew : brew install --cask imageoptim
-    - DOMAIN-SUFFIX  , downloads.imazing.com                           #  sparkle | homebrew : brew install --cask imazing
-    - DOMAIN-SUFFIX  , media.inkscape.org                              #          | homebrew : brew install --cask inkscape
-    - DOMAIN-SUFFIX  , inputsource.pro                                 #  sparkle | homebrew : brew install --cask input-source-pro
-    - DOMAIN-SUFFIX  , macdaddy.io                                     #          | homebrew : brew install --cask install-disk-creator
-    - DOMAIN-SUFFIX  , downloads.es.net                                #          | homebrew : brew install iperf3
-    - DOMAIN-SUFFIX  , www.imagetasks.com                              #  sparkle | 
-    - DOMAIN-SUFFIX  , iterm2.com                                      #  sparkle | homebrew : brew install --cask iterm2
-    - DOMAIN-SUFFIX  , itsycal.s3.amazonaws.com                        #          | homebrew : brew install --cask itsycal
-    - DOMAIN-SUFFIX  , u.keka.io                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , prerelease.keybase.io                           #          | homebrew : brew install --cask keybase
-    - DOMAIN-SUFFIX  , files.stairways.com                             #          | homebrew : brew install --cask keyboard-maestro
-    - DOMAIN-SUFFIX  , keycastr.github.io                              #  sparkle | 
-    - DOMAIN-SUFFIX  , mirrors.kodi.tv                                 #          | homebrew : brew install --cask kodi
-    - DOMAIN-SUFFIX  , download.kde.org                                #          | homebrew : brew install --cask krita
-    - DOMAIN-SUFFIX  , sf16-sg.larksuitecdn.com                        #          | homebrew : brew install --cask lark
-    - DOMAIN-SUFFIX  , max.codes                                       #  sparkle | homebrew : brew install --cask latest
-    - DOMAIN-SUFFIX  , www.greenwoodsoftware.com                       #          | homebrew : brew install less
-    - DOMAIN-SUFFIX  , gitlab.xiph.org                                 #          | homebrew : brew install libao
-    - DOMAIN-SUFFIX  , www.libarchive.org                              #          | homebrew : brew install libarchive
-    - DOMAIN-SUFFIX  , download.videolan.org                           #          | homebrew : brew install libbluray \ brew install libudfread
-    - DOMAIN-SUFFIX  , files.musepack.net                              #          | homebrew : brew install libcuefile \ brew install libreplaygain \ brew install musepack
-    - DOMAIN-SUFFIX  , www.csie.ntu.edu.tw                             #          | homebrew : brew install liblinear
-    - DOMAIN-SUFFIX  , www.libraw.org                                  #          | homebrew : brew install libraw
-    - DOMAIN-SUFFIX  , download.libsodium.org                          #          | homebrew : brew install libsodium
-    - DOMAIN-SUFFIX  , www.libssh.org                                  #          | homebrew : brew install libssh
-    - DOMAIN-SUFFIX  , libssh2.org                                     #          | homebrew : brew install libssh2
-    - DOMAIN-SUFFIX  , download.osgeo.org                              #          | homebrew : brew install libtiff
-    - DOMAIN-SUFFIX  , www.x.org                                       #          | homebrew : brew install libx11 \ brew install libxau \ brew install libxext \ brew install libxfixes \ brew install libxdmcp \ brew install libxi \ brew install libxrender \ brew install libxtst
-    - DOMAIN-SUFFIX  , xorg.freedesktop.org                            #          | homebrew : brew install libxcb \ brew install xorgproto
-    - DOMAIN-SUFFIX  , libzip.org                                      #          | homebrew : brew install libzip
-    - DOMAIN-SUFFIX  , www.cockos.com                                  #          | homebrew : brew install --cask licecap
-    - DOMAIN-SUFFIX  , dl.linearmouse.org                              #  sparkle | homebrew : brew install --cask linearmouse
-    - DOMAIN-SUFFIX  , linearmouse.app                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , www.peterborgapps.com                           #          | homebrew : brew install --cask lingon-x
-    - DOMAIN-SUFFIX  , www.obdev.at                                    #          | homebrew : brew install --cask little-snitch
-    - DOMAIN-SUFFIX  , installers.lmstudio.ai                          #          | homebrew : brew install --cask lm-studio
-    - DOMAIN-SUFFIX  , gitee.com                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , longshot.chitaner.com                           #  sparkle | 
-    - DOMAIN-SUFFIX  , packages.loom.com                               #          | homebrew : brew install --cask loom
-    - DOMAIN-SUFFIX  , www.inf.puc-rio.br                              #          | homebrew : brew install lpeg
-    - DOMAIN-SUFFIX  , www.lua.org                                     #          | homebrew : brew install lua
-    - DOMAIN-SUFFIX  , downloads.skylum.com                            #  sparkle | 
-    - DOMAIN-SUFFIX  , luminarneomacm1.skylum.com                      #  sparkle | 
-    - DOMAIN-SUFFIX  , invisible-mirror.net                            #          | homebrew : brew install lynx
-    - DOMAIN-SUFFIX  , www.oberhumer.com                               #          | homebrew : brew install lzo
-    - DOMAIN-SUFFIX  , renset.dev                                      #  sparkle | homebrew : brew install --cask macai
-    - DOMAIN-SUFFIX  , macdown.uranusjr.com                            #  sparkle | 
-    - DOMAIN-SUFFIX  , www.koingosw.com                                #          | homebrew : brew install --cask macpilot
-    - DOMAIN-SUFFIX  , mactracker.ca                                   #  sparkle | homebrew : brew install --cask mactracker
-    - DOMAIN-SUFFIX  , update.mactracker.ca                            #  sparkle | 
-    - DOMAIN-SUFFIX  , www.corecode.io                                 #  sparkle | homebrew : brew install --cask macupdater \ brew install --cask smartreporter-free \ brew install --cask ssdreporter-free \ brew install --cask uninstallpkg
-    - DOMAIN-SUFFIX  , macvim.org                                      #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.macwhisper.com                              #  sparkle | homebrew : brew install --cask macwhisper
-    - DOMAIN-SUFFIX  , macwhisper-site.vercel.app                      #  sparkle | 
-    - DOMAIN-SUFFIX  , stickytimers.app                                #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.awehunt.com                                 #          | homebrew : brew install --cask maczip \ brew install --cask qspace-pro
-    - DOMAIN-SUFFIX  , magicquit.com                                   #          | homebrew : brew install --cask magicquit
-   #- DOMAIN-SUFFIX  , res.126.net                                     #          | homebrew : brew install --cask mailmaster
-    - DOMAIN-SUFFIX  , www.titanium-software.fr                        #          | homebrew : brew install --cask maintenance \ brew install --cask onyx
-    - DOMAIN-SUFFIX  , weiboformac.sinaapp.com                         #  sparkle | 
-    - DOMAIN-SUFFIX  , www.makemkv.com                                 #          | homebrew : brew install --cask makemkv
-    - DOMAIN-SUFFIX  , manico.im                                       #          | homebrew : brew install --cask manico
-    - DOMAIN-SUFFIX  , mediaarea.net                                   #          | homebrew : brew install --cask mediainfo
-    - DOMAIN-SUFFIX  , mednafen.github.io                              #          | homebrew : brew install mednafen
-    - DOMAIN-SUFFIX  , gitlab.com                                      #          | homebrew : brew install svt-av1 \ brew install watch \ brew install --cask meld
-    - DOMAIN-SUFFIX  , www.messenger.com                               #          | homebrew : brew install --cask messenger
-    - DOMAIN-SUFFIX  , sw-update.obdev.at                              #          | homebrew : brew install --cask micro-snitch
-    - DOMAIN-SUFFIX  , officecdnmac.microsoft.com                      #          | homebrew : brew install --cask microsoft-auto-update \ brew install --cask microsoft-onenote \ brew install --cask microsoft-excel \ brew install --cask microsoft-outlook \ brew install --cask microsoft-powerpoint \ brew install --cask microsoft-word \ brew install --cask windows-app
-    - DOMAIN-SUFFIX  , msedge.sf.dl.delivery.mp.microsoft.com          #          | homebrew : brew install --cask microsoft-edge
-    - DOMAIN-SUFFIX  , statics.teams.cdn.office.net                    #          | homebrew : brew install --cask microsoft-teams
-    - DOMAIN-SUFFIX  , mindmacapp.github.io                            #  sparkle | 
-    - DOMAIN-SUFFIX  , www.gryphel.com                                 #          | homebrew : brew install --cask mini-vmac
-    - DOMAIN-SUFFIX  , download.mipony.net                             #          | homebrew : brew install --cask mipony
-    - DOMAIN-SUFFIX  , mkvtoolnix.download                             #          | homebrew : brew install --cask mkvtoolnix \ brew install --cask mkvtoolnix-app
-    - DOMAIN-SUFFIX  , www.moderncsv.com                               #          | homebrew : brew install --cask modern-csv
-    - DOMAIN-SUFFIX  , download.mono-project.com                       #          | homebrew : brew install --cask mono-mdk-for-visual-studio
-    - DOMAIN-SUFFIX  , www.bytereef.org                                #          | homebrew : brew install mpdecimal
-    - DOMAIN-SUFFIX  , www.mpg123.de                                   #          | homebrew : brew install mpg123
-    - DOMAIN-SUFFIX  , mujs.com                                        #          | homebrew : brew install mujs
-    - DOMAIN-SUFFIX  , macplus-software.com                            #  sparkle | 
-    - DOMAIN-SUFFIX  , multitouch.app                                  #          | homebrew : brew install --cask multitouch
-    - DOMAIN-SUFFIX  , www.multitouch.app                              #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.mweb.im                                     #  sparkle | 
-   #- DOMAIN-SUFFIX  , cdn.mwebapp.cn                                  #  sparkle | 
-    - DOMAIN-SUFFIX  , dl.getmythic.app                                #  sparkle | homebrew : brew install --cask mythic
-    - DOMAIN-SUFFIX  , www.nano-editor.org                             #          | homebrew : brew install nano
-    - DOMAIN-SUFFIX  , dn.navicat.com                                  #          | homebrew : brew install --cask navicat-premium-lite
-    - DOMAIN-SUFFIX  , dev.yorhel.nl                                   #          | homebrew : brew install ncdu
-   #- DOMAIN-SUFFIX  , d1.music.126.net                                #          | homebrew : brew install --cask neteasemusic
-    - DOMAIN-SUFFIX  , ranchero.com                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.netspotapp.com                              #  sparkle | homebrew : brew install --cask netspot
-    - DOMAIN-SUFFIX  , api.devontechnologies.com                       #  sparkle | 
-    - DOMAIN-SUFFIX  , download.devontechnologies.com                  #  sparkle | homebrew : brew install --cask devonthink
-    - DOMAIN-SUFFIX  , www.witt-software.com                           #  sparkle | homebrew : brew install --cask pdf-squeezer
-    - DOMAIN-SUFFIX  , download.nextcloud.com                          #          | homebrew : brew install --cask nextcloud
-    - DOMAIN-SUFFIX  , nmap.org                                        #          | homebrew : brew install nmap
-    - DOMAIN-SUFFIX  , nodejs.org                                      #          | homebrew : brew install node
-    - DOMAIN-SUFFIX  , lo.cafe                                         #  sparkle | homebrew : brew install --cask notchnook
-    - DOMAIN-SUFFIX  , desktop-release.notion-static.com               #          | homebrew : brew install --cask notion
-    - DOMAIN-SUFFIX  , calendar-desktop-release.notion-static.com      #          | homebrew : brew install --cask notion-calendar
-    - DOMAIN-SUFFIX  , mail-desktop-release.notion-static.com          #          | homebrew : brew install --cask notion-mail
-    - DOMAIN-SUFFIX  , repo.nperf.com                                  #          | homebrew : brew install --cask nperf
-    - DOMAIN-SUFFIX  , archive.mozilla.org                             #          | homebrew : brew install nspr
-    - DOMAIN-SUFFIX  , ftp.mozilla.org                                 #          | homebrew : brew install nss
-    - DOMAIN-SUFFIX  , files.us-sea-1.linodeobjects.com                #  sparkle | 
-    - DOMAIN-SUFFIX  , s1.numi.app                                     #  sparkle | 
-    - DOMAIN-SUFFIX  , s3.numi.app                                     #          | homebrew : brew install --cask numi
-    - DOMAIN-SUFFIX  , download.nvidia.com                             #          | homebrew : brew install --cask nvidia-geforce-now
-    - DOMAIN-SUFFIX  , cdn-fastly.obsproject.com                       #  sparkle | homebrew : brew install --cask obs
-    - DOMAIN-SUFFIX  , obsproject.com                                  #  sparkle | 
-    - DOMAIN-SUFFIX  , r2-app.eagle.cool                               #          | homebrew : brew install --cask ogdesign-eagle
-    - DOMAIN-SUFFIX  , fireball.studio                                 #          | homebrew : brew install --cask one-switch
-    - DOMAIN-SUFFIX  , oneclient.sfx.ms                                #          | homebrew : brew install --cask onedrive
-    - DOMAIN-SUFFIX  , jacklandrin.github.io                           #  sparkle | 
-    - DOMAIN-SUFFIX  , distfiles.gentoo.org                            #          | homebrew : brew install openal-soft
-    - DOMAIN-SUFFIX  , raw.github.com                                  #  sparkle | 
-    - DOMAIN-SUFFIX  , swupdate.openvpn.org                            #          | homebrew : brew install openvpn
-    - DOMAIN-SUFFIX  , swupdate.openvpn.net                            #          | homebrew : brew install --cask openvpn-connect
-    - DOMAIN-SUFFIX  , 2.na.dl.wireshark.org                           #  sparkle | 
-    - DOMAIN-SUFFIX  , www.wireshark.org                               #  sparkle | homebrew : brew install --cask wireshark-app
-    - DOMAIN-SUFFIX  , www.charlessoft.com                             #  sparkle | homebrew : brew install --cask pacifist
-    - DOMAIN-SUFFIX  , downloads.sourceforge.net                       #  sparkle | homebrew : brew install djvulibre \ brew install freetype \ brew install giflib \ brew install glew \ brew install lame \ brew install libpng \ brew install libsoxr \ brew install little-cms2 \ brew install mad \ brew install netcat \ brew install opencore-amr \ brew install pcre \ brew install pdfcrack \ brew install smartmontools \ brew install unzip \ brew install vice \ brew install zip \ brew install zsh \ brew install --cask burn \ brew install --cask dosbox \ brew install --cask paintbrush \ brew install --cask qbittorrent
-    - DOMAIN-SUFFIX  , paintbrush.sourceforge.io                       #  sparkle | 
-    - DOMAIN-SUFFIX  , rink.hockeyapp.net                              #  sparkle | 
-    - DOMAIN-SUFFIX  , dl.paragon-software.com                         #          | homebrew : brew install --cask paragon-extfs \ brew install --cask paragon-ntfs
-    - DOMAIN-SUFFIX  , builds.parsec.app                               #          | homebrew : brew install --cask parsec
-    - DOMAIN-SUFFIX  , downloads.pdfexpert.com                         #  sparkle | homebrew : brew install --cask pdf-expert
-    - DOMAIN-SUFFIX  , witt-software.com                               #  sparkle | 
-    - DOMAIN-SUFFIX  , picsee.chitaner.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , downloads.plex.tv                               #          | homebrew : brew install --cask plex
-    - DOMAIN-SUFFIX  , static.crates.io                                #          | homebrew : brew install pngquant
-    - DOMAIN-SUFFIX  , pilotmoon.com                                   #  sparkle | homebrew : brew install --cask popclip
-    - DOMAIN-SUFFIX  , softwareupdate.pilotmoon.com                    #  sparkle | 
-    - DOMAIN-SUFFIX  , poppler.freedesktop.org                         #          | homebrew : brew install poppler
-    - DOMAIN-SUFFIX  , files.portaudio.com                             #          | homebrew : brew install portaudio
-    - DOMAIN-SUFFIX  , www.script-factory.net                          #  sparkle | 
-    - DOMAIN-SUFFIX  , www.ppsspp.org                                  #          | homebrew : brew install --cask ppsspp \ brew install --cask ppsspp-emulator
-    - DOMAIN-SUFFIX  , assets.pronotes.app                             #  sparkle | homebrew : brew install --cask pronotes
-    - DOMAIN-SUFFIX  , pronotes.app                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , www.pronotes.app                                #  sparkle | 
-    - DOMAIN-SUFFIX  , purei.org                                       #          | homebrew : brew install --cask purei-play
-    - DOMAIN-SUFFIX  , www.ivarch.com                                  #          | homebrew : brew install pv
-    - DOMAIN-SUFFIX  , www.python.org                                  #          | homebrew : brew install python@3.13 \ brew install python@3.14
-    - DOMAIN-SUFFIX  , download.qemu.org                               #          | homebrew : brew install qemu
-    - DOMAIN-SUFFIX  , sbarex.github.io                                #  sparkle | 
-   #- DOMAIN-SUFFIX  , dldir1v6.qq.com                                 #          | homebrew : brew install --cask qq
-   #- DOMAIN-SUFFIX  , dldir1.qq.com                                   #          | homebrew : brew install --cask qqlive \ brew install --cask wechat \ brew install --cask weiyun
-   #- DOMAIN-SUFFIX  , c.y.qq.com                                      #          | homebrew : brew install --cask qqmusic
-    - DOMAIN-SUFFIX  , amicoapps.com                                   #  sparkle | homebrew : brew install --cask quit-all
-    - DOMAIN-SUFFIX  , www.rarlab.com                                  #          | homebrew : brew install --cask rar
-    - DOMAIN-SUFFIX  , redream.io                                      #          | homebrew : brew install --cask redream
-    - DOMAIN-SUFFIX  , www.iospirit.com                                #          | homebrew : brew install --cask remote-buddy
-    - DOMAIN-SUFFIX  , static.retrovm.org                              #          | homebrew : brew install --cask retro-virtual-machine
-    - DOMAIN-SUFFIX  , buildbot.libretro.com                           #          | homebrew : brew install --cask retroarch-metal
-    - DOMAIN-SUFFIX  , download.rota.to                                #  sparkle | homebrew : brew install --cask rotato
-    - DOMAIN-SUFFIX  , royaltsx-v6.royalapps.com                       #  sparkle | homebrew : brew install --cask royal-tsx
-    - DOMAIN-SUFFIX  , deb.debian.org                                  #          | homebrew : brew install rtmpdump \ brew install w3m
-    - DOMAIN-SUFFIX  , breakfastquay.com                               #          | homebrew : brew install rubberband
-    - DOMAIN-SUFFIX  , cache.ruby-lang.org                             #          | homebrew : brew install ruby
-    - DOMAIN-SUFFIX  , screenstudioassets.com                          #          | homebrew : brew install --cask screen-studio
-    - DOMAIN-SUFFIX  , www.telestream.net                              #  sparkle | homebrew : brew install --cask screenflow
-    - DOMAIN-SUFFIX  , scrivener.s3.amazonaws.com                      #  sparkle | homebrew : brew install --cask scrivener
-    - DOMAIN-SUFFIX  , www.literatureandlatte.com                      #  sparkle | 
-    - DOMAIN-SUFFIX  , downloads.scummvm.org                           #  sparkle | homebrew : brew install --cask scummvm \ brew install --cask scummvm-app
-    - DOMAIN-SUFFIX  , www.scummvm.org                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , www.bensoftware.com                             #          | homebrew : brew install --cask securityspy
-    - DOMAIN-SUFFIX  , cdn.cindori.com                                 #  sparkle | homebrew : brew install --cask sensei
-    - DOMAIN-SUFFIX  , updates.signal.org                              #          | homebrew : brew install --cask signal
-    - DOMAIN-SUFFIX  , d1b3av25dd6jdq.cloudfront.net                   #  sparkle | homebrew : brew install --cask sim-genie
-    - DOMAIN-SUFFIX  , simgenie.app                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , sipapp.fra1.digitaloceanspaces.com              #  sparkle | homebrew : brew install --cask sip \ brew install --cask sip-app
-    - DOMAIN-SUFFIX  , download.sketchup.com                           #          | homebrew : brew install --cask sketchup
-    - DOMAIN-SUFFIX  , download.skype.com                              #          | homebrew : brew install --cask skype
-    - DOMAIN-SUFFIX  , downloads.slack-edge.com                        #          | homebrew : brew install --cask slack
-    - DOMAIN-SUFFIX  , f002.backblazeb2.com                            #          | homebrew : brew install --cask slidepad
-    - DOMAIN-SUFFIX  , sveinbjorn.org                                  #  sparkle | homebrew : brew install --cask sloth
-    - DOMAIN-SUFFIX  , neededapps.com                                  #  sparkle | homebrew : brew install --cask snapmotion
-    - DOMAIN-SUFFIX  , download.snipaste.com                           #          | homebrew : brew install --cask snipaste
-    - DOMAIN-SUFFIX  , localhost                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , download.scdn.co                                #          | homebrew : brew install --cask spotify
-    - DOMAIN-SUFFIX  , sqlite.org                                      #          | homebrew : brew install sqlite
-    - DOMAIN-SUFFIX  , mac-release-static.stash.ws                     #  sparkle | 
-    - DOMAIN-SUFFIX  , releases.stash.ws                               #  sparkle | 
-    - DOMAIN-SUFFIX  , cordlessdog.com                                 #          | homebrew : brew install --cask stay
-    - DOMAIN-SUFFIX  , cdn.cloudflare.steamstatic.com                  #          | homebrew : brew install --cask steam
-    - DOMAIN-SUFFIX  , steamcdn-a.akamaihd.net                         #          | homebrew : brew install --cask steamcmd
-    - DOMAIN-SUFFIX  , mentalfaculty.s3.amazonaws.com                  #  sparkle | 
-    - DOMAIN-SUFFIX  , mentalfaculty.s3.us-east-1.amazonaws.com        #  sparkle | 
-    - DOMAIN-SUFFIX  , subler.org                                      #  sparkle | 
-    - DOMAIN-SUFFIX  , download.sublimetext.com                        #          | homebrew : brew install --cask sublime-text
-    - DOMAIN-SUFFIX  , assets.selkie.design                            #  sparkle | 
-    - DOMAIN-SUFFIX  , sindresorhus.com                                #  sparkle | 
-    - DOMAIN-SUFFIX  , shirtpocket.s3.amazonaws.com                    #          | homebrew : brew install --cask superduper
-    - DOMAIN-SUFFIX  , cdn.netbsd.org                                  #          | homebrew : brew install supermodel
-    - DOMAIN-SUFFIX  , www.mothersruin.com                             #          | homebrew : brew install --cask suspicious-package
-    - DOMAIN-SUFFIX  , highlyopinionated.co                            #  sparkle | 
-    - DOMAIN-SUFFIX  , upgrades.syncthing.net                          #  sparkle | 
-    - DOMAIN-SUFFIX  , global.download.synology.com                    #          | homebrew : brew install --cask synologyassistant
-    - DOMAIN-SUFFIX  , pkgs.tailscale.com                              #          | homebrew : brew install --cask tailscale-app
-   #- DOMAIN-SUFFIX  , tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com  #          | homebrew : brew install --cask teambition
-    - DOMAIN-SUFFIX  , osx.telegram.org                                #  sparkle | homebrew : brew install --cask telegram
-   #- DOMAIN-SUFFIX  , desktop.docs.qq.com                             #          | homebrew : brew install --cask tencent-docs
-   #- DOMAIN-SUFFIX  , updatecdn.meeting.qq.com                        #          | homebrew : brew install --cask tencent-meeting
-    - DOMAIN-SUFFIX  , www.cgsecurity.org                              #          | homebrew : brew install testdisk
-    - DOMAIN-SUFFIX  , textsniper.app                                  #  sparkle | 
-    - DOMAIN-SUFFIX  , www.codeandweb.com                              #          | homebrew : brew install --cask texturepacker
-    - DOMAIN-SUFFIX  , www.tunabellysoftware.com                       #  sparkle | homebrew : brew install --cask tg-pro
-    - DOMAIN-SUFFIX  , down.sandai.net                                 #          | homebrew : brew install --cask thunder
-    - DOMAIN-SUFFIX  , download.tigerfintech.com                       #          | homebrew : brew install --cask tiger-trade
-    - DOMAIN-SUFFIX  , carnationsoftware.com                           #          | homebrew : brew install --cask tm-error-logger
-    - DOMAIN-SUFFIX  , archive.torproject.org                          #          | homebrew : brew install --cask tor-browser
-    - DOMAIN-SUFFIX  , update.transmissionbt.com                       #  sparkle | 
-    - DOMAIN-SUFFIX  , download-cdn.panic.com                          #          | homebrew : brew install --cask transmit
-    - DOMAIN-SUFFIX  , www.panic.com                                   #  sparkle | 
-    - DOMAIN-SUFFIX  , www.transnomino.com                             #          | homebrew : brew install --cask transnomino
-    - DOMAIN-SUFFIX  , www.micromat.com                                #  sparkle | 
-    - DOMAIN-SUFFIX  , dl.apparentsoft.com                             #  sparkle | 
-    - DOMAIN-SUFFIX  , tripmode-updates.ch                             #          | homebrew : brew install --cask tripmode
-    - DOMAIN-SUFFIX  , 0xcc.net                                        #          | homebrew : brew install ttyrec
-    - DOMAIN-SUFFIX  , tunnelblick.net                                 #  sparkle | homebrew : brew install --cask tunnelblick
-    - DOMAIN-SUFFIX  , download.typora.io                              #          | homebrew : brew install --cask typora
-    - DOMAIN-SUFFIX  , typora.io                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , www.freedesktop.org                             #          | homebrew : brew install uchardet
-    - DOMAIN-SUFFIX  , nlnetlabs.nl                                    #          | homebrew : brew install unbound
-    - DOMAIN-SUFFIX  , bzgdownloads.s3.amazonaws.com                   #  sparkle | homebrew : brew install --cask unite
-    - DOMAIN-SUFFIX  , www.flameeyes.com                               #          | homebrew : brew install unpaper
-    - DOMAIN-SUFFIX  , updatest.app                                    #  sparkle | 
-   #- DOMAIN-SUFFIX  , download.updf.com                               #          | homebrew : brew install --cask updf
-    - DOMAIN-SUFFIX  , launchpad.net                                   #          | homebrew : brew install --cask veracrypt
-    - DOMAIN-SUFFIX  , lf3-package.vlabstatic.com                      #          | homebrew : brew install --cask videofusion
-    - DOMAIN-SUFFIX  , virtualii.com                                   #          | homebrew : brew install --cask virtual-ii
-    - DOMAIN-SUFFIX  , download.virtualbox.org                         #          | homebrew : brew install --cask virtualbox
-    - DOMAIN-SUFFIX  , su.virtualbuddy.app                             #          | homebrew : brew install --cask virtualbuddy
-    - DOMAIN-SUFFIX  , download.visualstudio.microsoft.com             #          | homebrew : brew install --cask visual-studio
-    - DOMAIN-SUFFIX  , update.code.visualstudio.com                    #          | homebrew : brew install --cask visual-studio-code
-    - DOMAIN-SUFFIX  , data.visualboyadvance-m.org                     #  sparkle | 
-    - DOMAIN-SUFFIX  , get.videolan.org                                #          | homebrew : brew install --cask vlc
-    - DOMAIN-SUFFIX  , softwareupdate-prod.broadcom.com                #          | homebrew : brew install --cask vmware-fusion
-    - DOMAIN-SUFFIX  , nektony.com                                     #  sparkle | 
-    - DOMAIN-SUFFIX  , www.hamrick.com                                 #          | homebrew : brew install --cask vuescan
-    - DOMAIN-SUFFIX  , app.warp.dev                                    #          | homebrew : brew install --cask warp
-    - DOMAIN-SUFFIX  , cdn-2.webcatalog.io                             #          | homebrew : brew install --cask webcatalog
-    - DOMAIN-SUFFIX  , peacockmedia.software                           #          | homebrew : brew install --cask website-watchman
-    - DOMAIN-SUFFIX  , u1sweb.webullfintech.com                        #          | homebrew : brew install --cask webull
-    - DOMAIN-SUFFIX  , csie.io                                         #  sparkle | 
-    - DOMAIN-SUFFIX  , www.whatroute.net                               #  sparkle | homebrew : brew install --cask whatroute
-    - DOMAIN-SUFFIX  , web.whatsapp.com                                #          | homebrew : brew install --cask whatsapp
-    - DOMAIN-SUFFIX  , data.getwhisky.app                              #  sparkle | 
-    - DOMAIN-SUFFIX  , www.intuitibits.com                             #  sparkle | homebrew : brew install --cask wifi-explorer
-    - DOMAIN-SUFFIX  , wins.cool                                       #  sparkle | 
-    - DOMAIN-SUFFIX  , winswebsite.s3.us-east-005.backblazeb2.com      #  sparkle | homebrew : brew install --cask wins
-    - DOMAIN-SUFFIX  , git.zx2c4.com                                   #          | homebrew : brew install wireguard-go \ brew install wireguard-tools
-    - DOMAIN-SUFFIX  , desairem.com                                    #  sparkle | 
-    - DOMAIN-SUFFIX  , bitbucket.org                                   #          | homebrew : brew install x265
-   #- DOMAIN-SUFFIX  , nativedl.pcdn.xmcdn.com                         #          | homebrew : brew install --cask ximalaya
-    - DOMAIN-SUFFIX  , dl3.xmind.net                                   #          | homebrew : brew install --cask xmind
-    - DOMAIN-SUFFIX  , download.xnview.com                             #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
-    - DOMAIN-SUFFIX  , www.xquartz.org                                 #  sparkle | 
-    - DOMAIN-SUFFIX  , downloads.xvid.com                              #          | homebrew : brew install xvid
-   #- DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com             #          | homebrew : brew install --cask yuanbao
-    - DOMAIN-SUFFIX  , zed.dev                                         #          | homebrew : brew install --cask zed
-    - DOMAIN-SUFFIX  , releases.5km.tech                               #  sparkle | 
-    - DOMAIN-SUFFIX  , zipic.5km.tech                                  #  sparkle | homebrew : brew install --cask zipic
-    - DOMAIN-SUFFIX  , cdn.zoom.us                                     #          | homebrew : brew install --cask zoom
-    - DOMAIN-SUFFIX  , download.zotero.org                             #          | homebrew : brew install --cask zotero
+    - DOMAIN-SUFFIX  , down.115.com, no-resolve                               #          | homebrew : brew install --cask 115browser
+    - DOMAIN-SUFFIX  , dl.4kdownload.com, no-resolve                          #          | homebrew : brew install --cask 4k-image-compressor
+    - DOMAIN-SUFFIX  , beyondgrep.com, no-resolve                             #          | homebrew : brew install ack
+    - DOMAIN-SUFFIX  , static.adguard.com, no-resolve                         #          | homebrew : brew install --cask adguard
+    - DOMAIN-SUFFIX  , static.adtidy.org, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , trials.adobe.com, no-resolve                           #          | homebrew : brew install --cask adobe-acrobat-pro
+    - DOMAIN-SUFFIX  , ardownload2.adobe.com, no-resolve                      #          | homebrew : brew install --cask adobe-acrobat-reader
+    - DOMAIN-SUFFIX  , ccmdls.adobe.com, no-resolve                           #          | homebrew : brew install --cask adobe-creative-cloud
+    - DOMAIN-SUFFIX  , cdn.aliyundrive.net, no-resolve                        #          | homebrew : brew install --cask adrive
+    - DOMAIN-SUFFIX  , download.gnome.org, no-resolve                         #          | homebrew : brew install at-spi2-core \ brew install adwaita-icon-theme \ brew install gdk-pixbuf \ brew install glib \ brew install gsettings-desktop-schemas \ brew install gtk+3 \ brew install libepoxy \ brew install librsvg \ brew install pango
+    - DOMAIN-SUFFIX  , affinity-update.s3.amazonaws.com, no-resolve           #          | homebrew : brew install --cask affinity \ brew install --cask affinity-publisher \ brew install --cask affinity-designer \ brew install --cask affinity-photo
+    - DOMAIN-SUFFIX  , su.airbuddy.app, no-resolve                            #  sparkle | homebrew : brew install --cask airbuddy
+    - DOMAIN-SUFFIX  , cdn.rogueamoeba.com, no-resolve                        #          | homebrew : brew install --cask airfoil \ brew install --cask audio-hijack \ brew install --cask loopback \ brew install --cask soundsource
+    - DOMAIN-SUFFIX  , download.airsquirrels.com, no-resolve                  #  sparkle | homebrew : brew install --cask airparrot
+    - DOMAIN-SUFFIX  , updates-prod.airsquirrels.com, no-resolve              #  sparkle | 
+    - DOMAIN-SUFFIX  , dl.airserver.com, no-resolve                           #  sparkle | homebrew : brew install --cask airserver
+    - DOMAIN-SUFFIX  , www.airserver.com, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , apphousekitchen.com, no-resolve                        #  sparkle | homebrew : brew install --cask aldente
+    - DOMAIN-SUFFIX  , cachefly.alfredapp.com, no-resolve                     #          | homebrew : brew install --cask alfred
+    - DOMAIN-SUFFIX  , download.alicdn.com, no-resolve                        #          | homebrew : brew install --cask aliwangwang
+    - DOMAIN-SUFFIX  , cdn.ensili.co, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , ensili.co, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , altstore.io, no-resolve                                #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.altstore.io, no-resolve                            #  sparkle | homebrew : brew install --cask altserver
+    - DOMAIN-SUFFIX  , f000.backblazeb2.com, no-resolve                       #  sparkle | homebrew : brew install --cask blip
+    - DOMAIN-SUFFIX  , repo.anaconda.com, no-resolve                          #          | homebrew : brew install --cask anaconda
+    - DOMAIN-SUFFIX  , aomedia.googlesource.com, no-resolve                   #          | homebrew : brew install aom
+    - DOMAIN-SUFFIX  , download.nektony.com, no-resolve                       #  sparkle | homebrew : brew install --cask app-cleaner \ brew install --cask funter \ brew install --cask vsd-viewer
+    - DOMAIN-SUFFIX  , freemacsoft.net, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , rawcdn.githack.com, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , www.freemacsoft.net, no-resolve                        #          | homebrew : brew install --cask appcleaner
+    - DOMAIN-SUFFIX  , milanvarady.github.io, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , www.apache.org, no-resolve                             #          | homebrew : brew install apr \ brew install apr-util \ brew install subversion
+    - DOMAIN-SUFFIX  , releases.arc.net, no-resolve                           #  sparkle | homebrew : brew install --cask arc
+    - DOMAIN-SUFFIX  , code.videolan.org, no-resolve                          #          | homebrew : brew install aribb24 \ brew install dav1d \ brew install libplacebo \ brew install librist \ brew install x264
+    - DOMAIN-SUFFIX  , pixeleyes.co.nz, no-resolve                            #          | homebrew : brew install --cask automounterhelper
+    - DOMAIN-SUFFIX  , www.soma-zone.com, no-resolve                          #  sparkle | homebrew : brew install --cask backuploupe
+    - DOMAIN-SUFFIX  , macbartender.com, no-resolve                           #  sparkle | homebrew : brew install --cask bartender
+    - DOMAIN-SUFFIX  , www.macbartender.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , ftpmirror.gnu.org, no-resolve                          #          | homebrew : brew install bash \ brew install coreutils \ brew install ddrescue \ brew install gettext \ brew install gcc \ brew install gmp \ brew install grep \ brew install libidn \ brew install libidn2 \ brew install libmpc \ brew install libmicrohttpd \ brew install libtasn1 \ brew install libtool \ brew install libunistring \ brew install m4 \ brew install mpfr \ brew install ncurses \ brew install nettle \ brew install parallel \ brew install readline \ brew install wget
+    - DOMAIN-SUFFIX  , src.fedoraproject.org, no-resolve                      #          | homebrew : brew install bash-completion
+    - DOMAIN-SUFFIX  , mirror.ctan.org, no-resolve                            #          | homebrew : brew install --cask basictex
+    - DOMAIN-SUFFIX  , betterdisplay.pro, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , folivora.ai, no-resolve                                #  sparkle | homebrew : brew install --cask bettertouchtool
+    - DOMAIN-SUFFIX  , updates.folivora.ai, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , macitbetter.com, no-resolve                            #  sparkle | homebrew : brew install --cask betterzip
+    - DOMAIN-SUFFIX  , www.scootersoftware.com, no-resolve                    #          | homebrew : brew install --cask beyond-compare
+    - DOMAIN-SUFFIX  , dl.hdslb.com, no-resolve                               #          | homebrew : brew install --cask bilibili
+    - DOMAIN-SUFFIX  , ftp.binance.com, no-resolve                            #          | homebrew : brew install --cask binance
+    - DOMAIN-SUFFIX  , downloads.isc.org, no-resolve                          #          | homebrew : brew install bind
+    - DOMAIN-SUFFIX  , download.blender.org, no-resolve                       #          | homebrew : brew install --cask blender
+    - DOMAIN-SUFFIX  , static.blip.net, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.macblurayplayer.com, no-resolve                    #  sparkle | homebrew : brew install --cask blu-ray-player-pro
+    - DOMAIN-SUFFIX  , www.zeroonetwenty.com, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , zeroonetwenty.com, no-resolve                          #          | homebrew : brew install --cask blueharvest
+    - DOMAIN-SUFFIX  , ak-build.bluestacks.com, no-resolve                    #          | homebrew : brew install --cask bluestacks
+    - DOMAIN-SUFFIX  , appcast.ripperhe.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , release.ripperhe.com, no-resolve                       #  sparkle | homebrew : brew install --cask bobhelper
+    - DOMAIN-SUFFIX  , updates.boltai.com, no-resolve                         #  sparkle | homebrew : brew install --cask boltai
+    - DOMAIN-SUFFIX  , burn-osx.sourceforge.io, no-resolve                    #  sparkle | 
+    - DOMAIN-SUFFIX  , sourceforge.net, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , curl.se, no-resolve                                    #          | homebrew : brew install ca-certificates \ brew install curl
+    - DOMAIN-SUFFIX  , cairographics.org, no-resolve                          #          | homebrew : brew install cairo \ brew install pixman
+    - DOMAIN-SUFFIX  , download.calibre-ebook.com, no-resolve                 #          | homebrew : brew install --cask calibre
+    - DOMAIN-SUFFIX  , download.techsmith.com, no-resolve                     #          | homebrew : brew install --cask camtasia
+    - DOMAIN-SUFFIX  , desktop-release.canva.com, no-resolve                  #          | homebrew : brew install --cask canva
+    - DOMAIN-SUFFIX  , lf16-capcut.faceulv.com, no-resolve                    #          | homebrew : brew install --cask capcut
+    - DOMAIN-SUFFIX  , api.bombich.com, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , bombich.scdn1.secure.raxcdn.com, no-resolve            #          | homebrew : brew install --cask carbon-copy-cloner
+    - DOMAIN-SUFFIX  , files.pythonhosted.org, no-resolve                     #          | homebrew : brew install cffi \ brew install certifi \ brew install cryptography \ brew install glances \ brew install img2pdf \ brew install meta-package-manager \ brew install mycli \ brew install numpy \ brew install ocrmypdf \ brew install openai-whisper \ brew install pillow \ brew install pipx \ brew install pycparser \ brew install pydantic \ brew install pydantic-core \ brew install rpds-py \ brew install yt-dlp
+    - DOMAIN-SUFFIX  , download.chatboxai.app, no-resolve                     #          | homebrew : brew install --cask chatbox
+    - DOMAIN-SUFFIX  , persistent.oaistatic.com, no-resolve                   #  sparkle | homebrew : brew install --cask chatgpt-atlas \ brew install --cask chatgpt \ brew install --cask codex-app
+    - DOMAIN-SUFFIX  , releases.cherry-ai.com, no-resolve                     #          | homebrew : brew install --cask cherry-studio
+    - DOMAIN-SUFFIX  , git.sr.ht, no-resolve                                  #          | homebrew : brew install w3m \ brew install --cask chiaki
+    - DOMAIN-SUFFIX  , mx-app-blob-prod.maxon.net, no-resolve                 #          | homebrew : brew install --cask cinebench
+    - DOMAIN-SUFFIX  , downloads.claude.ai, no-resolve                        #          | homebrew : brew install --cask claude
+    - DOMAIN-SUFFIX  , registry.npmjs.org, no-resolve                         #          | homebrew : brew install claude-cmd \ brew install gemini-cli
+    - DOMAIN-SUFFIX  , storage.googleapis.com, no-resolve                     #          | homebrew : brew install pdf2image \ brew install webp \ brew install --cask claude-code
+    - DOMAIN-SUFFIX  , www.dbklabs.com, no-resolve                            #  sparkle | homebrew : brew install --cask clicker-for-netflix
+    - DOMAIN-SUFFIX  , downloads.cloudflareclient.com, no-resolve             #          | homebrew : brew install --cask cloudflare-warp
+    - DOMAIN-SUFFIX  , cmake.org, no-resolve                                  #          | homebrew : brew install --cask cmake-app
+    - DOMAIN-SUFFIX  , cocoamsx.com, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , coderunnerapp.com, no-resolve                          #  sparkle | homebrew : brew install --cask coderunner
+    - DOMAIN-SUFFIX  , saerasoft.com, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , download.todesktop.com, no-resolve                     #          | homebrew : brew install --cask comfyui
+    - DOMAIN-SUFFIX  , dl.dropboxusercontent.com, no-resolve                  #          | homebrew : brew install --cask command-x
+    - DOMAIN-SUFFIX  , commandqapp.com, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , get.retina.studio, no-resolve                          #  sparkle | homebrew : brew install --cask commandq
+    - DOMAIN-SUFFIX  , media.codeweavers.com, no-resolve                      #  sparkle | homebrew : brew install --cask crossover
+    - DOMAIN-SUFFIX  , www.codeweavers.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , downloads.cursor.com, no-resolve                       #          | homebrew : brew install --cask cursor-cli \ brew install --cask cursor
+    - DOMAIN-SUFFIX  , update.cyberduck.io, no-resolve                        #  sparkle | homebrew : brew install --cask cyberduck
+    - DOMAIN-SUFFIX  , version.cyberduck.io, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , disc-tools.com, no-resolve                             #  sparkle | 
+    - DOMAIN-SUFFIX  , secure.disc-soft.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , daisydiskapp.com, no-resolve                           #  sparkle | homebrew : brew install --cask daisydisk
+    - DOMAIN-SUFFIX  , cdn.netbsd.org, no-resolve                             #          | homebrew : brew install dash-shell \ brew install dash
+    - DOMAIN-SUFFIX  , downloads.prosofteng.com, no-resolve                   #  sparkle | homebrew : brew install --cask data-rescue
+    - DOMAIN-SUFFIX  , service.prosofteng.com, no-resolve                     #  sparkle | 
+    - DOMAIN-SUFFIX  , www.visualdatatools.com, no-resolve                    #          | homebrew : brew install --cask datagraph
+    - DOMAIN-SUFFIX  , dbus.freedesktop.org, no-resolve                       #          | homebrew : brew install dbus
+    - DOMAIN-SUFFIX  , www.deepl.com, no-resolve                              #          | homebrew : brew install --cask deepl
+    - DOMAIN-SUFFIX  , download.delta.chat, no-resolve                        #          | homebrew : brew install --cask deltachat
+    - DOMAIN-SUFFIX  , electron.descript.com, no-resolve                      #          | homebrew : brew install --cask descript
+    - DOMAIN-SUFFIX  , dtapp-pub.dingtalk.com, no-resolve                     #          | homebrew : brew install --cask dingtalk
+    - DOMAIN-SUFFIX  , dl.discordapp.net, no-resolve                          #          | homebrew : brew install --cask discord
+    - DOMAIN-SUFFIX  , dl.cleverfiles.com, no-resolve                         #  sparkle | homebrew : brew install --cask disk-drill
+    - DOMAIN-SUFFIX  , www.cleverfiles.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , diskcatalogmaker.com, no-resolve                       #  sparkle | homebrew : brew install --cask diskcatalogmaker
+    - DOMAIN-SUFFIX  , fujiwara.sakura.ne.jp, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , 0x2a.at, no-resolve                                    #          | homebrew : brew install djvu2pdf
+    - DOMAIN-SUFFIX  , dockdoor.kepler.cafe, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , desktop.docker.com, no-resolve                         #          | homebrew : brew install --cask docker-desktop
+    - DOMAIN-SUFFIX  , appitstudio.github.io, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , dl.dolphin-emu.org, no-resolve                         #          | homebrew : brew install --cask dolphin
+    - DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com, no-resolve                 #          | homebrew : brew install --cask doubao
+    - DOMAIN-SUFFIX  , www.douyin.com, no-resolve                             #          | homebrew : brew install --cask douyin
+    - DOMAIN-SUFFIX  , lf-impc.douyinstatic.com, no-resolve                   #          | homebrew : brew install --cask douyin-chat
+    - DOMAIN-SUFFIX  , software.charliemonroe.net, no-resolve                 #  sparkle | homebrew : brew install --cask downie
+    - DOMAIN-SUFFIX  , static.drawthings.ai, no-resolve                       #          | homebrew : brew install --cask draw-things
+    - DOMAIN-SUFFIX  , micromat.com, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , s3.amazonaws.com, no-resolve                           #  sparkle | homebrew : brew install --cask hazel \ brew install --cask textsniper
+    - DOMAIN-SUFFIX  , binaryfruit.com, no-resolve                            #          | homebrew : brew install --cask drivedx
+    - DOMAIN-SUFFIX  , d2wvuuix8c9e48.cloudfront.net, no-resolve              #  sparkle | homebrew : brew install --cask dropshare
+    - DOMAIN-SUFFIX  , dropshare.app, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , aptonic.com, no-resolve                                #  sparkle | homebrew : brew install --cask dropzone
+    - DOMAIN-SUFFIX  , updates.aptonic.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , devstorm-apps.com, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , mirrors.edge.kernel.org, no-resolve                    #          | homebrew : brew install dtc \ brew install git
+    - DOMAIN-SUFFIX  , origin-a.akamaihd.net, no-resolve                      #          | homebrew : brew install --cask ea
+    - DOMAIN-SUFFIX  , gitlab.com, no-resolve                                 #          | homebrew : brew install eigen \ brew install svt-av1 \ brew install --cask meld
+    - DOMAIN-SUFFIX  , edge.elgato.com, no-resolve                            #          | homebrew : brew install --cask elgato-stream-deck
+    - DOMAIN-SUFFIX  , cdn.electronic.us, no-resolve                          #  sparkle | homebrew : brew install --cask elmedia-player \ brew install --cask folx \ brew install --cask macdroid
+    - DOMAIN-SUFFIX  , emacsformacosx.com, no-resolve                         #          | homebrew : brew install --cask emacs-app
+    - DOMAIN-SUFFIX  , cdn-dist.emclient.com, no-resolve                      #          | homebrew : brew install --cask emclient
+    - DOMAIN-SUFFIX  , epicgames-download1.akamaized.net, no-resolve          #          | homebrew : brew install --cask epic-games
+    - DOMAIN-SUFFIX  , update.eqmac.app, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , static.eudic.net, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , static.frdic.com, no-resolve                           #          | homebrew : brew install --cask eudic
+    - DOMAIN-SUFFIX  , www.eudic.net, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , mac.desktop.evernote.com, no-resolve                   #          | homebrew : brew install --cask evernote
+    - DOMAIN-SUFFIX  , excalidrawz-new.web.app, no-resolve                    #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.flexibits.com, no-resolve                          #  sparkle | homebrew : brew install --cask fantastical
+    - DOMAIN-SUFFIX  , flexibits.com, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , sf3-cn.feishucdn.com, no-resolve                       #          | homebrew : brew install --cask feishu
+    - DOMAIN-SUFFIX  , ffmpeg.org, no-resolve                                 #          | homebrew : brew install ffmpeg@7 \ brew install ffmpeg@6 \ brew install ffmpeg
+    - DOMAIN-SUFFIX  , fftw.org, no-resolve                                   #          | homebrew : brew install fftw
+    - DOMAIN-SUFFIX  , echoone.com, no-resolve                                #          | homebrew : brew install --cask file-juicer
+    - DOMAIN-SUFFIX  , dl.devmate.com, no-resolve                             #          | homebrew : brew install --cask filepane \ brew install --cask startupizer \ brew install --cask the-unarchiver \ brew install --cask trim-enabler
+    - DOMAIN-SUFFIX  , updates.mymixapps.com, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , www.akop.org, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , firealpaca.com, no-resolve                             #          | homebrew : brew install --cask firealpaca
+    - DOMAIN-SUFFIX  , download-installer.cdn.mozilla.net, no-resolve         #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
+    - DOMAIN-SUFFIX  , ftp.osuosl.org, no-resolve                             #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
+    - DOMAIN-SUFFIX  , wojciechkulik.pl, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.better365.cn, no-resolve                           #  sparkle | homebrew : brew install --cask flykey
+    - DOMAIN-SUFFIX  , www.better365.com, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , gitlab.freedesktop.org, no-resolve                     #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
+    - DOMAIN-SUFFIX  , www.foobar2000.org, no-resolve                         #          | homebrew : brew install --cask foobar2000
+    - DOMAIN-SUFFIX  , foremost.sourceforge.net, no-resolve                   #          | homebrew : brew install foremost
+    - DOMAIN-SUFFIX  , cdn.fork.dev, no-resolve                               #  sparkle | homebrew : brew install --cask fork
+    - DOMAIN-SUFFIX  , fork.dev, no-resolve                                   #  sparkle | 
+    - DOMAIN-SUFFIX  , download.binarynights.com, no-resolve                  #  sparkle | homebrew : brew install --cask forklift
+    - DOMAIN-SUFFIX  , updates.binarynights.com, no-resolve                   #  sparkle | 
+    - DOMAIN-SUFFIX  , download.ctmdev.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , download.foxtrot-search.com, no-resolve                #  sparkle | 
+    - DOMAIN-SUFFIX  , services.ctmdev.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , pierre.chachatelier.fr, no-resolve                     #  sparkle | homebrew : brew install --cask latexit
+    - DOMAIN-SUFFIX  , thomasokken.com, no-resolve                            #          | homebrew : brew install --cask free42-decimal
+    - DOMAIN-SUFFIX  , tristan-software.ch, no-resolve                        #          | homebrew : brew install --cask fsmonitor
+    - DOMAIN-SUFFIX  , functionkey.pro, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , softwaredownload.futunn.com, no-resolve                #          | homebrew : brew install --cask futubull \ brew install --cask futubull@legacy
+    - DOMAIN-SUFFIX  , files.fxfactory.com, no-resolve                        #          | homebrew : brew install --cask fxfactory
+    - DOMAIN-SUFFIX  , bruji.com, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , www.bruji.com, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , downloads.iwascoding.com, no-resolve                   #          | homebrew : brew install --cask garagesale
+    - DOMAIN-SUFFIX  , cdn.geekbench.com, no-resolve                          #  sparkle | homebrew : brew install --cask geekbench \ brew install --cask geekbench-ai
+    - DOMAIN-SUFFIX  , cdn.primatelabs.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , www.primatelabs.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , www.bannister.org, no-resolve                          #          | homebrew : brew install --cask genesis-plus \ brew install --cask kigb \ brew install --cask nestopia \ brew install --cask sms-plus
+    - DOMAIN-SUFFIX  , download.geogebra.org, no-resolve                      #          | homebrew : brew install --cask geogebra
+    - DOMAIN-SUFFIX  , d1fqctmfkpkkcg.cloudfront.net, no-resolve              #          | homebrew : brew install --cask gifox
+    - DOMAIN-SUFFIX  , www.lcdf.org, no-resolve                               #          | homebrew : brew install gifsicle
+    - DOMAIN-SUFFIX  , download.gimp.org, no-resolve                          #          | homebrew : brew install --cask gimp
+    - DOMAIN-SUFFIX  , desktop.githubusercontent.com, no-resolve              #          | homebrew : brew install --cask github
+    - DOMAIN-SUFFIX  , githubcopilotide.z13.web.core.windows.net, no-resolve  #  sparkle | homebrew : brew install --cask github-copilot-for-xcode
+    - DOMAIN-SUFFIX  , gnupg.org, no-resolve                                  #          | homebrew : brew install gnupg \ brew install libassuan \ brew install libgcrypt \ brew install libgpg-error \ brew install libksba \ brew install npth
+    - DOMAIN-SUFFIX  , www.gnupg.org, no-resolve                              #          | homebrew : brew install gnutls \ brew install gpgmepp \ brew install gpgme \ brew install pinentry
+    - DOMAIN-SUFFIX  , www.stclairsoft.com, no-resolve                        #  sparkle | homebrew : brew install --cask go64
+    - DOMAIN-SUFFIX  , gog-cdn-fastly.gog.com, no-resolve                     #          | homebrew : brew install --cask gog-galaxy
+    - DOMAIN-SUFFIX  , dl.google.com, no-resolve                              #          | homebrew : brew install --cask google-drive \ brew install --cask google-earth-pro \ brew install --cask google-trends \ brew install --cask google-chrome
+    - DOMAIN-SUFFIX  , download-mac.grammarly.com, no-resolve                 #          | homebrew : brew install --cask grammarly-desktop
+    - DOMAIN-SUFFIX  , www.lemkesoft.info, no-resolve                         #  sparkle | homebrew : brew install --cask graphicconverter
+    - DOMAIN-SUFFIX  , www.lemkesoft.org, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , gridsapp.net, no-resolve                               #          | homebrew : brew install --cask grids
+    - DOMAIN-SUFFIX  , gstreamer.freedesktop.org, no-resolve                  #          | homebrew : brew install --cask gstreamer-development \ brew install --cask gstreamer-runtime
+    - DOMAIN-SUFFIX  , handbrake.fr, no-resolve                               #  sparkle | homebrew : brew install --cask handbrake-app \ brew install --cask handbrake
+    - DOMAIN-SUFFIX  , dl.hapigo.com, no-resolve                              #          | homebrew : brew install --cask hapigo
+    - DOMAIN-SUFFIX  , framagit.org, no-resolve                               #          | homebrew : brew install hatari
+    - DOMAIN-SUFFIX  , www.noodlesoft.com, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , icon-theme.freedesktop.org, no-resolve                 #          | homebrew : brew install hicolor-icon-theme
+    - DOMAIN-SUFFIX  , updates.hookproductivity.com, no-resolve               #  sparkle | homebrew : brew install --cask hookmark
+    - DOMAIN-SUFFIX  , dl.houdah.com, no-resolve                              #          | homebrew : brew install --cask houdahspot
+    - DOMAIN-SUFFIX  , ftp.hp.com, no-resolve                                 #          | homebrew : brew install --cask hp-prime
+    - DOMAIN-SUFFIX  , download.open-mpi.org, no-resolve                      #          | homebrew : brew install hwloc \ brew install open-mpi
+    - DOMAIN-SUFFIX  , download2.interactivebrokers.com, no-resolve           #          | homebrew : brew install --cask ibkr
+    - DOMAIN-SUFFIX  , jordanbaird.github.io, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , dl-portal.iina.io, no-resolve                          #  sparkle | homebrew : brew install --cask iina
+    - DOMAIN-SUFFIX  , www.iina.io, no-resolve                                #  sparkle | 
+    - DOMAIN-SUFFIX  , imagemagick.org, no-resolve                            #          | homebrew : brew install imagemagick
+    - DOMAIN-SUFFIX  , imageoptim.com, no-resolve                             #  sparkle | homebrew : brew install --cask imageoptim
+    - DOMAIN-SUFFIX  , downloads.imazing.com, no-resolve                      #  sparkle | homebrew : brew install --cask imazing
+    - DOMAIN-SUFFIX  , media.inkscape.org, no-resolve                         #          | homebrew : brew install --cask inkscape
+    - DOMAIN-SUFFIX  , inputsource.pro, no-resolve                            #  sparkle | homebrew : brew install --cask input-source-pro
+    - DOMAIN-SUFFIX  , macdaddy.io, no-resolve                                #          | homebrew : brew install --cask install-disk-creator
+    - DOMAIN-SUFFIX  , downloads.es.net, no-resolve                           #          | homebrew : brew install iperf3
+    - DOMAIN-SUFFIX  , libisl.sourceforge.io, no-resolve                      #          | homebrew : brew install isl
+    - DOMAIN-SUFFIX  , www.imagetasks.com, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , iterm2.com, no-resolve                                 #  sparkle | homebrew : brew install --cask iterm2
+    - DOMAIN-SUFFIX  , itsycal.s3.amazonaws.com, no-resolve                   #          | homebrew : brew install --cask itsycal
+    - DOMAIN-SUFFIX  , u.keka.io, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , prerelease.keybase.io, no-resolve                      #          | homebrew : brew install --cask keybase
+    - DOMAIN-SUFFIX  , files.stairways.com, no-resolve                        #          | homebrew : brew install --cask keyboard-maestro
+    - DOMAIN-SUFFIX  , keycastr.github.io, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , mirrors.kodi.tv, no-resolve                            #          | homebrew : brew install --cask kodi
+    - DOMAIN-SUFFIX  , download.kde.org, no-resolve                           #          | homebrew : brew install --cask krita
+    - DOMAIN-SUFFIX  , sf16-sg.larksuitecdn.com, no-resolve                   #          | homebrew : brew install --cask lark
+    - DOMAIN-SUFFIX  , max.codes, no-resolve                                  #  sparkle | homebrew : brew install --cask latest
+    - DOMAIN-SUFFIX  , static.remixdesign.app, no-resolve                     #  sparkle | homebrew : brew install --cask launchos
+    - DOMAIN-SUFFIX  , www.greenwoodsoftware.com, no-resolve                  #          | homebrew : brew install less
+    - DOMAIN-SUFFIX  , gitlab.xiph.org, no-resolve                            #          | homebrew : brew install libao
+    - DOMAIN-SUFFIX  , www.libarchive.org, no-resolve                         #          | homebrew : brew install libarchive
+    - DOMAIN-SUFFIX  , download.videolan.org, no-resolve                      #          | homebrew : brew install libbluray \ brew install libudfread
+    - DOMAIN-SUFFIX  , files.musepack.net, no-resolve                         #          | homebrew : brew install libcuefile \ brew install libreplaygain \ brew install musepack
+    - DOMAIN-SUFFIX  , www.csie.ntu.edu.tw, no-resolve                        #          | homebrew : brew install liblinear
+    - DOMAIN-SUFFIX  , www.libraw.org, no-resolve                             #          | homebrew : brew install libraw
+    - DOMAIN-SUFFIX  , download.libsodium.org, no-resolve                     #          | homebrew : brew install libsodium
+    - DOMAIN-SUFFIX  , www.libssh.org, no-resolve                             #          | homebrew : brew install libssh
+    - DOMAIN-SUFFIX  , libssh2.org, no-resolve                                #          | homebrew : brew install libssh2
+    - DOMAIN-SUFFIX  , linux.thai.net, no-resolve                             #          | homebrew : brew install libthai
+    - DOMAIN-SUFFIX  , download.osgeo.org, no-resolve                         #          | homebrew : brew install libtiff
+    - DOMAIN-SUFFIX  , www.x.org, no-resolve                                  #          | homebrew : brew install libxdmcp \ brew install libx11 \ brew install libxau \ brew install libxext \ brew install libxfixes \ brew install libxrender \ brew install libxi \ brew install libxtst
+    - DOMAIN-SUFFIX  , xorg.freedesktop.org, no-resolve                       #          | homebrew : brew install libxcb \ brew install xorgproto
+    - DOMAIN-SUFFIX  , www.cockos.com, no-resolve                             #          | homebrew : brew install --cask licecap
+    - DOMAIN-SUFFIX  , dl.linearmouse.org, no-resolve                         #  sparkle | homebrew : brew install --cask linearmouse
+    - DOMAIN-SUFFIX  , linearmouse.app, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , www.peterborgapps.com, no-resolve                      #          | homebrew : brew install --cask lingon-x
+    - DOMAIN-SUFFIX  , www.obdev.at, no-resolve                               #          | homebrew : brew install --cask little-snitch
+    - DOMAIN-SUFFIX  , installers.lmstudio.ai, no-resolve                     #          | homebrew : brew install --cask lm-studio
+    - DOMAIN-SUFFIX  , gitee.com, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , longshot.chitaner.com, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , packages.loom.com, no-resolve                          #          | homebrew : brew install --cask loom
+    - DOMAIN-SUFFIX  , www.inf.puc-rio.br, no-resolve                         #          | homebrew : brew install lpeg
+    - DOMAIN-SUFFIX  , www.lua.org, no-resolve                                #          | homebrew : brew install lua
+    - DOMAIN-SUFFIX  , downloads.skylum.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , luminarneomacm1.skylum.com, no-resolve                 #  sparkle | 
+    - DOMAIN-SUFFIX  , invisible-mirror.net, no-resolve                       #          | homebrew : brew install lynx
+    - DOMAIN-SUFFIX  , www.oberhumer.com, no-resolve                          #          | homebrew : brew install lzo
+    - DOMAIN-SUFFIX  , renset.dev, no-resolve                                 #  sparkle | homebrew : brew install --cask macai
+    - DOMAIN-SUFFIX  , macdown.uranusjr.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , www.koingosw.com, no-resolve                           #          | homebrew : brew install --cask macpilot
+    - DOMAIN-SUFFIX  , mactracker.ca, no-resolve                              #  sparkle | homebrew : brew install --cask mactracker
+    - DOMAIN-SUFFIX  , update.mactracker.ca, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , macvim.org, no-resolve                                 #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.macwhisper.com, no-resolve                         #  sparkle | homebrew : brew install --cask macwhisper
+    - DOMAIN-SUFFIX  , macwhisper-site.vercel.app, no-resolve                 #  sparkle | 
+    - DOMAIN-SUFFIX  , stickytimers.app, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.awehunt.com, no-resolve                            #          | homebrew : brew install --cask maczip \ brew install --cask qspace-pro
+    - DOMAIN-SUFFIX  , codeberg.org, no-resolve                               #          | homebrew : brew install mad
+    - DOMAIN-SUFFIX  , magicquit.com, no-resolve                              #          | homebrew : brew install --cask magicquit
+    - DOMAIN-SUFFIX  , res.126.net, no-resolve                                #          | homebrew : brew install --cask mailmaster
+    - DOMAIN-SUFFIX  , www.titanium-software.fr, no-resolve                   #          | homebrew : brew install --cask maintenance \ brew install --cask onyx
+    - DOMAIN-SUFFIX  , www.makemkv.com, no-resolve                            #          | homebrew : brew install --cask makemkv
+    - DOMAIN-SUFFIX  , manico.im, no-resolve                                  #          | homebrew : brew install --cask manico
+    - DOMAIN-SUFFIX  , mediaarea.net, no-resolve                              #          | homebrew : brew install --cask mediainfo
+    - DOMAIN-SUFFIX  , mednafen.github.io, no-resolve                         #          | homebrew : brew install mednafen
+    - DOMAIN-SUFFIX  , www.messenger.com, no-resolve                          #          | homebrew : brew install --cask messenger
+    - DOMAIN-SUFFIX  , sw-update.obdev.at, no-resolve                         #          | homebrew : brew install --cask micro-snitch
+    - DOMAIN-SUFFIX  , officecdnmac.microsoft.com, no-resolve                 #          | homebrew : brew install --cask microsoft-auto-update \ brew install --cask microsoft-onenote \ brew install --cask microsoft-excel \ brew install --cask microsoft-outlook \ brew install --cask microsoft-powerpoint \ brew install --cask microsoft-word \ brew install --cask windows-app
+    - DOMAIN-SUFFIX  , msedge.sf.dl.delivery.mp.microsoft.com, no-resolve     #          | homebrew : brew install --cask microsoft-edge
+    - DOMAIN-SUFFIX  , statics.teams.cdn.office.net, no-resolve               #          | homebrew : brew install --cask microsoft-teams
+    - DOMAIN-SUFFIX  , mindmacapp.github.io, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , www.gryphel.com, no-resolve                            #          | homebrew : brew install --cask mini-vmac
+    - DOMAIN-SUFFIX  , download.mipony.net, no-resolve                        #          | homebrew : brew install --cask mipony
+    - DOMAIN-SUFFIX  , mkvtoolnix.download, no-resolve                        #          | homebrew : brew install --cask mkvtoolnix \ brew install --cask mkvtoolnix-app
+    - DOMAIN-SUFFIX  , www.moderncsv.com, no-resolve                          #          | homebrew : brew install --cask modern-csv
+    - DOMAIN-SUFFIX  , download.mono-project.com, no-resolve                  #          | homebrew : brew install --cask mono-mdk-for-visual-studio
+    - DOMAIN-SUFFIX  , www.bytereef.org, no-resolve                           #          | homebrew : brew install mpdecimal
+    - DOMAIN-SUFFIX  , www.mpg123.de, no-resolve                              #          | homebrew : brew install mpg123
+    - DOMAIN-SUFFIX  , mujs.com, no-resolve                                   #          | homebrew : brew install mujs
+    - DOMAIN-SUFFIX  , macplus-software.com, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , multitouch.app, no-resolve                             #          | homebrew : brew install --cask multitouch
+    - DOMAIN-SUFFIX  , www.multitouch.app, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , dl.getmythic.app, no-resolve                           #  sparkle | homebrew : brew install --cask mythic
+    - DOMAIN-SUFFIX  , www.nano-editor.org, no-resolve                        #          | homebrew : brew install nano
+    - DOMAIN-SUFFIX  , dn.navicat.com, no-resolve                             #          | homebrew : brew install --cask navicat-premium-lite
+    - DOMAIN-SUFFIX  , dev.yorhel.nl, no-resolve                              #          | homebrew : brew install ncdu
+    - DOMAIN-SUFFIX  , d1.music.126.net, no-resolve                           #          | homebrew : brew install --cask neteasemusic
+    - DOMAIN-SUFFIX  , ranchero.com, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.netspotapp.com, no-resolve                         #  sparkle | homebrew : brew install --cask netspot
+    - DOMAIN-SUFFIX  , api.devontechnologies.com, no-resolve                  #  sparkle | 
+    - DOMAIN-SUFFIX  , download.devontechnologies.com, no-resolve             #  sparkle | homebrew : brew install --cask devonthink
+    - DOMAIN-SUFFIX  , www.witt-software.com, no-resolve                      #  sparkle | homebrew : brew install --cask pdf-squeezer
+    - DOMAIN-SUFFIX  , nmap.org, no-resolve                                   #          | homebrew : brew install nmap
+    - DOMAIN-SUFFIX  , nodejs.org, no-resolve                                 #          | homebrew : brew install node
+    - DOMAIN-SUFFIX  , lo.cafe, no-resolve                                    #  sparkle | homebrew : brew install --cask notchnook
+    - DOMAIN-SUFFIX  , desktop-release.notion-static.com, no-resolve          #          | homebrew : brew install --cask notion
+    - DOMAIN-SUFFIX  , calendar-desktop-release.notion-static.com, no-resolve #          | homebrew : brew install --cask notion-calendar
+    - DOMAIN-SUFFIX  , mail-desktop-release.notion-static.com, no-resolve     #          | homebrew : brew install --cask notion-mail
+    - DOMAIN-SUFFIX  , repo.nperf.com, no-resolve                             #          | homebrew : brew install --cask nperf
+    - DOMAIN-SUFFIX  , archive.mozilla.org, no-resolve                        #          | homebrew : brew install nspr
+    - DOMAIN-SUFFIX  , ftp.mozilla.org, no-resolve                            #          | homebrew : brew install nss
+    - DOMAIN-SUFFIX  , cdn.numi.app, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , s1.numi.app, no-resolve                                #  sparkle | 
+    - DOMAIN-SUFFIX  , s3.numi.app, no-resolve                                #          | homebrew : brew install --cask numi
+    - DOMAIN-SUFFIX  , download.nvidia.com, no-resolve                        #          | homebrew : brew install --cask nvidia-geforce-now
+    - DOMAIN-SUFFIX  , cdn-fastly.obsproject.com, no-resolve                  #  sparkle | homebrew : brew install --cask obs
+    - DOMAIN-SUFFIX  , obsproject.com, no-resolve                             #  sparkle | 
+    - DOMAIN-SUFFIX  , r2-app.eagle.cool, no-resolve                          #          | homebrew : brew install --cask ogdesign-eagle
+    - DOMAIN-SUFFIX  , fireball.studio, no-resolve                            #          | homebrew : brew install --cask one-switch
+    - DOMAIN-SUFFIX  , oneclient.sfx.ms, no-resolve                           #          | homebrew : brew install --cask onedrive
+    - DOMAIN-SUFFIX  , jacklandrin.github.io, no-resolve                      #  sparkle | 
+    - DOMAIN-SUFFIX  , openal-soft.org, no-resolve                            #          | homebrew : brew install openal-soft
+    - DOMAIN-SUFFIX  , raw.github.com, no-resolve                             #  sparkle | 
+    - DOMAIN-SUFFIX  , swupdate.openvpn.org, no-resolve                       #          | homebrew : brew install openvpn
+    - DOMAIN-SUFFIX  , swupdate.openvpn.net, no-resolve                       #          | homebrew : brew install --cask openvpn-connect
+    - DOMAIN-SUFFIX  , www.charlessoft.com, no-resolve                        #  sparkle | homebrew : brew install --cask pacifist
+    - DOMAIN-SUFFIX  , downloads.sourceforge.net, no-resolve                  #  sparkle | homebrew : brew install djvulibre \ brew install freetype \ brew install giflib \ brew install glew \ brew install lame \ brew install libpng \ brew install libsoxr \ brew install little-cms2 \ brew install netcat \ brew install opencore-amr \ brew install pcre \ brew install pdfcrack \ brew install smartmontools \ brew install unzip \ brew install vice \ brew install watch \ brew install zip \ brew install zsh \ brew install --cask burn \ brew install --cask dosbox \ brew install --cask paintbrush \ brew install --cask qbittorrent
+    - DOMAIN-SUFFIX  , paintbrush.sourceforge.io, no-resolve                  #  sparkle | 
+    - DOMAIN-SUFFIX  , rink.hockeyapp.net, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , dl.paragon-software.com, no-resolve                    #          | homebrew : brew install --cask paragon-extfs \ brew install --cask paragon-ntfs
+    - DOMAIN-SUFFIX  , builds.parsec.app, no-resolve                          #          | homebrew : brew install --cask parsec
+    - DOMAIN-SUFFIX  , downloads.pdfexpert.com, no-resolve                    #  sparkle | homebrew : brew install --cask pdf-expert
+    - DOMAIN-SUFFIX  , witt-software.com, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , picsee.chitaner.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , downloads.plex.tv, no-resolve                          #          | homebrew : brew install --cask plex
+    - DOMAIN-SUFFIX  , static.crates.io, no-resolve                           #          | homebrew : brew install pngquant
+    - DOMAIN-SUFFIX  , pilotmoon.com, no-resolve                              #  sparkle | homebrew : brew install --cask popclip
+    - DOMAIN-SUFFIX  , softwareupdate.pilotmoon.com, no-resolve               #  sparkle | 
+    - DOMAIN-SUFFIX  , poppler.freedesktop.org, no-resolve                    #          | homebrew : brew install poppler
+    - DOMAIN-SUFFIX  , files.portaudio.com, no-resolve                        #          | homebrew : brew install portaudio
+    - DOMAIN-SUFFIX  , www.script-factory.net, no-resolve                     #  sparkle | 
+    - DOMAIN-SUFFIX  , www.ppsspp.org, no-resolve                             #          | homebrew : brew install --cask ppsspp \ brew install --cask ppsspp-emulator
+    - DOMAIN-SUFFIX  , assets.pronotes.app, no-resolve                        #  sparkle | homebrew : brew install --cask pronotes
+    - DOMAIN-SUFFIX  , pronotes.app, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , www.pronotes.app, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , purei.org, no-resolve                                  #          | homebrew : brew install --cask purei-play
+    - DOMAIN-SUFFIX  , www.ivarch.com, no-resolve                             #          | homebrew : brew install pv
+    - DOMAIN-SUFFIX  , www.python.org, no-resolve                             #          | homebrew : brew install python@3.13 \ brew install python@3.14
+    - DOMAIN-SUFFIX  , download.qemu.org, no-resolve                          #          | homebrew : brew install qemu
+    - DOMAIN-SUFFIX  , sbarex.github.io, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , dldir1v6.qq.com, no-resolve                            #          | homebrew : brew install --cask qq
+    - DOMAIN-SUFFIX  , dldir1.qq.com, no-resolve                              #          | homebrew : brew install --cask qqlive \ brew install --cask weiyun \ brew install --cask wechat
+    - DOMAIN-SUFFIX  , c.y.qq.com, no-resolve                                 #          | homebrew : brew install --cask qqmusic
+    - DOMAIN-SUFFIX  , pdds.quark.cn, no-resolve                              #          | homebrew : brew install --cask quarkclouddrive
+    - DOMAIN-SUFFIX  , amicoapps.com, no-resolve                              #  sparkle | homebrew : brew install --cask quit-all
+    - DOMAIN-SUFFIX  , www.rarlab.com, no-resolve                             #          | homebrew : brew install --cask rar
+    - DOMAIN-SUFFIX  , redream.io, no-resolve                                 #          | homebrew : brew install --cask redream
+    - DOMAIN-SUFFIX  , www.iospirit.com, no-resolve                           #          | homebrew : brew install --cask remote-buddy
+    - DOMAIN-SUFFIX  , incredible-bee-honeycomb.fra1.digitaloceanspaces.com, no-resolve#          | homebrew : brew install --cask renamer
+    - DOMAIN-SUFFIX  , static.retrovm.org, no-resolve                         #          | homebrew : brew install --cask retro-virtual-machine
+    - DOMAIN-SUFFIX  , buildbot.libretro.com, no-resolve                      #          | homebrew : brew install --cask retroarch-metal
+    - DOMAIN-SUFFIX  , download.rota.to, no-resolve                           #  sparkle | homebrew : brew install --cask rotato
+    - DOMAIN-SUFFIX  , royaltsx-v6.royalapps.com, no-resolve                  #  sparkle | homebrew : brew install --cask royal-tsx
+    - DOMAIN-SUFFIX  , breakfastquay.com, no-resolve                          #          | homebrew : brew install rubberband
+    - DOMAIN-SUFFIX  , cache.ruby-lang.org, no-resolve                        #          | homebrew : brew install ruby
+    - DOMAIN-SUFFIX  , screenstudioassets.com, no-resolve                     #          | homebrew : brew install --cask screen-studio
+    - DOMAIN-SUFFIX  , www.telestream.net, no-resolve                         #  sparkle | homebrew : brew install --cask screenflow
+    - DOMAIN-SUFFIX  , scrivener.s3.amazonaws.com, no-resolve                 #  sparkle | homebrew : brew install --cask scrivener
+    - DOMAIN-SUFFIX  , www.literatureandlatte.com, no-resolve                 #  sparkle | 
+    - DOMAIN-SUFFIX  , downloads.scummvm.org, no-resolve                      #  sparkle | homebrew : brew install --cask scummvm-app \ brew install --cask scummvm
+    - DOMAIN-SUFFIX  , www.scummvm.org, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , www.bensoftware.com, no-resolve                        #          | homebrew : brew install --cask securityspy
+    - DOMAIN-SUFFIX  , cdn.cindori.com, no-resolve                            #  sparkle | homebrew : brew install --cask sensei
+    - DOMAIN-SUFFIX  , updates.signal.org, no-resolve                         #          | homebrew : brew install --cask signal
+    - DOMAIN-SUFFIX  , d1b3av25dd6jdq.cloudfront.net, no-resolve              #  sparkle | homebrew : brew install --cask sim-genie
+    - DOMAIN-SUFFIX  , simgenie.app, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , sipapp.fra1.digitaloceanspaces.com, no-resolve         #  sparkle | homebrew : brew install --cask sip \ brew install --cask sip-app
+    - DOMAIN-SUFFIX  , download.sketchup.com, no-resolve                      #          | homebrew : brew install --cask sketchup
+    - DOMAIN-SUFFIX  , downloads.slack-edge.com, no-resolve                   #          | homebrew : brew install --cask slack
+    - DOMAIN-SUFFIX  , f002.backblazeb2.com, no-resolve                       #          | homebrew : brew install --cask slidepad
+    - DOMAIN-SUFFIX  , sveinbjorn.org, no-resolve                             #  sparkle | homebrew : brew install --cask sloth
+    - DOMAIN-SUFFIX  , www.corecode.io, no-resolve                            #  sparkle | homebrew : brew install --cask macupdater \ brew install --cask smartreporter-free \ brew install --cask ssdreporter-free \ brew install --cask uninstallpkg
+    - DOMAIN-SUFFIX  , neededapps.com, no-resolve                             #  sparkle | homebrew : brew install --cask snapmotion
+    - DOMAIN-SUFFIX  , download.snipaste.com, no-resolve                      #          | homebrew : brew install --cask snipaste
+    - DOMAIN-SUFFIX  , localhost, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , download.scdn.co, no-resolve                           #          | homebrew : brew install --cask spotify
+    - DOMAIN-SUFFIX  , sqlite.org, no-resolve                                 #          | homebrew : brew install sqlite
+    - DOMAIN-SUFFIX  , releases.stash.ws, no-resolve                          #  sparkle | 
+    - DOMAIN-SUFFIX  , cordlessdog.com, no-resolve                            #          | homebrew : brew install --cask stay
+    - DOMAIN-SUFFIX  , cdn.cloudflare.steamstatic.com, no-resolve             #          | homebrew : brew install --cask steam
+    - DOMAIN-SUFFIX  , steamcdn-a.akamaihd.net, no-resolve                    #          | homebrew : brew install --cask steamcmd
+    - DOMAIN-SUFFIX  , mentalfaculty.s3.amazonaws.com, no-resolve             #  sparkle | 
+    - DOMAIN-SUFFIX  , mentalfaculty.s3.us-east-1.amazonaws.com, no-resolve   #  sparkle | 
+    - DOMAIN-SUFFIX  , subler.org, no-resolve                                 #  sparkle | 
+    - DOMAIN-SUFFIX  , download.sublimetext.com, no-resolve                   #          | homebrew : brew install --cask sublime-text
+    - DOMAIN-SUFFIX  , assets.selkie.design, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , sindresorhus.com, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , shirtpocket.s3.amazonaws.com, no-resolve               #          | homebrew : brew install --cask superduper
+    - DOMAIN-SUFFIX  , www.mothersruin.com, no-resolve                        #          | homebrew : brew install --cask suspicious-package
+    - DOMAIN-SUFFIX  , highlyopinionated.co, no-resolve                       #  sparkle | 
+    - DOMAIN-SUFFIX  , upgrades.syncthing.net, no-resolve                     #  sparkle | 
+    - DOMAIN-SUFFIX  , global.download.synology.com, no-resolve               #          | homebrew : brew install --cask synologyassistant
+    - DOMAIN-SUFFIX  , pkgs.tailscale.com, no-resolve                         #          | homebrew : brew install --cask tailscale-app
+    - DOMAIN-SUFFIX  , tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com, no-resolve#          | homebrew : brew install --cask teambition
+    - DOMAIN-SUFFIX  , osx.telegram.org, no-resolve                           #  sparkle | homebrew : brew install --cask telegram
+    - DOMAIN-SUFFIX  , desktop.docs.qq.com, no-resolve                        #          | homebrew : brew install --cask tencent-docs
+    - DOMAIN-SUFFIX  , updatecdn.meeting.qq.com, no-resolve                   #          | homebrew : brew install --cask tencent-meeting
+    - DOMAIN-SUFFIX  , www.cgsecurity.org, no-resolve                         #          | homebrew : brew install testdisk
+    - DOMAIN-SUFFIX  , textsniper.app, no-resolve                             #  sparkle | 
+    - DOMAIN-SUFFIX  , www.codeandweb.com, no-resolve                         #          | homebrew : brew install --cask texturepacker
+    - DOMAIN-SUFFIX  , www.tunabellysoftware.com, no-resolve                  #  sparkle | homebrew : brew install --cask tg-pro
+    - DOMAIN-SUFFIX  , down.sandai.net, no-resolve                            #          | homebrew : brew install --cask thunder
+    - DOMAIN-SUFFIX  , download.tigerfintech.com, no-resolve                  #          | homebrew : brew install --cask tiger-trade
+    - DOMAIN-SUFFIX  , carnationsoftware.com, no-resolve                      #          | homebrew : brew install --cask tm-error-logger
+    - DOMAIN-SUFFIX  , www.torproject.org, no-resolve                         #          | homebrew : brew install --cask tor-browser
+    - DOMAIN-SUFFIX  , update.transmissionbt.com, no-resolve                  #  sparkle | 
+    - DOMAIN-SUFFIX  , download-cdn.panic.com, no-resolve                     #          | homebrew : brew install --cask transmit
+    - DOMAIN-SUFFIX  , www.panic.com, no-resolve                              #  sparkle | 
+    - DOMAIN-SUFFIX  , www.transnomino.com, no-resolve                        #          | homebrew : brew install --cask transnomino
+    - DOMAIN-SUFFIX  , www.micromat.com, no-resolve                           #  sparkle | 
+    - DOMAIN-SUFFIX  , dl.apparentsoft.com, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , tripmode-updates.ch, no-resolve                        #          | homebrew : brew install --cask tripmode
+    - DOMAIN-SUFFIX  , deb.debian.org, no-resolve                             #          | homebrew : brew install ttyrec
+    - DOMAIN-SUFFIX  , tunnelblick.net, no-resolve                            #  sparkle | homebrew : brew install --cask tunnelblick
+    - DOMAIN-SUFFIX  , ettoresoftware.store, no-resolve                       #          | homebrew : brew install --cask typeit4me
+    - DOMAIN-SUFFIX  , download.typora.io, no-resolve                         #          | homebrew : brew install --cask typora
+    - DOMAIN-SUFFIX  , downloads.typora.io, no-resolve                        #  sparkle | 
+    - DOMAIN-SUFFIX  , typora.io, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , www.freedesktop.org, no-resolve                        #          | homebrew : brew install uchardet
+    - DOMAIN-SUFFIX  , nlnetlabs.nl, no-resolve                               #          | homebrew : brew install unbound
+    - DOMAIN-SUFFIX  , bzgdownloads.s3.amazonaws.com, no-resolve              #  sparkle | homebrew : brew install --cask unite
+    - DOMAIN-SUFFIX  , www.flameeyes.com, no-resolve                          #          | homebrew : brew install unpaper
+    - DOMAIN-SUFFIX  , updatest.app, no-resolve                               #  sparkle | homebrew : brew install --cask updatest@beta
+    - DOMAIN-SUFFIX  , download.updf.com, no-resolve                          #          | homebrew : brew install --cask updf
+    - DOMAIN-SUFFIX  , lttng.org, no-resolve                                  #          | homebrew : brew install userspace-rcu
+    - DOMAIN-SUFFIX  , launchpad.net, no-resolve                              #          | homebrew : brew install --cask veracrypt
+    - DOMAIN-SUFFIX  , lf3-package.vlabstatic.com, no-resolve                 #          | homebrew : brew install --cask videofusion
+    - DOMAIN-SUFFIX  , virtualii.com, no-resolve                              #          | homebrew : brew install --cask virtual-ii
+    - DOMAIN-SUFFIX  , download.virtualbox.org, no-resolve                    #          | homebrew : brew install --cask virtualbox
+    - DOMAIN-SUFFIX  , su.virtualbuddy.app, no-resolve                        #          | homebrew : brew install --cask virtualbuddy
+    - DOMAIN-SUFFIX  , download.visualstudio.microsoft.com, no-resolve        #          | homebrew : brew install --cask visual-studio
+    - DOMAIN-SUFFIX  , update.code.visualstudio.com, no-resolve               #          | homebrew : brew install --cask visual-studio-code
+    - DOMAIN-SUFFIX  , data.visualboyadvance-m.org, no-resolve                #  sparkle | 
+    - DOMAIN-SUFFIX  , get.videolan.org, no-resolve                           #          | homebrew : brew install --cask vlc
+    - DOMAIN-SUFFIX  , softwareupdate-prod.broadcom.com, no-resolve           #          | homebrew : brew install --cask vmware-fusion
+    - DOMAIN-SUFFIX  , nektony.com, no-resolve                                #  sparkle | 
+    - DOMAIN-SUFFIX  , www.hamrick.com, no-resolve                            #          | homebrew : brew install --cask vuescan
+    - DOMAIN-SUFFIX  , app.warp.dev, no-resolve                               #          | homebrew : brew install --cask warp
+    - DOMAIN-SUFFIX  , cdn-2.webcatalog.io, no-resolve                        #          | homebrew : brew install --cask webcatalog
+    - DOMAIN-SUFFIX  , peacockmedia.software, no-resolve                      #          | homebrew : brew install --cask website-watchman
+    - DOMAIN-SUFFIX  , u1sweb.webullfintech.com, no-resolve                   #          | homebrew : brew install --cask webull
+    - DOMAIN-SUFFIX  , csie.io, no-resolve                                    #  sparkle | 
+    - DOMAIN-SUFFIX  , www.whatroute.net, no-resolve                          #  sparkle | homebrew : brew install --cask whatroute
+    - DOMAIN-SUFFIX  , web.whatsapp.com, no-resolve                           #          | homebrew : brew install --cask whatsapp
+    - DOMAIN-SUFFIX  , data.getwhisky.app, no-resolve                         #  sparkle | 
+    - DOMAIN-SUFFIX  , www.intuitibits.com, no-resolve                        #  sparkle | homebrew : brew install --cask wifi-explorer
+    - DOMAIN-SUFFIX  , wins.cool, no-resolve                                  #  sparkle | 
+    - DOMAIN-SUFFIX  , winswebsite.s3.us-east-005.backblazeb2.com, no-resolve #  sparkle | homebrew : brew install --cask wins
+    - DOMAIN-SUFFIX  , git.zx2c4.com, no-resolve                              #          | homebrew : brew install wireguard-tools \ brew install wireguard-go
+    - DOMAIN-SUFFIX  , www.wireshark.org, no-resolve                          #          | homebrew : brew install --cask wireshark-app
+    - DOMAIN-SUFFIX  , desairem.com, no-resolve                               #  sparkle | 
+    - DOMAIN-SUFFIX  , bitbucket.org, no-resolve                              #          | homebrew : brew install x265
+    - DOMAIN-SUFFIX  , nativedl.pcdn.xmcdn.com, no-resolve                    #          | homebrew : brew install --cask ximalaya
+    - DOMAIN-SUFFIX  , dl3.xmind.net, no-resolve                              #          | homebrew : brew install --cask xmind
+    - DOMAIN-SUFFIX  , download.xnview.com, no-resolve                        #          | homebrew : brew install --cask xnconvert \ brew install --cask xnviewmp
+    - DOMAIN-SUFFIX  , www.xquartz.org, no-resolve                            #  sparkle | 
+    - DOMAIN-SUFFIX  , downloads.xvid.com, no-resolve                         #          | homebrew : brew install xvid
+    - DOMAIN-SUFFIX  , cdn-hybrid-prod.hunyuan.tencent.com, no-resolve        #          | homebrew : brew install --cask yuanbao
+    - DOMAIN-SUFFIX  , zed.dev, no-resolve                                    #          | homebrew : brew install --cask zed
+    - DOMAIN-SUFFIX  , releases.5km.tech, no-resolve                          #  sparkle | homebrew : brew install --cask zipic
+    - DOMAIN-SUFFIX  , zipic.5km.tech, no-resolve                             #  sparkle | 
+    - DOMAIN-SUFFIX  , cdn.zoom.us, no-resolve                                #          | homebrew : brew install --cask zoom
+    - DOMAIN-SUFFIX  , download.zotero.org, no-resolve                        #          | homebrew : brew install --cask zotero
