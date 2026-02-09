@@ -124,7 +124,7 @@ payload:
     - '+.desktop.docker.com'                                        #          | homebrew : brew install --cask docker-desktop
     - '+.appitstudio.github.io'                                     #  sparkle | 
     - '+.dl.dolphin-emu.org'                                        #          | homebrew : brew install --cask dolphin
-    - '+.lf-flow-web-cdn.doubao.com'                                #          | homebrew : brew install --cask doubao
+  # - '+.lf-flow-web-cdn.doubao.com'                                #          | homebrew : brew install --cask doubao
     - '+.www.douyin.com'                                            #          | homebrew : brew install --cask douyin
     - '+.lf-impc.douyinstatic.com'                                  #          | homebrew : brew install --cask douyin-chat
     - '+.software.charliemonroe.net'                                #  sparkle | homebrew : brew install --cask downie

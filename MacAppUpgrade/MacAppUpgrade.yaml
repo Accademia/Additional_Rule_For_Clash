@@ -124,7 +124,7 @@ payload:
     - DOMAIN-SUFFIX  , desktop.docker.com # , no-resolve                                        #          | homebrew : brew install --cask docker-desktop
     - DOMAIN-SUFFIX  , appitstudio.github.io # , no-resolve                                     #  sparkle | 
     - DOMAIN-SUFFIX  , dl.dolphin-emu.org # , no-resolve                                        #          | homebrew : brew install --cask dolphin
-    - DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com # , no-resolve                                #          | homebrew : brew install --cask doubao
+  # - DOMAIN-SUFFIX  , lf-flow-web-cdn.doubao.com # , no-resolve                                #          | homebrew : brew install --cask doubao
     - DOMAIN-SUFFIX  , www.douyin.com # , no-resolve                                            #          | homebrew : brew install --cask douyin
     - DOMAIN-SUFFIX  , lf-impc.douyinstatic.com # , no-resolve                                  #          | homebrew : brew install --cask douyin-chat
     - DOMAIN-SUFFIX  , software.charliemonroe.net # , no-resolve                                #  sparkle | homebrew : brew install --cask downie
