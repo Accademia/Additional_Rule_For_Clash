@@ -39,7 +39,7 @@ payload:
 
   ## APP-API  （替换上面）
 
-    - DOMAIN-SUFFIX   , api6-core-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , api6-core-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音         # 修改IP归属地 的 核心 API （ 副作用：会造成 zjcdn.com 访问国外服务器 ）
 
     - DOMAIN-SUFFIX   , core-c-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
     - DOMAIN-SUFFIX   , core-lq.amemv.com                        # , 🇨🇳.<ShowIP>—抖音
