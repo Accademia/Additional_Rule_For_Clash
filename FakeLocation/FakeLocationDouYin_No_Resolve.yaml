@@ -11,58 +11,56 @@ payload:
 
   # - DOMAIN-SUFFIX  , httpdns.douyin.com             # , REJECT-DROP    
   # - DOMAIN-SUFFIX  , httpdns.volcengineapi.com      # , REJECT-DROP      
+        
+  ##- DOMAIN-SUFFIX  , zijieapi.com  , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
+  ##- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
+
 
   ## APP-API  
   # - DOMAIN-KEYWORD , amemv.com      # 不建议使用：虽然100% 可以实现IP归属地修改，但是会导致 zjcdn.com 全部来自于海外，加载短视频卡顿（但直播不受影响）
   # 针对 amemv.com 域名下的 -normal- 关键词代理就能实现IP归属地修改。如果对全局域名进行代理的话，请求的视频内容大部分来自海外cdn。
 
+
   ## APP-API  
-    - DOMAIN-KEYWORD , core-c-lq
-    - DOMAIN-KEYWORD , core-lq
-    - DOMAIN-KEYWORD , normal-c-lq
-    - DOMAIN-KEYWORD , normal-lq
-    - DOMAIN-KEYWORD , search-quic-lq
-    - DOMAIN-KEYWORD , search-lq
   #
-  ##- DOMAIN-SUFFIX  , zijieapi.com  , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
-  ##- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
+  # - DOMAIN-KEYWORD  , core-c-lq
+  # - DOMAIN-KEYWORD  , core-lq
+  # - DOMAIN-KEYWORD  , normal-c-lq
+  # - DOMAIN-KEYWORD  , normal-lq
+  # - DOMAIN-KEYWORD  , search-quic-lq
+  # - DOMAIN-KEYWORD  , search-lq
   #
-    - DOMAIN-KEYWORD , -normal-hl
-    - DOMAIN-KEYWORD , -normal-c-hl
-    - DOMAIN-KEYWORD , -core-c-hl
-    - DOMAIN-KEYWORD , -normal-lf
-    - DOMAIN-KEYWORD , -normal-c-lf
-    - DOMAIN-KEYWORD , -core-c-lf
+  # - DOMAIN-KEYWORD  , -normal-hl
+  # - DOMAIN-KEYWORD  , -normal-c-hl
+  # - DOMAIN-KEYWORD  , -core-c-hl
+  # - DOMAIN-KEYWORD  , -normal-lf
+  # - DOMAIN-KEYWORD  , -normal-c-lf
+  # - DOMAIN-KEYWORD  , -core-c-lf
 
   ## APP-API  （替换上面）
-  # - DOMAIN-KEYWORD , core-c-lq.amemv.com
-  # - DOMAIN-KEYWORD , core-lq.amemv.com
-  # - DOMAIN-KEYWORD , normal-c-lq.amemv.com
-  # - DOMAIN-KEYWORD , normal-lq.amemv.com
-  # - DOMAIN-KEYWORD , search-quic-lq.amemv.com
-  # - DOMAIN-KEYWORD , search-lq.amemv.com
-  # 
-  ##- DOMAIN-SUFFIX  , zijieapi.com  , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
-  ##- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
-  #   
-  # - DOMAIN-KEYWORD , -normal-hl.amemv.com
-  # - DOMAIN-KEYWORD , -normal-c-hl.amemv.com
-  # - DOMAIN-KEYWORD , -core-c-hl.amemv.com
-  # - DOMAIN-KEYWORD , -normal-lf.amemv.com
-  # - DOMAIN-KEYWORD , -normal-c-lf.amemv.com
-  # - DOMAIN-KEYWORD , -core-c-lf.amemv.com      
-  # 
-  # - DOMAIN-KEYWORD , -normal-c.amemv.com               
-  # - DOMAIN-KEYWORD , -core-lf.amemv.com                     
-  # - DOMAIN-KEYWORD , -normal-m-lf.amemv.com                
 
+    - DOMAIN-SUFFIX   , api6-core-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+
+    - DOMAIN-SUFFIX   , core-c-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , core-lq.amemv.com                        # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , normal-c-lq.amemv.com                    # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , normal-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , search-quic-lq.amemv.com                 # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , search-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+    
+    - DOMAIN-SUFFIX   , -normal-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , -normal-c-hl.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , -core-c-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , -normal-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , -normal-c-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+    - DOMAIN-SUFFIX   , -core-c-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
 
    # Web-API
-    - DOMAIN         , sso.douyin.com               
-    - DOMAIN         , www.douyin.com               
+    - DOMAIN          , sso.douyin.com               
+    - DOMAIN          , www.douyin.com               
     
-    - DOMAIN-SUFFIX  , snssdk.com                   
+    - DOMAIN-SUFFIX   , snssdk.com                   
 
    # 头条
-    - DOMAIN-SUFFIX  , toutiaoapi.com
+    - DOMAIN-SUFFIX   , toutiaoapi.com
 
