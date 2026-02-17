@@ -33,9 +33,9 @@
         - 极致省电   🔥🔥🔥🔥🔥 （手机端）
         - 0 DNS泄漏  
         - 0 绕路
-        - IP归属地显示 = 修改（如 抖音留言）
-        - 远程规则集 = 同时集成 多套 （ geosite + blackmatrix + 本规则集）
-        - 完备度 = 🇺🇸🇺🇸🇺🇸 “美国数字居民” 级
+        - IP归属地显示 = 可修改到 🇺🇸 🇯🇵 🇬🇧 等不同国家
+        - 远程规则集 = 同时集成 多套 ，覆盖全面 （ geosite + blackmatrix + 本规则集）
+        - 整体效果 = 🇺🇸🇺🇸🇺🇸 “美国数字居民” 级 翻墙体验
 
   - https://github.com/Accademia/Clash_Configuration_Template
 
