@@ -55,6 +55,20 @@ payload:
     - DOMAIN-SUFFIX   , -normal-c-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
     - DOMAIN-SUFFIX   , -core-c-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
 
+ # # 以下无效 已验证
+ # #- DOMAIN-SUFFIX   , normal-m-jj.amemv.com                    # , 🇨🇳.<ShowIP>—抖音
+ # #- DOMAIN-SUFFIX   , api.amemv.com                            # , 🇨🇳.<ShowIP>—抖音
+ # #- DOMAIN-SUFFIX   , klink5-lf.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+ # #- DOMAIN-SUFFIX   , misc-lf.amemv.com                        # , 🇨🇳.<ShowIP>—抖音
+ # #- DOMAIN-SUFFIX   , normal-lf.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+ # #- DOMAIN-SUFFIX   , normal-m-lf.amemv.com                    # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , misc-lf.amemv.com                        # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , api-play.amemv.com                       # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , core-lf.amemv.com                        # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , ws-lf.amemv.com                          # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , search-lf.amemv.com                      # , 🇨🇳.<ShowIP>—抖音 
+ # #- DOMAIN-SUFFIX   , logbk.amemv.com                          # , 🇨🇳.<ShowIP>—抖音
+
    # Web-API
     - DOMAIN          , sso.douyin.com               
     - DOMAIN          , www.douyin.com               
