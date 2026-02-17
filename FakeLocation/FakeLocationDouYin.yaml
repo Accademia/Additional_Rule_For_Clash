@@ -9,11 +9,11 @@ payload:
 
    # ⚠️⚠️⚠️ 注意：请不要在Stash中，使用仅 “仅使用Tunnel代理”，不然会导致 “IP归属地” 修改失败
 
-  # - DOMAIN-SUFFIX  , httpdns.douyin.com             # , REJECT-DROP    
-  # - DOMAIN-SUFFIX  , httpdns.volcengineapi.com      # , REJECT-DROP      
-        
-  ##- DOMAIN-SUFFIX  , zijieapi.com  , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
-  ##- DOMAIN-SUFFIX  , ecombdapi.com , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
+  # - DOMAIN-SUFFIX  , httpdns.douyin.com                        # , REJECT-DROP    
+  # - DOMAIN-SUFFIX  , httpdns.volcengineapi.com                 # , REJECT-DROP      
+
+  ##- DOMAIN-SUFFIX  , zijieapi.com                                , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
+  ##- DOMAIN-SUFFIX  , ecombdapi.com                               , DIRECT           # 垃圾 Stash for iOS 作者 不支持这种写法 🤮 🤮 🤮 🤮
 
 
   ## APP-API  
@@ -41,19 +41,19 @@ payload:
 
     - DOMAIN-SUFFIX   , api6-core-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音         # 修改IP归属地 的 核心 API （ 副作用：会造成 zjcdn.com 访问国外服务器 ）
 
-    - DOMAIN-SUFFIX   , core-c-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , core-lq.amemv.com                        # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , normal-c-lq.amemv.com                    # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , normal-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , search-quic-lq.amemv.com                 # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , search-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
-    
-    - DOMAIN-SUFFIX   , -normal-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , -normal-c-hl.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , -core-c-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , -normal-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , -normal-c-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
-    - DOMAIN-SUFFIX   , -core-c-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , core-c-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , core-lq.amemv.com                        # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , normal-c-lq.amemv.com                    # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , normal-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , search-quic-lq.amemv.com                 # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , search-lq.amemv.com                      # , 🇨🇳.<ShowIP>—抖音
+  # 
+  # - DOMAIN-SUFFIX   , -normal-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , -normal-c-hl.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , -core-c-hl.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , -normal-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , -normal-c-lf.amemv.com                   # , 🇨🇳.<ShowIP>—抖音
+  # - DOMAIN-SUFFIX   , -core-c-lf.amemv.com                     # , 🇨🇳.<ShowIP>—抖音
 
  # # 以下无效 已验证
  # #- DOMAIN-SUFFIX   , normal-m-jj.amemv.com                    # , 🇨🇳.<ShowIP>—抖音
