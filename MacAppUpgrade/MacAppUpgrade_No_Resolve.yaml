@@ -164,7 +164,7 @@ payload:
     - DOMAIN-SUFFIX  , download-installer.cdn.mozilla.net  , no-resolve                        #          | homebrew : brew install --cask firefox \ brew install --cask thunderbird
     - DOMAIN-SUFFIX  , ftp.osuosl.org  , no-resolve                                            #          | homebrew : brew install flac \ brew install libogg \ brew install libvorbis \ brew install opus \ brew install opusfile \ brew install speex \ brew install theora
     - DOMAIN-SUFFIX  , wojciechkulik.pl  , no-resolve                                          #  sparkle | 
-    - DOMAIN-SUFFIX  , cdn.better365.cn  , no-resolve                                          #  sparkle | homebrew : brew install --cask flykey
+  # - DOMAIN-SUFFIX  , cdn.better365.cn  , no-resolve                                          #  sparkle | homebrew : brew install --cask flykey
     - DOMAIN-SUFFIX  , www.better365.com  , no-resolve                                         #  sparkle | 
     - DOMAIN-SUFFIX  , gitlab.freedesktop.org  , no-resolve                                    #          | homebrew : brew install fontconfig \ brew install libslirp \ brew install shared-mime-info
     - DOMAIN-SUFFIX  , www.foobar2000.org  , no-resolve                                        #          | homebrew : brew install --cask foobar2000
